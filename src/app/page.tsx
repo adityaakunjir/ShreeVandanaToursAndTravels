@@ -47,7 +47,7 @@ export default function Home() {
         </a>
 
         <a href="#" className="logo">
-          <img src="./assets/images/logo.jpeg" alt="Shree Vandana Travels logo" />
+          <img src="./assets/images/logo.jpeg" alt="Shree Vandana Travels logo" style={{ maxWidth: '160px', height: 'auto' }} />
         </a>
 
         <div className="header-btn-group">
@@ -95,7 +95,7 @@ export default function Home() {
           <div className="navbar-top">
 
             <a href="#" className="logo">
-              <img src="./assets/images/logo.jpeg" alt="Shree Vandana Travels logo" />
+              <img src="./assets/images/logo.jpeg" alt="Shree Vandana Travels logo" style={{ maxWidth: '160px', height: 'auto' }} />
             </a>
 
             <button className="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
@@ -706,7 +706,7 @@ export default function Home() {
         <div className="footer-brand">
 
           <a href="#" className="logo">
-            <img src="./assets/images/logo.jpeg" alt="Shree Vandana Travels logo" />
+            <img src="./assets/images/logo.jpeg" alt="Shree Vandana Travels logo" style={{ maxWidth: '160px', height: 'auto' }} />
           </a>
 
           <p className="footer-text">
