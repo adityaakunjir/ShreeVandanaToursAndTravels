@@ -1,0 +1,91 @@
+{
+  "files": {
+    "code": [
+      "eslint.config.mjs",
+      "next.config.mjs",
+      "postcss.config.js",
+      "prisma.config.ts",
+      "public/assets/js/script.js",
+      "src/app/layout.tsx",
+      "src/app/page.tsx",
+      "src/components/FeaturedTours.tsx",
+      "src/components/Features.tsx",
+      "src/components/Footer.tsx",
+      "src/components/Hero.tsx",
+      "src/components/Navbar.tsx",
+      "src/components/ui/button.tsx",
+      "src/lib/utils.ts",
+      "tailwind.config.js"
+    ],
+    "document": [
+      ".agents/skills/prisma-composer-core-concepts/SKILL.md",
+      ".agents/skills/prisma-platform-core-concepts/SKILL.md",
+      ".claude/skills/prisma-composer-core-concepts/SKILL.md",
+      ".claude/skills/prisma-platform-core-concepts/SKILL.md",
+      ".cursor/skills/prisma-composer-core-concepts/SKILL.md",
+      ".cursor/skills/prisma-platform-core-concepts/SKILL.md",
+      ".devin/skills/prisma-composer-core-concepts/SKILL.md",
+      ".devin/skills/prisma-platform-core-concepts/SKILL.md",
+      "AGENTS.md",
+      "CLAUDE.md",
+      "README.md",
+      "client_details/README.md"
+    ],
+    "paper": [],
+    "image": [
+      "public/assets/images/gallery-1.jpg",
+      "public/assets/images/gallery-2.jpg",
+      "public/assets/images/gallery-3.jpg",
+      "public/assets/images/gallery-4.jpg",
+      "public/assets/images/gallery-5.jpg",
+      "public/assets/images/hero-banner.jpg",
+      "public/assets/images/img8.jpg",
+      "public/assets/images/img9.jpg",
+      "public/assets/images/logo-blue.svg",
+      "public/assets/images/logo.svg",
+      "public/assets/images/packege-1.jpg",
+      "public/assets/images/packege-2.jpg",
+      "public/assets/images/packege-3.jpg",
+      "public/assets/images/popular-1.jpg",
+      "public/assets/images/popular-2.jpg",
+      "public/assets/images/popular-3.jpg",
+      "public/file.svg",
+      "public/globe.svg",
+      "public/next.svg",
+      "public/vercel.svg",
+      "public/window.svg"
+    ],
+    "video": []
+  },
+  "total_files": 48,
+  "total_words": 56569,
+  "needs_graph": true,
+  "warning": null,
+  "skipped_sensitive": [],
+  "graphifyignore_patterns": 22,
+  "git": {
+    "source_owner": "git",
+    "source_hash": "7b58423a9354a608b0963b9dea4072a7f55d2a10",
+    "branches": [
+      "main"
+    ],
+    "max_commits": 200,
+    "active_within_days": 30
+  },
+  "scope": {
+    "requested_mode": "auto",
+    "resolved_mode": "committed",
+    "source": "default-auto",
+    "root": ".",
+    "git_root": ".",
+    "head": "7b58423a9354a608b0963b9dea4072a7f55d2a10",
+    "candidate_count": 59,
+    "included_count": 48,
+    "excluded_untracked_count": 0,
+    "excluded_ignored_count": 165586,
+    "excluded_sensitive_count": 0,
+    "missing_committed_count": 0,
+    "warnings": [],
+    "recommendation": "Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder."
+  }
+}
