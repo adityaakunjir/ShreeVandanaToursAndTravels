@@ -9,7 +9,7 @@ export const metadata = {
   description: "Modern Tour & Travel Agency",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={cn("font-sans", geist.variable)}>
       <head>
