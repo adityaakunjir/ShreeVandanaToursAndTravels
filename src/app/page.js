@@ -34,7 +34,7 @@ export default function Home() {
         <a href="tel:+01123456790" className="helpline-box">
 
           <div className="icon-box">
-            <ion-icon name="call-outline"></ion-icon>
+            <ion-icon suppressHydrationWarning name="call-outline"></ion-icon>
           </div>
 
           <div className="wrapper">
@@ -52,11 +52,11 @@ export default function Home() {
         <div className="header-btn-group">
 
           <button className="search-btn" aria-label="Search">
-            <ion-icon name="search"></ion-icon>
+            <ion-icon suppressHydrationWarning name="search"></ion-icon>
           </button>
 
           <button className="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-            <ion-icon name="menu-outline"></ion-icon>
+            <ion-icon suppressHydrationWarning name="menu-outline"></ion-icon>
           </button>
 
         </div>
@@ -71,19 +71,19 @@ export default function Home() {
 
           <li>
             <a href="#" className="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
+              <ion-icon suppressHydrationWarning name="logo-facebook"></ion-icon>
             </a>
           </li>
 
           <li>
             <a href="#" className="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+              <ion-icon suppressHydrationWarning name="logo-twitter"></ion-icon>
             </a>
           </li>
 
           <li>
             <a href="#" className="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
+              <ion-icon suppressHydrationWarning name="logo-youtube"></ion-icon>
             </a>
           </li>
 
@@ -98,7 +98,7 @@ export default function Home() {
             </a>
 
             <button className="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
+              <ion-icon suppressHydrationWarning name="close-outline"></ion-icon>
             </button>
 
           </div>
@@ -249,11 +249,11 @@ export default function Home() {
                 <div className="card-content">
 
                   <div className="card-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
+                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
                   </div>
 
                   <p className="card-subtitle">
@@ -283,11 +283,11 @@ export default function Home() {
                 <div className="card-content">
 
                   <div className="card-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
+                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
                   </div>
 
                   <p className="card-subtitle">
@@ -317,11 +317,11 @@ export default function Home() {
                 <div className="card-content">
 
                   <div className="card-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
+                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
                   </div>
 
                   <p className="card-subtitle">
@@ -391,7 +391,7 @@ export default function Home() {
 
                     <li className="card-meta-item">
                       <div className="meta-box">
-                        <ion-icon name="time"></ion-icon>
+                        <ion-icon suppressHydrationWarning name="time"></ion-icon>
 
                         <p className="text">7D/6N</p>
                       </div>
@@ -399,7 +399,7 @@ export default function Home() {
 
                     <li className="card-meta-item">
                       <div className="meta-box">
-                        <ion-icon name="people"></ion-icon>
+                        <ion-icon suppressHydrationWarning name="people"></ion-icon>
 
                         <p className="text">pax: 10</p>
                       </div>
@@ -407,7 +407,7 @@ export default function Home() {
 
                     <li className="card-meta-item">
                       <div className="meta-box">
-                        <ion-icon name="location"></ion-icon>
+                        <ion-icon suppressHydrationWarning name="location"></ion-icon>
 
                         <p className="text">Malaysia</p>
                       </div>
@@ -424,11 +424,11 @@ export default function Home() {
                     <p className="reviews">(25 reviews)</p>
 
                     <div className="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
+                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
                     </div>
 
                   </div>
@@ -465,7 +465,7 @@ export default function Home() {
 
                     <li className="card-meta-item">
                       <div className="meta-box">
-                        <ion-icon name="time"></ion-icon>
+                        <ion-icon suppressHydrationWarning name="time"></ion-icon>
 
                         <p className="text">7D/6N</p>
                       </div>
@@ -473,7 +473,7 @@ export default function Home() {
 
                     <li className="card-meta-item">
                       <div className="meta-box">
-                        <ion-icon name="people"></ion-icon>
+                        <ion-icon suppressHydrationWarning name="people"></ion-icon>
 
                         <p className="text">pax: 10</p>
                       </div>
@@ -481,7 +481,7 @@ export default function Home() {
 
                     <li className="card-meta-item">
                       <div className="meta-box">
-                        <ion-icon name="location"></ion-icon>
+                        <ion-icon suppressHydrationWarning name="location"></ion-icon>
 
                         <p className="text">Malaysia</p>
                       </div>
@@ -498,11 +498,11 @@ export default function Home() {
                     <p className="reviews">(20 reviews)</p>
 
                     <div className="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
+                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
                     </div>
 
                   </div>
@@ -539,7 +539,7 @@ export default function Home() {
 
                     <li className="card-meta-item">
                       <div className="meta-box">
-                        <ion-icon name="time"></ion-icon>
+                        <ion-icon suppressHydrationWarning name="time"></ion-icon>
 
                         <p className="text">7D/6N</p>
                       </div>
@@ -547,7 +547,7 @@ export default function Home() {
 
                     <li className="card-meta-item">
                       <div className="meta-box">
-                        <ion-icon name="people"></ion-icon>
+                        <ion-icon suppressHydrationWarning name="people"></ion-icon>
 
                         <p className="text">pax: 10</p>
                       </div>
@@ -555,7 +555,7 @@ export default function Home() {
 
                     <li className="card-meta-item">
                       <div className="meta-box">
-                        <ion-icon name="location"></ion-icon>
+                        <ion-icon suppressHydrationWarning name="location"></ion-icon>
 
                         <p className="text">Malaysia</p>
                       </div>
@@ -572,11 +572,11 @@ export default function Home() {
                     <p className="reviews">(40 reviews)</p>
 
                     <div className="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
+                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
+                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
                     </div>
 
                   </div>
@@ -727,19 +727,19 @@ export default function Home() {
           <ul>
 
             <li className="contact-item">
-              <ion-icon name="call-outline"></ion-icon>
+              <ion-icon suppressHydrationWarning name="call-outline"></ion-icon>
 
               <a href="tel:+01123456790" className="contact-link">+01 (123) 4567 90</a>
             </li>
 
             <li className="contact-item">
-              <ion-icon name="mail-outline"></ion-icon>
+              <ion-icon suppressHydrationWarning name="mail-outline"></ion-icon>
 
               <a href="mailto:info.tourly.com" className="contact-link">info.tourly.com</a>
             </li>
 
             <li className="contact-item">
-              <ion-icon name="location-outline"></ion-icon>
+              <ion-icon suppressHydrationWarning name="location-outline"></ion-icon>
 
               <address>3146 Koontz, California</address>
             </li>
@@ -802,7 +802,7 @@ export default function Home() {
    */}
 
   <a href="#top" className="go-top" data-go-top>
-    <ion-icon name="chevron-up-outline"></ion-icon>
+    <ion-icon suppressHydrationWarning name="chevron-up-outline"></ion-icon>
   </a>
 
 
