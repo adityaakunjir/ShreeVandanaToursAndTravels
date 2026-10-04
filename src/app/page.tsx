@@ -158,9 +158,7 @@ export default function Home() {
           <h2 className="h1 hero-title">Friend In Tourism</h2>
 
           <p className="hero-text">
-            Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos
-            voluptatibus habitant?
-            Fames, vivamus minim nemo enim, gravida lobortis quasi, eum.
+            Experience the world's most spectacular destinations with Shree Vandana Tours and Travels. We are your trusted partner in tourism, offering personalized travel packages, seamless bookings, and unforgettable holidays since 1998.
           </p>
 
           <div className="btn-group">
@@ -233,9 +231,7 @@ export default function Home() {
           <h2 className="h2 section-title">Popular destination</h2>
 
           <p className="section-text">
-            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
-            Sit ornare
-            mollitia tenetur, aptent.
+            Discover the most breathtaking places around the globe. From serene beaches to bustling cityscapes, our curated popular destinations promise the perfect getaway for every kind of traveler.
           </p>
 
           <ul className="popular-list">
@@ -266,7 +262,7 @@ export default function Home() {
                   </h3>
 
                   <p className="card-text">
-                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                    Experience rich culture, stunning architecture, and unforgettable moments in this world-class destination.
                   </p>
 
                 </div>
@@ -300,7 +296,7 @@ export default function Home() {
                   </h3>
 
                   <p className="card-text">
-                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                    Experience rich culture, stunning architecture, and unforgettable moments in this world-class destination.
                   </p>
 
                 </div>
@@ -334,7 +330,7 @@ export default function Home() {
                   </h3>
 
                   <p className="card-text">
-                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                    Experience rich culture, stunning architecture, and unforgettable moments in this world-class destination.
                   </p>
 
                 </div>
@@ -365,9 +361,7 @@ export default function Home() {
           <h2 className="h2 section-title">Checkout Our Packeges</h2>
 
           <p className="section-text">
-            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
-            Sit ornare
-            mollitia tenetur, aptent.
+            Explore our hand-picked tour packages designed to provide you with the best value and comfort. Whether it's a family vacation or a romantic weekend, we have the perfect itinerary for you.
           </p>
 
           <ul className="package-list">
@@ -384,8 +378,7 @@ export default function Home() {
                   <h3 className="h3 card-title">Experience The Great Holiday On Beach</h3>
 
                   <p className="card-text">
-                    Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
-                    cras, aspernatur.
+                    Enjoy a fully guided experience with luxurious accommodations, guided sightseeing, and exceptional service throughout your journey.
                   </p>
 
                   <ul className="card-meta-list">
@@ -458,8 +451,7 @@ export default function Home() {
                   <h3 className="h3 card-title">Summer Holiday To The Oxolotan River</h3>
 
                   <p className="card-text">
-                    Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
-                    cras, aspernatur.
+                    Enjoy a fully guided experience with luxurious accommodations, guided sightseeing, and exceptional service throughout your journey.
                   </p>
 
                   <ul className="card-meta-list">
@@ -532,8 +524,7 @@ export default function Home() {
                   <h3 className="h3 card-title">Santorini Island's Weekend Vacation</h3>
 
                   <p className="card-text">
-                    Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
-                    cras, aspernatur.
+                    Enjoy a fully guided experience with luxurious accommodations, guided sightseeing, and exceptional service throughout your journey.
                   </p>
 
                   <ul className="card-meta-list">
@@ -617,9 +608,7 @@ export default function Home() {
           <h2 className="h2 section-title">Photo's From Travellers</h2>
 
           <p className="section-text">
-            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
-            Sit ornare
-            mollitia tenetur, aptent.
+            Take a glimpse into the beautiful memories created by our happy travelers. Explore breathtaking landscapes and joyful moments captured during our guided tours.
           </p>
 
           <ul className="gallery-list">
@@ -676,9 +665,7 @@ export default function Home() {
             <h2 className="h2 section-title">Ready For Unforgatable Travel. Remember Us!</h2>
 
             <p className="section-text">
-              Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque
-              laudantium. Sit ornare
-              mollitia tenetur, aptent.
+              Let us help you plan the perfect vacation tailored just for you. Contact our expert travel consultants today and start packing for your next big adventure.
             </p>
           </div>
 
@@ -710,9 +697,7 @@ export default function Home() {
           </a>
 
           <p className="footer-text">
-            Urna ratione ante harum provident, eleifend, vulputate molestiae proin fringilla, praesentium magna conubia
-            at
-            perferendis, pretium, aenean aut ultrices.
+            Shree Vandana Tours and Travels – Your true friend in tourism. Providing reliable, safe, and memorable travel experiences across the globe since 1998. Let's explore the world together.
           </p>
 
         </div>
