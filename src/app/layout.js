@@ -1,28 +1,24 @@
-import { Outfit, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
-const outfit = Outfit({
-  subsets: ["latin"],
-  variable: "--font-outfit",
-  weight: ["300", "400", "600", "800"],
-});
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-playfair",
-  weight: ["600"],
-  style: ["normal", "italic"],
-});
-
 export const metadata = {
-  title: "Vandana Travels | Modern Tour & Travel Agency",
-  description: "Experience luxury, comfort, and unforgettable memories with our handpicked domestic and international tour packages.",
+  title: "Tourly - Travel agency",
+  description: "Modern Tour & Travel Agency",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${outfit.variable} ${playfair.variable}`}>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" async></script>
+        <script noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" async></script>
+      </head>
+      <body>
         {children}
       </body>
     </html>
