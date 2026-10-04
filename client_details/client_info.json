@@ -1,0 +1,18 @@
+{
+  "businessName": "Shree Vandana Tours and Travels",
+  "tagline": "Journey to explore world",
+  "contact": {
+    "phone": "+91 000 000 0000",
+    "email": "contact@shreevandanatravels.com",
+    "address": "Your Office Address, City, State, ZIP"
+  },
+  "socialMedia": {
+    "facebook": "https://facebook.com/yourpage",
+    "instagram": "https://instagram.com/yourpage",
+    "twitter": "https://twitter.com/yourpage"
+  },
+  "brandColors": {
+    "primary": "hsl(214, 57%, 51%)",
+    "secondary": "hsl(214, 57%, 51%)"
+  }
+}
