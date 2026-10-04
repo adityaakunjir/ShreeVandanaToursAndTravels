@@ -31,7 +31,7 @@ export default function Home() {
     <div className="header-top">
       <div className="container">
 
-        <a href="tel:+01123456790" className="helpline-box">
+        <a href="tel:+919422002115" className="helpline-box">
 
           <div className="icon-box">
             <ion-icon suppressHydrationWarning name="call-outline"></ion-icon>
@@ -40,13 +40,13 @@ export default function Home() {
           <div className="wrapper">
             <p className="helpline-title">For Further Inquires :</p>
 
-            <p className="helpline-number">+01 (123) 4567 90</p>
+            <p className="helpline-number">+91 94220 02115</p>
           </div>
 
         </a>
 
         <a href="#" className="logo">
-          <img src="./assets/images/logo.svg" alt="Tourly logo" />
+          <img src="./assets/images/logo.jpeg" alt="Shree Vandana Travels logo" />
         </a>
 
         <div className="header-btn-group">
@@ -70,20 +70,20 @@ export default function Home() {
         <ul className="social-list">
 
           <li>
-            <a href="#" className="social-link">
+            <a href="https://www.facebook.com/share/18Pj1PwXAp/" className="social-link">
               <ion-icon suppressHydrationWarning name="logo-facebook"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" className="social-link">
-              <ion-icon suppressHydrationWarning name="logo-twitter"></ion-icon>
+            <a href="https://www.instagram.com/shreevandanatours?igsh=MTN3MWd0dHVmMmtxZg==" className="social-link">
+              <ion-icon suppressHydrationWarning name="logo-instagram"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" className="social-link">
-              <ion-icon suppressHydrationWarning name="logo-youtube"></ion-icon>
+            <a href="https://www.linkedin.com/company/shree-vandana-tours-and-travels/" className="social-link">
+              <ion-icon suppressHydrationWarning name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
@@ -94,7 +94,7 @@ export default function Home() {
           <div className="navbar-top">
 
             <a href="#" className="logo">
-              <img src="./assets/images/logo-blue.svg" alt="Tourly logo" />
+              <img src="./assets/images/logo.jpeg" alt="Shree Vandana Travels logo" />
             </a>
 
             <button className="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
@@ -154,7 +154,7 @@ export default function Home() {
       <section className="hero" id="home">
         <div className="container">
 
-          <h2 className="h1 hero-title">Journey to explore world</h2>
+          <h2 className="h1 hero-title">Friend In Tourism</h2>
 
           <p className="hero-text">
             Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos
@@ -705,7 +705,7 @@ export default function Home() {
         <div className="footer-brand">
 
           <a href="#" className="logo">
-            <img src="./assets/images/logo.svg" alt="Tourly logo" />
+            <img src="./assets/images/logo.jpeg" alt="Shree Vandana Travels logo" />
           </a>
 
           <p className="footer-text">
@@ -729,19 +729,19 @@ export default function Home() {
             <li className="contact-item">
               <ion-icon suppressHydrationWarning name="call-outline"></ion-icon>
 
-              <a href="tel:+01123456790" className="contact-link">+01 (123) 4567 90</a>
+              <a href="tel:+919422002115" className="contact-link">+91 94220 02115</a>
             </li>
 
             <li className="contact-item">
               <ion-icon suppressHydrationWarning name="mail-outline"></ion-icon>
 
-              <a href="mailto:info.tourly.com" className="contact-link">info.tourly.com</a>
+              <a href="mailto:sales.svttpune@gmail.com" className="contact-link">sales.svttpune@gmail.com</a>
             </li>
 
             <li className="contact-item">
               <ion-icon suppressHydrationWarning name="location-outline"></ion-icon>
 
-              <address>3146 Koontz, California</address>
+              <address>Lodha complex, Dhankawadi, Pune</address>
             </li>
 
           </ul>
@@ -769,7 +769,7 @@ export default function Home() {
       <div className="container">
 
         <p className="copyright">
-          &copy; 2022 <a href="">codewithsadee</a>. All rights reserved
+          &copy; 2026 <a href="">Shree Vandana Travels</a>. All rights reserved
         </p>
 
         <ul className="footer-bottom-list">
@@ -824,3 +824,5 @@ export default function Home() {
     </>
   );
 }
+
+

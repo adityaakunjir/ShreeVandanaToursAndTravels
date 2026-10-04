@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata = {
-  title: "Tourly - Travel agency",
+  title: "Shree Vandana Travels - Travel agency",
   description: "Modern Tour & Travel Agency",
 };
 
@@ -28,3 +28,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
