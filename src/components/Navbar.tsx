@@ -1,4 +1,6 @@
 'use client';
+import WhatsAppLink from '@/components/WhatsAppLink';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Menu, X, ArrowUpRight, Phone } from 'lucide-react';
@@ -115,13 +117,13 @@ export default function Navbar() {
                 {name}
               </Link>
             ))}
-            <Link
+            <WhatsAppLink
               className="button nav-cta"
-              href="/enquire"
+
               onClick={() => setOpen(false)}
             >
               Plan a trip <ArrowUpRight size={17} />
-            </Link>
+            </WhatsAppLink>
           </nav>
           <button
             ref={toggle}

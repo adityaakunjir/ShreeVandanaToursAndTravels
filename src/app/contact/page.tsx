@@ -1,5 +1,5 @@
+import WhatsAppLink from '@/components/WhatsAppLink';
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { Phone, Mail, MapPin, MessageCircle, ArrowUpRight } from 'lucide-react';
 import { PageIntro } from '@/components/PageIntro';
 import { business } from '@/data/site';
@@ -77,9 +77,9 @@ export default function ContactPage() {
           <div className="office-enquiry">
             <h3>Ready to plan?</h3>
             <p>A few details help us understand your ideal trip.</p>
-            <Link href="/enquire" className="text-link">
-              Prepare a holiday enquiry <ArrowUpRight size={16} />
-            </Link>
+            <WhatsAppLink className="text-link">
+              Chat about your holiday on WhatsApp <ArrowUpRight size={16} />
+            </WhatsAppLink>
           </div>
         </div>
       </section>

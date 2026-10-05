@@ -1,3 +1,4 @@
+import WhatsAppLink from '@/components/WhatsAppLink';
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -247,12 +248,9 @@ export default async function PackagesPage({
                 <Link className="button" href="/packages">
                   See all sample tours →
                 </Link>
-                <Link
-                  className="text-link"
-                  href={`/enquire${q ? `?destination=${encodeURIComponent(q)}` : ''}`}
-                >
+                <WhatsAppLink className="text-link" destination={q}>
                   Plan a custom holiday instead →
-                </Link>
+                </WhatsAppLink>
               </div>
             )}
           </>
@@ -263,9 +261,7 @@ export default async function PackagesPage({
               Our online tour collection is being prepared. Tell us your
               destination and dates for a personalised quote from our team.
             </p>
-            <Link href="/enquire" className="button">
-              Plan my holiday →
-            </Link>
+            <WhatsAppLink className="button">Plan my holiday →</WhatsAppLink>
           </div>
         )}
       </section>

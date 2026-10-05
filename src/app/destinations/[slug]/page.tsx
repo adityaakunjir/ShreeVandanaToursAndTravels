@@ -1,7 +1,7 @@
+import WhatsAppLink from '@/components/WhatsAppLink';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
-import Link from 'next/link';
 import { ArrowUpRight, Check } from 'lucide-react';
 import { destinations } from '@/data/site';
 import { JourneyCTA } from '@/components/PageIntro';
@@ -84,12 +84,9 @@ export default async function DestinationPage({
                 </li>
               ))}
             </ul>
-            <Link
-              href={`/enquire?destination=${encodeURIComponent(destination.name)}`}
-              className="button"
-            >
+            <WhatsAppLink destination={destination.name} className="button">
               Plan my {destination.name} trip <ArrowUpRight size={18} />
-            </Link>
+            </WhatsAppLink>
             <p className="detail-note">
               Inspiration, not a fixed departure. Availability, inclusions and
               pricing are confirmed with our team.

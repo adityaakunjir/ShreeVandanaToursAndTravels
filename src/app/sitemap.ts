@@ -11,7 +11,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/gallery',
     '/contact',
     '/faq',
-    '/enquire',
   ].map((path) => ({
     url: new URL(path, base).href,
     priority: path === '/' ? 1 : 0.7,

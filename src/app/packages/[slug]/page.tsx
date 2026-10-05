@@ -1,3 +1,4 @@
+import WhatsAppLink from '@/components/WhatsAppLink';
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -87,12 +88,9 @@ export default async function PackagePage({
           <small>
             Demo only. No seats held, payment taken or booking confirmed.
           </small>
-          <Link
-            className="text-link"
-            href={`/enquire?destination=${encodeURIComponent(tour.destination)}`}
-          >
+          <WhatsAppLink className="text-link" destination={tour.destination}>
             Ask about a real {tour.destination} holiday →
-          </Link>
+          </WhatsAppLink>
         </aside>
       </div>
       <div className="package-content-grid">

@@ -1,6 +1,6 @@
 # Shree Vandana Tours & Travels
 
-A responsive Next.js website for the Pune travel business. It includes destination inspiration, company history, travel services, gallery, FAQs and a validated enquiry flow with WhatsApp and email drafts.
+A responsive Next.js website for the Pune travel business. It includes destination inspiration, company history, travel services, gallery, FAQs and direct WhatsApp enquiries.
 
 ## Local setup
 
@@ -15,18 +15,18 @@ Open http://localhost:3000. No API keys or environment variables are required fo
 
 ## Commands
 
-| Command                    | Purpose                                       |
-| -------------------------- | --------------------------------------------- |
-| `npm run dev`              | Start the development server with webpack     |
-| `npm run lint`             | Check code style and React/Next.js rules      |
-| `npm run typecheck`        | Check TypeScript throughout the app           |
-| `npm test`                 | Test enquiry validation, dates and draft URLs |
-| `npm run check`            | Run lint and TypeScript checks                |
-| `npm run validate`         | Run checks, tests and production build        |
-| `npm run build`            | Create the production build                   |
-| `npm run smoke:production` | Verify an existing build with demos disabled  |
-| `npm start`                | Serve an existing production build            |
-| `npm run format`           | Format source, tests and configuration        |
+| Command                    | Purpose                                      |
+| -------------------------- | -------------------------------------------- |
+| `npm run dev`              | Start the development server with webpack    |
+| `npm run lint`             | Check code style and React/Next.js rules     |
+| `npm run typecheck`        | Check TypeScript throughout the app          |
+| `npm test`                 | Test discovery, catalogue and WhatsApp URLs  |
+| `npm run check`            | Run lint and TypeScript checks               |
+| `npm run validate`         | Run checks, tests and production build       |
+| `npm run build`            | Create the production build                  |
+| `npm run smoke:production` | Verify an existing build with demos disabled |
+| `npm start`                | Serve an existing production build           |
+| `npm run format`           | Format source, tests and configuration       |
 
 Stop the dev server before production build/start to avoid competing use of `.next` output. A Node.js deployment is required for the dynamic enquiry page and image optimisation. Build with `npm ci` and `npm run validate`; run with `npm start`. Configure the deployment platform's port normally. This setup does not deploy or publish anything automatically.
 
@@ -36,7 +36,7 @@ Stop the dev server before production build/start to avoid competing use of `.ne
 
 `.github/workflows/quality.yml` runs on pushes to main and pull requests. It uses Node 24, locked dependency installation, lint/types, all unit tests, the production build and `smoke:production`. Official checkout/setup-node actions are pinned to reviewed commit hashes; the job has read-only repository permission and no deployment/payment secrets. The example.com build origin is a CI fixture, not the production domain.
 
-The smoke command starts and terminates its own temporary local server, leaving the port-3000 preview untouched. It checks all 11 public routes, unique descriptions, canonicals and applicable breadcrumb data; 404 handling; filtered destination noindex; and demo-off fallback/detail/planner isolation. It does not simulate actual bookings, external message delivery, payment providers or Google ranking. Run it after `npm run build`.
+The smoke command starts and terminates its own temporary local server, leaving the port-3000 preview untouched. It checks all 10 public pages and the WhatsApp redirect, unique descriptions, canonicals and applicable breadcrumb data; 404 handling; filtered destination noindex; and demo-off fallback/detail/planner isolation. It does not simulate actual bookings, external message delivery, payment providers or Google ranking. Run it after `npm run build`.
 
 ### Local tour and booking preview
 
@@ -51,14 +51,13 @@ The destination collection supports server-rendered search by destination/countr
 - `client_details/client_info.json`: business name, address, email, social links and brand reference.
 - `src/data/site.ts`: public phone/WhatsApp links, destination inspiration and FAQs. Keep structured phone numbers aligned with the client source when updating contacts.
 - `src/app/page.tsx`: server-rendered homepage.
-- `src/app/enquire/page.tsx`: enquiry route; reads the selected destination from search parameters.
-- `src/components/EnquiryForm.tsx`: interactive form and draft preparation.
-- `src/lib/enquiry.ts`: validation, Indian calendar date and safely encoded draft URLs.
+- `src/app/enquire/page.tsx`: legacy redirect to WhatsApp; preserves selected destination context.
+- `src/lib/whatsapp.ts`: safely encoded direct chat URLs.
 - `src/components/Navbar.tsx`: responsive navigation, focus management, Escape and scroll locking.
 - `src/components/Footer.tsx`: shared contacts and navigation.
 - `src/app/globals.css`: active responsive design styles.
 - `public/assets/images`: existing client and template imagery, served through Next.js Image.
-- `tests/enquiry.test.mjs`: Node.js built-in tests; no external test framework.
+- `tests/whatsapp.test.mjs`: direct-chat URL and context checks.
 
 Unused earlier React components, starter page CSS, the obsolete Ionicons declaration and duplicate jsconfig were removed. Public template CSS/JS and starter SVGs remain as reference assets and are not loaded by the current site. Previously installed Prisma, Maps, Cloudinary and Razorpay packages do not represent live integrations. The existing agent skills and Next.js rules remain in `AGENTS.md`.
 
@@ -66,9 +65,7 @@ Unused earlier React components, starter page CSS, the obsolete Ionicons declara
 
 Real package content can be checked with `npm run catalogue:check -- path/to/approved-packages.json`. The read-only checker rejects incomplete or empty catalogues, invalid dates/prices and duplicate identities. Start from `docs/package-input-template.json` and follow `docs/PACKAGE_IMPORT.md`; its null fields intentionally fail validation until the business supplies approved information. The test suite now contains 18 tests. This content validator does not publish packages or activate booking/payment services.
 
-Visitors select a destination or enter a custom trip, add their name/contact number, traveller count, optional email/date and preferences, then prepare the enquiry. Past or impossible dates, invalid contact details and traveller counts outside 1–100 are rejected. Dates use Asia/Kolkata.
-
-The resulting WhatsApp link uses the business number and an encoded message. The email link opens the visitor's email client with the same message. The visitor must review and send it in their chosen app. The site has no database, email delivery service, payment processing or automatic booking confirmation. It does not persist form contents. Editing a field invalidates the prepared draft so links always reflect the current details.
+Visitors tap a planning or enquiry button to open WhatsApp at +91 96652 38966. Destination and service buttons include a short contextual message. Visitors can edit and send it themselves; no website form, lead intake or lead database is used. Existing /enquire links redirect to WhatsApp. A chat does not confirm a booking or payment.
 
 ## Before publishing
 
@@ -82,13 +79,13 @@ An audit during setup reported 39 vulnerabilities in the existing dependency gra
 
 The visual system uses warm ivory, charcoal, cobalt and muted sage/lavender. Editorial type, an arched hero photograph, staggered destination imagery, restrained service rows and spacious page introductions carry the same direction across all routes. The October revamp passed lint, TypeScript and a production build, with all 11 routes checked again at 320, 390, 768 and 1440px.
 
-The site has dedicated pages for destinations, three destination details, company story, services, gallery, contact, FAQs and enquiries. Mobile quick actions keep Explore, Plan my trip and WhatsApp within reach; the dock is omitted on the enquiry page so it cannot obstruct form interaction. Inputs use 16px text, appropriate mobile keyboards and at least 52px height. Phone layouts have a simplified header and a compact enquiry introduction.
+The site has dedicated pages for destinations, three destination details, company story, services, gallery, contact, FAQs and enquiries. Mobile quick actions keep Explore, Plan my trip and WhatsApp within reach; the dock is omitted on the enquiry page so it cannot obstruct form interaction. Inputs use 16px text, appropriate mobile keyboards and at least 52px height. Phone layouts have a simplified header and direct WhatsApp actions.
 
 Glass effects are restricted to small navigation surfaces with opaque fallbacks. CSS-only parallax is enabled on supported desktop browsers, with a static mobile hero and reduced-motion support. There is no animation framework, autoplay video, embedded map, or third-party icon runtime. Main pages are server-rendered, images reserve space, below-fold images load lazily, and the gallery’s large photograph is mounted only when opened. The gallery supports previous/next buttons, arrow keys, Escape, and horizontal touch gestures.
 
 The new logo source is 4,904 bytes versus the old 911,983-byte file. In a local request, the 384px hero response at quality 60 was 15,508 bytes (original JPEG: 341,002 bytes); devices with higher pixel density receive larger variants. Performance measurements on real low-end devices and throttled networks remain to be done. No universal network-speed guarantee is implied.
 
-Browser checks covered all 11 pages at widths 320, 390, 768 and 1440, with no horizontal overflow detected. Interactive checks covered mobile menu navigation, photo viewer opening/next/Escape/focus return and destination-to-enquiry prefill. WhatsApp/email draft URLs were validated without sending messages. Physical touch gestures, actual message delivery and every external social/map destination were not exercised.
+Browser checks covered all 11 pages at widths 320, 390, 768 and 1440, with no horizontal overflow detected. Interactive checks covered mobile menu navigation, photo viewer opening/next/Escape/focus return and destination-specific WhatsApp links. WhatsApp/email draft URLs were validated without sending messages. Physical touch gestures, actual message delivery and every external social/map destination were not exercised.
 
 ## October content and discovery additions
 

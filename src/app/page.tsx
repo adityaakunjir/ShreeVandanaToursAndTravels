@@ -1,3 +1,4 @@
+import WhatsAppLink from '@/components/WhatsAppLink';
 import Image from 'next/image';
 import Link from 'next/link';
 import {
@@ -39,9 +40,9 @@ export default function Home() {
               thoughtfully planned from Pune.
             </p>
             <div className="hero-actions">
-              <Link href="/enquire" className="button">
+              <WhatsAppLink className="button">
                 Let’s make a plan <ArrowUpRight size={19} />
-              </Link>
+              </WhatsAppLink>
               <Link href="/destinations" className="text-link">
                 Explore destinations <ArrowRight size={17} />
               </Link>
@@ -98,9 +99,9 @@ export default function Home() {
           <HeartHandshake size={29} />
           <span>Personal service, every step</span>
         </div>
-        <Link href="/enquire">
+        <WhatsAppLink>
           Your journey starts here <ArrowUpRight size={21} />
-        </Link>
+        </WhatsAppLink>
       </div>
       <section id="destinations" className="section wrap">
         <div className="section-heading">
@@ -124,9 +125,9 @@ export default function Home() {
             Have somewhere else in mind? India or the world — let’s explore your
             options.
           </span>
-          <Link href="/enquire">
+          <WhatsAppLink>
             Create a custom trip <ArrowUpRight size={17} />
-          </Link>
+          </WhatsAppLink>
         </div>
       </section>
       <section id="about" className="story-section">
@@ -299,9 +300,9 @@ export default function Home() {
             <p>Tell us what you have in mind. We’ll help you find your way.</p>
           </div>
           <div className="cta-actions">
-            <Link href="/enquire" className="button warm">
+            <WhatsAppLink className="button warm">
               Plan my journey <ArrowUpRight size={20} />
-            </Link>
+            </WhatsAppLink>
             <a
               href={business.whatsapp}
               className="text-link light"

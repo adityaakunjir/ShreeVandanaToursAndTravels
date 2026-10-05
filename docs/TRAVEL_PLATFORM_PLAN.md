@@ -1,3 +1,7 @@
+# Current owner decision
+
+Direct WhatsApp enquiries replace website intake. Enquiry forms, stored leads and their backend are outside the current scope. The older platform roadmap below describes optional future integrations, not an instruction to implement lead intake. Real tour inventory remains deferred.
+
 # Shree Vandana travel platform — product and delivery plan
 
 Prepared 5 October 2026. This is the specification for the next product stages, not a claim that these features already exist. Priorities: P0 = launch requirement; P1 = growth; P2 = advanced differentiation.

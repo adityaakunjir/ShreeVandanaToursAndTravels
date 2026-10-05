@@ -1,5 +1,5 @@
+import WhatsAppLink from '@/components/WhatsAppLink';
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import {
   Compass,
   Users,
@@ -88,12 +88,9 @@ export default function ServicesPage() {
             <h2>{title}</h2>
             <p>{description}</p>
             <p>{details}</p>
-            <Link
-              className="text-link"
-              href={`/enquire?destination=${encodeURIComponent(title)}`}
-            >
+            <WhatsAppLink className="text-link" destination={title}>
               Discuss my plans <ArrowUpRight size={17} />
-            </Link>
+            </WhatsAppLink>
           </article>
         ))}
       </section>

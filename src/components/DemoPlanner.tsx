@@ -1,4 +1,6 @@
 'use client';
+import WhatsAppLink from '@/components/WhatsAppLink';
+
 import { useState } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Check, ArrowUpRight } from 'lucide-react';
@@ -201,12 +203,9 @@ export default function DemoPlanner({ tour }: { tour: DemoPackage }) {
             <Link className="button" href="/packages">
               Explore more sample tours →
             </Link>
-            <Link
-              className="text-link"
-              href={`/enquire?destination=${encodeURIComponent(tour.destination)}`}
-            >
+            <WhatsAppLink className="text-link" destination={tour.destination}>
               Plan a real {tour.destination} holiday with our team →
-            </Link>
+            </WhatsAppLink>
             <button className="text-link" onClick={() => setStep(1)}>
               Start this preview again
             </button>

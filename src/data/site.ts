@@ -55,7 +55,7 @@ export const faqs = [
   {
     question: 'How do I get a price for my trip?',
     answer:
-      'Send an enquiry through WhatsApp or email. We will discuss your requirements and share a personalised quote. Prices and availability are confirmed by our team before booking.',
+      'Message our team directly on WhatsApp. We will discuss your requirements and share a personalised quote. Prices and availability are confirmed by our team before booking.',
   },
   {
     question: 'Do you arrange domestic and international travel?',
@@ -63,7 +63,7 @@ export const faqs = [
       'We help plan holidays within India and abroad, including family vacations, group tours and customised journeys. Contact us to discuss your preferred destination.',
   },
   {
-    question: 'Does submitting an enquiry confirm a booking?',
+    question: 'Does starting a WhatsApp chat confirm a booking?',
     answer:
       'An enquiry starts a conversation. It does not reserve a trip or take payment. Your itinerary, inclusions, payment details and cancellation conditions will be shared before you confirm a booking.',
   },

@@ -44,3 +44,7 @@ The user requests a GitHub push after every completed change. Finish relevant
 verification, commit the change, and push the current authorized branch to its
 configured origin. Do not force-push or commit secrets/generated build files.
 Report a concrete authentication or remote conflict if a normal push fails.
+
+## Enquiry workflow
+
+The owner wants direct WhatsApp chat links to +91 96652 38966. Do not reintroduce enquiry forms, lead intake or a lead database without a new user request. Preserve destination/service context in short WhatsApp drafts; visitors send their own messages.

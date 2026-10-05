@@ -73,12 +73,21 @@ try {
     '/gallery',
     '/contact',
     '/faq',
-    '/enquire',
     '/destinations',
     '/destinations/venice',
     '/destinations/dubai',
     '/destinations/kyoto',
   ];
+  const enquiry = await fetch(
+    `http://127.0.0.1:${port}/enquire?destination=Dubai`,
+    { redirect: 'manual' },
+  );
+  assert.equal(enquiry.status, 307);
+  const whatsapp = new URL(enquiry.headers.get('location'));
+  assert.equal(whatsapp.origin, 'https://wa.me');
+  assert.equal(whatsapp.pathname, '/919665238966');
+  assert.match(whatsapp.searchParams.get('text'), /Dubai/);
+  console.log('PASS direct WhatsApp redirect');
   const descriptions = new Set();
   for (const path of publicRoutes) {
     const html = await read(path);
@@ -97,7 +106,7 @@ try {
       `${path} must not inherit another page description`,
     );
     descriptions.add(description[1]);
-    if (path !== '/' && path !== '/enquire')
+    if (path !== '/')
       assert.match(
         html,
         /"@type":"BreadcrumbList"/,
@@ -126,7 +135,7 @@ try {
   const filtered = await read('/destinations?q=Japan');
   assert.match(filtered, /<meta name="robots" content="noindex, follow"/);
   const sitemap = await read('/sitemap.xml');
-  assert.doesNotMatch(sitemap, /\/packages/);
+  assert.doesNotMatch(sitemap, /\/(packages|enquire)/);
   await read('/robots.txt');
   console.log(
     'PASS production smoke: public metadata, 404s, filtered indexing and demo isolation.',

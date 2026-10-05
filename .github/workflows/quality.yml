@@ -13,17 +13,6 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    services:
-      postgres:
-        image: postgres:18
-        env:
-          POSTGRES_DB: vandana_test
-          POSTGRES_PASSWORD: isolated-ci-test-password
-        ports:
-          - 5432:5432
-        options: >-
-          --health-cmd "pg_isready -U postgres -d vandana_test"
-          --health-interval 5s --health-timeout 5s --health-retries 10
     env:
       NEXT_TELEMETRY_DISABLED: '1'
       TRAVEL_DEMO_MODE: 'false'
@@ -42,11 +31,3 @@ jobs:
         run: npm run validate
       - name: Verify production routes and demo isolation
         run: npm run smoke:production
-      - name: Verify enquiry migration and database constraints
-        run: |
-          docker exec -i ${{ job.services.postgres.id }} psql -U postgres -d vandana_test -v ON_ERROR_STOP=1 < database/migrations/001_enquiries.sql
-          docker exec -i ${{ job.services.postgres.id }} psql -U postgres -d vandana_test -v ON_ERROR_STOP=1 < database/tests/enquiries.sql
-      - name: Verify persistent enquiry retries and rollback
-        env:
-          DATABASE_TEST_URL: postgres://postgres:isolated-ci-test-password@127.0.0.1:5432/vandana_test
-        run: npm run test:database

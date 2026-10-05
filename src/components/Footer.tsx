@@ -1,3 +1,4 @@
+import WhatsAppLink from '@/components/WhatsAppLink';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowUpRight, MapPin, Mail, Phone } from 'lucide-react';
@@ -45,7 +46,7 @@ export default function Footer() {
           <Link href="/about">Our story</Link>
           <Link href="/services">Travel services</Link>
           <Link href="/faq">Your questions</Link>
-          <Link href="/enquire">Plan your holiday</Link>
+          <WhatsAppLink>Plan your holiday</WhatsAppLink>
         </div>
         <div className="footer-contact">
           <h3>Let’s talk travel</h3>

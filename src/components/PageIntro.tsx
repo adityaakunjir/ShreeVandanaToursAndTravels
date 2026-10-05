@@ -1,3 +1,4 @@
+import WhatsAppLink from '@/components/WhatsAppLink';
 import Link from 'next/link';
 import { ArrowUpRight, ChevronRight, MessageCircle } from 'lucide-react';
 import { business } from '@/data/site';
@@ -55,9 +56,9 @@ export function JourneyCTA() {
         <p>Personal advice from a family that loves travel.</p>
       </div>
       <div>
-        <Link className="button" href="/enquire">
+        <WhatsAppLink className="button">
           Plan my holiday <ArrowUpRight size={18} />
-        </Link>
+        </WhatsAppLink>
         <a
           className="text-link"
           href={business.whatsapp}

@@ -1,3 +1,4 @@
+import WhatsAppLink from '@/components/WhatsAppLink';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import DestinationGrid from '@/components/DestinationGrid';
@@ -95,23 +96,16 @@ export default async function DestinationsPage({ searchParams }: Props) {
               you have in mind. This collection is inspiration; dates and prices
               are confirmed in your personalised quote.
             </p>
-            <Link
-              className="button"
-              href={
-                query
-                  ? `/enquire?destination=${encodeURIComponent(query)}`
-                  : '/enquire'
-              }
-            >
+            <WhatsAppLink className="button" destination={query}>
               Plan a custom holiday →
-            </Link>
+            </WhatsAppLink>
           </div>
         )}
         <div className="destination-note">
           <span>
             Looking for a holiday in India, or somewhere beyond this collection?
           </span>
-          <Link href="/enquire">Tell us your destination →</Link>
+          <WhatsAppLink>Tell us your destination →</WhatsAppLink>
         </div>
       </section>
       <JourneyCTA />

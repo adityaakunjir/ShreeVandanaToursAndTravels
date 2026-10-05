@@ -1,4 +1,6 @@
 'use client';
+import WhatsAppLink from '@/components/WhatsAppLink';
+
 import Link from 'next/link';
 import { Compass, MessageCircle, ArrowUpRight } from 'lucide-react';
 import { usePathname } from 'next/navigation';
@@ -20,10 +22,10 @@ export default function MobileDock() {
         <Compass size={20} />
         <span>Explore</span>
       </Link>
-      <Link className="dock-primary" href="/enquire">
+      <WhatsAppLink className="dock-primary">
         <span>Plan my trip</span>
         <ArrowUpRight size={19} />
-      </Link>
+      </WhatsAppLink>
       <a href={business.whatsapp} target="_blank" rel="noopener noreferrer">
         <MessageCircle size={20} />
         <span>WhatsApp</span>

@@ -1,3 +1,4 @@
+import WhatsAppLink from '@/components/WhatsAppLink';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getDemoPackages, rupees } from '@/data/demo-packages';
@@ -185,9 +186,9 @@ export default async function ComparePage({
         ) : (
           <div className="discovery-empty">
             <h2>Your holiday, thoughtfully planned.</h2>
-            <Link className="button" href="/enquire">
+            <WhatsAppLink className="button">
               Get a personalised quote →
-            </Link>
+            </WhatsAppLink>
           </div>
         )}
       </section>
