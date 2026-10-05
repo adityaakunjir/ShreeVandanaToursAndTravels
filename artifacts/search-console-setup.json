@@ -18,5 +18,11 @@
   "homepageLiveTestTime": "2026-10-05 23:50 Asia/Calcutta",
   "sitemapLiveTest": "URL is available to Google / Page can be indexed",
   "sitemapLiveTestTime": "2026-10-05 23:51 Asia/Calcutta",
-  "sitemapResubmission": "Accepted once after successful live test; processing still Could not fetch"
+  "sitemapResubmission": "Accepted once after successful live test; processing still Could not fetch",
+  "tourCollection": {
+    "url": "https://shreevandanatoursandtravels.com/tours",
+    "initialIndexStatus": "URL is unknown to Google / not indexed",
+    "indexingRequest": "Accepted; URL added to priority crawl queue",
+    "finalIndexing": "Pending Google crawl and indexing decision"
+  }
 }
