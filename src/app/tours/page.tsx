@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import tours from '@/data/tours.json';
+import { destinations } from '@/data/site';
 import TourCard from '@/components/TourCard';
 import { PageIntro } from '@/components/PageIntro';
 import WhatsAppLink from '@/components/WhatsAppLink';
@@ -27,7 +28,13 @@ export default async function ToursPage({
   const q = typeof p.q === 'string' ? p.q.trim().slice(0, 120) : '';
   const region =
     p.region === 'India' || p.region === 'International' ? p.region : '';
-  const found = tours.filter(
+  const priority = destinations.map((destination) => destination.tourSlug);
+  const ranked = [...tours].sort(
+    (a, b) =>
+      (priority.includes(a.slug) ? priority.indexOf(a.slug) : priority.length) -
+      (priority.includes(b.slug) ? priority.indexOf(b.slug) : priority.length),
+  );
+  const found = ranked.filter(
     (t) =>
       (!region ||
         (region === 'India' ? t.region === 'India' : t.region !== 'India')) &&
@@ -37,7 +44,7 @@ export default async function ToursPage({
         .includes(q.toLowerCase()),
   );
   return (
-    <main>
+    <main className="collection-page">
       <PageIntro
         path="/tours"
         eyebrow="Our tours"
@@ -52,8 +59,9 @@ export default async function ToursPage({
             <input
               id="tour-q"
               name="q"
+              type="search"
               defaultValue={q}
-              placeholder="Try Manali, Kerala or Bhutan"
+              placeholder="Dubai, Kerala, Kashmir…"
               maxLength={120}
             />
           </div>
@@ -82,7 +90,7 @@ export default async function ToursPage({
         </div>
         <div className="brochure-tour-grid">
           {found.map((t) => (
-            <TourCard tour={t} index={tours.indexOf(t)} key={t.slug} />
+            <TourCard tour={t} index={ranked.indexOf(t)} key={t.slug} />
           ))}
         </div>
         {!found.length && (

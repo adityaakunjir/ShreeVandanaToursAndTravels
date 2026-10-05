@@ -38,7 +38,7 @@ export default async function DestinationsPage({ searchParams }: Props) {
       );
   const resultCount = matches.length + additionalMatches.length;
   return (
-    <main>
+    <main className="collection-page">
       <PageIntro
         path="/destinations"
         eyebrow="Discover destinations"

@@ -3265,3 +3265,190 @@ button.text-link {
   display: flex;
   margin-top: 20px;
 }
+/* Collection layouts: compact search, photography first, one clear next action. */
+.collection-page .page-intro {
+  padding-bottom: 30px;
+}
+.collection-page > .section {
+  padding-top: 30px;
+}
+.collection-page .intro-orbit {
+  border-color: #b72d292b;
+}
+.tour-photo-heading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: clamp(24px, 4vw, 52px);
+  color: white;
+  background: linear-gradient(
+    180deg,
+    transparent 20%,
+    #211913b8 75%,
+    #211913e8
+  );
+  pointer-events: none;
+}
+.tour-photo-heading p {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.brochure-detail .tour-photo-heading h1 {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  max-width: 900px;
+  font-size: clamp(36px, 5.5vw, 72px);
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+.brochure-detail-hero {
+  padding-top: 12px;
+}
+.brochure-card-top {
+  margin-bottom: 14px;
+}
+.brochure-card-top > span:first-child {
+  font-size: 16px;
+}
+@media (max-width: 600px) {
+  .collection-page .page-intro {
+    padding-top: 0;
+    padding-bottom: 22px;
+  }
+  .collection-page .page-intro h1 {
+    font-size: 38px;
+  }
+  .collection-page .page-description {
+    margin-top: 16px;
+    line-height: 1.65;
+  }
+  .collection-page > .section {
+    padding-top: 20px;
+  }
+  .collection-page .breadcrumb {
+    margin-bottom: 16px;
+  }
+  .collection-page .brochure-search,
+  .collection-page .discovery-search {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+    padding: 16px;
+    gap: 12px;
+    border-radius: 18px;
+  }
+  .collection-page .brochure-search > div:first-child,
+  .collection-page .discovery-search > div:first-child {
+    grid-column: 1 / -1;
+  }
+  .collection-page .brochure-search label,
+  .collection-page .discovery-search label {
+    margin-bottom: 7px;
+  }
+  .collection-page .brochure-search .button,
+  .collection-page .discovery-search .button {
+    padding-inline: 18px;
+    min-height: 52px;
+    font-size: 13px;
+  }
+  .collection-page .brochure-results,
+  .collection-page .discovery-results {
+    margin-block: 18px;
+  }
+  .brochure-tour-card {
+    padding: 18px;
+    border-radius: 22px;
+  }
+  .brochure-detail {
+    padding-top: 12px;
+  }
+  .brochure-detail .tour-photo-heading h1 {
+    font-size: 36px;
+  }
+  .brochure-detail-hero {
+    gap: 24px;
+    padding-bottom: 32px;
+  }
+  .brochure-enquire {
+    padding: 20px;
+  }
+  .brochure-enquire h2 {
+    font-size: 28px;
+  }
+  .brochure-enquire .button {
+    width: 100%;
+  }
+  .mobile-dock,
+  .brochure-mobile-action {
+    padding-bottom: max(10px, env(safe-area-inset-bottom));
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .collection-page .page-intro h1 {
+    animation: collection-arrive 420ms ease-out both;
+  }
+  @keyframes collection-arrive {
+    from {
+      opacity: 0.3;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @media (hover: hover) {
+    .destination-image img,
+    .tour-card-photo img {
+      transition: transform 350ms ease;
+    }
+    .destination-image:hover img,
+    .tour-card-photo:hover img {
+      transform: scale(1.035);
+    }
+  }
+  .button:active,
+  .destination-chips a:active {
+    transform: scale(0.98);
+  }
+}
+.tour-section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+.tour-section-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 12px;
+}
+.tour-section-nav a:hover {
+  color: var(--brand);
+  background: var(--warm);
+}
+#itinerary,
+#inclusions,
+#before-you-go {
+  scroll-margin-top: 100px;
+}
+.brochure-detail .tour-photo-heading p {
+  color: #fff;
+}
+@media (max-width: 600px) {
+  .site-header,
+  .mobile-dock,
+  .brochure-mobile-action {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: #f8f7f2f5;
+  }
+}

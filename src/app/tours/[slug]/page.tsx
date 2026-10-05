@@ -72,6 +72,12 @@ export default async function TourPage({
               quality={60}
               preload
             />
+            <div className="tour-photo-heading">
+              <p>
+                {tour.region} · {duration} days
+              </p>
+              <h1>{tour.name}</h1>
+            </div>
           </div>
           <figcaption>
             <span>{photo.alt}</span>
@@ -81,12 +87,17 @@ export default async function TourPage({
           </figcaption>
         </figure>
       )}
+      <nav className="tour-section-nav" aria-label="On this tour page">
+        <a href="#itinerary">The itinerary</a>
+        <a href="#inclusions">What’s included</a>
+        <a href="#before-you-go">Before you go</a>
+      </nav>
       <div className="brochure-detail-hero">
         <div>
           <p className="eyebrow">
             {tour.region} · {tour.theme} · {duration} days
           </p>
-          <h1>{tour.name}</h1>
+          {!photo && <h1>{tour.name}</h1>}
           <p className="brochure-lead">{tour.summary}</p>
           <div className="brochure-route" aria-label="Tour route">
             {tour.stops.map((stop) => (
@@ -118,7 +129,7 @@ export default async function TourPage({
         </aside>
       </div>
       <div className="package-content-grid">
-        <section className="package-panel">
+        <section className="package-panel" id="itinerary">
           <p className="eyebrow">The journey unfolds</p>
           <h2>Your itinerary, day by day.</h2>
           {tour.days.length ? (
@@ -161,7 +172,7 @@ export default async function TourPage({
             </>
           )}
         </section>
-        <section className="package-panel">
+        <section className="package-panel" id="inclusions">
           <p className="eyebrow">The details that matter</p>
           <h2>What’s included.</h2>
           <p className="brochure-small">
@@ -184,7 +195,7 @@ export default async function TourPage({
           </ul>
         </section>
       </div>
-      <section className="brochure-before">
+      <section className="brochure-before" id="before-you-go">
         <p className="eyebrow">Before you go</p>
         <h2>A few helpful details.</h2>
         <ul>
