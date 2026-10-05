@@ -8,6 +8,74 @@ export type Enquiry = {
   notes: string;
 };
 export type EnquiryErrors = Partial<Record<keyof Enquiry, string>>;
+export type LeadPreference = 'whatsapp' | 'phone' | 'email';
+export type LeadIntake = {
+  enquiry: Enquiry;
+  contactPreference: LeadPreference;
+  submissionKey: string;
+  consent: true;
+};
+
+/** Storage intake boundary. The existing draft form does not call this yet. */
+export function parseLeadIntake(
+  value: unknown,
+  today: string,
+):
+  | { ok: true; data: LeadIntake }
+  | { ok: false; errors: Record<string, string> } {
+  if (!value || typeof value !== 'object' || Array.isArray(value))
+    return { ok: false, errors: { form: 'Invalid enquiry format.' } };
+  const input = value as Record<string, unknown>;
+  const fields = [
+    'name',
+    'phone',
+    'email',
+    'destination',
+    'departure',
+    'travellers',
+    'notes',
+  ] as const;
+  const allowed = [...fields, 'contactPreference', 'submissionKey', 'consent'];
+  if (
+    Object.keys(input).some(
+      (key) => !allowed.includes(key as (typeof allowed)[number]),
+    ) ||
+    fields.some((key) => typeof input[key] !== 'string')
+  )
+    return { ok: false, errors: { form: 'Invalid enquiry fields.' } };
+  const enquiry = Object.fromEntries(
+    fields.map((key) => [key, input[key]]),
+  ) as Enquiry;
+  const errors: Record<string, string> = { ...validateEnquiry(enquiry, today) };
+  for (const key of fields) {
+    if (/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/.test(enquiry[key]))
+      errors[key] = 'Remove unsupported control characters.';
+    enquiry[key] = enquiry[key].trim();
+  }
+  if (input.consent !== true)
+    errors.consent = 'Agree to being contacted about this enquiry.';
+  if (!['whatsapp', 'phone', 'email'].includes(String(input.contactPreference)))
+    errors.contactPreference = 'Choose a contact preference.';
+  if (input.contactPreference === 'email' && !enquiry.email)
+    errors.email = 'Provide an email address for email contact.';
+  if (
+    typeof input.submissionKey !== 'string' ||
+    !/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(
+      input.submissionKey,
+    )
+  )
+    errors.submissionKey = 'Invalid submission reference.';
+  if (Object.keys(errors).length) return { ok: false, errors };
+  return {
+    ok: true,
+    data: {
+      enquiry,
+      contactPreference: input.contactPreference as LeadPreference,
+      submissionKey: input.submissionKey as string,
+      consent: true,
+    },
+  };
+}
 export function indiaToday(now = new Date()): string {
   return new Intl.DateTimeFormat('en-CA', {
     timeZone: 'Asia/Kolkata',
