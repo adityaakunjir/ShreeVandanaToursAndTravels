@@ -2,6 +2,12 @@
 
 A responsive Next.js website for the Pune travel business. It includes destination inspiration, company history, travel services, gallery, FAQs and direct WhatsApp enquiries.
 
+## Current implementation
+
+Updated 5 October 2026. The public site has eleven owner-supplied tour outlines, five priority destination pages, ten additional destination WhatsApp links, red/ivory/charcoal branding and direct enquiries to +91 96652 38966. No public intake form, lead storage or checkout is implemented. Two Instagram reels load automatically with native lazy loading. Public tour details include itinerary jump links and one mobile enquiry bar. Layout and interaction checks are recorded in docs/TRAVEL_PLATFORM_PLAN.md; historical notes below are superseded where they differ.
+
+Canonical production URLs use https://shreevandanatoursandtravels.com. Live deployment is not verified because the signed-in Vercel account lacks access to the domain. Physical-device and throttled-network performance remains unmeasured. A fresh production-dependency audit reports 22 findings requiring runtime-path triage.
+
 ## Local setup
 
 Use Node.js 24 and npm 11 (the project includes `.nvmrc`). From the `vandana-travels` directory:
