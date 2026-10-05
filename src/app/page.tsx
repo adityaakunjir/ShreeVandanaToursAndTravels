@@ -41,7 +41,7 @@ export default function Home() {
             </p>
             <div className="hero-actions">
               <WhatsAppLink className="button">
-                Let’s make a plan <ArrowUpRight size={19} />
+                Plan on WhatsApp <ArrowUpRight size={19} />
               </WhatsAppLink>
               <Link href="/destinations" className="text-link">
                 Explore destinations <ArrowRight size={17} />

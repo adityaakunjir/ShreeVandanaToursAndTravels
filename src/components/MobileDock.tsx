@@ -2,7 +2,7 @@
 import WhatsAppLink from '@/components/WhatsAppLink';
 
 import Link from 'next/link';
-import { Compass, MessageCircle, ArrowUpRight } from 'lucide-react';
+import { Compass, MessageCircle, Phone } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 import { business } from '@/data/site';
 export default function MobileDock() {
@@ -23,12 +23,15 @@ export default function MobileDock() {
         <span>Explore</span>
       </Link>
       <WhatsAppLink className="dock-primary">
-        <span>Plan my trip</span>
-        <ArrowUpRight size={19} />
-      </WhatsAppLink>
-      <a href={business.whatsapp} target="_blank" rel="noopener noreferrer">
-        <MessageCircle size={20} />
+        <MessageCircle size={19} />
         <span>WhatsApp</span>
+      </WhatsAppLink>
+      <a
+        href={`tel:+${business.phones[0].number}`}
+        aria-label="Call our travel team"
+      >
+        <Phone size={20} />
+        <span>Call</span>
       </a>
     </nav>
   );
