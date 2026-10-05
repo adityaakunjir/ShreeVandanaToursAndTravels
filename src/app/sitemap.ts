@@ -1,8 +1,9 @@
+import { siteUrl } from '@/lib/site-url';
 import tours from '@/data/tours.json';
 import type { MetadataRoute } from 'next';
 import { destinations } from '@/data/site';
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+  const base = siteUrl;
   return [
     '/',
     '/tours',

@@ -104,3 +104,13 @@ Tour-detail conversion update: direct save/share/shortlist controls and a mobile
 ## Company tours
 
 The owner-supplied TOURS.doc now powers eleven public tour outlines at /tours, each with a route, itinerary where supplied, inclusions/exclusions and direct WhatsApp enquiries. Prices, dates and availability are confirmed by the team; no online checkout or invented prices are shown. India/international and text search use shareable GET URLs. The original /packages area remains a separate labelled demo; navigation points to the real tour collection.
+
+## Production domain and Vercel
+
+The canonical production URL is `https://shreevandanatoursandtravels.com`. It is the shared default for metadata, structured data, robots and sitemap URLs. Set `NEXT_PUBLIC_SITE_URL` to this value in the intended Vercel project and keep `TRAVEL_DEMO_MODE=false`. Use Next.js framework detection, Node.js 24.x, `npm ci` and `npm run build`; no additional paid services are required by the application.
+
+The signed-in local Vercel account (`itvadsoft-1836`) does not have access to this domain or an existing Vandana project. Domain association and live deployment remain unverified. Do not create a duplicate project in that account. Vercel Hobby is restricted to personal, non-commercial use; a commercial travel business requires an appropriate hosting plan: https://vercel.com/docs/limits/fair-use-guidelines#commercial-usage.
+
+## Destination photography
+
+Eleven destination photographs are bundled locally as compressed WebP files and rendered with responsive Next Image sizing. The collection is lazy-loaded; tour hero images are preloaded. Desktop parallax uses CSS view timelines only when supported and motion is permitted; mobile and reduced-motion users receive static images. Attribution, original sources, licence links and transformation details are recorded in `src/data/tour-photos.json` and shown at `/photo-credits`. The image licences apply to the photographs, independently of site source code. `node scripts/import-tour-photos.mjs` refreshes these explicitly selected assets; it is never a build dependency.

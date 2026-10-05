@@ -1,3 +1,4 @@
+import { siteUrl } from '@/lib/site-url';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 
@@ -6,7 +7,7 @@ export default function Breadcrumb({
 }: {
   items: { name: string; path: string }[];
 }) {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+  const base = siteUrl;
   const data = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',

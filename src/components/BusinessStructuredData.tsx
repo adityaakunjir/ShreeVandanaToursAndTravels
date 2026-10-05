@@ -1,8 +1,9 @@
+import { siteUrl } from '@/lib/site-url';
 import { business } from '@/data/site';
 import { googleBusiness } from '@/data/google-business';
 
 export default function BusinessStructuredData() {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+  const base = siteUrl;
   const data = {
     '@context': 'https://schema.org',
     '@type': 'TravelAgency',

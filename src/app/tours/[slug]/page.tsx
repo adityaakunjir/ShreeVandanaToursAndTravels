@@ -1,4 +1,7 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
+import Link from 'next/link';
+import photos from '@/data/tour-photos.json';
 import { notFound } from 'next/navigation';
 import { Check, ArrowUpRight, Phone } from 'lucide-react';
 import tours from '@/data/tours.json';
@@ -16,12 +19,27 @@ export async function generateMetadata({
   const { slug } = await params;
   const t = tours.find((t) => t.slug === slug);
   if (!t) return {};
+  const photo = photos.find((photo) => photo.slug === slug);
   return {
     title: t.name + ' tour from Pune',
     description:
       t.summary +
       ' View the route and enquire on WhatsApp for dates and a quote.',
     alternates: { canonical: `/tours/${t.slug}` },
+    openGraph: {
+      title: t.name + ' tour from Pune',
+      description: t.summary,
+      images: photo
+        ? [
+            {
+              url: photo.src,
+              width: photo.width,
+              height: photo.height,
+              alt: photo.alt,
+            },
+          ]
+        : [],
+    },
   };
 }
 export default async function TourPage({
@@ -33,6 +51,7 @@ export default async function TourPage({
   const tour = tours.find((t) => t.slug === slug);
   if (!tour) notFound();
   const duration = tour.duration || tour.days.length;
+  const photo = photos.find((photo) => photo.slug === tour.slug);
   return (
     <main className="brochure-detail wrap">
       <Breadcrumb
@@ -42,6 +61,26 @@ export default async function TourPage({
           { name: tour.name, path: `/tours/${tour.slug}` },
         ]}
       />
+      {photo && (
+        <figure className="tour-photo-figure">
+          <div className="tour-photo-window">
+            <Image
+              src={photo.src}
+              alt={photo.alt}
+              fill
+              sizes="(max-width: 1300px) 92vw, 1200px"
+              quality={60}
+              preload
+            />
+          </div>
+          <figcaption>
+            <span>{photo.alt}</span>
+            <Link href={`/photo-credits#${tour.slug}`}>
+              Photo: {photo.author} · {photo.license}
+            </Link>
+          </figcaption>
+        </figure>
+      )}
       <div className="brochure-detail-hero">
         <div>
           <p className="eyebrow">

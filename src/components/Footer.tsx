@@ -46,6 +46,7 @@ export default function Footer() {
           <Link href="/about">Our story</Link>
           <Link href="/services">Travel services</Link>
           <Link href="/faq">Your questions</Link>
+          <Link href="/photo-credits">Photo credits</Link>
           <WhatsAppLink>Plan your holiday</WhatsAppLink>
         </div>
         <div className="footer-contact">
