@@ -11,6 +11,7 @@
     "check": "npm run lint && npm run typecheck",
     "validate": "npm run check && npm test && npm run build",
     "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "test:database": "node --experimental-strip-types --test database/tests/*.test.mjs",
     "catalogue:check": "node --experimental-strip-types scripts/check-catalogue.mjs",
     "smoke:production": "node scripts/smoke-production.mjs",
     "format": "prettier --write src tests package.json next.config.mjs tsconfig.json eslint.config.mjs tailwind.config.js postcss.config.js README.md",
@@ -30,6 +31,7 @@
     "cn": "^0.4.0",
     "lucide-react": "^1.52.0",
     "next": "16.3.6",
+    "pg": "^8.23.1",
     "razorpay": "^2.9.8",
     "react": "19.2.8",
     "react-dom": "19.2.8",
@@ -40,6 +42,7 @@
   "devDependencies": {
     "@sentropic/graphify": "^0.19.0",
     "@types/node": "^26.6.4",
+    "@types/pg": "^8.23.1",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "autoprefixer": "^10.6.1",

@@ -4,6 +4,23 @@ The public form still prepares WhatsApp/email drafts. No database connection,
 storage endpoint or operations console is active. This is the first backend
 foundation, not a claim that persistent enquiries are ready.
 
+`src/server/enquiry-store.ts` now provides transactional persistence through
+node-postgres. It uses bound query parameters, one checked-out connection per
+transaction, a HMAC fingerprint and database uniqueness to handle retries.
+Enquiry creation and its audit event commit together. Identical concurrent
+retries recover one reference; a different payload under the same key conflicts.
+No client response should report success until `save` returns after COMMIT.
+
+`npm run test:database` requires DATABASE_TEST_URL pointing to an isolated local
+PostgreSQL database whose name ends in `_test`, with the migration applied.
+GitHub runs these integration tests against its temporary database. Tests cover
+eight simultaneous same-key requests, unchanged data on retry conflict, literal
+SQL-looking input, and real rollback when the audit insert fails. Test rows are
+removed afterwards. Production connection configuration remains outstanding.
+
+Implementation references: [node-postgres transactions](https://node-postgres.com/features/transactions)
+and [parameterized queries](https://node-postgres.com/features/queries).
+
 `parseLeadIntake` in src/lib/enquiry.ts accepts only the known enquiry fields,
 explicit contact consent, a selected contact channel and a UUID v4 retry key.
 It rejects unexpected status/price fields, malformed values, impossible/past
