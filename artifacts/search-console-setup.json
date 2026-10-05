@@ -15,5 +15,8 @@
   "indexingAndRankings": "Homepage indexing confirmed; other pages and rankings not established",
   "homepageIndexInspection": "URL is on Google / Page is indexed",
   "homepageLiveTest": "URL is available to Google / Page can be indexed",
-  "homepageLiveTestTime": "2026-10-05 23:50 Asia/Calcutta"
+  "homepageLiveTestTime": "2026-10-05 23:50 Asia/Calcutta",
+  "sitemapLiveTest": "URL is available to Google / Page can be indexed",
+  "sitemapLiveTestTime": "2026-10-05 23:51 Asia/Calcutta",
+  "sitemapResubmission": "Accepted once after successful live test; processing still Could not fetch"
 }
