@@ -1,3 +1,4 @@
+import tours from '../src/data/tours.json' with { type: 'json' };
 import assert from 'node:assert/strict';
 import { spawn } from 'node:child_process';
 import { createServer } from 'node:net';
@@ -68,6 +69,8 @@ try {
   }
   const publicRoutes = [
     '/',
+    '/tours',
+    ...tours.map((t) => `/tours/${t.slug}`),
     '/about',
     '/services',
     '/gallery',
@@ -132,6 +135,15 @@ try {
     await read(`/packages/${slug}/plan`, 404);
   }
   await read('/destinations/not-a-destination', 404);
+  await read('/tours/not-a-tour', 404);
+  const tourSearch = await read('/tours?q=Bhutan&region=International');
+  assert.match(tourSearch, /Royal Bhutan/);
+  assert.match(tourSearch, /noindex, follow/);
+  for (const tour of tours) {
+    const html = await read(`/tours/${tour.slug}`);
+    assert.match(html, /wa.me\/919665238966/);
+    assert.doesNotMatch(html, /39,900|69,900|Preview planner|Book now/);
+  }
   const filtered = await read('/destinations?q=Japan');
   assert.match(filtered, /<meta name="robots" content="noindex, follow"/);
   const sitemap = await read('/sitemap.xml');

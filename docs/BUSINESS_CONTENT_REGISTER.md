@@ -14,3 +14,7 @@ Updated 5 October 2026.
 - Approved commercial inventory is deferred by the user; synthetic demo tours remain clearly labelled and disabled in production unless explicitly enabled.
 
 The earlier share.google link failed; the newer Maps URL resolves the business identity. Hours/email differences are recorded rather than silently presented as Google-verified facts. Owned originals and consent records are still needed before rehosting customer media.
+
+## Company tour document
+
+TOURS.doc supplied by the owner on 5 October 2026 contains eleven tour outlines. Routes, daily plans and inclusion/exclusion summaries are paraphrased into src/data/tours.json and public /tours pages. No package prices or capacity were supplied. Kashmir has a 10-day duration but no daily breakdown; its page requests the detailed itinerary rather than inventing days. Egypt lists 1–9 November 2026, shown only as a date to reconfirm. Old tax percentages, train timings, unsupported superlatives, third-party links and conflicting attraction claims are not advertised as current facts. Conflicting boat/Sigiriya inclusions and missing hotel details are called out for confirmation. Final prices, dates and terms are handled by the team on WhatsApp. No third-party images were imported.

@@ -7,7 +7,12 @@ import { usePathname } from 'next/navigation';
 import { business } from '@/data/site';
 export default function MobileDock() {
   const path = usePathname();
-  if (path === '/enquire' || path.endsWith('/plan')) return null;
+  if (
+    path.startsWith('/tours/') ||
+    path === '/enquire' ||
+    path.endsWith('/plan')
+  )
+    return null;
   if (
     /^\/packages\/[^/]+$/.test(path) &&
     !['/packages/saved', '/packages/compare'].includes(path)

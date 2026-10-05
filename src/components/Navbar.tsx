@@ -8,7 +8,7 @@ import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { business } from '@/data/site';
 const links = [
-  ['Tours', '/packages'],
+  ['Tours', '/tours'],
   ['Discover', '/destinations'],
   ['Our story', '/about'],
   ['Services', '/services'],

@@ -205,3 +205,7 @@ Reviewed 5 October 2026. Features below are observed examples, not a complete co
 - [web.dev: Core Web Vitals thresholds](https://web.dev/articles/defining-core-web-vitals-thresholds): p75 LCP/INP/CLS targets and field interpretation.
 
 The [verified Maps listing](https://maps.app.goo.gl/7faKRoszRxDXsPMU9?g_st=ic) supersedes the earlier inaccessible share link.
+
+## Tour content update on 5 October 2026
+
+The owner supplied TOURS.doc and authorised adding its information. Eleven company tour outlines are now public at /tours, with searchable India/international collections, individual itineraries, inclusions/exclusions, mobile WhatsApp actions, breadcrumbs, unique metadata and sitemap entries. This supersedes the earlier statement that all company tour content is deferred. No prices, allocated seats or confirmed bookable departures were provided, so booking and supplier confirmation still happen with the team. Kashmir has highlights and duration without an invented daily plan. The three old sample /packages routes remain separate demos.

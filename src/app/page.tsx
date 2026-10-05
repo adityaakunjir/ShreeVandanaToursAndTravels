@@ -1,3 +1,5 @@
+import tours from '@/data/tours.json';
+import TourCard from '@/components/TourCard';
 import WhatsAppLink from '@/components/WhatsAppLink';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -103,6 +105,26 @@ export default function Home() {
           Your journey starts here <ArrowUpRight size={21} />
         </WhatsAppLink>
       </div>
+      <section className="section wrap">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">JOURNEYS WE CAN PLAN TOGETHER</p>
+            <h2>
+              Your next holiday.
+              <br />
+              <em>A little closer.</em>
+            </h2>
+          </div>
+          <Link href="/tours" className="text-link">
+            Explore all {tours.length} tours <ArrowUpRight size={18} />
+          </Link>
+        </div>
+        <div className="brochure-tour-grid brochure-home-tours">
+          {[tours[1], tours[5], tours[7]].map((t) => (
+            <TourCard key={t.slug} tour={t} index={tours.indexOf(t)} />
+          ))}
+        </div>
+      </section>
       <section id="destinations" className="section wrap">
         <div className="section-heading">
           <div>

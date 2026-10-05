@@ -2802,3 +2802,325 @@ button.text-link {
     display: none;
   }
 }
+
+/* Company tour itineraries: light, text-first cards with no heavy media. */
+.brochure-tour-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+.brochure-tour-card {
+  padding: 28px;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  background: linear-gradient(145deg, #ffffff70, #eff0e94a);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.brochure-tour-card:nth-child(3n + 2) {
+  background: linear-gradient(145deg, #f1f2fc, #faf9f4);
+}
+.brochure-card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 34px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.brochure-card-top > span:first-child {
+  font-size: 28px;
+  font-family: Georgia, serif;
+  color: var(--blue);
+}
+.brochure-tour-card h2 {
+  font-size: 30px;
+  line-height: 1.15;
+  margin: 10px 0 15px;
+  overflow-wrap: anywhere;
+}
+.brochure-tour-card > p:not(.eyebrow) {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+.brochure-duration {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  font-size: 12px;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+.brochure-duration > span {
+  margin-left: auto;
+  color: var(--muted);
+}
+.brochure-card-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  border-top: 1px solid var(--border);
+  padding-top: 15px;
+  font-size: 12px;
+}
+.brochure-card-actions > a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.brochure-search {
+  display: flex;
+  align-items: end;
+  gap: 18px;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  background: #ffffff65;
+  padding: 24px;
+}
+.brochure-search > div:first-child {
+  flex: 1;
+}
+.brochure-search label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.brochure-search input,
+.brochure-search select {
+  width: 100%;
+  min-height: 52px;
+  padding: 12px 15px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--background);
+  font: inherit;
+  font-size: 16px;
+  color: var(--ink);
+}
+.brochure-results {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin: 24px 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+.brochure-confirmation {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.8;
+  margin-top: 30px;
+}
+.brochure-detail {
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+.brochure-detail-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 60px;
+  padding: 45px 0 65px;
+  align-items: start;
+}
+.brochure-detail h1 {
+  font-size: clamp(42px, 5.5vw, 78px);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  margin: 20px 0 25px;
+  overflow-wrap: anywhere;
+}
+.brochure-lead {
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--muted);
+  max-width: 650px;
+}
+.brochure-route {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+.brochure-route span {
+  padding: 9px 12px;
+  border: 1px solid var(--border);
+  border-radius: 30px;
+  font-size: 12px;
+}
+.brochure-enquire {
+  border-radius: 24px;
+  background: linear-gradient(145deg, #e9ecfa, #f3f1e8);
+  padding: 28px;
+  border: 1px solid var(--border);
+}
+.brochure-enquire h2 {
+  font-size: 32px;
+  margin: 15px 0;
+}
+.brochure-enquire p:not(.eyebrow) {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--muted);
+}
+.brochure-enquire .button {
+  width: 100%;
+  margin: 20px 0;
+}
+.brochure-enquire small {
+  display: block;
+  font-size: 11px;
+  line-height: 1.8;
+  color: var(--muted);
+  margin-top: 15px;
+}
+.brochure-small {
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--muted);
+  margin: 20px 0;
+}
+.brochure-inclusions {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 35px;
+}
+.brochure-inclusions li {
+  display: flex;
+  gap: 12px;
+  line-height: 1.8;
+  font-size: 14px;
+  margin: 12px 0;
+}
+.brochure-inclusions svg {
+  flex-shrink: 0;
+  margin-top: 5px;
+  color: var(--blue);
+}
+.brochure-exclusions {
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+.brochure-exclusions li {
+  margin-bottom: 10px;
+}
+.brochure-before {
+  padding: 35px;
+  border-radius: 24px;
+  background: #eceee7;
+  margin-top: 25px;
+}
+.brochure-before h2 {
+  font-size: 34px;
+  margin: 15px 0;
+}
+.brochure-before ul {
+  padding-left: 20px;
+  line-height: 1.8;
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 25px;
+}
+.brochure-before li {
+  margin-bottom: 12px;
+}
+.brochure-mobile-action {
+  display: none;
+}
+@media (max-width: 1100px) {
+  .brochure-tour-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .brochure-home-tours > article:last-child {
+    grid-column: 1/-1;
+  }
+  .brochure-detail-hero {
+    gap: 30px;
+    grid-template-columns: minmax(0, 1fr) 300px;
+  }
+}
+@media (max-width: 900px) {
+  .brochure-detail-hero {
+    grid-template-columns: 1fr;
+    padding-top: 25px;
+    gap: 30px;
+    padding-bottom: 35px;
+  }
+  .brochure-mobile-action {
+    display: flex;
+    position: fixed;
+    bottom: calc(10px + env(safe-area-inset-bottom));
+    left: 12px;
+    right: 12px;
+    z-index: 25;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 8px 10px 8px 18px;
+    border: 1px solid #ffffffa0;
+    border-radius: 24px;
+    background: #f8f7f2f5;
+    box-shadow: 0 5px 25px #25303220;
+  }
+  .brochure-mobile-action > div {
+    display: grid;
+    gap: 5px;
+    font-size: 13px;
+  }
+  .brochure-mobile-action span {
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .brochure-mobile-action .button {
+    min-height: 50px;
+    padding: 13px 20px;
+    font-size: 13px;
+  }
+  .brochure-before {
+    padding: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .brochure-tour-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .brochure-home-tours > article:last-child {
+    grid-column: auto;
+  }
+  .brochure-search {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 18px;
+    gap: 15px;
+  }
+  .brochure-search > div {
+    width: 100%;
+  }
+  .brochure-tour-card {
+    padding: 23px;
+  }
+  .brochure-card-top {
+    margin-bottom: 23px;
+  }
+  .brochure-detail h1 {
+    font-size: 46px;
+  }
+  .brochure-detail .breadcrumb {
+    flex-wrap: wrap;
+  }
+  .brochure-enquire {
+    padding: 23px;
+  }
+  .brochure-before h2 {
+    font-size: 29px;
+  }
+}

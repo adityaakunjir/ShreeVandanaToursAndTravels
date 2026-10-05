@@ -41,7 +41,7 @@ export default function Footer() {
         </div>
         <div>
           <h3>Find your way</h3>
-          <Link href="/packages">Tour collection</Link>
+          <Link href="/tours">Tour collection</Link>
           <Link href="/destinations">Destinations</Link>
           <Link href="/about">Our story</Link>
           <Link href="/services">Travel services</Link>

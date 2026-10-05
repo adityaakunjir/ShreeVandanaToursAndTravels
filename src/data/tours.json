@@ -1,0 +1,708 @@
+[
+  {
+    "slug": "kashi-gaya-prayag-ayodhya",
+    "name": "Kashi, Gaya, Prayag & Ayodhya",
+    "region": "India",
+    "theme": "Pilgrimage",
+    "summary": "A six-day journey through sacred river ghats, temples and the Buddhist heritage of Sarnath and Bodh Gaya.",
+    "stops": ["Prayagraj", "Ayodhya", "Varanasi", "Sarnath", "Gaya", "Patna"],
+    "days": [
+      {
+        "title": "Arrive in Prayagraj",
+        "description": "Arrive around noon, have lunch and visit Nishadraj Park. Stay overnight in Prayagraj."
+      },
+      {
+        "title": "Prayagraj to Ayodhya",
+        "description": "Visit Triveni Sangam and Bade Hanuman Temple before travelling to Ayodhya."
+      },
+      {
+        "title": "Ayodhya to Varanasi",
+        "description": "Visit Shri Ram Temple, Hanuman Garhi, Kanak Bhavan and Nageshwarnath Temple. Continue to Varanasi after lunch."
+      },
+      {
+        "title": "Varanasi temples and ghats",
+        "description": "Visit Kashi Vishwanath, Kal Bhairav and Sakshi Vinayak temples. Explore Namo Ghat and the river ghats, with an evening Ganga Aarti boat experience."
+      },
+      {
+        "title": "Varanasi to Gaya via Sarnath",
+        "description": "After breakfast, travel towards Gaya with a visit to Sarnath along the way."
+      },
+      {
+        "title": "Gaya, Bodh Gaya and Patna drop",
+        "description": "Visit Vishnupad Temple, the Mahabodhi area, lotus tank and Jagannath Temple. Continue to Patna after lunch for your onward journey."
+      }
+    ],
+    "includes": [
+      "Deluxe hotels on twin sharing",
+      "Luxury air-conditioned bus travel",
+      "Breakfast, lunch and dinner",
+      "Tea, coffee or milk",
+      "Entry fees",
+      "One litre of drinking water each day"
+    ],
+    "excludes": [
+      "Air and train fares",
+      "Pre- and post-tour accommodation",
+      "Personal expenses and additional beverages",
+      "Optional activities and services",
+      "Expenses arising from personal emergencies",
+      "Ropeways, boating and jungle safari charges unless confirmed"
+    ],
+    "notes": [
+      "The tour outline lists onward departures from Patna after 9 pm; confirm your arrival and departure arrangements with the team.",
+      "The itinerary mentions a boat experience while the exclusions list boating charges. Ask the team to confirm its inclusion."
+    ]
+  },
+  {
+    "slug": "shimla-kullu-manali",
+    "name": "Shimla, Kullu & Manali",
+    "region": "India",
+    "theme": "Mountains",
+    "summary": "Eight days of hill towns, Himalayan views and time to explore Shimla and Manali.",
+    "stops": ["Delhi", "Chandigarh", "Shimla", "Kullu", "Manali"],
+    "days": [
+      {
+        "title": "Delhi to Chandigarh",
+        "description": "Meet at Delhi airport or railway station in the morning and travel to Chandigarh. Overnight in Chandigarh."
+      },
+      {
+        "title": "Chandigarh to Shimla",
+        "description": "Visit Rock Garden and Sukhna Lake before travelling to Shimla."
+      },
+      {
+        "title": "Kufri and Shimla",
+        "description": "Explore Kufri and Fagu Valley, then spend the evening around the Mall and the Ridge."
+      },
+      {
+        "title": "Shimla to Manali",
+        "description": "Travel to Manali, stopping at a Kullu shawl factory en route. Evening at leisure."
+      },
+      {
+        "title": "Manali sightseeing",
+        "description": "Visit Hadimba Temple, Manu Temple and Club House, with time around the Mall."
+      },
+      {
+        "title": "Atal Tunnel and Solang Valley",
+        "description": "Explore the Atal Tunnel area, Solang Valley and a snow point when access and conditions permit."
+      },
+      {
+        "title": "Manali to Chandigarh via Kullu",
+        "description": "Travel through Kullu, with optional river rafting at additional cost, and continue to Chandigarh."
+      },
+      {
+        "title": "Chandigarh to Delhi",
+        "description": "Return to Delhi for your onward flight or train."
+      }
+    ],
+    "includes": [
+      "Deluxe hotels on twin sharing",
+      "Air-conditioned bus travel",
+      "Breakfast, lunch and dinner",
+      "Tea, coffee or milk",
+      "Entry fees",
+      "One litre of drinking water each day"
+    ],
+    "excludes": [
+      "Air and train fares",
+      "Pre- and post-tour accommodation",
+      "Personal expenses and additional beverages",
+      "Optional activities and services",
+      "Expenses arising from personal emergencies",
+      "Ropeways, boating and adventure activities"
+    ],
+    "notes": [
+      "Atal Tunnel, snow points and mountain roads depend on weather and local operating conditions."
+    ]
+  },
+  {
+    "slug": "darjeeling-gangtok-pelling",
+    "name": "Darjeeling, Gangtok & Pelling",
+    "region": "India",
+    "theme": "Mountains",
+    "summary": "An eight-day eastern Himalayan circuit of monasteries, mountain viewpoints and tea country.",
+    "stops": ["Bagdogra", "Gangtok", "Namchi", "Pelling", "Darjeeling"],
+    "days": [
+      {
+        "title": "Bagdogra to Gangtok",
+        "description": "Arrive at Bagdogra, with a suggested morning arrival, and transfer to Gangtok."
+      },
+      {
+        "title": "Gangtok sightseeing",
+        "description": "Explore Banjhakri Falls, the Institute of Tibetology, Ganesh Tok, viewpoints and local craft attractions."
+      },
+      {
+        "title": "Tsomgo Lake and Baba Mandir",
+        "description": "Visit Tsomgo Lake and Baba Mandir. A Nathu La excursion depends on permits and access."
+      },
+      {
+        "title": "Gangtok to Pelling via Namchi",
+        "description": "Visit the Char Dham temple complex and Buddha Park on the journey to Pelling."
+      },
+      {
+        "title": "Pelling sightseeing",
+        "description": "Explore the Skywalk, Rabdentse ruins and Pemayangtse Monastery."
+      },
+      {
+        "title": "Pelling to Darjeeling",
+        "description": "Travel to Darjeeling. An optional toy-train ride to Ghoom can be discussed with the team."
+      },
+      {
+        "title": "Darjeeling viewpoints and tea country",
+        "description": "Make an early visit to Tiger Hill, weather permitting, followed by Ghoom Monastery, Batasia Loop, the Himalayan Mountaineering Institute and tea-estate sights."
+      },
+      {
+        "title": "Darjeeling to Bagdogra",
+        "description": "Return to Bagdogra for your onward flight. Confirm flight timing before booking."
+      }
+    ],
+    "includes": [
+      "Breakfast, lunch and dinner",
+      "Tea, coffee or milk",
+      "Entry fees",
+      "One litre of drinking water each day",
+      "Transfers by six-seater SUV"
+    ],
+    "excludes": [
+      "Air and train fares",
+      "Pre- and post-tour accommodation",
+      "Personal expenses and additional beverages",
+      "Optional activities and services",
+      "Expenses arising from personal emergencies",
+      "Ropeways, boating, safari and optional toy-train charges"
+    ],
+    "notes": [
+      "Nathu La requires permission; mountain viewpoints depend on clear weather.",
+      "Hotel category and room arrangements are not specified in the tour outline inclusion list and must be confirmed."
+    ]
+  },
+  {
+    "slug": "kashmir-amritsar-vaishno-devi",
+    "name": "Kashmir, Amritsar & Vaishno Devi",
+    "region": "India",
+    "theme": "Mountains & pilgrimage",
+    "summary": "A ten-day route combining Amritsar and Vaishno Devi with the valleys and lakes of Kashmir.",
+    "stops": [
+      "Amritsar",
+      "Katra",
+      "Srinagar",
+      "Gulmarg",
+      "Pahalgam",
+      "Sonmarg"
+    ],
+    "days": [],
+    "includes": [
+      "Deluxe hotels on twin sharing",
+      "Breakfast, lunch and dinner",
+      "Tea, coffee or milk",
+      "Entry fees",
+      "One-hour Shikara ride on Dal Lake",
+      "Jeep charges for Aru Valley in Pahalgam",
+      "One litre of drinking water each day",
+      "Non-air-conditioned 2×1 Tempo Traveller"
+    ],
+    "excludes": [
+      "Air and train fares",
+      "Pre- and post-tour accommodation",
+      "Personal expenses and additional beverages",
+      "Optional activities and services",
+      "Expenses arising from personal emergencies",
+      "Pony or jeep activities at Sonmarg"
+    ],
+    "notes": [
+      "The tour outline specifies 10 days but does not include a daily itinerary. Request the confirmed day-by-day plan on WhatsApp."
+    ],
+    "duration": 10,
+    "highlights": [
+      "Amritsar: Golden Temple, Jallianwala Bagh and the Attari–Wagah border",
+      "Katra: Maa Vaishno Devi Temple",
+      "Srinagar: Mughal gardens, Dal Lake and Shankaracharya Hill",
+      "Gulmarg: mountain scenery and a gondola excursion to discuss with the team",
+      "Pahalgam: Betaab Valley and Aru Valley",
+      "Sonmarg: glacier-point excursion options"
+    ]
+  },
+  {
+    "slug": "pithapur-kuravpur",
+    "name": "Pithapur & Kuravpur Yatra",
+    "region": "India",
+    "theme": "Pilgrimage",
+    "summary": "An eight-day pilgrimage from Pune through Kuravpur, Srisailam and Pithapuram.",
+    "stops": [
+      "Pune",
+      "Raichur",
+      "Kuravpur",
+      "Srisailam",
+      "Vijayawada",
+      "Kakinada",
+      "Pithapuram"
+    ],
+    "days": [
+      {
+        "title": "Pune to Raichur and Kuravpur",
+        "description": "Travel overnight by train from Pune to Raichur. After arrival and lunch, visit Kuravpur for Shripad Shri Vallabha darshan."
+      },
+      {
+        "title": "Raichur to Srisailam",
+        "description": "Travel to Srisailam and stay overnight."
+      },
+      {
+        "title": "Akka Mahadevi Cave and Mallikarjuna",
+        "description": "Visit the Kardalivan foothill area up to Akka Mahadevi Cave, then Mallikarjuna Jyotirlinga Temple. Stay in Srisailam."
+      },
+      {
+        "title": "Srisailam to Vijayawada",
+        "description": "Continue to Vijayawada after breakfast and stay overnight."
+      },
+      {
+        "title": "Vijayawada to Kakinada",
+        "description": "Travel to Kakinada and visit Pithapuram for the Palkhi ceremony."
+      },
+      {
+        "title": "Pithapuram and Annavaram",
+        "description": "Visit Pithapuram for darshan and continue to Annavaram after lunch. Stay in Kakinada."
+      },
+      {
+        "title": "Return train journey",
+        "description": "Depart from Kakinada by train. Confirm the current service and timetable with the team."
+      },
+      {
+        "title": "Arrive in Pune",
+        "description": "Return to Pune, where the yatra concludes."
+      }
+    ],
+    "includes": [
+      "Standard hotels on twin sharing",
+      "Internal transfers and sightseeing by air-conditioned vehicle, with smaller vehicles or boats where needed",
+      "Vegetarian breakfast, lunch and dinner on days 1–6; packed breakfast on day 7",
+      "Listed sightseeing entry fees",
+      "Tour escort from Pune to Pune",
+      "Daily drinking water on days 1–7, except infants",
+      "Porter charges except at Pune and Mumbai"
+    ],
+    "excludes": [
+      "Air and train fares",
+      "Pre- and post-tour accommodation",
+      "Personal expenses and additional beverages",
+      "Optional activities and services",
+      "Expenses arising from personal emergencies",
+      "Insurance",
+      "Upgrades and optional services"
+    ],
+    "notes": [
+      "Train numbers and times in the tour outline require reconfirmation before travel.",
+      "Tax treatment and the final total will be confirmed in your quotation."
+    ]
+  },
+  {
+    "slug": "dubai-abu-dhabi",
+    "name": "Dubai & Abu Dhabi",
+    "region": "United Arab Emirates",
+    "theme": "City & desert",
+    "summary": "Six days of city landmarks, a desert safari and an Abu Dhabi excursion, with five nights in Dubai.",
+    "stops": ["Dubai", "Abu Dhabi"],
+    "days": [
+      {
+        "title": "Mumbai to Dubai",
+        "description": "Meet the team at Mumbai International Airport, fly to the UAE and transfer to your Dubai hotel."
+      },
+      {
+        "title": "Dubai landmarks",
+        "description": "Explore Jumeirah Beach and city photo stops, Dubai Frame and the Museum of the Future exterior. Visit Dubai Mall and Burj Khalifa’s 124th floor."
+      },
+      {
+        "title": "Desert safari",
+        "description": "Set out for a four-wheel-drive desert safari followed by an evening programme and dinner."
+      },
+      {
+        "title": "Abu Dhabi and dhow cruise",
+        "description": "Visit Sheikh Zayed Grand Mosque and Abu Dhabi city sights, with a Ferrari World photo stop. Enjoy an evening dhow cruise with dinner."
+      },
+      {
+        "title": "The Palm, Miracle Garden and Global Village",
+        "description": "Visit The View at The Palm, followed by Miracle Garden and Global Village when operating."
+      },
+      {
+        "title": "Limousine ride, shopping and departure",
+        "description": "Enjoy a limousine ride and time at Mina Bazaar before transferring to the airport."
+      }
+    ],
+    "includes": [
+      "Pune–Mumbai return airport bus transfers",
+      "Mumbai–UAE return economy airfare as specified in the final plan",
+      "Visa and OTB charges for the tour",
+      "Five nights in a four-star or similar hotel",
+      "Five breakfasts, five lunches and five dinners",
+      "Airport transfers and listed sightseeing tickets",
+      "Tour coordination",
+      "Listed parking, permits and Dubai tourism charges",
+      "Daily drinking water"
+    ],
+    "excludes": [
+      "Personal expenses and additional beverages",
+      "Optional activities unless expressly included",
+      "Changes caused by weather, transport disruption or emergencies",
+      "Items not specified in your confirmed quotation",
+      "Travel insurance",
+      "Applicable taxes as confirmed in your quotation"
+    ],
+    "notes": [
+      "Seasonal attractions, flight airport, fountain show and cruise arrangements require confirmation for your travel dates.",
+      "Museum of the Future and Ferrari World are photo stops, not entry visits."
+    ]
+  },
+  {
+    "slug": "nepal",
+    "name": "Nepal",
+    "region": "Nepal",
+    "theme": "Culture & nature",
+    "summary": "Eight days linking Kathmandu’s sacred sites, Pokhara’s lakes and Chitwan’s jungle experiences.",
+    "stops": ["Kathmandu", "Pokhara", "Chitwan"],
+    "days": [
+      {
+        "title": "Mumbai to Kathmandu",
+        "description": "Fly from Mumbai, transfer to the hotel and settle in."
+      },
+      {
+        "title": "Kathmandu to Pokhara",
+        "description": "Travel to Pokhara, with a cable-car visit to Manakamana Temple along the way."
+      },
+      {
+        "title": "Pokhara sightseeing",
+        "description": "Enjoy Phewa Lake and Barahi Temple, then visit Bindhyabasini Temple, Seti Gorge, Davis Falls and Gupteshwar Cave."
+      },
+      {
+        "title": "Pokhara to Chitwan",
+        "description": "Travel to Chitwan and enjoy a Tharu cultural show in the evening."
+      },
+      {
+        "title": "Chitwan jungle experiences",
+        "description": "The source lists a safari, canoeing on the Rapti River, a jungle walk and a breeding-centre visit. Confirm the activity arrangements with the team."
+      },
+      {
+        "title": "Chitwan to Kathmandu",
+        "description": "Return to Kathmandu and visit Pashupatinath Temple."
+      },
+      {
+        "title": "Kathmandu valley",
+        "description": "Visit Budhanilkantha, Swayambhunath and Bhaktapur. An optional mountain flight is available at additional cost."
+      },
+      {
+        "title": "Kathmandu to Mumbai",
+        "description": "Transfer to the airport for your return flight."
+      }
+    ],
+    "includes": [
+      "Pune–Mumbai return airport bus service",
+      "Mumbai–Kathmandu return economy airfare",
+      "Three nights in Kathmandu, two in Pokhara and two in Chitwan in three-/four-star or similar hotels",
+      "Meals as listed in the itinerary",
+      "Listed entry fees and permits",
+      "Manakamana cable car and Phewa Lake boat ticket",
+      "Listed Chitwan activities and cultural show",
+      "Daily drinking water",
+      "Private air-conditioned transfers and sightseeing",
+      "Tour coordination"
+    ],
+    "excludes": [
+      "Personal expenses and additional beverages",
+      "Optional activities unless expressly included",
+      "Changes caused by weather, transport disruption or emergencies",
+      "Items not specified in your confirmed quotation",
+      "Optional mountain flight",
+      "Applicable taxes as confirmed in your quotation"
+    ],
+    "notes": [
+      "The tour outline specifies an elephant safari. Confirm the current safari format and activity choices with the team."
+    ]
+  },
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "region": "Sri Lanka",
+    "theme": "Culture & coast",
+    "summary": "Eight days through Colombo, the cultural triangle, hill-country tea estates and Bentota’s coast.",
+    "stops": [
+      "Colombo",
+      "Dambulla",
+      "Sigiriya",
+      "Kandy",
+      "Nuwara Eliya",
+      "Bentota"
+    ],
+    "days": [
+      {
+        "title": "Mumbai to Colombo",
+        "description": "Fly to Colombo, transfer to the hotel and explore the city as arrival timing allows."
+      },
+      {
+        "title": "Colombo to Dambulla",
+        "description": "Visit Pinnawala and the Dambulla Cave and Golden Temple area en route to Dambulla."
+      },
+      {
+        "title": "Sigiriya and Kandy",
+        "description": "Explore the Sigiriya area before continuing to Kandy, with a cultural show and Temple of the Tooth visit."
+      },
+      {
+        "title": "Kandy to Nuwara Eliya",
+        "description": "Travel through Ramboda, visiting the Hanuman Temple, waterfall and a tea factory."
+      },
+      {
+        "title": "Nuwara Eliya sightseeing",
+        "description": "Visit Sita Amman Temple, Hakgala Botanical Garden and Gregory Lake."
+      },
+      {
+        "title": "Hill country to Bentota",
+        "description": "Travel through tea country and waterfall viewpoints towards Bentota. Optional rafting at Kitulgala is at additional cost."
+      },
+      {
+        "title": "Bentota coast",
+        "description": "Enjoy a Madu River boat ride and a turtle-hatchery visit. Water sports are optional and charged separately."
+      },
+      {
+        "title": "Colombo and departure",
+        "description": "Return towards Colombo, with time for city sights and shopping before the airport drop."
+      }
+    ],
+    "includes": [
+      "Pune–Mumbai return airport transfers",
+      "Mumbai–Colombo return economy airfare",
+      "Sri Lanka visa fees",
+      "Four-star hotels on twin sharing",
+      "Meals as specified in the itinerary",
+      "Air-conditioned coach travel",
+      "Listed parking and permits",
+      "Listed sightseeing entry fees, subject to the exclusions",
+      "Guide, driver and restaurant tips",
+      "Tour manager and English-speaking local guide",
+      "Travel kit and insurance for ages 1–59",
+      "Daily drinking water"
+    ],
+    "excludes": [
+      "Personal expenses and additional beverages",
+      "Optional activities unless expressly included",
+      "Changes caused by weather, transport disruption or emergencies",
+      "Items not specified in your confirmed quotation",
+      "Sigiriya Fort entry",
+      "Rafting and other water sports",
+      "Applicable taxes as confirmed in your quotation"
+    ],
+    "notes": [
+      "Sigiriya Fort and water sports appear in sightseeing descriptions but are separately excluded in the tour outline. Confirm your selected activities and their costs."
+    ]
+  },
+  {
+    "slug": "kerala-kanyakumari",
+    "name": "Kerala & Kanyakumari",
+    "region": "India",
+    "theme": "Coast & nature",
+    "summary": "Nine days of temple towns, backwaters, spice gardens and Munnar’s tea-covered hills.",
+    "stops": [
+      "Kochi",
+      "Guruvayur",
+      "Kaladi",
+      "Thiruvananthapuram",
+      "Kanyakumari",
+      "Alappuzha",
+      "Thekkady",
+      "Munnar"
+    ],
+    "days": [
+      {
+        "title": "Kochi to Guruvayur",
+        "description": "Arrive at Kochi and travel to Guruvayur for a visit to Shri Krishna Temple."
+      },
+      {
+        "title": "Guruvayur, Kaladi and Kochi",
+        "description": "Visit Kaladi, then explore Mattancherry, St Francis Church and Dutch Palace in Kochi."
+      },
+      {
+        "title": "Kochi to Thiruvananthapuram",
+        "description": "Travel via the Kumarakom area and spend the evening at Kovalam Beach."
+      },
+      {
+        "title": "Kanyakumari excursion",
+        "description": "Visit Vivekananda Rock Memorial, Kanyakumari Temple, the sea confluence, Gandhi Mandapam and the wax museum. Return to Thiruvananthapuram."
+      },
+      {
+        "title": "Thiruvananthapuram to Alappuzha",
+        "description": "Visit Padmanabhaswamy Temple, then continue to Alappuzha for a backwater boat ride."
+      },
+      {
+        "title": "Alappuzha to Thekkady",
+        "description": "Explore spice-growing country and enjoy a Kathakali show. An Ayurvedic massage is optional at additional cost."
+      },
+      {
+        "title": "Thekkady to Munnar",
+        "description": "Travel through the hills to Munnar and visit Eravikulam National Park, subject to access."
+      },
+      {
+        "title": "Munnar sightseeing",
+        "description": "Explore tea plantations, gardens, the Tea Museum and a chocolate factory."
+      },
+      {
+        "title": "Munnar to Kochi",
+        "description": "Return to Kochi Airport for your onward journey."
+      }
+    ],
+    "includes": [
+      "Return economy airfare and airport taxes as confirmed",
+      "Accommodation on twin sharing",
+      "Tour manager",
+      "Meals according to the itinerary",
+      "One litre of drinking water each day",
+      "Transfers and sightseeing by coach or car as specified",
+      "Listed parking, tolls and permits",
+      "Listed sightseeing entry fees",
+      "Mattancherry boat ride and backwater Shikara ride",
+      "Kathakali show",
+      "Eravikulam permit and entry"
+    ],
+    "excludes": [
+      "Personal expenses and additional beverages",
+      "Optional activities unless expressly included",
+      "Changes caused by weather, transport disruption or emergencies",
+      "Items not specified in your confirmed quotation",
+      "Travel insurance",
+      "Meals outside the itinerary",
+      "Ayurvedic massage",
+      "Applicable taxes as confirmed in your quotation"
+    ],
+    "notes": [
+      "National park access and sightseeing arrangements depend on operating conditions."
+    ]
+  },
+  {
+    "slug": "royal-bhutan",
+    "name": "Royal Bhutan",
+    "region": "Bhutan",
+    "theme": "Culture & mountains",
+    "summary": "Eight days through Bhutan’s valleys, monasteries and mountain passes, starting and ending at Bagdogra.",
+    "stops": ["Bagdogra", "Phuentsholing", "Thimphu", "Punakha", "Paro"],
+    "days": [
+      {
+        "title": "Bagdogra to Phuentsholing",
+        "description": "Arrive at Bagdogra and travel to Phuentsholing. Evening at leisure."
+      },
+      {
+        "title": "Phuentsholing to Thimphu",
+        "description": "Complete the permit process and travel to Thimphu via Gedu and the river confluence at Chojum."
+      },
+      {
+        "title": "Thimphu sightseeing",
+        "description": "Visit Memorial Chorten and Tashichho Dzong viewpoints, Buddha Dordenma and the Takin reserve."
+      },
+      {
+        "title": "Thimphu to Punakha",
+        "description": "Cross Dochula Pass and visit Punakha Dzong. Stay in Punakha."
+      },
+      {
+        "title": "Punakha to Paro",
+        "description": "Travel to Paro and explore Paro Dzong, the airport viewpoint and town."
+      },
+      {
+        "title": "Chele La or Tiger’s Nest",
+        "description": "Choose the Chele La excursion or discuss an optional Tiger’s Nest trek. Visit the museum and Kyichu Monastery as arranged."
+      },
+      {
+        "title": "Paro to Phuentsholing",
+        "description": "Return to the border town, with time for shopping."
+      },
+      {
+        "title": "Phuentsholing to Bagdogra",
+        "description": "Transfer to Bagdogra Airport for the return journey."
+      }
+    ],
+    "includes": [
+      "Deluxe hotels on twin sharing",
+      "Breakfast, lunch and dinner",
+      "Tea, coffee or milk",
+      "Bhutan SDF charges as specified in the confirmed quote",
+      "Entry fees",
+      "One litre of drinking water each day",
+      "Non-air-conditioned 2×1 Tempo Traveller",
+      "Professional Bhutanese guide"
+    ],
+    "excludes": [
+      "Air and train fares",
+      "Pre- and post-tour accommodation",
+      "Personal expenses and additional beverages",
+      "Optional activities and services",
+      "Expenses arising from personal emergencies"
+    ],
+    "notes": [
+      "Permits, SDF arrangements and required travel documents must be confirmed for your dates.",
+      "Chele La and Tiger’s Nest are alternative day options in the tour outline; trekking requirements and extra charges need confirmation."
+    ]
+  },
+  {
+    "slug": "egypt-hurghada",
+    "name": "Egypt with Hurghada",
+    "region": "Egypt",
+    "theme": "History & coast",
+    "summary": "Nine days of Cairo landmarks, a Nile cruise and time on the Red Sea coast at Hurghada.",
+    "stops": [
+      "Cairo",
+      "Alexandria",
+      "Aswan",
+      "Abu Simbel",
+      "Kom Ombo",
+      "Edfu",
+      "Luxor",
+      "Hurghada"
+    ],
+    "days": [
+      {
+        "title": "Arrive in Cairo",
+        "description": "Arrive in Cairo, visit the Egyptian Museum and enjoy city views from Cairo Tower as scheduled."
+      },
+      {
+        "title": "Alexandria excursion",
+        "description": "Visit the Catacombs, Qaitbay Citadel exterior, Alexandria Library and Stanley Bridge. Return to Cairo."
+      },
+      {
+        "title": "Giza and Cairo",
+        "description": "Explore the Giza pyramids, Sphinx and Valley Temple, with museum and shopping visits and a sound-and-light programme."
+      },
+      {
+        "title": "Cairo to Aswan and Nile cruise",
+        "description": "Fly to Aswan, visit the High Dam and Unfinished Obelisk, then board the Nile cruise."
+      },
+      {
+        "title": "Abu Simbel and Kom Ombo",
+        "description": "Visit Abu Simbel’s temples, then sail to Kom Ombo and explore its temple."
+      },
+      {
+        "title": "Edfu and Luxor",
+        "description": "Visit the Temple of Horus in Edfu and continue towards Luxor for Karnak Temple."
+      },
+      {
+        "title": "Luxor to Hurghada",
+        "description": "Disembark, visit the Valley of the Kings, Hatshepsut Temple and Colossi of Memnon, then travel to Hurghada."
+      },
+      {
+        "title": "Hurghada and the Red Sea",
+        "description": "Take a dolphin-watching cruise and spend the rest of the day at leisure."
+      },
+      {
+        "title": "Hurghada to Cairo and departure",
+        "description": "Return towards Cairo for your flight home."
+      }
+    ],
+    "includes": [
+      "Meals as listed in the itinerary",
+      "Visa charges and airport taxes",
+      "Return economy airfare",
+      "Listed sightseeing entry fees",
+      "Overseas insurance for adults up to age 60, with any age-related difference charged separately"
+    ],
+    "excludes": [
+      "Personal expenses, laundry, telephone charges, shopping and additional beverages",
+      "Any required medical testing",
+      "Insurance difference for travellers above 60"
+    ],
+    "notes": [
+      "The document lists 1–9 November 2026. Ask our team to confirm whether this departure is operating and available.",
+      "Hotel and cruise category, internal flight arrangements and final inclusions must be confirmed in your quotation."
+    ]
+  }
+]

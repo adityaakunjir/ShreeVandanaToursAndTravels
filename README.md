@@ -100,3 +100,7 @@ Latest verification: both automatic embeds rendered without an activation button
 SEO verification: nine public collection/detail pages expose nonempty page-specific descriptions and one BreadcrumbList matching visible navigation. Demo packages remain noindex/nofollow and excluded from sitemap. Lint/types/production build pass. GitHub workflow preference is recorded in AGENTS.md: commit and normal push after each completed verified change.
 
 Tour-detail conversion update: direct save/share/shortlist controls and a mobile price/quote planning bar replace the generic dock on sample detail routes. All three detail pages pass overflow checks at 320/390/768/1440px; the contextual bar is visible only at mobile/tablet widths, no duplicate generic dock is mounted, copy-link reports success and the CTA opens the corresponding planner. Lint/types/production build pass. Real inventory remains deferred.
+
+## Company tours
+
+The owner-supplied TOURS.doc now powers eleven public tour outlines at /tours, each with a route, itinerary where supplied, inclusions/exclusions and direct WhatsApp enquiries. Prices, dates and availability are confirmed by the team; no online checkout or invented prices are shown. India/international and text search use shareable GET URLs. The original /packages area remains a separate labelled demo; navigation points to the real tour collection.
