@@ -1,0 +1,33 @@
+{
+  "source": "https://pagespeed.web.dev/analysis/https-shreevandanatoursandtravels-com/kca4ebko9x?form_factor=mobile",
+  "reportTime": "2026-10-05 23:28 Asia/Kolkata",
+  "url": "https://shreevandanatoursandtravels.com/",
+  "environment": "Emulated Moto G Power, slow 4G, Lighthouse 13.5.0, initial load",
+  "scores": {
+    "performance": 91,
+    "accessibility": 100,
+    "bestPractices": 100,
+    "seo": 100
+  },
+  "metrics": {
+    "firstContentfulPaintSeconds": 1.6,
+    "largestContentfulPaintSeconds": 3.1,
+    "totalBlockingTimeMs": 0,
+    "cumulativeLayoutShift": 0,
+    "speedIndexSeconds": 4.3
+  },
+  "fieldData": "No Data",
+  "scope": "Single homepage lab run before destination-image quality change; does not prove field Core Web Vitals, all-page performance, full accessibility or rankings.",
+  "imageResponseComparisons": {
+    "format": "WebP",
+    "width": 750,
+    "darjeeling": {
+      "quality75Bytes": 125392,
+      "quality60Bytes": 108078
+    },
+    "kerala": {
+      "quality75Bytes": 94522,
+      "quality60Bytes": 81080
+    }
+  }
+}

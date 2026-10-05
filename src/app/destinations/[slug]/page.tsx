@@ -72,6 +72,7 @@ export default async function DestinationPage({
             <Image
               src={`/assets/images/${destination.image}`}
               fill
+              quality={60}
               sizes="(max-width:900px) calc(100vw - 40px), 550px"
               alt={
                 photos.find((photo) => photo.slug === destination.tourSlug)

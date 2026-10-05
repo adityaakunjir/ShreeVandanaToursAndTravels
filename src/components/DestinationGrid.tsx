@@ -24,6 +24,7 @@ export default function DestinationGrid({
                   ?.alt || destination.name
               }
               fill
+              quality={60}
               sizes="(max-width:640px) calc(100vw - 40px), (max-width:900px) 45vw, 380px"
             />
             <span className="travel-tag">{destination.tag}</span>
