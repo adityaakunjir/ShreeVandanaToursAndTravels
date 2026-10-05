@@ -1,0 +1,137 @@
+import assert from 'node:assert/strict';
+import { spawn } from 'node:child_process';
+import { createServer } from 'node:net';
+import { fileURLToPath } from 'node:url';
+import { once } from 'node:events';
+
+// Use a separate ephemeral local server; leave the user's preview untouched.
+const probe = createServer();
+probe.listen(0, '127.0.0.1');
+await once(probe, 'listening');
+const port = probe.address().port;
+await new Promise((resolve, reject) =>
+  probe.close((error) => (error ? reject(error) : resolve())),
+);
+const next = fileURLToPath(
+  new URL('../node_modules/next/dist/bin/next', import.meta.url),
+);
+const server = spawn(
+  process.execPath,
+  [next, 'start', '--hostname', '127.0.0.1', '--port', String(port)],
+  {
+    cwd: fileURLToPath(new URL('..', import.meta.url)),
+    windowsHide: true,
+    env: {
+      ...process.env,
+      NODE_ENV: 'production',
+      TRAVEL_DEMO_MODE: 'false',
+      NEXT_TELEMETRY_DISABLED: '1',
+    },
+    stdio: ['ignore', 'pipe', 'pipe'],
+  },
+);
+let output = '';
+const exited = once(server, 'exit');
+try {
+  await new Promise((resolve, reject) => {
+    const timeout = setTimeout(
+      () => reject(new Error('Production server startup timed out.')),
+      45000,
+    );
+    const finish = (error) => {
+      clearTimeout(timeout);
+      error ? reject(error) : resolve();
+    };
+    server.on('error', finish);
+    server.once('exit', (code) =>
+      finish(
+        new Error(
+          `Production server exited during startup (${code}). ${output}`,
+        ),
+      ),
+    );
+    server.stdout.on('data', (chunk) => {
+      output += chunk;
+      if (output.includes('Ready in')) finish();
+    });
+    server.stderr.on('data', (chunk) => {
+      output += chunk;
+    });
+  });
+  async function read(path, status = 200) {
+    const response = await fetch(`http://127.0.0.1:${port}${path}`, {
+      signal: AbortSignal.timeout(10000),
+      redirect: 'manual',
+    });
+    assert.equal(response.status, status, `${path} should return ${status}`);
+    return response.text();
+  }
+  const publicRoutes = [
+    '/',
+    '/about',
+    '/services',
+    '/gallery',
+    '/contact',
+    '/faq',
+    '/enquire',
+    '/destinations',
+    '/destinations/venice',
+    '/destinations/dubai',
+    '/destinations/kyoto',
+  ];
+  const descriptions = new Set();
+  for (const path of publicRoutes) {
+    const html = await read(path);
+    assert.match(html, /<h1[\s>]/, `${path} needs a visible heading`);
+    assert.match(
+      html,
+      /<link rel="canonical" href="https?:\/\//,
+      `${path} needs an absolute canonical`,
+    );
+    const description = html.match(
+      /<meta name="description" content="([^"]+)"/,
+    );
+    assert.ok(description?.[1], `${path} needs a description`);
+    assert.ok(
+      !descriptions.has(description[1]),
+      `${path} must not inherit another page description`,
+    );
+    descriptions.add(description[1]);
+    if (path !== '/' && path !== '/enquire')
+      assert.match(
+        html,
+        /"@type":"BreadcrumbList"/,
+        `${path} needs breadcrumb structured data`,
+      );
+    console.log(`PASS ${path}`);
+  }
+  for (const path of ['/packages', '/packages/saved', '/packages/compare']) {
+    const html = await read(path);
+    assert.match(html, /<meta name="robots" content="noindex, nofollow"/);
+    assert.doesNotMatch(
+      html,
+      /39,900|69,900|Dubai, beyond the skyline|Venice, at your own pace|Kyoto, a quieter discovery/,
+    );
+    console.log(`PASS demo off ${path}`);
+  }
+  for (const slug of [
+    'dubai-city-and-desert',
+    'venice-at-your-pace',
+    'kyoto-culture-and-gardens',
+  ]) {
+    await read(`/packages/${slug}`, 404);
+    await read(`/packages/${slug}/plan`, 404);
+  }
+  await read('/destinations/not-a-destination', 404);
+  const filtered = await read('/destinations?q=Japan');
+  assert.match(filtered, /<meta name="robots" content="noindex, follow"/);
+  const sitemap = await read('/sitemap.xml');
+  assert.doesNotMatch(sitemap, /\/packages/);
+  await read('/robots.txt');
+  console.log(
+    'PASS production smoke: public metadata, 404s, filtered indexing and demo isolation.',
+  );
+} finally {
+  if (server.exitCode === null && server.signalCode === null) server.kill();
+  await exited;
+}

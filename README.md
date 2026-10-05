@@ -15,21 +15,28 @@ Open http://localhost:3000. No API keys or environment variables are required fo
 
 ## Commands
 
-| Command             | Purpose                                       |
-| ------------------- | --------------------------------------------- |
-| `npm run dev`       | Start the development server with webpack     |
-| `npm run lint`      | Check code style and React/Next.js rules      |
-| `npm run typecheck` | Check TypeScript throughout the app           |
-| `npm test`          | Test enquiry validation, dates and draft URLs |
-| `npm run check`     | Run lint and TypeScript checks                |
-| `npm run validate`  | Run checks, tests and production build        |
-| `npm run build`     | Create the production build                   |
-| `npm start`         | Serve an existing production build            |
-| `npm run format`    | Format source, tests and configuration        |
+| Command                    | Purpose                                       |
+| -------------------------- | --------------------------------------------- |
+| `npm run dev`              | Start the development server with webpack     |
+| `npm run lint`             | Check code style and React/Next.js rules      |
+| `npm run typecheck`        | Check TypeScript throughout the app           |
+| `npm test`                 | Test enquiry validation, dates and draft URLs |
+| `npm run check`            | Run lint and TypeScript checks                |
+| `npm run validate`         | Run checks, tests and production build        |
+| `npm run build`            | Create the production build                   |
+| `npm run smoke:production` | Verify an existing build with demos disabled  |
+| `npm start`                | Serve an existing production build            |
+| `npm run format`           | Format source, tests and configuration        |
 
 Stop the dev server before production build/start to avoid competing use of `.next` output. A Node.js deployment is required for the dynamic enquiry page and image optimisation. Build with `npm ci` and `npm run validate`; run with `npm start`. Configure the deployment platform's port normally. This setup does not deploy or publish anything automatically.
 
 ## Content and architecture
+
+### Automated GitHub checks
+
+`.github/workflows/quality.yml` runs on pushes to main and pull requests. It uses Node 24, locked dependency installation, lint/types, all unit tests, the production build and `smoke:production`. Official checkout/setup-node actions are pinned to reviewed commit hashes; the job has read-only repository permission and no deployment/payment secrets. The example.com build origin is a CI fixture, not the production domain.
+
+The smoke command starts and terminates its own temporary local server, leaving the port-3000 preview untouched. It checks all 11 public routes, unique descriptions, canonicals and applicable breadcrumb data; 404 handling; filtered destination noindex; and demo-off fallback/detail/planner isolation. It does not simulate actual bookings, external message delivery, payment providers or Google ranking. Run it after `npm run build`.
 
 ### Local tour and booking preview
 

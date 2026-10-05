@@ -12,6 +12,7 @@
     "validate": "npm run check && npm test && npm run build",
     "test": "node --experimental-strip-types --test tests/*.test.mjs",
     "catalogue:check": "node --experimental-strip-types scripts/check-catalogue.mjs",
+    "smoke:production": "node scripts/smoke-production.mjs",
     "format": "prettier --write src tests package.json next.config.mjs tsconfig.json eslint.config.mjs tailwind.config.js postcss.config.js README.md",
     "skills:sync": "prisma skills sync",
     "postinstall": "prisma skills sync || exit 0"
