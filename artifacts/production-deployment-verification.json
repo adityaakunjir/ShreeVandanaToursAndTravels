@@ -1,0 +1,21 @@
+{
+  "checkedDate": "2026-10-05",
+  "source": "Authenticated Vercel production overview and expanded Deployment Settings",
+  "projectUrl": "https://vercel.com/exynxs-projects/shree-vandana-tours-and-travels",
+  "deploymentId": "5f5jKRedvN7DHgkmQMhbJepMi4t4",
+  "status": "Ready",
+  "domain": "shreevandanatoursandtravels.com",
+  "branch": "main",
+  "commit": "1402adcc62d1df18e85bf00a5871a9a85b105fc4",
+  "nodeVersion": "24.x",
+  "fluidCompute": "Enabled",
+  "deploymentProtection": "Standard Protection",
+  "automaticProductionDeployment": "Push to main",
+  "unverified": [
+    "environment variable values",
+    "hosting plan eligibility",
+    "Search Console indexing and rankings",
+    "physical device performance",
+    "booking conversion"
+  ]
+}

@@ -6,7 +6,7 @@ A responsive Next.js website for the Pune travel business. It includes destinati
 
 Updated 5 October 2026. The public site has eleven owner-supplied tour outlines, five priority destination pages, ten additional destination WhatsApp links, red/ivory/charcoal branding and direct enquiries to +91 96652 38966. No public intake form, lead storage or checkout is implemented. Two Instagram reels load automatically with native lazy loading. Public tour details include itinerary jump links and one mobile enquiry bar. Layout and interaction checks are recorded in docs/TRAVEL_PLATFORM_PLAN.md; historical notes below are superseded where they differ.
 
-Canonical production URLs use https://shreevandanatoursandtravels.com. Live deployment is not verified because the signed-in Vercel account lacks access to the domain. Physical-device and throttled-network performance remains unmeasured. After runtime dependency cleanup, `npm audit --omit=dev` reports zero known findings. The full audit still reports 39 development/build-tool findings (three low, fourteen moderate, twenty-two high) requiring separate remediation. This does not establish that the application is free of security defects.
+Canonical production URLs use https://shreevandanatoursandtravels.com. Authenticated Vercel browser access confirms the live deployment and source commit; see the production verification section below. Physical-device and throttled-network performance remains unmeasured. After runtime dependency cleanup, `npm audit --omit=dev` reports zero known findings. The full audit still reports 39 development/build-tool findings (three low, fourteen moderate, twenty-two high) requiring separate remediation. This does not establish that the application is free of security defects.
 
 ## Local setup
 
@@ -115,7 +115,7 @@ The owner-supplied TOURS.doc now powers eleven public tour outlines at /tours, e
 
 The canonical production URL is `https://shreevandanatoursandtravels.com`. It is the shared default for metadata, structured data, robots and sitemap URLs. Set `NEXT_PUBLIC_SITE_URL` to this value in the intended Vercel project and keep `TRAVEL_DEMO_MODE=false`. Use Next.js framework detection, Node.js 24.x, `npm ci` and `npm run build`; no additional paid services are required by the application.
 
-The signed-in local Vercel account (`itvadsoft-1836`) does not have access to this domain or an existing Vandana project. Domain association and live deployment remain unverified. Do not create a duplicate project in that account. Vercel Hobby is restricted to personal, non-commercial use; a commercial travel business requires an appropriate hosting plan: https://vercel.com/docs/limits/fair-use-guidelines#commercial-usage.
+The signed-in local Vercel account (`itvadsoft-1836`) does not have access to this domain or an existing Vandana project. Browser access now verifies the domain association and live deployment; CLI authentication is separate. Do not create a duplicate project in that account. Vercel Hobby is restricted to personal, non-commercial use; a commercial travel business requires an appropriate hosting plan: https://vercel.com/docs/limits/fair-use-guidelines#commercial-usage.
 
 ## Destination photography
 
@@ -125,7 +125,7 @@ Eleven destination photographs are bundled locally as compressed WebP files and 
 
 On 5 October 2026 the public HTTPS domain responded successfully from this machine. Twenty-four public content routes plus robots.txt, sitemap.xml and /packages returned HTTP 200. All eleven tour pages contain the photo-led heading and primary WhatsApp links. Five destination pages expose their own destination social image. No localhost URL was found in those responses; the sitemap includes all eleven tours, and /packages remains noindex/nofollow without demo prices. Evidence: artifacts/production-route-audit.json. This supersedes earlier statements that public availability was unverified.
 
-The owner supplied https://vercel.com/exynxs-projects/shree-vandana-tours-and-travels as the hosting project. Its dashboard redirects to login in the available browser, and the local CLI account cannot access that scope. Deployment identity, environment configuration, hosting-plan eligibility and Search Console data remain unverified. Public HTTP checks do not prove a particular commit, performance under load, Google indexing/ranking or booking conversion.
+Authenticated browser access to https://vercel.com/exynxs-projects/shree-vandana-tours-and-travels was verified on 5 October 2026. The production overview identifies deployment 5f5jKRedvN7DHgkmQMhbJepMi4t4 as Ready, associates shreevandanatoursandtravels.com, and identifies main commit 1402adcc62d1df18e85bf00a5871a9a85b105fc4. The dashboard confirms pushes to main update production, Node.js 24.x, Fluid Compute enabled and standard deployment protection. The local CLI account remains separate from browser authentication. Environment values, hosting-plan eligibility, Search Console indexing/ranking, performance under load and booking conversion remain unverified. Evidence: artifacts/production-deployment-verification.json.
 
 ## Mobile lab baseline
 
