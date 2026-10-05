@@ -1,0 +1,274 @@
+{
+  "checkedAt": "2026-10-05T17:57:53.595Z",
+  "base": "https://shreevandanatoursandtravels.com",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com",
+      "hasWhatsapp": true,
+      "photoHeading": false,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/dubai-abu-dhabi.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/destinations",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/destinations",
+      "robots": "index, follow",
+      "hasWhatsapp": true,
+      "photoHeading": false,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/dubai-abu-dhabi.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/tours",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/tours",
+      "hasWhatsapp": true,
+      "photoHeading": false,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/dubai-abu-dhabi.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/about",
+      "hasWhatsapp": true,
+      "photoHeading": false,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/dubai-abu-dhabi.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/services",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/services",
+      "hasWhatsapp": true,
+      "photoHeading": false,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/dubai-abu-dhabi.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/gallery",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/gallery",
+      "hasWhatsapp": true,
+      "photoHeading": false,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/dubai-abu-dhabi.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/contact",
+      "hasWhatsapp": true,
+      "photoHeading": false,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/dubai-abu-dhabi.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/faq",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/faq",
+      "hasWhatsapp": true,
+      "photoHeading": false,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/dubai-abu-dhabi.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/destinations/dubai",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/destinations/dubai",
+      "hasWhatsapp": true,
+      "photoHeading": false,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/dubai-abu-dhabi.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/destinations/nepal",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/destinations/nepal",
+      "hasWhatsapp": true,
+      "photoHeading": false,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/nepal.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/destinations/kerala",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/destinations/kerala",
+      "hasWhatsapp": true,
+      "photoHeading": false,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/kerala-kanyakumari.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/destinations/kashmir",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/destinations/kashmir",
+      "hasWhatsapp": true,
+      "photoHeading": false,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/kashmir-amritsar-vaishno-devi.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/destinations/sikkim-darjeeling",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/destinations/sikkim-darjeeling",
+      "hasWhatsapp": true,
+      "photoHeading": false,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/darjeeling-gangtok-pelling.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/tours/kashi-gaya-prayag-ayodhya",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/tours/kashi-gaya-prayag-ayodhya",
+      "hasWhatsapp": true,
+      "photoHeading": true,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/kashi-gaya-prayag-ayodhya.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/tours/shimla-kullu-manali",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/tours/shimla-kullu-manali",
+      "hasWhatsapp": true,
+      "photoHeading": true,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/shimla-kullu-manali.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/tours/darjeeling-gangtok-pelling",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/tours/darjeeling-gangtok-pelling",
+      "hasWhatsapp": true,
+      "photoHeading": true,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/darjeeling-gangtok-pelling.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/tours/kashmir-amritsar-vaishno-devi",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/tours/kashmir-amritsar-vaishno-devi",
+      "hasWhatsapp": true,
+      "photoHeading": true,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/kashmir-amritsar-vaishno-devi.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/tours/pithapur-kuravpur",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/tours/pithapur-kuravpur",
+      "hasWhatsapp": true,
+      "photoHeading": true,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/pithapur-kuravpur.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/tours/dubai-abu-dhabi",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/tours/dubai-abu-dhabi",
+      "hasWhatsapp": true,
+      "photoHeading": true,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/dubai-abu-dhabi.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/tours/nepal",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/tours/nepal",
+      "hasWhatsapp": true,
+      "photoHeading": true,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/nepal.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/tours/sri-lanka",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/tours/sri-lanka",
+      "hasWhatsapp": true,
+      "photoHeading": true,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/sri-lanka.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/tours/kerala-kanyakumari",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/tours/kerala-kanyakumari",
+      "hasWhatsapp": true,
+      "photoHeading": true,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/kerala-kanyakumari.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/tours/royal-bhutan",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/tours/royal-bhutan",
+      "hasWhatsapp": true,
+      "photoHeading": true,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/royal-bhutan.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/tours/egypt-hurghada",
+      "status": 200,
+      "canonical": "https://shreevandanatoursandtravels.com/tours/egypt-hurghada",
+      "hasWhatsapp": true,
+      "photoHeading": true,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/egypt-hurghada.webp",
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "hasWhatsapp": false,
+      "photoHeading": false,
+      "hasLocalhost": false,
+      "hasDemoPrice": false
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "hasWhatsapp": false,
+      "photoHeading": false,
+      "hasLocalhost": false,
+      "hasDemoPrice": false,
+      "sitemapTours": true
+    },
+    {
+      "path": "/packages",
+      "status": 200,
+      "robots": "noindex, nofollow",
+      "hasWhatsapp": true,
+      "photoHeading": false,
+      "hasLocalhost": false,
+      "destinationSocial": "https://shreevandanatoursandtravels.com/assets/images/tours/dubai-abu-dhabi.webp",
+      "hasDemoPrice": false
+    }
+  ]
+}

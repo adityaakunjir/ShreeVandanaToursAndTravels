@@ -219,3 +219,9 @@ The [verified Maps listing](https://maps.app.goo.gl/7faKRoszRxDXsPMU9?g_st=ic) s
 ## Tour content update on 5 October 2026
 
 The owner supplied TOURS.doc and authorised adding its information. Eleven company tour outlines are now public at /tours, with searchable India/international collections, individual itineraries, inclusions/exclusions, mobile WhatsApp actions, breadcrumbs, unique metadata and sitemap entries. This supersedes the earlier statement that all company tour content is deferred. No prices, allocated seats or confirmed bookable departures were provided, so booking and supplier confirmation still happen with the team. Kashmir has highlights and duration without an invented daily plan. The three old sample /packages routes remain separate demos.
+
+## Public production verification
+
+On 5 October 2026 the public HTTPS domain responded successfully from this machine. Twenty-four public content routes plus robots.txt, sitemap.xml and /packages returned HTTP 200. All eleven tour pages contain the photo-led heading and primary WhatsApp links. Five destination pages expose their own destination social image. No localhost URL was found in those responses; the sitemap includes all eleven tours, and /packages remains noindex/nofollow without demo prices. Evidence: artifacts/production-route-audit.json. This supersedes earlier statements that public availability was unverified.
+
+The owner supplied https://vercel.com/exynxs-projects/shree-vandana-tours-and-travels as the hosting project. Its dashboard redirects to login in the available browser, and the local CLI account cannot access that scope. Deployment identity, environment configuration, hosting-plan eligibility and Search Console data remain unverified. Public HTTP checks do not prove a particular commit, performance under load, Google indexing/ranking or booking conversion.

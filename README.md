@@ -120,3 +120,9 @@ The signed-in local Vercel account (`itvadsoft-1836`) does not have access to th
 ## Destination photography
 
 Eleven destination photographs are bundled locally as compressed WebP files and rendered with responsive Next Image sizing. The collection is lazy-loaded; tour hero images are preloaded. Desktop parallax uses CSS view timelines only when supported and motion is permitted; mobile and reduced-motion users receive static images. Attribution, original sources, licence links and transformation details are recorded in `src/data/tour-photos.json` and shown at `/photo-credits`. The image licences apply to the photographs, independently of site source code. `node scripts/import-tour-photos.mjs` refreshes these explicitly selected assets; it is never a build dependency.
+
+## Public production verification
+
+On 5 October 2026 the public HTTPS domain responded successfully from this machine. Twenty-four public content routes plus robots.txt, sitemap.xml and /packages returned HTTP 200. All eleven tour pages contain the photo-led heading and primary WhatsApp links. Five destination pages expose their own destination social image. No localhost URL was found in those responses; the sitemap includes all eleven tours, and /packages remains noindex/nofollow without demo prices. Evidence: artifacts/production-route-audit.json. This supersedes earlier statements that public availability was unverified.
+
+The owner supplied https://vercel.com/exynxs-projects/shree-vandana-tours-and-travels as the hosting project. Its dashboard redirects to login in the available browser, and the local CLI account cannot access that scope. Deployment identity, environment configuration, hosting-plan eligibility and Search Console data remain unverified. Public HTTP checks do not prove a particular commit, performance under load, Google indexing/ranking or booking conversion.
