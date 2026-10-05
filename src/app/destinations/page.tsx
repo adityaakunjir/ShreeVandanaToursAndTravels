@@ -1,9 +1,10 @@
+import MoreDestinations from '@/components/MoreDestinations';
 import WhatsAppLink from '@/components/WhatsAppLink';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import DestinationGrid from '@/components/DestinationGrid';
 import { PageIntro, JourneyCTA } from '@/components/PageIntro';
-import { destinations } from '@/data/site';
+import { destinations, additionalDestinations } from '@/data/site';
 import { filterDestinations, searchValue } from '@/lib/discovery';
 type Props = {
   searchParams: Promise<{ q?: string | string[]; style?: string | string[] }>;
@@ -30,6 +31,12 @@ export default async function DestinationsPage({ searchParams }: Props) {
   const requestedStyle = searchValue(params.style);
   const style = styles.includes(requestedStyle) ? requestedStyle : '';
   const matches = filterDestinations(destinations, query, style);
+  const additionalMatches = style
+    ? []
+    : additionalDestinations.filter((name) =>
+        name.toLowerCase().includes(query.toLowerCase()),
+      );
+  const resultCount = matches.length + additionalMatches.length;
   return (
     <main>
       <PageIntro
@@ -37,7 +44,7 @@ export default async function DestinationsPage({ searchParams }: Props) {
         eyebrow="Discover destinations"
         title="Follow your curiosity."
         accent="Find your kind of escape."
-        description="A little inspiration for your next holiday. Every journey is personalised around your dates, interests and the people travelling with you."
+        description="Start with our most-booked destinations: Dubai, Nepal, Kerala, Kashmir and Sikkim–Darjeeling. Every holiday is personalised around your dates and interests."
       />
       <section className="section wrap">
         <form
@@ -56,7 +63,7 @@ export default async function DestinationsPage({ searchParams }: Props) {
               name="q"
               type="search"
               defaultValue={query}
-              placeholder="Try Dubai, Japan or canals"
+              placeholder="Try Dubai, Kerala or Darjeeling"
               maxLength={100}
             />
           </div>
@@ -75,8 +82,7 @@ export default async function DestinationsPage({ searchParams }: Props) {
         </form>
         <div className="discovery-results">
           <p>
-            {matches.length}{' '}
-            {matches.length === 1 ? 'destination' : 'destinations'}
+            {resultCount} {resultCount === 1 ? 'destination' : 'destinations'}
             {query ? ` matching “${query}”` : ' to inspire your next journey'}
             {style ? ` · ${style}` : ''}
           </p>
@@ -88,7 +94,7 @@ export default async function DestinationsPage({ searchParams }: Props) {
         </div>
         {matches.length ? (
           <DestinationGrid items={matches} />
-        ) : (
+        ) : additionalMatches.length ? null : (
           <div className="discovery-empty">
             <h2>Your journey can go beyond this collection.</h2>
             <p>
@@ -101,6 +107,7 @@ export default async function DestinationsPage({ searchParams }: Props) {
             </WhatsAppLink>
           </div>
         )}
+        {!style && <MoreDestinations query={query} />}
         <div className="destination-note">
           <span>
             Looking for a holiday in India, or somewhere beyond this collection?

@@ -24,10 +24,10 @@ export const metadata: Metadata = {
       'Our legacy. Your journey. Thoughtfully planned holidays from Pune.',
     images: [
       {
-        url: '/assets/images/hero-banner.jpg',
-        width: 1500,
-        height: 1000,
-        alt: 'Italian Riviera travel inspiration',
+        url: '/assets/images/tours/dubai-abu-dhabi.webp',
+        width: 1400,
+        height: 624,
+        alt: 'Dubai skyline at sunset',
       },
     ],
   },

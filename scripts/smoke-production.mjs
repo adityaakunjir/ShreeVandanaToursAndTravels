@@ -77,9 +77,11 @@ try {
     '/contact',
     '/faq',
     '/destinations',
-    '/destinations/venice',
+    '/destinations/nepal',
+    '/destinations/kerala',
+    '/destinations/kashmir',
+    '/destinations/sikkim-darjeeling',
     '/destinations/dubai',
-    '/destinations/kyoto',
   ];
   const enquiry = await fetch(
     `http://127.0.0.1:${port}/enquire?destination=Dubai`,
@@ -144,7 +146,7 @@ try {
     assert.match(html, /wa.me\/919665238966/);
     assert.doesNotMatch(html, /39,900|69,900|Preview planner|Book now/);
   }
-  const filtered = await read('/destinations?q=Japan');
+  const filtered = await read('/destinations?q=Nepal');
   assert.match(filtered, /<meta name="robots" content="noindex, follow"/);
   const sitemap = await read('/sitemap.xml');
   assert.doesNotMatch(sitemap, /\/(packages|enquire)/);

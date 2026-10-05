@@ -19,32 +19,68 @@ export const business = {
 
 export const destinations = [
   {
-    name: 'Venice',
-    slug: 'venice',
-    country: 'Italy',
-    image: 'popular-1.jpg',
-    tag: 'Slow & scenic',
-    description:
-      'Winding canals, timeless architecture and a little dolce vita.',
-  },
-  {
     name: 'Dubai',
     slug: 'dubai',
     country: 'United Arab Emirates',
-    image: 'popular-2.jpg',
+    image: 'tours/dubai-abu-dhabi.webp',
+    tourSlug: 'dubai-abu-dhabi',
     tag: 'City & adventure',
     description:
-      'A city of bold skylines, desert adventures and extraordinary experiences.',
+      'Bold skylines, desert experiences and time to explore Dubai and Abu Dhabi.',
   },
   {
-    name: 'Kyoto',
-    slug: 'kyoto',
-    country: 'Japan',
-    image: 'popular-3.jpg',
-    tag: 'Culture & discovery',
+    name: 'Nepal',
+    slug: 'nepal',
+    country: 'Nepal',
+    image: 'tours/nepal.webp',
+    tourSlug: 'nepal',
+    tag: 'Mountains & discovery',
     description:
-      'Timeless temples, quiet gardens and traditions worth travelling for.',
+      'Himalayan scenery, lakeside Pokhara and the culture of Kathmandu.',
   },
+  {
+    name: 'Kerala',
+    slug: 'kerala',
+    country: 'India',
+    image: 'tours/kerala-kanyakumari.webp',
+    tourSlug: 'kerala-kanyakumari',
+    tag: 'Nature & relaxation',
+    description:
+      'Munnar tea gardens, peaceful backwaters and tropical coastal escapes.',
+  },
+  {
+    name: 'Kashmir',
+    slug: 'kashmir',
+    country: 'India',
+    image: 'tours/kashmir-amritsar-vaishno-devi.webp',
+    tourSlug: 'kashmir-amritsar-vaishno-devi',
+    tag: 'Mountains & discovery',
+    description:
+      'Lakeside Srinagar, mountain valleys and beautiful scenery in the Kashmir region.',
+  },
+  {
+    name: 'Sikkim–Darjeeling',
+    slug: 'sikkim-darjeeling',
+    country: 'India',
+    image: 'tours/darjeeling-gangtok-pelling.webp',
+    tourSlug: 'darjeeling-gangtok-pelling',
+    tag: 'Mountains & discovery',
+    description:
+      'Darjeeling tea gardens, Gangtok and Pelling on a scenic Himalayan holiday.',
+  },
+];
+
+export const additionalDestinations = [
+  'Thailand',
+  'Bali',
+  'Singapore',
+  'Malaysia',
+  'Egypt',
+  'Azerbaijan',
+  'Ayodhya',
+  'Varanasi',
+  'Nainital',
+  'Jim Corbett',
 ];
 export const faqs = [
   {

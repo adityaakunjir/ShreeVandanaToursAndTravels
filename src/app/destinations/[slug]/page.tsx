@@ -2,6 +2,8 @@ import WhatsAppLink from '@/components/WhatsAppLink';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
+import Link from 'next/link';
+import photos from '@/data/tour-photos.json';
 import { ArrowUpRight, Check } from 'lucide-react';
 import { destinations } from '@/data/site';
 import { JourneyCTA } from '@/components/PageIntro';
@@ -53,11 +55,20 @@ export default async function DestinationPage({
               src={`/assets/images/${destination.image}`}
               fill
               sizes="(max-width:900px) calc(100vw - 40px), 550px"
-              alt={`${destination.name}, ${destination.country}`}
+              alt={
+                photos.find((photo) => photo.slug === destination.tourSlug)
+                  ?.alt || destination.name
+              }
               loading="eager"
             />
           </div>
           <div className="destination-detail-copy">
+            <Link
+              className="tour-card-credit"
+              href={`/photo-credits#${destination.tourSlug}`}
+            >
+              Destination photo credits
+            </Link>
             <p className="eyebrow">
               {destination.country} · {destination.tag}
             </p>
@@ -87,6 +98,10 @@ export default async function DestinationPage({
             <WhatsAppLink destination={destination.name} className="button">
               Plan my {destination.name} trip <ArrowUpRight size={18} />
             </WhatsAppLink>
+            <Link className="text-link" href={`/tours/${destination.tourSlug}`}>
+              View our {destination.name} tour itinerary{' '}
+              <ArrowUpRight size={17} />
+            </Link>
             <p className="detail-note">
               Inspiration, not a fixed departure. Availability, inclusions and
               pricing are confirmed with our team.

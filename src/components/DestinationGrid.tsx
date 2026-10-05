@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowUpRight, ArrowRight } from 'lucide-react';
 import { destinations } from '@/data/site';
+import photos from '@/data/tour-photos.json';
 export default function DestinationGrid({
   items = destinations,
 }: {
@@ -18,7 +19,10 @@ export default function DestinationGrid({
           >
             <Image
               src={`/assets/images/${destination.image}`}
-              alt={`${destination.name}, ${destination.country}`}
+              alt={
+                photos.find((photo) => photo.slug === destination.tourSlug)
+                  ?.alt || destination.name
+              }
               fill
               sizes="(max-width:640px) calc(100vw - 40px), (max-width:900px) 45vw, 380px"
             />
@@ -28,6 +32,12 @@ export default function DestinationGrid({
             </span>
           </Link>
           <div className="destination-body">
+            <Link
+              className="tour-card-credit"
+              href={`/photo-credits#${destination.tourSlug}`}
+            >
+              Photo credits
+            </Link>
             <p className="destination-country">
               0{index + 1} / {destination.country}
             </p>

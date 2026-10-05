@@ -1,5 +1,4 @@
-import tours from '@/data/tours.json';
-import TourCard from '@/components/TourCard';
+import MoreDestinations from '@/components/MoreDestinations';
 import WhatsAppLink from '@/components/WhatsAppLink';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -54,8 +53,8 @@ export default function Home() {
             <div className="hero-image-frame">
               <Image
                 className="hero-photo"
-                src="/assets/images/hero-banner.webp"
-                alt="The colourful Italian Riviera coastline"
+                src="/assets/images/tours/dubai-abu-dhabi.webp"
+                alt="Dubai skyline at sunset"
                 fill
                 sizes="(max-width:900px) calc(100vw - 40px), 580px"
                 quality={60}
@@ -64,7 +63,13 @@ export default function Home() {
               />
               <div className="hero-image-caption">
                 <MapPin size={14} />
-                <span>Somewhere along the Italian Riviera</span>
+                <span>Dubai · one of our most-loved holidays</span>
+                <Link
+                  href="/photo-credits#dubai-abu-dhabi"
+                  aria-label="Dubai photo credits"
+                >
+                  ↗
+                </Link>
               </div>
             </div>
             <div
@@ -108,7 +113,7 @@ export default function Home() {
       <section className="section wrap">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">JOURNEYS WE CAN PLAN TOGETHER</p>
+            <p className="eyebrow">OUR MOST-BOOKED DESTINATIONS</p>
             <h2>
               Your next holiday.
               <br />
@@ -116,42 +121,14 @@ export default function Home() {
             </h2>
           </div>
           <Link href="/tours" className="text-link">
-            Explore all {tours.length} tours <ArrowUpRight size={18} />
+            Explore our tour collection <ArrowUpRight size={18} />
           </Link>
         </div>
-        <div className="brochure-tour-grid brochure-home-tours">
-          {[tours[1], tours[5], tours[7]].map((t) => (
-            <TourCard key={t.slug} tour={t} index={tours.indexOf(t)} />
-          ))}
-        </div>
-      </section>
-      <section id="destinations" className="section wrap">
-        <div className="section-heading">
-          <div>
-            <p className="eyebrow">A LITTLE WANDERLUST</p>
-            <h2>
-              Where will your
-              <br />
-              <em>next story begin?</em>
-            </h2>
-          </div>
-          <p>
-            From quiet coastal escapes to cities full of life,
-            <br className="desktop-break" /> let curiosity lead the way. We’ll
-            take care of the planning.
-          </p>
-        </div>
         <DestinationGrid />
-        <div className="destination-note">
-          <span>
-            Have somewhere else in mind? India or the world — let’s explore your
-            options.
-          </span>
-          <WhatsAppLink>
-            Create a custom trip <ArrowUpRight size={17} />
-          </WhatsAppLink>
-        </div>
       </section>
+      <div className="section wrap">
+        <MoreDestinations />
+      </div>
       <section id="about" className="story-section">
         <div className="wrap story-grid">
           <div className="story-photo">
