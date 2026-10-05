@@ -5,6 +5,8 @@ import { notFound } from 'next/navigation';
 import { Check, ArrowUpRight } from 'lucide-react';
 import { getDemoPackages, rupees } from '@/data/demo-packages';
 import DemoNotice from '@/components/DemoNotice';
+import { SaveTour } from '@/components/Shortlist';
+import ShareTour from '@/components/ShareTour';
 export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Sample tour details',
@@ -32,6 +34,13 @@ export default async function PackagePage({
           </p>
           <h1>{tour.name}</h1>
           <p className="package-lead">{tour.summary}</p>
+          <div className="tour-detail-tools">
+            <SaveTour slug={tour.slug} name={tour.name} />
+            <ShareTour />
+            <Link className="text-link" href="/packages/saved">
+              Your shortlist →
+            </Link>
+          </div>
           <div className="package-facts">
             <span>
               {tour.days} days / {tour.nights} nights
@@ -134,6 +143,24 @@ export default async function PackagePage({
           </p>
         </section>
       </div>
+      <nav className="tour-mobile-bar" aria-label="Sample tour planning">
+        <div>
+          <small>
+            Design preview · {tour.adultPaise ? 'per adult' : 'custom holiday'}
+          </small>
+          <strong>
+            {tour.adultPaise ? rupees(tour.adultPaise) : 'Quote on request'}
+          </strong>
+          <small>
+            {tour.adultPaise
+              ? 'Twin sharing · taxes in · flights extra'
+              : 'No confirmed price or availability'}
+          </small>
+        </div>
+        <Link className="button" href={`/packages/${tour.slug}/plan`}>
+          Preview plan <ArrowUpRight size={17} />
+        </Link>
+      </nav>
     </main>
   );
 }

@@ -6,6 +6,11 @@ import { business } from '@/data/site';
 export default function MobileDock() {
   const path = usePathname();
   if (path === '/enquire' || path.endsWith('/plan')) return null;
+  if (
+    /^\/packages\/[^/]+$/.test(path) &&
+    !['/packages/saved', '/packages/compare'].includes(path)
+  )
+    return null;
   return (
     <nav className="mobile-dock" aria-label="Quick travel actions">
       <Link
