@@ -1,814 +1,321 @@
-
-// @ts-nocheck
-"use client";
-import { useEffect } from 'react';
-
+import Image from 'next/image';
+import Link from 'next/link';
+import {
+  ArrowUpRight,
+  ArrowRight,
+  Compass,
+  HeartHandshake,
+  Users,
+  MapPin,
+  Check,
+  MessageCircle,
+} from 'lucide-react';
+import { business, faqs } from '@/data/site';
+import DestinationGrid from '@/components/DestinationGrid';
+import BusinessStructuredData from '@/components/BusinessStructuredData';
+import InstagramShowcase from '@/components/InstagramShowcase';
+import GoogleReviews from '@/components/GoogleReviews';
+export const metadata = { alternates: { canonical: '/' } };
 export default function Home() {
-  useEffect(() => {
-    // We can load the custom js script here dynamically if we want, or just let it be.
-    // The reference site uses script.js for navbar toggling and go-top button.
-    const script = document.createElement('script');
-    script.src = '/assets/js/script.js';
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    }
-  }, []);
-
   return (
-    <>
-      
-
-  {/*  
-    - #HEADER
-   */}
-
-  <header className="header" data-header>
-
-    <div className="overlay" data-overlay></div>
-
-    <div className="header-top">
-      <div className="container">
-
-        <a href="tel:+919422002115" className="helpline-box">
-
-          <div className="icon-box">
-            <ion-icon suppressHydrationWarning name="call-outline"></ion-icon>
-          </div>
-
-          <div className="wrapper">
-            <p className="helpline-title">For Further Inquires :</p>
-
-            <p className="helpline-number">+91 94220 02115</p>
-          </div>
-
-        </a>
-
-        <a href="#" className="logo">
-          <img src="./assets/images/logo.jpeg" alt="Shree Vandana Travels logo" style={{ width: '80px', height: 'auto', borderRadius: '50%' }} />
-        </a>
-
-        <div className="header-btn-group">
-
-          <button className="search-btn" aria-label="Search">
-            <ion-icon suppressHydrationWarning name="search"></ion-icon>
-          </button>
-
-          <button className="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-            <ion-icon suppressHydrationWarning name="menu-outline"></ion-icon>
-          </button>
-
-        </div>
-
-      </div>
-    </div>
-
-    <div className="header-bottom">
-      <div className="container">
-
-        <ul className="social-list">
-
-          <li>
-            <a href="https://www.facebook.com/share/18Pj1PwXAp/" className="social-link">
-              <ion-icon suppressHydrationWarning name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.instagram.com/shreevandanatours?igsh=MTN3MWd0dHVmMmtxZg==" className="social-link">
-              <ion-icon suppressHydrationWarning name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.linkedin.com/company/shree-vandana-tours-and-travels/" className="social-link">
-              <ion-icon suppressHydrationWarning name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-        <nav className="navbar" data-navbar>
-
-          <div className="navbar-top">
-
-            <a href="#" className="logo">
-              <img src="./assets/images/logo.jpeg" alt="Shree Vandana Travels logo" style={{ width: '80px', height: 'auto', borderRadius: '50%' }} />
-            </a>
-
-            <button className="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-              <ion-icon suppressHydrationWarning name="close-outline"></ion-icon>
-            </button>
-
-          </div>
-
-          <ul className="navbar-list">
-
-            <li>
-              <a href="#home" className="navbar-link" data-nav-link>home</a>
-            </li>
-
-            <li>
-              <a href="#" className="navbar-link" data-nav-link>about us</a>
-            </li>
-
-            <li>
-              <a href="#destination" className="navbar-link" data-nav-link>destination</a>
-            </li>
-
-            <li>
-              <a href="#package" className="navbar-link" data-nav-link>packages</a>
-            </li>
-
-            <li>
-              <a href="#gallery" className="navbar-link" data-nav-link>gallery</a>
-            </li>
-
-            <li>
-              <a href="#contact" className="navbar-link" data-nav-link>contact us</a>
-            </li>
-
-          </ul>
-
-        </nav>
-
-        <button className="btn btn-primary">Book Now</button>
-
-      </div>
-    </div>
-
-  </header>
-
-
-
-
-
-  <main>
-    <article>
-
-      {/*  
-        - #HERO
-       */}
-
-      <section className="hero" id="home">
-        <div className="container">
-
-          <h2 className="h1 hero-title">Friend In Tourism</h2>
-
-          <p className="hero-text">
-            Experience the world's most spectacular destinations with Shree Vandana Tours and Travels. We are your trusted partner in tourism, offering personalized travel packages, seamless bookings, and unforgettable holidays since 1998.
-          </p>
-
-          <div className="btn-group">
-            <button className="btn btn-primary">Learn more</button>
-
-            <button className="btn btn-secondary">Book now</button>
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      {/*  
-        - #TOUR SEARCH
-       */}
-
-      <section className="tour-search">
-        <div className="container">
-
-          <form action="" className="tour-search-form">
-
-            <div className="input-wrapper">
-              <label htmlFor="destination" className="input-label">Search Destination*</label>
-
-              <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
-                className="input-field" />
-            </div>
-
-            <div className="input-wrapper">
-              <label htmlFor="people" className="input-label">Pax Number*</label>
-
-              <input type="number" name="people" id="people" required placeholder="No.of People" className="input-field" />
-            </div>
-
-            <div className="input-wrapper">
-              <label htmlFor="checkin" className="input-label">Checkin Date**</label>
-
-              <input type="date" name="checkin" id="checkin" required className="input-field" />
-            </div>
-
-            <div className="input-wrapper">
-              <label htmlFor="checkout" className="input-label">Checkout Date*</label>
-
-              <input type="date" name="checkout" id="checkout" required className="input-field" />
-            </div>
-
-            <button type="submit" className="btn btn-secondary">Inquire now</button>
-
-          </form>
-
-        </div>
-      </section>
-
-
-
-
-
-      {/*  
-        - #POPULAR
-       */}
-
-      <section className="popular" id="destination">
-        <div className="container">
-
-          <p className="section-subtitle">Uncover place</p>
-
-          <h2 className="h2 section-title">Popular destination</h2>
-
-          <p className="section-text">
-            Discover the most breathtaking places around the globe. From serene beaches to bustling cityscapes, our curated popular destinations promise the perfect getaway for every kind of traveler.
-          </p>
-
-          <ul className="popular-list">
-
-            <li>
-              <div className="popular-card">
-
-                <figure className="card-img">
-                  <img src="./assets/images/popular-1.jpg" alt="San miguel, italy" loading="lazy" />
-                </figure>
-
-                <div className="card-content">
-
-                  <div className="card-rating">
-                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                  </div>
-
-                  <p className="card-subtitle">
-                    <a href="#">Italy</a>
-                  </p>
-
-                  <h3 className="h3 card-title">
-                    <a href="#">San miguel</a>
-                  </h3>
-
-                  <p className="card-text">
-                    Experience rich culture, stunning architecture, and unforgettable moments in this world-class destination.
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div className="popular-card">
-
-                <figure className="card-img">
-                  <img src="./assets/images/popular-2.jpg" alt="Burj khalifa, dubai" loading="lazy" />
-                </figure>
-
-                <div className="card-content">
-
-                  <div className="card-rating">
-                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                  </div>
-
-                  <p className="card-subtitle">
-                    <a href="#">Dubai</a>
-                  </p>
-
-                  <h3 className="h3 card-title">
-                    <a href="#">Burj khalifa</a>
-                  </h3>
-
-                  <p className="card-text">
-                    Experience rich culture, stunning architecture, and unforgettable moments in this world-class destination.
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div className="popular-card">
-
-                <figure className="card-img">
-                  <img src="./assets/images/popular-3.jpg" alt="Kyoto temple, japan" loading="lazy" />
-                </figure>
-
-                <div className="card-content">
-
-                  <div className="card-rating">
-                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                    <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                  </div>
-
-                  <p className="card-subtitle">
-                    <a href="#">Japan</a>
-                  </p>
-
-                  <h3 className="h3 card-title">
-                    <a href="#">Kyoto temple</a>
-                  </h3>
-
-                  <p className="card-text">
-                    Experience rich culture, stunning architecture, and unforgettable moments in this world-class destination.
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <button className="btn btn-primary">More destintion</button>
-
-        </div>
-      </section>
-
-
-
-
-
-      {/*  
-        - #PACKAGE
-       */}
-
-      <section className="package" id="package">
-        <div className="container">
-
-          <p className="section-subtitle">Popular Packeges</p>
-
-          <h2 className="h2 section-title">Checkout Our Packeges</h2>
-
-          <p className="section-text">
-            Explore our hand-picked tour packages designed to provide you with the best value and comfort. Whether it's a family vacation or a romantic weekend, we have the perfect itinerary for you.
-          </p>
-
-          <ul className="package-list">
-
-            <li>
-              <div className="package-card">
-
-                <figure className="card-banner">
-                  <img src="./assets/images/packege-1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy" />
-                </figure>
-
-                <div className="card-content">
-
-                  <h3 className="h3 card-title">Experience The Great Holiday On Beach</h3>
-
-                  <p className="card-text">
-                    Enjoy a fully guided experience with luxurious accommodations, guided sightseeing, and exceptional service throughout your journey.
-                  </p>
-
-                  <ul className="card-meta-list">
-
-                    <li className="card-meta-item">
-                      <div className="meta-box">
-                        <ion-icon suppressHydrationWarning name="time"></ion-icon>
-
-                        <p className="text">7D/6N</p>
-                      </div>
-                    </li>
-
-                    <li className="card-meta-item">
-                      <div className="meta-box">
-                        <ion-icon suppressHydrationWarning name="people"></ion-icon>
-
-                        <p className="text">pax: 10</p>
-                      </div>
-                    </li>
-
-                    <li className="card-meta-item">
-                      <div className="meta-box">
-                        <ion-icon suppressHydrationWarning name="location"></ion-icon>
-
-                        <p className="text">Malaysia</p>
-                      </div>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-                <div className="card-price">
-
-                  <div className="wrapper">
-
-                    <p className="reviews">(25 reviews)</p>
-
-                    <div className="card-rating">
-                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                    </div>
-
-                  </div>
-
-                  <p className="price">
-                    $750
-                    <span>/ per person</span>
-                  </p>
-
-                  <button className="btn btn-secondary">Book Now</button>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div className="package-card">
-
-                <figure className="card-banner">
-                  <img src="./assets/images/packege-2.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy" />
-                </figure>
-
-                <div className="card-content">
-
-                  <h3 className="h3 card-title">Summer Holiday To The Oxolotan River</h3>
-
-                  <p className="card-text">
-                    Enjoy a fully guided experience with luxurious accommodations, guided sightseeing, and exceptional service throughout your journey.
-                  </p>
-
-                  <ul className="card-meta-list">
-
-                    <li className="card-meta-item">
-                      <div className="meta-box">
-                        <ion-icon suppressHydrationWarning name="time"></ion-icon>
-
-                        <p className="text">7D/6N</p>
-                      </div>
-                    </li>
-
-                    <li className="card-meta-item">
-                      <div className="meta-box">
-                        <ion-icon suppressHydrationWarning name="people"></ion-icon>
-
-                        <p className="text">pax: 10</p>
-                      </div>
-                    </li>
-
-                    <li className="card-meta-item">
-                      <div className="meta-box">
-                        <ion-icon suppressHydrationWarning name="location"></ion-icon>
-
-                        <p className="text">Malaysia</p>
-                      </div>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-                <div className="card-price">
-
-                  <div className="wrapper">
-
-                    <p className="reviews">(20 reviews)</p>
-
-                    <div className="card-rating">
-                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                    </div>
-
-                  </div>
-
-                  <p className="price">
-                    $520
-                    <span>/ per person</span>
-                  </p>
-
-                  <button className="btn btn-secondary">Book Now</button>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div className="package-card">
-
-                <figure className="card-banner">
-                  <img src="./assets/images/packege-3.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy" />
-                </figure>
-
-                <div className="card-content">
-
-                  <h3 className="h3 card-title">Santorini Island's Weekend Vacation</h3>
-
-                  <p className="card-text">
-                    Enjoy a fully guided experience with luxurious accommodations, guided sightseeing, and exceptional service throughout your journey.
-                  </p>
-
-                  <ul className="card-meta-list">
-
-                    <li className="card-meta-item">
-                      <div className="meta-box">
-                        <ion-icon suppressHydrationWarning name="time"></ion-icon>
-
-                        <p className="text">7D/6N</p>
-                      </div>
-                    </li>
-
-                    <li className="card-meta-item">
-                      <div className="meta-box">
-                        <ion-icon suppressHydrationWarning name="people"></ion-icon>
-
-                        <p className="text">pax: 10</p>
-                      </div>
-                    </li>
-
-                    <li className="card-meta-item">
-                      <div className="meta-box">
-                        <ion-icon suppressHydrationWarning name="location"></ion-icon>
-
-                        <p className="text">Malaysia</p>
-                      </div>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-                <div className="card-price">
-
-                  <div className="wrapper">
-
-                    <p className="reviews">(40 reviews)</p>
-
-                    <div className="card-rating">
-                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                      <ion-icon suppressHydrationWarning name="star"></ion-icon>
-                    </div>
-
-                  </div>
-
-                  <p className="price">
-                    $660
-                    <span>/ per person</span>
-                  </p>
-
-                  <button className="btn btn-secondary">Book Now</button>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <button className="btn btn-primary">View All Packages</button>
-
-        </div>
-      </section>
-
-
-
-
-
-      {/*  
-        - #GALLERY
-       */}
-
-      <section className="gallery" id="gallery">
-        <div className="container">
-
-          <p className="section-subtitle">Photo Gallery</p>
-
-          <h2 className="h2 section-title">Photo's From Travellers</h2>
-
-          <p className="section-text">
-            Take a glimpse into the beautiful memories created by our happy travelers. Explore breathtaking landscapes and joyful moments captured during our guided tours.
-          </p>
-
-          <ul className="gallery-list">
-
-            <li className="gallery-item">
-              <figure className="gallery-image">
-                <img src="./assets/images/gallery-1.jpg" alt="Gallery image" />
-              </figure>
-            </li>
-
-            <li className="gallery-item">
-              <figure className="gallery-image">
-                <img src="./assets/images/gallery-2.jpg" alt="Gallery image" />
-              </figure>
-            </li>
-
-            <li className="gallery-item">
-              <figure className="gallery-image">
-                <img src="./assets/images/gallery-3.jpg" alt="Gallery image" />
-              </figure>
-            </li>
-
-            <li className="gallery-item">
-              <figure className="gallery-image">
-                <img src="./assets/images/gallery-4.jpg" alt="Gallery image" />
-              </figure>
-            </li>
-
-            <li className="gallery-item">
-              <figure className="gallery-image">
-                <img src="./assets/images/gallery-5.jpg" alt="Gallery image" />
-              </figure>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      {/*  
-        - #CTA
-       */}
-
-      <section className="cta" id="contact">
-        <div className="container">
-
-          <div className="cta-content">
-            <p className="section-subtitle">Call To Action</p>
-
-            <h2 className="h2 section-title">Ready For Unforgatable Travel. Remember Us!</h2>
-
-            <p className="section-text">
-              Let us help you plan the perfect vacation tailored just for you. Contact our expert travel consultants today and start packing for your next big adventure.
+    <main id="top">
+      <BusinessStructuredData />
+      <section className="hero">
+        <div className="wrap hero-layout">
+          <div className="hero-content">
+            <p className="hero-kicker">
+              <span>✳</span> A WORLD OF POSSIBILITIES. A FRIEND TO TAKE YOU
+              THERE.
             </p>
+            <h1>
+              Go somewhere
+              <br />
+              that stays
+              <br />
+              <em>with you.</em>
+            </h1>
+            <p className="hero-copy">
+              Personal holidays. Family care. A world worth discovering —
+              thoughtfully planned from Pune.
+            </p>
+            <div className="hero-actions">
+              <Link href="/enquire" className="button">
+                Let’s make a plan <ArrowUpRight size={19} />
+              </Link>
+              <Link href="/destinations" className="text-link">
+                Explore destinations <ArrowRight size={17} />
+              </Link>
+            </div>
           </div>
-
-          <button className="btn btn-secondary">Contact Us !</button>
-
+          <div className="hero-visual">
+            <div className="hero-image-frame">
+              <Image
+                className="hero-photo"
+                src="/assets/images/hero-banner.webp"
+                alt="The colourful Italian Riviera coastline"
+                fill
+                sizes="(max-width:900px) calc(100vw - 40px), 580px"
+                quality={60}
+                loading="eager"
+                fetchPriority="high"
+              />
+              <div className="hero-image-caption">
+                <MapPin size={14} />
+                <span>Somewhere along the Italian Riviera</span>
+              </div>
+            </div>
+            <div
+              className="hero-seal"
+              aria-label="30 plus years, three generations"
+            >
+              <span>ESTABLISHED IN TRUST</span>
+              <strong>
+                30<span>+</span>
+              </strong>
+              <small>YEARS OF STORIES</small>
+            </div>
+            <div className="hero-note">
+              <span>01 — THE FEELING OF GETTING AWAY</span>
+              <em>
+                Your next chapter,
+                <br />
+                beautifully planned.
+              </em>
+            </div>
+          </div>
         </div>
       </section>
-
-    </article>
-  </main>
-
-
-
-
-
-  {/*  
-    - #FOOTER
-   */}
-
-  <footer className="footer">
-
-    <div className="footer-top">
-      <div className="container">
-
-        <div className="footer-brand">
-
-          <a href="#" className="logo">
-            <img src="./assets/images/logo.jpeg" alt="Shree Vandana Travels logo" style={{ width: '80px', height: 'auto', borderRadius: '50%' }} />
-          </a>
-
-          <p className="footer-text">
-            Shree Vandana Tours and Travels – Your true friend in tourism. Providing reliable, safe, and memorable travel experiences across the globe since 1998. Let's explore the world together.
-          </p>
-
+      <div className="wrap trust-strip">
+        <div>
+          <strong>30+</strong>
+          <span>Years of travel experience</span>
         </div>
-
-        <div className="footer-contact">
-
-          <h4 className="contact-title">Contact Us</h4>
-
-          <p className="contact-text">
-            Feel free to contact and reach us !!
-          </p>
-
-          <ul>
-
-            <li className="contact-item">
-              <ion-icon suppressHydrationWarning name="call-outline"></ion-icon>
-
-              <a href="tel:+919422002115" className="contact-link">+91 94220 02115</a>
-            </li>
-
-            <li className="contact-item">
-              <ion-icon suppressHydrationWarning name="mail-outline"></ion-icon>
-
-              <a href="mailto:sales.svttpune@gmail.com" className="contact-link">sales.svttpune@gmail.com</a>
-            </li>
-
-            <li className="contact-item">
-              <ion-icon suppressHydrationWarning name="location-outline"></ion-icon>
-
-              <address>Lodha complex, Dhankawadi, Pune</address>
-            </li>
-
-          </ul>
-
+        <div>
+          <strong>3</strong>
+          <span>Generations. One shared passion.</span>
         </div>
-
-        <div className="footer-form">
-
-          <p className="form-text">
-            Subscribe our newsletter for more update & news !!
-          </p>
-
-          <form action="" className="form-wrapper">
-            <input type="email" name="email" className="input-field" placeholder="Enter Your Email" required />
-
-            <button type="submit" className="btn btn-secondary">Subscribe</button>
-          </form>
-
+        <div>
+          <HeartHandshake size={29} />
+          <span>Personal service, every step</span>
         </div>
-
+        <Link href="/enquire">
+          Your journey starts here <ArrowUpRight size={21} />
+        </Link>
       </div>
-    </div>
-
-    <div className="footer-bottom">
-      <div className="container">
-
-        <p className="copyright">
-          &copy; 2026 <a href="">Shree Vandana Travels</a>. All rights reserved
-        </p>
-
-        <ul className="footer-bottom-list">
-
-          <li>
-            <a href="#" className="footer-bottom-link">Privacy Policy</a>
-          </li>
-
-          <li>
-            <a href="#" className="footer-bottom-link">Term & Condition</a>
-          </li>
-
-          <li>
-            <a href="#" className="footer-bottom-link">FAQ</a>
-          </li>
-
-        </ul>
-
-      </div>
-    </div>
-
-  </footer>
-
-
-
-
-
-  {/*  
-    - #GO TO TOP
-   */}
-
-  <a href="#top" className="go-top" data-go-top>
-    <ion-icon suppressHydrationWarning name="chevron-up-outline"></ion-icon>
-  </a>
-
-
-
-
-
-  {/*  
-    - custom js link
-   */}
-  
-
-  {/*  
-    - ionicon link
-   */}
-  
-  
-
-
-    </>
+      <section id="destinations" className="section wrap">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">A LITTLE WANDERLUST</p>
+            <h2>
+              Where will your
+              <br />
+              <em>next story begin?</em>
+            </h2>
+          </div>
+          <p>
+            From quiet coastal escapes to cities full of life,
+            <br className="desktop-break" /> let curiosity lead the way. We’ll
+            take care of the planning.
+          </p>
+        </div>
+        <DestinationGrid />
+        <div className="destination-note">
+          <span>
+            Have somewhere else in mind? India or the world — let’s explore your
+            options.
+          </span>
+          <Link href="/enquire">
+            Create a custom trip <ArrowUpRight size={17} />
+          </Link>
+        </div>
+      </section>
+      <section id="about" className="story-section">
+        <div className="wrap story-grid">
+          <div className="story-photo">
+            <Image
+              src="/assets/images/gallery-3.jpg"
+              alt="Travel inspiration: a peaceful holiday landscape"
+              fill
+              sizes="(max-width: 900px) calc(100vw - 40px), 550px"
+            />
+            <div className="legacy-card">
+              <strong>
+                Our legacy.
+                <br />
+                <em>Your journey.</em>
+              </strong>
+              <span>PUNE · INDIA</span>
+            </div>
+          </div>
+          <div className="story-content">
+            <p className="eyebrow">MORE THAN A TRAVEL COMPANY</p>
+            <h2>
+              Three generations.
+              <br />
+              <em>A world of trust.</em>
+            </h2>
+            <p>
+              For over three decades, Shree Vandana Tours & Travels has helped
+              travellers turn their journeys into memories worth keeping.
+            </p>
+            <p>
+              What began with a passion for travel has grown into a family-run
+              business in Pune. Across three generations, our promise has stayed
+              the same: thoughtful planning, personal attention and dependable
+              service.
+            </p>
+            <p>
+              Whether it’s a family holiday, a group adventure or a journey
+              entirely your own, we bring our experience — and a little heart —
+              to every detail.
+            </p>
+            <Link href="/about" className="text-link">
+              Get to know your travel friend <ArrowRight size={18} />
+            </Link>
+          </div>
+        </div>
+      </section>
+      <section id="services" className="section wrap">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">YOU DREAM IT. WE PLAN IT.</p>
+            <h2>
+              A holiday that feels
+              <br />
+              <em>like you.</em>
+            </h2>
+          </div>
+          <Link className="button outline" href="/services">
+            Explore our services <ArrowUpRight size={18} />
+          </Link>
+        </div>
+        <div className="service-grid">
+          {[
+            {
+              icon: Compass,
+              title: 'Tailored to your curiosity',
+              text: 'Domestic and international itineraries shaped around your interests, pace and preferences.',
+            },
+            {
+              icon: Users,
+              title: 'Better, together',
+              text: 'Family vacations and group journeys, thoughtfully planned so you can enjoy time with your people.',
+            },
+            {
+              icon: HeartHandshake,
+              title: 'A friend along the way',
+              text: 'Personal attention from a team that gets to know you, from your first conversation to your travel plans.',
+            },
+          ].map(({ icon: Icon, title, text }, index) => (
+            <article className="service-card" key={title}>
+              <div className="service-top">
+                <Icon size={30} />
+                <span>0{index + 1}</span>
+              </div>
+              <h3>{title}</h3>
+              <p>{text}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+      <section id="gallery" className="gallery-section">
+        <div className="wrap">
+          <div className="section-heading">
+            <div>
+              <p className="eyebrow">THE WORLD IS CALLING</p>
+              <h2>
+                Collect moments.
+                <br />
+                <em>Keep the feeling.</em>
+              </h2>
+            </div>
+            <Link href="/gallery" className="text-link">
+              A closer look <ArrowUpRight size={18} />
+            </Link>
+          </div>
+          <div className="gallery-grid">
+            {[
+              ['gallery-1.jpg', 'Coastal holiday scenery'],
+              ['gallery-2.jpg', 'A moment of travel inspiration'],
+              ['gallery-4.jpg', 'Exploring the great outdoors'],
+              ['gallery-5.jpg', 'A beautiful place to unwind'],
+            ].map(([image, alt]) => (
+              <Link
+                href="/gallery"
+                key={image}
+                aria-label={`View gallery: ${alt}`}
+              >
+                <Image
+                  src={`/assets/images/${image}`}
+                  alt={alt}
+                  fill
+                  sizes="(max-width: 640px) 45vw, 280px"
+                />
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+      <InstagramShowcase />
+      <GoogleReviews />
+      <section id="faq" className="section wrap faq-grid">
+        <div>
+          <p className="eyebrow">BEFORE YOU GO</p>
+          <h2>
+            A few things
+            <br />
+            <em>you might wonder.</em>
+          </h2>
+          <p>
+            Need a little more guidance?
+            <br />
+            We’re just a conversation away.
+          </p>
+          <Link className="text-link" href="/faq">
+            Your questions, answered <ArrowUpRight size={17} />
+          </Link>
+        </div>
+        <div className="faq-list">
+          {faqs.map((faq) => (
+            <details key={faq.question}>
+              <summary>
+                {faq.question}
+                <span>+</span>
+              </summary>
+              <p>{faq.answer}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+      <section className="cta-section">
+        <div className="wrap cta-inner">
+          <div>
+            <p className="eyebrow light">LET’S MAKE A MEMORY</p>
+            <h2>
+              Your next adventure
+              <br />
+              starts with <em>a hello.</em>
+            </h2>
+            <p>Tell us what you have in mind. We’ll help you find your way.</p>
+          </div>
+          <div className="cta-actions">
+            <Link href="/enquire" className="button warm">
+              Plan my journey <ArrowUpRight size={20} />
+            </Link>
+            <a
+              href={business.whatsapp}
+              className="text-link light"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MessageCircle size={19} /> Or, chat on WhatsApp
+            </a>
+            <span>
+              <Check size={14} /> Personal advice. No booking commitment.
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }
-
-

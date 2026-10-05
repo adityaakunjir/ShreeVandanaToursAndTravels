@@ -1,0 +1,36 @@
+[
+  {
+    "id": null,
+    "slug": null,
+    "name": null,
+    "model": "fixed-departure",
+    "destination": null,
+    "departureCity": null,
+    "days": null,
+    "nights": null,
+    "itinerary": [{ "day": 1, "title": null, "description": null }],
+    "inclusions": [],
+    "exclusions": [],
+    "accommodation": null,
+    "transport": null,
+    "suitability": null,
+    "policy": { "version": null, "cancellation": null, "payment": null },
+    "approval": { "by": null, "at": null },
+    "departures": [
+      {
+        "id": null,
+        "date": null,
+        "bookingCloses": null,
+        "capacity": null,
+        "price": {
+          "currency": "INR",
+          "adultPaise": null,
+          "occupancy": null,
+          "taxesIncluded": true,
+          "depositPaise": null,
+          "validUntil": null
+        }
+      }
+    ]
+  }
+]

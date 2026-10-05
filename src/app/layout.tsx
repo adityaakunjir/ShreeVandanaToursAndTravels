@@ -1,31 +1,52 @@
-import "./globals.css";
-import { Geist } from "next/font/google";
-import { cn } from "@/lib/utils";
-
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
-
-export const metadata = {
-  title: "Shree Vandana Travels - Travel agency",
-  description: "Modern Tour & Travel Agency",
+import type { Metadata } from 'next';
+import { Geist } from 'next/font/google';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+import MobileDock from '@/components/MobileDock';
+import './globals.css';
+const geist = Geist({
+  subsets: ['latin'],
+  variable: '--font-geist',
+  display: 'swap',
+});
+export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
+  ),
+  title: {
+    default: 'Shree Vandana Tours & Travels | Your Friend in Tourism',
+    template: '%s | Shree Vandana Travels',
+  },
+  description:
+    '30+ years of trust and three generations of travel expertise. Plan personalised domestic and international holidays with Shree Vandana Tours & Travels, Pune.',
+  openGraph: {
+    title: 'Shree Vandana Tours & Travels',
+    description:
+      'Our legacy. Your journey. Thoughtfully planned holidays from Pune.',
+    images: [
+      {
+        url: '/assets/images/hero-banner.jpg',
+        width: 1500,
+        height: 1000,
+        alt: 'Italian Riviera travel inspiration',
+      },
+    ],
+  },
 };
-
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={cn("font-sans", geist.variable)} suppressHydrationWarning>
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" async></script>
-        <script noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" async></script>
-      </head>
+    <html lang="en" className={geist.variable} data-scroll-behavior="smooth">
       <body>
-        {children}
+        <a href="#main-content" className="skip-link">
+          Skip to content
+        </a>
+        <Navbar />
+        <div id="main-content">{children}</div>
+        <Footer />
+        <MobileDock />
       </body>
     </html>
   );
 }
-

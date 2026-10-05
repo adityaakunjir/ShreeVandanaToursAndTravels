@@ -1,0 +1,175 @@
+'use client';
+import Image from 'next/image';
+import { useEffect, useRef, useState } from 'react';
+import { X, ArrowLeft, ArrowRight, Expand } from 'lucide-react';
+const photos = [
+  {
+    src: 'hero-banner.jpg',
+    label: 'Italian Riviera',
+    caption: 'Colourful villages along the coast.',
+  },
+  {
+    src: 'popular-1.jpg',
+    label: 'Venice, Italy',
+    caption: 'A different perspective from the water.',
+  },
+  {
+    src: 'popular-2.jpg',
+    label: 'Dubai, UAE',
+    caption: 'A skyline made for discovery.',
+  },
+  {
+    src: 'popular-3.jpg',
+    label: 'Kyoto, Japan',
+    caption: 'A glimpse of timeless traditions.',
+  },
+  {
+    src: 'gallery-1.jpg',
+    label: 'A coastal escape',
+    caption: 'Time to slow down and take in the view.',
+  },
+  {
+    src: 'gallery-2.jpg',
+    label: 'Travel inspiration',
+    caption: 'Little moments along the way.',
+  },
+  {
+    src: 'gallery-4.jpg',
+    label: 'Out in the open',
+    caption: 'A world beyond the everyday.',
+  },
+  {
+    src: 'gallery-5.jpg',
+    label: 'Somewhere beautiful',
+    caption: 'Another reason to keep exploring.',
+  },
+];
+export default function GalleryViewer() {
+  const [active, setActive] = useState<number | null>(null);
+  const dialog = useRef<HTMLDialogElement>(null);
+  const opener = useRef<HTMLButtonElement | null>(null);
+  const touchStart = useRef<{ x: number; y: number } | null>(null);
+  useEffect(() => {
+    if (active === null) return;
+    if (!dialog.current?.open) dialog.current?.showModal();
+    const overflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = overflow;
+    };
+  }, [active]);
+  function close() {
+    dialog.current?.close();
+    setActive(null);
+    opener.current?.focus();
+  }
+  function move(amount: number) {
+    setActive((index) =>
+      index === null ? null : (index + amount + photos.length) % photos.length,
+    );
+  }
+  return (
+    <>
+      <div className="photo-grid">
+        {photos.map((photo, index) => (
+          <button
+            className="photo-tile"
+            key={photo.src}
+            onClick={(event) => {
+              opener.current = event.currentTarget;
+              setActive(index);
+            }}
+            aria-label={`View ${photo.label}`}
+          >
+            <Image
+              src={`/assets/images/${photo.src}`}
+              alt={photo.label}
+              fill
+              sizes="(max-width:640px) 45vw, (max-width:900px) 45vw, 380px"
+            />
+            <span>
+              {photo.label}
+              <Expand size={15} />
+            </span>
+          </button>
+        ))}
+      </div>
+      <dialog
+        ref={dialog}
+        className="photo-dialog"
+        aria-label="Travel inspiration gallery"
+        onCancel={(event) => {
+          event.preventDefault();
+          close();
+        }}
+        onClick={(event) => {
+          if (event.target === event.currentTarget) close();
+        }}
+        onKeyDown={(event) => {
+          if (event.key === 'ArrowRight') {
+            event.preventDefault();
+            move(1);
+          }
+          if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            move(-1);
+          }
+        }}
+      >
+        {active !== null && (
+          <div className="lightbox-content">
+            <button
+              className="lightbox-close"
+              onClick={close}
+              aria-label="Close photo"
+            >
+              <X size={22} />
+            </button>
+            <div
+              className="lightbox-image"
+              onTouchStart={(event) => {
+                const touch = event.touches[0];
+                touchStart.current =
+                  event.touches.length === 1
+                    ? { x: touch.clientX, y: touch.clientY }
+                    : null;
+              }}
+              onTouchEnd={(event) => {
+                const start = touchStart.current;
+                touchStart.current = null;
+                if (!start || event.changedTouches.length !== 1) return;
+                const touch = event.changedTouches[0];
+                const dx = touch.clientX - start.x;
+                const dy = touch.clientY - start.y;
+                if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5)
+                  move(dx < 0 ? 1 : -1);
+              }}
+            >
+              <Image
+                src={`/assets/images/${photos[active].src}`}
+                alt={photos[active].label}
+                fill
+                sizes="(max-width:640px) 92vw, 80vw"
+              />
+            </div>
+            <div className="lightbox-controls">
+              <button onClick={() => move(-1)} aria-label="Previous photo">
+                <ArrowLeft size={22} />
+              </button>
+              <div>
+                <strong>{photos[active].label}</strong>
+                <p>{photos[active].caption}</p>
+                <small>
+                  {active + 1} / {photos.length}
+                </small>
+              </div>
+              <button onClick={() => move(1)} aria-label="Next photo">
+                <ArrowRight size={22} />
+              </button>
+            </div>
+          </div>
+        )}
+      </dialog>
+    </>
+  );
+}
