@@ -18,14 +18,32 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const destination = destinations.find((item) => item.slug === slug);
+  if (!destination) return { title: 'Destination not found' };
+  const photo = photos.find((photo) => photo.slug === destination.tourSlug);
+  const title = `${destination.name} holidays from Pune`;
+  const description = `${destination.description} Discuss a personalised ${destination.name} holiday with Shree Vandana Tours & Travels, Pune.`;
+  const images = photo
+    ? [
+        {
+          url: photo.src,
+          width: photo.width,
+          height: photo.height,
+          alt: photo.alt,
+        },
+      ]
+    : [];
   return {
-    title: destination
-      ? `Explore ${destination.name}`
-      : 'Destination not found',
-    description: destination
-      ? `${destination.description} Discuss a personalised ${destination.name} holiday with Shree Vandana Tours & Travels, Pune.`
-      : undefined,
+    title,
+    description,
     alternates: { canonical: `/destinations/${slug}` },
+    openGraph: {
+      title,
+      description,
+      url: `/destinations/${slug}`,
+      type: 'website',
+      images,
+    },
+    twitter: { card: 'summary_large_image', title, description, images },
   };
 }
 export default async function DestinationPage({
