@@ -1,0 +1,16 @@
+{
+  "checkedDate": "2026-10-05",
+  "domainProperty": "sc-domain:shreevandanatoursandtravels.com",
+  "ownership": "Verified via domain name provider",
+  "ownerAccount": "website.svttpune@gmail.com",
+  "dnsProvider": "Hostinger",
+  "txtRecordPublished": true,
+  "authoritativeDnsCheck": "ns1.dns-parking.com returned matching verification TXT",
+  "sitemap": "https://shreevandanatoursandtravels.com/sitemap.xml",
+  "submission": "Sitemap submitted successfully",
+  "initialProcessingStatus": "Sitemap could not be read / Could not fetch",
+  "discoveredPages": 0,
+  "publicSitemapHttpStatus": 200,
+  "publicRobotsHttpStatus": 200,
+  "indexingAndRankings": "Not established"
+}
