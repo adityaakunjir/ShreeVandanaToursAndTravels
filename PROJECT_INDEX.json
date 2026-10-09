@@ -1,8 +1,8 @@
 {
   "reviewDate": "2026-10-09",
-  "baseCommit": "46ab09ab3570d0c240a9915a993f0d9755eb4334",
+  "baseCommit": "56013b94f748bbf3caa6ff76b3ece3d48b88fc6b",
   "scope": "Working source, business documents and public assets. Excludes dependencies, builds, Git metadata, credentials and generated index itself.",
-  "fileCount": 203,
+  "fileCount": 204,
   "files": [
     {
       "path": ".agents/skills/prisma-composer-core-concepts/SKILL.md",
@@ -216,9 +216,9 @@
     },
     {
       "path": ".env.example",
-      "bytes": 313,
+      "bytes": 317,
       "category": "supporting",
-      "sha256": "9b828c49d9d59121f7d9cbfffaa8a0ee3719e85096dfc18360264ed666ea09fa"
+      "sha256": "e543737146e2a4a8d7aa17c49021d85a4e579986cca6df36636434682ad98f8a"
     },
     {
       "path": ".github/workflows/quality.yml",
@@ -480,9 +480,9 @@
     },
     {
       "path": "docs/REDESIGN_REVIEW.md",
-      "bytes": 9515,
+      "bytes": 10009,
       "category": "supporting",
-      "sha256": "5b6e8a8b776f4c65ca854352266dcb5b5ac4799ef1fda6f36be49a91a7ceee23"
+      "sha256": "70d6a248d9f63ea7977969e49bb762256c428f462a395a82e4d5009dbfacd78c"
     },
     {
       "path": "docs/TRAVEL_PLATFORM_PLAN.md",
@@ -756,9 +756,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 22555,
+      "bytes": 22867,
       "category": "supporting",
-      "sha256": "2420f16137991ebf74006fdb4a0ab341784fb4426d2195b8e1d48ba9817ed407"
+      "sha256": "527b96ee8d965d2f9c09e38c6dffddb10902c2ff71e0e307960087764a62829c"
     },
     {
       "path": "scripts/check-catalogue.mjs",
@@ -1146,9 +1146,9 @@
     },
     {
       "path": "src/lib/site-url.ts",
-      "bytes": 104,
+      "bytes": 492,
       "category": "application",
-      "sha256": "cb682cfa45d4891b43595354ed106bc4eebf4b98b21490a3746c9d626c3b216a"
+      "sha256": "e0a024db49bd7af4acdb5b6d763f0f114bac0244380d408e8953412ef97be2d2"
     },
     {
       "path": "src/lib/tour-search.ts",
@@ -1203,6 +1203,12 @@
       "bytes": 1837,
       "category": "supporting",
       "sha256": "0716eb07a999591db813e501e78f347cbca969fae88bf945771bfbedc4fd2145"
+    },
+    {
+      "path": "tests/site-url.test.mjs",
+      "bytes": 751,
+      "category": "supporting",
+      "sha256": "d0ae89125d4ddc9e5cb6bff92575c400135440aaf3aded4fcb88d82903d21d59"
     },
     {
       "path": "tests/tour-search.test.mjs",

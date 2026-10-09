@@ -58,6 +58,8 @@ The corrected rendered colours were confirmed locally: #5d544c text on #eae6dc, 
 
 Evidence: artifacts/redesign-responsive-audit.json, artifacts/redesign-mobile-performance.json and artifacts/redesign-mobile-home.png. The updated source index includes the final working files and public assets, and excludes credentials/builds/dependencies.
 
+The final live host check found a 307 redirect from the bare domain to www, but the old metadata still declared the bare domain. Canonical origin normalization now aligns the existing business-domain environment value with https://www.shreevandanatoursandtravels.com. Metadata, sitemap, robots and structured data share that origin; other CI/local/project origins are preserved. Two regression tests cover the redirect-host mismatch. The domain-wide Search Console property covers both hosts.
+
 ## Main files changed
 
 - src/app/page.tsx, curated.css, page-polish.css, globals.css and layout.tsx: homepage, visual system and social metadata.
