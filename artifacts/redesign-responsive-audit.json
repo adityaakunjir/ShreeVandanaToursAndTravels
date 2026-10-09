@@ -1,0 +1,996 @@
+{
+  "checkedDate": "2026-10-09",
+  "base": "http://localhost:3002",
+  "checks": [
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/saved",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/saved",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/saved",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/saved",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/saved",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/compare",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/compare",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/compare",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/compare",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/compare",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/about",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/about",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/about",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/about",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/about",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/services",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/services",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/services",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/services",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/services",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/gallery",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/gallery",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/gallery",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/gallery",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/gallery",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/contact",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/contact",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/contact",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/contact",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/contact",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/faq",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/faq",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/faq",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/faq",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/faq",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/travel-information",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/travel-information",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/travel-information",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/travel-information",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/travel-information",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/photo-credits",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/photo-credits",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/photo-credits",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/photo-credits",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/photo-credits",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/dubai",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/dubai",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/dubai",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/dubai",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/dubai",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/nepal",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/nepal",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/nepal",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/nepal",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/nepal",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/kerala",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/kerala",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/kerala",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/kerala",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/kerala",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/kashmir",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/kashmir",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/kashmir",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/kashmir",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/kashmir",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/sikkim-darjeeling",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/sikkim-darjeeling",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/sikkim-darjeeling",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/sikkim-darjeeling",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/destinations/sikkim-darjeeling",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/kashi-gaya-prayag-ayodhya",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/kashi-gaya-prayag-ayodhya",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/kashi-gaya-prayag-ayodhya",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/kashi-gaya-prayag-ayodhya",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/kashi-gaya-prayag-ayodhya",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/shimla-kullu-manali",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/shimla-kullu-manali",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/shimla-kullu-manali",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/shimla-kullu-manali",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/shimla-kullu-manali",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/darjeeling-gangtok-pelling",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/darjeeling-gangtok-pelling",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/darjeeling-gangtok-pelling",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/darjeeling-gangtok-pelling",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/darjeeling-gangtok-pelling",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/kashmir-amritsar-vaishno-devi",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/kashmir-amritsar-vaishno-devi",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/kashmir-amritsar-vaishno-devi",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/kashmir-amritsar-vaishno-devi",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/kashmir-amritsar-vaishno-devi",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/pithapur-kuravpur",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/pithapur-kuravpur",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/pithapur-kuravpur",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/pithapur-kuravpur",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/pithapur-kuravpur",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/dubai-abu-dhabi",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/dubai-abu-dhabi",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/dubai-abu-dhabi",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/dubai-abu-dhabi",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/dubai-abu-dhabi",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/nepal",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/nepal",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/nepal",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/nepal",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/nepal",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/sri-lanka",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/sri-lanka",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/sri-lanka",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/sri-lanka",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/sri-lanka",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/kerala-kanyakumari",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/kerala-kanyakumari",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/kerala-kanyakumari",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/kerala-kanyakumari",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/kerala-kanyakumari",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/royal-bhutan",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/royal-bhutan",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/royal-bhutan",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/royal-bhutan",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/royal-bhutan",
+      "width": 1440
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/egypt-hurghada",
+      "width": 320
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/egypt-hurghada",
+      "width": 390
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/egypt-hurghada",
+      "width": 768
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/egypt-hurghada",
+      "width": 1024
+    },
+    {
+      "emptyImageAlt": false,
+      "h1": 1,
+      "overflow": false,
+      "path": "/tours/egypt-hurghada",
+      "width": 1440
+    }
+  ],
+  "interactions": [
+    "real multi-filter search",
+    "real saves persist after reload",
+    "two-tour comparison and copy link",
+    "mobile menu open and Escape",
+    "gallery ArrowRight, Escape and focus return",
+    "tour itinerary toggle and single enquiry bar",
+    "Kerala family WhatsApp draft",
+    "FAQ accordion"
+  ]
+}

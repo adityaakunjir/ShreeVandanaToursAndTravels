@@ -20,7 +20,7 @@ Keep the official red logo accent, warm ivory and dark ink. The owner previously
 
 ## Owner inputs still needed
 
-Reconcile the Instagram 25-year bio with the supplied 30+ year company description. Confirm future departures, final quotes, accommodation and cancellation/payment terms directly with customers. Approved family/team/customer originals are still required for a genuine business-photo gallery. Google review count remains a dated 5 October snapshot. Search Console sitemap processing was unresolved at the prior check; historical lab scores are not new redesign measurements.
+Reconcile the Instagram 25-year bio with the supplied 30+ year company description. Confirm future departures, final quotes, accommodation and cancellation/payment terms directly with customers. Approved family/team/customer originals are still required for a genuine business-photo gallery. Google review count remains a dated 5 October snapshot. Historical lab scores are not new redesign measurements.
 
 ## Verification
 
@@ -45,3 +45,25 @@ Real-tour filters intersect text, India/international, country, supported styles
 - Navigation/footer: real discovery, saved/compare, contact, gallery and information links. Canonicals, sitemap, breadcrumbs and demo isolation preserved.
 
 Validation: lint, TypeScript, 28 tests, build and expanded production smoke pass. Browser checks covered 28 routes at 320/390/768/1024/1440px (140 layouts): one main heading, image alternative text and no page-level horizontal overflow. Interaction checks covered mobile menu open/Escape, itinerary collapse, one fixed enquiry bar, primary WhatsApp links, gallery ArrowRight/Escape and focus return, contextual Kerala/family WhatsApp draft, and booking FAQ expansion. Actual message sending, Instagram playback, physical phones and new slow-network lab scores are not established by these checks.
+
+### Live search and deployment recheck — 9 October
+
+The public homepage returns HTTP 200 and contains the new curated hero. Search Console under website.svttpune@gmail.com reports sitemap **Success**, last read 6 October, 24 discovered pages. This resolves the earlier processing error; it does not prove all new pages are indexed. The Page indexing report is dated 4 October and includes legacy WordPress/theme/example URLs, including /to_book/hotel-example/844-1755-44411 and /wp-content/themes/triply/*. Such unrelated missing URLs should not be blindly redirected to the new tour catalogue.
+
+At 640px, local image-optimisation probes without a modern-image Accept header returned Nepal 22,026 bytes, Kerala 42,358 bytes and Dubai 4,554 bytes as JPEG. These are request samples, not page performance scores. Responsive images retain reserved dimensions, eager/preloaded hero only and native lazy loading below. No animation library or video download was introduced; parallax remains desktop-only with reduced-motion fallback.
+
+Fresh live mobile Lighthouse run at 5:47 pm IST on 9 October: performance 94, accessibility 97, best practices 100, SEO 100; FCP 1.0s, LCP 2.9s, TBT 20ms, CLS 0, Speed Index 3.7s. Emulated Moto G Power, Lighthouse 13.5.0, slow 4G, one initial-load run; no field data. Report: https://pagespeed.web.dev/analysis/https-shreevandanatoursandtravels-com/7zkl2if1nd?form_factor=mobile. The reported contrast failure concerns paragraph text on the why-section sand surface. The text was darkened from the inherited muted colour to #5d544c. These scores precede that correction and are not an all-page guarantee.
+
+The corrected rendered colours were confirmed locally: #5d544c text on #eae6dc, calculated contrast 5.94:1. Final code checks and expanded production smoke pass after the correction. Hero Open Graph imagery now matches Nepal; the shared final CTA offers WhatsApp and the primary telephone number. GitHub quality checks passed for the initial review, homepage/discovery and secondary-page stages.
+
+Evidence: artifacts/redesign-responsive-audit.json, artifacts/redesign-mobile-performance.json and artifacts/redesign-mobile-home.png. The updated source index includes the final working files and public assets, and excludes credentials/builds/dependencies.
+
+## Main files changed
+
+- src/app/page.tsx, curated.css, page-polish.css, globals.css and layout.tsx: homepage, visual system and social metadata.
+- src/lib/real-tours.ts, components/TourDiscovery.tsx, RealShortlist.tsx, TourCard.tsx and tests/real-tours.test.mjs: real filters, device saves and source-aware discovery.
+- src/app/tours/page.tsx, tours/[slug]/page.tsx, tours/saved/page.tsx and tours/compare/page.tsx: all real-tour journeys.
+- src/app/destinations/[slug]/page.tsx and components/DestinationGrid.tsx: source-linked destination content.
+- src/app/about, services, contact, faq, gallery and travel-information page.tsx files: secondary-page experience.
+- src/components/PageIntro.tsx, Navbar.tsx, MobileDock.tsx, Footer.tsx, GalleryViewer.tsx, TripConversation.tsx and src/data/site.ts: navigation, contact choices, gallery and shared business information.
+- src/app/sitemap.ts, scripts/smoke-production.mjs, scripts/index-project.mjs, PROJECT_INDEX.json and README.md: technical delivery and reproducible review.

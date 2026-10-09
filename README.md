@@ -1,5 +1,21 @@
 # Shree Vandana Tours & Travels
 
+# Current implementation — 9 October 2026
+
+The World, Personally Curated redesign is implemented in the existing Next.js application. It includes a cinematic mobile-first homepage, eleven source-based tours, five destination pages, four supported style collections, intersecting region/country/style/duration/search filters, real-tour saves and comparison, source-derived itinerary timelines, licensed gallery photography, official Instagram embeds and direct WhatsApp enquiries to +91 96652 38966.
+
+No live booking inventory, checkout, invented prices or lead intake is enabled. Contact-page preferences only create a WhatsApp draft; visitors decide whether to send it. Save/compare use real tours and remain separate from the disabled public demo catalogue. The public website email is shreevandanatravels@gmail.com; website.svttpune@gmail.com is the owner's Search Console account.
+
+Read `docs/REDESIGN_REVIEW.md` for the design decisions, page-by-page changes, verification and remaining owner inputs. `PROJECT_INDEX.json` is a current working-tree index; regenerate it with `node scripts/index-project.mjs`. This replaces the earlier index described in historical sections below.
+
+Verification: lint, TypeScript, 28 tests, production build and expanded route smoke checks pass. Browser checks cover 28 content routes at 320/390/768/1024/1440px with no page-level horizontal overflow. Real search, save persistence, comparison sharing, mobile menu, gallery keyboard controls, itinerary and FAQ accordions, and contextual WhatsApp drafts were checked. Local review preview uses port 3002 while another project occupies port 3000.
+
+Search Console checked on 9 October: sitemap status **Success**, last read 6 October, 24 URLs discovered. This supersedes the older fetch-error notes below and does not establish indexing of every redesigned page. The indexing report includes older WordPress/template URLs; do not interpret historical counts as current catalogue coverage.
+
+The sections below retain earlier setup and launch history. Their dates, counts, colour descriptions and interaction notes may describe superseded versions; the current report takes precedence.
+
+---
+
 A responsive Next.js website for the Pune travel business. It includes destination inspiration, company history, travel services, gallery, FAQs and direct WhatsApp enquiries.
 
 ## Current implementation

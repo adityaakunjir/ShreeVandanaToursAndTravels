@@ -1,0 +1,12 @@
+{
+  "checkedDate": "2026-10-09",
+  "checkedTimeIST": "17:47",
+  "url": "https://pagespeed.web.dev/analysis/https-shreevandanatoursandtravels-com/7zkl2if1nd?form_factor=mobile",
+  "testedUrl": "https://www.shreevandanatoursandtravels.com/",
+  "scores": { "performance": 94, "accessibility": 97, "bestPractices": 100, "seo": 100 },
+  "metrics": { "fcpSeconds": 1.0, "lcpSeconds": 2.9, "tbtMilliseconds": 20, "cls": 0, "speedIndexSeconds": 3.7 },
+  "conditions": "Emulated Moto G Power; Lighthouse 13.5.0; slow 4G; initial page load; no field data",
+  "scope": "One homepage lab run. Does not prove all-page performance, full accessibility, rankings or universal device/network performance.",
+  "finding": "Why-section paragraph contrast failed; subsequently changed to #5d544c on #eae6dc, calculated contrast 5.94:1 and confirmed in the local rendered page.",
+  "scoresPrecedeContrastCorrection": true
+}

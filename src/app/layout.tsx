@@ -1,4 +1,5 @@
 import { siteUrl } from '@/lib/site-url';
+import photos from '@/data/tour-photos.json';
 import type { Metadata } from 'next';
 import { Geist } from 'next/font/google';
 import Navbar from '@/components/Navbar';
@@ -21,13 +22,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Shree Vandana Tours & Travels',
     description:
-      'Our legacy. Your journey. Thoughtfully planned holidays from Pune.',
+      'The world, personally curated. Three generations of experience, thoughtfully planning your next holiday from Pune.',
     images: [
       {
-        url: '/assets/images/tours/dubai-abu-dhabi.webp',
-        width: 1400,
-        height: 624,
-        alt: 'Dubai skyline at sunset',
+        url: '/assets/images/tours/nepal.webp',
+        width: photos.find((p) => p.slug === 'nepal')!.width,
+        height: photos.find((p) => p.slug === 'nepal')!.height,
+        alt: 'Phewa Lake surrounded by hills in Pokhara, Nepal',
       },
     ],
   },

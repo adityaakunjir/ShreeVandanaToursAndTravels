@@ -2,7 +2,7 @@ import WhatsAppLink from '@/components/WhatsAppLink';
 import Link from 'next/link';
 import Image from 'next/image';
 import photos from '@/data/tour-photos.json';
-import { ArrowUpRight, ChevronRight, MessageCircle } from 'lucide-react';
+import { ArrowUpRight, ChevronRight, Phone } from 'lucide-react';
 import { business } from '@/data/site';
 import Breadcrumb from './Breadcrumb';
 export function PageIntro({
@@ -95,14 +95,12 @@ export function JourneyCTA() {
         <WhatsAppLink className="button">
           Let’s plan your journey <ArrowUpRight size={18} />
         </WhatsAppLink>
-        <a
-          className="text-link"
-          href={business.whatsapp}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <MessageCircle size={18} /> Personal advice. No booking commitment.
+        <a className="text-link" href={`tel:+${business.phones[0].number}`}>
+          <Phone size={18} /> Prefer to call? Talk to our team.
         </a>
+        <p className="cta-reassurance">
+          Personal advice. No booking commitment.
+        </p>
       </div>
     </section>
   );

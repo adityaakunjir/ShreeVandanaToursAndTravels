@@ -316,6 +316,9 @@
     34px/1.12 Georgia,
     serif;
 }
+.curated-cta .cta-reassurance {
+  font-size: 11px;
+}
 @media (min-width: 641px) {
   .experience-grid,
   .legacy-principles {

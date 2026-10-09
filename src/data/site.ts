@@ -3,6 +3,7 @@ import { googleBusiness } from './google-business';
 
 export const business = {
   ...client,
+  brandColors: { primary: '#b72d29', secondary: '#2b362f' },
   contact: {
     ...client.contact,
     email: 'shreevandanatravels@gmail.com',
