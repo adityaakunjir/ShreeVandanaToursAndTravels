@@ -1,5 +1,8 @@
 import WhatsAppLink from '@/components/WhatsAppLink';
 import type { Metadata } from 'next';
+import Image from 'next/image';
+import Link from 'next/link';
+import photos from '@/data/tour-photos.json';
 import {
   Compass,
   Users,
@@ -82,8 +85,23 @@ export default function ServicesPage() {
         description="Travel advice and personalised itineraries with the care, comfort and attention your holiday deserves."
       />
       <section className="section wrap service-detail-grid">
-        {services.map(({ icon: Icon, title, description, details }) => (
+        {services.map(({ icon: Icon, title, description, details }, index) => (
           <article className="service-detail" key={title}>
+            <div className="service-editorial-photo">
+              <Image
+                src={photos[index].src}
+                alt={`Destination inspiration: ${photos[index].alt}`}
+                fill
+                quality={60}
+                sizes="(max-width:640px) 90vw, (max-width:1100px) 45vw, 400px"
+              />
+            </div>
+            <Link
+              className="tour-card-credit"
+              href={`/photo-credits#${photos[index].slug}`}
+            >
+              Destination inspiration · Photo credits ↗
+            </Link>
             <Icon size={30} />
             <h2>{title}</h2>
             <p>{description}</p>

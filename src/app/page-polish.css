@@ -1,0 +1,388 @@
+.brochure-detail .tour-detail-tools {
+  align-items: center;
+  border-bottom: 1px solid #ded6cc;
+  padding-bottom: 18px;
+  margin-block: 20px;
+  gap: 12px 24px;
+}
+.brochure-detail .tour-section-nav {
+  margin-bottom: 18px;
+}
+.brochure-detail .tour-photo-window {
+  border-radius: 20px;
+}
+.brochure-detail .tour-photo-heading h1 {
+  margin-bottom: 0;
+}
+.brochure-detail .brochure-enquire {
+  background: #f1ece2;
+  border-radius: 16px;
+}
+.route-preview {
+  grid-column: 1/-1;
+  display: grid;
+  gap: 24px;
+  padding-block: 15px 35px;
+}
+.route-preview h2 {
+  font-size: 34px;
+}
+.route-preview ol {
+  display: grid;
+  gap: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.route-preview li {
+  border-top: 1px solid #ded6cc;
+  padding-top: 16px;
+  display: flex;
+  gap: 18px;
+}
+.route-preview li span {
+  color: #b72d29;
+  font:
+    14px Georgia,
+    serif;
+}
+.route-preview li h3 {
+  font-size: 20px;
+}
+.brochure-detail .package-panel {
+  background: #fffdf8;
+  border-radius: 18px;
+}
+.brochure-detail .package-panel h2 {
+  font:
+    34px/1.12 Georgia,
+    serif;
+  letter-spacing: -0.04em;
+}
+.curated-itinerary.itinerary-list details {
+  position: relative;
+  border: none;
+  border-bottom: 1px solid #ded6cc;
+  border-radius: 0;
+  padding: 22px 0;
+  background: none;
+  margin: 0 0 0 5px;
+}
+.curated-itinerary.itinerary-list details::before {
+  content: '';
+  position: absolute;
+  inset: 36px auto 0 17px;
+  width: 1px;
+  background: #ded6cc;
+}
+.curated-itinerary.itinerary-list details:last-child::before {
+  display: none;
+}
+.curated-itinerary.itinerary-list summary {
+  align-items: center;
+  position: relative;
+}
+.curated-itinerary.itinerary-list .itinerary-number {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #d9bdab;
+  background: #fffdf8;
+  border-radius: 50%;
+  flex-shrink: 0;
+  color: #b72d29;
+  font:
+    13px Georgia,
+    serif;
+}
+.curated-itinerary.itinerary-list summary strong {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.curated-itinerary.itinerary-list details p {
+  padding-left: 52px;
+  font-size: 14px;
+  line-height: 1.8;
+  position: relative;
+}
+.destination-card .destination-source-route {
+  border-top: 1px solid #ded6cc;
+  padding-top: 12px;
+  margin-top: 16px;
+  font-size: 11px !important;
+}
+.experience-grid {
+  display: grid;
+  gap: 22px;
+}
+.experience-grid article {
+  padding: 22px;
+  background: #f0ece2;
+  border-radius: 16px;
+}
+.experience-grid span {
+  color: #b72d29;
+  font:
+    22px Georgia,
+    serif;
+}
+.experience-grid h3 {
+  font:
+    25px/1.2 Georgia,
+    serif;
+  margin-block: 18px 12px;
+}
+.experience-grid p {
+  font-size: 14px;
+}
+.destination-planning-grid {
+  display: grid;
+  gap: 35px;
+  margin-top: 55px;
+  align-items: start;
+}
+.destination-planning-grid h2 {
+  font-size: 42px;
+}
+.planning-note-title {
+  margin-top: 26px;
+  font-size: 20px;
+}
+.destination-experiences .brochure-tour-card {
+  background: #fffdf8;
+  padding: 16px;
+}
+.destination-experiences .brochure-tour-card h2 {
+  font:
+    32px/1.13 Georgia,
+    serif;
+}
+.legacy-principles {
+  display: grid;
+  gap: 25px;
+  margin-top: 35px;
+}
+.legacy-principles article {
+  padding-top: 22px;
+  border-top: 1px solid #ded6cc;
+}
+.legacy-principles strong {
+  font:
+    64px/1 Georgia,
+    serif;
+  color: #b72d29;
+}
+.legacy-principles h3 {
+  font-size: 22px;
+  margin-block: 18px 12px;
+}
+.legacy-principles p {
+  font-size: 14px;
+}
+.office-story {
+  display: grid;
+  gap: 30px;
+  border-top: 1px solid #ded6cc;
+}
+.office-story p:not(.eyebrow) {
+  margin-block: 20px;
+  max-width: 500px;
+}
+.office-story .text-link {
+  display: flex;
+  margin-top: 10px;
+}
+.service-detail-grid .service-detail {
+  padding: 14px 14px 24px;
+  background: #fffdf8;
+  border: 1px solid #ded6cc;
+  border-radius: 18px;
+}
+.service-editorial-photo {
+  position: relative;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #f1eee5;
+  margin-bottom: 12px;
+}
+.service-editorial-photo img {
+  object-fit: cover;
+}
+.service-detail-grid .service-detail > svg {
+  margin-top: 20px;
+}
+.service-detail-grid .service-detail h2 {
+  font:
+    28px/1.2 Georgia,
+    serif;
+  letter-spacing: -0.035em;
+}
+.service-detail-grid .service-detail p {
+  font-size: 14px;
+}
+.conversation-panel {
+  display: grid;
+  gap: 28px;
+  padding: 30px 22px;
+  border-radius: 22px;
+  background: #eee9dd;
+  margin-bottom: 70px;
+}
+.conversation-panel > div > p:not(.eyebrow) {
+  margin-top: 22px;
+  max-width: 400px;
+}
+.conversation-options {
+  display: grid;
+  gap: 10px;
+}
+.conversation-options label {
+  font-size: 12px;
+}
+.conversation-options select {
+  font-size: 16px;
+  min-height: 52px;
+  min-width: 0;
+  width: 100%;
+  border: 1px solid #cfc5b7;
+  border-radius: 10px;
+  background: #fffdf8;
+  color: #302925;
+  padding: 12px;
+  margin-bottom: 8px;
+}
+.conversation-options small {
+  font-size: 11px;
+  color: #61564f;
+}
+.contact-options article:first-child {
+  border-color: #b72d2940;
+  background: #f5e9e0;
+}
+.photo-grid .photo-tile {
+  border-radius: 16px;
+}
+.photo-grid .photo-tile > span {
+  font-size: 12px;
+  line-height: 1.4;
+  background: linear-gradient(0deg, #17251feb, transparent);
+  padding-top: 70px;
+}
+.lightbox-controls a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 12px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.photo-grid .photo-tile:nth-child(3n + 1) {
+  grid-column: 1/-1;
+}
+.review-grid .review-card {
+  border: 1px solid #ded6cc;
+  background: #fffdf8;
+  border-radius: 16px;
+}
+.review-grid .review-card blockquote {
+  font-size: 28px;
+  letter-spacing: -0.025em;
+}
+.faq-page .faq-topic {
+  margin-block: 30px 45px;
+  scroll-margin-top: 110px;
+}
+.faq-topic > h2 {
+  font:
+    30px/1.2 Georgia,
+    serif;
+  margin-bottom: 24px;
+}
+.faq-page .tour-section-nav {
+  margin-bottom: 25px;
+}
+.information-grid {
+  display: grid;
+  gap: 24px;
+}
+.information-grid .package-panel p {
+  margin-top: 18px;
+}
+.information-grid .package-panel h2 {
+  font:
+    34px/1.12 Georgia,
+    serif;
+}
+@media (min-width: 641px) {
+  .experience-grid,
+  .legacy-principles {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .destination-planning-grid,
+  .office-story,
+  .information-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 35px;
+  }
+  .photo-grid .photo-tile:nth-child(3n + 1) {
+    grid-column: auto;
+  }
+}
+@media (min-width: 901px) {
+  .route-preview {
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 50px;
+  }
+  .route-preview ol {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .route-preview li {
+    display: block;
+  }
+  .route-preview li h3 {
+    margin-top: 16px;
+  }
+  .conversation-panel {
+    grid-template-columns: 1fr 1fr;
+    padding: 45px;
+    gap: 65px;
+  }
+  .photo-grid .photo-tile:nth-child(6n + 1) {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
+@media (max-width: 640px) {
+  .brochure-detail .tour-section-nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    scrollbar-width: thin;
+  }
+  .brochure-detail .tour-section-nav a {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .brochure-detail .tour-detail-tools {
+    gap: 5px 18px;
+    margin-top: 14px;
+  }
+  .brochure-detail .tour-detail-tools .text-link {
+    font-size: 11px;
+  }
+  .curated-itinerary.itinerary-list summary strong {
+    font-size: 16px;
+  }
+  .brochure-detail .package-panel {
+    padding: 22px;
+  }
+  .brochure-detail .tour-photo-heading h1 {
+    font-size: clamp(30px, 8vw, 40px);
+  }
+  .brochure-detail .tour-photo-window {
+    aspect-ratio: 4/4.1;
+  }
+}

@@ -45,7 +45,12 @@ export default function Footer() {
           <Link href="/destinations">Destinations</Link>
           <Link href="/about">Our story</Link>
           <Link href="/services">Travel services</Link>
+          <Link href="/gallery">Travel gallery</Link>
+          <Link href="/contact">Contact our team</Link>
+          <Link href="/tours/saved">Saved journeys</Link>
+          <Link href="/tours/compare">Compare journeys</Link>
           <Link href="/faq">Your questions</Link>
+          <Link href="/travel-information">Booking & website information</Link>
           <Link href="/photo-credits">Photo credits</Link>
           <WhatsAppLink>Plan your holiday</WhatsAppLink>
         </div>

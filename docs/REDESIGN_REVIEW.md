@@ -31,3 +31,17 @@ Baseline: lint, TypeScript, unit tests, production build and route smoke checks 
 Baseline passed lint/types, 25 tests, build and production smoke. New implementation passes lint/types, 28 tests and build. Homepage now follows the requested editorial sequence: cinematic hero and real discovery, trust, featured source tours, styles, India/world collections, family story, planning steps, established strengths, licensed gallery, official reels, sourced reviews, FAQs and final WhatsApp CTA. Shared page introductions use licensed photographs and serif typography.
 
 Real-tour filters intersect text, India/international, country, supported styles and stated duration in GET URLs. The new /tours/saved and /tours/compare work with actual records. Real saves use a separate local-storage key from demo packages; comparison has no prices or fabricated inventory. Browser verification at 390px: homepage search returned Nepal for Pokhara + international + eight days; Nepal and Dubai saves survived reload; two-tour comparison showed source details and copied its share URL. Homepage has no horizontal overflow at 320/390/768/1024/1440px. All new routes preserve metadata, breadcrumbs and noindex where appropriate.
+
+### Stage 2 — the complete page experience
+
+- Eleven tour pages: source-derived highlights, day-by-day visual timeline, save/share controls, source-related journeys and one mobile WhatsApp bar. Kashmir retains the missing-daily-plan explanation rather than invented days.
+- Five destination pages: experiences from the linked tour, actual stops, important source notes and the related tour card. Destination collection cards now show stated duration and route context.
+- About: credited destination inspiration, family legacy presentation, source-grounded values and office directions. No fabricated family portraits, dates or leadership profiles.
+- Services: all established arrangements retained, with licensed editorial imagery and contextual WhatsApp actions.
+- Gallery: eleven attributed destination photographs, accessible lightbox and separately identified company/collaboration reels. Legacy template photographs are no longer the gallery source.
+- Contact: existing two phone numbers, email, office address and hours retained. Optional destination/group choices create a WhatsApp draft in memory; there is no intake submission or stored lead.
+- FAQ: twelve source-grounded questions grouped by planning, arrangements and confirmation.
+- Booking & website information: factual explanation of outlines, final quotations, local saved tours and external services. No invented cancellation/refund terms or claim of an owner-approved legal policy.
+- Navigation/footer: real discovery, saved/compare, contact, gallery and information links. Canonicals, sitemap, breadcrumbs and demo isolation preserved.
+
+Validation: lint, TypeScript, 28 tests, build and expanded production smoke pass. Browser checks covered 28 routes at 320/390/768/1024/1440px (140 layouts): one main heading, image alternative text and no page-level horizontal overflow. Interaction checks covered mobile menu open/Escape, itinerary collapse, one fixed enquiry bar, primary WhatsApp links, gallery ArrowRight/Escape and focus return, contextual Kerala/family WhatsApp draft, and booking FAQ expansion. Actual message sending, Instagram playback, physical phones and new slow-network lab scores are not established by these checks.

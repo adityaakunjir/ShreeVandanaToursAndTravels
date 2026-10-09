@@ -8,6 +8,9 @@ import tours from '@/data/tours.json';
 import Breadcrumb from '@/components/Breadcrumb';
 import WhatsAppLink from '@/components/WhatsAppLink';
 import { business } from '@/data/site';
+import TourCard from '@/components/TourCard';
+import ShareTour from '@/components/ShareTour';
+import { SaveRealTour } from '@/components/RealShortlist';
 export function generateStaticParams() {
   return tours.map((t) => ({ slug: t.slug }));
 }
@@ -52,6 +55,15 @@ export default async function TourPage({
   if (!tour) notFound();
   const duration = tour.duration || tour.days.length;
   const photo = photos.find((photo) => photo.slug === tour.slug);
+  const related = tours
+    .filter((t) => t.slug !== tour.slug)
+    .sort((a, b) => {
+      const score = (t: typeof tour) =>
+        Number(t.theme === tour.theme) * 2 +
+        Number((t.region === 'India') === (tour.region === 'India'));
+      return score(b) - score(a);
+    })
+    .slice(0, 3);
   return (
     <main className="brochure-detail wrap">
       <Breadcrumb
@@ -92,6 +104,13 @@ export default async function TourPage({
         <a href="#inclusions">What’s included</a>
         <a href="#before-you-go">Before you go</a>
       </nav>
+      <div className="tour-detail-tools">
+        <SaveRealTour slug={tour.slug} name={tour.name} />
+        <ShareTour />
+        <Link href="/tours/compare" className="text-link">
+          Compare journeys ↗
+        </Link>
+      </div>
       <div className="brochure-detail-hero">
         <div>
           <p className="eyebrow">
@@ -129,11 +148,32 @@ export default async function TourPage({
         </aside>
       </div>
       <div className="package-content-grid">
+        <section className="route-preview" aria-label="Journey highlights">
+          <div>
+            <p className="eyebrow">A TASTE OF THE JOURNEY</p>
+            <h2>
+              Moments to
+              <br />
+              <em>look forward to.</em>
+            </h2>
+          </div>
+          <ol>
+            {(tour.highlights?.length
+              ? tour.highlights.slice(0, 3)
+              : tour.days.slice(1, 4).map((d) => d.title)
+            ).map((highlight, index) => (
+              <li key={highlight}>
+                <span>0{index + 1}</span>
+                <h3>{highlight}</h3>
+              </li>
+            ))}
+          </ol>
+        </section>
         <section className="package-panel" id="itinerary">
           <p className="eyebrow">The journey unfolds</p>
           <h2>Your itinerary, day by day.</h2>
           {tour.days.length ? (
-            <div className="itinerary-list">
+            <div className="itinerary-list curated-itinerary">
               {tour.days.map((day, i) => (
                 <details key={day.title} open={i === 0}>
                   <summary>
@@ -213,6 +253,7 @@ export default async function TourPage({
         </WhatsAppLink>
       </section>
       <nav className="brochure-mobile-action" aria-label="Tour enquiry">
+        <span className="sr-only">Personalised quote</span>
         <div>
           <strong>{duration} days</strong>
           <span>Price on enquiry</span>
@@ -221,6 +262,26 @@ export default async function TourPage({
           WhatsApp <ArrowUpRight size={16} />
         </WhatsAppLink>
       </nav>
+      <section className="section related-tours">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">KEEP YOUR CURIOSITY GOING</p>
+            <h2>
+              Another place.
+              <br />
+              <em>Another possibility.</em>
+            </h2>
+          </div>
+          <Link href="/tours" className="text-link">
+            All journeys ↗
+          </Link>
+        </div>
+        <div className="brochure-tour-grid">
+          {related.map((t, i) => (
+            <TourCard key={t.slug} tour={t} index={i} />
+          ))}
+        </div>
+      </section>
     </main>
   );
 }

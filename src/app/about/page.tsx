@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import { PageIntro, JourneyCTA } from '@/components/PageIntro';
 import { HeartHandshake, Users, Compass } from 'lucide-react';
+import Link from 'next/link';
+import { business } from '@/data/site';
 export const metadata: Metadata = {
   title: 'Our family story',
   description:
@@ -21,10 +23,11 @@ export default function AboutPage() {
       <section className="section wrap story-grid">
         <div className="story-photo">
           <Image
-            src="/assets/images/gallery-3.jpg"
+            src="/assets/images/tours/royal-bhutan.webp"
             fill
             sizes="(max-width:900px) calc(100vw - 40px), 550px"
-            alt="A quiet moment of holiday inspiration"
+            alt="Destination inspiration: the mountain landscape around Paro, Bhutan"
+            quality={60}
           />
           <div className="legacy-card">
             <strong>
@@ -36,6 +39,9 @@ export default function AboutPage() {
           </div>
         </div>
         <div className="story-content">
+          <Link href="/photo-credits#royal-bhutan" className="tour-card-credit">
+            Bhutan inspiration · photo credits ↗
+          </Link>
           <p className="eyebrow">EXPERIENCE MEETS PASSION</p>
           <h2>
             Travel is personal.
@@ -57,6 +63,37 @@ export default function AboutPage() {
             customised travel, we believe every journey deserves thoughtful
             planning and dependable service.
           </p>
+        </div>
+      </section>
+      <section className="section wrap legacy-manifesto">
+        <p className="eyebrow">OUR LEGACY, YOUR JOURNEY</p>
+        <h2>
+          Passed through generations.
+          <br />
+          <em>Planned for yours.</em>
+        </h2>
+        <div className="legacy-principles">
+          <article>
+            <strong>30+</strong>
+            <h3>Years of experience</h3>
+            <p>The legacy of a family travel business rooted in Pune.</p>
+          </article>
+          <article>
+            <strong>3</strong>
+            <h3>Generations, one passion</h3>
+            <p>
+              Personal attention and thoughtful planning carried forward through
+              the family.
+            </p>
+          </article>
+          <article>
+            <strong>You</strong>
+            <h3>At the heart of the plan</h3>
+            <p>
+              A conversation about your interests, comfort and the people
+              travelling with you.
+            </p>
+          </article>
         </div>
       </section>
       <section className="wrap values-grid">
@@ -85,6 +122,34 @@ export default function AboutPage() {
         ))}
       </section>
       <JourneyCTA />
+      <section className="section wrap office-story">
+        <div>
+          <p className="eyebrow">ROOTED IN PUNE</p>
+          <h2>
+            A real conversation.
+            <br />
+            <em>A familiar place.</em>
+          </h2>
+          <p>{business.contact.address}</p>
+        </div>
+        <div>
+          <p>
+            Talk through your ideas with our team in Dhankawadi. Call before
+            visiting on a holiday.
+          </p>
+          <a
+            className="button outline"
+            href={business.map}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Find our office ↗
+          </a>
+          <Link className="text-link" href="/contact">
+            Contact our team ↗
+          </Link>
+        </div>
+      </section>
     </main>
   );
 }

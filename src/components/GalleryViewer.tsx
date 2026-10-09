@@ -2,48 +2,13 @@
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 import { X, ArrowLeft, ArrowRight, Expand } from 'lucide-react';
-const photos = [
-  {
-    src: 'hero-banner.jpg',
-    label: 'Italian Riviera',
-    caption: 'Colourful villages along the coast.',
-  },
-  {
-    src: 'popular-1.jpg',
-    label: 'Venice, Italy',
-    caption: 'A different perspective from the water.',
-  },
-  {
-    src: 'popular-2.jpg',
-    label: 'Dubai, UAE',
-    caption: 'A skyline made for discovery.',
-  },
-  {
-    src: 'popular-3.jpg',
-    label: 'Kyoto, Japan',
-    caption: 'A glimpse of timeless traditions.',
-  },
-  {
-    src: 'gallery-1.jpg',
-    label: 'A coastal escape',
-    caption: 'Time to slow down and take in the view.',
-  },
-  {
-    src: 'gallery-2.jpg',
-    label: 'Travel inspiration',
-    caption: 'Little moments along the way.',
-  },
-  {
-    src: 'gallery-4.jpg',
-    label: 'Out in the open',
-    caption: 'A world beyond the everyday.',
-  },
-  {
-    src: 'gallery-5.jpg',
-    label: 'Somewhere beautiful',
-    caption: 'Another reason to keep exploring.',
-  },
-];
+import Link from 'next/link';
+import sourcePhotos from '@/data/tour-photos.json';
+const photos = sourcePhotos.map((p) => ({
+  ...p,
+  label: p.alt,
+  caption: `Photo: ${p.author} · ${p.license} · Destination inspiration`,
+}));
 export default function GalleryViewer() {
   const [active, setActive] = useState<number | null>(null);
   const dialog = useRef<HTMLDialogElement>(null);
@@ -82,9 +47,10 @@ export default function GalleryViewer() {
             aria-label={`View ${photo.label}`}
           >
             <Image
-              src={`/assets/images/${photo.src}`}
+              src={photo.src}
               alt={photo.label}
               fill
+              quality={60}
               sizes="(max-width:640px) 45vw, (max-width:900px) 45vw, 380px"
             />
             <span>
@@ -146,9 +112,10 @@ export default function GalleryViewer() {
               }}
             >
               <Image
-                src={`/assets/images/${photos[active].src}`}
+                src={photos[active].src}
                 alt={photos[active].label}
                 fill
+                quality={60}
                 sizes="(max-width:640px) 92vw, 80vw"
               />
             </div>
@@ -159,6 +126,9 @@ export default function GalleryViewer() {
               <div>
                 <strong>{photos[active].label}</strong>
                 <p>{photos[active].caption}</p>
+                <Link href={`/photo-credits#${photos[active].slug}`}>
+                  Source & licence ↗
+                </Link>
                 <small>
                   {active + 1} / {photos.length}
                 </small>

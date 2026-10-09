@@ -8,6 +8,8 @@ import { ArrowUpRight, Check } from 'lucide-react';
 import { destinations } from '@/data/site';
 import { JourneyCTA } from '@/components/PageIntro';
 import Breadcrumb from '@/components/Breadcrumb';
+import tours from '@/data/tours.json';
+import TourCard from '@/components/TourCard';
 export function generateStaticParams() {
   return destinations.map(({ slug }) => ({ slug }));
 }
@@ -54,6 +56,7 @@ export default async function DestinationPage({
   const { slug } = await params;
   const destination = destinations.find((item) => item.slug === slug);
   if (!destination) notFound();
+  const tour = tours.find((t) => t.slug === destination.tourSlug)!;
   return (
     <main>
       <section className="destination-detail wrap">
@@ -126,6 +129,66 @@ export default async function DestinationPage({
               pricing are confirmed with our team.
             </p>
           </div>
+        </div>
+      </section>
+      <section className="section wrap destination-experiences">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">
+              A CLOSER LOOK AT {destination.name.toUpperCase()}
+            </p>
+            <h2>
+              More than a place.
+              <br />
+              <em>A journey to experience.</em>
+            </h2>
+          </div>
+          <p>
+            From our supplied tour outline. Final plans are confirmed around
+            your travel dates.
+          </p>
+        </div>
+        <div className="experience-grid">
+          {(tour.highlights?.length
+            ? tour.highlights
+                .slice(0, 3)
+                .map((h) => ({ title: h, description: '' }))
+            : tour.days.slice(1, 4)
+          ).map((day, i) => (
+            <article key={day.title}>
+              <span>0{i + 1}</span>
+              <h3>{day.title}</h3>
+              {day.description && <p>{day.description}</p>}
+            </article>
+          ))}
+        </div>
+        <div className="destination-planning-grid">
+          <div>
+            <p className="eyebrow">YOUR ROUTE, THOUGHTFULLY CONNECTED</p>
+            <h2>
+              See how it
+              <br />
+              <em>comes together.</em>
+            </h2>
+            <div className="brochure-route">
+              {tour.stops.map((stop) => (
+                <span key={stop}>{stop}</span>
+              ))}
+            </div>
+            <h3 className="planning-note-title">Before you plan</h3>
+            <ul className="brochure-exclusions">
+              {tour.notes.map((note) => (
+                <li key={note}>{note}</li>
+              ))}
+            </ul>
+            <WhatsAppLink
+              destination={`${destination.name} holiday planning`}
+              className="text-link"
+            >
+              Talk dates and preferences ↗
+            </WhatsAppLink>
+          </div>
+          <TourCard tour={tour} index={0} />
         </div>
       </section>
       <JourneyCTA />

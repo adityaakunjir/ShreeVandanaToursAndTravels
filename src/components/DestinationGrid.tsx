@@ -3,6 +3,8 @@ import Image from 'next/image';
 import { ArrowUpRight, ArrowRight } from 'lucide-react';
 import { destinations } from '@/data/site';
 import photos from '@/data/tour-photos.json';
+import tours from '@/data/tours.json';
+import { tourDuration } from '@/lib/real-tours';
 export default function DestinationGrid({
   items = destinations,
 }: {
@@ -48,6 +50,16 @@ export default function DestinationGrid({
               </Link>
             </h3>
             <p>{destination.description}</p>
+            <p className="destination-source-route">
+              {tourDuration(
+                tours.find((t) => t.slug === destination.tourSlug)!,
+              )}
+              -day tour outline ·{' '}
+              {tours
+                .find((t) => t.slug === destination.tourSlug)!
+                .stops.slice(0, 3)
+                .join(' / ')}
+            </p>
             <Link
               className="text-link"
               href={`/destinations/${destination.slug}`}

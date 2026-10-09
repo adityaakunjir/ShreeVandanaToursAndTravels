@@ -4,6 +4,7 @@ import { Phone, Mail, MapPin, MessageCircle, ArrowUpRight } from 'lucide-react';
 import { PageIntro } from '@/components/PageIntro';
 import { business } from '@/data/site';
 import { googleBusiness } from '@/data/google-business';
+import TripConversation from '@/components/TripConversation';
 export const metadata: Metadata = {
   title: 'Contact our Pune team',
   description:
@@ -83,6 +84,7 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+      <TripConversation />
     </main>
   );
 }

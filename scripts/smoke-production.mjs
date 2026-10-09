@@ -78,6 +78,7 @@ try {
     '/gallery',
     '/contact',
     '/faq',
+    '/travel-information',
     '/destinations',
     '/destinations/nepal',
     '/destinations/kerala',
@@ -143,14 +144,20 @@ try {
   const tourSearch = await read('/tours?q=Bhutan&region=International');
   assert.match(tourSearch, /Royal Bhutan/);
   assert.match(tourSearch, /noindex, follow/);
-  const combined = await read('/tours?q=Pokhara&region=International&country=Nepal&style=coast&duration=8');
+  const combined = await read(
+    '/tours?q=Pokhara&region=International&country=Nepal&style=coast&duration=8',
+  );
   assert.match(combined.replaceAll('<!-- -->', ''), /1 journey/);
   assert.doesNotMatch(combined, /Explore Dubai &amp; Abu Dhabi/);
-  const comparison = await read('/tours/compare?tour=nepal&tour=dubai-abu-dhabi');
+  const comparison = await read(
+    '/tours/compare?tour=nepal&tour=dubai-abu-dhabi',
+  );
   assert.match(comparison, /Personalised on enquiry/);
   assert.match(comparison, /noindex, follow/);
   assert.doesNotMatch(comparison, /Sample adult cost|39,900|69,900/);
-  const oversized = await read('/tours/compare?tour=nepal&tour=dubai-abu-dhabi&tour=royal-bhutan&tour=sri-lanka');
+  const oversized = await read(
+    '/tours/compare?tour=nepal&tour=dubai-abu-dhabi&tour=royal-bhutan&tour=sri-lanka',
+  );
   assert.match(oversized, /Choose at most three tours/);
   for (const tour of tours) {
     const html = await read(`/tours/${tour.slug}`);
