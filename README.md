@@ -14,6 +14,8 @@ Verification: lint, TypeScript, 30 tests, production build and expanded route sm
 
 Search Console checked on 9 October: sitemap status **Success**, last read 6 October, 24 URLs discovered. This supersedes the older fetch-error notes below and does not establish indexing of every redesigned page. The indexing report includes older WordPress/template URLs; do not interpret historical counts as current catalogue coverage.
 
+The post-contrast mobile PageSpeed retest on 9 October at 5:53 pm scored 98 performance and 100 accessibility/best practices/SEO, with LCP 2.3s and CLS 0. It is one emulated slow-4G homepage run, rather than a universal performance or accessibility guarantee. See artifacts/redesign-mobile-performance.json.
+
 The sections below retain earlier setup and launch history. Their dates, counts, colour descriptions and interaction notes may describe superseded versions; the current report takes precedence.
 
 ---

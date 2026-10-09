@@ -1,6 +1,6 @@
 {
   "reviewDate": "2026-10-09",
-  "baseCommit": "56013b94f748bbf3caa6ff76b3ece3d48b88fc6b",
+  "baseCommit": "319746bd91dfbe6b291edb1e3e8e3c8b591a8a8a",
   "scope": "Working source, business documents and public assets. Excludes dependencies, builds, Git metadata, credentials and generated index itself.",
   "fileCount": 204,
   "files": [
@@ -366,9 +366,9 @@
     },
     {
       "path": "artifacts/redesign-mobile-performance.json",
-      "bytes": 902,
+      "bytes": 1277,
       "category": "supporting",
-      "sha256": "5ca4d9ec73a7bc81fa94b39035a8911ce0d85050951c079df704151fbfa25e5c"
+      "sha256": "2bdc8548887d419d911b44765f51a5fd10aad57fb49c2e92a06b6b940573ab66"
     },
     {
       "path": "artifacts/redesign-responsive-audit.json",
@@ -480,9 +480,9 @@
     },
     {
       "path": "docs/REDESIGN_REVIEW.md",
-      "bytes": 10009,
+      "bytes": 10660,
       "category": "supporting",
-      "sha256": "70d6a248d9f63ea7977969e49bb762256c428f462a395a82e4d5009dbfacd78c"
+      "sha256": "2fedcb9f6c5dc4ae4e582da2ec9098d415d3f634e49f4522c54121d145441e41"
     },
     {
       "path": "docs/TRAVEL_PLATFORM_PLAN.md",
@@ -756,9 +756,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 22867,
+      "bytes": 23176,
       "category": "supporting",
-      "sha256": "527b96ee8d965d2f9c09e38c6dffddb10902c2ff71e0e307960087764a62829c"
+      "sha256": "db796e68851921167569fcf3df2d1f6564e811f320bb994465912fa1e2736f92"
     },
     {
       "path": "scripts/check-catalogue.mjs",

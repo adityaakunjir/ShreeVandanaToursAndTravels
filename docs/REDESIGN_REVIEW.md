@@ -60,6 +60,8 @@ Evidence: artifacts/redesign-responsive-audit.json, artifacts/redesign-mobile-pe
 
 The final live host check found a 307 redirect from the bare domain to www, but the old metadata still declared the bare domain. Canonical origin normalization now aligns the existing business-domain environment value with https://www.shreevandanatoursandtravels.com. Metadata, sitemap, robots and structured data share that origin; other CI/local/project origins are preserved. Two regression tests cover the redirect-host mismatch. The domain-wide Search Console property covers both hosts.
 
+Post-contrast live mobile retest at 5:53 pm IST: **98 performance / 100 accessibility / 100 best practices / 100 SEO**; FCP 1.0s, LCP 2.3s, TBT 60ms, CLS 0, Speed Index 2.2s. Same Moto G Power / slow-4G lab conditions; no field data. Report: https://pagespeed.web.dev/analysis/https-shreevandanatoursandtravels-com/yozw56xlum?form_factor=mobile. The contrast audit now passes. This is one homepage measurement before canonical-host deployment; performance varies and the full score increase should not be attributed to the colour change. Final lint/types, **30 tests**, production build and expanded smoke checks pass after the canonical correction.
+
 ## Main files changed
 
 - src/app/page.tsx, curated.css, page-polish.css, globals.css and layout.tsx: homepage, visual system and social metadata.
