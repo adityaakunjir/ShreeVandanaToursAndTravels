@@ -8,7 +8,8 @@ import { business } from '@/data/site';
 export default function MobileDock() {
   const path = usePathname();
   if (
-    path.startsWith('/tours/') ||
+    (path.startsWith('/tours/') &&
+      !['/tours/saved', '/tours/compare'].includes(path)) ||
     path === '/enquire' ||
     path.endsWith('/plan')
   )
@@ -21,8 +22,8 @@ export default function MobileDock() {
   return (
     <nav className="mobile-dock" aria-label="Quick travel actions">
       <Link
-        href="/destinations"
-        aria-current={path.startsWith('/destinations') ? 'page' : undefined}
+        href="/tours"
+        aria-current={path.startsWith('/tours') ? 'page' : undefined}
       >
         <Compass size={20} />
         <span>Explore</span>

@@ -4,6 +4,7 @@ import photos from '@/data/tour-photos.json';
 import { ArrowUpRight, Clock } from 'lucide-react';
 import WhatsAppLink from './WhatsAppLink';
 import tours from '@/data/tours.json';
+import { SaveRealTour } from './RealShortlist';
 export default function TourCard({
   tour,
   index,
@@ -35,7 +36,7 @@ export default function TourCard({
         </Link>
       )}
       <div className="brochure-card-top">
-        <span>{String(index + 1).padStart(2, '0')}</span>
+        <span>JOURNEY {String(index + 1).padStart(2, '0')}</span>
         <span>{tour.region}</span>
       </div>
       <p className="eyebrow">{tour.theme}</p>
@@ -58,6 +59,7 @@ export default function TourCard({
           Enquire ↗
         </WhatsAppLink>
       </div>
+      <SaveRealTour slug={tour.slug} name={tour.name} />
     </article>
   );
 }

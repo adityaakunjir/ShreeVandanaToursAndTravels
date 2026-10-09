@@ -25,3 +25,9 @@ Reconcile the Instagram 25-year bio with the supplied 30+ year company descripti
 ## Verification
 
 Baseline: lint, TypeScript, unit tests, production build and route smoke checks are run before the first UI batch. Subsequent verified batches record results here. Browser widths: 320, 390, 768, 1024 and 1440. No physical-device or universal-network guarantee is implied.
+
+### Stage 1 — homepage and real-tour discovery
+
+Baseline passed lint/types, 25 tests, build and production smoke. New implementation passes lint/types, 28 tests and build. Homepage now follows the requested editorial sequence: cinematic hero and real discovery, trust, featured source tours, styles, India/world collections, family story, planning steps, established strengths, licensed gallery, official reels, sourced reviews, FAQs and final WhatsApp CTA. Shared page introductions use licensed photographs and serif typography.
+
+Real-tour filters intersect text, India/international, country, supported styles and stated duration in GET URLs. The new /tours/saved and /tours/compare work with actual records. Real saves use a separate local-storage key from demo packages; comparison has no prices or fabricated inventory. Browser verification at 390px: homepage search returned Nepal for Pokhara + international + eight days; Nepal and Dubai saves survived reload; two-tour comparison showed source details and copied its share URL. Homepage has no horizontal overflow at 320/390/768/1024/1440px. All new routes preserve metadata, breadcrumbs and noindex where appropriate.

@@ -8,8 +8,9 @@ import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { business } from '@/data/site';
 const links = [
-  ['Tours', '/tours'],
-  ['Discover', '/destinations'],
+  ['Home', '/'],
+  ['Our tours', '/tours'],
+  ['Destinations', '/destinations'],
   ['Our story', '/about'],
   ['Services', '/services'],
   ['Gallery', '/gallery'],
@@ -122,7 +123,7 @@ export default function Navbar() {
 
               onClick={() => setOpen(false)}
             >
-              Plan a trip <ArrowUpRight size={17} />
+              Plan your trip <ArrowUpRight size={17} />
             </WhatsAppLink>
           </nav>
           <button
