@@ -33,6 +33,7 @@ export default async function Collection({
   return (
     <main className="collection-page">
       <PageIntro
+        photoSlug={c.tours.find((t) => t.image)?.image?.slug}
         path={`/collections/${c.slug}`}
         eyebrow="Curated collection"
         title={c.name}

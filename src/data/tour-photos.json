@@ -1,5 +1,77 @@
 [
   {
+    "slug": "bali-indonesia-7-days",
+    "src": "/assets/images/tours/bali-indonesia-7-days.webp",
+    "width": 1400,
+    "height": 840,
+    "alt": "Temple courtyard and entrance at Uluwatu in Bali, Indonesia",
+    "author": "Jorge Franganillo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Uluwatu_Temple_(49813856427).jpg",
+    "changes": "Resized and compressed to WebP; cropped to fit the displayed frame."
+  },
+  {
+    "slug": "leh-ladakh-8-days",
+    "src": "/assets/images/tours/leh-ladakh-8-days.webp",
+    "width": 1400,
+    "height": 787,
+    "alt": "Blue waters and mountain scenery at Pangong Lake, Ladakh",
+    "author": "Sahil.morankar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Pangong_lake_at_leh_ladakh.jpg",
+    "changes": "Resized and compressed to WebP; cropped to fit the displayed frame."
+  },
+  {
+    "slug": "char-dham-yatra-13-days",
+    "src": "/assets/images/tours/char-dham-yatra-13-days.webp",
+    "width": 1400,
+    "height": 1050,
+    "alt": "Kedarnath Temple in the Himalayan landscape of Uttarakhand",
+    "author": "AaS",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Kedarnath_shrine.jpg",
+    "changes": "Resized and compressed to WebP; cropped to fit the displayed frame."
+  },
+  {
+    "slug": "andaman-with-baratang-island-7-days",
+    "src": "/assets/images/tours/andaman-with-baratang-island-7-days.webp",
+    "width": 1280,
+    "height": 857,
+    "alt": "Radhanagar Beach on Havelock Island in the Andaman Islands",
+    "author": "Pinaki HK Ghosh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Radhanagar_Beach.jpg",
+    "changes": "Resized and compressed to WebP; cropped to fit the displayed frame."
+  },
+  {
+    "slug": "mauritius-honeymoon-package-6-days",
+    "src": "/assets/images/tours/mauritius-honeymoon-package-6-days.webp",
+    "width": 1280,
+    "height": 853,
+    "alt": "Coastal scenery at Le Morne Beach, Mauritius",
+    "author": "dronepicr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Le_Morne_Beach_Mauritius_(53698222865).jpg",
+    "changes": "Resized and compressed to WebP; cropped to fit the displayed frame."
+  },
+  {
+    "slug": "japan-8-days",
+    "src": "/assets/images/tours/japan-8-days.webp",
+    "width": 1280,
+    "height": 721,
+    "alt": "Chureito Pagoda with Mount Fuji in Japan; destination inspiration",
+    "author": "Stjepko Krehula",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Chureito_Pagoda_and_Mount_Fuji_2023-03-07.jpg",
+    "changes": "Resized and compressed to WebP; cropped to fit the displayed frame."
+  },
+  {
     "slug": "kashi-gaya-prayag-ayodhya",
     "src": "/assets/images/tours/kashi-gaya-prayag-ayodhya.webp",
     "width": 1400,

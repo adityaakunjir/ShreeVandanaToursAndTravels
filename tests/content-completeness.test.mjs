@@ -83,3 +83,17 @@ test('expanded discovery derives durations and supports multi-country outlines w
     original,
   );
 });
+test('every outline exposes source-aware enquiry context and credited media or explicit artwork fallback', () => {
+  for (const tour of tours) {
+    assert.ok(tour.enquiryContext.includes(`${tour.duration} days`));
+    if (tour.image) {
+      assert.ok(tour.image.licenseUrl.startsWith('https://'));
+      assert.ok(tour.image.author);
+      assert.equal(tour.image.usageRights, 'licensed-destination-inspiration');
+    } else assert.equal(tour.image, null);
+  }
+  assert.notEqual(
+    tours.find((t) => t.slug === 'nepal').enquiryContext,
+    tours.find((t) => t.slug === 'nepal-8-days').enquiryContext,
+  );
+});

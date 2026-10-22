@@ -33,6 +33,12 @@ export type Tour = {
   approval: string;
   publication: string;
   reconciliation: string | null;
+  image?:
+    | ((typeof photos)[number] & {
+        usageRights: 'licensed-destination-inspiration';
+      })
+    | null;
+  enquiryContext?: string;
 };
 const newer = imported as Tour[];
 const preserved: Tour[] = legacy.map((t) => ({
@@ -55,7 +61,16 @@ const preserved: Tour[] = legacy.map((t) => ({
   publication: 'published-outline',
   reconciliation: null,
 }));
-const tours: Tour[] = [...(imported as Tour[]), ...preserved];
+const tours: Tour[] = [...newer, ...preserved].map((t) => {
+  const photo = tourPhoto(t);
+  return {
+    ...t,
+    image: photo
+      ? { ...photo, usageRights: 'licensed-destination-inspiration' as const }
+      : null,
+    enquiryContext: tourEnquiryContext(t),
+  };
+});
 export const catalogueStats = {
   outlines: tours.length,
   newer: imported.length,

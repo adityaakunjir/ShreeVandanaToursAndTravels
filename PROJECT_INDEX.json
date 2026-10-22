@@ -1,8 +1,8 @@
 {
   "reviewDate": "2026-10-22",
-  "baseCommit": "8a0789b9eee3c5da8e82df82a77beef247b4380d",
+  "baseCommit": "e337eca3bdd75cb7c0a9bc9e423cb193eebd86fd",
   "scope": "Working source, business documents and public assets. Excludes dependencies, builds, Git metadata, credentials and generated index itself.",
-  "fileCount": 220,
+  "fileCount": 226,
   "files": [
     {
       "path": ".agents/skills/prisma-composer-core-concepts/SKILL.md",
@@ -486,9 +486,9 @@
     },
     {
       "path": "docs/JOURNAL_DELIVERY.md",
-      "bytes": 3242,
+      "bytes": 5046,
       "category": "supporting",
-      "sha256": "a245cb3128c8f5094d4961fd13c2fc1b8eb332c62c55ed49ff9491dfdddfd1c9"
+      "sha256": "6f12579f45920e66fe6cd2b139f6516391d5c5b29a37695b6e02361a9abdba2e"
     },
     {
       "path": "docs/PACKAGE_IMPORT.md",
@@ -677,6 +677,24 @@
       "sha256": "2d60ec0176136a8226743c43af59592c7beee6001b98a7c17d09b36883183fb0"
     },
     {
+      "path": "public/assets/images/tours/andaman-with-baratang-island-7-days.webp",
+      "bytes": 174322,
+      "category": "public-asset",
+      "sha256": "e8a3b8911ba1b5facf980c0c4ad891bf2b4ddbe982610591d28d60d914e18c39"
+    },
+    {
+      "path": "public/assets/images/tours/bali-indonesia-7-days.webp",
+      "bytes": 235924,
+      "category": "public-asset",
+      "sha256": "869cc638414eb6449e68f942be513159e772e2861dedd5ea80782c22d57ba03c"
+    },
+    {
+      "path": "public/assets/images/tours/char-dham-yatra-13-days.webp",
+      "bytes": 130518,
+      "category": "public-asset",
+      "sha256": "56659c615b2e7aa885138e8fbc53300d2fe7ea02aa9fac70ca99e1e73e344a7b"
+    },
+    {
       "path": "public/assets/images/tours/darjeeling-gangtok-pelling.webp",
       "bytes": 371192,
       "category": "public-asset",
@@ -695,6 +713,12 @@
       "sha256": "6166773d727a1398fc99aacd64a052853d08281307fdc1581e0a37d45aee5480"
     },
     {
+      "path": "public/assets/images/tours/japan-8-days.webp",
+      "bytes": 165494,
+      "category": "public-asset",
+      "sha256": "4f6fd958876bf27a60bd600154abc1087369455ef49b0fad5f5c684ef16a382b"
+    },
+    {
       "path": "public/assets/images/tours/kashi-gaya-prayag-ayodhya.webp",
       "bytes": 48992,
       "category": "public-asset",
@@ -711,6 +735,18 @@
       "bytes": 303470,
       "category": "public-asset",
       "sha256": "160c3380a7485682c3d57db0bb78e78a82512b5c59d795122bba123aac203216"
+    },
+    {
+      "path": "public/assets/images/tours/leh-ladakh-8-days.webp",
+      "bytes": 88486,
+      "category": "public-asset",
+      "sha256": "f3d93195c61de7bec7d1e259feca4cca7d20bb20b98c259733bc30eb9ae547fd"
+    },
+    {
+      "path": "public/assets/images/tours/mauritius-honeymoon-package-6-days.webp",
+      "bytes": 178088,
+      "category": "public-asset",
+      "sha256": "c90ac7996280e7a89a54bf252926eb51058d38cbe9045e99f369239b2665f801"
     },
     {
       "path": "public/assets/images/tours/nepal.webp",
@@ -798,9 +834,9 @@
     },
     {
       "path": "scripts/import-tour-photos.mjs",
-      "bytes": 4720,
+      "bytes": 5803,
       "category": "supporting",
-      "sha256": "46d347de41b9f59599ce5df56df4502d2e50651545225ae3377200f4c1bb30b4"
+      "sha256": "fbdac8722b69c596208150407967b99a298e7a9689214d53d68bab10b6af4b1c"
     },
     {
       "path": "scripts/index-project.mjs",
@@ -822,9 +858,9 @@
     },
     {
       "path": "src/app/collections/[slug]/page.tsx",
-      "bytes": 1645,
+      "bytes": 1707,
       "category": "application",
-      "sha256": "18288b9c210e7e542e60693fdda6915fa7d13f017c94a01efb8e68af94232ec2"
+      "sha256": "8c5dd1f2d58c4169b0acd04e0cf5ced620b37708a63b482fd2dca346a62dd35c"
     },
     {
       "path": "src/app/contact/page.tsx",
@@ -840,9 +876,9 @@
     },
     {
       "path": "src/app/destinations/[slug]/page.tsx",
-      "bytes": 7757,
+      "bytes": 7900,
       "category": "application",
-      "sha256": "7ab03d013de80e701442b3ebdf0248b2894ec2b1f1e2f38f6fb7f4ee6b07ef54"
+      "sha256": "4a93e35a59d5bf72a72686a2194647fd8a0447ac107ee09d9a515a7e7bdad5ca"
     },
     {
       "path": "src/app/destinations/page.tsx",
@@ -1032,9 +1068,9 @@
     },
     {
       "path": "src/components/DestinationHub.tsx",
-      "bytes": 1383,
+      "bytes": 1447,
       "category": "application",
-      "sha256": "783542d000d0b2bf10ee96d71e23fadc0c17855f9eccb7ad2a6c922b266bd6d4"
+      "sha256": "e5c9d2a8ca145fd025ca90ce9d2e3b2d421ab2b833ef7421a50e9362ef3334c5"
     },
     {
       "path": "src/components/DiscoveryPlayground.tsx",
@@ -1086,21 +1122,21 @@
     },
     {
       "path": "src/components/Navbar.tsx",
-      "bytes": 4653,
+      "bytes": 4591,
       "category": "application",
-      "sha256": "7a07a8115e00408005c5d6cd45c46409d9f2203566e12c1579b042229ab18a21"
+      "sha256": "43dfebaac3943b624be0ec53b1b56c93b8f2b75cecf8fa9780c12187e7a8224b"
     },
     {
       "path": "src/components/PageIntro.tsx",
-      "bytes": 3183,
+      "bytes": 3242,
       "category": "application",
-      "sha256": "1e752562f6e3b264b49fa226b8e7c46b7336e2be4ca6fc94973d93b039a95012"
+      "sha256": "3d0df8a89c58eae503e797bfe37fdf30c3d2b6c70c2ca805db66326e388f0893"
     },
     {
       "path": "src/components/RealShortlist.tsx",
-      "bytes": 3803,
+      "bytes": 3853,
       "category": "application",
-      "sha256": "7fdea8acc1f284502f6782a5a66fe021c8dcdf142ca2ea402b75d0d6478faa24"
+      "sha256": "ee34da1cc351431bca01c40008119eb21c67af0ef7c8c57cca6dcae0fc35346c"
     },
     {
       "path": "src/components/ShareComparison.tsx",
@@ -1122,9 +1158,9 @@
     },
     {
       "path": "src/components/TourCard.tsx",
-      "bytes": 2529,
+      "bytes": 2454,
       "category": "application",
-      "sha256": "0fc46af773c1f291fff7031b5bd25be970ce822cce87964f9afeb424e6827176"
+      "sha256": "b9eecc1a00822a67cc49393f903cac8935db9d5ebc9e1d968fb5c57a24bdc414"
     },
     {
       "path": "src/components/TourDiscovery.tsx",
@@ -1152,9 +1188,9 @@
     },
     {
       "path": "src/data/catalogue.ts",
-      "bytes": 2315,
+      "bytes": 2675,
       "category": "application",
-      "sha256": "943919a433a1ab6b5470fb22d7b77efc57486351879a4cc395437c64e82e3153"
+      "sha256": "c50de4f002b16e1b3a3c92e8ed34e4c0be1729e043eefac484d9466d322e9262"
     },
     {
       "path": "src/data/collections.ts",
@@ -1194,9 +1230,9 @@
     },
     {
       "path": "src/data/tour-photos.json",
-      "bytes": 5473,
+      "bytes": 8622,
       "category": "application",
-      "sha256": "f3106b622368437816bb5a0b9563a923e0da3d2295da1147a79d3cb287973ebc"
+      "sha256": "72bc0ed8ab127318d7fb3227a3e2e0cf36d93b9bfe9afd4a583650ad80df256b"
     },
     {
       "path": "src/data/tours.json",
@@ -1266,9 +1302,9 @@
     },
     {
       "path": "tests/content-completeness.test.mjs",
-      "bytes": 3133,
+      "bytes": 3747,
       "category": "supporting",
-      "sha256": "8e9db10e7290ecf01dc6cd9974d2f1066f34f7b41a2728cd14d21ed1d1d25103"
+      "sha256": "1ed3dc17bcf6e771023fe662ef763db9a241127f539615d15239f9845d31e181"
     },
     {
       "path": "tests/demo-planner.test.mjs",

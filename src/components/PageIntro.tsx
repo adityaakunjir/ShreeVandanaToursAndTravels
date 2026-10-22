@@ -11,12 +11,14 @@ export function PageIntro({
   accent,
   description,
   path,
+  photoSlug,
 }: {
   eyebrow: string;
   title: string;
   accent: string;
   description: string;
   path?: string;
+  photoSlug?: string;
 }) {
   const imageSlug: Record<string, string> = {
     '/tours': 'shimla-kullu-manali',
@@ -29,7 +31,9 @@ export function PageIntro({
     '/tours/saved': 'darjeeling-gangtok-pelling',
     '/tours/compare': 'egypt-hurghada',
   };
-  const photo = photos.find((p) => p.slug === imageSlug[path || '']);
+  const photo = photos.find(
+    (p) => p.slug === (photoSlug || imageSlug[path || '']),
+  );
   return (
     <section className={`page-intro ${photo ? 'editorial-intro' : ''}`}>
       <div className="wrap">

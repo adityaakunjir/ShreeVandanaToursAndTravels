@@ -9,6 +9,7 @@ export default function DestinationHub({
   return (
     <main className="collection-page">
       <PageIntro
+        photoSlug={hub.tours.find((t) => t.image)?.image?.slug}
         path={`/destinations/${hub.slug}`}
         eyebrow="The destination journal"
         title={hub.name}

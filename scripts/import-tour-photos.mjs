@@ -5,6 +5,48 @@ import sharp from 'sharp';
 // Explicitly licensed destination photographs; never run during a site build.
 const sources = [
   [
+    'bali-indonesia-7-days',
+    'Uluwatu Temple (49813856427).jpg',
+    'Jorge Franganillo',
+    'by/2.0',
+    'Temple courtyard and entrance at Uluwatu in Bali, Indonesia',
+  ],
+  [
+    'leh-ladakh-8-days',
+    'Pangong lake at leh ladakh.jpg',
+    'Sahil.morankar',
+    'by-sa/4.0',
+    'Blue waters and mountain scenery at Pangong Lake, Ladakh',
+  ],
+  [
+    'char-dham-yatra-13-days',
+    'Kedarnath shrine.jpg',
+    'AaS',
+    'by-sa/4.0',
+    'Kedarnath Temple in the Himalayan landscape of Uttarakhand',
+  ],
+  [
+    'andaman-with-baratang-island-7-days',
+    'Radhanagar Beach.jpg',
+    'Pinaki HK Ghosh',
+    'by-sa/4.0',
+    'Radhanagar Beach on Havelock Island in the Andaman Islands',
+  ],
+  [
+    'mauritius-honeymoon-package-6-days',
+    'Le Morne Beach Mauritius (53698222865).jpg',
+    'dronepicr',
+    'by/2.0',
+    'Coastal scenery at Le Morne Beach, Mauritius',
+  ],
+  [
+    'japan-8-days',
+    'Chureito Pagoda and Mount Fuji 2023-03-07.jpg',
+    'Stjepko Krehula',
+    'by/4.0',
+    'Chureito Pagoda with Mount Fuji in Japan; destination inspiration',
+  ],
+  [
     'kashi-gaya-prayag-ayodhya',
     'Varanasi ghats at the sunrise.JPG',
     'Ilya Mauter',

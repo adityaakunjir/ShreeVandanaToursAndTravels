@@ -31,7 +31,11 @@ export async function generateMetadata({
           title: hub.name + ' holidays from Pune',
           description: `Explore company-supplied ${hub.name} tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.`,
           alternates: { canonical: `/destinations/${slug}` },
-          openGraph: { images: [] },
+          openGraph: {
+            images: hub.tours.find((t) => t.image)?.image?.src
+              ? [hub.tours.find((t) => t.image)!.image!.src]
+              : [],
+          },
         }
       : { title: 'Destination not found' };
   }
