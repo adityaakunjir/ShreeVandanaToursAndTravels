@@ -85,7 +85,7 @@ export default function Navbar() {
           <Link
             href="/"
             className="brand"
-            aria-label="Shree Vandana Tours and Travels home"
+            aria-label="Shree Vandana Tours & Travels home"
           >
             <Image
               src="/assets/images/brand-mark.webp"

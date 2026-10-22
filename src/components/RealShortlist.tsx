@@ -40,7 +40,9 @@ export function SaveRealTour({ slug, name }: { slug: string; name: string }) {
         type="button"
         className="text-link"
         aria-pressed={saved}
-        aria-label={`${saved ? 'Remove' : 'Save'} ${name}`}
+        aria-label={
+          saved ? `Saved ${name}; remove from saved journeys` : `Save ${name}`
+        }
         onClick={() => {
           try {
             write(toggleShortlist(ids, slug));

@@ -32,11 +32,7 @@ export default function TourCard({
         </Link>
       )}
       {!photo && (
-        <Link
-          href={`/tours/${tour.slug}`}
-          className="tour-card-photo"
-          aria-label={`Explore ${tour.name}`}
-        >
+        <Link href={`/tours/${tour.slug}`} className="tour-card-photo">
           <JournalCover tour={tour} />
         </Link>
       )}
