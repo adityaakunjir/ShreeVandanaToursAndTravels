@@ -89,8 +89,8 @@ export default function TourDiscovery({
             <label htmlFor="tour-party">Travelling together</label>
             <select id="tour-party" name="party" defaultValue={filters.party}>
               <option value="">Any group</option>
-              <option value="group">Source group tours</option>
-              <option value="honeymoon">Honeymoon outlines</option>
+              <option value="group">Group tours</option>
+              <option value="honeymoon">Honeymoon trips</option>
             </select>
           </div>
           <div>

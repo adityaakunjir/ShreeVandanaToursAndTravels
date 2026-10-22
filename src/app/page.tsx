@@ -37,19 +37,20 @@ export default function Home() {
         </div>
         <div className="curated-hero-shade" />
         <div className="curated-hero-copy">
-          <p className="eyebrow">PUNE TO THE WORLD · FRIEND IN TOURISM</p>
+          <p className="eyebrow">SHREE VANDANA / PUNE TO THE WORLD</p>
           <h1>
-            A world of stories.
+            Go further.
             <br />
-            <em>Find the one that’s yours.</em>
+            <em>Travel better.</em>
           </h1>
           <p>
-            Three generations of experience.
-            <br />A holiday planned around you.
+            Big destinations. Personal attention.
+            <br />
+            Holidays, planned by your team in Pune.
           </p>
           <div className="hero-actions">
             <Link href="/tours" className="button warm">
-              Explore journeys <ArrowUpRight size={18} />
+              Explore tours <ArrowUpRight size={18} />
             </Link>
             <WhatsAppLink className="hero-chat">
               Plan on WhatsApp <ArrowUpRight size={18} />
@@ -58,18 +59,18 @@ export default function Home() {
         </div>
         <div className="curated-hero-bottom">
           <a href="#discover">
-            <ArrowDown size={16} /> Find your next chapter
+            <ArrowDown size={16} /> Discover your next destination
           </a>
           <Link href="/photo-credits#nepal">
             <MapPin size={14} /> Pokhara, Nepal · Photo credits ↗
           </Link>
         </div>
         <span className="curated-hero-seal">
-          <strong>✳</strong>
+          <strong>↗</strong>
           <span>
-            YOUR LIVING
+            YOUR WORLD.
             <br />
-            TRAVEL JOURNAL
+            YOUR WAY.
           </span>
         </span>
       </section>
@@ -80,6 +81,23 @@ export default function Home() {
       >
         <TourDiscovery compact />
       </section>
+      <nav
+        className="wrap destination-shortcuts"
+        aria-label="Popular destinations"
+      >
+        <span>IN DEMAND</span>
+        {[
+          ['Dubai', 'dubai'],
+          ['Nepal', 'nepal'],
+          ['Kerala', 'kerala'],
+          ['Kashmir', 'kashmir'],
+          ['Sikkim–Darjeeling', 'sikkim-darjeeling'],
+        ].map(([name, slug]) => (
+          <Link key={slug} href={`/destinations/${slug}`}>
+            {name} <ArrowUpRight size={13} />
+          </Link>
+        ))}
+      </nav>
       <div className="wrap curated-trust">
         <div>
           <strong>✳</strong>
@@ -103,13 +121,13 @@ export default function Home() {
           <div>
             <p className="eyebrow">THE JOURNEY COLLECTION / 01</p>
             <h2>
-              Somewhere wonderful.
+              Worth the journey.
               <br />
-              <em>Something personal.</em>
+              <em>Planned around you.</em>
             </h2>
           </div>
           <Link href="/tours" className="text-link">
-            All {tours.length} source outlines <ArrowUpRight size={18} />
+            Explore all tours <ArrowUpRight size={18} />
           </Link>
         </div>
         <div className="brochure-tour-grid">

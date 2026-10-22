@@ -1,0 +1,1244 @@
+{
+  "checkedAt": "2026-10-22T11:31:45.526Z",
+  "layouts": [
+    {
+      "path": "/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/bali-indonesia-7-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/dubai-delight-6-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/chandigarh-shimla-manali-8-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/manali-amritsar-6-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/sikkim-gangtok-pelling-darjeeling-8-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/kashmir-7-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/kashmir-with-vaishno-devi-9-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/nepal-8-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/nainital-kausani-jim-corbett-8-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/three-sisters-of-northeast-india-10-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/odisha-7-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/odisha-with-gangasagar-10-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/hyderabad-srisailam-5-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/goa-5-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/gujarat-8-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/dharamshala-dalhousie-amritsar-7-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/full-rajasthan-12-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/mini-rajasthan-7-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/indore-ujjain-omkareshwar-5-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/bangalore-mysore-coorg-7-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/spiti-valley-8-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/leh-ladakh-8-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/leh-ladakh-with-kargil-drass-turtuk-10-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/char-dham-yatra-13-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/coastal-karnataka-8-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/kerala-6-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/unseen-kerala-with-wayanad-6-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/kerala-with-kanyakumari-8-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/kerala-with-kanyakumari-rameswaram-madurai-10-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/tamil-nadu-8-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/andaman-with-baratang-island-7-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/lakshadweep-6-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/kodaikanal-ooty-6-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/russia-7-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/thailand-malaysia-singapore-8-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/egypt-with-hurghada-8-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/baku-azerbaijan-5-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/south-africa-8-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/vietnam-7-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/singapore-malaysia-6-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/exotic-thailand-6-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/mauritius-honeymoon-package-6-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/hampi-badami-vijayapura-6-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/sri-lanka-7-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/japan-8-days",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/kashi-gaya-prayag-ayodhya",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/shimla-kullu-manali",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/darjeeling-gangtok-pelling",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/kashmir-amritsar-vaishno-devi",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/pithapur-kuravpur",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/dubai-abu-dhabi",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/nepal",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/sri-lanka",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/kerala-kanyakumari",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/royal-bhutan",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/egypt-hurghada",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/dubai",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/nepal",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/kerala",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/kashmir",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/sikkim-darjeeling",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/azerbaijan",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/bhutan",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/egypt",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/india",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/indonesia",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/japan",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/malaysia",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/mauritius",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/russia",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/singapore",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/south-africa",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/sri-lanka",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/thailand",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/united-arab-emirates",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/vietnam",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/bali",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/ladakh",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/spiti",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/rajasthan",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/andaman",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/lakshadweep",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/goa",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/gujarat",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/odisha",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/tamil-nadu",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/char-dham",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/coastal-karnataka",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/collections/himalayan-escapes",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/collections/sacred-journeys",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/collections/royal-india",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/collections/nature-wildlife",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/collections/islands-beaches",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/collections/honeymoon-romance",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/collections/family-group",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/collections/international-discoveries",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/collections/short-breaks",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/collections/grand-journeys",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/about",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/services",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/gallery",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/contact",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/faq",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/travel-information",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/saved",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/compare",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/dubai",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/about",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/services",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/gallery",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/contact",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/faq",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/japan-8-days",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/odisha-7-days",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/collections/honeymoon-romance",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/saved",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/compare",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/travel-information",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/dubai",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/about",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/services",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/gallery",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/contact",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/faq",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/japan-8-days",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/odisha-7-days",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/collections/honeymoon-romance",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/saved",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/compare",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/travel-information",
+      "width": 768,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/destinations/dubai",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/about",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/services",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/gallery",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/contact",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/faq",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/japan-8-days",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/odisha-7-days",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/collections/honeymoon-romance",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/saved",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/tours/compare",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    },
+    {
+      "path": "/travel-information",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "headings": 1,
+      "serifHeadings": []
+    }
+  ],
+  "interactions": [
+    "Mobile menu opens, makes background inert and closes on Escape",
+    "Mood and duration select the matching Mauritius itinerary",
+    "Tour search returns Japan for Japan/eight days",
+    "Tour mobile enquiry targets the primary WhatsApp number"
+  ],
+  "failures": []
+}

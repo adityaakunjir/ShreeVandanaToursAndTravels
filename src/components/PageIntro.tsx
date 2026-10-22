@@ -87,13 +87,13 @@ export function JourneyCTA() {
   return (
     <section className="compact-cta wrap curated-cta">
       <div>
-        <p className="eyebrow">YOUR NEXT CHAPTER</p>
+        <p className="eyebrow">LET’S MAKE IT HAPPEN</p>
         <h2>
-          Somewhere unforgettable.
+          Your next trip.
           <br />
-          <em>Starts with a hello.</em>
+          <em>Our personal attention.</em>
         </h2>
-        <p>Your dream. Our experience. Let’s plan something personal.</p>
+        <p>Tell us where you want to go. We’ll help with the details.</p>
       </div>
       <div>
         <WhatsAppLink className="button">

@@ -8,7 +8,7 @@ export default function JournalCover({
 }) {
   return (
     <div className={`journal-cover ${hero ? 'journal-cover-hero' : ''}`}>
-      <span className="journal-stamp">SHREE VANDANA · TRAVEL JOURNAL</span>
+      <span className="journal-stamp">SHREE VANDANA / EXPLORE</span>
       <svg viewBox="0 0 320 170" fill="none" aria-hidden="true">
         <path
           d="M-10 130C60 20 135 195 190 80S300 55 340 10"

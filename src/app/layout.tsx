@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import MobileDock from '@/components/MobileDock';
 import './globals.css';
+import './expedition.css';
 const geist = Geist({
   subsets: ['latin'],
   variable: '--font-geist',

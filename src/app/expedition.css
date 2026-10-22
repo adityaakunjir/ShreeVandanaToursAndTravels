@@ -1,0 +1,694 @@
+/* Expedition: shared visual system, mobile first. No animation dependency. */
+/* Specific legacy templates share the same type and surface rules. */
+.brochure-detail .package-panel h2,
+.brochure-detail .tour-photo-heading h1,
+.faq-topic > h2,
+.information-grid .package-panel h2,
+.destination-experiences .brochure-tour-card h2,
+.service-detail-grid .service-detail h2,
+.experience-grid h3,
+.review-grid .review-card blockquote,
+.legacy-principles strong,
+.curated-itinerary.itinerary-list summary::before {
+  font-family: var(--font-geist), Arial, sans-serif;
+  font-style: normal;
+  font-weight: 650;
+}
+.brochure-detail .package-panel,
+.destination-experiences .brochure-tour-card,
+.service-detail-grid .service-detail,
+.review-grid .review-card,
+.experience-grid article,
+.conversation-panel,
+.contact-options article:first-child,
+.brochure-detail .brochure-enquire {
+  background: #f5f7f8;
+  border-color: #dce0e4;
+  border-radius: 8px;
+}
+.review-grid .review-card {
+  background: #fff;
+}
+.conversation-options select {
+  background: #fff;
+  border-color: #dce0e4;
+  border-radius: 5px;
+  color: #14181d;
+}
+.service-editorial-photo,
+.photo-grid .photo-tile,
+.home-photo-triptych a {
+  border-radius: 6px;
+}
+:root {
+  --ink: #14181d;
+  --muted: #5c636c;
+  --brand: #bf2925;
+  --cream: #f2f4f5;
+  --warm: #f2f4f5;
+  --border: #dce0e4;
+  --background: #fff;
+  --foreground: #14181d;
+  --primary: #bf2925;
+  --secondary: #f2f4f5;
+  --secondary-foreground: #14181d;
+  --muted-foreground: #5c636c;
+  --accent: #edf0f2;
+  --accent-foreground: #14181d;
+  --input: #dce0e4;
+  --ring: #bf2925;
+  --radius: 0.5rem;
+}
+.brochure-detail .tour-photo-window {
+  border-radius: 8px;
+}
+.brochure-mobile-action {
+  background: #fff;
+  border-color: #dce0e4;
+}
+.mobile-dock {
+  border-radius: 10px;
+  border-color: #dce0e4;
+}
+.mobile-dock > a {
+  border-radius: 5px;
+}
+.mobile-dock > a[aria-current='page'] {
+  background: #edf0f2;
+}
+.curated-trust strong {
+  font-family: var(--font-geist), Arial, sans-serif;
+  font-weight: 650;
+}
+body {
+  background: #fff;
+  color: var(--ink);
+}
+h1,
+h2,
+h3,
+em,
+.page-intro.editorial-intro h1,
+.curated-cta.compact-cta h2,
+.brochure-tour-card h2,
+.featured-journeys .brochure-tour-card h2,
+.collection-page .brochure-tour-card h2,
+.brochure-detail .brochure-tour-card h2,
+.journal-cover strong,
+.journal-detail-hero > h1,
+.surprise-postcard h3,
+.atlas-columns h3,
+.atlas-grid a > span,
+.collection-shelf h3,
+.legacy-card strong {
+  font-family: var(--font-geist), Arial, sans-serif;
+  font-style: normal;
+  font-weight: 650;
+  letter-spacing: -0.045em;
+}
+h2 {
+  font-size: clamp(30px, 7vw, 48px);
+  line-height: 1.08;
+}
+h3 {
+  letter-spacing: -0.025em;
+}
+em {
+  color: var(--muted);
+}
+.eyebrow {
+  font-weight: 650;
+  letter-spacing: 0.13em;
+  font-size: 10px;
+}
+.section {
+  padding-block: 52px;
+}
+.section-heading {
+  gap: 24px;
+}
+.section-heading p:not(.eyebrow) {
+  color: var(--muted);
+}
+.site-header {
+  background: #fffffff5;
+  border-color: var(--border);
+  backdrop-filter: none;
+}
+.nav-wrap {
+  min-height: 72px;
+}
+.brand strong {
+  font-size: 12px;
+  font-weight: 750;
+  letter-spacing: 0.045em;
+}
+.brand small {
+  color: var(--muted);
+}
+.menu-toggle {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+}
+.main-nav {
+  border-radius: 10px;
+  background: #fff;
+}
+.button,
+.button.warm,
+.curated-cta .button {
+  border-radius: 6px;
+  background: var(--brand);
+  color: #fff;
+  border-color: var(--brand);
+  font-weight: 650;
+  min-height: 48px;
+  box-shadow: none;
+}
+.button:hover,
+.button.warm:hover,
+.curated-cta .button:hover {
+  background: #9e211e;
+  border-color: #9e211e;
+  color: #fff;
+}
+.button.outline {
+  background: #fff;
+  border-color: var(--border);
+  color: var(--ink);
+}
+.button.outline:hover {
+  background: #f2f4f5;
+  color: var(--ink);
+}
+.curated-hero {
+  margin-top: 0;
+  border-radius: 0;
+  width: 100%;
+  max-width: none;
+  min-height: 560px;
+  background: #18232b;
+}
+.curated-hero-image img {
+  object-position: 62% center;
+}
+.curated-hero-shade {
+  background:
+    linear-gradient(90deg, #0b141deb 0%, #0b141d94 50%, #0b141d20 100%),
+    linear-gradient(0deg, #0b141dc9, transparent 65%);
+}
+.curated-hero-copy {
+  padding: 88px 24px 115px;
+  max-width: 1400px;
+  margin-inline: auto;
+}
+.curated-hero h1 {
+  font-family: var(--font-geist), Arial, sans-serif;
+  font-weight: 750;
+  font-size: clamp(48px, 11vw, 108px);
+  letter-spacing: -0.065em;
+  line-height: 0.99;
+  max-width: 900px;
+  text-wrap: initial;
+}
+.curated-hero h1 em {
+  color: #fff;
+  font-weight: 750;
+  letter-spacing: inherit;
+}
+.curated-hero .eyebrow {
+  color: #fff;
+  font-size: 9px;
+  letter-spacing: 0.12em;
+}
+.curated-hero-copy > p:not(.eyebrow) {
+  color: #e1e6eb;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.curated-hero .hero-actions {
+  gap: 14px 24px;
+  margin-top: 28px;
+}
+.hero-chat {
+  font-weight: 550;
+  text-decoration: none;
+  border-bottom: 1px solid #ffffff60;
+}
+.curated-hero-seal {
+  display: none;
+}
+.curated-hero-bottom {
+  inset-inline: 24px;
+}
+.curated-hero-bottom a {
+  font-size: 10px;
+}
+.home-discovery {
+  margin-top: 0;
+  padding-top: 20px;
+}
+.tour-discovery {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 8px 30px #14181d07;
+}
+.tour-discovery input,
+.tour-discovery select,
+.mood-controls select,
+.discovery-search input,
+.discovery-search select {
+  background: #f7f8f9;
+  color: var(--ink);
+  border-color: var(--border);
+  border-radius: 5px;
+  font-size: 16px;
+}
+.tour-discovery label {
+  color: #3d454e;
+  font-weight: 600;
+}
+.destination-shortcuts {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  padding-block: 18px 4px;
+  scrollbar-width: thin;
+}
+.destination-shortcuts > span {
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+.destination-shortcuts a {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  min-height: 40px;
+  padding: 8px 12px;
+  font-size: 12px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+.destination-shortcuts a:hover {
+  border-color: var(--brand);
+}
+.curated-trust {
+  border-color: var(--border);
+  gap: 16px;
+  padding-block: 22px;
+}
+.curated-trust strong,
+.curated-trust svg {
+  color: var(--brand);
+}
+.curated-trust span {
+  color: #48515a;
+  font-size: 11px;
+}
+.brochure-tour-card,
+.brochure-tour-card:nth-child(3n + 2),
+.featured-journeys .brochure-tour-card,
+.collection-page .brochure-tour-card,
+.brochure-detail .brochure-tour-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px;
+  box-shadow: none;
+}
+.brochure-tour-card h2,
+.featured-journeys .brochure-tour-card h2,
+.collection-page .brochure-tour-card h2,
+.brochure-detail .brochure-tour-card h2 {
+  font-size: 25px;
+  line-height: 1.13;
+}
+.tour-card-photo,
+.featured-journeys .tour-card-photo,
+.collection-page .tour-card-photo,
+.brochure-detail .tour-card-photo {
+  border-radius: 4px;
+}
+.brochure-tour-card > p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 13px;
+}
+.brochure-duration {
+  border-color: var(--border);
+}
+.brochure-card-top {
+  color: var(--muted);
+}
+.variant-label,
+.source-outline-label {
+  color: #5c636c;
+}
+.page-intro,
+.page-intro.editorial-intro {
+  background: #f3f5f6;
+  border-bottom: 1px solid var(--border);
+  padding-block: 24px 40px;
+}
+.page-intro h1,
+.page-intro.editorial-intro h1 {
+  font-family: var(--font-geist), Arial, sans-serif;
+  font-weight: 700;
+  font-size: clamp(36px, 8vw, 68px);
+  line-height: 1.02;
+  letter-spacing: -0.055em;
+}
+.page-intro h1 em {
+  color: #69717a;
+}
+.editorial-intro .intro-photo {
+  border-radius: 6px;
+  height: 230px;
+}
+.intro-orbit {
+  display: none;
+}
+.page-description {
+  color: var(--muted);
+}
+.journal-cover {
+  color: #fff;
+  background: #192630;
+  background-image: linear-gradient(135deg, #192630, #2a3f4e);
+}
+.journal-cover::after {
+  border-color: #ffffff20;
+  inset: 12px;
+}
+.journal-cover svg {
+  opacity: 0.16;
+  transform: scale(1.25);
+}
+.journal-cover strong {
+  font-size: 26px;
+}
+.journal-stamp {
+  font-weight: 600;
+  letter-spacing: 0.12em;
+}
+.journal-detail-hero {
+  background: #192630;
+  color: #fff;
+  border-radius: 8px;
+  border-color: #192630;
+}
+.journal-detail-hero > p {
+  color: #d6dfe6;
+}
+.tour-photo-window,
+.tour-photo-figure,
+.destination-detail-image {
+  border-radius: 8px;
+}
+.tour-photo-heading h1 {
+  font-family: var(--font-geist), Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.055em;
+}
+.surprise-postcard {
+  background: #14232d;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: none;
+  transform: none;
+  min-height: 320px;
+  animation: none;
+}
+.surprise-postcard p,
+.surprise-postcard small {
+  color: #d6dfe6;
+}
+.surprise-postcard .journal-stamp,
+.surprise-postcard .text-link {
+  color: #fff;
+}
+.surprise-postcard .postcard-mark {
+  color: #ffffff16;
+  font-size: 140px;
+  right: 18px;
+  top: 10px;
+}
+.surprise-postcard h3 {
+  font-size: clamp(32px, 5vw, 46px);
+}
+.atlas-columns h3 {
+  font-size: 24px;
+}
+.atlas-grid a {
+  background: #f5f7f8;
+  border-color: var(--border);
+  border-radius: 5px;
+}
+.atlas-grid a > span {
+  font-size: 18px;
+}
+.atlas-grid small {
+  color: var(--muted);
+}
+.atlas-grid a:hover {
+  background: #fff;
+}
+.journal-collections {
+  background: #f2f4f5;
+  border-radius: 8px;
+}
+.collection-shelf a {
+  border-color: #d4dbe0;
+}
+.collection-shelf h3 {
+  font-size: 28px;
+}
+.collection-shelf p {
+  color: var(--muted);
+}
+.style-section,
+.story-section,
+.why-section {
+  background: #f2f4f5;
+}
+.travel-style-card,
+.world-card,
+.story-photo,
+.destination-image {
+  border-radius: 6px;
+}
+.travel-style-card h3,
+.world-card h3 {
+  font-family: var(--font-geist), Arial, sans-serif;
+  font-weight: 650;
+  font-style: normal;
+}
+.legacy-card {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 10px 25px #14181d12;
+}
+.legacy-card em {
+  color: var(--muted);
+}
+.process-section li,
+.review-card,
+.reel-card,
+.package-panel,
+.service-card,
+.contact-card,
+.office-card,
+.information-grid article {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: none;
+}
+.process-section li > span {
+  color: var(--brand);
+}
+.review-card blockquote {
+  font-family: var(--font-geist), Arial, sans-serif;
+  font-style: normal;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.025em;
+}
+.review-stars {
+  color: #a84c09;
+}
+.faq-list details {
+  border-color: var(--border);
+  border-radius: 0;
+  background: transparent;
+}
+.faq-list summary {
+  font-weight: 600;
+}
+.curated-cta.compact-cta {
+  border-radius: 8px;
+  background: #141c23;
+  padding: 32px 24px;
+}
+.curated-cta.compact-cta h2 {
+  font-size: clamp(30px, 5vw, 48px);
+  font-weight: 650;
+}
+.curated-cta h2 em {
+  color: #a8b6c2;
+}
+.curated-cta p:not(.eyebrow) {
+  color: #d6dfe6;
+}
+.curated-cta .eyebrow {
+  color: #d6dfe6;
+}
+.site-footer {
+  background: #10171d;
+  color: #fff;
+}
+.site-footer .brand strong,
+.site-footer h3 {
+  color: #fff;
+}
+.site-footer p,
+.site-footer .brand small,
+.site-footer .footer-bottom,
+.footer-grid > div > a:not(.brand) {
+  color: #bcc6ce;
+}
+.footer-grid > div > a:hover {
+  color: #fff;
+}
+.site-footer .brand img {
+  mix-blend-mode: normal;
+}
+.footer-bottom {
+  border-color: #ffffff20;
+}
+.mobile-dock,
+.tour-mobile-bar {
+  background: #fff;
+  border-color: var(--border);
+  backdrop-filter: none;
+}
+.mobile-dock .dock-primary {
+  border-radius: 6px;
+  background: var(--brand);
+  color: #fff;
+}
+.tour-section-nav a {
+  border-radius: 5px;
+  background: #f2f4f5;
+  border-color: var(--border);
+}
+@media (min-width: 901px) {
+  .curated-hero {
+    min-height: 650px;
+  }
+  .curated-hero-copy {
+    padding: 120px max(40px, calc((100vw - 1240px) / 2)) 130px;
+    max-width: none;
+  }
+  .curated-hero-bottom {
+    inset-inline: max(40px, calc((100vw - 1240px) / 2));
+    bottom: 70px;
+  }
+  .curated-hero-seal {
+    display: flex;
+    top: 50px;
+    right: max(40px, calc((100vw - 1240px) / 2));
+    border: 1px solid #ffffff45;
+    border-radius: 0;
+    padding: 14px;
+  }
+  .curated-hero-seal strong {
+    font-family: var(--font-geist), Arial, sans-serif;
+    font-size: 32px;
+  }
+  .section {
+    padding-block: 76px;
+  }
+  .home-discovery {
+    margin-top: -38px;
+    z-index: 2;
+    padding-top: 0;
+  }
+  .main-nav {
+    background: transparent;
+  }
+  .surprise-postcard {
+    min-height: 400px;
+    transform: none;
+  }
+  .journal-detail-hero .journal-cover {
+    height: 250px;
+  }
+}
+@media (max-width: 640px) {
+  .curated-hero {
+    min-height: 540px;
+  }
+  .curated-hero-copy {
+    padding-top: 76px;
+    padding-bottom: 110px;
+  }
+  .curated-hero .hero-actions .button {
+    width: auto;
+  }
+  .curated-hero-bottom a:first-child {
+    display: none;
+  }
+  .curated-hero-bottom {
+    bottom: 16px;
+  }
+  .curated-hero-copy > p:not(.eyebrow) {
+    max-width: 280px;
+  }
+  .destination-shortcuts {
+    padding-bottom: 8px;
+  }
+  .curated-trust {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .curated-trust > div {
+    justify-content: flex-start;
+  }
+  .featured-journeys .brochure-tour-grid {
+    grid-auto-columns: 86%;
+  }
+  .brochure-tour-card {
+    padding: 12px;
+  }
+  .editorial-intro .intro-photo {
+    height: 180px;
+  }
+  .journal-collections {
+    padding-inline: 20px;
+  }
+  .site-header .nav-wrap {
+    min-height: 68px;
+  }
+}
+@media (prefers-reduced-motion: no-preference) and (hover: hover) {
+  .brochure-tour-card,
+  .atlas-grid a {
+    transition:
+      border-color 180ms ease,
+      transform 180ms ease;
+  }
+  .brochure-tour-card:hover {
+    border-color: #9ba5ae;
+    transform: translateY(-3px);
+  }
+}

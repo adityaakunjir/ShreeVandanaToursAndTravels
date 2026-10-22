@@ -41,15 +41,15 @@ export default function DiscoveryPlayground({
   return (
     <section className="section wrap discovery-playground">
       <div>
-        <p className="eyebrow">A LITTLE SERENDIPITY</p>
+        <p className="eyebrow">FIND YOUR DIRECTION</p>
         <h2>
-          Find your travel mood.
+          Less searching.
           <br />
-          <em>Leave room for surprise.</em>
+          <em>More exploring.</em>
         </h2>
         <p>
-          Pick a feeling and a little time away. We’ll turn a page in the real
-          journey collection.
+          Choose your interests and time away. Discover a route from our tour
+          collection.
         </p>
         <div className="mood-controls">
           <label htmlFor="journal-mood">
@@ -101,9 +101,9 @@ export default function DiscoveryPlayground({
         </p>
       </div>
       <div key={turn} className="surprise-postcard">
-        <span className="journal-stamp">A POSTCARD FROM YOUR NEXT CHAPTER</span>
+        <span className="journal-stamp">YOUR NEXT DESTINATION / DISCOVER</span>
         <span className="postcard-mark" aria-hidden="true">
-          ✳
+          ↗
         </span>
         {chosen ? (
           <>
@@ -129,7 +129,7 @@ export default function DiscoveryPlayground({
               <br />
               <em>haven’t imagined yet.</em>
             </h3>
-            <p>Tap Surprise me to reveal a real tour outline.</p>
+            <p>Tap Surprise me to discover your next trip.</p>
             <Link className="text-link" href="/tours">
               Or browse every journey ↗
             </Link>

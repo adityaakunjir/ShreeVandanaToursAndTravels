@@ -39,9 +39,9 @@ export default async function ToursPage({ searchParams }: Props) {
       <PageIntro
         path="/tours"
         eyebrow="The journey collection"
-        title="A world to discover."
-        accent="A journey that’s yours."
-        description={`${tours.length} source outlines, including distinct route options. Find your kind of holiday, explore the route, then talk dates and details with our Pune team.`}
+        title="Find your next trip."
+        accent="Make it your own."
+        description={`Explore ${tours.length} itineraries and route options across India and the world. Compare the details, then plan your dates with our Pune team.`}
       />
       <section className="section wrap">
         <TourDiscovery filters={filters} />
