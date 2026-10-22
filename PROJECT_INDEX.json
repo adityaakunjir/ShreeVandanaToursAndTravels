@@ -1,8 +1,8 @@
 {
   "reviewDate": "2026-10-22",
-  "baseCommit": "a954ae9e463e1bd8fd0531ebffd45c5eb8e57dd0",
+  "baseCommit": "3a6fbd3e34c669a7490116aa70d5fc6fe38e28af",
   "scope": "Working source, business documents and public assets. Excludes dependencies, builds, Git metadata, credentials and generated index itself.",
-  "fileCount": 231,
+  "fileCount": 234,
   "files": [
     {
       "path": ".agents/skills/prisma-composer-core-concepts/SKILL.md",
@@ -329,6 +329,12 @@
       "sha256": "7f7adbc34c7a76dfdd068273ca6b907e7d150b4e68116b3def08dbc31d0e6cbc"
     },
     {
+      "path": "artifacts/local-concurrency.json",
+      "bytes": 21626,
+      "category": "supporting",
+      "sha256": "921d26d04b16f0ba7aa1f96ed8fa69041ecd257175c06883a4b4e86d1bb9d099"
+    },
+    {
       "path": "artifacts/main-destinations-mobile.png",
       "bytes": 26963,
       "category": "supporting",
@@ -491,6 +497,12 @@
       "sha256": "dffd72333e45a0cc5feccf89a5b87d9d575fbba19d81c9728944af1164f3bcb2"
     },
     {
+      "path": "docs/CAPACITY_BASELINE.md",
+      "bytes": 1781,
+      "category": "supporting",
+      "sha256": "da2bdfd2c0b500ae2d839641717ab278dc6d0e61851378be88ce355f11b45901"
+    },
+    {
       "path": "docs/CONTENT_AUDIT.md",
       "bytes": 9875,
       "category": "supporting",
@@ -534,9 +546,9 @@
     },
     {
       "path": "docs/TRAVEL_PLATFORM_PLAN.md",
-      "bytes": 46534,
+      "bytes": 46902,
       "category": "supporting",
-      "sha256": "245fae9c50cba3c9795920fe96a55f4e01d4a856b7b8e32b675f64ef0b19b1b7"
+      "sha256": "6e3047c71e83eb1c580887fa94992ec716d472623df4a3bf9ec878801b960002"
     },
     {
       "path": "eslint.config.mjs",
@@ -855,6 +867,12 @@
       "bytes": 1055,
       "category": "supporting",
       "sha256": "2c5bdff884bec4f5a58db628170b285138f651ee9934f4504762ccbdad53b076"
+    },
+    {
+      "path": "scripts/check-local-concurrency.mjs",
+      "bytes": 2990,
+      "category": "supporting",
+      "sha256": "82b60d9d8846d9b6a00d15418961b92d54a89d176e73772e6e471bb23bc461b1"
     },
     {
       "path": "scripts/import-itineraries.py",

@@ -1,0 +1,853 @@
+{
+  "checkedAt": "2026-10-22T11:06:49.003Z",
+  "origin": "http://localhost:3003",
+  "scope": "Warm local production-build HTTP rendering only; not browser UX, cold starts, CDN/image traffic, sustained load, Vercel limits or real visitor capacity.",
+  "concurrency": 6,
+  "requests": 120,
+  "elapsedMilliseconds": 1050,
+  "p50Milliseconds": 49,
+  "p95Milliseconds": 146,
+  "failures": 0,
+  "samples": [
+    {
+      "path": "/",
+      "status": 200,
+      "milliseconds": 174,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/gallery",
+      "status": 200,
+      "milliseconds": 18,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours?country=Japan&duration=8",
+      "status": 200,
+      "milliseconds": 192,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/destinations",
+      "status": 200,
+      "milliseconds": 193,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours",
+      "status": 200,
+      "milliseconds": 198,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/collections/honeymoon-romance",
+      "status": 200,
+      "milliseconds": 203,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/japan-8-days",
+      "status": 200,
+      "milliseconds": 223,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "milliseconds": 77,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "milliseconds": 98,
+      "passed": true,
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours/compare?tour=sri-lanka&tour=sri-lanka-7-days",
+      "status": 200,
+      "milliseconds": 102,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours?country=Japan&duration=8",
+      "status": 200,
+      "milliseconds": 75,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours",
+      "status": 200,
+      "milliseconds": 97,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/collections/honeymoon-romance",
+      "status": 200,
+      "milliseconds": 10,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/destinations",
+      "status": 200,
+      "milliseconds": 30,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "milliseconds": 113,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/japan-8-days",
+      "status": 200,
+      "milliseconds": 14,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "milliseconds": 12,
+      "passed": true,
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "milliseconds": 30,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/gallery",
+      "status": 200,
+      "milliseconds": 33,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "milliseconds": 70,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/japan-8-days",
+      "status": 200,
+      "milliseconds": 51,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/collections/honeymoon-romance",
+      "status": 200,
+      "milliseconds": 14,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/compare?tour=sri-lanka&tour=sri-lanka-7-days",
+      "status": 200,
+      "milliseconds": 87,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours?country=Japan&duration=8",
+      "status": 200,
+      "milliseconds": 75,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/gallery",
+      "status": 200,
+      "milliseconds": 10,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/destinations",
+      "status": 200,
+      "milliseconds": 66,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "milliseconds": 12,
+      "passed": true,
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "milliseconds": 18,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours",
+      "status": 200,
+      "milliseconds": 146,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "milliseconds": 60,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/compare?tour=sri-lanka&tour=sri-lanka-7-days",
+      "status": 200,
+      "milliseconds": 71,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours?country=Japan&duration=8",
+      "status": 200,
+      "milliseconds": 59,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/collections/honeymoon-romance",
+      "status": 200,
+      "milliseconds": 10,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/destinations",
+      "status": 200,
+      "milliseconds": 57,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours/japan-8-days",
+      "status": 200,
+      "milliseconds": 13,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours",
+      "status": 200,
+      "milliseconds": 70,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "milliseconds": 11,
+      "passed": true,
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "milliseconds": 38,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/gallery",
+      "status": 200,
+      "milliseconds": 39,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "milliseconds": 46,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/japan-8-days",
+      "status": 200,
+      "milliseconds": 29,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/collections/honeymoon-romance",
+      "status": 200,
+      "milliseconds": 22,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/compare?tour=sri-lanka&tour=sri-lanka-7-days",
+      "status": 200,
+      "milliseconds": 74,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours?country=Japan&duration=8",
+      "status": 200,
+      "milliseconds": 64,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "milliseconds": 9,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/destinations",
+      "status": 200,
+      "milliseconds": 41,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/gallery",
+      "status": 200,
+      "milliseconds": 11,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours",
+      "status": 200,
+      "milliseconds": 76,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "milliseconds": 7,
+      "passed": true,
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "milliseconds": 55,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/japan-8-days",
+      "status": 200,
+      "milliseconds": 53,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/collections/honeymoon-romance",
+      "status": 200,
+      "milliseconds": 10,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/compare?tour=sri-lanka&tour=sri-lanka-7-days",
+      "status": 200,
+      "milliseconds": 71,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours?country=Japan&duration=8",
+      "status": 200,
+      "milliseconds": 67,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/gallery",
+      "status": 200,
+      "milliseconds": 11,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/destinations",
+      "status": 200,
+      "milliseconds": 67,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours",
+      "status": 200,
+      "milliseconds": 71,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "milliseconds": 11,
+      "passed": true,
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "milliseconds": 43,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "milliseconds": 52,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/japan-8-days",
+      "status": 200,
+      "milliseconds": 21,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/collections/honeymoon-romance",
+      "status": 200,
+      "milliseconds": 10,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours?country=Japan&duration=8",
+      "status": 200,
+      "milliseconds": 60,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours/compare?tour=sri-lanka&tour=sri-lanka-7-days",
+      "status": 200,
+      "milliseconds": 65,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/destinations",
+      "status": 200,
+      "milliseconds": 54,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "milliseconds": 8,
+      "passed": true,
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "milliseconds": 16,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/gallery",
+      "status": 200,
+      "milliseconds": 18,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "milliseconds": 29,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours",
+      "status": 200,
+      "milliseconds": 111,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours/japan-8-days",
+      "status": 200,
+      "milliseconds": 31,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/collections/honeymoon-romance",
+      "status": 200,
+      "milliseconds": 13,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/compare?tour=sri-lanka&tour=sri-lanka-7-days",
+      "status": 200,
+      "milliseconds": 75,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours?country=Japan&duration=8",
+      "status": 200,
+      "milliseconds": 61,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "milliseconds": 15,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/gallery",
+      "status": 200,
+      "milliseconds": 16,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/destinations",
+      "status": 200,
+      "milliseconds": 63,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours",
+      "status": 200,
+      "milliseconds": 72,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "milliseconds": 14,
+      "passed": true,
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "milliseconds": 61,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/japan-8-days",
+      "status": 200,
+      "milliseconds": 52,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/collections/honeymoon-romance",
+      "status": 200,
+      "milliseconds": 9,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/compare?tour=sri-lanka&tour=sri-lanka-7-days",
+      "status": 200,
+      "milliseconds": 73,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours?country=Japan&duration=8",
+      "status": 200,
+      "milliseconds": 71,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/destinations",
+      "status": 200,
+      "milliseconds": 70,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/gallery",
+      "status": 200,
+      "milliseconds": 10,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours",
+      "status": 200,
+      "milliseconds": 76,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "milliseconds": 9,
+      "passed": true,
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "milliseconds": 49,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "milliseconds": 63,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/japan-8-days",
+      "status": 200,
+      "milliseconds": 23,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/collections/honeymoon-romance",
+      "status": 200,
+      "milliseconds": 8,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours?country=Japan&duration=8",
+      "status": 200,
+      "milliseconds": 68,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours/compare?tour=sri-lanka&tour=sri-lanka-7-days",
+      "status": 200,
+      "milliseconds": 74,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "milliseconds": 10,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/gallery",
+      "status": 200,
+      "milliseconds": 14,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "milliseconds": 12,
+      "passed": true,
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/destinations",
+      "status": 200,
+      "milliseconds": 76,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours",
+      "status": 200,
+      "milliseconds": 127,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "milliseconds": 56,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/japan-8-days",
+      "status": 200,
+      "milliseconds": 16,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/collections/honeymoon-romance",
+      "status": 200,
+      "milliseconds": 8,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/compare?tour=sri-lanka&tour=sri-lanka-7-days",
+      "status": 200,
+      "milliseconds": 74,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours?country=Japan&duration=8",
+      "status": 200,
+      "milliseconds": 64,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/destinations",
+      "status": 200,
+      "milliseconds": 64,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "milliseconds": 12,
+      "passed": true,
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "milliseconds": 18,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/gallery",
+      "status": 200,
+      "milliseconds": 19,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours",
+      "status": 200,
+      "milliseconds": 113,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "milliseconds": 50,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/compare?tour=sri-lanka&tour=sri-lanka-7-days",
+      "status": 200,
+      "milliseconds": 60,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/collections/honeymoon-romance",
+      "status": 200,
+      "milliseconds": 8,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours/japan-8-days",
+      "status": 200,
+      "milliseconds": 13,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours?country=Japan&duration=8",
+      "status": 200,
+      "milliseconds": 46,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/destinations",
+      "status": 200,
+      "milliseconds": 45,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "milliseconds": 7,
+      "passed": true,
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/gallery",
+      "status": 200,
+      "milliseconds": 18,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "milliseconds": 17,
+      "passed": true,
+      "cacheControl": "s-maxage=31536000"
+    },
+    {
+      "path": "/tours",
+      "status": 200,
+      "milliseconds": 66,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/tours/compare?tour=sri-lanka&tour=sri-lanka-7-days",
+      "status": 200,
+      "milliseconds": 18,
+      "passed": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    }
+  ]
+}

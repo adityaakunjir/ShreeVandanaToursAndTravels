@@ -34,6 +34,8 @@ Subsequent Chrome check on 22 October successfully opened the replacement Maps l
 
 ### Outcome gates
 
+A bounded warm local production-build check now covers 120 HTTP requests at six concurrent workers across ten representative routes, with zero failures (22 October). See CAPACITY_BASELINE.md for measured timings and limits. This advances rendering verification only; hosting-plan review, peak forecast, controlled production load and field performance remain open.
+
 The next evidence to collect is indexing coverage, real mobile performance and qualified enquiries. Ranking above major OTAs and winning first-visit bookings remain business outcomes to measure, not completed design features. Keep the full ambition while iterating from these observations; do not reintroduce intake or checkout against the owner's later WhatsApp decision.
 
 # Shree Vandana travel platform — product and delivery plan
