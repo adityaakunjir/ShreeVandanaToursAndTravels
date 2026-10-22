@@ -28,8 +28,8 @@ export default function GoogleReviews() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Star size={18} /> 5.0 / 5 · 11 Google reviews{' '}
-          <ArrowUpRight size={17} />
+          <Star size={18} /> {googleBusiness.rating} / 5 ·{' '}
+          {googleBusiness.reviewCount} Google reviews <ArrowUpRight size={17} />
         </a>
       </div>
       <div className="review-grid">

@@ -1,6 +1,6 @@
 export const googleBusiness = {
   url: 'https://maps.app.goo.gl/7faKRoszRxDXsPMU9?g_st=ic',
-  checked: '5 October 2026',
+  checked: '22 October 2026',
   rating: '5.0',
   reviewCount: 11,
   latitude: 18.4663567,

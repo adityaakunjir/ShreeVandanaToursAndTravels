@@ -3,6 +3,7 @@ import GalleryViewer from '@/components/GalleryViewer';
 import { PageIntro, JourneyCTA } from '@/components/PageIntro';
 import InstagramShowcase from '@/components/InstagramShowcase';
 import Link from 'next/link';
+import { googleBusiness } from '@/data/google-business';
 export const metadata: Metadata = {
   title: 'Travel inspiration gallery',
   description:
@@ -42,6 +43,31 @@ export default function GalleryPage() {
         </p>
       </section>
       <InstagramShowcase />
+      <section className="section wrap">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">MORE FROM OUR JOURNEYS</p>
+            <h2>
+              Moments shared.
+              <br />
+              <em>See the original stories.</em>
+            </h2>
+          </div>
+          <p>
+            Explore photos and videos on our Google Maps listing, alongside
+            reviews shared by travellers. Contributions retain their original
+            author attribution on Google.
+          </p>
+        </div>
+        <a
+          className="text-link"
+          href={googleBusiness.url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View photos & videos on Google Maps ↗
+        </a>
+      </section>
       <JourneyCTA />
     </main>
   );

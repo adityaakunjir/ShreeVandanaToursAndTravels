@@ -30,6 +30,8 @@ This section supersedes the dated implementation status below. The original prod
 
 Both the original share.google link and the replacement Maps short link were retried through the web reader on 22 October; neither was accessible through that reader. This does not prove the listing is unavailable in an authenticated browser. The verified 5 October business evidence remains in BUSINESS_CONTENT_REGISTER.md; rating/count must not be relabelled as checked today. No new Google photo/video ownership or permission evidence was obtained. Existing official embeds, source-linked review excerpts and licensed destination photos remain the published media approach.
 
+Subsequent Chrome check on 22 October successfully opened the replacement Maps link. Rating/count (5.0/11) and all three published reviewer excerpts were reverified, allowing the review snapshot date to be refreshed. A business-profile-attributed 18-second video is present in the Videos tab; gallery now offers the original Google photos/videos link. Ownership/consent for rehosting and full media ingestion remain open. This supersedes the earlier browser-access uncertainty, while Search Console still requires the intended owner account.
+
 ### Outcome gates
 
 The next evidence to collect is indexing coverage, real mobile performance and qualified enquiries. Ranking above major OTAs and winning first-visit bookings remain business outcomes to measure, not completed design features. Keep the full ambition while iterating from these observations; do not reintroduce intake or checkout against the owner's later WhatsApp decision.

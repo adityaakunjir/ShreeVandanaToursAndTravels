@@ -1,6 +1,6 @@
 {
   "reviewDate": "2026-10-22",
-  "baseCommit": "d3153e22be3d016dcacf7fb4323d45569e9d8cae",
+  "baseCommit": "a954ae9e463e1bd8fd0531ebffd45c5eb8e57dd0",
   "scope": "Working source, business documents and public assets. Excludes dependencies, builds, Git metadata, credentials and generated index itself.",
   "fileCount": 231,
   "files": [
@@ -486,9 +486,9 @@
     },
     {
       "path": "docs/BUSINESS_CONTENT_REGISTER.md",
-      "bytes": 4380,
+      "bytes": 5262,
       "category": "supporting",
-      "sha256": "02d9cb0ba7edc7613f80f49451392c5a697e55733aa607df8bdb57081cf69b3d"
+      "sha256": "dffd72333e45a0cc5feccf89a5b87d9d575fbba19d81c9728944af1164f3bcb2"
     },
     {
       "path": "docs/CONTENT_AUDIT.md",
@@ -534,9 +534,9 @@
     },
     {
       "path": "docs/TRAVEL_PLATFORM_PLAN.md",
-      "bytes": 45989,
+      "bytes": 46534,
       "category": "supporting",
-      "sha256": "31ed7b91535c5b3eaa9c94efbbb72df45458b93b1d10d1205e85060aa39541b7"
+      "sha256": "245fae9c50cba3c9795920fe96a55f4e01d4a856b7b8e32b675f64ef0b19b1b7"
     },
     {
       "path": "eslint.config.mjs",
@@ -936,9 +936,9 @@
     },
     {
       "path": "src/app/gallery/page.tsx",
-      "bytes": 1697,
+      "bytes": 2538,
       "category": "application",
-      "sha256": "c0b44e172d6a652d731c7220c77f5b58025aa59a54acc77ae1325ad88478f9cc"
+      "sha256": "4cf4e05c830f62086f842ae57e70c6dbc2269c1e41c74d9ed5ea12ed1f274b07"
     },
     {
       "path": "src/app/globals.css",
@@ -1122,9 +1122,9 @@
     },
     {
       "path": "src/components/GoogleReviews.tsx",
-      "bytes": 1824,
+      "bytes": 1870,
       "category": "application",
-      "sha256": "772953f1a552abbd277df6550274554f9e4a65a7274a2a43915df57fe8260b3d"
+      "sha256": "2ee59cf3e0f86234183cb32976e19c0cde346cead56f006d00fd93318f3ecbaf"
     },
     {
       "path": "src/components/InstagramShowcase.tsx",
@@ -1242,9 +1242,9 @@
     },
     {
       "path": "src/data/google-business.ts",
-      "bytes": 268,
+      "bytes": 269,
       "category": "application",
-      "sha256": "9377d32098d86f23ebbc4c3dd977944dbad618d7f1aa0529607c4533bcd68891"
+      "sha256": "95633b92777108c6effc51fda3a36cea0787c2ece273f248cdb163b32e57e0c3"
     },
     {
       "path": "src/data/imported-tours.json",

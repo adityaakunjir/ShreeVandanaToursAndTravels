@@ -2,6 +2,8 @@
 
 ## Update — 22 October 2026
 
+Fresh Chrome verification on 22 October: the replacement Maps link opens the correct listing with 5.0 from 11 reviews, the same Dhankawadi address, secondary phone 094220 02115 and website link. All three existing selected excerpts and reviewer names remain visible. The public review snapshot date is refreshed accordingly; it remains a dated snapshot, not a live feed. The Videos tab opens a video attributed to the Shree Vandana Tours And Travels profile (contributor 118428749807699559286), labelled Video – May 2025, duration 0:18. This confirms an attributed listing video exists, not complete media ownership/consent or playback testing. Gallery now links to the original Maps listing for its photos/videos without downloading or rehosting them. Earlier web-reader failures did not establish browser unavailability. Search Console remains a separate account-access issue.
+
 TOUR ITINERARIES.docx contains 45 newer source sections, imported reproducibly alongside all 11 older records. CONTENT_AUDIT.md records paragraph ranges, SHA-256, durations, distinct variants and pending confirmations. These are quote-on-enquiry outlines, not approved prices, confirmed departures or live inventory. The original logo was visually checked and says Since 1998; public numeric age claims have been removed pending reconciliation with 30+ written requirements and the older 25-year Instagram note. The original logo and three-generation family description remain. Later owner contact details and red-led palette remain authoritative. Previous dated review and social verification below has not been presented as a fresh live check.
 
 Updated 5 October 2026.
