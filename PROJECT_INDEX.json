@@ -1,8 +1,8 @@
 {
   "reviewDate": "2026-10-22",
-  "baseCommit": "a1e94f0cf244335b4747550694a7aa2adbb79387",
+  "baseCommit": "d3153e22be3d016dcacf7fb4323d45569e9d8cae",
   "scope": "Working source, business documents and public assets. Excludes dependencies, builds, Git metadata, credentials and generated index itself.",
-  "fileCount": 228,
+  "fileCount": 231,
   "files": [
     {
       "path": ".agents/skills/prisma-composer-core-concepts/SKILL.md",
@@ -323,6 +323,12 @@
       "sha256": "36eb968c11505198bb94da456a571491cffa6ab0f3b503f342fcd22c951507d4"
     },
     {
+      "path": "artifacts/live-search-audit.json",
+      "bytes": 60434,
+      "category": "supporting",
+      "sha256": "7f7adbc34c7a76dfdd068273ca6b907e7d150b4e68116b3def08dbc31d0e6cbc"
+    },
+    {
       "path": "artifacts/main-destinations-mobile.png",
       "bytes": 26963,
       "category": "supporting",
@@ -501,6 +507,12 @@
       "bytes": 6424,
       "category": "supporting",
       "sha256": "111c74ea77f14d01198af821630e3178a9e3a6d448cd8a2f4fed5a01de40e8bb"
+    },
+    {
+      "path": "docs/LIVE_SEARCH_CHECK.md",
+      "bytes": 1879,
+      "category": "supporting",
+      "sha256": "193ef8f4761c49eb5fe631af484cc385a6cbc19bd8f3b862a40a03e3df076aa6"
     },
     {
       "path": "docs/PACKAGE_IMPORT.md",
@@ -833,6 +845,12 @@
       "sha256": "7d71436124570f2d3508fc8177293a0da76029c65f798e69d37bd809469ec863"
     },
     {
+      "path": "scripts/audit-live-search.mjs",
+      "bytes": 3787,
+      "category": "supporting",
+      "sha256": "4b0d85b993a0356571930388351a5a30811db6dc11a5a5510e721c4a850206b2"
+    },
+    {
       "path": "scripts/check-catalogue.mjs",
       "bytes": 1055,
       "category": "supporting",
@@ -858,9 +876,9 @@
     },
     {
       "path": "scripts/smoke-production.mjs",
-      "bytes": 6419,
+      "bytes": 6683,
       "category": "supporting",
-      "sha256": "dedaa8e6bf8f2e76cf1ab44b1728e876eb26d488404a14e03534ba812bcc142a"
+      "sha256": "30a1318a89fd3a94efe9ab951b3ee35c9aba946f1b960ef71432e2be6a3d08c3"
     },
     {
       "path": "src/app/about/page.tsx",
@@ -1014,9 +1032,9 @@
     },
     {
       "path": "src/app/tours/[slug]/page.tsx",
-      "bytes": 11699,
+      "bytes": 12001,
       "category": "application",
-      "sha256": "474cc2bd9214cadc5d3932a7d08752f44811ee4a70447a2b10ae8c2c22e14d46"
+      "sha256": "6ee748346a6bc09237f552d7d1259a3da7cd49fba9e3f2608d8591e70a00ad13"
     },
     {
       "path": "src/app/tours/compare/page.tsx",

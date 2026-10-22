@@ -1,0 +1,870 @@
+{
+  "checkedAt": "2026-10-22T11:03:15.204Z",
+  "origin": "https://www.shreevandanatoursandtravels.com",
+  "scope": "Public HTTP discovery and rendered HTML only; not Search Console indexing, robots path precedence, JavaScript interaction, field performance or rankings.",
+  "sitemapStatus": 200,
+  "robotsStatus": 200,
+  "robotsAllowsPublic": true,
+  "robotsLinksSitemap": true,
+  "sitemapEntries": 107,
+  "uniqueEntries": 107,
+  "failingPages": 0,
+  "results": [
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com",
+      "title": "Shree Vandana Tours &amp; Travels | Your Friend in Tourism",
+      "description": "A family-run travel business shaped by three generations. Explore company-supplied itineraries and plan personalised holidays with Shree Vandana Tours &amp; Travels, Pune.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours",
+      "title": "Domestic &amp; international tours from Pune | Shree Vandana Travels",
+      "description": "Explore 56 company-supplied tour outlines and route variants across India and the world. Find your travel mood, read the itinerary and ask for a personalised quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/bali-indonesia-7-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/bali-indonesia-7-days",
+      "title": "Bali – Indonesia · 7 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Bali – Indonesia, 7 days. Explore Bali – Indonesia with a 7-day source itinerary, personalised with our Pune team. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/dubai-delight-6-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/dubai-delight-6-days",
+      "title": "Dubai Delight · 6 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Dubai Delight, 6 days. Discover the perfect blend of luxury, adventure, shopping, and Arabian culture with our Dubai tour package. From the iconic Burj Khalifa and the dazzling Dubai Mall to an exciting desert safari and the beautiful Dubai Marina, experience the best… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/chandigarh-shimla-manali-8-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/chandigarh-shimla-manali-8-days",
+      "title": "Chandigarh – Shimla – Manali · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Chandigarh – Shimla – Manali, 8 days. Explore Chandigarh – Shimla – Manali with a 8-day source itinerary, personalised with our Pune team. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/manali-amritsar-6-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/manali-amritsar-6-days",
+      "title": "Manali – Amritsar · 6 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Manali – Amritsar, 6 days. Experience the scenic beauty of Manali and the spiritual charm of Amritsar with our Manali–Amritsar Group Tour Package. Explore beautiful mountain landscapes, visit famous temples and local attractions, and experience the peaceful atmosphere of… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/sikkim-gangtok-pelling-darjeeling-8-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/sikkim-gangtok-pelling-darjeeling-8-days",
+      "title": "Sikkim – Gangtok – Pelling – Darjeeling · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Sikkim – Gangtok – Pelling – Darjeeling, 8 days. Discover the breathtaking beauty of the Eastern Himalayas with our Sikkim–Gangtok–Pelling–Darjeeling Group Tour. Experience the vibrant charm of Gangtok, the peaceful monasteries and spectacular mountain views of Pelling, and the colonial beauty… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/kashmir-7-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/kashmir-7-days",
+      "title": "Kashmir · 7 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Kashmir, 7 days. Experience the enchanting beauty of Kashmir with our Kashmir Group Tour Package. Discover the serene Dal Lake in Srinagar, enjoy the breathtaking meadows of Gulmarg, explore the scenic valleys of Pahalgam, and admire the majestic mountain… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/kashmir-with-vaishno-devi-9-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/kashmir-with-vaishno-devi-9-days",
+      "title": "Kashmir With Vaishno Devi · 9 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Kashmir With Vaishno Devi, 9 days. Experience the breathtaking beauty of Kashmir, popularly known as Paradise on Earth, along with the spiritual blessings of Shri Mata Vaishno Devi. This group tour combines the scenic beauty of Dal Lake, the beautiful valleys of Gulmarg and… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/nepal-8-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/nepal-8-days",
+      "title": "Nepal · 8 days · Newer itinerary | Tours from Pune | Shree Vandana Travels",
+      "description": "Nepal, 8 days. Explore the cultural heritage, spiritual attractions and natural beauty of Nepal with our 7 Nights / 8 Days group tour. Visit the famous temples and heritage sites of Kathmandu, experience the breathtaking Himalayan views of Pokhara, enjoy the… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/nainital-kausani-jim-corbett-8-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/nainital-kausani-jim-corbett-8-days",
+      "title": "Nainital – Kausani – Jim Corbett · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Nainital – Kausani – Jim Corbett, 8 days. Discover the scenic beauty of Uttarakhand with our 7 Nights / 8 Days group tour. Enjoy the beautiful lakes and viewpoints of Nainital, experience breathtaking Himalayan views from Kausani, and explore the wilderness of Jim Corbett National Park.… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/three-sisters-of-northeast-india-10-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/three-sisters-of-northeast-india-10-days",
+      "title": "Three Sisters Of Northeast India · 10 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Three Sisters Of Northeast India, 10 days. Discover the spectacular beauty of Northeast India with our Three Sisters Group Tour Package. Experience the lush green hills and waterfalls of Meghalaya, the wildlife and natural beauty of Assam, and the breathtaking Himalayan landscapes of… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/odisha-7-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/odisha-7-days",
+      "title": "Odisha · 7 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Odisha, 7 days. Discover the spiritual heritage, ancient architecture, traditional arts and natural beauty of Odisha with our specially designed group tour. Visit the sacred Jagannath Temple in Puri, admire the magnificent Konark Sun Temple, explore… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/odisha-with-gangasagar-10-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/odisha-with-gangasagar-10-days",
+      "title": "Odisha With Gangasagar · 10 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Odisha With Gangasagar, 10 days. Experience a memorable spiritual and cultural journey with our Odisha and Gangasagar Group Tour Package. Seek blessings at the sacred Kapil Muni Temple at Gangasagar, explore the spiritual heritage of Bhubaneswar, visit the world-famous Jagannath… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/hyderabad-srisailam-5-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/hyderabad-srisailam-5-days",
+      "title": "Hyderabad – Srisailam · 5 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Hyderabad – Srisailam, 5 days. Experience the rich heritage of Hyderabad along with the spiritual significance of Srisailam on this memorable group tour. Explore Hyderabad&#x27;s iconic monuments, historic landmarks and cultural attractions before proceeding to Srisailam, home to… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/goa-5-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/goa-5-days",
+      "title": "Goa · 5 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Goa, 5 days. Discover the beautiful beaches, Portuguese heritage, historic churches, lively markets and scenic coastline of Goa with our specially designed 4 Nights / 5 Days Goa Group Tour Package. Enjoy comfortable accommodation, sightseeing and delicious… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/gujarat-8-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/gujarat-8-days",
+      "title": "Gujarat · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Gujarat, 8 days. Explore the vibrant culture, spiritual heritage, historic landmarks and beautiful landscapes of Gujarat with our specially designed 7 Nights / 8 Days Gujarat Group Tour Package. Visit the world-famous Statue of Unity, sacred temples of Dwarka and… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/dharamshala-dalhousie-amritsar-7-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/dharamshala-dalhousie-amritsar-7-days",
+      "title": "Dharamshala – Dalhousie – Amritsar · 7 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Dharamshala – Dalhousie – Amritsar, 7 days. Explore the scenic hill stations of Himachal Pradesh and the spiritual and historical attractions of Punjab with this memorable group tour covering Dharamshala, Dalhousie, Khajjiar and Amritsar. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/full-rajasthan-12-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/full-rajasthan-12-days",
+      "title": "Full Rajasthan · 12 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Full Rajasthan, 12 days. Discover the royal heritage, magnificent forts, colourful culture, desert landscapes and beautiful lakes of Rajasthan with this comprehensive group tour covering Jaipur, Bikaner, Jaisalmer, Jodhpur, Mount Abu, Udaipur and Pushkar. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/mini-rajasthan-7-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/mini-rajasthan-7-days",
+      "title": "Mini Rajasthan · 7 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Mini Rajasthan, 7 days. Experience the royal charm of Rajasthan with our Mini Rajasthan Tour Package covering Jaipur, Jodhpur and Udaipur. Explore magnificent forts, royal palaces, colourful markets, historic landmarks and the beautiful lakes of Rajasthan on a memorable… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/indore-ujjain-omkareshwar-5-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/indore-ujjain-omkareshwar-5-days",
+      "title": "Indore – Ujjain – Omkareshwar · 5 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Indore – Ujjain – Omkareshwar, 5 days. Explore the spiritual and cultural highlights of Madhya Pradesh with this memorable group tour covering Indore, the sacred city of Ujjain and Omkareshwar, one of the twelve revered Jyotirlingas of Lord Shiva. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/bangalore-mysore-coorg-7-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/bangalore-mysore-coorg-7-days",
+      "title": "Bangalore – Mysore – Coorg · 7 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Bangalore – Mysore – Coorg, 7 days. Discover the perfect blend of city attractions, royal heritage, lush coffee plantations and scenic hill stations with our Bangalore–Mysore–Coorg Group Tour Package. Explore the vibrant city of Bangalore, the magnificent palaces of Mysore and the… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/spiti-valley-8-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/spiti-valley-8-days",
+      "title": "Spiti Valley · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Spiti Valley, 8 days. Experience the breathtaking beauty of the Himalayas with our Spiti Valley Group Tour Package. Discover dramatic mountain landscapes, ancient monasteries, high-altitude villages, crystal-clear rivers and spectacular Himalayan passes on an… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/leh-ladakh-8-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/leh-ladakh-8-days",
+      "title": "Leh Ladakh · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Leh Ladakh, 8 days. Explore the spectacular landscapes of Ladakh with this exciting group tour covering Leh, Sham Valley, Nubra Valley, the beautiful village of Turtuk and the breathtaking Pangong Lake. Experience high mountain passes, ancient monasteries, Himalayan… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/leh-ladakh-with-kargil-drass-turtuk-10-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/leh-ladakh-with-kargil-drass-turtuk-10-days",
+      "title": "Leh Ladakh with Kargil, Drass &amp; Turtuk · 10 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Leh Ladakh with Kargil, Drass &amp; Turtuk, 10 days. Discover the spectacular landscapes of Leh Ladakh, the historic Kargil War Memorial at Drass, the cultural heritage of Turtuk, the sand dunes of Nubra Valley and the breathtaking beauty of Pangong Lake. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/char-dham-yatra-13-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/char-dham-yatra-13-days",
+      "title": "Char Dham Yatra · 13 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Char Dham Yatra, 13 days. Experience the sacred Char Dham Yatra of Uttarakhand, covering Yamunotri, Gangotri, Kedarnath and Badrinath. This extended itinerary allows more time for temple darshan, scenic Himalayan drives and rest between the pilgrimage routes. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/coastal-karnataka-8-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/coastal-karnataka-8-days",
+      "title": "Coastal Karnataka · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Coastal Karnataka, 8 days. Discover the beautiful coastline of Karnataka with its golden beaches, ancient temples, historic landmarks, scenic islands and charming coastal towns. This tour covers Mangalore, Udupi, Murudeshwar, Gokarna and the popular beaches of coastal… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/kerala-6-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/kerala-6-days",
+      "title": "Kerala · 6 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Kerala, 6 days. Discover the beauty of Kerala with a memorable holiday featuring lush tea gardens, misty hills, serene backwaters and beautiful beaches. This package covers the popular destinations of Munnar, Alleppey and Kochi, offering a wonderful blend of… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/unseen-kerala-with-wayanad-6-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/unseen-kerala-with-wayanad-6-days",
+      "title": "Unseen Kerala with Wayanad · 6 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Unseen Kerala with Wayanad, 6 days. Discover the unexplored charm of Kerala with misty mountains, lush green forests, hidden waterfalls, spice plantations, peaceful villages and beautiful coastal landscapes. This special itinerary focuses on Wayanad and North Kerala, offering a… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/kerala-with-kanyakumari-8-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/kerala-with-kanyakumari-8-days",
+      "title": "Kerala with Kanyakumari · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Kerala with Kanyakumari, 8 days. Explore the enchanting beauty of Kerala, from misty hill stations and lush tea plantations to tranquil backwaters and golden beaches. Complete your holiday with a visit to Kanyakumari, the southernmost tip of mainland India, famous for its… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/kerala-with-kanyakumari-rameswaram-madurai-10-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/kerala-with-kanyakumari-rameswaram-madurai-10-days",
+      "title": "Kerala with Kanyakumari, Rameswaram &amp; Madurai · 10 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Kerala with Kanyakumari, Rameswaram &amp; Madurai, 10 days. Experience the best of Kerala&#x27;s natural beauty along with the spiritual heritage of South India. This tour combines Munnar&#x27;s tea gardens, Thekkady&#x27;s spice plantations, Alleppey&#x27;s backwaters, Kanyakumari&#x27;s coastal views, the sacred Ramanathaswamy… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/tamil-nadu-8-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/tamil-nadu-8-days",
+      "title": "Tamil Nadu · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Tamil Nadu, 8 days. Explore the rich culture, ancient temples, architectural wonders and beautiful coastal landscapes of Tamil Nadu. This tour covers the spiritual heritage of Madurai and Rameswaram, the iconic seaside destination of Kanyakumari, and the historic… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/andaman-with-baratang-island-7-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/andaman-with-baratang-island-7-days",
+      "title": "Andaman with Baratang Island · 7 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Andaman with Baratang Island, 7 days. Discover the tropical beauty of the Andaman Islands with pristine beaches, turquoise waters, historic landmarks, lush mangrove forests and the unique limestone caves of Baratang Island. This package combines Port Blair&#x27;s history, Havelock&#x27;s… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/lakshadweep-6-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/lakshadweep-6-days",
+      "title": "Lakshadweep · 6 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Lakshadweep, 6 days. Discover the beautiful islands of Lakshadweep, famous for crystal-clear turquoise waters, white sandy beaches, coral reefs and exciting marine activities. Enjoy a relaxing island holiday with scenic beaches, water sports and peaceful surroundings. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/kodaikanal-ooty-6-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/kodaikanal-ooty-6-days",
+      "title": "Kodaikanal – Ooty · 6 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Kodaikanal – Ooty, 6 days. Explore the scenic hill stations of Ooty and Kodaikanal, known for their lush green valleys, tea plantations, misty mountains, beautiful lakes and peaceful surroundings. This package combines nature, sightseeing and leisure for a memorable… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/russia-7-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/russia-7-days",
+      "title": "Russia · 7 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Russia, 7 days. Discover the beauty of Russia with a memorable holiday covering Moscow and St. Petersburg. Explore magnificent palaces, historic landmarks, grand cathedrals, scenic riverfronts and the vibrant culture of these iconic Russian cities. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/thailand-malaysia-singapore-8-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/thailand-malaysia-singapore-8-days",
+      "title": "Thailand – Malaysia – Singapore · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Thailand – Malaysia – Singapore, 8 days. Experience the best of Southeast Asia with a memorable international holiday covering Thailand, Malaysia and Singapore. Enjoy vibrant city life, beautiful beaches, iconic landmarks, cultural attractions, exciting entertainment and shopping… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/egypt-with-hurghada-8-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/egypt-with-hurghada-8-days",
+      "title": "Egypt with Hurghada · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Egypt with Hurghada, 8 days. Discover the ancient wonders of Egypt and enjoy a relaxing beach holiday in Hurghada. Explore the iconic Pyramids of Giza, cruise through the history of the Nile region, admire magnificent temples and unwind along the Red Sea coast, famous for… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/baku-azerbaijan-5-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/baku-azerbaijan-5-days",
+      "title": "Baku – Azerbaijan · 5 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Baku – Azerbaijan, 5 days. Explore the vibrant city of Baku, where modern architecture meets ancient history. Discover the charming Old City, admire the iconic Flame Towers, enjoy the scenic Caspian Sea Boulevard and visit the fascinating landscapes of Gobustan and the… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/south-africa-8-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/south-africa-8-days",
+      "title": "South Africa · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "South Africa, 8 days. Discover the spectacular beauty of South Africa with a memorable holiday combining vibrant cities, scenic coastlines, wildlife experiences and breathtaking landscapes. Explore Cape Town&#x27;s iconic attractions, enjoy a scenic Cape Peninsula drive,… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/vietnam-7-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/vietnam-7-days",
+      "title": "Vietnam · 7 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Vietnam, 7 days. Discover Vietnam, a beautiful Southeast Asian destination known for its scenic bays, vibrant cities, rich history, traditional culture and delicious cuisine. Explore the bustling streets of Hanoi, cruise through the breathtaking landscapes of Ha… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/singapore-malaysia-6-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/singapore-malaysia-6-days",
+      "title": "Singapore – Malaysia · 6 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Singapore – Malaysia, 6 days. Experience two exciting Southeast Asian destinations with a memorable holiday combining Singapore&#x27;s modern attractions, waterfront landmarks and vibrant shopping districts with Malaysia&#x27;s cultural heritage, impressive architecture and bustling… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/exotic-thailand-6-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/exotic-thailand-6-days",
+      "title": "Exotic Thailand · 6 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Exotic Thailand, 6 days. Experience the exotic charm of Thailand with a holiday filled with tropical beaches, vibrant nightlife, cultural attractions and exciting island excursions. Discover the lively streets of Bangkok and the beautiful coastal attractions of Pattaya… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/mauritius-honeymoon-package-6-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/mauritius-honeymoon-package-6-days",
+      "title": "Mauritius Honeymoon Package · 6 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Mauritius Honeymoon Package, 6 days. Celebrate your love with a romantic honeymoon in Mauritius, a tropical paradise known for its turquoise lagoons, pristine beaches, breathtaking sunsets and luxurious resorts. Enjoy romantic beach moments, scenic island excursions, candlelight… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/hampi-badami-vijayapura-6-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/hampi-badami-vijayapura-6-days",
+      "title": "Hampi – Badami – Vijayapura · 6 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Hampi – Badami – Vijayapura, 6 days. Discover the architectural wonders and historical heritage of Karnataka with this fascinating tour covering Hampi, Badami and Vijayapura. Explore the magnificent ruins of the Vijayanagara Empire, ancient rock-cut cave temples, sandstone monuments… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/sri-lanka-7-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/sri-lanka-7-days",
+      "title": "Sri Lanka · 7 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Sri Lanka, 7 days. Discover the enchanting island of Sri Lanka, known for its lush tea plantations, ancient temples, scenic hill stations, golden beaches and rich cultural heritage. This tour combines cultural sightseeing, beautiful landscapes, wildlife experiences… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/japan-8-days",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/japan-8-days",
+      "title": "Japan · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Japan, 8 days. Explore Japan on this 7 Nights / 8 Days tour covering its modern cities, scenic landscapes, historic temples and vibrant food streets. Discover Tokyo’s famous attractions, enjoy the beauty of Mount Fuji, experience Kyoto’s traditional culture and… View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/kashi-gaya-prayag-ayodhya",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/kashi-gaya-prayag-ayodhya",
+      "title": "Kashi, Gaya, Prayag &amp; Ayodhya · 6 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Kashi, Gaya, Prayag &amp; Ayodhya, 6 days. A six-day journey through sacred river ghats, temples and the Buddhist heritage of Sarnath and Bodh Gaya. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/shimla-kullu-manali",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/shimla-kullu-manali",
+      "title": "Shimla, Kullu &amp; Manali · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Shimla, Kullu &amp; Manali, 8 days. Eight days of hill towns, Himalayan views and time to explore Shimla and Manali. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/darjeeling-gangtok-pelling",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/darjeeling-gangtok-pelling",
+      "title": "Darjeeling, Gangtok &amp; Pelling · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Darjeeling, Gangtok &amp; Pelling, 8 days. An eight-day eastern Himalayan circuit of monasteries, mountain viewpoints and tea country. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/kashmir-amritsar-vaishno-devi",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/kashmir-amritsar-vaishno-devi",
+      "title": "Kashmir, Amritsar &amp; Vaishno Devi · 10 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Kashmir, Amritsar &amp; Vaishno Devi, 10 days. A ten-day route combining Amritsar and Vaishno Devi with the valleys and lakes of Kashmir. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/pithapur-kuravpur",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/pithapur-kuravpur",
+      "title": "Pithapur &amp; Kuravpur Yatra · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Pithapur &amp; Kuravpur Yatra, 8 days. An eight-day pilgrimage from Pune through Kuravpur, Srisailam and Pithapuram. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/dubai-abu-dhabi",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/dubai-abu-dhabi",
+      "title": "Dubai &amp; Abu Dhabi · 6 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Dubai &amp; Abu Dhabi, 6 days. Six days of city landmarks, a desert safari and an Abu Dhabi excursion, with five nights in Dubai. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/nepal",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/nepal",
+      "title": "Nepal · 8 days · Earlier outline | Tours from Pune | Shree Vandana Travels",
+      "description": "Nepal, 8 days. Eight days linking Kathmandu’s sacred sites, Pokhara’s lakes and Chitwan’s jungle experiences. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/sri-lanka",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/sri-lanka",
+      "title": "Sri Lanka · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Sri Lanka, 8 days. Eight days through Colombo, the cultural triangle, hill-country tea estates and Bentota’s coast. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/kerala-kanyakumari",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/kerala-kanyakumari",
+      "title": "Kerala &amp; Kanyakumari · 9 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Kerala &amp; Kanyakumari, 9 days. Nine days of temple towns, backwaters, spice gardens and Munnar’s tea-covered hills. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/royal-bhutan",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/royal-bhutan",
+      "title": "Royal Bhutan · 8 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Royal Bhutan, 8 days. Eight days through Bhutan’s valleys, monasteries and mountain passes, starting and ending at Bagdogra. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/tours/egypt-hurghada",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/tours/egypt-hurghada",
+      "title": "Egypt with Hurghada · 9 days | Tours from Pune | Shree Vandana Travels",
+      "description": "Egypt with Hurghada, 9 days. Nine days of Cairo landmarks, a Nile cruise and time on the Red Sea coast at Hurghada. View the route and enquire on WhatsApp for dates and a quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations",
+      "title": "Discover destinations | Shree Vandana Travels",
+      "description": "Find holiday inspiration by destination, country and travel style. Plan a personalised trip with our Pune travel team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/dubai",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/dubai",
+      "title": "Dubai holidays from Pune | Shree Vandana Travels",
+      "description": "Bold skylines, desert experiences and time to explore Dubai and Abu Dhabi. Discuss a personalised Dubai holiday with Shree Vandana Tours &amp; Travels, Pune.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/nepal",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/nepal",
+      "title": "Nepal holidays from Pune | Shree Vandana Travels",
+      "description": "Himalayan scenery, lakeside Pokhara and the culture of Kathmandu. Discuss a personalised Nepal holiday with Shree Vandana Tours &amp; Travels, Pune.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/kerala",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/kerala",
+      "title": "Kerala holidays from Pune | Shree Vandana Travels",
+      "description": "Munnar tea gardens, peaceful backwaters and tropical coastal escapes. Discuss a personalised Kerala holiday with Shree Vandana Tours &amp; Travels, Pune.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/kashmir",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/kashmir",
+      "title": "Kashmir holidays from Pune | Shree Vandana Travels",
+      "description": "Lakeside Srinagar, mountain valleys and beautiful scenery in the Kashmir region. Discuss a personalised Kashmir holiday with Shree Vandana Tours &amp; Travels, Pune.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/sikkim-darjeeling",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/sikkim-darjeeling",
+      "title": "Sikkim–Darjeeling holidays from Pune | Shree Vandana Travels",
+      "description": "Darjeeling tea gardens, Gangtok and Pelling on a scenic Himalayan holiday. Discuss a personalised Sikkim–Darjeeling holiday with Shree Vandana Tours &amp; Travels, Pune.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/azerbaijan",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/azerbaijan",
+      "title": "Azerbaijan holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Azerbaijan tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/bhutan",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/bhutan",
+      "title": "Bhutan holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Bhutan tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/egypt",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/egypt",
+      "title": "Egypt holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Egypt tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/india",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/india",
+      "title": "India holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied India tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/indonesia",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/indonesia",
+      "title": "Indonesia holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Indonesia tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/japan",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/japan",
+      "title": "Japan holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Japan tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/malaysia",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/malaysia",
+      "title": "Malaysia holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Malaysia tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/mauritius",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/mauritius",
+      "title": "Mauritius holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Mauritius tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/russia",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/russia",
+      "title": "Russia holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Russia tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/singapore",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/singapore",
+      "title": "Singapore holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Singapore tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/south-africa",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/south-africa",
+      "title": "South Africa holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied South Africa tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/sri-lanka",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/sri-lanka",
+      "title": "Sri Lanka holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Sri Lanka tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/thailand",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/thailand",
+      "title": "Thailand holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Thailand tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/united-arab-emirates",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/united-arab-emirates",
+      "title": "United Arab Emirates holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied United Arab Emirates tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/vietnam",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/vietnam",
+      "title": "Vietnam holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Vietnam tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/bali",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/bali",
+      "title": "Bali holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Bali tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/ladakh",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/ladakh",
+      "title": "Ladakh holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Ladakh tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/spiti",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/spiti",
+      "title": "Spiti holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Spiti tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/rajasthan",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/rajasthan",
+      "title": "Rajasthan holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Rajasthan tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/andaman",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/andaman",
+      "title": "Andaman holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Andaman tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/lakshadweep",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/lakshadweep",
+      "title": "Lakshadweep holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Lakshadweep tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/goa",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/goa",
+      "title": "Goa holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Goa tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/gujarat",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/gujarat",
+      "title": "Gujarat holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Gujarat tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/odisha",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/odisha",
+      "title": "Odisha holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Odisha tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/tamil-nadu",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/tamil-nadu",
+      "title": "Tamil Nadu holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Tamil Nadu tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/char-dham",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/char-dham",
+      "title": "Char Dham holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Char Dham tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/destinations/coastal-karnataka",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/destinations/coastal-karnataka",
+      "title": "Coastal Karnataka holidays from Pune | Shree Vandana Travels",
+      "description": "Explore company-supplied Coastal Karnataka tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/collections/himalayan-escapes",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/collections/himalayan-escapes",
+      "title": "Himalayan Escapes from Pune | Shree Vandana Travels",
+      "description": "Mountains, monasteries and a different pace. Browse company-supplied outlines and enquire for a personalised quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/collections/sacred-journeys",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/collections/sacred-journeys",
+      "title": "Sacred Journeys from Pune | Shree Vandana Travels",
+      "description": "Pilgrimage routes from the company itinerary collection. Browse company-supplied outlines and enquire for a personalised quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/collections/royal-india",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/collections/royal-india",
+      "title": "Royal India from Pune | Shree Vandana Travels",
+      "description": "Rajasthan’s heritage, in two distinct route options. Browse company-supplied outlines and enquire for a personalised quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/collections/nature-wildlife",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/collections/nature-wildlife",
+      "title": "Nature &amp; Wildlife from Pune | Shree Vandana Travels",
+      "description": "Forests, valleys and source-listed wildlife experiences. Browse company-supplied outlines and enquire for a personalised quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/collections/islands-beaches",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/collections/islands-beaches",
+      "title": "Islands &amp; Beaches from Pune | Shree Vandana Travels",
+      "description": "Coastal days, island escapes and time beside the water. Browse company-supplied outlines and enquire for a personalised quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/collections/honeymoon-romance",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/collections/honeymoon-romance",
+      "title": "Honeymoon &amp; Romance from Pune | Shree Vandana Travels",
+      "description": "Romance-led outlines to discuss and personalise. Browse company-supplied outlines and enquire for a personalised quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/collections/family-group",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/collections/family-group",
+      "title": "Family &amp; Group Holidays from Pune | Shree Vandana Travels",
+      "description": "Explore source group outlines; discuss family preferences with our team. Browse company-supplied outlines and enquire for a personalised quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/collections/international-discoveries",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/collections/international-discoveries",
+      "title": "International Discoveries from Pune | Shree Vandana Travels",
+      "description": "A new perspective, beyond familiar borders. Browse company-supplied outlines and enquire for a personalised quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/collections/short-breaks",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/collections/short-breaks",
+      "title": "Short Breaks from Pune | Shree Vandana Travels",
+      "description": "Five- and six-day outlines for a shorter escape. Browse company-supplied outlines and enquire for a personalised quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/collections/grand-journeys",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/collections/grand-journeys",
+      "title": "Grand Journeys from Pune | Shree Vandana Travels",
+      "description": "Ten days or more, with time to travel further. Browse company-supplied outlines and enquire for a personalised quote.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/about",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/about",
+      "title": "Our family story | Shree Vandana Travels",
+      "description": "Meet the family behind Shree Vandana Tours &amp; Travels in Pune. Discover our approach to personal holiday planning and dependable travel service.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/services",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/services",
+      "title": "Our travel services | Shree Vandana Travels",
+      "description": "Domestic and international holidays, flight, train and bus bookings, hotel reservations, custom itineraries and visa assistance from our Pune team.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/gallery",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/gallery",
+      "title": "Travel inspiration gallery | Shree Vandana Travels",
+      "description": "Explore travel inspiration and Instagram reels from Shree Vandana Tours &amp; Travels. See moments from our journeys and plan your next holiday.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/contact",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/contact",
+      "title": "Contact our Pune team | Shree Vandana Travels",
+      "description": "Contact Shree Vandana Tours &amp; Travels in Dhankawadi, Pune. Call or WhatsApp +91 96652 38966, view office hours and get directions.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/faq",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/faq",
+      "title": "Travel questions | Shree Vandana Travels",
+      "description": "Answers about customised holidays, domestic and international travel, quotes and booking enquiries with Shree Vandana Tours &amp; Travels, Pune.",
+      "issues": []
+    },
+    {
+      "url": "https://www.shreevandanatoursandtravels.com/travel-information",
+      "status": 200,
+      "canonical": "https://www.shreevandanatoursandtravels.com/travel-information",
+      "title": "Planning, booking and your website visit | Shree Vandana Travels",
+      "description": "Understand tour outlines, personalised quotes, booking conversations, device-local saved tours and external services used by this website.",
+      "issues": []
+    }
+  ]
+}
