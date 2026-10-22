@@ -1,4 +1,4 @@
-import tours from '@/data/tours.json';
+import tours, { countries } from '@/data/catalogue';
 import { realTourFilters, travelStyles } from '@/lib/real-tours';
 import { ArrowUpRight } from 'lucide-react';
 export default function TourDiscovery({
@@ -44,6 +44,11 @@ export default function TourDiscovery({
               {s.name}
             </option>
           ))}
+          <option value="romance">Honeymoon & romance</option>
+          <option value="beaches">Islands & beaches</option>
+          <option value="adventure">Adventure</option>
+          <option value="wildlife">Nature & wildlife</option>
+          <option value="royal">Royal India</option>
         </select>
       </div>
       {!compact && (
@@ -55,7 +60,7 @@ export default function TourDiscovery({
             defaultValue={filters.country}
           >
             <option value="">All countries</option>
-            {[...new Set(tours.map((t) => t.region))].map((c) => (
+            {countries.map((c) => (
               <option key={c}>{c}</option>
             ))}
           </select>
@@ -69,13 +74,36 @@ export default function TourDiscovery({
           defaultValue={filters.duration}
         >
           <option value="">Any duration</option>
-          {[6, 8, 9, 10].map((d) => (
-            <option key={d} value={d}>
-              {d} days
-            </option>
-          ))}
+          {[...new Set(tours.map((t) => t.duration))]
+            .sort((a, b) => a - b)
+            .map((d) => (
+              <option key={d} value={d}>
+                {d} days
+              </option>
+            ))}
         </select>
       </div>
+      {!compact && (
+        <>
+          <div>
+            <label htmlFor="tour-party">Travelling together</label>
+            <select id="tour-party" name="party" defaultValue={filters.party}>
+              <option value="">Any group</option>
+              <option value="group">Source group tours</option>
+              <option value="honeymoon">Honeymoon outlines</option>
+            </select>
+          </div>
+          <div>
+            <label htmlFor="tour-sort">Arrange the journal</label>
+            <select id="tour-sort" name="sort" defaultValue={filters.sort}>
+              <option value="">Curated order</option>
+              <option value="shortest">Shortest first</option>
+              <option value="longest">Longest first</option>
+              <option value="name">A–Z</option>
+            </select>
+          </div>
+        </>
+      )}
       <button className="button" type="submit">
         Find my journey <ArrowUpRight size={18} />
       </button>

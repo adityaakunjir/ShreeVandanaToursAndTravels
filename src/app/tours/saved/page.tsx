@@ -1,4 +1,4 @@
-import tours from '@/data/tours.json';
+import tours from '@/data/catalogue';
 import { SavedRealTours } from '@/components/RealShortlist';
 import { PageIntro } from '@/components/PageIntro';
 import { tourDuration } from '@/lib/real-tours';

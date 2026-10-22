@@ -1,4 +1,5 @@
-import tours from '@/data/tours.json';
+import tours from '@/data/catalogue';
+import { tourEnquiryContext } from '@/data/catalogue';
 import Link from 'next/link';
 import { comparisonSelection } from '@/lib/shortlist';
 import { tourDuration } from '@/lib/real-tours';
@@ -47,7 +48,10 @@ export default async function ComparePage({
                     value={t.slug}
                     defaultChecked={selected.some((s) => s.slug === t.slug)}
                   />
-                  <span>{t.name}</span>
+                  <span>
+                    {t.name} · {t.duration} days ·{' '}
+                    {t.source.order ? 'Newer itinerary' : 'Earlier outline'}
+                  </span>
                 </label>
               ))}
             </div>
@@ -77,8 +81,11 @@ export default async function ComparePage({
                   <h2>{t.name}</h2>
                   <dl>
                     <div>
-                      <dt>Time away</dt>
-                      <dd>{tourDuration(t)} days</dd>
+                      <dt>Time away / source option</dt>
+                      <dd>
+                        {tourDuration(t)} days ·{' '}
+                        {t.source.order ? 'Newer itinerary' : 'Earlier outline'}
+                      </dd>
                     </div>
                     <div>
                       <dt>Travel style</dt>
@@ -134,7 +141,10 @@ export default async function ComparePage({
                   <Link href={`/tours/${t.slug}`} className="text-link">
                     Full itinerary ↗
                   </Link>
-                  <WhatsAppLink destination={t.name} className="button">
+                  <WhatsAppLink
+                    destination={tourEnquiryContext(t)}
+                    className="button"
+                  >
                     Discuss this journey ↗
                   </WhatsAppLink>
                 </article>

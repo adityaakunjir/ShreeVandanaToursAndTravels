@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import photos from '@/data/tour-photos.json';
+import { tourPhoto, tourEnquiryContext } from '@/data/catalogue';
+import JournalCover from './JournalCover';
 import { ArrowUpRight, Clock } from 'lucide-react';
 import WhatsAppLink from './WhatsAppLink';
-import tours from '@/data/tours.json';
+import tours from '@/data/catalogue';
 import { SaveRealTour } from './RealShortlist';
 export default function TourCard({
   tour,
@@ -12,7 +13,7 @@ export default function TourCard({
   tour: (typeof tours)[number];
   index: number;
 }) {
-  const photo = photos.find((photo) => photo.slug === tour.slug);
+  const photo = tourPhoto(tour);
   return (
     <article className="brochure-tour-card">
       {photo && (
@@ -30,8 +31,20 @@ export default function TourCard({
           />
         </Link>
       )}
+      {!photo && (
+        <Link
+          href={`/tours/${tour.slug}`}
+          className="tour-card-photo"
+          aria-label={`Explore ${tour.name}`}
+        >
+          <JournalCover tour={tour} />
+        </Link>
+      )}
       {photo && (
-        <Link className="tour-card-credit" href={`/photo-credits#${tour.slug}`}>
+        <Link
+          className="tour-card-credit"
+          href={`/photo-credits#${photo.slug}`}
+        >
           Photo: {photo.author}
         </Link>
       )}
@@ -40,6 +53,12 @@ export default function TourCard({
         <span>{tour.region}</span>
       </div>
       <p className="eyebrow">{tour.theme}</p>
+      {tour.relatedSlugs.length > 0 && (
+        <span className="variant-label">
+          {tour.duration}-day route option ·{' '}
+          {tour.source.order ? 'Newer itinerary' : 'Earlier outline'}
+        </span>
+      )}
       <h2>
         <Link href={`/tours/${tour.slug}`}>{tour.name}</Link>
       </h2>
@@ -53,7 +72,7 @@ export default function TourCard({
           View itinerary <ArrowUpRight size={17} />
         </Link>
         <WhatsAppLink
-          destination={tour.name}
+          destination={tourEnquiryContext(tour)}
           aria-label={`Enquire about ${tour.name} on WhatsApp`}
         >
           Enquire ↗

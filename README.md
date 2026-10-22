@@ -1,5 +1,13 @@
 # Shree Vandana Tours & Travels
 
+## Living Travel Journal — 22 October 2026
+
+The catalogue now accounts for all 45 sections in `client_details/TOUR ITINERARIES.docx` (31 India, 14 international) and preserves the 11 earlier tour records and URLs. The 56 published outline records include eight linked route-family variants; they are not a claim of 56 unique bookable departures. Commercial terms and availability remain confirmed on WhatsApp.
+
+The journal adds six featured newer journeys, travel-mood recommendations, Surprise Me postcards, a destination atlas, 32 destination routes, ten curated collections, derived duration/country filters and source-labelled save/compare/enquiry options. Existing licensed photography, reviews and reels retain their attribution. Routes without cleared photos use decorative journal artwork. Disputed numeric history claims are removed pending owner reconciliation; the original logo remains.
+
+Regenerate source content with `python scripts/import-itineraries.py`; verify with `python scripts/import-itineraries.py --check`. Read `docs/CONTENT_AUDIT.md` for every source treatment, source conflicts and client approvals, and `docs/JOURNAL_DELIVERY.md` for current implementation and validation. Regenerate the worktree index using `node scripts/index-project.mjs 2026-10-22`. Earlier notes and PageSpeed scores below describe older deployments.
+
 # Current implementation — 9 October 2026
 
 The World, Personally Curated redesign is implemented in the existing Next.js application. It includes a cinematic mobile-first homepage, eleven source-based tours, five destination pages, four supported style collections, intersecting region/country/style/duration/search filters, real-tour saves and comparison, source-derived itinerary timelines, licensed gallery photography, official Instagram embeds and direct WhatsApp enquiries to +91 96652 38966.

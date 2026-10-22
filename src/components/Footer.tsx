@@ -43,6 +43,8 @@ export default function Footer() {
           <h3>Find your way</h3>
           <Link href="/tours">Tour collection</Link>
           <Link href="/destinations">Destinations</Link>
+          <Link href="/destinations#atlas">Explore the atlas</Link>
+          <Link href="/collections/himalayan-escapes">Journey collections</Link>
           <Link href="/about">Our story</Link>
           <Link href="/services">Travel services</Link>
           <Link href="/gallery">Travel gallery</Link>

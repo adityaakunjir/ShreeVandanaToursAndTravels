@@ -29,5 +29,7 @@ jobs:
         run: npm ci
       - name: Lint, types, tests and production build
         run: npm run validate
+      - name: Verify source-document import is reproducible
+        run: python3 scripts/import-itineraries.py --check
       - name: Verify production routes and demo isolation
         run: npm run smoke:production

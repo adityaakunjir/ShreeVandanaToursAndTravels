@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowUpRight, ArrowDown, HeartHandshake, MapPin } from 'lucide-react';
 import { faqs } from '@/data/site';
-import tours from '@/data/tours.json';
+import tours from '@/data/catalogue';
 import photos from '@/data/tour-photos.json';
 import { travelStyles } from '@/lib/real-tours';
 import TourCard from '@/components/TourCard';
@@ -12,12 +12,13 @@ import BusinessStructuredData from '@/components/BusinessStructuredData';
 import InstagramShowcase from '@/components/InstagramShowcase';
 import GoogleReviews from '@/components/GoogleReviews';
 import { JourneyCTA } from '@/components/PageIntro';
+import DiscoveryPlayground from '@/components/DiscoveryPlayground';
+import DestinationAtlas from '@/components/DestinationAtlas';
+import { collections } from '@/data/collections';
 export const metadata = { alternates: { canonical: '/' } };
-const featured = [
-  'dubai-abu-dhabi',
-  'kerala-kanyakumari',
-  'kashmir-amritsar-vaishno-devi',
-];
+const featured = tours
+  .filter((t) => [45, 1, 22, 42, 24, 31].includes(t.source.order || 0))
+  .map((t) => t.slug);
 export default function Home() {
   return (
     <main id="top">
@@ -37,9 +38,9 @@ export default function Home() {
         <div className="curated-hero-copy">
           <p className="eyebrow">PUNE TO THE WORLD · FRIEND IN TOURISM</p>
           <h1>
-            The world,
+            A world of stories.
             <br />
-            <em>personally curated.</em>
+            <em>Find the one that’s yours.</em>
           </h1>
           <p>
             Three generations of experience.
@@ -47,7 +48,7 @@ export default function Home() {
           </p>
           <div className="hero-actions">
             <Link href="/tours" className="button warm">
-              Explore our tours <ArrowUpRight size={18} />
+              Explore journeys <ArrowUpRight size={18} />
             </Link>
             <WhatsAppLink className="hero-chat">
               Plan on WhatsApp <ArrowUpRight size={18} />
@@ -63,11 +64,11 @@ export default function Home() {
           </Link>
         </div>
         <span className="curated-hero-seal">
-          <strong>30+</strong>
+          <strong>✳</strong>
           <span>
-            YEARS OF
+            YOUR LIVING
             <br />
-            PERSONAL JOURNEYS
+            TRAVEL JOURNAL
           </span>
         </span>
       </section>
@@ -80,8 +81,8 @@ export default function Home() {
       </section>
       <div className="wrap curated-trust">
         <div>
-          <strong>30+</strong>
-          <span>Years of experience</span>
+          <strong>✳</strong>
+          <span>A family-run travel business</span>
         </div>
         <div>
           <strong>3</strong>
@@ -107,7 +108,7 @@ export default function Home() {
             </h2>
           </div>
           <Link href="/tours" className="text-link">
-            All eleven journeys <ArrowUpRight size={18} />
+            All {tours.length} source outlines <ArrowUpRight size={18} />
           </Link>
         </div>
         <div className="brochure-tour-grid">
@@ -120,6 +121,15 @@ export default function Home() {
           ))}
         </div>
       </section>
+      <DiscoveryPlayground
+        journeys={tours.map((t) => ({
+          slug: t.slug,
+          name: t.name,
+          country: t.country,
+          duration: t.duration,
+          theme: t.theme,
+        }))}
+      />
       <section className="section style-section">
         <div className="wrap">
           <div className="section-heading">
@@ -256,8 +266,8 @@ export default function Home() {
               <em>when it feels personal.</em>
             </h2>
             <p>
-              For over three decades, our family-run business in Pune has
-              brought experience, care and thoughtful planning to every journey.
+              Our family-run business in Pune brings experience, care and
+              thoughtful planning to every journey.
             </p>
             <p>
               Across three generations, one belief carries forward: get to know
@@ -398,6 +408,30 @@ export default function Home() {
           Destination inspiration, photographed around the world.{' '}
           <Link href="/photo-credits">Credits & licences ↗</Link>
         </p>
+      </section>
+      <DestinationAtlas />
+      <section className="section wrap journal-collections">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">A SHELF OF POSSIBILITIES</p>
+            <h2>
+              Choose your
+              <br />
+              <em>next chapter.</em>
+            </h2>
+          </div>
+          <p>Collections connected to the actual routes in our journal.</p>
+        </div>
+        <div className="collection-shelf">
+          {collections.map((c, i) => (
+            <Link key={c.slug} href={`/collections/${c.slug}`}>
+              <span>{String(i + 1).padStart(2, '0')}</span>
+              <h3>{c.name}</h3>
+              <p>{c.description}</p>
+              <small>{c.tours.length} outlines ↗</small>
+            </Link>
+          ))}
+        </div>
       </section>
       <InstagramShowcase />
       <GoogleReviews />

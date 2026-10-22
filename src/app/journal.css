@@ -1,0 +1,347 @@
+/* Living Travel Journal: paper, ink, route sketches. No invented geographic photography. */
+.comparison-picker .comparison-options {
+  max-height: 360px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 4px;
+}
+@media (max-width: 640px) {
+  .featured-journeys .brochure-tour-grid {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: 88%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 16px;
+    gap: 14px;
+  }
+  .featured-journeys .brochure-tour-card {
+    scroll-snap-align: start;
+  }
+  .featured-journeys .brochure-tour-card:last-child {
+    margin-right: 1px;
+  }
+}
+.journal-cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 18px;
+  overflow: hidden;
+  color: #942a24;
+  background-color: #eee7d8;
+  background-image:
+    linear-gradient(#9b70501a 1px, transparent 1px),
+    linear-gradient(90deg, #9b70501a 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+.journal-cover::after {
+  content: '';
+  position: absolute;
+  inset: 10px;
+  border: 1px solid #a43e3030;
+  pointer-events: none;
+}
+.journal-stamp {
+  font-size: 9px;
+  letter-spacing: 0.14em;
+  line-height: 1.6;
+}
+.journal-cover svg {
+  position: absolute;
+  inset: 14% 0 auto;
+  width: 100%;
+  height: 60%;
+  opacity: 0.35;
+}
+.journal-cover > div {
+  position: relative;
+  z-index: 1;
+  padding-top: 30px;
+}
+.journal-cover > div > span {
+  font-size: 9px;
+  letter-spacing: 0.1em;
+}
+.journal-cover strong {
+  display: block;
+  font:
+    28px/1.12 Georgia,
+    serif;
+  letter-spacing: -0.035em;
+  margin-block: 8px;
+  max-width: 90%;
+  text-wrap: balance;
+}
+.journal-cover small {
+  font-size: 10px;
+  line-height: 1.5;
+  display: block;
+}
+.journal-detail-hero {
+  background: #eee7d8;
+  border: 1px solid #ded6cc;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-block: 24px 34px;
+}
+.journal-detail-hero .journal-cover {
+  height: 210px;
+}
+.journal-detail-hero .journal-cover strong {
+  display: none;
+}
+.journal-detail-hero > h1 {
+  padding: 10px 24px 0;
+  font-family: Georgia, serif;
+}
+.journal-detail-hero > p {
+  padding: 0 24px 30px;
+  font-size: 13px;
+}
+.variant-label,
+.source-outline-label {
+  font-size: 10px;
+  color: #71594a;
+  line-height: 1.6;
+}
+.variant-label {
+  margin-bottom: 4px;
+}
+.discovery-playground {
+  display: grid;
+  gap: 30px;
+  align-items: center;
+}
+.discovery-playground > div > p:not(.eyebrow) {
+  margin-top: 20px;
+  max-width: 500px;
+  font-size: 14px;
+}
+.mood-controls {
+  display: grid;
+  gap: 16px;
+  margin-block: 24px;
+}
+.mood-controls label {
+  display: grid;
+  gap: 8px;
+  font-size: 12px;
+}
+.mood-controls select {
+  min-height: 52px;
+  width: 100%;
+  min-width: 0;
+  font-size: 16px;
+  color: #302925;
+  background: #fffdf8;
+  border: 1px solid #d7cbbd;
+  border-radius: 10px;
+  padding: 12px;
+}
+.discovery-playground button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.surprise-postcard {
+  position: relative;
+  background: #f0e5d5;
+  border: 1px solid #cdbba4;
+  box-shadow: 5px 6px 0 #e3d9c9;
+  padding: 30px 24px;
+  min-height: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.surprise-postcard h3 {
+  font:
+    34px/1.12 Georgia,
+    serif;
+  max-width: 100%;
+  letter-spacing: -0.035em;
+  overflow-wrap: anywhere;
+}
+.surprise-postcard p {
+  font-size: 13px;
+  color: #635244;
+}
+.surprise-postcard small {
+  margin-top: auto;
+  font-size: 10px;
+  color: #635244;
+}
+.postcard-mark {
+  position: absolute;
+  right: 20px;
+  top: 35px;
+  font-size: 60px;
+  line-height: 1;
+  color: #b72d291f;
+}
+.surprise-postcard .journal-stamp {
+  max-width: 230px;
+  padding-bottom: 22px;
+}
+.journal-atlas {
+  border-top: 1px solid #ded6cc;
+}
+.atlas-columns {
+  display: grid;
+  gap: 30px;
+}
+.atlas-columns h3 {
+  font:
+    25px/1.2 Georgia,
+    serif;
+  margin-bottom: 20px;
+}
+.atlas-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.atlas-grid a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 90px;
+  padding: 16px;
+  background: #f0ece2;
+  border: 1px solid #dfd6c7;
+  border-radius: 4px;
+}
+.atlas-grid a > span {
+  font:
+    19px/1.2 Georgia,
+    serif;
+  overflow-wrap: anywhere;
+}
+.atlas-grid small {
+  font-size: 10px;
+  color: #756354;
+}
+.atlas-grid a:hover {
+  border-color: #b72d29;
+  background: #f5e5df;
+}
+.collection-shelf {
+  display: grid;
+  gap: 16px;
+}
+.collection-shelf a {
+  border-top: 1px solid #d2c5b5;
+  padding: 24px 0;
+  display: grid;
+  gap: 14px;
+}
+.collection-shelf a > span {
+  font-size: 11px;
+  color: #b72d29;
+}
+.collection-shelf h3 {
+  font:
+    30px/1.1 Georgia,
+    serif;
+}
+.collection-shelf p {
+  font-size: 13px;
+}
+.collection-shelf small {
+  font-size: 11px;
+}
+.brochure-tour-grid {
+  margin-top: 24px;
+}
+.journal-collections {
+  background: #f0ece2;
+  padding-inline: 24px;
+  border-radius: 20px;
+}
+@media (min-width: 641px) {
+  .mood-controls {
+    grid-template-columns: 1fr 1fr;
+  }
+  .collection-shelf {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+  }
+  .journal-cover strong {
+    font-size: 26px;
+  }
+  .journal-detail-hero .journal-cover {
+    height: 260px;
+  }
+}
+@media (min-width: 901px) {
+  .discovery-playground {
+    grid-template-columns: 1.15fr 1fr;
+    gap: 80px;
+  }
+  .atlas-columns {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+  .atlas-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .surprise-postcard {
+    padding: 40px;
+    min-height: 420px;
+    transform: rotate(1deg);
+  }
+  .surprise-postcard h3 {
+    font-size: 44px;
+  }
+  .journal-collections {
+    padding-inline: 40px;
+  }
+  .journal-cover strong {
+    font-size: 32px;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .surprise-postcard {
+    animation: postcard-reveal 300ms ease-out both;
+  }
+  @keyframes postcard-reveal {
+    from {
+      opacity: 0.5;
+      translate: 0 8px;
+    }
+    to {
+      opacity: 1;
+      translate: 0 0;
+    }
+  }
+  .atlas-grid a {
+    transition:
+      background 180ms,
+      border-color 180ms;
+  }
+}
+@media (max-width: 640px) {
+  .curated-hero h1 {
+    font-size: clamp(38px, 10vw, 52px);
+  }
+  .curated-hero-copy {
+    padding-top: 100px;
+  }
+  .journal-cover strong {
+    font-size: 26px;
+  }
+  .collection-page .brochure-tour-card .journal-cover strong {
+    font-size: 28px;
+  }
+  .journal-detail-hero > h1 {
+    font-size: 40px;
+  }
+  .curated-trust strong {
+    font-size: 28px;
+  }
+}

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import tours from '@/data/tours.json';
+import tours from '@/data/catalogue';
 import { destinations } from '@/data/site';
 import TourCard from '@/components/TourCard';
 import TourDiscovery from '@/components/TourDiscovery';
@@ -18,8 +18,7 @@ export async function generateMetadata({
   const filters = realTourFilters(await searchParams, tours);
   return {
     title: 'Domestic & international tours from Pune',
-    description:
-      'Explore eleven thoughtfully planned journeys across India, Dubai, Nepal, Sri Lanka, Bhutan and Egypt. Find your travel style, read the itinerary and ask for a personalised quote.',
+    description: `Explore ${tours.length} company-supplied tour outlines and route variants across India and the world. Find your travel mood, read the itinerary and ask for a personalised quote.`,
     alternates: { canonical: '/tours' },
     robots: Object.values(filters).some(Boolean)
       ? { index: false, follow: true }
@@ -42,7 +41,7 @@ export default async function ToursPage({ searchParams }: Props) {
         eyebrow="The journey collection"
         title="A world to discover."
         accent="A journey that’s yours."
-        description="Eleven journeys. Countless ways to make them personal. Find your kind of holiday, explore the route, then talk dates and details with our Pune team."
+        description={`${tours.length} source outlines, including distinct route options. Find your kind of holiday, explore the route, then talk dates and details with our Pune team.`}
       />
       <section className="section wrap">
         <TourDiscovery filters={filters} />

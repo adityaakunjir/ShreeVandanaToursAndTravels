@@ -7,9 +7,13 @@ export type SourceTour = {
   stops: string[];
   duration?: number;
   days: { title: string; description: string }[];
+  category?: string;
 };
 export type RealTourParams = Partial<
-  Record<'q' | 'region' | 'country' | 'style' | 'duration', string | string[]>
+  Record<
+    'q' | 'region' | 'country' | 'style' | 'duration' | 'sort' | 'party',
+    string | string[]
+  >
 >;
 export const travelStyles = [
   {
@@ -45,12 +49,22 @@ export function realTourFilters(params: RealTourParams, tours: SourceTour[]) {
   return {
     q: text(params.q),
     region: choice(params.region, ['India', 'International']),
-    country: choice(params.country, [...new Set(tours.map((t) => t.region))]),
-    style: choice(
-      params.style,
-      travelStyles.map((s) => s.value),
-    ),
-    duration: choice(params.duration, ['6', '8', '9', '10']),
+    country: choice(params.country, [
+      ...new Set(tours.flatMap((t) => t.region.split(' / '))),
+    ]),
+    style: choice(params.style, [
+      ...travelStyles.map((s) => s.value),
+      'romance',
+      'beaches',
+      'adventure',
+      'wildlife',
+      'royal',
+    ]),
+    duration: choice(params.duration, [
+      ...new Set(tours.map((t) => String(tourDuration(t)))),
+    ]),
+    sort: choice(params.sort, ['shortest', 'longest', 'name']),
+    party: choice(params.party, ['group', 'family', 'honeymoon']),
   };
 }
 export function tourDuration(tour: SourceTour) {
@@ -62,6 +76,11 @@ export function matchesStyle(tour: SourceTour, style: string) {
   if (style === 'pilgrimage') return theme.includes('pilgrimage');
   if (style === 'culture') return /culture|heritage/.test(theme);
   if (style === 'coast') return /coast|nature/.test(theme);
+  if (style === 'romance') return /romance/.test(theme);
+  if (style === 'beaches') return /coast|islands/.test(theme);
+  if (style === 'adventure') return /adventure/.test(theme);
+  if (style === 'wildlife') return /wildlife/.test(theme);
+  if (style === 'royal') return /royal/.test(theme);
   return !style;
 }
 export function findRealTours<T extends SourceTour>(
@@ -69,7 +88,7 @@ export function findRealTours<T extends SourceTour>(
   filters: ReturnType<typeof realTourFilters>,
 ) {
   const words = filters.q.toLowerCase().split(/\s+/).filter(Boolean);
-  return tours.filter((t) => {
+  const results = tours.filter((t) => {
     const content = [t.name, t.region, t.theme, t.summary, ...t.stops]
       .join(' ')
       .toLowerCase();
@@ -79,9 +98,22 @@ export function findRealTours<T extends SourceTour>(
         (filters.region === 'India'
           ? t.region === 'India'
           : t.region !== 'India')) &&
-      (!filters.country || t.region === filters.country) &&
+      (!filters.country || t.region.split(' / ').includes(filters.country)) &&
+      (!filters.party ||
+        (filters.party === 'family'
+          ? /family/i.test(t.category || '')
+          : filters.party === 'group'
+            ? t.category === 'Group'
+            : t.category === 'Honeymoon')) &&
       matchesStyle(t, filters.style) &&
       (!filters.duration || tourDuration(t) === Number(filters.duration))
     );
   });
+  if (filters.sort === 'shortest')
+    results.sort((a, b) => tourDuration(a) - tourDuration(b));
+  if (filters.sort === 'longest')
+    results.sort((a, b) => tourDuration(b) - tourDuration(a));
+  if (filters.sort === 'name')
+    results.sort((a, b) => a.name.localeCompare(b.name));
+  return results;
 }

@@ -1,5 +1,9 @@
 # Business content evidence register
 
+## Update — 22 October 2026
+
+TOUR ITINERARIES.docx contains 45 newer source sections, imported reproducibly alongside all 11 older records. CONTENT_AUDIT.md records paragraph ranges, SHA-256, durations, distinct variants and pending confirmations. These are quote-on-enquiry outlines, not approved prices, confirmed departures or live inventory. The original logo was visually checked and says Since 1998; public numeric age claims have been removed pending reconciliation with 30+ written requirements and the older 25-year Instagram note. The original logo and three-generation family description remain. Later owner contact details and red-led palette remain authoritative. Previous dated review and social verification below has not been presented as a fresh live check.
+
 Updated 5 October 2026.
 
 - Verified listing: https://maps.app.goo.gl/7faKRoszRxDXsPMU9?g_st=ic — Shree Vandana Tours And Travels, Lodha complex, Shanti Dham Road, Dhankawadi, Pune 411043. Coordinates 18.4663567, 73.8502703. Listing entity 0x3bc2c0712df495d9:0x3e9e56d24afbfd85; an API Place ID has not been established.

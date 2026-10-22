@@ -1,0 +1,653 @@
+[
+  {
+    "order": 1,
+    "title": "BALI – INDONESIA TOUR PACKAGE",
+    "nights": 6,
+    "duration": 7,
+    "scope": "International",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1,
+    "endParagraph": 94,
+    "route": [
+      "Seminyak",
+      "Nusa Penida",
+      "Ubud",
+      "Kintamani"
+    ]
+  },
+  {
+    "order": 2,
+    "title": "Dubai Delight – 5 Nights / 6 Days",
+    "nights": 5,
+    "duration": 6,
+    "scope": "International",
+    "relatedLegacy": "dubai-abu-dhabi",
+    "reconciliation": "Same region and 6-day concept; check Abu Dhabi and inclusion changes",
+    "startParagraph": 95,
+    "endParagraph": 141,
+    "route": [
+      "Dubai"
+    ]
+  },
+  {
+    "order": 3,
+    "title": "Chandigarh – Shimla – Manali Group Tour Package",
+    "nights": 7,
+    "duration": 8,
+    "scope": "India",
+    "relatedLegacy": "shimla-kullu-manali",
+    "reconciliation": "Same Himachal family and duration; itinerary routing differs",
+    "startParagraph": 142,
+    "endParagraph": 191,
+    "route": [
+      "Chandigarh",
+      "Shimla",
+      "Kufri",
+      "Kullu",
+      "Manali"
+    ]
+  },
+  {
+    "order": 4,
+    "title": "Manali – Amritsar Group Tour Package",
+    "nights": 5,
+    "duration": 6,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 192,
+    "endParagraph": 238,
+    "route": [
+      "Manali",
+      "Solang Valley",
+      "Amritsar"
+    ]
+  },
+  {
+    "order": 5,
+    "title": "Sikkim – Gangtok – Pelling – Darjeeling Group Tour Package",
+    "nights": 7,
+    "duration": 8,
+    "scope": "India",
+    "relatedLegacy": "darjeeling-gangtok-pelling",
+    "reconciliation": "Same Sikkim/Darjeeling family; validate revised order and stops",
+    "startParagraph": 239,
+    "endParagraph": 294,
+    "route": [
+      "Gangtok",
+      "Tsomgo Lake",
+      "Pelling",
+      "Darjeeling"
+    ]
+  },
+  {
+    "order": 6,
+    "title": "Kashmir Group Tour Package",
+    "nights": 6,
+    "duration": 7,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 295,
+    "endParagraph": 350,
+    "route": [
+      "Srinagar",
+      "Sonamarg",
+      "Gulmarg",
+      "Pahalgam"
+    ]
+  },
+  {
+    "order": 7,
+    "title": "KASHMIR WITH VAISHNO DEVI GROUP TOUR PACKAGE",
+    "nights": 8,
+    "duration": 9,
+    "scope": "India",
+    "relatedLegacy": "kashmir-amritsar-vaishno-devi",
+    "reconciliation": "Related pilgrimage region but old route has Amritsar and 10D versus new 9D; preserve as distinct variant unless approved",
+    "startParagraph": 351,
+    "endParagraph": 400
+  },
+  {
+    "order": 8,
+    "title": "NEPAL GROUP TOUR PACKAGE",
+    "nights": 7,
+    "duration": 8,
+    "scope": "International",
+    "relatedLegacy": "nepal",
+    "reconciliation": "Same 8-day destination family; reconcile day-wise details",
+    "startParagraph": 401,
+    "endParagraph": 444
+  },
+  {
+    "order": 9,
+    "title": "NAINITAL – KAUSANI – JIM CORBETT GROUP TOUR PACKAGE",
+    "nights": 7,
+    "duration": 8,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 445,
+    "endParagraph": 496
+  },
+  {
+    "order": 10,
+    "title": "THREE SISTERS OF NORTHEAST INDIA GROUP TOUR PACKAGE",
+    "nights": 9,
+    "duration": 10,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 497,
+    "endParagraph": 548,
+    "route": [
+      "Guwahati",
+      "Shillong",
+      "Cherrapunji",
+      "Kaziranga",
+      "Dirang",
+      "Tawang"
+    ]
+  },
+  {
+    "order": 11,
+    "title": "ODISHA GROUP TOUR PACKAGE",
+    "nights": 6,
+    "duration": 7,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 549,
+    "endParagraph": 593,
+    "route": [
+      "Bhubaneswar",
+      "Dhauli",
+      "Pipili",
+      "Raghurajpur",
+      "Puri",
+      "Konark",
+      "Chilika Lake"
+    ]
+  },
+  {
+    "order": 12,
+    "title": "ODISHA WITH GANGASAGAR GROUP TOUR PACKAGE",
+    "nights": 9,
+    "duration": 10,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 594,
+    "endParagraph": 650,
+    "route": [
+      "Kolkata",
+      "Gangasagar",
+      "Bhubaneswar",
+      "Puri",
+      "Konark",
+      "Chilika Lake"
+    ]
+  },
+  {
+    "order": 13,
+    "title": "HYDERABAD – SRISAILAM GROUP TOUR PACKAGE",
+    "nights": 4,
+    "duration": 5,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 651,
+    "endParagraph": 687,
+    "route": [
+      "Hyderabad",
+      "Srisailam"
+    ]
+  },
+  {
+    "order": 14,
+    "title": "Goa Group Tour Package – 4 Nights / 5 Days",
+    "nights": 4,
+    "duration": 5,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 688,
+    "endParagraph": 734
+  },
+  {
+    "order": 15,
+    "title": "Gujarat Group Tour Package – 7 Nights / 8 Days",
+    "nights": 7,
+    "duration": 8,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 735,
+    "endParagraph": 791
+  },
+  {
+    "order": 16,
+    "title": "Dharamshala – Dalhousie – Amritsar Group Tour Package",
+    "nights": 6,
+    "duration": 7,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 792,
+    "endParagraph": 844
+  },
+  {
+    "order": 17,
+    "title": "Full Rajasthan Group Tour Package – 11 Nights / 12 Days",
+    "nights": 11,
+    "duration": 12,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 845,
+    "endParagraph": 916
+  },
+  {
+    "order": 18,
+    "title": "Mini Rajasthan Group Tour Package – 6 Nights / 7 Days",
+    "nights": 6,
+    "duration": 7,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 917,
+    "endParagraph": 969
+  },
+  {
+    "order": 19,
+    "title": "Indore – Ujjain – Omkareshwar Group Tour Package",
+    "nights": 4,
+    "duration": 5,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 970,
+    "endParagraph": 1013
+  },
+  {
+    "order": 20,
+    "title": "Bangalore – Mysore – Coorg Group Tour Package",
+    "nights": 6,
+    "duration": 7,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1014,
+    "endParagraph": 1066
+  },
+  {
+    "order": 21,
+    "title": "Spiti Valley Group Tour Package – 7 Nights / 8 Days",
+    "nights": 7,
+    "duration": 8,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1067,
+    "endParagraph": 1123
+  },
+  {
+    "order": 22,
+    "title": "Leh Ladakh Group Tour Package – 7 Nights / 8 Days",
+    "nights": 7,
+    "duration": 8,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1124,
+    "endParagraph": 1182
+  },
+  {
+    "order": 23,
+    "title": "Leh Ladakh with Kargil, Drass & Turtuk – 9 Nights / 10 Days",
+    "nights": 9,
+    "duration": 10,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1183,
+    "endParagraph": 1226,
+    "route": [
+      "Leh",
+      "Kargil",
+      "Drass",
+      "Nubra Valley",
+      "Turtuk",
+      "Pangong Lake"
+    ]
+  },
+  {
+    "order": 24,
+    "title": "Char Dham Yatra – 12 Nights / 13 Days",
+    "nights": 12,
+    "duration": 13,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1227,
+    "endParagraph": 1277,
+    "route": [
+      "Haridwar",
+      "Barkot",
+      "Yamunotri",
+      "Uttarkashi",
+      "Gangotri",
+      "Guptkashi",
+      "Kedarnath",
+      "Badrinath"
+    ]
+  },
+  {
+    "order": 25,
+    "title": "Coastal Karnataka Tour Package – 7 Nights / 8 Days",
+    "nights": 7,
+    "duration": 8,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1278,
+    "endParagraph": 1318,
+    "route": [
+      "Mangalore",
+      "Udupi",
+      "Maravanthe",
+      "Murudeshwar",
+      "Gokarna"
+    ]
+  },
+  {
+    "order": 26,
+    "title": "Kerala Tour Package – 5 Nights / 6 Days",
+    "nights": 5,
+    "duration": 6,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1319,
+    "endParagraph": 1355,
+    "route": [
+      "Munnar",
+      "Alleppey",
+      "Kochi"
+    ]
+  },
+  {
+    "order": 27,
+    "title": "Unseen Kerala with Wayanad – 5 Nights / 6 Days",
+    "nights": 5,
+    "duration": 6,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1356,
+    "endParagraph": 1391,
+    "route": [
+      "Wayanad",
+      "Kannur",
+      "Kozhikode"
+    ]
+  },
+  {
+    "order": 28,
+    "title": "Kerala with Kanyakumari – 7 Nights / 8 Days",
+    "nights": 7,
+    "duration": 8,
+    "scope": "India",
+    "relatedLegacy": "kerala-kanyakumari",
+    "reconciliation": "Old 9D versus new 8D; separate variant or approval-driven update",
+    "startParagraph": 1392,
+    "endParagraph": 1433,
+    "route": [
+      "Munnar",
+      "Thekkady",
+      "Alleppey",
+      "Kovalam",
+      "Trivandrum",
+      "Kanyakumari"
+    ]
+  },
+  {
+    "order": 29,
+    "title": "Kerala with Kanyakumari, Rameswaram & Madurai – 9 Nights / 10 Days",
+    "nights": 9,
+    "duration": 10,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1434,
+    "endParagraph": 1479,
+    "route": [
+      "Munnar",
+      "Thekkady",
+      "Alleppey",
+      "Kovalam",
+      "Kanyakumari",
+      "Rameswaram",
+      "Madurai"
+    ]
+  },
+  {
+    "order": 30,
+    "title": "Tamil Nadu Tour Package – 7 Nights / 8 Days",
+    "nights": 7,
+    "duration": 8,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1480,
+    "endParagraph": 1520,
+    "route": [
+      "Madurai",
+      "Rameswaram",
+      "Dhanushkodi",
+      "Kanyakumari",
+      "Thanjavur",
+      "Trichy"
+    ]
+  },
+  {
+    "order": 31,
+    "title": "Andaman with Baratang Island – 6 Nights / 7 Days",
+    "nights": 6,
+    "duration": 7,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1521,
+    "endParagraph": 1560,
+    "route": [
+      "Port Blair",
+      "Baratang",
+      "Havelock Island",
+      "Neil Island"
+    ]
+  },
+  {
+    "order": 32,
+    "title": "Lakshadweep Tour Package – 5 Nights / 6 Days",
+    "nights": 5,
+    "duration": 6,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1561,
+    "endParagraph": 1601
+  },
+  {
+    "order": 33,
+    "title": "Kodaikanal – Ooty Tour Package",
+    "nights": 5,
+    "duration": 6,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1602,
+    "endParagraph": 1637,
+    "route": [
+      "Ooty",
+      "Kodaikanal"
+    ]
+  },
+  {
+    "order": 34,
+    "title": "Russia Tour Package – 6 Nights / 7 Days",
+    "nights": 6,
+    "duration": 7,
+    "scope": "International",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1638,
+    "endParagraph": 1683
+  },
+  {
+    "order": 35,
+    "title": "Thailand – Malaysia – Singapore Tour Package",
+    "nights": 7,
+    "duration": 8,
+    "scope": "International",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1684,
+    "endParagraph": 1733
+  },
+  {
+    "order": 36,
+    "title": "Egypt with Hurghada Tour Package",
+    "nights": 7,
+    "duration": 8,
+    "scope": "International",
+    "relatedLegacy": "egypt-hurghada",
+    "reconciliation": "Old 9D versus new 8D; do not overwrite silently",
+    "startParagraph": 1734,
+    "endParagraph": 1777,
+    "route": [
+      "Cairo",
+      "Aswan",
+      "Luxor",
+      "Hurghada"
+    ]
+  },
+  {
+    "order": 37,
+    "title": "Baku – Azerbaijan Tour Package",
+    "nights": 4,
+    "duration": 5,
+    "scope": "International",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1778,
+    "endParagraph": 1812,
+    "route": [
+      "Baku"
+    ]
+  },
+  {
+    "order": 38,
+    "title": "South Africa Tour Package – 7 Nights / 8 Days",
+    "nights": 7,
+    "duration": 8,
+    "scope": "International",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1813,
+    "endParagraph": 1862
+  },
+  {
+    "order": 39,
+    "title": "Vietnam Tour Package – 6 Nights / 7 Days",
+    "nights": 6,
+    "duration": 7,
+    "scope": "International",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1863,
+    "endParagraph": 1911
+  },
+  {
+    "order": 40,
+    "title": "Singapore – Malaysia Tour Package",
+    "nights": 5,
+    "duration": 6,
+    "scope": "International",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1912,
+    "endParagraph": 1949,
+    "route": [
+      "Singapore",
+      "Kuala Lumpur"
+    ]
+  },
+  {
+    "order": 41,
+    "title": "Exotic Thailand Tour Package – 5 Nights / 6 Days",
+    "nights": 5,
+    "duration": 6,
+    "scope": "International",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1950,
+    "endParagraph": 1992
+  },
+  {
+    "order": 42,
+    "title": "Mauritius Honeymoon Package – 5 Nights / 6 Days",
+    "nights": 5,
+    "duration": 6,
+    "scope": "International",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 1993,
+    "endParagraph": 2043
+  },
+  {
+    "order": 43,
+    "title": "Hampi – Badami – Vijayapura Tour Package",
+    "nights": 5,
+    "duration": 6,
+    "scope": "India",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 2044,
+    "endParagraph": 2079,
+    "route": [
+      "Hampi",
+      "Badami",
+      "Vijayapura"
+    ]
+  },
+  {
+    "order": 44,
+    "title": "Sri Lanka Tour Package – 6 Nights / 7 Days",
+    "nights": 6,
+    "duration": 7,
+    "scope": "International",
+    "relatedLegacy": "sri-lanka",
+    "reconciliation": "Old 8D versus new 7D; separate variant or approval-driven update",
+    "startParagraph": 2080,
+    "endParagraph": 2125
+  },
+  {
+    "order": 45,
+    "title": "JAPAN TOUR PACKAGE – 7 NIGHTS / 8 DAYS",
+    "nights": 7,
+    "duration": 8,
+    "scope": "International",
+    "relatedLegacy": null,
+    "reconciliation": null,
+    "startParagraph": 2126,
+    "endParagraph": 2216,
+    "route": [
+      "Tokyo",
+      "Mount Fuji",
+      "Kyoto",
+      "Osaka"
+    ]
+  }
+]

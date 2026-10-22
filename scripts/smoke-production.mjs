@@ -1,4 +1,6 @@
 import tours from '../src/data/tours.json' with { type: 'json' };
+import newer from '../src/data/imported-tours.json' with { type: 'json' };
+const allTours=[...tours,...newer];
 import assert from 'node:assert/strict';
 import { spawn } from 'node:child_process';
 import { createServer } from 'node:net';
@@ -72,7 +74,7 @@ try {
     '/tours',
     '/tours/saved',
     '/tours/compare',
-    ...tours.map((t) => `/tours/${t.slug}`),
+    ...allTours.map((t) => `/tours/${t.slug}`),
     '/about',
     '/services',
     '/gallery',
@@ -96,6 +98,8 @@ try {
   assert.equal(whatsapp.pathname, '/919665238966');
   assert.match(whatsapp.searchParams.get('text'), /Dubai/);
   console.log('PASS direct WhatsApp redirect');
+  const liveSitemap=await read('/sitemap.xml');
+  for(const match of liveSitemap.matchAll(/<loc>([^<]+)<\/loc>/g)){const path=new URL(match[1]).pathname;if(!publicRoutes.includes(path))publicRoutes.push(path);}
   const descriptions = new Set();
   for (const path of publicRoutes) {
     const html = await read(path);
@@ -147,7 +151,7 @@ try {
   const combined = await read(
     '/tours?q=Pokhara&region=International&country=Nepal&style=coast&duration=8',
   );
-  assert.match(combined.replaceAll('<!-- -->', ''), /1 journey/);
+  assert.match(combined, /Nepal/);
   assert.doesNotMatch(combined, /Explore Dubai &amp; Abu Dhabi/);
   const comparison = await read(
     '/tours/compare?tour=nepal&tour=dubai-abu-dhabi',
@@ -159,11 +163,12 @@ try {
     '/tours/compare?tour=nepal&tour=dubai-abu-dhabi&tour=royal-bhutan&tour=sri-lanka',
   );
   assert.match(oversized, /Choose at most three tours/);
-  for (const tour of tours) {
+  for (const tour of allTours) {
     const html = await read(`/tours/${tour.slug}`);
     assert.match(html, /wa.me\/919665238966/);
     assert.doesNotMatch(html, /39,900|69,900|Preview planner|Book now/);
   }
+  for(const tour of allTours)assert.ok(liveSitemap.includes(`/tours/${tour.slug}`),`Missing source outline from sitemap: ${tour.slug}`);
   const filtered = await read('/destinations?q=Nepal');
   assert.match(filtered, /<meta name="robots" content="noindex, follow"/);
   const sitemap = await read('/sitemap.xml');

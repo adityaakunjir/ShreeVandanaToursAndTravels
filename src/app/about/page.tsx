@@ -18,7 +18,7 @@ export default function AboutPage() {
         eyebrow="Our story"
         title="A family legacy."
         accent="A friend in tourism."
-        description="30+ years of trust. Three generations of travel excellence. Based in Pune, connected to a world of possibilities."
+        description="A family-run business shaped by three generations. Based in Pune, connected to a world of possibilities."
       />
       <section className="section wrap story-grid">
         <div className="story-photo">
@@ -49,8 +49,8 @@ export default function AboutPage() {
             <em>So are we.</em>
           </h2>
           <p>
-            For over three decades, Shree Vandana Tours & Travels has been
-            helping travellers turn their journeys into memorable experiences.
+            Shree Vandana Tours & Travels is a family-run business, helping
+            travellers turn their journeys into memorable experiences.
           </p>
           <p>
             What began with a passion for travel has grown into a trusted
@@ -74,8 +74,8 @@ export default function AboutPage() {
         </h2>
         <div className="legacy-principles">
           <article>
-            <strong>30+</strong>
-            <h3>Years of experience</h3>
+            <strong>Care</strong>
+            <h3>A personal approach</h3>
             <p>The legacy of a family travel business rooted in Pune.</p>
           </article>
           <article>

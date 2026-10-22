@@ -27,7 +27,7 @@ async function scan(directory) {
 await scan(root);
 files.sort((a, b) => a.path.localeCompare(b.path));
 await writeFile(path.join(root, 'PROJECT_INDEX.json'), JSON.stringify({
-  reviewDate: '2026-10-09',
+  reviewDate: process.argv[2] || new Date().toLocaleDateString('en-CA', {timeZone:'Asia/Kolkata'}),
   baseCommit: execFileSync('git', ['rev-parse', 'HEAD'], { encoding: 'utf8' }).trim(),
   scope: 'Working source, business documents and public assets. Excludes dependencies, builds, Git metadata, credentials and generated index itself.',
   fileCount: files.length, files,

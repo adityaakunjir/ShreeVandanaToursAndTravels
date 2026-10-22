@@ -1,16 +1,17 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import photos from '@/data/tour-photos.json';
 import { notFound } from 'next/navigation';
 import { Check, ArrowUpRight, Phone } from 'lucide-react';
-import tours from '@/data/tours.json';
+import tours from '@/data/catalogue';
 import Breadcrumb from '@/components/Breadcrumb';
 import WhatsAppLink from '@/components/WhatsAppLink';
 import { business } from '@/data/site';
 import TourCard from '@/components/TourCard';
 import ShareTour from '@/components/ShareTour';
 import { SaveRealTour } from '@/components/RealShortlist';
+import { tourPhoto, tourEnquiryContext } from '@/data/catalogue';
+import JournalCover from '@/components/JournalCover';
 export function generateStaticParams() {
   return tours.map((t) => ({ slug: t.slug }));
 }
@@ -22,10 +23,11 @@ export async function generateMetadata({
   const { slug } = await params;
   const t = tours.find((t) => t.slug === slug);
   if (!t) return {};
-  const photo = photos.find((photo) => photo.slug === slug);
+  const photo = tourPhoto(t);
   return {
     title: t.name + ' tour from Pune',
     description:
+      `${t.name}, ${t.duration} days. ` +
       t.summary +
       ' View the route and enquire on WhatsApp for dates and a quote.',
     alternates: { canonical: `/tours/${t.slug}` },
@@ -54,11 +56,12 @@ export default async function TourPage({
   const tour = tours.find((t) => t.slug === slug);
   if (!tour) notFound();
   const duration = tour.duration || tour.days.length;
-  const photo = photos.find((photo) => photo.slug === tour.slug);
+  const photo = tourPhoto(tour);
   const related = tours
     .filter((t) => t.slug !== tour.slug)
     .sort((a, b) => {
       const score = (t: typeof tour) =>
+        Number(tour.relatedSlugs.includes(t.slug)) * 10 +
         Number(t.theme === tour.theme) * 2 +
         Number((t.region === 'India') === (tour.region === 'India'));
       return score(b) - score(a);
@@ -93,11 +96,22 @@ export default async function TourPage({
           </div>
           <figcaption>
             <span>{photo.alt}</span>
-            <Link href={`/photo-credits#${tour.slug}`}>
+            <Link href={`/photo-credits#${photo.slug}`}>
               Photo: {photo.author} · {photo.license}
             </Link>
           </figcaption>
         </figure>
+      )}
+      {!photo && (
+        <section className="journal-detail-hero">
+          <JournalCover tour={tour} hero />
+          <h1>{tour.name}</h1>
+          <p>
+            {tour.country} ·{' '}
+            {tour.nights !== null ? `${tour.nights} nights / ` : ''}
+            {duration} days · Tour outline
+          </p>
+        </section>
       )}
       <nav className="tour-section-nav" aria-label="On this tour page">
         <a href="#itinerary">The itinerary</a>
@@ -116,13 +130,24 @@ export default async function TourPage({
           <p className="eyebrow">
             {tour.region} · {tour.theme} · {duration} days
           </p>
-          {!photo && <h1>{tour.name}</h1>}
+          <p className="source-outline-label">
+            {tour.relatedSlugs.length ? 'Distinct route option · ' : ''}
+            Company-supplied outline · Final arrangements on enquiry
+            {' · '}
+            {tour.source.order ? 'Newer itinerary' : 'Earlier outline'}
+          </p>
           <p className="brochure-lead">{tour.summary}</p>
           <div className="brochure-route" aria-label="Tour route">
             {tour.stops.map((stop) => (
               <span key={stop}>{stop}</span>
             ))}
           </div>
+          <Link
+            href={`/destinations/${tour.country === 'India' ? 'india' : tour.country.toLowerCase().split(' / ')[0].replaceAll(' ', '-')}`}
+            className="text-link"
+          >
+            Explore this destination ↗
+          </Link>
         </div>
         <aside className="brochure-enquire">
           <p className="eyebrow">Your next journey</p>
@@ -132,7 +157,7 @@ export default async function TourPage({
             group.
           </p>
           <WhatsAppLink
-            destination={`the ${duration}-day ${tour.name} tour`}
+            destination={tourEnquiryContext(tour)}
             className="button"
           >
             Enquire on WhatsApp <ArrowUpRight size={18} />
@@ -233,12 +258,35 @@ export default async function TourPage({
               <li key={item}>{item}</li>
             ))}
           </ul>
+          {tour.optional.length > 0 && (
+            <>
+              <h3>Optional experiences</h3>
+              <p className="brochure-small">
+                These are choices to discuss, not guaranteed inclusions. The
+                final quote confirms their availability and charges.
+              </p>
+              <ul className="brochure-exclusions">
+                {tour.optional.map((x) => (
+                  <li key={x}>{x}</li>
+                ))}
+              </ul>
+            </>
+          )}
         </section>
       </div>
       <section className="brochure-before" id="before-you-go">
         <p className="eyebrow">Before you go</p>
         <h2>A few helpful details.</h2>
         <ul>
+          <li>
+            Source:{' '}
+            {tour.source.file.endsWith('.docx')
+              ? 'the newer company itinerary document'
+              : 'the earlier company tour document'}
+            {tour.source.paragraphRange ? `, section ${tour.source.order}` : ''}
+            . Published as an outline; commercial arrangements require
+            confirmation.
+          </li>
           {tour.notes.map((note) => (
             <li key={note}>{note}</li>
           ))}
@@ -248,7 +296,7 @@ export default async function TourPage({
             with permits, weather and local operating conditions.
           </li>
         </ul>
-        <WhatsAppLink destination={tour.name} className="button">
+        <WhatsAppLink destination={tourEnquiryContext(tour)} className="button">
           Let’s talk about this tour <ArrowUpRight size={18} />
         </WhatsAppLink>
       </section>
@@ -258,7 +306,7 @@ export default async function TourPage({
           <strong>{duration} days</strong>
           <span>Price on enquiry</span>
         </div>
-        <WhatsAppLink destination={tour.name} className="button">
+        <WhatsAppLink destination={tourEnquiryContext(tour)} className="button">
           WhatsApp <ArrowUpRight size={16} />
         </WhatsAppLink>
       </nav>

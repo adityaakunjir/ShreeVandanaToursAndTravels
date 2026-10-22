@@ -8,10 +8,14 @@ import { ArrowUpRight, Check } from 'lucide-react';
 import { destinations } from '@/data/site';
 import { JourneyCTA } from '@/components/PageIntro';
 import Breadcrumb from '@/components/Breadcrumb';
-import tours from '@/data/tours.json';
+import tours from '@/data/catalogue';
 import TourCard from '@/components/TourCard';
+import { destinationHubs } from '@/data/destination-hubs';
+import DestinationHub from '@/components/DestinationHub';
 export function generateStaticParams() {
-  return destinations.map(({ slug }) => ({ slug }));
+  return [
+    ...new Set([...destinations, ...destinationHubs].map((x) => x.slug)),
+  ].map((slug) => ({ slug }));
 }
 export async function generateMetadata({
   params,
@@ -20,7 +24,17 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const destination = destinations.find((item) => item.slug === slug);
-  if (!destination) return { title: 'Destination not found' };
+  if (!destination) {
+    const hub = destinationHubs.find((h) => h.slug === slug);
+    return hub
+      ? {
+          title: hub.name + ' holidays from Pune',
+          description: `Explore company-supplied ${hub.name} tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.`,
+          alternates: { canonical: `/destinations/${slug}` },
+          openGraph: { images: [] },
+        }
+      : { title: 'Destination not found' };
+  }
   const photo = photos.find((photo) => photo.slug === destination.tourSlug);
   const title = `${destination.name} holidays from Pune`;
   const description = `${destination.description} Discuss a personalised ${destination.name} holiday with Shree Vandana Tours & Travels, Pune.`;
@@ -55,7 +69,11 @@ export default async function DestinationPage({
 }) {
   const { slug } = await params;
   const destination = destinations.find((item) => item.slug === slug);
-  if (!destination) notFound();
+  if (!destination) {
+    const hub = destinationHubs.find((h) => h.slug === slug);
+    if (hub) return <DestinationHub hub={hub} />;
+    notFound();
+  }
   const tour = tours.find((t) => t.slug === destination.tourSlug)!;
   return (
     <main>
@@ -189,6 +207,16 @@ export default async function DestinationPage({
             </WhatsAppLink>
           </div>
           <TourCard tour={tour} index={0} />
+        </div>
+      </section>
+      <section className="section wrap">
+        <p className="eyebrow">MORE ROUTE OPTIONS</p>
+        <div className="brochure-tour-grid">
+          {tours
+            .filter((t) => t.relatedSlugs.includes(destination.tourSlug))
+            .map((t, i) => (
+              <TourCard tour={t} index={i} key={t.slug} />
+            ))}
         </div>
       </section>
       <JourneyCTA />

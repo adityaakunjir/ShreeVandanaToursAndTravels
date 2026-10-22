@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: '%s | Shree Vandana Travels',
   },
   description:
-    '30+ years of trust and three generations of travel expertise. Plan personalised domestic and international holidays with Shree Vandana Tours & Travels, Pune.',
+    'A family-run travel business shaped by three generations. Explore company-supplied itineraries and plan personalised holidays with Shree Vandana Tours & Travels, Pune.',
   openGraph: {
     title: 'Shree Vandana Tours & Travels',
     description:

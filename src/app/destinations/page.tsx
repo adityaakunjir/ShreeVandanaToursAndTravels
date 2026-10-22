@@ -1,4 +1,5 @@
 import MoreDestinations from '@/components/MoreDestinations';
+import DestinationAtlas from '@/components/DestinationAtlas';
 import WhatsAppLink from '@/components/WhatsAppLink';
 import type { Metadata } from 'next';
 import Link from 'next/link';
@@ -116,6 +117,7 @@ export default async function DestinationsPage({ searchParams }: Props) {
         </div>
       </section>
       <JourneyCTA />
+      <DestinationAtlas />
     </main>
   );
 }

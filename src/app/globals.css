@@ -1,5 +1,6 @@
 @import './curated.css';
 @import './page-polish.css';
+@import './journal.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

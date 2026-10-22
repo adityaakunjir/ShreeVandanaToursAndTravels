@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { ArrowUpRight, ArrowRight } from 'lucide-react';
 import { destinations } from '@/data/site';
 import photos from '@/data/tour-photos.json';
-import tours from '@/data/tours.json';
+import tours from '@/data/catalogue';
 import { tourDuration } from '@/lib/real-tours';
 export default function DestinationGrid({
   items = destinations,
