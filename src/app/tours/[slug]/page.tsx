@@ -24,15 +24,25 @@ export async function generateMetadata({
   const t = tours.find((t) => t.slug === slug);
   if (!t) return {};
   const photo = tourPhoto(t);
+  const sameDurationVariant = tours.some(
+    (other) =>
+      other.slug !== t.slug &&
+      other.name === t.name &&
+      other.duration === t.duration,
+  );
+  const variant = sameDurationVariant
+    ? ` · ${t.source.order ? 'Newer itinerary' : 'Earlier outline'}`
+    : '';
+  const title = `${t.name} · ${t.duration} days${variant} | Tours from Pune`;
   return {
-    title: t.name + ' tour from Pune',
+    title,
     description:
       `${t.name}, ${t.duration} days. ` +
       t.summary +
       ' View the route and enquire on WhatsApp for dates and a quote.',
     alternates: { canonical: `/tours/${t.slug}` },
     openGraph: {
-      title: t.name + ' tour from Pune',
+      title,
       description: t.summary,
       images: photo
         ? [

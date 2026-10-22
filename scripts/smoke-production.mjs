@@ -1,6 +1,6 @@
 import tours from '../src/data/tours.json' with { type: 'json' };
 import newer from '../src/data/imported-tours.json' with { type: 'json' };
-const allTours=[...tours,...newer];
+const allTours = [...tours, ...newer];
 import assert from 'node:assert/strict';
 import { spawn } from 'node:child_process';
 import { createServer } from 'node:net';
@@ -98,11 +98,21 @@ try {
   assert.equal(whatsapp.pathname, '/919665238966');
   assert.match(whatsapp.searchParams.get('text'), /Dubai/);
   console.log('PASS direct WhatsApp redirect');
-  const liveSitemap=await read('/sitemap.xml');
-  for(const match of liveSitemap.matchAll(/<loc>([^<]+)<\/loc>/g)){const path=new URL(match[1]).pathname;if(!publicRoutes.includes(path))publicRoutes.push(path);}
+  const liveSitemap = await read('/sitemap.xml');
+  for (const match of liveSitemap.matchAll(/<loc>([^<]+)<\/loc>/g)) {
+    const path = new URL(match[1]).pathname;
+    if (!publicRoutes.includes(path)) publicRoutes.push(path);
+  }
   const descriptions = new Set();
+  const titles = new Set();
   for (const path of publicRoutes) {
     const html = await read(path);
+    const title = html.match(/<title>(.*?)<\/title>/s)?.[1];
+    assert.ok(
+      title && !titles.has(title),
+      `${path} needs a distinct page title`,
+    );
+    titles.add(title);
     assert.match(html, /<h1[\s>]/, `${path} needs a visible heading`);
     assert.match(
       html,
@@ -168,7 +178,11 @@ try {
     assert.match(html, /wa.me\/919665238966/);
     assert.doesNotMatch(html, /39,900|69,900|Preview planner|Book now/);
   }
-  for(const tour of allTours)assert.ok(liveSitemap.includes(`/tours/${tour.slug}`),`Missing source outline from sitemap: ${tour.slug}`);
+  for (const tour of allTours)
+    assert.ok(
+      liveSitemap.includes(`/tours/${tour.slug}`),
+      `Missing source outline from sitemap: ${tour.slug}`,
+    );
   const filtered = await read('/destinations?q=Nepal');
   assert.match(filtered, /<meta name="robots" content="noindex, follow"/);
   const sitemap = await read('/sitemap.xml');
