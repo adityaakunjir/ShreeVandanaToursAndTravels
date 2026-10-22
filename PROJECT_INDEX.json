@@ -1,6 +1,6 @@
 {
   "reviewDate": "2026-10-22",
-  "baseCommit": "95f6a35d20ccd837cb81427e346f3969789aba73",
+  "baseCommit": "a1e94f0cf244335b4747550694a7aa2adbb79387",
   "scope": "Working source, business documents and public assets. Excludes dependencies, builds, Git metadata, credentials and generated index itself.",
   "fileCount": 228,
   "files": [
@@ -522,9 +522,9 @@
     },
     {
       "path": "docs/TRAVEL_PLATFORM_PLAN.md",
-      "bytes": 40325,
+      "bytes": 45989,
       "category": "supporting",
-      "sha256": "2d5c9beffd3f053e2cfd6e17d0c85f7f278d1736abda8f8b13b3a91397d7d060"
+      "sha256": "31ed7b91535c5b3eaa9c94efbbb72df45458b93b1d10d1205e85060aa39541b7"
     },
     {
       "path": "eslint.config.mjs",

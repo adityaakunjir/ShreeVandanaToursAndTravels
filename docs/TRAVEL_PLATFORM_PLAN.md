@@ -1,6 +1,38 @@
 # Current owner decision
 
-Direct WhatsApp enquiries replace website intake. Enquiry forms, stored leads and their backend are outside the current scope. The older platform roadmap below describes optional future integrations, not an instruction to implement lead intake. Eleven owner-supplied tour outlines are published. Priced departures, seat availability and online checkout are not authorised or established.
+Direct WhatsApp enquiries replace website intake. Enquiry forms, stored leads and their backend are outside the current scope. The older platform roadmap below describes optional future integrations, not an instruction to implement lead intake. Fifty-six document-backed itinerary outlines are published: 45 newer sections and 11 preserved earlier records, including related variants. These are not 56 confirmed departures. Priced departures, seat availability and online checkout are not authorised or established.
+
+## Current execution priorities — 22 October 2026
+
+This section supersedes the dated implementation status below. The original product ambitions remain recorded; optional transaction features require a new owner decision. The current conversion journey is discover → assess itinerary → compare/save → open a contextual WhatsApp conversation → receive the agency's final quotation and booking instructions.
+
+### Delivered and verified
+
+- Source-backed catalogue: 56 outlines, 32 destination routes and ten curated collections. Search supports destination/country, source-supported style, actual duration and sorting. Multi-country tours and earlier/newer route variants remain distinct.
+- First-visit decision support: daily plans where supplied, inclusions, exclusions, optional experiences, quote-confirmation notes, saved journeys, comparison and contextual primary WhatsApp links. No invented prices, availability or daily plans.
+- Journal discovery: mobile scroll-snap featured journeys, mood/time discovery, Surprise Me, atlas, red/ivory styling and reduced-motion support. Seventeen credited destination-inspiration photos complement official Instagram embeds and dated attributed Google excerpts.
+- Production foundations: deployed canonical www domain, 107 sitemap URLs, page-specific metadata, TravelAgency and breadcrumb structured data, production route smoke checks and automated GitHub quality checks. Current sitemap availability does not prove Google processing or indexing of all URLs.
+- Delivery evidence: 35 tests; lint, types and build; 181 emulated layout checks; local mobile accessibility/best-practices/SEO scores of 100. Local Slow 4G/4× CPU trace observed LCP 3.530s and CLS 0 after rendering changes. These are lab observations, not field performance or universal device guarantees. See JOURNAL_DELIVERY.md and artifacts/journal-validation.json.
+
+### Next work, in priority order
+
+| Priority | Work and purpose | Completion evidence |
+| --- | --- | --- |
+| P0 | Recheck the correct Search Console property after the catalogue expansion; inspect sitemap processing and representative old/new tour, hub and collection URLs. Diagnose reported exclusions before changing canonicals or resubmitting. | Dated authenticated report for sc-domain:shreevandanatoursandtravels.com; sitemap status and representative URL inspection outcomes. Homepage indexing in an older report is insufficient. |
+| P0 | Reconcile agency history, final quotation process, tax/date conditions and booking/cancellation information with the owner. Make first-contact expectations useful without inventing response-time promises. | Approved statements and applicable terms linked to a dated source; no unsupported discounts, guarantees or scarcity. |
+| P1 | Expand authentic proof using owner-approved company/traveller originals and current attributed review evidence. Current excerpts remain dated snapshots. | Media ownership/consent register, author/source credits and visual inspection. An accessible Maps photo alone does not establish permission to rehost it. |
+| P1 | Test mobile discovery and enquiry on physical lower-end Android/iPhone devices and constrained connections; use findings to improve the actual journey. | Device/network details, menu/filter/compare/WhatsApp results and reproducible performance observations. No blanket claim that every device is perfect. |
+| P1 | Establish organic-search and sales baselines once reports/visitors exist; prioritise destination pages from actual relevant queries and owner knowledge. | Search Console landing-page/query trends; agency-confirmed enquiry quality and bookings. WhatsApp clicks are intent, not bookings. No personal message contents in analytics. |
+| P1 | Verify hosting suitability and traffic resilience against an agreed peak-load forecast before a campaign. | Current Vercel plan/limits reviewed, representative load test, error monitoring and rollback evidence. A static build or green smoke test alone does not prove capacity. |
+| Optional future | Fixed-departure inventory, accounts, admin, stored leads, payments and web checkout. | New authorisation, staffed operations, real prices/allocations/terms and transaction acceptance gates below. These are not current launch blockers for the selected WhatsApp model. |
+
+### Google listing and media access
+
+Both the original share.google link and the replacement Maps short link were retried through the web reader on 22 October; neither was accessible through that reader. This does not prove the listing is unavailable in an authenticated browser. The verified 5 October business evidence remains in BUSINESS_CONTENT_REGISTER.md; rating/count must not be relabelled as checked today. No new Google photo/video ownership or permission evidence was obtained. Existing official embeds, source-linked review excerpts and licensed destination photos remain the published media approach.
+
+### Outcome gates
+
+The next evidence to collect is indexing coverage, real mobile performance and qualified enquiries. Ranking above major OTAs and winning first-visit bookings remain business outcomes to measure, not completed design features. Keep the full ambition while iterating from these observations; do not reintroduce intake or checkout against the owner's later WhatsApp decision.
 
 # Shree Vandana travel platform — product and delivery plan
 
@@ -208,7 +240,7 @@ Stages B and C can launch as a quote-driven business while D is being built, but
 
 Required next: API Place ID if adopting Places; approved initial package records and departure allocations; pricing/tax rules; supplier confirmation process; cancellation/payment policies; original company media with permission; legal identity and office hours; operational contacts/support hours; production domain; payment and notification provider accounts; hosting budget and peak traffic estimate. Inventory model is confirmed: both fixed departures and customised holidays.
 
-Still unimplemented: commercial catalogue/search, stored leads, quotes/admin, real bookings/payments, live availability, customer account, full listing media ingestion, permissioned customer media, production deployment, field performance and organic-ranking evidence. Completion of this plan does not mean the platform or the ranking objective is complete.
+Current remaining work is listed in the 22 October execution priorities above. Catalogue/search, production deployment, saved journeys and comparison are delivered. Stored leads, quotes/admin, real web bookings/payments, live availability and customer accounts are optional future transaction work outside the current WhatsApp scope. Permissioned customer media, field performance, current all-page indexing and organic-ranking/conversion evidence remain open. Completion of this plan does not mean the ranking or commercial outcome has been achieved.
 
 ## 20. Research sources and scope
 
