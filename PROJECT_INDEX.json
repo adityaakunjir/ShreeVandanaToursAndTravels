@@ -1,8 +1,8 @@
 {
   "reviewDate": "2026-10-22",
-  "baseCommit": "e337eca3bdd75cb7c0a9bc9e423cb193eebd86fd",
+  "baseCommit": "95f6a35d20ccd837cb81427e346f3969789aba73",
   "scope": "Working source, business documents and public assets. Excludes dependencies, builds, Git metadata, credentials and generated index itself.",
-  "fileCount": 226,
+  "fileCount": 228,
   "files": [
     {
       "path": ".agents/skills/prisma-composer-core-concepts/SKILL.md",
@@ -311,6 +311,18 @@
       "sha256": "c838f9bd23d04f47939406a832a944bd17d65376325c5f37a9a478e03e13aed9"
     },
     {
+      "path": "artifacts/journal-mobile-home.png",
+      "bytes": 292140,
+      "category": "supporting",
+      "sha256": "f664f90d280bd557b2a35653f43d675044f9bce430cf0fcc721929bf294d57dd"
+    },
+    {
+      "path": "artifacts/journal-validation.json",
+      "bytes": 30064,
+      "category": "supporting",
+      "sha256": "36eb968c11505198bb94da456a571491cffa6ab0f3b503f342fcd22c951507d4"
+    },
+    {
       "path": "artifacts/main-destinations-mobile.png",
       "bytes": 26963,
       "category": "supporting",
@@ -486,9 +498,9 @@
     },
     {
       "path": "docs/JOURNAL_DELIVERY.md",
-      "bytes": 5046,
+      "bytes": 6424,
       "category": "supporting",
-      "sha256": "6f12579f45920e66fe6cd2b139f6516391d5c5b29a37695b6e02361a9abdba2e"
+      "sha256": "111c74ea77f14d01198af821630e3178a9e3a6d448cd8a2f4fed5a01de40e8bb"
     },
     {
       "path": "docs/PACKAGE_IMPORT.md",
@@ -918,9 +930,9 @@
     },
     {
       "path": "src/app/journal.css",
-      "bytes": 6548,
+      "bytes": 6801,
       "category": "application",
-      "sha256": "df0a252ec7d664c37bcebdcbd4ac3ae82ce831363c9cee6826ea349e21f7fe42"
+      "sha256": "ac383c6c3dda96685eb67876757c0101cf71c4cd8cb5cac375519a0dd1ddc089"
     },
     {
       "path": "src/app/layout.tsx",
@@ -972,9 +984,9 @@
     },
     {
       "path": "src/app/page.tsx",
-      "bytes": 15869,
+      "bytes": 15910,
       "category": "application",
-      "sha256": "610d6285b5c938e1576c877a94b72f65671e3ce013521bdf62b4a6a330e69c3f"
+      "sha256": "8f08a3e594388ebfc2ee5c7abe722f2e6228ca8349201b0b70be971391d5deff"
     },
     {
       "path": "src/app/photo-credits/page.tsx",
@@ -1002,9 +1014,9 @@
     },
     {
       "path": "src/app/tours/[slug]/page.tsx",
-      "bytes": 11656,
+      "bytes": 11699,
       "category": "application",
-      "sha256": "0a03258277721270a8ac6fc7b7e1753db2b2f28a5b884c72b3834bf824ad894c"
+      "sha256": "474cc2bd9214cadc5d3932a7d08752f44811ee4a70447a2b10ae8c2c22e14d46"
     },
     {
       "path": "src/app/tours/compare/page.tsx",

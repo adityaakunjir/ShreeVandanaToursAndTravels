@@ -85,7 +85,8 @@ export default async function TourPage({
               fill
               sizes="(max-width: 1300px) 92vw, 1200px"
               quality={60}
-              preload
+              loading="eager"
+              fetchPriority="high"
             />
             <div className="tour-photo-heading">
               <p>

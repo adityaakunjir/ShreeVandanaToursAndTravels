@@ -1,4 +1,14 @@
 /* Living Travel Journal: paper, ink, route sketches. No invented geographic photography. */
+@supports (content-visibility: auto) {
+  @media (max-width: 900px) {
+    #top > .section:not(.featured-journeys),
+    #top > .story-section,
+    #top > .why-section {
+      content-visibility: auto;
+      contain-intrinsic-size: auto 700px;
+    }
+  }
+}
 .comparison-picker .comparison-options {
   max-height: 360px;
   overflow-y: auto;

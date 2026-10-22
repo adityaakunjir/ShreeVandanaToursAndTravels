@@ -31,7 +31,8 @@ export default function Home() {
             fill
             sizes="(max-width: 640px) 100vw, 1240px"
             quality={60}
-            preload
+            loading="eager"
+            fetchPriority="high"
           />
         </div>
         <div className="curated-hero-shade" />
