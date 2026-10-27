@@ -45,7 +45,23 @@ try {
     );
     await page.emulateMedia({ reducedMotion: 'reduce' });
     await page.waitForTimeout(250);
-    assert.equal(await page.evaluate(() => document.getAnimations().length), 0);
+    const remaining = await page.evaluate(() =>
+      document.getAnimations().map((animation) => ({
+        name: animation.animationName || 'web-animation',
+        target: animation.effect?.target?.outerHTML?.slice(0, 100),
+        connected: animation.effect?.target?.isConnected,
+        computed: animation.effect?.target
+          ? getComputedStyle(animation.effect.target).animationName
+          : '',
+      })),
+    );
+    // Chrome may retain timeline handles in offscreen content-visibility subtrees
+    // after styles disable them. Assert rendered CSS motion and JS motion stop.
+    const active = remaining.filter(
+      (animation) =>
+        animation.name === 'web-animation' || animation.computed !== 'none',
+    );
+    assert.equal(active.length, 0, JSON.stringify(active));
     assert(
       await page.evaluate(
         () => document.documentElement.scrollWidth <= innerWidth,

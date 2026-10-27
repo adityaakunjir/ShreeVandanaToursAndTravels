@@ -9,6 +9,7 @@ import ScrollMotion from '@/components/ScrollMotion';
 import './globals.css';
 import './expedition.css';
 import './motion.css';
+import './mobile-experience.css';
 const geist = Geist({
   subsets: ['latin'],
   variable: '--font-geist',

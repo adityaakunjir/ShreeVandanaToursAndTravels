@@ -1,8 +1,8 @@
 {
   "reviewDate": "2026-10-27",
-  "baseCommit": "f92202570dad9e993f815d51a2ab990a65a08bb3",
+  "baseCommit": "3a8c60d3255453044ae35cd6994dd6b936270c4e",
   "scope": "Working source, business documents and public assets. Excludes dependencies, builds, Git metadata, credentials and generated index itself.",
-  "fileCount": 246,
+  "fileCount": 282,
   "files": [
     {
       "path": ".agents/skills/prisma-composer-core-concepts/SKILL.md",
@@ -288,27 +288,27 @@
     },
     {
       "path": "artifacts/expedition-desktop.png",
-      "bytes": 911204,
+      "bytes": 908113,
       "category": "supporting",
-      "sha256": "d7970bae71e67012a0340f994da82ec59c59c3c9abf99452bb8dce552062d838"
+      "sha256": "76459c2f55a6c2b70eb0649cf4e6dc3d27dbd1b37e8a22afafca8061a365be14"
     },
     {
       "path": "artifacts/expedition-mobile.png",
-      "bytes": 229642,
+      "bytes": 213900,
       "category": "supporting",
-      "sha256": "0e135158c9281eb3acf7a7f244308e45fb4d29f4668a5dc3a1c28ba276601383"
+      "sha256": "2dffe18502d27eb39284429e69fcda2b6e8f04006113739c70e7b99fbb7ca551"
     },
     {
       "path": "artifacts/expedition-tours-mobile.png",
-      "bytes": 132913,
+      "bytes": 62204,
       "category": "supporting",
-      "sha256": "6a9f74a5a635d8739408fa1d64c2b6e7426a3fcd7d6b900e5e3602075c185764"
+      "sha256": "86f9d6722e4ee4787ec5b9ac0476c1d96766a4422089dec20f244bdb9b9737dc"
     },
     {
       "path": "artifacts/expedition-validation.json",
       "bytes": 25900,
       "category": "supporting",
-      "sha256": "1e69cbeb1d1f441ca99df76af532c3dc1dd04e0029c6015be7e89177a3bb2273"
+      "sha256": "e411ed9a7e1bb132fb4c493f173aaf23c4f888e428109dd2f57f8c6cbc441eb7"
     },
     {
       "path": "artifacts/homepage-desktop.png",
@@ -365,10 +365,208 @@
       "sha256": "a3de8f3b2d4785cb3e10130b16b49f4e3ee520e566a0aec217a6226a93415143"
     },
     {
+      "path": "artifacts/mobile-after-_.png",
+      "bytes": 213900,
+      "category": "supporting",
+      "sha256": "2dffe18502d27eb39284429e69fcda2b6e8f04006113739c70e7b99fbb7ca551"
+    },
+    {
+      "path": "artifacts/mobile-after-_about.png",
+      "bytes": 238867,
+      "category": "supporting",
+      "sha256": "0683e853e5ef7efd12317a9f2fcfb96e57bb136daea98214100d60c7369b8fea"
+    },
+    {
+      "path": "artifacts/mobile-after-_collections_himalayan-escapes.png",
+      "bytes": 195427,
+      "category": "supporting",
+      "sha256": "ef7e53b193ab6da8ba35af3ed2a7b2bf67d01f50739f26c889530e5a8083fc8f"
+    },
+    {
+      "path": "artifacts/mobile-after-_contact.png",
+      "bytes": 55994,
+      "category": "supporting",
+      "sha256": "80ecd818ed86e1c322eafb06b1c29cccbf38ac7379f408145941d9e0a714d9ed"
+    },
+    {
+      "path": "artifacts/mobile-after-_destinations_dubai.png",
+      "bytes": 91879,
+      "category": "supporting",
+      "sha256": "7381ca0210b3163018ef6ba1ddcc443db622647459ab7958b9b928049200939b"
+    },
+    {
+      "path": "artifacts/mobile-after-_destinations.png",
+      "bytes": 160492,
+      "category": "supporting",
+      "sha256": "16f0dcaa14eb48c8e6f28950a99283212544b914dcc71ee28965a92d88591a29"
+    },
+    {
+      "path": "artifacts/mobile-after-_faq.png",
+      "bytes": 53500,
+      "category": "supporting",
+      "sha256": "26789254efce24e9b662b432d07478919f88aeb84fb1627fa34114e295830aae"
+    },
+    {
+      "path": "artifacts/mobile-after-_gallery.png",
+      "bytes": 52384,
+      "category": "supporting",
+      "sha256": "4f412bfe12b4b233bc8528ecc3966b8fb6062b3376d7973919e55f4f1cea426c"
+    },
+    {
+      "path": "artifacts/mobile-after-_services.png",
+      "bytes": 158214,
+      "category": "supporting",
+      "sha256": "e0ba136d7fbd11dd21bb6d4484e8b5db63bfeedcdf11d56cdbc49dd6b16b2ea0"
+    },
+    {
+      "path": "artifacts/mobile-after-_tours_compare.png",
+      "bytes": 59657,
+      "category": "supporting",
+      "sha256": "67b0e495b99aa95b2ffd07e0c2972735e513d9a0e08d3c24cdb20476116931bc"
+    },
+    {
+      "path": "artifacts/mobile-after-_tours_japan-8-days.png",
+      "bytes": 150965,
+      "category": "supporting",
+      "sha256": "2634373c9a50a2d3e6880d322b15d849d2ecb039f9a0ca4bfe246f3861c3177a"
+    },
+    {
+      "path": "artifacts/mobile-after-_tours_nepal.png",
+      "bytes": 161003,
+      "category": "supporting",
+      "sha256": "2ad849057c3f2f48c349faaf0dfcf46aa2d10446e193c21bedec25b06e4e1c13"
+    },
+    {
+      "path": "artifacts/mobile-after-_tours_saved.png",
+      "bytes": 56157,
+      "category": "supporting",
+      "sha256": "937aa284cf4bfc123e6d5a37bb63ee7d64b21280956ab3c1a29b76366dd11b03"
+    },
+    {
+      "path": "artifacts/mobile-after-_tours.png",
+      "bytes": 62204,
+      "category": "supporting",
+      "sha256": "86f9d6722e4ee4787ec5b9ac0476c1d96766a4422089dec20f244bdb9b9737dc"
+    },
+    {
+      "path": "artifacts/mobile-after-_travel-information.png",
+      "bytes": 72747,
+      "category": "supporting",
+      "sha256": "8ab966f97d84cb4ac9245da80518a3ee39758cc03d5ea70584b06921e4a382cc"
+    },
+    {
+      "path": "artifacts/mobile-after-audit.json",
+      "bytes": 6408,
+      "category": "supporting",
+      "sha256": "31a8e28cc09d37cf164b632aeb1db286743cea8372e912d4fc8cfb739926499a"
+    },
+    {
+      "path": "artifacts/mobile-before-_.png",
+      "bytes": 229642,
+      "category": "supporting",
+      "sha256": "0e135158c9281eb3acf7a7f244308e45fb4d29f4668a5dc3a1c28ba276601383"
+    },
+    {
+      "path": "artifacts/mobile-before-_about.png",
+      "bytes": 232460,
+      "category": "supporting",
+      "sha256": "015087cf3d88c11f8150c4ca20e910b59f5816f503b06093e7dae46b0e155d5d"
+    },
+    {
+      "path": "artifacts/mobile-before-_collections_himalayan-escapes.png",
+      "bytes": 155539,
+      "category": "supporting",
+      "sha256": "e5c903db58396eb0e4e1fba95ba4832f8b9d76737070d3ad541d69d0f0bab0ff"
+    },
+    {
+      "path": "artifacts/mobile-before-_contact.png",
+      "bytes": 118790,
+      "category": "supporting",
+      "sha256": "1f1fb6723d19b750137190124a378f1f971044be43368cc301954ba87a4a8338"
+    },
+    {
+      "path": "artifacts/mobile-before-_destinations_dubai.png",
+      "bytes": 88773,
+      "category": "supporting",
+      "sha256": "cbfb69abf03bc282e37b52c563647ee22c676e53ceae382754eea2883ae95eb7"
+    },
+    {
+      "path": "artifacts/mobile-before-_destinations.png",
+      "bytes": 166947,
+      "category": "supporting",
+      "sha256": "306143406ab492a6ae963827466248226525f9b9e6b60d4090a84a56dc34fed1"
+    },
+    {
+      "path": "artifacts/mobile-before-_faq.png",
+      "bytes": 135230,
+      "category": "supporting",
+      "sha256": "6195b0a661408e2789169853b8f7ea72655ce8698149b1d3dee07d80221240dc"
+    },
+    {
+      "path": "artifacts/mobile-before-_gallery.png",
+      "bytes": 93418,
+      "category": "supporting",
+      "sha256": "e66e10b534081b81478989b4a86f3eae59a743cb8b5588a51c616cf7d3a5605a"
+    },
+    {
+      "path": "artifacts/mobile-before-_services.png",
+      "bytes": 126987,
+      "category": "supporting",
+      "sha256": "818669d8c5be4f2f070e7584e1b7ffe6fd6adbcb906d10fa30cdd6ea958def7f"
+    },
+    {
+      "path": "artifacts/mobile-before-_tours_compare.png",
+      "bytes": 95047,
+      "category": "supporting",
+      "sha256": "982de309f9152a9cb224083d9cbc4893e95cd99d82bffc2e36c5255db5e629d6"
+    },
+    {
+      "path": "artifacts/mobile-before-_tours_japan-8-days.png",
+      "bytes": 154003,
+      "category": "supporting",
+      "sha256": "4a1500c7462344968e599ebeccbb7a39e06e6f27ab58231ed9984e644aae2fe2"
+    },
+    {
+      "path": "artifacts/mobile-before-_tours_nepal.png",
+      "bytes": 162240,
+      "category": "supporting",
+      "sha256": "d0dc3dd87746c81863ce845d85bcb3dd072d75fc085546fc99748c8701828e06"
+    },
+    {
+      "path": "artifacts/mobile-before-_tours_saved.png",
+      "bytes": 184767,
+      "category": "supporting",
+      "sha256": "215ef659aae560505d8a0df0e139c0cfa6a55a6f32831ed8288058b9f4fc8b9f"
+    },
+    {
+      "path": "artifacts/mobile-before-_tours.png",
+      "bytes": 132913,
+      "category": "supporting",
+      "sha256": "6a9f74a5a635d8739408fa1d64c2b6e7426a3fcd7d6b900e5e3602075c185764"
+    },
+    {
+      "path": "artifacts/mobile-before-_travel-information.png",
+      "bytes": 58501,
+      "category": "supporting",
+      "sha256": "08e12c6b631b60c50031f59841a7ca4d3476d3918038b9c15481c3bcba3b9eb0"
+    },
+    {
+      "path": "artifacts/mobile-before-audit.json",
+      "bytes": 7698,
+      "category": "supporting",
+      "sha256": "620ead4e69e9a1ccf7bd54e50f90c29afde0fab0cb1e87b81abced2ac6403637"
+    },
+    {
       "path": "artifacts/mobile-contact-actions.png",
       "bytes": 45002,
       "category": "supporting",
       "sha256": "470a50476a5677d204c62ce055bb5b77257c004a1f50de65af7aefb160b4173b"
+    },
+    {
+      "path": "artifacts/mobile-experience-validation.json",
+      "bytes": 500,
+      "category": "supporting",
+      "sha256": "f4ec212f5502526e783895510d0b8bc8e65cf22b3b7402a224f4d45dfbdc23ae"
     },
     {
       "path": "artifacts/package-catalogue-mobile.png",
@@ -555,6 +753,12 @@
       "bytes": 1879,
       "category": "supporting",
       "sha256": "193ef8f4761c49eb5fe631af484cc385a6cbc19bd8f3b862a40a03e3df076aa6"
+    },
+    {
+      "path": "docs/MOBILE_UX_AUDIT.md",
+      "bytes": 10105,
+      "category": "supporting",
+      "sha256": "940f95164386720d139d49692a47347f185242da978f074c978a549b1700621f"
     },
     {
       "path": "docs/PACKAGE_IMPORT.md",
@@ -900,9 +1104,9 @@
     },
     {
       "path": "scripts/check-expedition-ui.mjs",
-      "bytes": 4703,
+      "bytes": 4953,
       "category": "supporting",
-      "sha256": "8bf1cb97935cc16fc4daed39138031a852ab89e9b4a2e2258306d019234d8ff4"
+      "sha256": "08a4dfb2fc9d26737a0f58793b5b4545d809ca0e6cb2224ad76870ded92e9306"
     },
     {
       "path": "scripts/check-local-concurrency.mjs",
@@ -911,10 +1115,16 @@
       "sha256": "82b60d9d8846d9b6a00d15418961b92d54a89d176e73772e6e471bb23bc461b1"
     },
     {
-      "path": "scripts/check-motion.mjs",
-      "bytes": 2602,
+      "path": "scripts/check-mobile-experience.mjs",
+      "bytes": 4355,
       "category": "supporting",
-      "sha256": "bf86909e485e1fe04e4d356634518390a0846c9b58d556e9124aa76eee067c94"
+      "sha256": "64fa5731852a1928de26b0ad06a35b9ce285aa42e4793eedbc4e9931644308c1"
+    },
+    {
+      "path": "scripts/check-motion.mjs",
+      "bytes": 3317,
+      "category": "supporting",
+      "sha256": "41d8d0f8e24658e10fee7bbd1776bf6abae6c0dfa484898dca4b87b641f30b5f"
     },
     {
       "path": "scripts/import-itineraries.py",
@@ -1032,9 +1242,15 @@
     },
     {
       "path": "src/app/layout.tsx",
-      "bytes": 1859,
+      "bytes": 1893,
       "category": "application",
-      "sha256": "df3e3bf23cf8d791d5e33c01f395f0aaa9bfcd9bfc28167db8437c40d6718497"
+      "sha256": "f0356b146a4cce8e07e2c19156e3de03ea2f38f2c04f68281027785205e3abab"
+    },
+    {
+      "path": "src/app/mobile-experience.css",
+      "bytes": 12293,
+      "category": "application",
+      "sha256": "385c114c8d4f4fd59e01cef17a66533a98a755381becb96f23f4dd5322f8dfb9"
     },
     {
       "path": "src/app/motion.css",
@@ -1128,9 +1344,9 @@
     },
     {
       "path": "src/app/tours/page.tsx",
-      "bytes": 3471,
+      "bytes": 4579,
       "category": "application",
-      "sha256": "fd8486ac68a4704ab79eb802dbc3dec30decd5a607aa5693acfbb254505ead01"
+      "sha256": "98d2e8150f46182ed04d11c6404687cc6004a27bd073a082e41988b848f3d3bf"
     },
     {
       "path": "src/app/tours/saved/page.tsx",
@@ -1242,9 +1458,9 @@
     },
     {
       "path": "src/components/PageIntro.tsx",
-      "bytes": 3241,
+      "bytes": 3494,
       "category": "application",
-      "sha256": "671268c8f1db61ed6345899e6ecef31763e9e7979d67270e6f9c6dd982fb35e8"
+      "sha256": "59bf211d4ab65bed53d0f5be916aca515ab2a40015f3920f6c622e7eb8885642"
     },
     {
       "path": "src/components/RealShortlist.tsx",
@@ -1254,9 +1470,9 @@
     },
     {
       "path": "src/components/ScrollMotion.tsx",
-      "bytes": 2454,
+      "bytes": 3062,
       "category": "application",
-      "sha256": "2d2830e118c421a69abaa777cf8ab95ef405891fc20262cb2d5029f3b6a9665c"
+      "sha256": "fb2d29552494ce9531b3ac31dd894a4815f8523b2a2da9d3d587437526850421"
     },
     {
       "path": "src/components/ShareComparison.tsx",
@@ -1284,9 +1500,9 @@
     },
     {
       "path": "src/components/TourDiscovery.tsx",
-      "bytes": 3719,
+      "bytes": 4507,
       "category": "application",
-      "sha256": "52b74b91f78664e71392f016a8fc35b72e3ee19fd14337830f1e9262e2e8890b"
+      "sha256": "7c34913ca7131241a02a5f9f502e06c2ac21177dd51f0e4cab8c7589a84dc267"
     },
     {
       "path": "src/components/TripConversation.tsx",

@@ -67,6 +67,9 @@ try {
   }
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto(origin);
+  await page
+    .locator('.curated-hero-image img')
+    .evaluate((image) => image.decode());
   await page.screenshot({ path: 'artifacts/expedition-mobile.png' });
   const toggle = page.getByRole('button', { name: /open menu/i });
   await toggle.click();
@@ -92,6 +95,7 @@ try {
   await page.goto(`${origin}/tours`);
   await page.screenshot({ path: 'artifacts/expedition-tours-mobile.png' });
   await page.locator('#tour-q').fill('Japan');
+  await page.locator('.discovery-options summary').click();
   await page.locator('#tour-duration').selectOption('8');
   await page.locator('form[role=search] button[type=submit]').click();
   await page.waitForURL(/q=Japan/);
@@ -108,6 +112,9 @@ try {
   );
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto(origin);
+  await page
+    .locator('.curated-hero-image img')
+    .evaluate((image) => image.decode());
   await page.screenshot({ path: 'artifacts/expedition-desktop.png' });
   const failures = report.layouts.filter(
     (r) =>

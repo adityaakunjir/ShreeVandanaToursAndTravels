@@ -31,11 +31,21 @@ export function PageIntro({
     '/tours/saved': 'darjeeling-gangtok-pelling',
     '/tours/compare': 'egypt-hurghada',
   };
-  const photo = photos.find(
-    (p) => p.slug === (photoSlug || imageSlug[path || '']),
-  );
+  const utility = [
+    '/contact',
+    '/faq',
+    '/travel-information',
+    '/tours/saved',
+    '/tours/compare',
+  ].includes(path || '');
+  const photo =
+    !utility &&
+    photos.find((p) => p.slug === (photoSlug || imageSlug[path || '']));
   return (
-    <section className={`page-intro ${photo ? 'editorial-intro' : ''}`}>
+    <section
+      data-page={path?.split('/')[1] || 'collection'}
+      className={`page-intro ${photo ? 'editorial-intro' : ''} ${utility ? 'utility-intro' : ''}`}
+    >
       <div className="wrap">
         {path ? (
           <Breadcrumb

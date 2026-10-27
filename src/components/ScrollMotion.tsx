@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 
 const targets =
-  '.section-heading, .brochure-tour-card, .travel-style-card, .world-card, .story-content, .atlas-grid > a, .why-list > *, .home-photo-triptych > *, .journey-cta';
+  '.section-heading, .brochure-tour-card, .travel-style-card, .world-card, .story-content, .atlas-grid > a, .why-list > *, .home-photo-triptych > *, .curated-cta, .route-preview li, .service-detail, .legacy-principles > *, .photo-tile';
 
 /** Content stays visible before hydration, with JavaScript off, and on failure. */
 export default function ScrollMotion() {
@@ -14,6 +14,16 @@ export default function ScrollMotion() {
     const root = document.getElementById('main-content');
     if (!root || !('IntersectionObserver' in window)) return;
     const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const connection = (
+      navigator as Navigator & {
+        connection?: { saveData?: boolean; effectiveType?: string };
+      }
+    ).connection;
+    if (
+      connection?.saveData ||
+      /(^|-)2g$/.test(connection?.effectiveType || '')
+    )
+      return;
     const seen = new WeakSet<Element>();
     const running = new Set<Animation>();
     const observer = new IntersectionObserver(
@@ -23,9 +33,16 @@ export default function ScrollMotion() {
           if (!entry.isIntersecting) continue;
           observer.unobserve(entry.target);
           if (preference.matches) continue;
+          const direction = entry.target.matches(
+            '.route-preview li, .legacy-principles > *',
+          )
+            ? '-14px 0'
+            : entry.target.matches('.story-content, .service-detail')
+              ? '12px 16px'
+              : '0 18px';
           const animation = entry.target.animate(
             [
-              { opacity: 0.35, translate: '0 18px' },
+              { opacity: 0.35, translate: direction },
               { opacity: 1, translate: '0 0' },
             ],
             {
