@@ -1,8 +1,8 @@
 {
-  "reviewDate": "2026-10-22",
-  "baseCommit": "fb86a5cb6c9e61b135dbfc80d5534663e6f41420",
+  "reviewDate": "2026-10-27",
+  "baseCommit": "8ae9f464b2f56e1a2026121a055ae612a3e94bf7",
   "scope": "Working source, business documents and public assets. Excludes dependencies, builds, Git metadata, credentials and generated index itself.",
-  "fileCount": 241,
+  "fileCount": 243,
   "files": [
     {
       "path": ".agents/skills/prisma-composer-core-concepts/SKILL.md",
@@ -941,6 +941,12 @@
       "sha256": "b2522ff51670e66cab53e860d6fde770c513a3b6ec79d894f16105b30d5d61df"
     },
     {
+      "path": "src/app/apple-icon.png",
+      "bytes": 33874,
+      "category": "application",
+      "sha256": "255d3480278620c6840d85fe4fde369c0236baa47043da7439c1dd88c59f2a88"
+    },
+    {
       "path": "src/app/collections/[slug]/page.tsx",
       "bytes": 1707,
       "category": "application",
@@ -990,9 +996,9 @@
     },
     {
       "path": "src/app/favicon.ico",
-      "bytes": 25931,
+      "bytes": 3290,
       "category": "application",
-      "sha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932"
+      "sha256": "167b7cf663fe1e2d1c2bd8793c96007cb4f5858f334d9d60e5e5099800512ff5"
     },
     {
       "path": "src/app/gallery/page.tsx",
@@ -1005,6 +1011,12 @@
       "bytes": 63234,
       "category": "application",
       "sha256": "a7d5445ed1241b0f3b2c3fe9b443eff7fba321872f2c70b9b9aaafc76672dc6a"
+    },
+    {
+      "path": "src/app/icon.png",
+      "bytes": 37581,
+      "category": "application",
+      "sha256": "b36ad8324b6792908123a5355b17279d4f8cf71d8e24301c33f5942059a98244"
     },
     {
       "path": "src/app/journal.css",
