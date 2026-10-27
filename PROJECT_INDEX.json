@@ -1,8 +1,8 @@
 {
   "reviewDate": "2026-10-27",
-  "baseCommit": "8ae9f464b2f56e1a2026121a055ae612a3e94bf7",
+  "baseCommit": "f92202570dad9e993f815d51a2ab990a65a08bb3",
   "scope": "Working source, business documents and public assets. Excludes dependencies, builds, Git metadata, credentials and generated index itself.",
-  "fileCount": 243,
+  "fileCount": 246,
   "files": [
     {
       "path": ".agents/skills/prisma-composer-core-concepts/SKILL.md",
@@ -308,7 +308,7 @@
       "path": "artifacts/expedition-validation.json",
       "bytes": 25900,
       "category": "supporting",
-      "sha256": "5d23764f53f834b403944e3aec97bb1a9599c5748a79513e6e29392aa9c70ff7"
+      "sha256": "1e69cbeb1d1f441ca99df76af532c3dc1dd04e0029c6015be7e89177a3bb2273"
     },
     {
       "path": "artifacts/homepage-desktop.png",
@@ -911,6 +911,12 @@
       "sha256": "82b60d9d8846d9b6a00d15418961b92d54a89d176e73772e6e471bb23bc461b1"
     },
     {
+      "path": "scripts/check-motion.mjs",
+      "bytes": 2602,
+      "category": "supporting",
+      "sha256": "bf86909e485e1fe04e4d356634518390a0846c9b58d556e9124aa76eee067c94"
+    },
+    {
       "path": "scripts/import-itineraries.py",
       "bytes": 13187,
       "category": "supporting",
@@ -1026,9 +1032,15 @@
     },
     {
       "path": "src/app/layout.tsx",
-      "bytes": 1757,
+      "bytes": 1859,
       "category": "application",
-      "sha256": "2faeaf11f47fa52023ffcf1b0e796d97c5cb0c975d01138c284035c210fd1683"
+      "sha256": "df3e3bf23cf8d791d5e33c01f395f0aaa9bfcd9bfc28167db8437c40d6718497"
+    },
+    {
+      "path": "src/app/motion.css",
+      "bytes": 2094,
+      "category": "application",
+      "sha256": "9f1c2cdd20fe22b5bbaa6b8ec1a1c93b5f72259644fb9ae793912827f28f4bb2"
     },
     {
       "path": "src/app/not-found.tsx",
@@ -1239,6 +1251,12 @@
       "bytes": 3853,
       "category": "application",
       "sha256": "ee34da1cc351431bca01c40008119eb21c67af0ef7c8c57cca6dcae0fc35346c"
+    },
+    {
+      "path": "src/components/ScrollMotion.tsx",
+      "bytes": 2454,
+      "category": "application",
+      "sha256": "2d2830e118c421a69abaa777cf8ab95ef405891fc20262cb2d5029f3b6a9665c"
     },
     {
       "path": "src/components/ShareComparison.tsx",

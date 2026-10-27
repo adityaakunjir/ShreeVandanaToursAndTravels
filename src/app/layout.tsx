@@ -5,8 +5,10 @@ import { Geist } from 'next/font/google';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import MobileDock from '@/components/MobileDock';
+import ScrollMotion from '@/components/ScrollMotion';
 import './globals.css';
 import './expedition.css';
+import './motion.css';
 const geist = Geist({
   subsets: ['latin'],
   variable: '--font-geist',
@@ -47,6 +49,7 @@ export default function RootLayout({
         <div id="main-content">{children}</div>
         <Footer />
         <MobileDock />
+        <ScrollMotion />
       </body>
     </html>
   );
