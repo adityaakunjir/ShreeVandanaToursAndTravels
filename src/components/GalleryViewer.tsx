@@ -127,7 +127,7 @@ export default function GalleryViewer() {
                 <strong>{photos[active].label}</strong>
                 <p>{photos[active].caption}</p>
                 <Link href={`/photo-credits#${photos[active].slug}`}>
-                  Source & licence ↗
+                  Source & licence
                 </Link>
                 <small>
                   {active + 1} / {photos.length}

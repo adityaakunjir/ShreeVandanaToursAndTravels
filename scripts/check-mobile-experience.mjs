@@ -16,24 +16,24 @@ try {
   page.on('pageerror', (error) => errors.push(error.message));
   await page.route(/instagram\.com/, (route) => route.abort());
   const slugs = new Set();
-  for (let number = 1; number <= 5; number++) {
+  for (let number = 1; number <= 10; number++) {
     await page.goto(`${origin}/tours?page=${number}`);
     const links = await page
       .locator('.brochure-tour-card h2 a')
       .evaluateAll((elements) => elements.map((el) => el.getAttribute('href')));
-    assert.equal(links.length, number === 5 ? 8 : 12);
+    assert.equal(links.length, number === 10 ? 2 : 6);
     for (const href of links) {
       assert(!slugs.has(href), `Duplicate ${href}`);
       slugs.add(href);
     }
     assert.match(
       await page.locator('.catalogue-pagination').innerText(),
-      new RegExp(`Page ${number} of 5`),
+      new RegExp(`Page ${number} of 10`),
     );
   }
   assert.equal(slugs.size, 56);
   report.checks.push(
-    'All 56 tours are reachable across five pages without duplicates',
+    'All 56 tours are reachable across ten pages without duplicates',
   );
   await page.goto(`${origin}/tours?region=India&sort=shortest`);
   assert(
@@ -80,7 +80,7 @@ try {
     reducedMotion: 'reduce',
   });
   await desktop.goto(`${origin}/tours`);
-  assert.equal(await desktop.locator('.brochure-tour-card').count(), 12);
+  assert.equal(await desktop.locator('.brochure-tour-card').count(), 6);
   assert(
     await desktop.getByRole('button', { name: 'Find my journey' }).isVisible(),
   );

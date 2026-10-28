@@ -57,7 +57,7 @@ export default async function ComparePage({
             </div>
           </fieldset>
           <button className="button" type="submit">
-            Compare journeys ↗
+            Compare journeys
           </button>
         </form>
         {error && (
@@ -139,13 +139,13 @@ export default async function ComparePage({
                     </div>
                   </dl>
                   <Link href={`/tours/${t.slug}`} className="text-link">
-                    Full itinerary ↗
+                    Full itinerary
                   </Link>
                   <WhatsAppLink
                     destination={tourEnquiryContext(t)}
                     className="button"
                   >
-                    Discuss this journey ↗
+                    Discuss this journey
                   </WhatsAppLink>
                 </article>
               ))}

@@ -133,7 +133,7 @@ export default async function TourPage({
         <SaveRealTour slug={tour.slug} name={tour.name} />
         <ShareTour />
         <Link href="/tours/compare" className="text-link">
-          Compare journeys ↗
+          Compare journeys
         </Link>
       </div>
       <div className="brochure-detail-hero">
@@ -157,7 +157,7 @@ export default async function TourPage({
             href={`/destinations/${tour.country === 'India' ? 'india' : tour.country.toLowerCase().split(' / ')[0].replaceAll(' ', '-')}`}
             className="text-link"
           >
-            Explore this destination ↗
+            Explore this destination
           </Link>
         </div>
         <aside className="brochure-enquire">
@@ -243,7 +243,7 @@ export default async function TourPage({
                 destination={tour.name + ' daily itinerary'}
                 className="text-link"
               >
-                Request the itinerary ↗
+                Request the itinerary
               </WhatsAppLink>
             </>
           )}
@@ -332,7 +332,7 @@ export default async function TourPage({
             </h2>
           </div>
           <Link href="/tours" className="text-link">
-            All journeys ↗
+            All journeys
           </Link>
         </div>
         <div className="brochure-tour-grid">

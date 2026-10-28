@@ -1,5 +1,6 @@
 import WhatsAppLink from '@/components/WhatsAppLink';
 import { additionalDestinations } from '@/data/site';
+import { ArrowUpRight } from 'lucide-react';
 
 export default function MoreDestinations({ query = '' }: { query?: string }) {
   const places = additionalDestinations.filter((name) =>
@@ -25,7 +26,7 @@ export default function MoreDestinations({ query = '' }: { query?: string }) {
             aria-label={`Enquire about ${name} on WhatsApp`}
           >
             {name}
-            <span aria-hidden="true">↗</span>
+            <ArrowUpRight size={15} aria-hidden="true" />
           </WhatsAppLink>
         ))}
       </div>

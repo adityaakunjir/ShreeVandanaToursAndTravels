@@ -100,7 +100,7 @@ export default function ServicesPage() {
               className="tour-card-credit"
               href={`/photo-credits#${photos[index].slug}`}
             >
-              Destination inspiration · Photo credits ↗
+              Destination inspiration · Photo credits
             </Link>
             <Icon size={30} />
             <h2>{title}</h2>

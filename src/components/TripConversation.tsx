@@ -48,7 +48,7 @@ export default function TripConversation() {
           destination={[destination, party].filter(Boolean).join(' — ')}
           className="button"
         >
-          Continue on WhatsApp ↗
+          Continue on WhatsApp
         </WhatsAppLink>
         <small>
           These choices are not saved or submitted through the website.

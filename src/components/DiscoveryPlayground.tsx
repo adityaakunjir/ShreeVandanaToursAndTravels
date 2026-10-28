@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
+import { ArrowUpRight } from 'lucide-react';
 type Choice = {
   slug: string;
   name: string;
@@ -92,7 +93,7 @@ export default function DiscoveryPlayground({
           onClick={surprise}
           disabled={!matches.length}
         >
-          Surprise me ↗
+          Surprise me
         </button>
         <p className="reel-disclaimer" role="status">
           {matches.length
@@ -103,7 +104,7 @@ export default function DiscoveryPlayground({
       <div key={turn} className="surprise-postcard">
         <span className="journal-stamp">YOUR NEXT DESTINATION / DISCOVER</span>
         <span className="postcard-mark" aria-hidden="true">
-          ↗
+          <ArrowUpRight size={120} strokeWidth={1} />
         </span>
         {chosen ? (
           <>
@@ -113,13 +114,13 @@ export default function DiscoveryPlayground({
             <h3>{chosen.name}</h3>
             <p>{chosen.theme}</p>
             <Link className="text-link" href={`/tours/${chosen.slug}`}>
-              Open this journey ↗
+              Open this journey
             </Link>
             <Link
               className="text-link"
               href={`/tours?style=${mood === 'mountain' ? 'mountains' : mood === 'coast' ? 'beaches' : mood}`}
             >
-              Explore this mood ↗
+              Explore this mood
             </Link>
           </>
         ) : (
@@ -131,7 +132,7 @@ export default function DiscoveryPlayground({
             </h3>
             <p>Tap Surprise me to discover your next trip.</p>
             <Link className="text-link" href="/tours">
-              Or browse every journey ↗
+              Or browse every journey
             </Link>
           </>
         )}

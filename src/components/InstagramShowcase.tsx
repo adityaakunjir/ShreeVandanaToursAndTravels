@@ -46,11 +46,7 @@ export default function InstagramShowcase() {
       <div className="section-heading">
         <div>
           <p className="eyebrow">OUR JOURNEYS, IN MOTION</p>
-          <h2>
-            Little moments.
-            <br />
-            <em>Big memories.</em>
-          </h2>
+          <h2>From our journeys.</h2>
         </div>
         <a
           className="text-link"

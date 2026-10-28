@@ -51,7 +51,7 @@ export default async function PackagesPage({
             <DemoNotice />
             <div className="collection-tools">
               <Link className="text-link" href="/packages/saved">
-                Your saved tours ♡
+                Your saved tours
               </Link>
               <Link className="text-link" href="/packages/compare">
                 Compare journeys →

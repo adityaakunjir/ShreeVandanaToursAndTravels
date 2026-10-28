@@ -38,7 +38,7 @@ export default function DestinationAtlas() {
                     <span>{h.name}</span>
                     <small>
                       {h.tours.length}{' '}
-                      {h.tours.length === 1 ? 'outline' : 'outlines'} ↗
+                      {h.tours.length === 1 ? 'outline' : 'outlines'}
                     </small>
                   </Link>
                 ))}

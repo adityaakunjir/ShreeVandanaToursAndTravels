@@ -39,7 +39,7 @@ export default function GalleryPage() {
         <p className="reel-disclaimer">
           These photographs show destinations, rather than our customers or
           team.{' '}
-          <Link href="/photo-credits">Photographers, sources & licences ↗</Link>
+          <Link href="/photo-credits">Photographers, sources & licences</Link>
         </p>
       </section>
       <InstagramShowcase />
@@ -65,7 +65,7 @@ export default function GalleryPage() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          View photos & videos on Google Maps ↗
+          View photos & videos on Google Maps
         </a>
       </section>
       <JourneyCTA />

@@ -40,7 +40,7 @@ export default function AboutPage() {
         </div>
         <div className="story-content">
           <Link href="/photo-credits#royal-bhutan" className="tour-card-credit">
-            Bhutan inspiration · photo credits ↗
+            Bhutan inspiration · photo credits
           </Link>
           <p className="eyebrow">EXPERIENCE MEETS PASSION</p>
           <h2>
@@ -143,10 +143,10 @@ export default function AboutPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Find our office ↗
+            Find our office
           </a>
           <Link className="text-link" href="/contact">
-            Contact our team ↗
+            Contact our team
           </Link>
         </div>
       </section>

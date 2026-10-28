@@ -18,7 +18,7 @@ export default function ShareComparison() {
           }
         }}
       >
-        Copy comparison link ↗
+        Copy comparison link
       </button>
       <p className="share-status" role="status">
         {status}

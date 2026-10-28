@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-28T05:17:49.863Z",
+  "layouts": [
+    {
+      "width": 320,
+      "height": 4315,
+      "overflow": false,
+      "homeSections": 6,
+      "emoji": false
+    },
+    {
+      "width": 390,
+      "height": 4146,
+      "overflow": false,
+      "homeSections": 6,
+      "emoji": false
+    },
+    {
+      "width": 768,
+      "height": 4954,
+      "overflow": false,
+      "homeSections": 6,
+      "emoji": false
+    },
+    {
+      "width": 1440,
+      "height": 4852,
+      "overflow": false,
+      "homeSections": 6,
+      "emoji": false
+    }
+  ],
+  "checks": [
+    "Five priority destinations and tours remain; two automatic reel embeds remain; footer links expand",
+    "Five destination cards and expandable full directory work",
+    "Collection initially shows six outlines and expands to remaining routes",
+    "Destination directory and footer expand without JavaScript"
+  ]
+}

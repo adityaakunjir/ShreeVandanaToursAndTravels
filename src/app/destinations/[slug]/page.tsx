@@ -207,7 +207,7 @@ export default async function DestinationPage({
               destination={`${destination.name} holiday planning`}
               className="text-link"
             >
-              Talk dates and preferences ↗
+              Talk dates and preferences
             </WhatsAppLink>
           </div>
           <TourCard tour={tour} index={0} />

@@ -93,7 +93,7 @@ export function SavedRealTours({ catalogue }: { catalogue: Summary[] }) {
           className="button"
           href={`/tours/compare?${new URLSearchParams(saved.slice(0, 3).map((t) => ['tour', t.slug]))}`}
         >
-          Compare {Math.min(saved.length, 3)} saved tours ↗
+          Compare {Math.min(saved.length, 3)} saved tours
         </Link>
       )}
       {saved.length ? (
@@ -108,7 +108,7 @@ export function SavedRealTours({ catalogue }: { catalogue: Summary[] }) {
               </h2>
               <p>{t.summary}</p>
               <div className="collection-links">
-                <Link href={`/tours/${t.slug}`}>Explore itinerary ↗</Link>
+                <Link href={`/tours/${t.slug}`}>Explore itinerary</Link>
                 <SaveRealTour slug={t.slug} name={t.name} />
               </div>
             </article>
@@ -119,7 +119,7 @@ export function SavedRealTours({ catalogue }: { catalogue: Summary[] }) {
           <h2>Keep a little inspiration.</h2>
           <p>Tap Save on any tour to find it here when you’re ready.</p>
           <Link className="button" href="/tours">
-            Explore our journeys ↗
+            Explore our journeys
           </Link>
         </div>
       )}

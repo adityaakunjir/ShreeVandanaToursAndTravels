@@ -35,6 +35,8 @@ try {
       reducedMotion === 'reduce' ? count === 0 : count > 0,
       `Reveal count: ${count}`,
     );
+    await page.goto('http://localhost:3005/tours');
+    await page.locator('.optional-discovery > summary').click();
     const surprise = page.getByRole('button', { name: 'Surprise me' });
     await surprise.click();
     assert.equal(

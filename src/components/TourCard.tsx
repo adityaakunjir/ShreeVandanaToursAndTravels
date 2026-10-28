@@ -71,7 +71,7 @@ export default function TourCard({
           destination={tourEnquiryContext(tour)}
           aria-label={`Enquire about ${tour.name} on WhatsApp`}
         >
-          Enquire ↗
+          Enquire
         </WhatsAppLink>
       </div>
       <SaveRealTour slug={tour.slug} name={tour.name} />

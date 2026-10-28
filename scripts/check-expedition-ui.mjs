@@ -82,6 +82,8 @@ try {
   report.interactions.push(
     'Mobile menu opens, makes background inert and closes on Escape',
   );
+  await page.goto(`${origin}/tours`);
+  await page.locator('.optional-discovery > summary').click();
   await page.locator('#journal-mood').selectOption('romance');
   await page.locator('#journal-time').selectOption('6');
   await page.getByRole('button', { name: /surprise me/i }).click();

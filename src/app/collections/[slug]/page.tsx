@@ -46,10 +46,22 @@ export default async function Collection({
           quotes on enquiry
         </p>
         <div className="brochure-tour-grid">
-          {c.tours.map((t, i) => (
+          {c.tours.slice(0, 6).map((t, i) => (
             <TourCard key={t.slug} tour={t} index={i} />
           ))}
         </div>
+        {c.tours.length > 6 && (
+          <details className="optional-discovery">
+            <summary>
+              Explore {c.tours.length - 6} more itineraries in this collection
+            </summary>
+            <div className="brochure-tour-grid">
+              {c.tours.slice(6).map((t, i) => (
+                <TourCard key={t.slug} tour={t} index={i + 6} />
+              ))}
+            </div>
+          </details>
+        )}
       </section>
       <JourneyCTA />
     </main>

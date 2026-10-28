@@ -16,11 +16,7 @@ export default function GoogleReviews() {
       <div className="section-heading">
         <div>
           <p className="eyebrow">FROM OUR TRAVELLERS</p>
-          <h2>
-            Stories shared.
-            <br />
-            <em>Trust earned.</em>
-          </h2>
+          <h2>Traveller reviews.</h2>
         </div>
         <a
           className="text-link"
@@ -36,7 +32,14 @@ export default function GoogleReviews() {
         {reviews.map((review) => (
           <article className="review-card" key={review.name}>
             <p className="review-stars" aria-label="5 out of 5 stars">
-              ★★★★★
+              {Array.from({ length: 5 }, (_, index) => (
+                <Star
+                  key={index}
+                  size={14}
+                  fill="currentColor"
+                  aria-hidden="true"
+                />
+              ))}
             </p>
             <blockquote>“{review.quote}”</blockquote>
             <strong>{review.name}</strong>

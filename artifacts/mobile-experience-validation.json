@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-27T10:14:53.835Z",
+  "checkedAt": "2026-10-28T05:15:27.401Z",
   "checks": [
-    "All 56 tours are reachable across five pages without duplicates",
+    "All 56 tours are reachable across ten pages without duplicates",
     "Pagination preserves filters; new searches reset the page; active filters stay expanded",
     "Sticky tour rail leaves anchor headings visible; itinerary day expansion works",
     "Desktop catalogue and expanded filters remain usable",

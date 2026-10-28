@@ -39,23 +39,29 @@ export default function Footer() {
             ))}
           </div>
         </div>
-        <div>
-          <h3>Find your way</h3>
-          <Link href="/tours">Tour collection</Link>
-          <Link href="/destinations">Destinations</Link>
-          <Link href="/destinations#atlas">Explore the atlas</Link>
-          <Link href="/collections/himalayan-escapes">Journey collections</Link>
-          <Link href="/about">Our story</Link>
-          <Link href="/services">Travel services</Link>
-          <Link href="/gallery">Travel gallery</Link>
-          <Link href="/contact">Contact our team</Link>
-          <Link href="/tours/saved">Saved journeys</Link>
-          <Link href="/tours/compare">Compare journeys</Link>
-          <Link href="/faq">Your questions</Link>
-          <Link href="/travel-information">Booking & website information</Link>
-          <Link href="/photo-credits">Photo credits</Link>
-          <WhatsAppLink>Plan your holiday</WhatsAppLink>
-        </div>
+        <details className="footer-directory">
+          <summary>Explore the website</summary>
+          <div>
+            <Link href="/tours">Tour collection</Link>
+            <Link href="/destinations">Destinations</Link>
+            <Link href="/destinations#atlas">Explore the atlas</Link>
+            <Link href="/collections/himalayan-escapes">
+              Journey collections
+            </Link>
+            <Link href="/about">Our story</Link>
+            <Link href="/services">Travel services</Link>
+            <Link href="/gallery">Travel gallery</Link>
+            <Link href="/contact">Contact our team</Link>
+            <Link href="/tours/saved">Saved journeys</Link>
+            <Link href="/tours/compare">Compare journeys</Link>
+            <Link href="/faq">Your questions</Link>
+            <Link href="/travel-information">
+              Booking & website information
+            </Link>
+            <Link href="/photo-credits">Photo credits</Link>
+            <WhatsAppLink>Plan your holiday</WhatsAppLink>
+          </div>
+        </details>
         <div className="footer-contact">
           <h3>Let’s talk travel</h3>
           {business.phones.map((phone) => (

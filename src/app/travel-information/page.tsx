@@ -37,7 +37,7 @@ export default function InformationPage() {
             booking.
           </p>
           <Link href="/faq" className="text-link">
-            Travel questions ↗
+            Travel questions
           </Link>
         </article>
         <article className="package-panel">
@@ -64,7 +64,7 @@ export default function InformationPage() {
             information shared during a booking conversation is handled.
           </p>
           <Link href="/contact" className="text-link">
-            Contact our team ↗
+            Contact our team
           </Link>
         </article>
       </section>

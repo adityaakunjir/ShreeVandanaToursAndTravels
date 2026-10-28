@@ -4,6 +4,7 @@ import tours from '@/data/catalogue';
 import { destinations } from '@/data/site';
 import TourCard from '@/components/TourCard';
 import TourDiscovery from '@/components/TourDiscovery';
+import DiscoveryPlayground from '@/components/DiscoveryPlayground';
 import { PageIntro } from '@/components/PageIntro';
 import WhatsAppLink from '@/components/WhatsAppLink';
 import {
@@ -37,12 +38,12 @@ export default async function ToursPage({ searchParams }: Props) {
       (priority.includes(b.slug) ? priority.indexOf(b.slug) : priority.length),
   );
   const found = findRealTours(ranked, filters);
-  const pages = Math.max(1, Math.ceil(found.length / 12));
+  const pages = Math.max(1, Math.ceil(found.length / 6));
   const page = Math.min(
     pages,
     Math.max(1, Math.floor(Number(params.page) || 1)),
   );
-  const visible = found.slice((page - 1) * 12, page * 12);
+  const visible = found.slice((page - 1) * 6, page * 6);
   const pageHref = (next: number) => {
     const query = new URLSearchParams(
       Object.entries(filters).filter(([, value]) => Boolean(value)),
@@ -107,7 +108,7 @@ export default async function ToursPage({ searchParams }: Props) {
               See all journeys
             </Link>{' '}
             <WhatsAppLink destination={filters.q} className="button">
-              Ask on WhatsApp ↗
+              Ask on WhatsApp
             </WhatsAppLink>
           </div>
         )}
@@ -116,6 +117,18 @@ export default async function ToursPage({ searchParams }: Props) {
           final inclusions are confirmed by our team before you book.
         </p>
       </section>
+      <details className="wrap optional-discovery">
+        <summary>Not sure where to go? Try our trip finder</summary>
+        <DiscoveryPlayground
+          journeys={tours.map((t) => ({
+            slug: t.slug,
+            name: t.name,
+            country: t.country,
+            duration: t.duration,
+            theme: t.theme,
+          }))}
+        />
+      </details>
     </main>
   );
 }

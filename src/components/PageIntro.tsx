@@ -82,7 +82,7 @@ export function PageIntro({
               />
               <figcaption>
                 <Link href={`/photo-credits#${photo.slug}`}>
-                  Destination inspiration · Photo credits ↗
+                  Destination inspiration · Photo credits
                 </Link>
               </figcaption>
             </figure>

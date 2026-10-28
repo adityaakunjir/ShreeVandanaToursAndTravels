@@ -117,7 +117,10 @@ export default async function DestinationsPage({ searchParams }: Props) {
         </div>
       </section>
       <JourneyCTA />
-      <DestinationAtlas />
+      <details className="wrap optional-discovery">
+        <summary>Browse the full destination directory</summary>
+        <DestinationAtlas />
+      </details>
     </main>
   );
 }
