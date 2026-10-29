@@ -220,8 +220,9 @@
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  min-height: 86vh;
-  max-height: 940px;
+  min-height: 100vh;
+  min-height: 100dvh;
+  max-height: 1020px;
   margin-top: 0;
   border-radius: 0;
   display: flex;
@@ -232,7 +233,8 @@
 
 @media (max-width: 768px) {
   .home-hero-fullscreen {
-    min-height: 78vh;
+    min-height: 92vh;
+    min-height: 92dvh;
   }
 }
 
@@ -251,7 +253,7 @@
   flex-direction: column;
   justify-content: center;
   flex: 1;
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 40px;
 }
 
@@ -415,4 +417,197 @@
     animation: none !important;
   }
 }
+
+/* ============================================================
+   Liquid Glass 2.0 Navbar System
+   ============================================================ */
+
+/* Global fixed header */
+.site-header.liquid-glass-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 50;
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  transition:
+    background-color 280ms cubic-bezier(0.16, 1, 0.3, 1),
+    backdrop-filter 280ms cubic-bezier(0.16, 1, 0.3, 1),
+    -webkit-backdrop-filter 280ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 280ms cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 280ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Home hero overlay state (translucent crystal liquid glass over playing video) */
+.site-header.liquid-glass-nav.is-home:not(.is-scrolled) {
+  background: linear-gradient(
+    180deg,
+    rgba(14, 23, 31, 0.45) 0%,
+    rgba(14, 23, 31, 0.15) 60%,
+    rgba(14, 23, 31, 0.02) 100%
+  ) !important;
+  backdrop-filter: blur(14px) saturate(170%) !important;
+  -webkit-backdrop-filter: blur(14px) saturate(170%) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+  box-shadow:
+    0 8px 32px 0 rgba(0, 0, 0, 0.18),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.22) !important;
+}
+
+/* Scrolled state or inner pages (rich obsidian frosted liquid glass) */
+.site-header.liquid-glass-nav.is-scrolled,
+.site-header.liquid-glass-nav:not(.is-home) {
+  background: rgba(14, 22, 29, 0.82) !important;
+  backdrop-filter: blur(24px) saturate(190%) contrast(105%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(190%) contrast(105%) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14) !important;
+  box-shadow:
+    0 12px 36px -6px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.25) !important;
+}
+
+/* Brand badge disc */
+.liquid-glass-nav .brand-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #ffffff;
+  padding: 3px;
+  box-shadow:
+    0 2px 10px rgba(0, 0, 0, 0.28),
+    0 0 0 1px rgba(255, 255, 255, 0.35);
+  overflow: hidden;
+  flex-shrink: 0;
+  transition: transform 220ms ease;
+}
+
+.liquid-glass-nav .brand:hover .brand-badge {
+  transform: scale(1.05);
+}
+
+.liquid-glass-nav .brand-badge img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  mix-blend-mode: normal !important;
+}
+
+/* Brand typography */
+.liquid-glass-nav .brand strong {
+  color: #ffffff !important;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.65);
+}
+
+.liquid-glass-nav .brand small {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 8.5px;
+  letter-spacing: 0.22em;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Navigation Links */
+.liquid-glass-nav .main-nav > a:not(.button) {
+  color: rgba(255, 255, 255, 0.88) !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  padding: 8px 14px !important;
+  border-radius: 24px !important;
+  transition: all 200ms cubic-bezier(0.16, 1, 0.3, 1) !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) !important;
+  letter-spacing: 0.01em;
+}
+
+.liquid-glass-nav .main-nav > a:not(.button):hover {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.16) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  transform: translateY(-1px);
+}
+
+.liquid-glass-nav .main-nav a[aria-current='page'] {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+/* CTA "Plan your trip" in Liquid Glass */
+.liquid-glass-nav .nav-cta {
+  background: linear-gradient(135deg, #d33833 0%, #b82b26 100%) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.32) !important;
+  box-shadow:
+    0 4px 18px rgba(184, 43, 38, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4) !important;
+  border-radius: 26px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em;
+  transition: all 220ms cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.liquid-glass-nav .nav-cta:hover {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow:
+    0 6px 24px rgba(184, 43, 38, 0.65),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Mobile Toggle Button */
+.liquid-glass-nav .menu-toggle {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid rgba(255, 255, 255, 0.26) !important;
+  color: #ffffff !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  transition: all 200ms ease;
+}
+
+.liquid-glass-nav .menu-toggle:hover {
+  background: rgba(255, 255, 255, 0.25) !important;
+}
+
+/* Mobile Dropdown Panel */
+@media (max-width: 900px) {
+  .liquid-glass-nav .main-nav {
+    background: rgba(14, 22, 29, 0.94) !important;
+    backdrop-filter: blur(28px) saturate(190%) !important;
+    -webkit-backdrop-filter: blur(28px) saturate(190%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.16) !important;
+    box-shadow:
+      0 24px 60px rgba(0, 0, 0, 0.6),
+      inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
+    color: #ffffff !important;
+  }
+  .liquid-glass-nav .main-nav > a:not(.button) {
+    color: #ffffff !important;
+    padding: 12px 14px !important;
+    border-radius: 12px !important;
+  }
+}
+
+/* Main Content Padding Offset for Non-Hero Pages */
+#main-content {
+  padding-top: 72px;
+}
+
+#main-content:has(.home-hero-fullscreen) {
+  padding-top: 0 !important;
+}
+
+.focused-home {
+  padding-top: 0 !important;
+}
+
 

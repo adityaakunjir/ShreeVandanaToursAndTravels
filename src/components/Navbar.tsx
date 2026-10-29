@@ -19,8 +19,19 @@ const links = [
 export default function Navbar() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const toggle = useRef<HTMLButtonElement>(null);
   const panel = useRef<HTMLElement>(null);
+  const isHome = pathname === '/';
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 25);
+    };
+    handleScroll();
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
   useEffect(() => {
     if (!open) return;
     const previous = document.body.style.overflow;
@@ -80,18 +91,23 @@ export default function Navbar() {
           </a>
         </div>
       </div>
-      <header className="site-header">
+      <header
+        className={`site-header liquid-glass-nav ${scrolled ? 'is-scrolled' : ''} ${isHome ? 'is-home' : ''}`}
+      >
         <div className="wrap nav-wrap">
           <Link
             href="/"
             className="brand"
           >
-            <Image
-              src="/assets/images/brand-mark.webp"
-              width={52}
-              height={52}
-              alt=""
-            />
+            <div className="brand-badge">
+              <Image
+                src="/assets/images/brand-mark.webp"
+                width={42}
+                height={42}
+                alt="Shree Vandana Tours & Travels"
+                priority
+              />
+            </div>
             <span>
               <strong>SHREE VANDANA</strong>
               <small>TOURS & TRAVELS</small>
