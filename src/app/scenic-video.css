@@ -122,10 +122,11 @@
 }
 
 .tour-hero-parallax {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 0;
 }
 
 .tour-hero-fullscreen .tour-photo-window {
@@ -236,10 +237,11 @@
 }
 
 .home-hero-parallax {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 0;
 }
 
 .home-hero-content {
@@ -367,10 +369,12 @@
    Parallax Animation Mechanics
    ============================================================ */
 .parallax-hero-wrapper {
-  position: relative;
+  position: absolute;
+  inset: 0;
   overflow: hidden;
   width: 100%;
   height: 100%;
+  z-index: 0;
 }
 
 .parallax-hero-track {

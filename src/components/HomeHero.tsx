@@ -24,7 +24,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     label: 'Kerala, Kashmir, Dubai, Nepal & Sikkim aerial drone showreel',
     tagline: 'Scenic drone flights across India & premier international tours',
     assetBase: 'home-destinations-drone',
-    fallback: '/assets/images/tours/kerala-6-days.webp',
+    fallback: '/assets/videos/home-destinations-drone-poster.webp',
     photoCreditLink: '/photo-credits#video-kerala',
   },
   {
@@ -33,7 +33,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     label: 'Munnar green tea hills and serene backwaters',
     tagline: 'Lush tea plantations, misty Western Ghats & emerald backwaters',
     assetBase: 'kerala-montage-v1',
-    fallback: '/assets/images/tours/kerala-6-days.webp',
+    fallback: '/assets/videos/kerala-montage-v1-poster.webp',
     photoCreditLink: '/photo-credits#video-kerala',
   },
   {
@@ -42,7 +42,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     label: 'Dal Lake shikaras and snow-capped Himalayan peaks',
     tagline: 'Pristine mountain lakes, alpine meadows & snow-capped peaks',
     assetBase: 'kashmir-montage-v1',
-    fallback: '/assets/images/tours/kashmir-7-days.webp',
+    fallback: '/assets/videos/kashmir-montage-v1-poster.webp',
     photoCreditLink: '/photo-credits#video-kashmir',
   },
   {
@@ -51,7 +51,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     label: 'Dubai Marina skyline, beachfront and golden dunes',
     tagline: 'Futuristic architectural wonders & Arabian desert dunes',
     assetBase: 'dubai-montage-v1',
-    fallback: '/assets/images/tours/dubai-abu-dhabi.webp',
+    fallback: '/assets/videos/dubai-montage-v1-poster.webp',
     photoCreditLink: '/photo-credits#video-dubai',
   },
   {
@@ -60,7 +60,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     label: 'Phewa Lake and Annapurna Himalayan mountain range',
     tagline: 'Majestic Himalayan summits, stupas & peaceful mountain lakes',
     assetBase: 'nepal-montage-v1',
-    fallback: '/assets/images/tours/nepal.webp',
+    fallback: '/assets/videos/nepal-montage-v1-poster.webp',
     photoCreditLink: '/photo-credits#video-nepal',
   },
   {
@@ -69,7 +69,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     label: 'Himalayan ridges, Kanchenjunga views & tea valleys',
     tagline: 'Misty mountain ridges & tranquil Eastern Himalayan plateaus',
     assetBase: 'sikkim-montage-v1',
-    fallback: '/assets/images/tours/darjeeling-gangtok-pelling.webp',
+    fallback: '/assets/videos/sikkim-montage-v1-poster.webp',
     photoCreditLink: '/photo-credits#video-sikkim',
   },
 ];

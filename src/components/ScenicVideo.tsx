@@ -43,17 +43,19 @@ export default function ScenicVideo({
       const variant = window.matchMedia('(max-width: 900px)').matches
         ? 'mobile'
         : 'desktop';
-      const format = element.canPlayType('video/mp4; codecs="avc1.640028"')
-        ? 'mp4'
-        : 'webm';
+      const canMp4 = element.canPlayType('video/mp4') !== '';
+      const format = canMp4 ? 'mp4' : 'webm';
       element.dataset.variant = variant;
       element.src = `/assets/videos/${assetBase}-${variant}.${format}`;
       element.muted = true;
+      element.defaultMuted = true;
       loaded.current = true;
       currentAssetBase.current = assetBase;
       fallbackTried.current = false;
       element.load();
     }
+    element.muted = true;
+    element.defaultMuted = true;
     void element.play().catch(() => setPlaying(false));
   }
 
@@ -76,7 +78,7 @@ export default function ScenicVideo({
         };
       }
     ).connection;
-    let pageReady = false;
+    let pageReady = priority;
     let timer: ReturnType<typeof setTimeout> | undefined;
     const allowed = () =>
       !reduced.matches &&
@@ -97,16 +99,23 @@ export default function ScenicVideo({
       timer = setTimeout(() => {
         pageReady = true;
         sync();
-      }, 1200);
+      }, priority ? 0 : 800);
     };
-    if (document.readyState === 'complete') settle();
-    else window.addEventListener('load', settle, { once: true });
+    if (priority) {
+      pageReady = true;
+      visible.current = true;
+      sync();
+    } else if (document.readyState === 'complete') {
+      settle();
+    } else {
+      window.addEventListener('load', settle, { once: true });
+    }
     const observer = new IntersectionObserver(
       (entries) => {
         visible.current = entries[0]?.isIntersecting ?? false;
         sync();
       },
-      { threshold: 0.15 },
+      { threshold: 0 },
     );
     observer.observe(element);
     const preferenceChanged = () => {
@@ -153,9 +162,10 @@ export default function ScenicVideo({
       <video
         ref={video}
         muted
+        autoPlay
         playsInline
         loop
-        preload="none"
+        preload={priority ? 'auto' : 'none'}
         aria-label={`Scenic footage: ${label}`}
         onPlaying={() => {
           setReady(true);
