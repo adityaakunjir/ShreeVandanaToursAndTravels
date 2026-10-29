@@ -94,15 +94,17 @@ export default async function TourPage({
     .slice(0, 3);
   return (
     <main className="brochure-detail">
-      <div className="wrap">
-        <Breadcrumb
-          items={[
-            { name: 'Home', path: '/' },
-            { name: 'Our tours', path: '/tours' },
-            { name: tour.name, path: `/tours/${tour.slug}` },
-          ]}
-        />
-      </div>
+      {!photo && (
+        <div className="wrap">
+          <Breadcrumb
+            items={[
+              { name: 'Home', path: '/' },
+              { name: 'Our tours', path: '/tours' },
+              { name: tour.name, path: `/tours/${tour.slug}` },
+            ]}
+          />
+        </div>
+      )}
       {photo && (
         <figure className="tour-hero-fullscreen">
           <ParallaxHero speed={0.28} className="tour-hero-parallax">
@@ -133,6 +135,15 @@ export default async function TourPage({
           </ParallaxHero>
           <div className="tour-hero-shade" />
           <div className="wrap tour-hero-content">
+            <div className="tour-hero-breadcrumbs">
+              <Breadcrumb
+                items={[
+                  { name: 'Home', path: '/' },
+                  { name: 'Our tours', path: '/tours' },
+                  { name: tour.name, path: `/tours/${tour.slug}` },
+                ]}
+              />
+            </div>
             <div className="tour-photo-heading">
               <p className="eyebrow">
                 {tour.region} · {duration} days

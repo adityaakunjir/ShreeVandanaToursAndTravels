@@ -22,7 +22,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const toggle = useRef<HTMLButtonElement>(null);
   const panel = useRef<HTMLElement>(null);
-  const isHome = pathname === '/';
+  const isHero = pathname === '/' || pathname.startsWith('/tours/');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -92,7 +92,7 @@ export default function Navbar() {
         </div>
       </div>
       <header
-        className={`site-header liquid-glass-nav ${scrolled ? 'is-scrolled' : ''} ${isHome ? 'is-home' : ''}`}
+        className={`site-header liquid-glass-nav ${scrolled ? 'is-scrolled' : ''} ${isHero ? 'is-hero' : ''}`}
       >
         <div className="wrap nav-wrap">
           <Link

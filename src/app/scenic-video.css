@@ -103,21 +103,21 @@
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  min-height: 82vh;
-  max-height: 900px;
+  min-height: 84vh;
+  max-height: 920px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   background: #101a22;
   color: #fff;
-  margin-top: 14px;
+  margin-top: 0 !important;
   margin-bottom: 32px;
 }
 
 @media (max-width: 768px) {
   .tour-hero-fullscreen {
-    min-height: 72vh;
+    min-height: 74vh;
   }
 }
 
@@ -142,9 +142,13 @@
 .tour-hero-shade {
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(180deg, rgba(16, 26, 34, 0.45) 0%, rgba(16, 26, 34, 0.1) 40%, rgba(16, 26, 34, 0.9) 100%),
-    radial-gradient(circle at 50% 50%, transparent 40%, rgba(16, 26, 34, 0.4) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(14, 22, 29, 0.4) 0%,
+    transparent 28%,
+    rgba(14, 22, 29, 0.25) 60%,
+    rgba(14, 22, 29, 0.88) 100%
+  );
   pointer-events: none;
   z-index: 1;
 }
@@ -152,14 +156,37 @@
 .tour-hero-content {
   position: relative;
   z-index: 2;
+  padding-top: 100px;
   padding-bottom: 24px;
+}
+
+.tour-hero-breadcrumbs {
+  margin-bottom: 20px;
+}
+
+.tour-hero-breadcrumbs ol,
+.tour-hero-breadcrumbs li,
+.tour-hero-breadcrumbs a,
+.tour-hero-breadcrumbs span {
+  color: rgba(255, 255, 255, 0.82) !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+  font-size: 13px;
+}
+
+.tour-hero-breadcrumbs a:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
 }
 
 .tour-hero-fullscreen .tour-photo-heading {
   position: relative;
   inset: auto;
-  padding: 0;
-  max-width: 860px;
+  padding: 0 !important;
+  max-width: 880px;
+  background: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
 .tour-hero-fullscreen .tour-photo-heading .eyebrow {
@@ -177,17 +204,18 @@
   line-height: 1.06;
   letter-spacing: -0.04em;
   color: #ffffff;
-  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.7), 0 1px 4px rgba(0, 0, 0, 0.8);
   margin: 0 0 14px;
 }
 
 .tour-hero-summary {
   font-size: clamp(14px, 1.8vw, 17px);
   line-height: 1.6;
-  color: #e2eaf0;
-  max-width: 680px;
+  color: rgba(255, 255, 255, 0.94);
+  max-width: 720px;
   margin-bottom: 22px;
-  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.7);
+  letter-spacing: 0.03em;
 }
 
 .tour-hero-caption {
@@ -199,9 +227,15 @@
   gap: 12px;
   padding-top: 14px;
   padding-bottom: 18px;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  color: rgba(255, 255, 255, 0.75);
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  color: rgba(255, 255, 255, 0.78);
   font-size: 12px;
+}
+
+.tour-hero-caption a {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .tour-hero-caption a {
@@ -441,32 +475,30 @@
     box-shadow 280ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* Home hero overlay state (translucent crystal liquid glass over playing video) */
-.site-header.liquid-glass-nav.is-home:not(.is-scrolled) {
+/* Hero overlay state (pure transparent seamless overlay over playing video, NO bottom line!) */
+.site-header.liquid-glass-nav.is-hero:not(.is-scrolled) {
   background: linear-gradient(
     180deg,
-    rgba(14, 23, 31, 0.45) 0%,
-    rgba(14, 23, 31, 0.15) 60%,
-    rgba(14, 23, 31, 0.02) 100%
+    rgba(0, 0, 0, 0.45) 0%,
+    rgba(0, 0, 0, 0.15) 60%,
+    transparent 100%
   ) !important;
-  backdrop-filter: blur(14px) saturate(170%) !important;
-  -webkit-backdrop-filter: blur(14px) saturate(170%) !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
-  box-shadow:
-    0 8px 32px 0 rgba(0, 0, 0, 0.18),
-    inset 0 1px 0 0 rgba(255, 255, 255, 0.22) !important;
+  backdrop-filter: blur(3px) !important;
+  -webkit-backdrop-filter: blur(3px) !important;
+  border: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 
-/* Scrolled state or inner pages (rich obsidian frosted liquid glass) */
+/* Scrolled state or non-hero pages (pure liquid glass, NO bottom line!) */
 .site-header.liquid-glass-nav.is-scrolled,
-.site-header.liquid-glass-nav:not(.is-home) {
-  background: rgba(14, 22, 29, 0.82) !important;
-  backdrop-filter: blur(24px) saturate(190%) contrast(105%) !important;
-  -webkit-backdrop-filter: blur(24px) saturate(190%) contrast(105%) !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.14) !important;
-  box-shadow:
-    0 12px 36px -6px rgba(0, 0, 0, 0.45),
-    inset 0 1px 0 0 rgba(255, 255, 255, 0.25) !important;
+.site-header.liquid-glass-nav:not(.is-hero) {
+  background: rgba(14, 22, 29, 0.88) !important;
+  backdrop-filter: blur(24px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(180%) !important;
+  border: none !important;
+  border-bottom: none !important;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35) !important;
 }
 
 /* Brand badge disc */
@@ -602,10 +634,9 @@
   padding-top: 72px;
 }
 
-#main-content:has(.home-hero-fullscreen) {
-  padding-top: 0 !important;
-}
-
+#main-content:has(.home-hero-fullscreen),
+#main-content:has(.tour-hero-fullscreen),
+.brochure-detail:has(.tour-hero-fullscreen),
 .focused-home {
   padding-top: 0 !important;
 }
