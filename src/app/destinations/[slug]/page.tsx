@@ -102,6 +102,7 @@ export default async function DestinationPage({
               <ScenicVideo
                 key={clip.id}
                 id={clip.id}
+                assetBase={clip.assetBase}
                 label={clip.label}
                 fallback={`/assets/images/${destination.image}`}
                 alt={

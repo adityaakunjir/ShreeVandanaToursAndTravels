@@ -1,0 +1,52 @@
+{
+  "nepal": [
+    {"id":"19351685","label":"Boats on Phewa Lake, Pokhara","author":"pranish shrestha","source":"https://www.pexels.com/video/lakeside-pokhara-19351685/","existingFile":"nepal.mp4"},
+    {"id":"32971668","label":"Annapurna Range at dawn","author":"Nishess Shakya","source":"https://www.pexels.com/video/breathtaking-aerial-view-of-annapurna-range-at-dawn-32971668/"},
+    {"id":"35847868","label":"Kathmandu temple architecture","author":"Official Gantavya","source":"https://www.pexels.com/video/exploring-boudhanath-stupa-in-kathmandu-35847868/"},
+    {"id":"17437728","label":"Pokhara and the Annapurna backdrop","author":"Tao Zhang","source":"https://www.pexels.com/video/hill-17437728/"},
+    {"id":"27817152","label":"Snow-covered Himalayan peaks, Nepal","author":"Prabesh Rai","source":"https://www.pexels.com/video/nepali-mountain-in-nepal-27817152/"},
+    {"id":"38704850","label":"Swayambhunath Stupa, Kathmandu","author":"Bibek Bohara","source":"https://www.pexels.com/video/swayambhunath-stupa-in-kathmandu-nepal-38704850/"},
+    {"id":"35890635","label":"Himalayan landscape in Nepal","author":"Yubaraj stha","source":"https://www.pexels.com/video/stunning-himalayan-landscape-in-nepal-35890635/"},
+    {"id":"19233957","label":"Pokhara city and Himalayan skyline","author":"binaya magar","source":"https://www.pexels.com/video/pokhara-city-19233957/"}
+  ],
+  "dubai": [
+    {"id":"31257785","label":"Downtown Dubai skyline","author":"Nelemson G","source":"https://www.pexels.com/video/stunning-dubai-skyline-aerial-view-31257785/","existingFile":"dubai.mp4"},
+    {"id":"18897114","label":"Dubai's golden desert dunes","author":"Annemarie Horne","source":"https://www.pexels.com/video/dubai-s-golden-desert-18897114/"},
+    {"id":"36432566","label":"Dubai Marina at sunset","author":"Niko Samik","source":"https://www.pexels.com/video/dubai-marina-waterfront-skyline-at-sunset-36432566/"},
+    {"id":"27607374","label":"Dubai skyline and Burj Khalifa","author":"Abid Ali","source":"https://www.pexels.com/video/dubai-skyline-27607374/"},
+    {"id":"36594798","label":"Dubai beachfront skyline","author":"Alexander Shabanov","source":"https://www.pexels.com/video/stunning-beachfront-skyline-of-dubai-36594798/"},
+    {"id":"8865493","label":"Roads through Dubai's desert","author":"MART PRODUCTION","source":"https://www.pexels.com/video/roads-in-the-desert-of-dubai-8865493/"},
+    {"id":"30346373","label":"Marina skyline reflected in water","author":"Nelemson G","source":"https://www.pexels.com/video/scenic-dubai-marina-skyline-at-sunset-30346373/"},
+    {"id":"29586631","label":"Panoramic Dubai Marina at sunset","author":"falah al hamondi","source":"https://www.pexels.com/video/stunning-aerial-view-of-dubai-marina-at-sunset-29586631/"}
+  ],
+  "kerala": [
+    {"id":"35440633","label":"Munnar's misty green hills","author":"Anil Sharma","source":"https://www.pexels.com/video/breathtaking-aerial-view-of-munnar-hills-35440633/","existingFile":"kerala.mp4"},
+    {"id":"29988893","label":"Palm-lined Kerala backwaters","author":"Stijn Dijkstra","source":"https://www.pexels.com/video/serene-kerala-backwaters-with-lush-greenery-29988893/"},
+    {"id":"29041046","label":"Kerala's scenic coastline","author":"Aerial Glimpses","source":"https://www.pexels.com/video/aerial-view-of-kerala-s-scenic-coastline-29041046/"},
+    {"id":"4488285","label":"Athirappilly Waterfalls","author":"Salj P Shaji","source":"https://www.pexels.com/video/athirappilly-water-falls-4488285/"},
+    {"id":"35637701","label":"Scenic road through Munnar hills","author":"Davison Joseph","source":"https://www.pexels.com/video/scenic-road-trip-through-lush-munnar-hills-35637701/"},
+    {"id":"35821948","label":"Boat ride on Kerala's backwaters","author":"Dhyey Patel","source":"https://www.pexels.com/video/serene-boat-ride-on-kerala-s-backwaters-35821948/"},
+    {"id":"18753244","label":"Verdant tea plantations in Munnar","author":"FAISEL KAPPIL","source":"https://www.pexels.com/video/munnar-is-a-town-in-the-western-ghats-mountain-range-in-india-s-kerala-state-18753244/"},
+    {"id":"9117189","label":"Road through Munnar's tea country","author":"syam krishnan","source":"https://www.pexels.com/video/truck-on-the-road-9117189/"}
+  ],
+  "kashmir": [
+    {"id":"27114739","label":"Dal Lake and surrounding mountains","author":"Haziq Farooqi","source":"https://www.pexels.com/video/the-serene-and-majestic-beauty-of-dal-lake-in-kashmir-capturing-its-essence-as-a-tranquil-and-picturesque-destination-27114739/","existingFile":"kashmir.mp4"},
+    {"id":"33333520","label":"Aru Valley, Kashmir","author":"Thuy Thu Vu","source":"https://www.pexels.com/video/scenic-view-of-lush-valley-in-kashmir-33333520/"},
+    {"id":"35417044","label":"River and alpine landscape in Pahalgam","author":"Basit Manzoor","source":"https://www.pexels.com/video/tranquil-river-scene-in-pahalgam-kashmir-35417044/"},
+    {"id":"30122671","label":"Winter landscape in Gulmarg","author":"TheLadOfAlps","source":"https://www.pexels.com/video/scenic-winter-wonderland-in-gulmarg-30122671/"},
+    {"id":"10528055","label":"Gulmarg ski lift and snowy forest","author":"Imad Clicks","source":"https://www.pexels.com/video/drone-footage-of-a-ski-lift-in-kashmir-10528055/"},
+    {"id":"40011479","label":"Horse in Gulmarg's mountain landscape","author":"Ifham Khan","source":"https://www.pexels.com/ro-ro/video/cal-alb-maiestuos-in-peisajul-pitoresc-din-gulmarg-40011479/"},
+    {"id":"33560296","label":"Reflections on Dal Lake, Srinagar","author":"Haziq Farooqi","source":"https://www.pexels.com/video/scenic-view-of-dal-lake-in-srinagar-33560296/"},
+    {"id":"35556857","label":"Snowy road through Sonamarg","author":"Shahid Sultan","source":"https://www.pexels.com/video/scenic-winter-drive-through-snowy-sonamarg-35556857/"}
+  ],
+  "sikkim": [
+    {"id":"darjeeling-train","title":"File:Darjeeling toy train.webm","label":"Darjeeling Himalayan Railway toy train"},
+    {"id":"tsongmo-lake","title":"File:Tsongmo Lake, Sikkim, 2026.webm","label":"Tsongmo Lake, Sikkim","existingFile":"sikkim.webm","start":11.5},
+    {"id":"enchey-flags","title":"File:Prayer flags at Enchey Monastery, Gangtok.webm","label":"Prayer flags at Enchey Monastery, Gangtok"},
+    {"id":"samthar-plateau","title":"File:Samthar plateau, Darjeeling 01.webm","label":"Samthar Plateau, Darjeeling district"},
+    {"id":"nathu-la","title":"File:Mountain Landscape near Nathu La Pass, Sikkim.webm","label":"Himalayan landscape near Nathu La Pass","existingFile":"sikkim-mountain.webm"},
+    {"id":"ghum-station","title":"File:Ghum Railway Station, Darjeeling 01.webm","label":"Ghum Railway Station, Darjeeling"},
+    {"id":"enchey-wheels","title":"File:Prayer wheels at Enchey Monastery, Gangtok.webm","label":"Prayer wheels at Enchey Monastery, Gangtok"},
+    {"id":"ahaldara","title":"File:Ahaldara view point in Sittong 01.webm","label":"Ahaldara viewpoint, Sittong"}
+  ]
+}

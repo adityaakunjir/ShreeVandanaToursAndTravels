@@ -9,10 +9,12 @@ import WhatsAppLink from '@/components/WhatsAppLink';
 import BusinessStructuredData from '@/components/BusinessStructuredData';
 import InstagramShowcase from '@/components/InstagramShowcase';
 import GoogleReviews from '@/components/GoogleReviews';
+import { videoForDestination } from '@/lib/destination-videos';
 
 export const metadata = { alternates: { canonical: '/' } };
 
 export default function Home() {
+  const heroVideo = videoForDestination('nepal')!;
   return (
     <main id="top" className="focused-home">
       <BusinessStructuredData />
@@ -20,7 +22,8 @@ export default function Home() {
         <div className="curated-hero-image">
           <ScenicVideo
             id="nepal"
-            label="Phewa Lake, Pokhara, Nepal"
+            assetBase={heroVideo.assetBase}
+            label={heroVideo.label}
             fallback="/assets/images/tours/nepal.webp"
             alt="The mountains and lakeside scenery of Pokhara, Nepal"
             sizes="(max-width: 640px) 100vw, 1240px"
@@ -50,7 +53,7 @@ export default function Home() {
         </div>
         <div className="curated-hero-bottom">
           <Link href="/photo-credits#video-nepal">
-            <MapPin size={14} /> Pokhara, Nepal · Media credits
+            <MapPin size={14} /> Nepal · Media credits
           </Link>
         </div>
       </section>

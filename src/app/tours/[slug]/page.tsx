@@ -74,7 +74,7 @@ export default async function TourPage({
     tourPhoto(tour) ||
     (clip
       ? {
-          src: `/assets/videos/${clip.id}-poster.webp`,
+          src: `/assets/videos/${clip.assetBase}-poster.webp`,
           alt: clip.label,
           slug: `video-${clip.id}`,
           author: clip.author,
@@ -107,6 +107,7 @@ export default async function TourPage({
               <ScenicVideo
                 key={clip.id}
                 id={clip.id}
+                assetBase={clip.assetBase}
                 label={clip.label}
                 fallback={photo.src}
                 alt={photo.alt}

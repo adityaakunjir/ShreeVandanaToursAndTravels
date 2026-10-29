@@ -1,102 +1,402 @@
 [
   {
-    "file": "public/assets/videos/nepal-mobile.mp4",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.962846
+    "file": "public/assets/videos/nepal-montage-v1-mobile.mp4",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "156e69d131dc1b87c3b0c9fe1f813ce1",
+      "5c0071a3d8ca4a75a1307488c75970a4",
+      "3e9ffe57ffacf0cdb754fc86b56a8ec7",
+      "20dcd2e8ece39067324268f70bfa5b6c",
+      "33044fecdbaefeade2963deaec90eae5",
+      "ae3142996b0aea13df1788a2017197d0",
+      "f4a14060ac219a25db9ab51cff6d514b",
+      "58731a20c87919a9157166e761fdc27f"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": true
   },
   {
-    "file": "public/assets/videos/nepal-mobile.webm",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.968157
+    "file": "public/assets/videos/nepal-montage-v1-mobile.webm",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "c34b739aa45945766ad8ad131fd0b7db",
+      "c1c3ea60df55e717c466105a4ac34980",
+      "db57f71a4afe8c214a9da67e75899b0f",
+      "ee160fb9aafcbed948a7062850fbf216",
+      "b4b89bcfe104478c5dfe754fc7a6d0fb",
+      "56ae3fca2dcdeb542f5200cfbf1d9869",
+      "a38045a40e336a767d1c2ef8cac59d30",
+      "74d4d4183743aa1d3714d18611420557"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": false
   },
   {
-    "file": "public/assets/videos/nepal-desktop.mp4",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.977633
+    "file": "public/assets/videos/nepal-montage-v1-desktop.mp4",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "36ebfc6d13b6f5a3258393b8e6599444",
+      "1b13f06e631c1e1d9e6ef451746aea66",
+      "2a0ec1c03559e5952c6cf8a7cda7c7ed",
+      "a14cd4a577dfc16daae59af7b0c6e16e",
+      "bfb13da9b3c39a19de984cc52e85559e",
+      "45edd0b3f2198046828da9e6cb95a010",
+      "51ef602a8e130f45a7856a562a6650d7",
+      "1eddbcefc04271322fb640256073f3b2"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": true
   },
   {
-    "file": "public/assets/videos/nepal-desktop.webm",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.977928
+    "file": "public/assets/videos/nepal-montage-v1-desktop.webm",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "585eed2f147140e60c3672236f1b2773",
+      "099a74bbfac891139d6aeefb56a6f489",
+      "a2642acc1a0b39db6f7c7168ddb1d608",
+      "b206f39f2ab9c0fc53b8b0110c7e634e",
+      "7e5b606651aa75d3ff4a14f2edabf1bd",
+      "764d14493198b050cd66685af00e518f",
+      "efa93aa30a2d83088aa6e72031456641",
+      "116f068f220695e1b6841334c9151595"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": false
   },
   {
-    "file": "public/assets/videos/dubai-mobile.mp4",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.973663
+    "file": "public/assets/videos/dubai-montage-v1-mobile.mp4",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "a8a61749ceabecf355c575c4f8e98c23",
+      "0c70c7572702f94ad5fa04e5b0210692",
+      "3b5f7f3ea8396d97ba695395c95a4561",
+      "8675cbe05412a1c2e3b2b072c2444c1a",
+      "285e5e1afb69c5cbd227704f39318a55",
+      "69472829ba8656e9fdbe9e49d398afdc",
+      "58292227eb78513d47b6e6df729a4c73",
+      "12d6f38de4c0fbedab76f3328a21ef53"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": true
   },
   {
-    "file": "public/assets/videos/dubai-mobile.webm",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.983534
+    "file": "public/assets/videos/dubai-montage-v1-mobile.webm",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "234510f2aadfea5f1774048fed897c5d",
+      "04d5b7c3f94280daa1c46a9b14a94f6e",
+      "0911c51f935e8e19d1a69d2b7d364299",
+      "fb3f00b004e6a5f936b58b1ac78aa232",
+      "c6c655b1d034763eb6fafd099a39cea1",
+      "7dcb26ea5a86ff9d4cb90a6b497ec9f6",
+      "f63281eab9eef4202b97e875782dd901",
+      "916f9207ab2bb809d8b98201354796ec"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": false
   },
   {
-    "file": "public/assets/videos/dubai-desktop.mp4",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.983881
+    "file": "public/assets/videos/dubai-montage-v1-desktop.mp4",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "7f23bebbc888178c1d0340b8ead1b7e3",
+      "72df48be6634d36f35b9ba45c0b7b633",
+      "29a121c7461ebd5932ae570936c0f608",
+      "1c9645474f74cd9c9a8dfe06d0f4ebe1",
+      "f27be38b22b2565a97e27efa7b7c714b",
+      "91fa58c1d565c4e5ab0a1b0961ee12ad",
+      "57a1e3de0d6d1e3147db4a560682d044",
+      "9368f8d37101d159eada05af74d11e69"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": true
   },
   {
-    "file": "public/assets/videos/dubai-desktop.webm",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.986827
+    "file": "public/assets/videos/dubai-montage-v1-desktop.webm",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "a04cc12c66564a90907b010da373afbc",
+      "cb949a43bcbeb2cf54bddd2999dd22d0",
+      "e96dd1283560a788be68c9fdfc93f5a0",
+      "de07a14177e2ee85b3bcd05e616317b6",
+      "b885e70e938fde1373ddbd8c382ba2c7",
+      "73192680a6bc2fc67f71fc89c5f814f7",
+      "30ebed4aaeef7abc8fbf0de9ec76282a",
+      "61f1076853b540138a6ed52833e3c1d3"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": false
   },
   {
-    "file": "public/assets/videos/kerala-mobile.mp4",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.966568
+    "file": "public/assets/videos/kerala-montage-v1-mobile.mp4",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "7fd02c9ad688bcb0dfd87fcadcd25f6d",
+      "4a44b98b044369bb680556cbc0ecfcec",
+      "8a5e9b3dd0edd05e0c036901e295fea0",
+      "acd0de4da7dfe00c8cfb5fe703db48ba",
+      "beb5554e6df5c1492674ef8948bcab3e",
+      "e9e840322d77612521c70f0c090256d1",
+      "65a5a3ed03f97a2b00add8b7ec6549a7",
+      "c09d50cfcf79ec19f9d44d7f8e4e1211"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": true
   },
   {
-    "file": "public/assets/videos/kerala-mobile.webm",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.971794
+    "file": "public/assets/videos/kerala-montage-v1-mobile.webm",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "d8114f072b6cd805aeeab11db52fbc22",
+      "e24b7cac2511596d41e01b8639dcd4e3",
+      "c0d0f2676e88e546f00da0a82718092e",
+      "5edbb417fd4a53cc3a46bc72d9782eb6",
+      "825724b6f8a5ee2ea41afd4a90f53ade",
+      "5069672bc6b26482a06cd0f920a53ab2",
+      "bbf5d14bf8997307fa6a22fa4d9dd71d",
+      "dd94c90b857b683e3e9c60b8234876dc"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": false
   },
   {
-    "file": "public/assets/videos/kerala-desktop.mp4",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.980177
+    "file": "public/assets/videos/kerala-montage-v1-desktop.mp4",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "f134c2ccb0fd294b0b41add6ee41b69d",
+      "3de62a2cd4cef2ca4c3f95f74803a153",
+      "6e445e32c5a21c212952a495cf8096a6",
+      "72851575028b97570eeb60b6959d3781",
+      "02450606377f2d3ff94d4ba73606ff59",
+      "b5df19a1fef15f3339f5fb4df36edb84",
+      "5026e3055a8b8a78196d4d864e685165",
+      "d2d37d89d8a1e0cc4542aa921fef2aba"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": true
   },
   {
-    "file": "public/assets/videos/kerala-desktop.webm",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.976414
+    "file": "public/assets/videos/kerala-montage-v1-desktop.webm",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "55d191fda8484b5587603d2a1f98eaea",
+      "24e252e58a5c5f687a530b44b52d6961",
+      "3d6884b56b118f2c0cad176fa5ebdc72",
+      "db429d7ac05e7ceb9a722ef9621cdb2a",
+      "710acba1a300b32c8cdc85c07c70dd27",
+      "0d6aa563e1bb59b282a16616e1bfb6fe",
+      "29e1893508fd25806dd700c7039415fe",
+      "b67916d6c284183d244403a94a3549c9"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": false
   },
   {
-    "file": "public/assets/videos/kashmir-mobile.mp4",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.969455
+    "file": "public/assets/videos/kashmir-montage-v1-mobile.mp4",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "00b31cf7ba0e252cb7b6be6455ada69d",
+      "2bd965abfd57bcdb50dfd6ee9bc1f149",
+      "938009707a6c56612ac86ec1a221e071",
+      "2c2bd4969125d9c447e4680c88b75d59",
+      "90281983a0f97429f45c449c4679a01f",
+      "91eb01835dada00f04443b39f4887c40",
+      "2c87a688d880aa04519255f70a3630cc",
+      "ce8dfb5e80000a9ec1c3be4ad5115004"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": true
   },
   {
-    "file": "public/assets/videos/kashmir-mobile.webm",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.975241
+    "file": "public/assets/videos/kashmir-montage-v1-mobile.webm",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "db4d75ffc21fc62e0bfe08162855ff34",
+      "06e3497ac68efa89b6e10959d974b01f",
+      "8d633c1250b4a259e4fc6eee09f5cd16",
+      "fb00890caf66e85eeaa4cdcb329e1a07",
+      "4680473c6e4072e054fb5a9f435ab53d",
+      "1a71f05e6c0fe905dd9cff41449f918e",
+      "179d0a22fb36d7e2fa75c6dd8d086512",
+      "9825c122b7d526cf41f308e459d0ec38"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": false
   },
   {
-    "file": "public/assets/videos/kashmir-desktop.mp4",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.980894
+    "file": "public/assets/videos/kashmir-montage-v1-desktop.mp4",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "81c281bbe9366f59a3c9c821669de859",
+      "5fed7e4da825393260aca15e54224965",
+      "797e92b8352aa268a32fa063552ea4b2",
+      "ff0443ea5a20e99e9e1f0a565a871af5",
+      "17e7956157a0f7e3b6e00e932d34f733",
+      "471b83f9382d3ae4161caa78c79de5f7",
+      "775a809ea6eeab9d4f800a5a1e30b85e",
+      "a1584dce80efcb65533226788419399c"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": true
   },
   {
-    "file": "public/assets/videos/kashmir-desktop.webm",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.981131
+    "file": "public/assets/videos/kashmir-montage-v1-desktop.webm",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "449730f2ec3119c33b4bfcb0b6525f5f",
+      "773de6bf3f0332b120b4784567ba4d81",
+      "d74398778572c0feed40bf526e481c0e",
+      "0c9b5aaa74668d3dcc34a660b8545036",
+      "bba0c78e1a6145684fbc447e04e03eab",
+      "3911c69521cf854267231f53de5f7f73",
+      "1013aa10edf8d38ebfd0d592fcd4e4d1",
+      "8aaf7704b1e38d5b874da2e17e21dfcb"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": false
   },
   {
-    "file": "public/assets/videos/sikkim-mobile.mp4",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.956657
+    "file": "public/assets/videos/sikkim-montage-v1-mobile.mp4",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "307d04b9592f8540c50c8f5e64df71bf",
+      "6ab0124753a6a6b8a011f350c4885f53",
+      "48d1e45971c3a920b8f4860c1cb942e2",
+      "a29c1f8249cd54dfd8dd78d44301aeae",
+      "340c0e81302e30a9c5a79fccc2e097fa",
+      "1b7ccf87611ef8c4dbd7850c6871a4aa",
+      "daa0a7427fed3f2a9e5adb2bf0f5078b",
+      "9d1733da91bf23d76e2e5c3f9d4ffe7a"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": true
   },
   {
-    "file": "public/assets/videos/sikkim-mobile.webm",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.966685
+    "file": "public/assets/videos/sikkim-montage-v1-mobile.webm",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "fd44330e5f110be0b2fc22325edbe96c",
+      "1b71421fbff8f1593eb76340002b2f7e",
+      "fe3ffc83cf18bba994111f9fcd6c7403",
+      "b30d6dabba6c2e3631a002c5ac670559",
+      "2e824906e06fab041b0977571422b470",
+      "7f4ed16f242be6073eab777e70d335ae",
+      "3a1a417908154cd5e7d6b4a3b872a329",
+      "4e14e35aab9de335e26e53c6bb00f8e3"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": false
   },
   {
-    "file": "public/assets/videos/sikkim-desktop.mp4",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.970497
+    "file": "public/assets/videos/sikkim-montage-v1-desktop.mp4",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "455e19f94777f43d536ebfd7dce50562",
+      "fac14e99acc5937d7cd42bc7743c9dcd",
+      "13b2c46fa6452c51ecc3e132cd3a60d1",
+      "864d531d220a3be9ac996b4b3e7b0748",
+      "455a9dc9f56736f8e98cb06e21e8e93f",
+      "3200935ab6559feb55ac95adc6355308",
+      "1fb85c157e8e3ed0b4595b7f5ad812ba",
+      "51e5c2e726bdcac375a2fb14220bcb7f"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": true
   },
   {
-    "file": "public/assets/videos/sikkim-desktop.webm",
-    "sampleSeconds": 2,
-    "ssimAgainstResizedOriginal": 0.977525
+    "file": "public/assets/videos/sikkim-montage-v1-desktop.webm",
+    "seconds": 40.0,
+    "frames": 1200,
+    "sourceClips": 8,
+    "secondsPerClip": 5,
+    "decodedSceneFingerprints": [
+      "7f474fc156d1719ee6434c39dc2fd7a5",
+      "99c1073b02b2c8bc48dcbc2f487c68c6",
+      "4c55ae61656d0b2e8318e37d29cb1ca6",
+      "e40c079b3dad693be6d63e2c913ef097",
+      "909d333a5135e7e571e79b553f128b83",
+      "5b5db61d433b7a49936dbb5f01ffa69d",
+      "0fd04143fb4b338c66e0534de6af73ef",
+      "65282ccf25f1bde01e4d8a1b49468e4f"
+    ],
+    "distinctDecodedScenes": 8,
+    "silent": true,
+    "fastStart": false
   }
 ]

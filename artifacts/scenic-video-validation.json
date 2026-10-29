@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-29T06:45:08.967Z",
+  "checkedAt": "2026-10-29T07:35:05.513Z",
   "checks": [
     "Mobile playback is deferred; pause persists; offscreen video stops",
     "Desktop selects full-HD footage; preference change stops and unloads it",
     "reduced: no automatic video download; explicit play works",
     "save-data: no automatic video download; explicit play works",
     "3g: no automatic video download; explicit play works",
-    "All mapped tours and five destinations show the correct clip; all five mobile clips play; MP4 byte-range streaming works",
+    "All mapped tours and five destinations show the correct montage; five mobile videos play for 40 seconds and decode scene eight at 37.5 seconds; MP4 byte ranges work",
     "WebM fallback plays when MP4 cannot load",
     "No-JS image fallback is visible without inert controls; no page runtime errors"
   ]

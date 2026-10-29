@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 
 type Props = {
   id: string;
+  assetBase?: string;
   label: string;
   fallback: string;
   alt: string;
@@ -16,6 +17,7 @@ type Props = {
 /** Progressive enhancement: no video URL or download until visible and eligible. */
 export default function ScenicVideo({
   id,
+  assetBase = id,
   label,
   fallback,
   alt,
@@ -42,7 +44,7 @@ export default function ScenicVideo({
         ? 'mp4'
         : 'webm';
       element.dataset.variant = variant;
-      element.src = `/assets/videos/${id}-${variant}.${format}`;
+      element.src = `/assets/videos/${assetBase}-${variant}.${format}`;
       element.muted = true;
       loaded.current = true;
       fallbackTried.current = false;
@@ -131,7 +133,7 @@ export default function ScenicVideo({
     };
     // id identifies an immutable clip; props do not change without remounting.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [id]);
+  }, [id, assetBase]);
 
   return (
     <div className={`scenic-media ${ready ? 'is-playing-frame' : ''}`}>
@@ -161,7 +163,7 @@ export default function ScenicVideo({
           if (element && loaded.current && !fallbackTried.current) {
             fallbackTried.current = true;
             const format = element.src.endsWith('.mp4') ? 'webm' : 'mp4';
-            element.src = `/assets/videos/${id}-${element.dataset.variant || 'mobile'}.${format}`;
+            element.src = `/assets/videos/${assetBase}-${element.dataset.variant || 'mobile'}.${format}`;
             if (!stopped.current)
               void element.play().catch(() => setPlaying(false));
           } else {

@@ -28,7 +28,10 @@ try {
   await page.goto(origin, { waitUntil: 'domcontentloaded' });
   assert.equal(await page.locator('video').getAttribute('src'), null);
   await playback(page);
-  assert.match(await page.locator('video').getAttribute('src'), /nepal-mobile/);
+  assert.match(
+    await page.locator('video').getAttribute('src'),
+    /nepal-montage-v1-mobile/,
+  );
   await page.screenshot({ path: 'artifacts/scenic-video-mobile.png' });
   await page.getByRole('button', { name: /Pause scenery video/ }).click();
   assert(await page.locator('video').evaluate((v) => v.paused));
@@ -54,7 +57,7 @@ try {
   await playback(page);
   assert.match(
     await page.locator('video').getAttribute('src'),
-    /dubai-desktop/,
+    /dubai-montage-v1-desktop/,
   );
   assert.equal(await page.locator('video').evaluate((v) => v.videoWidth), 1920);
   await page.screenshot({ path: 'artifacts/scenic-video-desktop.png' });
@@ -126,7 +129,7 @@ try {
       );
     }
     const response = await page.request.get(
-      `${origin}/assets/videos/${clip.id}-mobile.mp4`,
+      `${origin}/assets/videos/${clip.assetBase}-mobile.mp4`,
       { headers: { Range: 'bytes=0-1023' } },
     );
     assert.equal(response.status(), 206);
@@ -136,7 +139,24 @@ try {
     await playback(page);
     assert.match(
       await page.locator('video').getAttribute('src'),
-      new RegExp(`${clip.id}-mobile`),
+      new RegExp(`${clip.assetBase}-mobile`),
+    );
+    assert(
+      Math.abs((await page.locator('video').evaluate((v) => v.duration)) - 40) <
+        0.1,
+    );
+    await page.locator('video').evaluate(async (v) => {
+      v.pause();
+      const sought = new Promise((resolve) =>
+        v.addEventListener('seeked', resolve, { once: true }),
+      );
+      v.currentTime = 37.5;
+      await sought;
+    });
+    assert(
+      await page
+        .locator('video')
+        .evaluate((v) => v.currentTime > 37 && v.readyState >= 2),
     );
     if (clip.id === 'sikkim')
       await page.screenshot({
@@ -144,7 +164,7 @@ try {
       });
   }
   report.checks.push(
-    'All mapped tours and five destinations show the correct clip; all five mobile clips play; MP4 byte-range streaming works',
+    'All mapped tours and five destinations show the correct montage; five mobile videos play for 40 seconds and decode scene eight at 37.5 seconds; MP4 byte ranges work',
   );
   const fallback = await browser.newPage({
     viewport: { width: 390, height: 844 },
