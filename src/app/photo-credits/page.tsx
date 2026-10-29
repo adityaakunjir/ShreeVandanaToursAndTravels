@@ -54,40 +54,42 @@ export default function PhotoCredits() {
                 .
               </p>
             )}
-            <details className="montage-shot-credits">
-              <summary>View all eight source clips and creator credits</summary>
-              <ol>
-                {clip.shots.map((shot, index) => (
-                  <li key={shot.id}>
-                    <strong>
-                      {String(index * 5).padStart(2, '0')}–
-                      {String((index + 1) * 5).padStart(2, '0')} seconds:{' '}
-                      {shot.label}
-                    </strong>
-                    <p>
-                      By {shot.author}.{' '}
-                      <a
-                        href={shot.source}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Original source clip
-                      </a>{' '}
-                      ·{' '}
-                      <a
-                        href={shot.licenseUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {shot.license}
-                      </a>
-                      . Licence checked {shot.checked}. A five-second excerpt is
-                      cropped, resized, silenced and joined into this montage.
-                    </p>
-                  </li>
-                ))}
-              </ol>
-            </details>
+            {clip.shots && (
+              <details className="montage-shot-credits">
+                <summary>View all eight source clips and creator credits</summary>
+                <ol>
+                  {clip.shots.map((shot, index) => (
+                    <li key={shot.id}>
+                      <strong>
+                        {String(index * 5).padStart(2, '0')}–
+                        {String((index + 1) * 5).padStart(2, '0')} seconds:{' '}
+                        {shot.label}
+                      </strong>
+                      <p>
+                        By {shot.author}.{' '}
+                        <a
+                          href={shot.source}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Original source clip
+                        </a>{' '}
+                        ·{' '}
+                        <a
+                          href={shot.licenseUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {shot.license}
+                        </a>
+                        . Licence checked {shot.checked}. A five-second excerpt is
+                        cropped, resized, silenced and joined into this montage.
+                      </p>
+                    </li>
+                  ))}
+                </ol>
+              </details>
+            )}
           </article>
         ))}
         {photos.map((photo) => (

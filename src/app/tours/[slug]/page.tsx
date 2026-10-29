@@ -14,6 +14,7 @@ import { tourPhoto, tourEnquiryContext } from '@/data/catalogue';
 import JournalCover from '@/components/JournalCover';
 import ScenicVideo from '@/components/ScenicVideo';
 import VideoCredit from '@/components/VideoCredit';
+import ParallaxHero from '@/components/ParallaxHero';
 import { videoForTour } from '@/lib/destination-videos';
 export function generateStaticParams() {
   return tours.map((t) => ({ slug: t.slug }));
@@ -92,47 +93,55 @@ export default async function TourPage({
     })
     .slice(0, 3);
   return (
-    <main className="brochure-detail wrap">
-      <Breadcrumb
-        items={[
-          { name: 'Home', path: '/' },
-          { name: 'Our tours', path: '/tours' },
-          { name: tour.name, path: `/tours/${tour.slug}` },
-        ]}
-      />
+    <main className="brochure-detail">
+      <div className="wrap">
+        <Breadcrumb
+          items={[
+            { name: 'Home', path: '/' },
+            { name: 'Our tours', path: '/tours' },
+            { name: tour.name, path: `/tours/${tour.slug}` },
+          ]}
+        />
+      </div>
       {photo && (
-        <figure className="tour-photo-figure">
-          <div className="tour-photo-window">
-            {clip ? (
-              <ScenicVideo
-                key={clip.id}
-                id={clip.id}
-                assetBase={clip.assetBase}
-                label={clip.label}
-                fallback={photo.src}
-                alt={photo.alt}
-                sizes="(max-width: 1300px) 92vw, 1200px"
-                priority
-              />
-            ) : (
-              <Image
-                src={photo.src}
-                alt={photo.alt}
-                fill
-                sizes="(max-width: 1300px) 92vw, 1200px"
-                quality={60}
-                loading="eager"
-                fetchPriority="high"
-              />
-            )}
+        <figure className="tour-hero-fullscreen">
+          <ParallaxHero speed={0.28} className="tour-hero-parallax">
+            <div className="tour-photo-window">
+              {clip ? (
+                <ScenicVideo
+                  key={clip.id}
+                  id={clip.id}
+                  assetBase={clip.assetBase}
+                  label={clip.label}
+                  fallback={photo.src}
+                  alt={photo.alt}
+                  sizes="100vw"
+                  priority
+                />
+              ) : (
+                <Image
+                  src={photo.src}
+                  alt={photo.alt}
+                  fill
+                  sizes="100vw"
+                  quality={88}
+                  loading="eager"
+                  fetchPriority="high"
+                />
+              )}
+            </div>
+          </ParallaxHero>
+          <div className="tour-hero-shade" />
+          <div className="wrap tour-hero-content">
             <div className="tour-photo-heading">
-              <p>
+              <p className="eyebrow">
                 {tour.region} · {duration} days
               </p>
               <h1>{tour.name}</h1>
+              <p className="tour-hero-summary">{tour.summary}</p>
             </div>
           </div>
-          <figcaption>
+          <figcaption className="wrap tour-hero-caption">
             <span>{photo.alt}</span>
             <Link href={`/photo-credits#${photo.slug}`}>
               Photo: {photo.author} · {photo.license}
@@ -142,29 +151,32 @@ export default async function TourPage({
         </figure>
       )}
       {!photo && (
-        <section className="journal-detail-hero">
-          <JournalCover tour={tour} hero />
-          <h1>{tour.name}</h1>
-          <p>
-            {tour.country} ·{' '}
-            {tour.nights !== null ? `${tour.nights} nights / ` : ''}
-            {duration} days · Tour outline
-          </p>
-        </section>
+        <div className="wrap">
+          <section className="journal-detail-hero">
+            <JournalCover tour={tour} hero />
+            <h1>{tour.name}</h1>
+            <p>
+              {tour.country} ·{' '}
+              {tour.nights !== null ? `${tour.nights} nights / ` : ''}
+              {duration} days · Tour outline
+            </p>
+          </section>
+        </div>
       )}
-      <nav className="tour-section-nav" aria-label="On this tour page">
-        <a href="#itinerary">The itinerary</a>
-        <a href="#inclusions">What’s included</a>
-        <a href="#before-you-go">Before you go</a>
-      </nav>
-      <div className="tour-detail-tools">
-        <SaveRealTour slug={tour.slug} name={tour.name} />
-        <ShareTour />
-        <Link href="/tours/compare" className="text-link">
-          Compare journeys
-        </Link>
-      </div>
-      <div className="brochure-detail-hero">
+      <div className="wrap">
+        <nav className="tour-section-nav" aria-label="On this tour page">
+          <a href="#itinerary">The itinerary</a>
+          <a href="#inclusions">What’s included</a>
+          <a href="#before-you-go">Before you go</a>
+        </nav>
+        <div className="tour-detail-tools">
+          <SaveRealTour slug={tour.slug} name={tour.name} />
+          <ShareTour />
+          <Link href="/tours/compare" className="text-link">
+            Compare journeys
+          </Link>
+        </div>
+        <div className="brochure-detail-hero">
         <div>
           <p className="eyebrow">
             {tour.region} · {tour.theme} · {duration} days
@@ -369,6 +381,7 @@ export default async function TourPage({
           ))}
         </div>
       </section>
+      </div>
     </main>
   );
 }

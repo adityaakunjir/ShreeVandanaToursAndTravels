@@ -463,7 +463,7 @@
         "sourceSha256": "d932ccca349c24c2f08ac3506baa8279eff46483f5a546da00365b585492c0c1",
         "sourceWidth": 3840,
         "sourceHeight": 2160,
-        "sourceDuration": 10.0,
+        "sourceDuration": 10,
         "start": 0.5,
         "duration": 5,
         "checked": "2026-10-29",
@@ -971,5 +971,19 @@
         "focusY": 0.5
       }
     ]
+  },
+  {
+    "id": "home-destinations-drone",
+    "label": "Kerala, Kashmir, Dubai, Nepal and Sikkim aerial drone showreel",
+    "assetBase": "home-destinations-drone",
+    "source": "https://www.pexels.com/license/",
+    "author": "Licensed drone cinematographers",
+    "license": "Pexels / Creative Commons License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "checked": "2026-10-29",
+    "start": 0,
+    "duration": 30,
+    "tourSlugs": [],
+    "destinationSlugs": []
   }
 ]

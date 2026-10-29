@@ -92,3 +92,323 @@
 .montage-shot-credits li { padding-block: 16px; font-size: 14px; }
 .montage-shot-credits li + li { border-top: 1px solid var(--border); }
 .montage-shot-credits li p { font-size: 13px; line-height: 1.65; }
+
+/* ============================================================
+   Full-Screen Tour Video Hero with Parallax Animation
+   ============================================================ */
+.tour-hero-fullscreen {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  min-height: 82vh;
+  max-height: 900px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: #101a22;
+  color: #fff;
+  margin-top: 14px;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+  .tour-hero-fullscreen {
+    min-height: 72vh;
+  }
+}
+
+.tour-hero-parallax {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tour-hero-fullscreen .tour-photo-window {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+  border-radius: 0 !important;
+  background: transparent;
+}
+
+.tour-hero-shade {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(16, 26, 34, 0.45) 0%, rgba(16, 26, 34, 0.1) 40%, rgba(16, 26, 34, 0.9) 100%),
+    radial-gradient(circle at 50% 50%, transparent 40%, rgba(16, 26, 34, 0.4) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.tour-hero-content {
+  position: relative;
+  z-index: 2;
+  padding-bottom: 24px;
+}
+
+.tour-hero-fullscreen .tour-photo-heading {
+  position: relative;
+  inset: auto;
+  padding: 0;
+  max-width: 860px;
+}
+
+.tour-hero-fullscreen .tour-photo-heading .eyebrow {
+  color: #f2d5c0;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.tour-hero-fullscreen .tour-photo-heading h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(38px, 6vw, 68px);
+  font-weight: 500;
+  line-height: 1.06;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.6);
+  margin: 0 0 14px;
+}
+
+.tour-hero-summary {
+  font-size: clamp(14px, 1.8vw, 17px);
+  line-height: 1.6;
+  color: #e2eaf0;
+  max-width: 680px;
+  margin-bottom: 22px;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.tour-hero-caption {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 14px;
+  padding-bottom: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 12px;
+}
+
+.tour-hero-caption a {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ============================================================
+   Full-Screen Home Hero with Scenic Drone Showcase & Parallax
+   ============================================================ */
+.home-hero-fullscreen {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  min-height: 86vh;
+  max-height: 940px;
+  margin-top: 0;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .home-hero-fullscreen {
+    min-height: 78vh;
+  }
+}
+
+.home-hero-parallax {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home-hero-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.home-hero-fullscreen .curated-hero-copy {
+  padding: 0;
+  max-width: 780px;
+  margin-bottom: 34px;
+}
+
+.home-hero-fullscreen .curated-hero-copy h1 {
+  font-family: Georgia, serif;
+  font-size: clamp(44px, 7vw, 76px);
+  font-weight: 500;
+  line-height: 1.02;
+  letter-spacing: -0.045em;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.6);
+}
+
+.home-hero-fullscreen .curated-hero-copy p {
+  font-size: clamp(15px, 2vw, 18px);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Drone Destination Selector Pills */
+.home-drone-selector {
+  margin-top: 10px;
+  max-width: 820px;
+}
+
+.drone-selector-heading {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: #f2d5c0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.drone-pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.drone-pill {
+  appearance: none;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(18, 34, 31, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 220ms cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.drone-pill:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.drone-pill.is-active {
+  background: #ffffff;
+  color: #12221f;
+  border-color: #ffffff;
+  font-weight: 600;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+}
+
+.drone-active-tagline {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.88);
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  padding: 5px 12px;
+  border-radius: 16px;
+}
+
+.home-hero-bottom-bar {
+  position: relative;
+  z-index: 2;
+  inset: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.22);
+  padding-block: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-credit-link {
+  color: rgba(255, 255, 255, 0.85);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ============================================================
+   Parallax Animation Mechanics
+   ============================================================ */
+.parallax-hero-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.parallax-hero-track {
+  position: absolute;
+  inset: -18% 0 -18% 0;
+  height: 136%;
+  width: 100%;
+  will-change: transform;
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .parallax-hero-wrapper {
+      view-timeline-name: --parallax-track;
+      view-timeline-axis: block;
+    }
+    .parallax-hero-track {
+      animation: parallax-shift linear both;
+      animation-timeline: --parallax-track;
+      animation-range: entry 0% exit 100%;
+    }
+    @keyframes parallax-shift {
+      from {
+        transform: translateY(-8%);
+      }
+      to {
+        transform: translateY(8%);
+      }
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .parallax-hero-track {
+    inset: 0 !important;
+    height: 100% !important;
+    transform: none !important;
+    animation: none !important;
+  }
+}
+

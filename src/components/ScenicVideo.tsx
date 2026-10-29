@@ -12,6 +12,7 @@ type Props = {
   alt: string;
   sizes: string;
   priority?: boolean;
+  className?: string;
 };
 
 /** Progressive enhancement: no video URL or download until visible and eligible. */
@@ -23,6 +24,7 @@ export default function ScenicVideo({
   alt,
   sizes,
   priority = false,
+  className = '',
 }: Props) {
   const video = useRef<HTMLVideoElement>(null);
   const stopped = useRef(false);
@@ -30,13 +32,14 @@ export default function ScenicVideo({
   const visible = useRef(false);
   const loaded = useRef(false);
   const fallbackTried = useRef(false);
+  const currentAssetBase = useRef(assetBase);
   const [ready, setReady] = useState(false);
   const [playing, setPlaying] = useState(false);
 
   function loadAndPlay() {
     const element = video.current;
     if (!element) return;
-    if (!loaded.current) {
+    if (!loaded.current || currentAssetBase.current !== assetBase) {
       const variant = window.matchMedia('(max-width: 900px)').matches
         ? 'mobile'
         : 'desktop';
@@ -47,6 +50,7 @@ export default function ScenicVideo({
       element.src = `/assets/videos/${assetBase}-${variant}.${format}`;
       element.muted = true;
       loaded.current = true;
+      currentAssetBase.current = assetBase;
       fallbackTried.current = false;
       element.load();
     }
@@ -136,13 +140,13 @@ export default function ScenicVideo({
   }, [id, assetBase]);
 
   return (
-    <div className={`scenic-media ${ready ? 'is-playing-frame' : ''}`}>
+    <div className={`scenic-media ${ready ? 'is-playing-frame' : ''} ${className}`}>
       <Image
         src={fallback}
         alt={alt}
         fill
         sizes={sizes}
-        quality={60}
+        quality={88}
         loading={priority ? 'eager' : 'lazy'}
         fetchPriority={priority ? 'high' : undefined}
       />
