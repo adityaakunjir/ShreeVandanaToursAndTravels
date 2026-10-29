@@ -1,0 +1,102 @@
+[
+  {
+    "file": "public/assets/videos/nepal-mobile.mp4",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.962846
+  },
+  {
+    "file": "public/assets/videos/nepal-mobile.webm",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.968157
+  },
+  {
+    "file": "public/assets/videos/nepal-desktop.mp4",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.977633
+  },
+  {
+    "file": "public/assets/videos/nepal-desktop.webm",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.977928
+  },
+  {
+    "file": "public/assets/videos/dubai-mobile.mp4",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.973663
+  },
+  {
+    "file": "public/assets/videos/dubai-mobile.webm",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.983534
+  },
+  {
+    "file": "public/assets/videos/dubai-desktop.mp4",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.983881
+  },
+  {
+    "file": "public/assets/videos/dubai-desktop.webm",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.986827
+  },
+  {
+    "file": "public/assets/videos/kerala-mobile.mp4",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.966568
+  },
+  {
+    "file": "public/assets/videos/kerala-mobile.webm",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.971794
+  },
+  {
+    "file": "public/assets/videos/kerala-desktop.mp4",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.980177
+  },
+  {
+    "file": "public/assets/videos/kerala-desktop.webm",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.976414
+  },
+  {
+    "file": "public/assets/videos/kashmir-mobile.mp4",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.969455
+  },
+  {
+    "file": "public/assets/videos/kashmir-mobile.webm",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.975241
+  },
+  {
+    "file": "public/assets/videos/kashmir-desktop.mp4",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.980894
+  },
+  {
+    "file": "public/assets/videos/kashmir-desktop.webm",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.981131
+  },
+  {
+    "file": "public/assets/videos/sikkim-mobile.mp4",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.956657
+  },
+  {
+    "file": "public/assets/videos/sikkim-mobile.webm",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.966685
+  },
+  {
+    "file": "public/assets/videos/sikkim-desktop.mp4",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.970497
+  },
+  {
+    "file": "public/assets/videos/sikkim-desktop.webm",
+    "sampleSeconds": 2,
+    "ssimAgainstResizedOriginal": 0.977525
+  }
+]

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import ScenicVideo from '@/components/ScenicVideo';
 import Link from 'next/link';
 import { ArrowUpRight, MapPin, Users, HeartHandshake } from 'lucide-react';
 import { destinations } from '@/data/site';
@@ -18,14 +18,13 @@ export default function Home() {
       <BusinessStructuredData />
       <section className="curated-hero wrap">
         <div className="curated-hero-image">
-          <Image
-            src="/assets/images/tours/nepal.webp"
+          <ScenicVideo
+            id="nepal"
+            label="Phewa Lake, Pokhara, Nepal"
+            fallback="/assets/images/tours/nepal.webp"
             alt="The mountains and lakeside scenery of Pokhara, Nepal"
-            fill
             sizes="(max-width: 640px) 100vw, 1240px"
-            quality={60}
-            loading="eager"
-            fetchPriority="high"
+            priority
           />
         </div>
         <div className="curated-hero-shade" />
@@ -50,8 +49,8 @@ export default function Home() {
           </div>
         </div>
         <div className="curated-hero-bottom">
-          <Link href="/photo-credits#nepal">
-            <MapPin size={14} /> Pokhara, Nepal · Photo credits
+          <Link href="/photo-credits#video-nepal">
+            <MapPin size={14} /> Pokhara, Nepal · Media credits
           </Link>
         </div>
       </section>

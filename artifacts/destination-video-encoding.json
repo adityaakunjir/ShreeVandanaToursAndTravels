@@ -1,0 +1,252 @@
+[
+  {
+    "id": "nepal",
+    "sourceBytes": 11738072,
+    "sourceSha256": "4f45fb3f7ea20b0a40ed48c7f4b38e87c1dbcf34f4a5121f5eefef1c9cc349db",
+    "sourceWidth": 2048,
+    "sourceHeight": 966,
+    "sourceDuration": 15.743333,
+    "variants": [
+      {
+        "file": "public/assets/videos/nepal-mobile.mp4",
+        "bytes": 584774,
+        "sha256": "3f2b332c98453404ae0174770a91efd3bd63ec6fd642af591f6e00374e837615",
+        "width": 960,
+        "height": 452,
+        "duration": 8.0,
+        "codec": "h264",
+        "audioStreams": 0
+      },
+      {
+        "file": "public/assets/videos/nepal-mobile.webm",
+        "bytes": 639904,
+        "sha256": "5dac7a2ae7ee130024ec6af942da31053433972f88cb8a138b64c2f301d79df0",
+        "width": 960,
+        "height": 452,
+        "duration": 8.0,
+        "codec": "vp9",
+        "audioStreams": 0
+      },
+      {
+        "file": "public/assets/videos/nepal-desktop.mp4",
+        "bytes": 2270517,
+        "sha256": "c7678cbd43d6e90ebf5c9aa65be201c1be87279e5d4af698fab663f213f9f266",
+        "width": 1920,
+        "height": 906,
+        "duration": 8.0,
+        "codec": "h264",
+        "audioStreams": 0
+      },
+      {
+        "file": "public/assets/videos/nepal-desktop.webm",
+        "bytes": 2236890,
+        "sha256": "f653438224599dbbd03c10083f8632c3cd3eb7bae33cb62e99e77e8f8356d052",
+        "width": 1920,
+        "height": 906,
+        "duration": 8.0,
+        "codec": "vp9",
+        "audioStreams": 0
+      }
+    ]
+  },
+  {
+    "id": "dubai",
+    "sourceBytes": 32163163,
+    "sourceSha256": "c4d0898775e7e20c39b520dd123c23e49f0e37158edad75fcab5eef1c063f404",
+    "sourceWidth": 3840,
+    "sourceHeight": 2160,
+    "sourceDuration": 10.683333,
+    "variants": [
+      {
+        "file": "public/assets/videos/dubai-mobile.mp4",
+        "bytes": 1371246,
+        "sha256": "59502ca354654eec38020d8f336788aad49277981eb562627631a178dbf5aa37",
+        "width": 960,
+        "height": 540,
+        "duration": 8.0,
+        "codec": "h264",
+        "audioStreams": 0
+      },
+      {
+        "file": "public/assets/videos/dubai-mobile.webm",
+        "bytes": 1264438,
+        "sha256": "4d78d91022c7b847227fc54ba8d27f93dd87b485e75749d997d30aec78749ec0",
+        "width": 960,
+        "height": 540,
+        "duration": 8.0,
+        "codec": "vp9",
+        "audioStreams": 0
+      },
+      {
+        "file": "public/assets/videos/dubai-desktop.mp4",
+        "bytes": 4333949,
+        "sha256": "1668a8d8bf738c22e3d42d80cc311799bc32cec0fdfe8384452143b8ff5654eb",
+        "width": 1920,
+        "height": 1080,
+        "duration": 8.0,
+        "codec": "h264",
+        "audioStreams": 0
+      },
+      {
+        "file": "public/assets/videos/dubai-desktop.webm",
+        "bytes": 4199098,
+        "sha256": "6242f7e63e3acb2aee91ccbaab8d64d22694f7748bc2e9ea099c597360e1fcb9",
+        "width": 1920,
+        "height": 1080,
+        "duration": 8.0,
+        "codec": "vp9",
+        "audioStreams": 0
+      }
+    ]
+  },
+  {
+    "id": "kerala",
+    "sourceBytes": 16512643,
+    "sourceSha256": "5f5eacf972533a0a041262b383f4da5d21b4355df156b23854834980b11a7a0b",
+    "sourceWidth": 1920,
+    "sourceHeight": 1080,
+    "sourceDuration": 12.345667,
+    "variants": [
+      {
+        "file": "public/assets/videos/kerala-mobile.mp4",
+        "bytes": 1085786,
+        "sha256": "e230644449895b6821e7d8be03426ab5843d7c3f3ad16395075644d57d23b1e3",
+        "width": 960,
+        "height": 540,
+        "duration": 8.0,
+        "codec": "h264",
+        "audioStreams": 0
+      },
+      {
+        "file": "public/assets/videos/kerala-mobile.webm",
+        "bytes": 1189155,
+        "sha256": "41c433ee1742a6ee8106fb2e4d4274ab8984c020fb40c49713c0f483c024d12f",
+        "width": 960,
+        "height": 540,
+        "duration": 8.0,
+        "codec": "vp9",
+        "audioStreams": 0
+      },
+      {
+        "file": "public/assets/videos/kerala-desktop.mp4",
+        "bytes": 4969328,
+        "sha256": "03164ea5c564e4359f23de791714c090f05dfa5b6dc2b8cdf670b752812c2a9a",
+        "width": 1920,
+        "height": 1080,
+        "duration": 8.0,
+        "codec": "h264",
+        "audioStreams": 0
+      },
+      {
+        "file": "public/assets/videos/kerala-desktop.webm",
+        "bytes": 5321533,
+        "sha256": "a66795de959d4ca5ae44e2a4af1a76946cc34a05d7d6d439b1d07bff4fa28298",
+        "width": 1920,
+        "height": 1080,
+        "duration": 8.0,
+        "codec": "vp9",
+        "audioStreams": 0
+      }
+    ]
+  },
+  {
+    "id": "kashmir",
+    "sourceBytes": 50616775,
+    "sourceSha256": "3900192374b160968d6cf08bf504c41620785f7ccc67b6e789b6345ca1ca6c7f",
+    "sourceWidth": 3840,
+    "sourceHeight": 2160,
+    "sourceDuration": 9.3,
+    "variants": [
+      {
+        "file": "public/assets/videos/kashmir-mobile.mp4",
+        "bytes": 1064546,
+        "sha256": "a1b9836d5e53e45f7d5e291ca49b09f6ef2c51e0180421e4ab8c9b838535343b",
+        "width": 960,
+        "height": 540,
+        "duration": 8.0,
+        "codec": "h264",
+        "audioStreams": 0
+      },
+      {
+        "file": "public/assets/videos/kashmir-mobile.webm",
+        "bytes": 897867,
+        "sha256": "b7b7bf987d24ed094f06efc1eb948560e457de4acbf60816abbb7bbed87a4b66",
+        "width": 960,
+        "height": 540,
+        "duration": 8.0,
+        "codec": "vp9",
+        "audioStreams": 0
+      },
+      {
+        "file": "public/assets/videos/kashmir-desktop.mp4",
+        "bytes": 4270405,
+        "sha256": "e214dbd2ff857642f74da747ea09149f17963479ed8a28c01f5c9c542c01ba8d",
+        "width": 1920,
+        "height": 1080,
+        "duration": 8.0,
+        "codec": "h264",
+        "audioStreams": 0
+      },
+      {
+        "file": "public/assets/videos/kashmir-desktop.webm",
+        "bytes": 5006896,
+        "sha256": "de8ccd74813b96db403257a8d1bd1932d8a1b8d71fd2315128a718ba37fa6a08",
+        "width": 1920,
+        "height": 1080,
+        "duration": 8.0,
+        "codec": "vp9",
+        "audioStreams": 0
+      }
+    ]
+  },
+  {
+    "id": "sikkim",
+    "sourceBytes": 28181003,
+    "sourceSha256": "8554a139735a3d8ba3de166b46008ee592b213ebc687da59ad27107ea50364ce",
+    "sourceWidth": 1080,
+    "sourceHeight": 1920,
+    "sourceDuration": 19.052,
+    "variants": [
+      {
+        "file": "public/assets/videos/sikkim-mobile.mp4",
+        "bytes": 983693,
+        "sha256": "839c856d886bec3795572ab142967b9a692f653d436c01f0ba337427d5cacef3",
+        "width": 720,
+        "height": 720,
+        "duration": 3.966667,
+        "codec": "h264",
+        "audioStreams": 0
+      },
+      {
+        "file": "public/assets/videos/sikkim-mobile.webm",
+        "bytes": 1759731,
+        "sha256": "f8f8de48b45c39756dfef7830f4909f671b259829a8fb934a3356ba9306302f8",
+        "width": 720,
+        "height": 720,
+        "duration": 4.0,
+        "codec": "vp9",
+        "audioStreams": 0
+      },
+      {
+        "file": "public/assets/videos/sikkim-desktop.mp4",
+        "bytes": 2510403,
+        "sha256": "e8eeaa709d20a8d273fd2c2c02d1c854a59af8f9e3af5538b518d3a0c6e0d97b",
+        "width": 1080,
+        "height": 1080,
+        "duration": 3.966667,
+        "codec": "h264",
+        "audioStreams": 0
+      },
+      {
+        "file": "public/assets/videos/sikkim-desktop.webm",
+        "bytes": 3874685,
+        "sha256": "147d8d42c9dcb2ad955821e0bf6266990ed2d72508cb0312c0bf22f70dccae94",
+        "width": 1080,
+        "height": 1080,
+        "duration": 4.0,
+        "codec": "vp9",
+        "audioStreams": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "nepal",
+    "label": "Phewa Lake, Pokhara, Nepal",
+    "sourceFile": "nepal.mp4",
+    "source": "https://www.pexels.com/video/lakeside-pokhara-19351685/",
+    "downloadUrl": "https://videos.pexels.com/video-files/19351685/19351685-hd_2048_966_30fps.mp4",
+    "author": "pranish shrestha",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "checked": "2026-10-29",
+    "start": 1,
+    "duration": 8,
+    "tourSlugs": ["nepal", "nepal-8-days"],
+    "destinationSlugs": ["nepal"]
+  },
+  {
+    "id": "dubai",
+    "label": "Downtown Dubai skyline, United Arab Emirates",
+    "sourceFile": "dubai.mp4",
+    "source": "https://www.pexels.com/video/stunning-dubai-skyline-aerial-view-31257785/",
+    "downloadUrl": "https://videos.pexels.com/video-files/31257785/13349031_3840_2160_60fps.mp4",
+    "author": "Nelemson G",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "checked": "2026-10-29",
+    "start": 1,
+    "duration": 8,
+    "tourSlugs": ["dubai-abu-dhabi", "dubai-delight-6-days"],
+    "destinationSlugs": ["dubai", "united-arab-emirates"]
+  },
+  {
+    "id": "kerala",
+    "label": "Tea-covered hills in Munnar, Kerala",
+    "sourceFile": "kerala.mp4",
+    "source": "https://www.pexels.com/video/breathtaking-aerial-view-of-munnar-hills-35440633/",
+    "downloadUrl": "https://videos.pexels.com/video-files/35440633/15015047_1920_1080_60fps.mp4",
+    "author": "Anil Sharma",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "checked": "2026-10-29",
+    "start": 1,
+    "duration": 8,
+    "tourSlugs": [
+      "kerala-kanyakumari",
+      "kerala-6-days",
+      "kerala-with-kanyakumari-8-days",
+      "kerala-with-kanyakumari-rameswaram-madurai-10-days"
+    ],
+    "destinationSlugs": ["kerala"]
+  },
+  {
+    "id": "kashmir",
+    "label": "Dal Lake and surrounding mountains, Kashmir",
+    "sourceFile": "kashmir.mp4",
+    "source": "https://www.pexels.com/video/the-serene-and-majestic-beauty-of-dal-lake-in-kashmir-capturing-its-essence-as-a-tranquil-and-picturesque-destination-27114739/",
+    "downloadUrl": "https://videos.pexels.com/video-files/27114739/12076966_3840_2160_60fps.mp4",
+    "author": "Haziq Farooqi",
+    "license": "Pexels License",
+    "licenseUrl": "https://www.pexels.com/license/",
+    "checked": "2026-10-29",
+    "start": 0.5,
+    "duration": 8,
+    "tourSlugs": [
+      "kashmir-amritsar-vaishno-devi",
+      "kashmir-7-days",
+      "kashmir-with-vaishno-devi-9-days"
+    ],
+    "destinationSlugs": ["kashmir"]
+  },
+  {
+    "id": "sikkim",
+    "label": "Tsongmo Lake and surrounding mountains, Sikkim",
+    "sourceFile": "sikkim.webm",
+    "source": "https://commons.wikimedia.org/wiki/File:Tsongmo_Lake,_Sikkim,_2026.webm",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Tsongmo_Lake%2C_Sikkim%2C_2026.webm",
+    "author": "Rajani Gairshail",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "checked": "2026-10-29",
+    "start": 11.5,
+    "duration": 4,
+    "crop": "1080:1080:0:250",
+    "tourSlugs": [
+      "darjeeling-gangtok-pelling",
+      "sikkim-gangtok-pelling-darjeeling-8-days"
+    ],
+    "destinationSlugs": ["sikkim-darjeeling"]
+  }
+]

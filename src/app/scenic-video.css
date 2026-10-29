@@ -1,0 +1,90 @@
+.scenic-media {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+.scenic-media > img,
+.scenic-media > video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.scenic-media > video {
+  opacity: 0;
+  pointer-events: none;
+}
+.scenic-media.is-playing-frame > video {
+  opacity: 1;
+}
+.scenic-control {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 4;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 44px;
+  padding: 10px 13px;
+  border: 1px solid #ffffff60;
+  border-radius: 24px;
+  background: #14232ded;
+  color: #fff;
+  font:
+    550 11px var(--font-geist),
+    sans-serif;
+  cursor: pointer;
+}
+.scenic-control:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+.scenic-control[hidden] {
+  display: none;
+}
+.video-credit {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.5;
+  text-decoration: underline;
+}
+.curated-hero-image:has(.scenic-media) {
+  z-index: 0;
+  animation: none !important;
+  transform: none !important;
+}
+.curated-hero:has(.scenic-media) .curated-hero-shade {
+  z-index: 1;
+  pointer-events: none;
+}
+.curated-hero:has(.scenic-media) .curated-hero-copy {
+  position: relative;
+  z-index: 2;
+  pointer-events: none;
+}
+.curated-hero:has(.scenic-media) .curated-hero-copy a {
+  pointer-events: auto;
+}
+.curated-hero:has(.scenic-media) .curated-hero-bottom {
+  z-index: 2;
+}
+.curated-hero .scenic-control {
+  top: 4px;
+}
+.destination-detail-copy > .video-credit {
+  display: flex;
+  margin-bottom: 4px;
+}
+.tour-photo-window:has(.scenic-media) .tour-photo-heading {
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .scenic-media > video {
+    transition: opacity 350ms ease;
+  }
+}

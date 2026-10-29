@@ -12,6 +12,9 @@ import tours from '@/data/catalogue';
 import TourCard from '@/components/TourCard';
 import { destinationHubs } from '@/data/destination-hubs';
 import DestinationHub from '@/components/DestinationHub';
+import ScenicVideo from '@/components/ScenicVideo';
+import VideoCredit from '@/components/VideoCredit';
+import { videoForDestination } from '@/lib/destination-videos';
 export function generateStaticParams() {
   return [
     ...new Set([...destinations, ...destinationHubs].map((x) => x.slug)),
@@ -79,6 +82,7 @@ export default async function DestinationPage({
     notFound();
   }
   const tour = tours.find((t) => t.slug === destination.tourSlug)!;
+  const clip = videoForDestination(destination.slug);
   return (
     <main>
       <section className="destination-detail wrap">
@@ -94,19 +98,35 @@ export default async function DestinationPage({
         />
         <div className="destination-detail-grid">
           <div className="destination-detail-image">
-            <Image
-              src={`/assets/images/${destination.image}`}
-              fill
-              quality={60}
-              sizes="(max-width:900px) calc(100vw - 40px), 550px"
-              alt={
-                photos.find((photo) => photo.slug === destination.tourSlug)
-                  ?.alt || destination.name
-              }
-              loading="eager"
-            />
+            {clip ? (
+              <ScenicVideo
+                key={clip.id}
+                id={clip.id}
+                label={clip.label}
+                fallback={`/assets/images/${destination.image}`}
+                alt={
+                  photos.find((p) => p.slug === destination.tourSlug)?.alt ||
+                  destination.name
+                }
+                sizes="(max-width:900px) calc(100vw - 40px), 550px"
+                priority
+              />
+            ) : (
+              <Image
+                src={`/assets/images/${destination.image}`}
+                fill
+                quality={60}
+                sizes="(max-width:900px) calc(100vw - 40px), 550px"
+                alt={
+                  photos.find((photo) => photo.slug === destination.tourSlug)
+                    ?.alt || destination.name
+                }
+                loading="eager"
+              />
+            )}
           </div>
           <div className="destination-detail-copy">
+            {clip && <VideoCredit clip={clip} />}
             <Link
               className="tour-card-credit"
               href={`/photo-credits#${destination.tourSlug}`}

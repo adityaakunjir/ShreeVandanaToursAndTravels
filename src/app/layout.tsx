@@ -11,6 +11,7 @@ import './expedition.css';
 import './motion.css';
 import './mobile-experience.css';
 import './focused-mobile.css';
+import './scenic-video.css';
 const geist = Geist({
   subsets: ['latin'],
   variable: '--font-geist',

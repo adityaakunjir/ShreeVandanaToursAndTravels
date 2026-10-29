@@ -12,6 +12,9 @@ import ShareTour from '@/components/ShareTour';
 import { SaveRealTour } from '@/components/RealShortlist';
 import { tourPhoto, tourEnquiryContext } from '@/data/catalogue';
 import JournalCover from '@/components/JournalCover';
+import ScenicVideo from '@/components/ScenicVideo';
+import VideoCredit from '@/components/VideoCredit';
+import { videoForTour } from '@/lib/destination-videos';
 export function generateStaticParams() {
   return tours.map((t) => ({ slug: t.slug }));
 }
@@ -66,7 +69,18 @@ export default async function TourPage({
   const tour = tours.find((t) => t.slug === slug);
   if (!tour) notFound();
   const duration = tour.duration || tour.days.length;
-  const photo = tourPhoto(tour);
+  const clip = videoForTour(tour.slug);
+  const photo =
+    tourPhoto(tour) ||
+    (clip
+      ? {
+          src: `/assets/videos/${clip.id}-poster.webp`,
+          alt: clip.label,
+          slug: `video-${clip.id}`,
+          author: clip.author,
+          license: clip.license,
+        }
+      : undefined);
   const related = tours
     .filter((t) => t.slug !== tour.slug)
     .sort((a, b) => {
@@ -89,15 +103,27 @@ export default async function TourPage({
       {photo && (
         <figure className="tour-photo-figure">
           <div className="tour-photo-window">
-            <Image
-              src={photo.src}
-              alt={photo.alt}
-              fill
-              sizes="(max-width: 1300px) 92vw, 1200px"
-              quality={60}
-              loading="eager"
-              fetchPriority="high"
-            />
+            {clip ? (
+              <ScenicVideo
+                key={clip.id}
+                id={clip.id}
+                label={clip.label}
+                fallback={photo.src}
+                alt={photo.alt}
+                sizes="(max-width: 1300px) 92vw, 1200px"
+                priority
+              />
+            ) : (
+              <Image
+                src={photo.src}
+                alt={photo.alt}
+                fill
+                sizes="(max-width: 1300px) 92vw, 1200px"
+                quality={60}
+                loading="eager"
+                fetchPriority="high"
+              />
+            )}
             <div className="tour-photo-heading">
               <p>
                 {tour.region} · {duration} days
@@ -110,6 +136,7 @@ export default async function TourPage({
             <Link href={`/photo-credits#${photo.slug}`}>
               Photo: {photo.author} · {photo.license}
             </Link>
+            {clip && <VideoCredit clip={clip} />}
           </figcaption>
         </figure>
       )}
