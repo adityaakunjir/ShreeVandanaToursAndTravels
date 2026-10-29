@@ -103,8 +103,11 @@
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  min-height: 84vh;
-  max-height: 920px;
+  height: 100vh;
+  height: 100dvh;
+  min-height: 100vh;
+  min-height: 100dvh;
+  max-height: none !important;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -117,7 +120,10 @@
 
 @media (max-width: 768px) {
   .tour-hero-fullscreen {
-    min-height: 74vh;
+    height: 100vh;
+    height: 100dvh;
+    min-height: 100vh;
+    min-height: 100dvh;
   }
 }
 
@@ -254,9 +260,11 @@
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+  height: 100vh;
+  height: 100dvh;
   min-height: 100vh;
   min-height: 100dvh;
-  max-height: 1020px;
+  max-height: none !important;
   margin-top: 0;
   border-radius: 0;
   display: flex;
@@ -267,8 +275,10 @@
 
 @media (max-width: 768px) {
   .home-hero-fullscreen {
-    min-height: 92vh;
-    min-height: 92dvh;
+    height: 100vh;
+    height: 100dvh;
+    min-height: 100vh;
+    min-height: 100dvh;
   }
 }
 

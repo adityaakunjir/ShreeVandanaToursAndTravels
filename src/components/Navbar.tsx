@@ -22,7 +22,10 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const toggle = useRef<HTMLButtonElement>(null);
   const panel = useRef<HTMLElement>(null);
-  const isHero = pathname === '/' || pathname.startsWith('/tours/');
+  const isHero =
+    pathname === '/' ||
+    pathname.startsWith('/tours/') ||
+    pathname.startsWith('/destinations/');
 
   useEffect(() => {
     const handleScroll = () => {
