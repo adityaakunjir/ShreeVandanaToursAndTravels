@@ -517,42 +517,7 @@
   margin-top: 2px !important;
 }
 
-/* Bottom corner credits */
-.home-hero-caption {
-  position: absolute !important;
-  right: 24px !important;
-  bottom: 24px !important;
-  display: inline-flex !important;
-  align-items: center !important;
-  gap: 8px !important;
-  z-index: 5 !important;
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
-.home-hero-caption a {
-  color: rgba(255, 255, 255, 0.8) !important;
-  text-decoration: none !important;
-  font-size: 11px !important;
-  padding: 4px 10px !important;
-  border-radius: 6px !important;
-  background: rgba(0, 0, 0, 0.35) !important;
-  backdrop-filter: blur(8px) !important;
-  -webkit-backdrop-filter: blur(8px) !important;
-  border: 1px solid rgba(255, 255, 255, 0.15) !important;
-  transition: all 180ms ease !important;
-}
-
-.home-hero-caption a:hover {
-  color: #ffffff !important;
-  background: rgba(0, 0, 0, 0.55) !important;
-  border-color: rgba(255, 255, 255, 0.3) !important;
-}
-
-.home-hero-caption .credit-sep {
-  color: rgba(255, 255, 255, 0.4) !important;
-  font-size: 11px !important;
-}
+/* Bottom corner credits - removed for clean hero presentation */
 
 /* ============================================================
    Parallax Animation Mechanics
@@ -1105,8 +1070,7 @@ html[data-experience='lite'] .drone-pill:not(.is-active) { background: #17222ce8
 .brochure-tour-card .real-save button span { display: none; }
 .brochure-tour-card .save-status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
 .brochure-tour-card > .tour-card-credit { font-size: 10px; padding-block: 5px; }
-.tour-hero-caption,
-.home-hero-caption {
+.tour-hero-caption {
   position: relative;
   z-index: 3;
   display: flex;
@@ -1117,20 +1081,17 @@ html[data-experience='lite'] .drone-pill:not(.is-active) { background: #17222ce8
   font-size: 11px;
   padding-block: 10px 18px;
 }
-.tour-hero-caption a,
-.home-hero-caption a {
+.tour-hero-caption a {
   color: #ffffffd9;
   text-decoration: underline;
   text-underline-offset: 3px;
   font-size: 11px;
   transition: color 150ms ease;
 }
-.tour-hero-caption a:hover,
-.home-hero-caption a:hover {
+.tour-hero-caption a:hover {
   color: #ffffff;
 }
-.tour-hero-caption .video-credit,
-.home-hero-caption .video-credit {
+.tour-hero-caption .video-credit {
   margin: 0;
   color: #ffffffd9;
   font-size: 11px;

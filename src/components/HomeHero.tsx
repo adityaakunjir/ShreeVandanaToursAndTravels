@@ -184,24 +184,6 @@ export default function HomeHero() {
             </div>
           </div>
         </div>
-
-        {/* Bottom credits */}
-        <div className="home-hero-caption">
-          <Link
-            href={`/photo-credits#${selected.photoSlug}`}
-            aria-label={`Photo credits: ${selected.name}`}
-          >
-            Photo credits
-          </Link>
-          <span className="credit-sep" aria-hidden="true">·</span>
-          <Link
-            className="video-credit"
-            href={selected.photoCreditLink}
-            aria-label={`Video credits and licences: ${selected.label}`}
-          >
-            Video credits
-          </Link>
-        </div>
       </div>
     </section>
   );
