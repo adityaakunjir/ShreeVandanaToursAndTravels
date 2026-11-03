@@ -22,23 +22,30 @@ export default function PhotoCredits() {
             <h2>{clip.label} — scenic video</h2>
             <p>
               Eight separately credited source clips, each edited to five
-              seconds. Montage licensed under{' '}
-              <a
-                href={clip.licenseUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {clip.license}
-              </a>
+              seconds.{' '}
+              {clip.id === 'sikkim'
+                ? 'Each scene retains its own licence. Creative Commons excerpts retain the listed CC terms; Pexels excerpts retain the Pexels License.'
+                : 'Source footage licensed under '}
+              {clip.id !== 'sikkim' && (
+                <>
+                  <a
+                    href={clip.licenseUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {clip.license}
+                  </a>
+                </>
+              )}
               . Source and licence checked {clip.checked}.
             </p>
             <p>
               Adapted into a {clip.duration}-second silent montage; eight
               five-second clips are trimmed, proportionally cropped, resized,
-              converted to 30fps and joined with cuts. Delivered as MP4 and
-              WebM. Display may crop to fit the page. This footage illustrates
-              the location; it does not represent our customers or guarantee a
-              particular excursion.
+              converted to 30fps and joined with cuts. Delivered as portrait
+              mobile MP4 and full-HD desktop MP4. Display may crop to fit the
+              page. This footage illustrates the location; it does not represent
+              our customers or guarantee a particular excursion.
             </p>
             {clip.license === 'CC BY-SA 4.0' && (
               <p>
@@ -48,15 +55,17 @@ export default function PhotoCredits() {
                   Adapted MP4
                 </a>{' '}
                 ·{' '}
-                <a href={`/assets/videos/${clip.assetBase}-desktop.webm`}>
-                  Adapted WebM
+                <a href={`/assets/videos/${clip.assetBase}-mobile.mp4`}>
+                  Adapted mobile MP4
                 </a>
                 .
               </p>
             )}
             {clip.shots && (
               <details className="montage-shot-credits">
-                <summary>View all eight source clips and creator credits</summary>
+                <summary>
+                  View all eight source clips and creator credits
+                </summary>
                 <ol>
                   {clip.shots.map((shot, index) => (
                     <li key={shot.id}>
@@ -82,8 +91,22 @@ export default function PhotoCredits() {
                         >
                           {shot.license}
                         </a>
-                        . Licence checked {shot.checked}. A five-second excerpt is
-                        cropped, resized, silenced and joined into this montage.
+                        . Licence checked {shot.checked}. A five-second excerpt
+                        is cropped, resized, silenced and joined into this
+                        montage.
+                        {clip.id === 'sikkim' &&
+                          shot.license.startsWith('CC') && (
+                            <>
+                              {' '}
+                              The edited excerpt retains {shot.license}.{' '}
+                              <a
+                                href={`/assets/videos/sikkim-cc-scene-${index + 1}.mp4`}
+                              >
+                                Download this edited excerpt
+                              </a>
+                              .
+                            </>
+                          )}
                       </p>
                     </li>
                   ))}
@@ -98,7 +121,7 @@ export default function PhotoCredits() {
             <p>
               Photograph by {photo.author}.{' '}
               <a href={photo.source} target="_blank" rel="noopener noreferrer">
-                Original photograph on Wikimedia Commons
+                Original source and creator
               </a>
               .
             </p>

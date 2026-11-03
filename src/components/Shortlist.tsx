@@ -1,7 +1,7 @@
 'use client';
 import { useState, useSyncExternalStore } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from '@/components/TravelImage';
 import { Heart } from 'lucide-react';
 import type { DemoPackage } from '@/data/demo-packages';
 import { SHORTLIST_KEY, readShortlist, toggleShortlist } from '@/lib/shortlist';

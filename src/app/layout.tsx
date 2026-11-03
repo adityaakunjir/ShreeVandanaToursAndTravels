@@ -6,6 +6,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import MobileDock from '@/components/MobileDock';
 import ScrollMotion from '@/components/ScrollMotion';
+import BusinessStructuredData from '@/components/BusinessStructuredData';
+import ExperienceCapabilities from '@/components/ExperienceCapabilities';
 import './globals.css';
 import './expedition.css';
 import './motion.css';
@@ -20,18 +22,33 @@ const geist = Geist({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Shree Vandana Tours & Travels | Your Friend in Tourism',
+    default: 'Tours & Travels in Pune | Shree Vandana Tours & Travels',
     template: '%s | Shree Vandana Travels',
   },
   description:
-    'A family-run travel business shaped by three generations. Explore company-supplied itineraries and plan personalised holidays with Shree Vandana Tours & Travels, Pune.',
+    'Plan domestic and international holidays with Shree Vandana Tours & Travels, Dhankawadi, Pune. Explore itineraries and get a personalised quote on WhatsApp.',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
+  },
+  twitter: { card: 'summary_large_image' },
   openGraph: {
     title: 'Shree Vandana Tours & Travels',
+    locale: 'en_IN',
+    siteName: 'Shree Vandana Tours & Travels',
+    type: 'website',
     description:
       'The world, personally curated. Three generations of experience, thoughtfully planning your next holiday from Pune.',
     images: [
       {
-        url: '/assets/images/tours/nepal.webp',
+        url: photos.find((p) => p.slug === 'nepal')!.src,
         width: photos.find((p) => p.slug === 'nepal')!.width,
         height: photos.find((p) => p.slug === 'nepal')!.height,
         alt: 'Phewa Lake surrounded by hills in Pokhara, Nepal',
@@ -45,6 +62,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={geist.variable} data-scroll-behavior="smooth">
       <body>
+        <BusinessStructuredData />
+        <ExperienceCapabilities />
         <a href="#main-content" className="skip-link">
           Skip to content
         </a>

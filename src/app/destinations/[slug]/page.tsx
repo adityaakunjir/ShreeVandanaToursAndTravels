@@ -1,7 +1,7 @@
 import WhatsAppLink from '@/components/WhatsAppLink';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import Image from 'next/image';
+import Image from '@/components/TravelImage';
 import Link from 'next/link';
 import photos from '@/data/tour-photos.json';
 import { ArrowUpRight, Check } from 'lucide-react';
@@ -15,6 +15,7 @@ import DestinationHub from '@/components/DestinationHub';
 import ScenicVideo from '@/components/ScenicVideo';
 import VideoCredit from '@/components/VideoCredit';
 import { videoForDestination } from '@/lib/destination-videos';
+import { DestinationStructuredData } from '@/components/TravelStructuredData';
 export function generateStaticParams() {
   return [
     ...new Set([...destinations, ...destinationHubs].map((x) => x.slug)),
@@ -32,9 +33,11 @@ export async function generateMetadata({
     return hub
       ? {
           title: hub.name + ' holidays from Pune',
-          description: `Explore company-supplied ${hub.name} tour outlines, route options and daily itineraries. Plan your personalised holiday with our Pune team.`,
+          description: `Discover ${hub.name} holidays from Pune. Explore day-by-day itineraries and route options, then plan your dates and personalised quote with our travel team.`,
           alternates: { canonical: `/destinations/${slug}` },
           openGraph: {
+            title: `${hub.name} holidays from Pune`,
+            url: `/destinations/${slug}`,
             images: hub.tours.find((t) => t.image)?.image?.src
               ? [hub.tours.find((t) => t.image)!.image!.src]
               : [],
@@ -85,6 +88,12 @@ export default async function DestinationPage({
   const clip = videoForDestination(destination.slug);
   return (
     <main>
+      <DestinationStructuredData
+        name={destination.name}
+        path={`/destinations/${slug}`}
+        description={destination.description}
+        tours={[tour]}
+      />
       <section className="destination-detail wrap">
         <Breadcrumb
           items={[
@@ -109,7 +118,7 @@ export default async function DestinationPage({
                   photos.find((p) => p.slug === destination.tourSlug)?.alt ||
                   destination.name
                 }
-                sizes="(max-width:900px) calc(100vw - 40px), 550px"
+                sizes="100vw"
                 priority
               />
             ) : (
@@ -117,7 +126,7 @@ export default async function DestinationPage({
                 src={`/assets/images/${destination.image}`}
                 fill
                 quality={60}
-                sizes="(max-width:900px) calc(100vw - 40px), 550px"
+                sizes="100vw"
                 alt={
                   photos.find((photo) => photo.slug === destination.tourSlug)
                     ?.alt || destination.name
@@ -138,9 +147,9 @@ export default async function DestinationPage({
               {destination.country} · {destination.tag}
             </p>
             <h1>
-              A little
+              {destination.name}
               <br />
-              <em>{destination.name} magic.</em>
+              <em>holidays from Pune.</em>
             </h1>
             <p>{destination.description}</p>
             <p>

@@ -17,7 +17,7 @@ export async function generateMetadata({
         title: c.name + ' from Pune',
         description:
           c.description +
-          ' Browse company-supplied outlines and enquire for a personalised quote.',
+          ' Explore itineraries and ask our Pune team for a personalised quote.',
         alternates: { canonical: `/collections/${c.slug}` },
       }
     : {};
@@ -42,8 +42,7 @@ export default async function Collection({
       />
       <section className="section wrap">
         <p className="brochure-confirmation">
-          {c.tours.length} source outlines · distinct route variants included ·
-          quotes on enquiry
+          {c.tours.length} itineraries · Personalised around your dates
         </p>
         <div className="brochure-tour-grid">
           {c.tours.slice(0, 6).map((t, i) => (

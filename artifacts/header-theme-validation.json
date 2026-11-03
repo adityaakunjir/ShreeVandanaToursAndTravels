@@ -1,0 +1,1556 @@
+[
+  {
+    "path": "/",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/tours/bali-indonesia-7-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/dubai-delight-6-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/chandigarh-shimla-manali-8-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/manali-amritsar-6-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/sikkim-gangtok-pelling-darjeeling-8-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kashmir-7-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kashmir-with-vaishno-devi-9-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/nepal-8-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/nainital-kausani-jim-corbett-8-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/three-sisters-of-northeast-india-10-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/odisha-7-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/odisha-with-gangasagar-10-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/hyderabad-srisailam-5-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/goa-5-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/gujarat-8-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/dharamshala-dalhousie-amritsar-7-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/full-rajasthan-12-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/mini-rajasthan-7-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/indore-ujjain-omkareshwar-5-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/bangalore-mysore-coorg-7-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/spiti-valley-8-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/leh-ladakh-8-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/leh-ladakh-with-kargil-drass-turtuk-10-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/char-dham-yatra-13-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/coastal-karnataka-8-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kerala-6-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/unseen-kerala-with-wayanad-6-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kerala-with-kanyakumari-8-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kerala-with-kanyakumari-rameswaram-madurai-10-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/tamil-nadu-8-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/andaman-with-baratang-island-7-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/lakshadweep-6-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kodaikanal-ooty-6-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/russia-7-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/thailand-malaysia-singapore-8-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/egypt-with-hurghada-8-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/baku-azerbaijan-5-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/south-africa-8-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/vietnam-7-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/singapore-malaysia-6-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/exotic-thailand-6-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/mauritius-honeymoon-package-6-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/hampi-badami-vijayapura-6-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/sri-lanka-7-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/japan-8-days",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kashi-gaya-prayag-ayodhya",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/shimla-kullu-manali",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/darjeeling-gangtok-pelling",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kashmir-amritsar-vaishno-devi",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/pithapur-kuravpur",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/dubai-abu-dhabi",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/nepal",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/sri-lanka",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kerala-kanyakumari",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/royal-bhutan",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/egypt-hurghada",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/destinations",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/dubai",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/destinations/nepal",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/destinations/kerala",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/destinations/kashmir",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/destinations/sikkim-darjeeling",
+    "width": 390,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/destinations/azerbaijan",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/bhutan",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/egypt",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/india",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/indonesia",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/japan",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/malaysia",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/mauritius",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/russia",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/singapore",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/south-africa",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/sri-lanka",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/thailand",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/united-arab-emirates",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/vietnam",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/bali",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/ladakh",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/spiti",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/rajasthan",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/andaman",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/lakshadweep",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/goa",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/gujarat",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/odisha",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/tamil-nadu",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/char-dham",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/coastal-karnataka",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/himalayan-escapes",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/sacred-journeys",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/royal-india",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/nature-wildlife",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/islands-beaches",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/honeymoon-romance",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/family-group",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/international-discoveries",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/short-breaks",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/grand-journeys",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/about",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/services",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/gallery",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/contact",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/faq",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/travel-information",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/photo-credits",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/tours/saved",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/tours/compare",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/not-a-real-route",
+    "width": 390,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/tours/bali-indonesia-7-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/dubai-delight-6-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/chandigarh-shimla-manali-8-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/manali-amritsar-6-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/sikkim-gangtok-pelling-darjeeling-8-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kashmir-7-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kashmir-with-vaishno-devi-9-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/nepal-8-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/nainital-kausani-jim-corbett-8-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/three-sisters-of-northeast-india-10-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/odisha-7-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/odisha-with-gangasagar-10-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/hyderabad-srisailam-5-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/goa-5-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/gujarat-8-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/dharamshala-dalhousie-amritsar-7-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/full-rajasthan-12-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/mini-rajasthan-7-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/indore-ujjain-omkareshwar-5-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/bangalore-mysore-coorg-7-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/spiti-valley-8-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/leh-ladakh-8-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/leh-ladakh-with-kargil-drass-turtuk-10-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/char-dham-yatra-13-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/coastal-karnataka-8-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kerala-6-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/unseen-kerala-with-wayanad-6-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kerala-with-kanyakumari-8-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kerala-with-kanyakumari-rameswaram-madurai-10-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/tamil-nadu-8-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/andaman-with-baratang-island-7-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/lakshadweep-6-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kodaikanal-ooty-6-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/russia-7-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/thailand-malaysia-singapore-8-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/egypt-with-hurghada-8-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/baku-azerbaijan-5-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/south-africa-8-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/vietnam-7-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/singapore-malaysia-6-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/exotic-thailand-6-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/mauritius-honeymoon-package-6-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/hampi-badami-vijayapura-6-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/sri-lanka-7-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/japan-8-days",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kashi-gaya-prayag-ayodhya",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/shimla-kullu-manali",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/darjeeling-gangtok-pelling",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kashmir-amritsar-vaishno-devi",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/pithapur-kuravpur",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/dubai-abu-dhabi",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/nepal",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/sri-lanka",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/kerala-kanyakumari",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/royal-bhutan",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/tours/egypt-hurghada",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/destinations",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/dubai",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/destinations/nepal",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/destinations/kerala",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/destinations/kashmir",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/destinations/sikkim-darjeeling",
+    "width": 1440,
+    "hasHero": true,
+    "heroHeader": true,
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  {
+    "path": "/destinations/azerbaijan",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/bhutan",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/egypt",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/india",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/indonesia",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/japan",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/malaysia",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/mauritius",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/russia",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/singapore",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/south-africa",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/sri-lanka",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/thailand",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/united-arab-emirates",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/vietnam",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/bali",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/ladakh",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/spiti",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/rajasthan",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/andaman",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/lakshadweep",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/goa",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/gujarat",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/odisha",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/tamil-nadu",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/char-dham",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/destinations/coastal-karnataka",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/himalayan-escapes",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/sacred-journeys",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/royal-india",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/nature-wildlife",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/islands-beaches",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/honeymoon-romance",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/family-group",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/international-discoveries",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/short-breaks",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/collections/grand-journeys",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/about",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/services",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/gallery",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/contact",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/faq",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/travel-information",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/photo-credits",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/tours/saved",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/tours/compare",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  },
+  {
+    "path": "/not-a-real-route",
+    "width": 1440,
+    "hasHero": false,
+    "heroHeader": false,
+    "background": "rgba(14, 22, 29, 0.88)"
+  }
+]

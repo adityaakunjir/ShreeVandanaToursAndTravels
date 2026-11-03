@@ -1,0 +1,386 @@
+[
+  {
+    "slug": "bali-indonesia-7-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Kelingking_Beach_aerial_2026_01.jpg",
+    "bytes": 1120748,
+    "sourceSha256": "152cc2fe1b006c1c15b03828bddfdd67e0b2628b45fe58238ab569a5b666bc12"
+  },
+  {
+    "slug": "leh-ladakh-8-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Pangong_lake_at_leh_ladakh.jpg",
+    "bytes": 469596,
+    "sourceSha256": "3a740c3f589c20b7566fb6b51f24e94ebe82b961419bf434d3608caf9caa02ca"
+  },
+  {
+    "slug": "japan-8-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Chureito_Pagoda_and_Mount_Fuji_2023-03-07.jpg",
+    "bytes": 637452,
+    "sourceSha256": "2b6ab3eca9453d0e9cf3e0a1b218e0c27ac311dc4ddd853a9d9d7b355d8cf536"
+  },
+  {
+    "slug": "kashi-gaya-prayag-ayodhya",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Varanasi_ghats_at_the_sunrise.JPG",
+    "bytes": 240388,
+    "sourceSha256": "2a31e10e997a2c0312b7300217cfc7f6a6a53b1d8608c8573f1b61f6c96f38d3"
+  },
+  {
+    "slug": "shimla-kullu-manali",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Solang_Valley_Manali.JPG",
+    "bytes": 418876,
+    "sourceSha256": "272f101ff90c48ca4f8956c9e3ae619b75f6f38a597bd4b378ec9b1c2ce1be61"
+  },
+  {
+    "slug": "darjeeling-gangtok-pelling",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama_Kangchenjunga_from_Darjeeling.jpg",
+    "bytes": 123730,
+    "sourceSha256": "b1a142d7b29419c215cbee724d1a483ef77e452817fb2fd257fff411a84a08ea"
+  },
+  {
+    "slug": "kashmir-amritsar-vaishno-devi",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Dal_Lake_Hazratbal_Srinagar.jpg",
+    "bytes": 998542,
+    "sourceSha256": "70eab473ec62a6ee38d1985b95eeacb9bfd552d759f86da33ef80fdb42af7618"
+  },
+  {
+    "slug": "pithapur-kuravpur",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Shrisailam_Temple_,_Hyderabad_,_Andhra_Pradesh_,_India.jpg",
+    "bytes": 224888,
+    "sourceSha256": "8db233f4ec644f581a99fc355cba891145d8fed5de83693e656375c12016401e"
+  },
+  {
+    "slug": "dubai-abu-dhabi",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://www.pexels.com/video/stunning-dubai-skyline-aerial-view-31257785/",
+    "bytes": 593436,
+    "sourceSha256": "c4d0898775e7e20c39b520dd123c23e49f0e37158edad75fcab5eef1c063f404"
+  },
+  {
+    "slug": "nepal",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:A_Morning_View_from_Pokhara,_Nepal.jpg",
+    "bytes": 752720,
+    "sourceSha256": "1e908f0bbe48d71040a2048f0c01f4bdce55e0ac55ef231e656f47473dc0813d"
+  },
+  {
+    "slug": "sri-lanka",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Sigiriya_Lion_Rock_Aerial_(175658393).jpeg",
+    "bytes": 584340,
+    "sourceSha256": "1894a28bcd58bb3596ab6c123f4788a285dfa3d59bedf5c7219a2e8b1d3c7825"
+  },
+  {
+    "slug": "kerala-kanyakumari",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Sunrise_view_over_tea_plantations_and_mountain_ranges_in_Munnar.jpg",
+    "bytes": 697134,
+    "sourceSha256": "42dee9771eba50a2b8a299d60e9bffe1bb2c838ff62dbb37d846a7e95a5453a2"
+  },
+  {
+    "slug": "royal-bhutan",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Paro_Taktsang,_Bhutan_(edited).jpg",
+    "bytes": 1422264,
+    "sourceSha256": "1b09f8685deaeaffa87780446c869f82d7713afd54d44f3da8a208354fad00b9"
+  },
+  {
+    "slug": "egypt-hurghada",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Sphinx_and_the_Great_Pyramid_of_Giza_panorama.jpg",
+    "bytes": 239490,
+    "sourceSha256": "8553eef5ecd74688a6b4017c34af84eeb2e4875ab301403b168d33bc8395a333"
+  },
+  {
+    "slug": "goa-5-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Rocks_on_Palolem_Beach_South_Goa.jpg",
+    "bytes": 240486,
+    "sourceSha256": "3bbc92486b6dda289900e38d93e57d80296ba82cee6a8e1be4d10d090a46afa3"
+  },
+  {
+    "slug": "gujarat-8-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:White_salt_desert_at_Rann_of_Kutch.jpg",
+    "bytes": 754266,
+    "sourceSha256": "8159ebb00c9cc1d38d235fc8b1246fe9f72049234379f359a3690c44c52e1598"
+  },
+  {
+    "slug": "lakshadweep-6-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Anthan_Beach_in_Agatti.jpg",
+    "bytes": 521202,
+    "sourceSha256": "c175c859fe61f5a08d183b1cf28d1be5df2cbb9fb1cbb51afc9d31e1c99d07b0"
+  },
+  {
+    "slug": "kodaikanal-ooty-6-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Tea_Monarch_Aramby_Ooty_Nilgiris_Mar21_A7C_00293.jpg",
+    "bytes": 1494836,
+    "sourceSha256": "d6b1aaf13034484a7a0cec5cd883a834c904f95e92f8bb66b444aca49071b06f"
+  },
+  {
+    "slug": "russia-7-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Sant_Vasily_cathedral_in_Moscow.JPG",
+    "bytes": 785430,
+    "sourceSha256": "31b570d34c5783dfe768251de08c7dc78e1a40ee487c9c41cb7eeff34e2565eb"
+  },
+  {
+    "slug": "thailand-malaysia-singapore-8-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Singapore_Marina_Bay_Dusk_2018-02-27.jpg",
+    "bytes": 516740,
+    "sourceSha256": "d2d7f0301694e1581782eff188b6057b5e9b10db34553d0dc2c7b5c8cd63ef4c"
+  },
+  {
+    "slug": "south-africa-8-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Devil%27s_Peak,_Table_Mountain_and_Cape_Town_cityscape_at_dawn.jpg",
+    "bytes": 571696,
+    "sourceSha256": "5d3c18293bc79a30272b1bdb2aab1b0037a6bffc8cb5e555e3fcf37c8dd432cf"
+  },
+  {
+    "slug": "vietnam-7-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Ha_Long_Bay_panorama.jpg",
+    "bytes": 135778,
+    "sourceSha256": "01c6f6050d7a9ee9b2ee21b9737a29be98a2aa12bb81469d4457e115053f95b0"
+  },
+  {
+    "slug": "singapore-malaysia-6-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Skylines_of_the_Central_Business_District,_Singapore_at_dusk.jpg",
+    "bytes": 685478,
+    "sourceSha256": "fb9ebd419e55c37cf32608758840dbd39a8ce578c33eedfe6698d8128256aa89"
+  },
+  {
+    "slug": "exotic-thailand-6-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Playa_Maya,_Ko_Phi_Phi,_Tailandia,_2013-08-19,_DD_03.JPG",
+    "bytes": 597898,
+    "sourceSha256": "fff4349759e94fda47446d9800e761a30b3fee91cbb38de7e843eb3a368d1858"
+  },
+  {
+    "slug": "hampi-badami-vijayapura-6-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Iconic_Stone_Chariot_@_Vittala_Temple,_Hampi,_Karnataka.jpg",
+    "bytes": 1545346,
+    "sourceSha256": "d5dab395f66228fceb9d2dfcb54607abc84002c49d30925d1c09e40754973bf9"
+  },
+  {
+    "slug": "bangalore-mysore-coorg-7-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Mysuru_Palace_-_Night_View.jpg",
+    "bytes": 357576,
+    "sourceSha256": "d498eceb6306e57ac8be4c209eae21d87fba91863abb493a3381e0718d77521f"
+  },
+  {
+    "slug": "coastal-karnataka-8-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Murudeshwara_Temple_Shiva_-_Closer_Click.jpg",
+    "bytes": 425164,
+    "sourceSha256": "628cd2076b504006a4b9d8e96f8ae56ed34ece708d78b71a8e1240ea2ca1dde4"
+  },
+  {
+    "slug": "dharamshala-dalhousie-amritsar-7-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Dhauladhar_alpenglow_above_Dharamshala,_India.jpg",
+    "bytes": 611064,
+    "sourceSha256": "032d92d0ea16add5d446e708cbc566ad40b21bc6a54e7e047f71589daafc6c76"
+  },
+  {
+    "slug": "full-rajasthan-12-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Hawa_Mahal_east_facade_(14-07-2022).jpg",
+    "bytes": 942846,
+    "sourceSha256": "bb57e717a55dce00ea8fa146312b995e469e3c085583a17a670d79469098619d"
+  },
+  {
+    "slug": "hyderabad-srisailam-5-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:CHARMINAR,_Hyderabad_01.jpg",
+    "bytes": 333144,
+    "sourceSha256": "5f9dc384fae03a0987224c2d6638449ac8d22c2b6e784e12297f1163c1439a63"
+  },
+  {
+    "slug": "indore-ujjain-omkareshwar-5-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Omkareshwar_Narmada_River.jpg",
+    "bytes": 967214,
+    "sourceSha256": "11e8ad35013e9ad01c1b2968f6c9ba4f825b173b943f7b0a8035f73ebbafa528"
+  },
+  {
+    "slug": "kashmir-7-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Devi_Temple,_Gulmarg,_Jammu_and_Kashmir.jpg",
+    "bytes": 1554016,
+    "sourceSha256": "a12b9d4430e86f8e8fd3c68dba2e12d745262330748b6fd01b247a1199fda27b"
+  },
+  {
+    "slug": "kerala-6-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Sunrise_view_over_tea_plantations_and_mountain_ranges_in_Munnar.jpg",
+    "bytes": 697134,
+    "sourceSha256": "42dee9771eba50a2b8a299d60e9bffe1bb2c838ff62dbb37d846a7e95a5453a2"
+  },
+  {
+    "slug": "kerala-with-kanyakumari-rameswaram-madurai-10-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Vivekananda_rock_Memorial_and_Thiruvalluvar_Statue.jpg",
+    "bytes": 273752,
+    "sourceSha256": "7817c9c7a6e0277640aa973c9e2acdf6d97ec5df57c8cd9308987e34824719c9"
+  },
+  {
+    "slug": "leh-ladakh-with-kargil-drass-turtuk-10-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Maitreya_Buddha_statue_Diskit_Monastery_Nubra_Ladakh.jpg",
+    "bytes": 620092,
+    "sourceSha256": "436270f2454bb3e067164e70989d58bea5305d1730b19053a970d8d90b2f5338"
+  },
+  {
+    "slug": "manali-amritsar-6-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Golden_Temple,_Amritsar_03.jpg",
+    "bytes": 521184,
+    "sourceSha256": "791f336e403e5b3ba675093799ab994cc25d75a6c84d30861eface365ef4ff45"
+  },
+  {
+    "slug": "mini-rajasthan-7-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Jaigarh_Fort_overlooking_the_Amer_Fort_and_Maota_Lake.jpg",
+    "bytes": 799026,
+    "sourceSha256": "a0af94b08ab896b7067f2aec536329577ff7c23bd8d1335181589e90dd28948a"
+  },
+  {
+    "slug": "nainital-kausani-jim-corbett-8-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama_of_Nainital_town_and_lake_01.jpg",
+    "bytes": 939786,
+    "sourceSha256": "050fa1df71e0c2b34c0c5783c88b12b439d8d3289cbf4ee30ff0442a0e96a02e"
+  },
+  {
+    "slug": "odisha-7-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Closeup_of_the_center_of_a_stone_wheel_-_Konark_Sun_Temple,_Orissa,_India.jpg",
+    "bytes": 838610,
+    "sourceSha256": "3e74f7a20e75333f104196b1744f17ddc1484a76925b27ef351cdb3b3bf34226"
+  },
+  {
+    "slug": "odisha-with-gangasagar-10-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Lord_Jagannath_temple_at_night.jpg",
+    "bytes": 587420,
+    "sourceSha256": "73e1390a298f158b53cce52379f8451094e971f9baece42af92c247a3d50a741"
+  },
+  {
+    "slug": "spiti-valley-8-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Key_Monastery,_Spiti_Valley_footloosedev.jpg",
+    "bytes": 1532692,
+    "sourceSha256": "ff83056d55bee8e5b99554b3b0bfa530093812aa6293c47896a567b74454bd5f"
+  },
+  {
+    "slug": "tamil-nadu-8-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg",
+    "bytes": 747930,
+    "sourceSha256": "f734848a2783a6c6059835486bc4dcc6f1054ebc468342d4903b6f8bfc367b6b"
+  },
+  {
+    "slug": "three-sisters-of-northeast-india-10-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:Nohkalikai_falls,Cherrapunji,Meghalaya_2.jpg",
+    "bytes": 1035902,
+    "sourceSha256": "7fd6dcec9bb41288df2dc793e8fe2f4ec9155a3da5ba7d3af5b4b32662aa92ac"
+  },
+  {
+    "slug": "unseen-kerala-with-wayanad-6-days",
+    "status": "upgraded",
+    "selected": false,
+    "source": "https://commons.wikimedia.org/wiki/File:View_atop_chembra_peak.jpg",
+    "bytes": 379106,
+    "sourceSha256": "abbe981a9d4227066a48012d0abdf7dd0299a98a0359402e79d46c07e6b53fe4"
+  },
+  {
+    "slug": "baku-azerbaijan-5-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Panorama_of_night_Baku,_Azerbaijan_IMG_9682.jpg",
+    "bytes": 385870,
+    "sourceSha256": "69d7137616a5aad5e8f2459f3abd5f426e7334218893a7c19f61ff4f6882e487"
+  },
+  {
+    "slug": "char-dham-yatra-13-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:The_kedarnath_temple_and_himalyas_.jpg",
+    "bytes": 273962,
+    "sourceSha256": "beb2310aea7c20f63d8b8a45191c643ad715b5bc4fdd4204fa21787d9c73e8b4"
+  },
+  {
+    "slug": "andaman-with-baratang-island-7-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Havelock_Island,_Radhanagar_Beach_before_sunset,_Andaman_Islands.jpg",
+    "bytes": 277272,
+    "sourceSha256": "f1c00832da41d08081a511bbd78272639bf4225b2be813db9b027f0a78394c62"
+  },
+  {
+    "slug": "mauritius-honeymoon-package-6-days",
+    "status": "upgraded",
+    "selected": true,
+    "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_southwest_of_Mauritius_(53698214005).jpg",
+    "bytes": 912670,
+    "sourceSha256": "3b79409e2be525d11dc08f5bdb8554d293d371dffbed16e05ee294bc313b58b6"
+  }
+]

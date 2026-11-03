@@ -1,4 +1,8 @@
-# Destination montages — 29 October 2026
+# Destination montages — 29 October 2026 (historical)
+
+Superseded on 3 November 2026 by [the adaptive cinema delivery](PREMIUM_MEDIA_PERFORMANCE_SEO.md).
+The v1 files below are no longer shipped. Current encoding and validation evidence
+is in `artifacts/premium-film-encoding.json` and `artifacts/premium-film-quality.json`.
 
 ## Current delivery: eight scenes, forty seconds
 

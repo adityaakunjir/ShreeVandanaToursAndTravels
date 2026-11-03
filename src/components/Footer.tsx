@@ -1,5 +1,6 @@
 import WhatsAppLink from '@/components/WhatsAppLink';
 import Image from 'next/image';
+import MotionPreference from './MotionPreference';
 import Link from 'next/link';
 import { ArrowUpRight, MapPin, Mail, Phone } from 'lucide-react';
 import { business } from '@/data/site';
@@ -85,6 +86,7 @@ export default function Footer() {
           © {new Date().getFullYear()} {business.businessName}
         </span>
         <span>Thoughtfully planned. Beautifully remembered.</span>
+        <MotionPreference />
       </div>
     </footer>
   );

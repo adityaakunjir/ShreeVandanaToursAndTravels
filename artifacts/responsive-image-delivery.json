@@ -1,0 +1,1930 @@
+[
+  {
+    "src": "/assets/images/tours/bali-indonesia-7-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1920,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 23588,
+        "src": "/assets/responsive/a934ef8c6a9495-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 66026,
+        "src": "/assets/responsive/a934ef8c6a9495-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 139344,
+        "src": "/assets/responsive/a934ef8c6a9495-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 256316,
+        "src": "/assets/responsive/a934ef8c6a9495-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 473828,
+        "src": "/assets/responsive/a934ef8c6a9495-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 883628,
+        "src": "/assets/responsive/a934ef8c6a9495-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/leh-ladakh-8-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1439,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 10874,
+        "src": "/assets/responsive/70715754da7531-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 28024,
+        "src": "/assets/responsive/70715754da7531-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 57582,
+        "src": "/assets/responsive/70715754da7531-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 95784,
+        "src": "/assets/responsive/70715754da7531-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 180538,
+        "src": "/assets/responsive/70715754da7531-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 349306,
+        "src": "/assets/responsive/70715754da7531-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/char-dham-yatra-13-days-premium-v2.webp",
+    "masterWidth": 1920,
+    "masterHeight": 1440,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 15388,
+        "src": "/assets/responsive/e6351480e5b19c-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 34550,
+        "src": "/assets/responsive/e6351480e5b19c-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 64198,
+        "src": "/assets/responsive/e6351480e5b19c-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 90994,
+        "src": "/assets/responsive/e6351480e5b19c-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 203620,
+        "src": "/assets/responsive/e6351480e5b19c-1920.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/andaman-with-baratang-island-7-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1707,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 6796,
+        "src": "/assets/responsive/fd0d662c737110-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 16666,
+        "src": "/assets/responsive/fd0d662c737110-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 34298,
+        "src": "/assets/responsive/fd0d662c737110-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 58454,
+        "src": "/assets/responsive/fd0d662c737110-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 109542,
+        "src": "/assets/responsive/fd0d662c737110-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 205220,
+        "src": "/assets/responsive/fd0d662c737110-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/mauritius-honeymoon-package-6-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1705,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 12538,
+        "src": "/assets/responsive/019310da10be8c-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 34496,
+        "src": "/assets/responsive/019310da10be8c-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 75084,
+        "src": "/assets/responsive/019310da10be8c-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 146586,
+        "src": "/assets/responsive/019310da10be8c-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 309746,
+        "src": "/assets/responsive/019310da10be8c-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 691536,
+        "src": "/assets/responsive/019310da10be8c-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/japan-8-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1442,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 15570,
+        "src": "/assets/responsive/185b6dc6c34eec-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 41112,
+        "src": "/assets/responsive/185b6dc6c34eec-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 87476,
+        "src": "/assets/responsive/185b6dc6c34eec-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 157584,
+        "src": "/assets/responsive/185b6dc6c34eec-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 289106,
+        "src": "/assets/responsive/185b6dc6c34eec-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 515740,
+        "src": "/assets/responsive/185b6dc6c34eec-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/kashi-gaya-prayag-ayodhya-premium-v2.webp",
+    "masterWidth": 2228,
+    "masterHeight": 1671,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 11794,
+        "src": "/assets/responsive/d5f20748db3e17-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 26004,
+        "src": "/assets/responsive/d5f20748db3e17-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 46404,
+        "src": "/assets/responsive/d5f20748db3e17-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 68572,
+        "src": "/assets/responsive/d5f20748db3e17-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 115870,
+        "src": "/assets/responsive/d5f20748db3e17-1920.webp"
+      },
+      {
+        "width": 2228,
+        "bytes": 163816,
+        "src": "/assets/responsive/d5f20748db3e17-2228.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/shimla-kullu-manali-premium-v2.webp",
+    "masterWidth": 2048,
+    "masterHeight": 1536,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 16544,
+        "src": "/assets/responsive/3bf72b0647c20b-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 39594,
+        "src": "/assets/responsive/3bf72b0647c20b-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 75794,
+        "src": "/assets/responsive/3bf72b0647c20b-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 118406,
+        "src": "/assets/responsive/3bf72b0647c20b-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 206794,
+        "src": "/assets/responsive/3bf72b0647c20b-1920.webp"
+      },
+      {
+        "width": 2048,
+        "bytes": 283634,
+        "src": "/assets/responsive/3bf72b0647c20b-2048.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/darjeeling-gangtok-pelling-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 450,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 3122,
+        "src": "/assets/responsive/834170d3a443fe-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 6920,
+        "src": "/assets/responsive/834170d3a443fe-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 13622,
+        "src": "/assets/responsive/834170d3a443fe-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 23920,
+        "src": "/assets/responsive/834170d3a443fe-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 42732,
+        "src": "/assets/responsive/834170d3a443fe-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 81408,
+        "src": "/assets/responsive/834170d3a443fe-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/kashmir-amritsar-vaishno-devi-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1707,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 12194,
+        "src": "/assets/responsive/a91f54df62206e-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 30674,
+        "src": "/assets/responsive/a91f54df62206e-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 64234,
+        "src": "/assets/responsive/a91f54df62206e-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 114462,
+        "src": "/assets/responsive/a91f54df62206e-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 236516,
+        "src": "/assets/responsive/a91f54df62206e-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 788666,
+        "src": "/assets/responsive/a91f54df62206e-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/pithapur-kuravpur-premium-v2.webp",
+    "masterWidth": 1280,
+    "masterHeight": 960,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 21206,
+        "src": "/assets/responsive/0861964873fc07-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 51378,
+        "src": "/assets/responsive/0861964873fc07-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 88440,
+        "src": "/assets/responsive/0861964873fc07-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 172656,
+        "src": "/assets/responsive/0861964873fc07-1280.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/dubai-abu-dhabi-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1440,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 18102,
+        "src": "/assets/responsive/deb070f10fd017-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 47794,
+        "src": "/assets/responsive/deb070f10fd017-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 98104,
+        "src": "/assets/responsive/deb070f10fd017-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 169018,
+        "src": "/assets/responsive/deb070f10fd017-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 290000,
+        "src": "/assets/responsive/deb070f10fd017-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 494270,
+        "src": "/assets/responsive/deb070f10fd017-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/nepal-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1679,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 14022,
+        "src": "/assets/responsive/1b77328130eb31-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 33798,
+        "src": "/assets/responsive/1b77328130eb31-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 68534,
+        "src": "/assets/responsive/1b77328130eb31-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 118428,
+        "src": "/assets/responsive/1b77328130eb31-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 239772,
+        "src": "/assets/responsive/1b77328130eb31-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 546258,
+        "src": "/assets/responsive/1b77328130eb31-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/sri-lanka-premium-v2.webp",
+    "masterWidth": 2048,
+    "masterHeight": 1151,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 21092,
+        "src": "/assets/responsive/75c6b309407aa8-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 55518,
+        "src": "/assets/responsive/75c6b309407aa8-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 113342,
+        "src": "/assets/responsive/75c6b309407aa8-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 184104,
+        "src": "/assets/responsive/75c6b309407aa8-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 327244,
+        "src": "/assets/responsive/75c6b309407aa8-1920.webp"
+      },
+      {
+        "width": 2048,
+        "bytes": 450628,
+        "src": "/assets/responsive/75c6b309407aa8-2048.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/kerala-kanyakumari-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1920,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 14810,
+        "src": "/assets/responsive/48c955c262b13e-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 41472,
+        "src": "/assets/responsive/48c955c262b13e-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 89126,
+        "src": "/assets/responsive/48c955c262b13e-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 163756,
+        "src": "/assets/responsive/48c955c262b13e-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 302018,
+        "src": "/assets/responsive/48c955c262b13e-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 562396,
+        "src": "/assets/responsive/48c955c262b13e-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/royal-bhutan-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1677,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 30538,
+        "src": "/assets/responsive/f0bee1df8ff9d6-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 80074,
+        "src": "/assets/responsive/f0bee1df8ff9d6-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 172918,
+        "src": "/assets/responsive/f0bee1df8ff9d6-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 306528,
+        "src": "/assets/responsive/f0bee1df8ff9d6-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 598246,
+        "src": "/assets/responsive/f0bee1df8ff9d6-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 1109296,
+        "src": "/assets/responsive/f0bee1df8ff9d6-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/egypt-hurghada-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 729,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 4636,
+        "src": "/assets/responsive/0bc032b1c0b09a-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 11824,
+        "src": "/assets/responsive/0bc032b1c0b09a-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 23554,
+        "src": "/assets/responsive/0bc032b1c0b09a-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 42344,
+        "src": "/assets/responsive/0bc032b1c0b09a-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 85736,
+        "src": "/assets/responsive/0bc032b1c0b09a-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 190932,
+        "src": "/assets/responsive/0bc032b1c0b09a-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/goa-5-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1702,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 7000,
+        "src": "/assets/responsive/404dbefb1797b8-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 17524,
+        "src": "/assets/responsive/404dbefb1797b8-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 36260,
+        "src": "/assets/responsive/404dbefb1797b8-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 62212,
+        "src": "/assets/responsive/404dbefb1797b8-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 103916,
+        "src": "/assets/responsive/404dbefb1797b8-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 175128,
+        "src": "/assets/responsive/404dbefb1797b8-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/gujarat-8-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1440,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 10028,
+        "src": "/assets/responsive/3f1e8ff15c5007-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 29774,
+        "src": "/assets/responsive/3f1e8ff15c5007-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 69058,
+        "src": "/assets/responsive/3f1e8ff15c5007-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 144078,
+        "src": "/assets/responsive/3f1e8ff15c5007-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 291756,
+        "src": "/assets/responsive/3f1e8ff15c5007-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 604856,
+        "src": "/assets/responsive/3f1e8ff15c5007-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/lakshadweep-6-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1920,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 15202,
+        "src": "/assets/responsive/7c54297507387f-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 40054,
+        "src": "/assets/responsive/7c54297507387f-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 79490,
+        "src": "/assets/responsive/7c54297507387f-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 139938,
+        "src": "/assets/responsive/7c54297507387f-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 239130,
+        "src": "/assets/responsive/7c54297507387f-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 416700,
+        "src": "/assets/responsive/7c54297507387f-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/kodaikanal-ooty-6-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1707,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 20798,
+        "src": "/assets/responsive/b7ffd9b5aafc93-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 60522,
+        "src": "/assets/responsive/b7ffd9b5aafc93-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 139058,
+        "src": "/assets/responsive/b7ffd9b5aafc93-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 268204,
+        "src": "/assets/responsive/b7ffd9b5aafc93-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 593066,
+        "src": "/assets/responsive/b7ffd9b5aafc93-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 1258302,
+        "src": "/assets/responsive/b7ffd9b5aafc93-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/russia-7-days-premium-v2.webp",
+    "masterWidth": 1808,
+    "masterHeight": 2560,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 35574,
+        "src": "/assets/responsive/7986c132ee0332-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 90092,
+        "src": "/assets/responsive/7986c132ee0332-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 186380,
+        "src": "/assets/responsive/7986c132ee0332-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 305596,
+        "src": "/assets/responsive/7986c132ee0332-1280.webp"
+      },
+      {
+        "width": 1808,
+        "bytes": 639446,
+        "src": "/assets/responsive/7986c132ee0332-1808.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/thailand-malaysia-singapore-8-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 963,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 10224,
+        "src": "/assets/responsive/bca95ab92c06a7-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 27404,
+        "src": "/assets/responsive/bca95ab92c06a7-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 58078,
+        "src": "/assets/responsive/bca95ab92c06a7-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 102702,
+        "src": "/assets/responsive/bca95ab92c06a7-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 204264,
+        "src": "/assets/responsive/bca95ab92c06a7-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 410450,
+        "src": "/assets/responsive/bca95ab92c06a7-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/baku-azerbaijan-5-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1707,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 16030,
+        "src": "/assets/responsive/e1ed9e98ddfb7d-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 38162,
+        "src": "/assets/responsive/e1ed9e98ddfb7d-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 71244,
+        "src": "/assets/responsive/e1ed9e98ddfb7d-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 111030,
+        "src": "/assets/responsive/e1ed9e98ddfb7d-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 185590,
+        "src": "/assets/responsive/e1ed9e98ddfb7d-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 294154,
+        "src": "/assets/responsive/e1ed9e98ddfb7d-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/south-africa-8-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1667,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 17424,
+        "src": "/assets/responsive/743f9615796906-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 42172,
+        "src": "/assets/responsive/743f9615796906-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 83304,
+        "src": "/assets/responsive/743f9615796906-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 135750,
+        "src": "/assets/responsive/743f9615796906-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 241366,
+        "src": "/assets/responsive/743f9615796906-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 420640,
+        "src": "/assets/responsive/743f9615796906-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/vietnam-7-days-premium-v2.webp",
+    "masterWidth": 2340,
+    "masterHeight": 612,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 4582,
+        "src": "/assets/responsive/45e09eacf7f5aa-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 10950,
+        "src": "/assets/responsive/45e09eacf7f5aa-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 21526,
+        "src": "/assets/responsive/45e09eacf7f5aa-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 34924,
+        "src": "/assets/responsive/45e09eacf7f5aa-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 65342,
+        "src": "/assets/responsive/45e09eacf7f5aa-1920.webp"
+      },
+      {
+        "width": 2340,
+        "bytes": 100184,
+        "src": "/assets/responsive/45e09eacf7f5aa-2340.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/singapore-malaysia-6-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1707,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 18180,
+        "src": "/assets/responsive/a9ee084a40be78-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 45520,
+        "src": "/assets/responsive/a9ee084a40be78-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 90172,
+        "src": "/assets/responsive/a9ee084a40be78-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 154232,
+        "src": "/assets/responsive/a9ee084a40be78-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 283968,
+        "src": "/assets/responsive/a9ee084a40be78-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 524940,
+        "src": "/assets/responsive/a9ee084a40be78-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/exotic-thailand-6-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1295,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 11294,
+        "src": "/assets/responsive/f33e9f83282652-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 29654,
+        "src": "/assets/responsive/f33e9f83282652-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 63282,
+        "src": "/assets/responsive/f33e9f83282652-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 115462,
+        "src": "/assets/responsive/f33e9f83282652-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 227920,
+        "src": "/assets/responsive/f33e9f83282652-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 464772,
+        "src": "/assets/responsive/f33e9f83282652-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/hampi-badami-vijayapura-6-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1707,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 25564,
+        "src": "/assets/responsive/e8e69369bcd601-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 69998,
+        "src": "/assets/responsive/e8e69369bcd601-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 154808,
+        "src": "/assets/responsive/e8e69369bcd601-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 288256,
+        "src": "/assets/responsive/e8e69369bcd601-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 609572,
+        "src": "/assets/responsive/e8e69369bcd601-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 1222256,
+        "src": "/assets/responsive/e8e69369bcd601-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/bangalore-mysore-coorg-7-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1282,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 9200,
+        "src": "/assets/responsive/428675be1a2e6b-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 23466,
+        "src": "/assets/responsive/428675be1a2e6b-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 48948,
+        "src": "/assets/responsive/428675be1a2e6b-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 86974,
+        "src": "/assets/responsive/428675be1a2e6b-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 159308,
+        "src": "/assets/responsive/428675be1a2e6b-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 285084,
+        "src": "/assets/responsive/428675be1a2e6b-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/coastal-karnataka-8-days-premium-v2.webp",
+    "masterWidth": 1920,
+    "masterHeight": 2560,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 20876,
+        "src": "/assets/responsive/3c702014c3236b-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 45882,
+        "src": "/assets/responsive/3c702014c3236b-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 90180,
+        "src": "/assets/responsive/3c702014c3236b-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 132936,
+        "src": "/assets/responsive/3c702014c3236b-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 293628,
+        "src": "/assets/responsive/3c702014c3236b-1920.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/dharamshala-dalhousie-amritsar-7-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1280,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 10688,
+        "src": "/assets/responsive/b83313784e4836-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 30940,
+        "src": "/assets/responsive/b83313784e4836-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 66900,
+        "src": "/assets/responsive/b83313784e4836-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 125704,
+        "src": "/assets/responsive/b83313784e4836-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 230856,
+        "src": "/assets/responsive/b83313784e4836-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 461216,
+        "src": "/assets/responsive/b83313784e4836-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/full-rajasthan-12-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1920,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 29168,
+        "src": "/assets/responsive/171926f4fb5a18-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 73916,
+        "src": "/assets/responsive/171926f4fb5a18-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 149320,
+        "src": "/assets/responsive/171926f4fb5a18-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 255426,
+        "src": "/assets/responsive/171926f4fb5a18-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 457530,
+        "src": "/assets/responsive/171926f4fb5a18-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 784462,
+        "src": "/assets/responsive/171926f4fb5a18-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/hyderabad-srisailam-5-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 479,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 7776,
+        "src": "/assets/responsive/bd7203abc4d001-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 19406,
+        "src": "/assets/responsive/bd7203abc4d001-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 39846,
+        "src": "/assets/responsive/bd7203abc4d001-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 68508,
+        "src": "/assets/responsive/bd7203abc4d001-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 137348,
+        "src": "/assets/responsive/bd7203abc4d001-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 271918,
+        "src": "/assets/responsive/bd7203abc4d001-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/indore-ujjain-omkareshwar-5-days-premium-v2.webp",
+    "masterWidth": 1920,
+    "masterHeight": 2560,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 36882,
+        "src": "/assets/responsive/d80969dc3b1406-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 92766,
+        "src": "/assets/responsive/d80969dc3b1406-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 203984,
+        "src": "/assets/responsive/d80969dc3b1406-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 320216,
+        "src": "/assets/responsive/d80969dc3b1406-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 725028,
+        "src": "/assets/responsive/d80969dc3b1406-1920.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/kashmir-7-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1920,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 25212,
+        "src": "/assets/responsive/fe53db654f9004-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 76446,
+        "src": "/assets/responsive/fe53db654f9004-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 171910,
+        "src": "/assets/responsive/fe53db654f9004-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 336072,
+        "src": "/assets/responsive/fe53db654f9004-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 656762,
+        "src": "/assets/responsive/fe53db654f9004-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 1267270,
+        "src": "/assets/responsive/fe53db654f9004-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/kerala-6-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1920,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 14810,
+        "src": "/assets/responsive/48c955c262b13e-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 41472,
+        "src": "/assets/responsive/48c955c262b13e-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 89126,
+        "src": "/assets/responsive/48c955c262b13e-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 163756,
+        "src": "/assets/responsive/48c955c262b13e-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 302018,
+        "src": "/assets/responsive/48c955c262b13e-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 562396,
+        "src": "/assets/responsive/48c955c262b13e-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/kerala-with-kanyakumari-rameswaram-madurai-10-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1920,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 10224,
+        "src": "/assets/responsive/6d4a94e5b72b19-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 22890,
+        "src": "/assets/responsive/6d4a94e5b72b19-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 41760,
+        "src": "/assets/responsive/6d4a94e5b72b19-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 69068,
+        "src": "/assets/responsive/6d4a94e5b72b19-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 113114,
+        "src": "/assets/responsive/6d4a94e5b72b19-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 197654,
+        "src": "/assets/responsive/6d4a94e5b72b19-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/leh-ladakh-with-kargil-drass-turtuk-10-days-premium-v2.webp",
+    "masterWidth": 1707,
+    "masterHeight": 2560,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 39400,
+        "src": "/assets/responsive/ee900848f743c9-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 94898,
+        "src": "/assets/responsive/ee900848f743c9-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 178978,
+        "src": "/assets/responsive/ee900848f743c9-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 264378,
+        "src": "/assets/responsive/ee900848f743c9-1280.webp"
+      },
+      {
+        "width": 1707,
+        "bytes": 462382,
+        "src": "/assets/responsive/ee900848f743c9-1707.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/manali-amritsar-6-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1707,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 15752,
+        "src": "/assets/responsive/694a8443847292-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 39748,
+        "src": "/assets/responsive/694a8443847292-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 79686,
+        "src": "/assets/responsive/694a8443847292-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 134638,
+        "src": "/assets/responsive/694a8443847292-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 231702,
+        "src": "/assets/responsive/694a8443847292-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 401882,
+        "src": "/assets/responsive/694a8443847292-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/mini-rajasthan-7-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1707,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 11530,
+        "src": "/assets/responsive/ce4319e577f094-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 32794,
+        "src": "/assets/responsive/ce4319e577f094-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 73518,
+        "src": "/assets/responsive/ce4319e577f094-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 144024,
+        "src": "/assets/responsive/ce4319e577f094-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 301358,
+        "src": "/assets/responsive/ce4319e577f094-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 632878,
+        "src": "/assets/responsive/ce4319e577f094-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/nainital-kausani-jim-corbett-8-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1251,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 18462,
+        "src": "/assets/responsive/a39a3180cad890-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 49024,
+        "src": "/assets/responsive/a39a3180cad890-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 102422,
+        "src": "/assets/responsive/a39a3180cad890-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 181308,
+        "src": "/assets/responsive/a39a3180cad890-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 357598,
+        "src": "/assets/responsive/a39a3180cad890-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 756400,
+        "src": "/assets/responsive/a39a3180cad890-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/odisha-7-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1702,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 32898,
+        "src": "/assets/responsive/734c7f6e40d634-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 75084,
+        "src": "/assets/responsive/734c7f6e40d634-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 132554,
+        "src": "/assets/responsive/734c7f6e40d634-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 213140,
+        "src": "/assets/responsive/734c7f6e40d634-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 359688,
+        "src": "/assets/responsive/734c7f6e40d634-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 668640,
+        "src": "/assets/responsive/734c7f6e40d634-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/odisha-with-gangasagar-10-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1829,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 16912,
+        "src": "/assets/responsive/ef788bd415c0e6-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 41458,
+        "src": "/assets/responsive/ef788bd415c0e6-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 80724,
+        "src": "/assets/responsive/ef788bd415c0e6-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 138310,
+        "src": "/assets/responsive/ef788bd415c0e6-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 251140,
+        "src": "/assets/responsive/ef788bd415c0e6-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 461270,
+        "src": "/assets/responsive/ef788bd415c0e6-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/spiti-valley-8-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1529,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 22478,
+        "src": "/assets/responsive/b153710980d87b-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 62032,
+        "src": "/assets/responsive/b153710980d87b-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 139100,
+        "src": "/assets/responsive/b153710980d87b-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 261692,
+        "src": "/assets/responsive/b153710980d87b-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 567370,
+        "src": "/assets/responsive/b153710980d87b-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 1242794,
+        "src": "/assets/responsive/b153710980d87b-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/tamil-nadu-8-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 839,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 18278,
+        "src": "/assets/responsive/911812cea309df-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 49462,
+        "src": "/assets/responsive/911812cea309df-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 105750,
+        "src": "/assets/responsive/911812cea309df-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 181796,
+        "src": "/assets/responsive/911812cea309df-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 340340,
+        "src": "/assets/responsive/911812cea309df-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 622120,
+        "src": "/assets/responsive/911812cea309df-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/three-sisters-of-northeast-india-10-days-premium-v2.webp",
+    "masterWidth": 1707,
+    "masterHeight": 2560,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 39718,
+        "src": "/assets/responsive/d93170f976cef0-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 93306,
+        "src": "/assets/responsive/d93170f976cef0-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 191310,
+        "src": "/assets/responsive/d93170f976cef0-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 335360,
+        "src": "/assets/responsive/d93170f976cef0-1280.webp"
+      },
+      {
+        "width": 1707,
+        "bytes": 802026,
+        "src": "/assets/responsive/d93170f976cef0-1707.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/images/tours/unseen-kerala-with-wayanad-6-days-premium-v2.webp",
+    "masterWidth": 2560,
+    "masterHeight": 1553,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 10450,
+        "src": "/assets/responsive/665f0946d41ace-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 26234,
+        "src": "/assets/responsive/665f0946d41ace-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 53442,
+        "src": "/assets/responsive/665f0946d41ace-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 89724,
+        "src": "/assets/responsive/665f0946d41ace-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 159532,
+        "src": "/assets/responsive/665f0946d41ace-1920.webp"
+      },
+      {
+        "width": 2560,
+        "bytes": 287334,
+        "src": "/assets/responsive/665f0946d41ace-2560.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/videos/nepal-cinema-v2-poster.webp",
+    "masterWidth": 1920,
+    "masterHeight": 1080,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 5900,
+        "src": "/assets/responsive/2e39ec76c6dcc0-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 14798,
+        "src": "/assets/responsive/2e39ec76c6dcc0-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 32438,
+        "src": "/assets/responsive/2e39ec76c6dcc0-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 48556,
+        "src": "/assets/responsive/2e39ec76c6dcc0-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 113468,
+        "src": "/assets/responsive/2e39ec76c6dcc0-1920.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/videos/dubai-cinema-v2-poster.webp",
+    "masterWidth": 1920,
+    "masterHeight": 1080,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 17646,
+        "src": "/assets/responsive/5994dcf9e8aadc-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 47086,
+        "src": "/assets/responsive/5994dcf9e8aadc-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 99994,
+        "src": "/assets/responsive/5994dcf9e8aadc-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 150194,
+        "src": "/assets/responsive/5994dcf9e8aadc-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 318206,
+        "src": "/assets/responsive/5994dcf9e8aadc-1920.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/videos/kerala-cinema-v2-poster.webp",
+    "masterWidth": 1920,
+    "masterHeight": 1080,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 11496,
+        "src": "/assets/responsive/1a4136ac3dd88a-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 27342,
+        "src": "/assets/responsive/1a4136ac3dd88a-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 56224,
+        "src": "/assets/responsive/1a4136ac3dd88a-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 83914,
+        "src": "/assets/responsive/1a4136ac3dd88a-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 193368,
+        "src": "/assets/responsive/1a4136ac3dd88a-1920.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/videos/kashmir-cinema-v2-poster.webp",
+    "masterWidth": 1920,
+    "masterHeight": 1080,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 13366,
+        "src": "/assets/responsive/ad7f10eefcca9b-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 35816,
+        "src": "/assets/responsive/ad7f10eefcca9b-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 81280,
+        "src": "/assets/responsive/ad7f10eefcca9b-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 123072,
+        "src": "/assets/responsive/ad7f10eefcca9b-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 293962,
+        "src": "/assets/responsive/ad7f10eefcca9b-1920.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/videos/sikkim-cinema-v2-poster.webp",
+    "masterWidth": 1920,
+    "masterHeight": 1080,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 27962,
+        "src": "/assets/responsive/a370c7d8501d87-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 74050,
+        "src": "/assets/responsive/a370c7d8501d87-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 152526,
+        "src": "/assets/responsive/a370c7d8501d87-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 221518,
+        "src": "/assets/responsive/a370c7d8501d87-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 423296,
+        "src": "/assets/responsive/a370c7d8501d87-1920.webp"
+      }
+    ]
+  },
+  {
+    "src": "/assets/videos/home-cinema-v2-poster.webp",
+    "masterWidth": 1920,
+    "masterHeight": 1080,
+    "variants": [
+      {
+        "width": 384,
+        "bytes": 19342,
+        "src": "/assets/responsive/c872a2a3070458-384.webp"
+      },
+      {
+        "width": 640,
+        "bytes": 53764,
+        "src": "/assets/responsive/c872a2a3070458-640.webp"
+      },
+      {
+        "width": 960,
+        "bytes": 119506,
+        "src": "/assets/responsive/c872a2a3070458-960.webp"
+      },
+      {
+        "width": 1280,
+        "bytes": 186186,
+        "src": "/assets/responsive/c872a2a3070458-1280.webp"
+      },
+      {
+        "width": 1920,
+        "bytes": 435696,
+        "src": "/assets/responsive/c872a2a3070458-1920.webp"
+      }
+    ]
+  }
+]

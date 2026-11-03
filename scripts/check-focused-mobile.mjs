@@ -14,7 +14,7 @@ try {
     await page.setViewportSize({ width, height: 844 });
     await page.goto(origin);
     await page
-      .locator('.curated-hero-image img')
+      .locator('.home-hero-parallax .scenic-media img')
       .evaluate((image) => image.decode());
     const metrics = await page.evaluate(() => ({
       height: document.documentElement.scrollHeight,
@@ -40,6 +40,9 @@ try {
   }
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto(origin);
+  assert.equal(await page.locator('main .reel-screen > iframe').count(),2);
+  await page.locator('#instagram').scrollIntoViewIfNeeded();
+  await page.waitForFunction(()=>document.querySelectorAll('main iframe[src*="instagram.com/reel"]').length===2);
   assert.equal(
     await page.locator('main iframe[src*="instagram.com/reel"]').count(),
     2,

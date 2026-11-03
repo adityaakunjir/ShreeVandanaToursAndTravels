@@ -1,6 +1,6 @@
 import WhatsAppLink from '@/components/WhatsAppLink';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from '@/components/TravelImage';
 import photos from '@/data/tour-photos.json';
 import { ArrowUpRight, ChevronRight, Phone } from 'lucide-react';
 import { business } from '@/data/site';
@@ -79,6 +79,8 @@ export function PageIntro({
                 fill
                 sizes="(max-width:640px) 90vw, (max-width:900px) 40vw, 450px"
                 quality={60}
+                loading="eager"
+                fetchPriority="high"
               />
               <figcaption>
                 <Link href={`/photo-credits#${photo.slug}`}>

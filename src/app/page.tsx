@@ -5,17 +5,20 @@ import tours from '@/data/catalogue';
 import TourCard from '@/components/TourCard';
 import TourDiscovery from '@/components/TourDiscovery';
 import WhatsAppLink from '@/components/WhatsAppLink';
-import BusinessStructuredData from '@/components/BusinessStructuredData';
 import InstagramShowcase from '@/components/InstagramShowcase';
 import GoogleReviews from '@/components/GoogleReviews';
 import HomeHero from '@/components/HomeHero';
 
-export const metadata = { alternates: { canonical: '/' } };
+export const metadata = {
+  title: 'Domestic & International Holidays from Pune',
+  description:
+    'Discover Dubai, Nepal, Kerala, Kashmir and Sikkim holidays with Shree Vandana Tours & Travels, Pune. Explore itineraries and plan directly with our team on WhatsApp.',
+  alternates: { canonical: '/' },
+};
 
 export default function Home() {
   return (
     <main id="top" className="focused-home">
-      <BusinessStructuredData />
       <HomeHero />
       <section
         id="discover"

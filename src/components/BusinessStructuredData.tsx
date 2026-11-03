@@ -13,6 +13,12 @@ export default function BusinessStructuredData() {
     telephone: `+${business.phones[0].number}`,
     email: business.contact.email,
     logo: new URL('/assets/images/brand-mark.webp', base).href,
+    areaServed: { '@type': 'City', name: 'Pune' },
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: `+${business.phones[0].number}`,
+      contactType: 'travel enquiries',
+    },
     address: {
       '@type': 'PostalAddress',
       streetAddress: business.contact.address,

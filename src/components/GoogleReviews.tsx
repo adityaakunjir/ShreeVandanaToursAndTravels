@@ -31,7 +31,11 @@ export default function GoogleReviews() {
       <div className="review-grid">
         {reviews.map((review) => (
           <article className="review-card" key={review.name}>
-            <p className="review-stars" aria-label="5 out of 5 stars">
+            <p
+              className="review-stars"
+              role="img"
+              aria-label="5 out of 5 stars"
+            >
               {Array.from({ length: 5 }, (_, index) => (
                 <Star
                   key={index}

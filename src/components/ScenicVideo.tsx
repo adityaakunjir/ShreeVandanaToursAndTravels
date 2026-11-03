@@ -1,8 +1,8 @@
 'use client';
 
-import Image from 'next/image';
-import { Pause, Play } from 'lucide-react';
+import Image from '@/components/TravelImage';
 import { useEffect, useRef, useState } from 'react';
+import { mediaPolicy, type MediaConnection } from '@/lib/media-policy';
 
 type Props = {
   id: string;
@@ -15,7 +15,6 @@ type Props = {
   className?: string;
 };
 
-/** Progressive enhancement: no video URL or download until visible and eligible. */
 export default function ScenicVideo({
   id,
   assetBase = id,
@@ -27,188 +26,140 @@ export default function ScenicVideo({
   className = '',
 }: Props) {
   const video = useRef<HTMLVideoElement>(null);
-  const stopped = useRef(false);
-  const manual = useRef(false);
   const visible = useRef(false);
   const loaded = useRef(false);
-  const fallbackTried = useRef(false);
-  const currentAssetBase = useRef(assetBase);
+  const failed = useRef(false);
   const [ready, setReady] = useState(false);
-  const [playing, setPlaying] = useState(false);
-
+  function policy() {
+    const device = navigator as Navigator & {
+      deviceMemory?: number;
+      connection?: MediaConnection;
+    };
+    return mediaPolicy({
+      wide: matchMedia('(min-width: 901px)').matches,
+      reduced: matchMedia('(prefers-reduced-motion: reduce)').matches,
+      cores: device.hardwareConcurrency,
+      memory: device.deviceMemory,
+      connection: device.connection,
+    });
+  }
   function loadAndPlay() {
     const element = video.current;
-    if (!element) return;
-    if (!loaded.current || currentAssetBase.current !== assetBase) {
-      const variant = window.matchMedia('(max-width: 900px)').matches
-        ? 'mobile'
-        : 'desktop';
-      const canMp4 = element.canPlayType('video/mp4') !== '';
-      const format = canMp4 ? 'mp4' : 'webm';
-      element.dataset.variant = variant;
-      element.src = `/assets/videos/${assetBase}-${variant}.${format}`;
+    if (!element || failed.current) return;
+    if (!loaded.current) {
+      const profile = policy().profile;
+      element.dataset.variant = profile;
+      element.src = '/assets/videos/' + assetBase + '-' + profile + '.mp4';
       element.muted = true;
-      element.defaultMuted = true;
       loaded.current = true;
-      currentAssetBase.current = assetBase;
-      fallbackTried.current = false;
       element.load();
     }
-    element.muted = true;
-    element.defaultMuted = true;
-    void element.play().catch(() => setPlaying(false));
+    void element.play().catch(() => setReady(false));
   }
-
   useEffect(() => {
     const element = video.current;
     if (!element || !('IntersectionObserver' in window)) return;
-    const control =
-      element.parentElement?.querySelector<HTMLButtonElement>(
-        '.scenic-control',
-      );
-    if (control) control.hidden = false;
-    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const reduced = matchMedia('(prefers-reduced-motion: reduce)');
     const connection = (
-      navigator as Navigator & {
-        connection?: {
-          saveData?: boolean;
-          effectiveType?: string;
-          addEventListener?: (type: string, callback: () => void) => void;
-          removeEventListener?: (type: string, callback: () => void) => void;
-        };
-      }
+      navigator as Navigator & { connection?: MediaConnection & EventTarget }
     ).connection;
-    let pageReady = priority;
+    let settled = false;
     let timer: ReturnType<typeof setTimeout> | undefined;
-    const allowed = () =>
-      !reduced.matches &&
-      !connection?.saveData &&
-      !/^(slow-2g|2g|3g)$/.test(connection?.effectiveType || '');
     const sync = () => {
       if (
-        pageReady &&
+        settled &&
         visible.current &&
         !document.hidden &&
-        !stopped.current &&
-        (manual.current || allowed())
-      ) {
+        document.documentElement.dataset.motionPaused !== 'true' &&
+        policy().autoplay
+      )
         loadAndPlay();
-      } else element.pause();
+      else element.pause();
     };
+    // Let the critical photograph, heading and navigation finish before video competes.
     const settle = () => {
-      timer = setTimeout(() => {
-        pageReady = true;
-        sync();
-      }, priority ? 0 : 800);
+      timer = setTimeout(
+        () => {
+          settled = true;
+          sync();
+        },
+        priority ? 250 : 800,
+      );
     };
-    if (priority) {
-      pageReady = true;
-      visible.current = true;
-      sync();
-    } else if (document.readyState === 'complete') {
-      settle();
-    } else {
-      window.addEventListener('load', settle, { once: true });
-    }
+    if (document.readyState === 'complete') settle();
+    else window.addEventListener('load', settle, { once: true });
     const observer = new IntersectionObserver(
-      (entries) => {
-        visible.current = entries[0]?.isIntersecting ?? false;
+      ([entry]) => {
+        visible.current = entry.isIntersecting;
         sync();
       },
-      { threshold: 0 },
+      { threshold: 0.12 },
     );
     observer.observe(element);
     const preferenceChanged = () => {
-      manual.current = false;
-      if (!allowed()) {
+      if (!policy().autoplay) {
         element.pause();
         element.removeAttribute('src');
-        loaded.current = false;
         element.load();
+        loaded.current = false;
         setReady(false);
       }
       sync();
     };
     reduced.addEventListener('change', preferenceChanged);
-    connection?.addEventListener?.('change', preferenceChanged);
+    connection?.addEventListener('change', preferenceChanged);
     document.addEventListener('visibilitychange', sync);
+    window.addEventListener('travel-motion-change', sync);
+    window.addEventListener('pointerdown', sync, { once: true });
     return () => {
       clearTimeout(timer);
       observer.disconnect();
       window.removeEventListener('load', settle);
       reduced.removeEventListener('change', preferenceChanged);
-      connection?.removeEventListener?.('change', preferenceChanged);
+      connection?.removeEventListener('change', preferenceChanged);
       document.removeEventListener('visibilitychange', sync);
+      window.removeEventListener('travel-motion-change', sync);
+      window.removeEventListener('pointerdown', sync);
       element.pause();
       element.removeAttribute('src');
-      loaded.current = false;
       element.load();
+      loaded.current = false;
     };
-    // id identifies an immutable clip; props do not change without remounting.
+    // Asset URLs are immutable and the player is keyed by destination.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id, assetBase]);
-
   return (
-    <div className={`scenic-media ${ready ? 'is-playing-frame' : ''} ${className}`}>
+    <div
+      className={
+        'scenic-media ' + (ready ? 'is-playing-frame ' : '') + className
+      }
+    >
       <Image
         src={fallback}
         alt={alt}
         fill
         sizes={sizes}
-        quality={88}
+        quality={75}
         loading={priority ? 'eager' : 'lazy'}
         fetchPriority={priority ? 'high' : undefined}
       />
       <video
         ref={video}
-        muted
         autoPlay
+        muted
         playsInline
         loop
-        preload={priority ? 'auto' : 'none'}
-        aria-label={`Scenic footage: ${label}`}
+        preload="none"
+        aria-label={'Scenic footage: ' + label}
         onPlaying={() => {
           setReady(true);
-          setPlaying(true);
         }}
-        onPause={() => setPlaying(false)}
         onError={() => {
-          const element = video.current;
-          if (element && loaded.current && !fallbackTried.current) {
-            fallbackTried.current = true;
-            const format = element.src.endsWith('.mp4') ? 'webm' : 'mp4';
-            element.src = `/assets/videos/${assetBase}-${element.dataset.variant || 'mobile'}.${format}`;
-            if (!stopped.current)
-              void element.play().catch(() => setPlaying(false));
-          } else {
-            setReady(false);
-            setPlaying(false);
-          }
+          failed.current = true;
+          setReady(false);
+          video.current?.removeAttribute('src');
         }}
       />
-      <button
-        hidden
-        type="button"
-        className="scenic-control"
-        aria-label={`${playing ? 'Pause' : 'Play'} scenery video: ${label}`}
-        onClick={() => {
-          if (playing) {
-            stopped.current = true;
-            video.current?.pause();
-          } else {
-            stopped.current = false;
-            manual.current = true;
-            loadAndPlay();
-          }
-        }}
-      >
-        {playing ? (
-          <Pause size={15} aria-hidden="true" />
-        ) : (
-          <Play size={15} aria-hidden="true" />
-        )}
-        <span>{playing ? 'Pause' : 'Play scenery'}</span>
-      </button>
     </div>
   );
 }

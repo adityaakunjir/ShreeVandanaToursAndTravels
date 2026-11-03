@@ -1,8 +1,8 @@
 {
-  "reviewDate": "2026-10-29",
-  "baseCommit": "ed09a441a9010fb8749c75474c02c7576a2572eb",
+  "reviewDate": "2026-11-03",
+  "baseCommit": "166c4430e0764f526412766bbc7874ef33689b30",
   "scope": "Working source, business documents and public assets. Excludes dependencies, builds, Git metadata, credentials and generated index itself.",
-  "fileCount": 342,
+  "fileCount": 801,
   "files": [
     {
       "path": ".agents/skills/prisma-composer-core-concepts/SKILL.md",
@@ -251,6 +251,48 @@
       "sha256": "a8984dae29971efab33c9eac21fb3b92e2637c7a99227360156ced095ac44dd2"
     },
     {
+      "path": "artifacts/breakpoint-validation.json",
+      "bytes": 4102,
+      "category": "supporting",
+      "sha256": "1b91ccbecdb4579a01f208767451684d45c4b9e3c3bc55bece2a09dd8c0e7432"
+    },
+    {
+      "path": "artifacts/cinema-review-dubai.jpg",
+      "bytes": 115800,
+      "category": "supporting",
+      "sha256": "cb2caa0dadcaf28d24de217c0912f46df959d4dd481899822518a3ad42593ac9"
+    },
+    {
+      "path": "artifacts/cinema-review-home-destinations-drone.jpg",
+      "bytes": 140800,
+      "category": "supporting",
+      "sha256": "993fef043f12913ec4e0e808bd05bfe444a5f141ebf2b73fbe236bdb5832f085"
+    },
+    {
+      "path": "artifacts/cinema-review-kashmir.jpg",
+      "bytes": 129192,
+      "category": "supporting",
+      "sha256": "395ec3c9534ac4437caeeff46b6f899c32a7de0c6f2cdcc0f89e5c33e0ad9d70"
+    },
+    {
+      "path": "artifacts/cinema-review-kerala.jpg",
+      "bytes": 143944,
+      "category": "supporting",
+      "sha256": "9a155de9e8ee9dfde4e445b9596809d8e166de341e071d9a0d361b26181ad756"
+    },
+    {
+      "path": "artifacts/cinema-review-nepal.jpg",
+      "bytes": 157024,
+      "category": "supporting",
+      "sha256": "fa9055c667f85b3b5e9980fc0bd1d27d4045f52f221945b4637f04303f534152"
+    },
+    {
+      "path": "artifacts/cinema-review-sikkim.jpg",
+      "bytes": 182912,
+      "category": "supporting",
+      "sha256": "39cf2fb5f208d3dc7ff0325d36398099f8be305083951b4a7d881688931e7fd0"
+    },
+    {
       "path": "artifacts/company-tours-desktop.png",
       "bytes": 57509,
       "category": "supporting",
@@ -282,9 +324,9 @@
     },
     {
       "path": "artifacts/destination-video-quality.json",
-      "bytes": 2721,
+      "bytes": 12671,
       "category": "supporting",
-      "sha256": "6d4698d77b821e613dfed3b224cba2124cada9d7c57524381e7386745c2e79cf"
+      "sha256": "1b51d0408f7fe6cdeb5a8fcbf701036c83f907d1e6122aa23a2c08d69e690270"
     },
     {
       "path": "artifacts/egypt-brand-desktop.png",
@@ -300,39 +342,63 @@
     },
     {
       "path": "artifacts/expedition-desktop.png",
-      "bytes": 897705,
+      "bytes": 1312712,
       "category": "supporting",
-      "sha256": "a1456897d5dede0e6a9ef64da7e833a16fbdfafd143427727cf1d9d9acf20016"
+      "sha256": "f12b9dbeb0359ccbfe02c8ece85db353591f950eee32c910fea77680dedb7d2f"
     },
     {
       "path": "artifacts/expedition-mobile.png",
-      "bytes": 200649,
+      "bytes": 292762,
       "category": "supporting",
-      "sha256": "7b2a4d8631ec24069adc62b2ffc7265a2bac57c7640a1ed4f83f72ef9dd492c1"
+      "sha256": "a9a81bab0ab5ecc8f79814a6476e23d0eaf0c9c4b479a4d522b7b0794d6c34ed"
     },
     {
       "path": "artifacts/expedition-tours-mobile.png",
-      "bytes": 62204,
+      "bytes": 76901,
       "category": "supporting",
-      "sha256": "86f9d6722e4ee4787ec5b9ac0476c1d96766a4422089dec20f244bdb9b9737dc"
+      "sha256": "e12b31782c5a1d6300625ec4bf5b44665e05d566dd88e50ba2688659921adc83"
     },
     {
       "path": "artifacts/expedition-validation.json",
-      "bytes": 25900,
+      "bytes": 33087,
       "category": "supporting",
-      "sha256": "756c1e554951868f3c27599cb5c9560d8669389dfe9cc2f4a2eef61043f94826"
+      "sha256": "b3da94764306ac4445115c6e22f5c2650c134b186cdedac00e0f2b8a73b3b6b5"
+    },
+    {
+      "path": "artifacts/final-all-pages-review.json",
+      "bytes": 216929,
+      "category": "supporting",
+      "sha256": "98925a57499fc56d95ace07b101ddb3b239c3efe073327cf58a27681b37e3122"
     },
     {
       "path": "artifacts/focused-home-mobile.png",
-      "bytes": 390210,
+      "bytes": 557876,
       "category": "supporting",
-      "sha256": "cd6fc9660b01ac494498a3a5bba019d50a8badf880c7f6432a42f02e5d7684be"
+      "sha256": "ea51a9703556a4029fcdb150fef8add71884641178044aff5127ea947dcb0320"
     },
     {
       "path": "artifacts/focused-mobile-validation.json",
       "bytes": 904,
       "category": "supporting",
-      "sha256": "c388dc066b7c1e6391ab5b279c8f6a80197128e0db56388093bd1180c9f11bd6"
+      "sha256": "9e171c1ccb005e2c3df7efe8416e3629e34cfa7bf9ed17fafca11b4e5e7bab9a"
+    },
+    {
+      "path": "artifacts/gallery-final-1280.png",
+      "bytes": 1205675,
+      "category": "supporting",
+      "sha256": "4ed68c1eee05c24e740199c097f93be843447bbd2b69ccc34b361a8c8e404541"
+    },
+    {
+      "path": "artifacts/gallery-final-414.png",
+      "bytes": 193779,
+      "category": "supporting",
+      "sha256": "b128129b55579b53c000fd59f7526ae51379ad503160837d6f8de904b7ea420f"
+    },
+    {
+      "path": "artifacts/header-theme-validation.json",
+      "bytes": 34282,
+      "category": "supporting",
+      "sha256": "146094b10046bd0b845dca45ea7bf9bf6343132a04aa69fcfcc366f716896524"
     },
     {
       "path": "artifacts/homepage-desktop.png",
@@ -371,10 +437,40 @@
       "sha256": "36eb968c11505198bb94da456a571491cffa6ab0f3b503f342fcd22c951507d4"
     },
     {
+      "path": "artifacts/journey-loading-desktop.png",
+      "bytes": 77732,
+      "category": "supporting",
+      "sha256": "25149d44298b08f4cd391fe11ce5def2513c782acca9c5b18e3d38ade5d7ca67"
+    },
+    {
+      "path": "artifacts/journey-loading-mobile.png",
+      "bytes": 40124,
+      "category": "supporting",
+      "sha256": "4513de58d44dc3131a9b6f946e4ab578b394869d07948f2e8b0ff09bf51451fc"
+    },
+    {
+      "path": "artifacts/lighthouse-premium-mobile.json",
+      "bytes": 627164,
+      "category": "supporting",
+      "sha256": "4830584aef48107c308c8823fd9693e7300d15b6e56d763bca64d97df5953cb7"
+    },
+    {
+      "path": "artifacts/lighthouse-premium-tour-mobile.json",
+      "bytes": 796154,
+      "category": "supporting",
+      "sha256": "29e68af573bc181eb91fc0f0cb8b59102ca1a5b5b9eb62965fc5bb3a3f32ef71"
+    },
+    {
       "path": "artifacts/live-search-audit.json",
       "bytes": 60434,
       "category": "supporting",
       "sha256": "7f7adbc34c7a76dfdd068273ca6b907e7d150b4e68116b3def08dbc31d0e6cbc"
+    },
+    {
+      "path": "artifacts/loading-validation.json",
+      "bytes": 148,
+      "category": "supporting",
+      "sha256": "19c097f516a9fd0a4302a1b23792a2641659885a5ab2915e4573cf8c548d5121"
     },
     {
       "path": "artifacts/local-concurrency.json",
@@ -387,6 +483,24 @@
       "bytes": 26963,
       "category": "supporting",
       "sha256": "a3de8f3b2d4785cb3e10130b16b49f4e3ee520e566a0aec217a6226a93415143"
+    },
+    {
+      "path": "artifacts/media-after-0.jpg",
+      "bytes": 196481,
+      "category": "supporting",
+      "sha256": "5ce4bbd2c71714d888ca87c27f7ab8f1d62e9fac32579905b294950806af7b35"
+    },
+    {
+      "path": "artifacts/media-after-1.jpg",
+      "bytes": 180895,
+      "category": "supporting",
+      "sha256": "ef0e78b52d70d1988700722a4dab908107729d7b2391f43884d47df2d705aebe"
+    },
+    {
+      "path": "artifacts/media-after-2.jpg",
+      "bytes": 211314,
+      "category": "supporting",
+      "sha256": "e0605641a2d7eb0d1aeb357a46c1689dc969d792bbd3e134ae52aa98c4687cef"
     },
     {
       "path": "artifacts/mobile-after-_.png",
@@ -641,6 +755,54 @@
       "sha256": "8f87e25c47bd2eec1a53a4b869eaae23a15d3a72df7521c39c046cf73d35d61a"
     },
     {
+      "path": "artifacts/premium-bali-mobile.png",
+      "bytes": 1322718,
+      "category": "supporting",
+      "sha256": "90c1419706e65f6394f5a06c52324fedb35101b6bfa047a55419023e7ae3f14e"
+    },
+    {
+      "path": "artifacts/premium-experience-validation.json",
+      "bytes": 3762,
+      "category": "supporting",
+      "sha256": "0d144d3fd127a1174d4a9c717ee0a1968f1ab29c0559987a6f15764e047954ec"
+    },
+    {
+      "path": "artifacts/premium-film-encoding.json",
+      "bytes": 49908,
+      "category": "supporting",
+      "sha256": "2090e7bcb6d52e47a3b437b007e3b31972abd1237f5839a595127d8ce5f42ba3"
+    },
+    {
+      "path": "artifacts/premium-film-quality.json",
+      "bytes": 5704,
+      "category": "supporting",
+      "sha256": "12babe298afb7142522e213db0ff1e374c9a288a2f931b12e246d188f803ad22"
+    },
+    {
+      "path": "artifacts/premium-home-desktop.png",
+      "bytes": 4727159,
+      "category": "supporting",
+      "sha256": "dbf9c4348db66da7e54cc6a005d6b54e63bac805d7103ab6015952e3e96d37e5"
+    },
+    {
+      "path": "artifacts/premium-home-mobile.png",
+      "bytes": 1282332,
+      "category": "supporting",
+      "sha256": "fd8ac5f037b00a6ca823deff73820fec2ed174149fab54b67eef7f2fe9e133fe"
+    },
+    {
+      "path": "artifacts/premium-photo-import.json",
+      "bytes": 15115,
+      "category": "supporting",
+      "sha256": "5f711e17ee6deb03c15d61a4abf33d7d66169758d14587fb6ca9701a0564bc07"
+    },
+    {
+      "path": "artifacts/premium-slow-mobile.png",
+      "bytes": 920726,
+      "category": "supporting",
+      "sha256": "bb71e521a378023dff99dcd1d906fdd16cecc732c1fc806e81bc9ae6779b665a"
+    },
+    {
       "path": "artifacts/production-deployment-verification.json",
       "bytes": 772,
       "category": "supporting",
@@ -681,6 +843,12 @@
       "bytes": 19723,
       "category": "supporting",
       "sha256": "9bdc2db1b37324bac3f76e52c1668b90a7376accf7ba2ec03bffa14c1ce0637f"
+    },
+    {
+      "path": "artifacts/responsive-image-delivery.json",
+      "bytes": 46982,
+      "category": "supporting",
+      "sha256": "012677960127f94cd0a203de0cc6c04499db1171a6732f33ccaf58678bb579d9"
     },
     {
       "path": "artifacts/scenic-video-desktop.png",
@@ -816,9 +984,9 @@
     },
     {
       "path": "docs/DESTINATION_VIDEO_DELIVERY.md",
-      "bytes": 2058,
+      "bytes": 2342,
       "category": "supporting",
-      "sha256": "94ef69cd13ec1429a4de8d8a807fff4356bc49128427a3e36c87c187c4511e72"
+      "sha256": "9e609ebb88d5123735a7f4567026506ce9d91b4dd451f594d02abe325d4e938c"
     },
     {
       "path": "docs/ENQUIRY_BACKEND.md",
@@ -869,6 +1037,12 @@
       "sha256": "7a4808149455e627a86cddc971005e50e5a5b47a3d60bf471ad2eeb06a6ff9fd"
     },
     {
+      "path": "docs/PREMIUM_MEDIA_PERFORMANCE_SEO.md",
+      "bytes": 7043,
+      "category": "supporting",
+      "sha256": "36c6bc3426f643dfd26914729891332ebc68a2c26825bb610cf9cb93c6662036"
+    },
+    {
       "path": "docs/REDESIGN_REVIEW.md",
       "bytes": 10660,
       "category": "supporting",
@@ -888,9 +1062,9 @@
     },
     {
       "path": "next.config.mjs",
-      "bytes": 459,
+      "bytes": 767,
       "category": "supporting",
-      "sha256": "02fe1c879e01bf14844407a198bf80e62768ad0063b86274f05351fd151725c4"
+      "sha256": "f9e37766ac8bbb106a9b5691ed5f0ea4c34ba7406b2c5a8dd5935f6abb77462a"
     },
     {
       "path": "package-lock.json",
@@ -1043,10 +1217,34 @@
       "sha256": "2d60ec0176136a8226743c43af59592c7beee6001b98a7c17d09b36883183fb0"
     },
     {
+      "path": "public/assets/images/tours/andaman-with-baratang-island-7-days-premium-v2.webp",
+      "bytes": 277272,
+      "category": "public-asset",
+      "sha256": "fd0d662c737110b60a2f0d244d4b1e03f3c6293878890b2c8ff137a80f822011"
+    },
+    {
       "path": "public/assets/images/tours/andaman-with-baratang-island-7-days.webp",
       "bytes": 174322,
       "category": "public-asset",
       "sha256": "e8a3b8911ba1b5facf980c0c4ad891bf2b4ddbe982610591d28d60d914e18c39"
+    },
+    {
+      "path": "public/assets/images/tours/baku-azerbaijan-5-days-premium-v2.webp",
+      "bytes": 385870,
+      "category": "public-asset",
+      "sha256": "e1ed9e98ddfb7d1be6dee9794c1c6541d354844fb93a299eb4db3b0536b6c3d6"
+    },
+    {
+      "path": "public/assets/images/tours/baku-azerbaijan-5-days.webp",
+      "bytes": 111918,
+      "category": "public-asset",
+      "sha256": "2d3e4f4200478174187456f619b5cf240ee9a3e6d25ca7cacbd3f40448395dcc"
+    },
+    {
+      "path": "public/assets/images/tours/bali-indonesia-7-days-premium-v2.webp",
+      "bytes": 1120748,
+      "category": "public-asset",
+      "sha256": "a934ef8c6a9495ce2488013a246fe4fcf7fc61e10cbb29b50391f32cab4b11ca"
     },
     {
       "path": "public/assets/images/tours/bali-indonesia-7-days.webp",
@@ -1055,10 +1253,46 @@
       "sha256": "869cc638414eb6449e68f942be513159e772e2861dedd5ea80782c22d57ba03c"
     },
     {
+      "path": "public/assets/images/tours/bangalore-mysore-coorg-7-days-premium-v2.webp",
+      "bytes": 357576,
+      "category": "public-asset",
+      "sha256": "428675be1a2e6b828f85e842b9403ccd485299aef792147d7b40bfbf7ca9c885"
+    },
+    {
+      "path": "public/assets/images/tours/bangalore-mysore-coorg-7-days.webp",
+      "bytes": 199390,
+      "category": "public-asset",
+      "sha256": "1784b9120958e64d3a2644a0d6060b71db2b79a100e16ed2e3801d8aed40d0c4"
+    },
+    {
+      "path": "public/assets/images/tours/char-dham-yatra-13-days-premium-v2.webp",
+      "bytes": 273962,
+      "category": "public-asset",
+      "sha256": "e6351480e5b19c3c68446fec2528842c58fe1f5c13b74b7f0c809279633115a3"
+    },
+    {
       "path": "public/assets/images/tours/char-dham-yatra-13-days.webp",
       "bytes": 130518,
       "category": "public-asset",
       "sha256": "56659c615b2e7aa885138e8fbc53300d2fe7ea02aa9fac70ca99e1e73e344a7b"
+    },
+    {
+      "path": "public/assets/images/tours/coastal-karnataka-8-days-premium-v2.webp",
+      "bytes": 425164,
+      "category": "public-asset",
+      "sha256": "3c702014c3236b4aea6f22c9cd35f70611778055cad38b9f617d202e3dacebf3"
+    },
+    {
+      "path": "public/assets/images/tours/coastal-karnataka-8-days.webp",
+      "bytes": 266134,
+      "category": "public-asset",
+      "sha256": "611625b0421bd97eec312aa9d232b97a9c9a452cc88757ab2485b5509f0fedc2"
+    },
+    {
+      "path": "public/assets/images/tours/darjeeling-gangtok-pelling-premium-v2.webp",
+      "bytes": 123730,
+      "category": "public-asset",
+      "sha256": "834170d3a443fe98f002c0a1b775f606b5beceafd29ace67a32fc755059d3d53"
     },
     {
       "path": "public/assets/images/tours/darjeeling-gangtok-pelling.webp",
@@ -1067,10 +1301,34 @@
       "sha256": "39fab0e6d1a042a693e9b4e14b425a80f3221a64b865cb4daa03e37231bccccd"
     },
     {
+      "path": "public/assets/images/tours/dharamshala-dalhousie-amritsar-7-days-premium-v2.webp",
+      "bytes": 611064,
+      "category": "public-asset",
+      "sha256": "b83313784e4836ea98f3b22c4a77c54637e3c6022b689894d7c82e65a3cb97f2"
+    },
+    {
+      "path": "public/assets/images/tours/dharamshala-dalhousie-amritsar-7-days.webp",
+      "bytes": 273788,
+      "category": "public-asset",
+      "sha256": "3195fefde2534a9bb63e1b07b72f3e2fde83e3caf9095a923a4bdf11383f49d6"
+    },
+    {
+      "path": "public/assets/images/tours/dubai-abu-dhabi-premium-v2.webp",
+      "bytes": 593436,
+      "category": "public-asset",
+      "sha256": "deb070f10fd017c9dd4f02d647670e9c893d25d9b900190977b5f0571b1fe72d"
+    },
+    {
       "path": "public/assets/images/tours/dubai-abu-dhabi.webp",
       "bytes": 8776,
       "category": "public-asset",
       "sha256": "9edcedb5bd7e38139798f8c786d87a489d9953941f6ef6e31827ea9b6feffb6d"
+    },
+    {
+      "path": "public/assets/images/tours/egypt-hurghada-premium-v2.webp",
+      "bytes": 239490,
+      "category": "public-asset",
+      "sha256": "0bc032b1c0b09afc6c44d2ff4065bae5e4f470021ed1d00e33d3ba7b2cd36175"
     },
     {
       "path": "public/assets/images/tours/egypt-hurghada.webp",
@@ -1079,10 +1337,106 @@
       "sha256": "6166773d727a1398fc99aacd64a052853d08281307fdc1581e0a37d45aee5480"
     },
     {
+      "path": "public/assets/images/tours/exotic-thailand-6-days-premium-v2.webp",
+      "bytes": 597898,
+      "category": "public-asset",
+      "sha256": "f33e9f83282652afc0315d004afd962ed37540ea0fc4dde0890f1a83b0e8d518"
+    },
+    {
+      "path": "public/assets/images/tours/exotic-thailand-6-days.webp",
+      "bytes": 294672,
+      "category": "public-asset",
+      "sha256": "d7bd2524b791795ab635a0441d41c8e89a1b76c1e7c504fb450ea1115d9f66a7"
+    },
+    {
+      "path": "public/assets/images/tours/full-rajasthan-12-days-premium-v2.webp",
+      "bytes": 942846,
+      "category": "public-asset",
+      "sha256": "171926f4fb5a18dc14917d9f91c12dca826e405e13d6ac39167f3e30df30c94b"
+    },
+    {
+      "path": "public/assets/images/tours/full-rajasthan-12-days.webp",
+      "bytes": 293424,
+      "category": "public-asset",
+      "sha256": "9322b4628c90b60b59206bb9038eeb1825165cf66e397efa7976e22d88f9c1d2"
+    },
+    {
+      "path": "public/assets/images/tours/goa-5-days-premium-v2.webp",
+      "bytes": 240486,
+      "category": "public-asset",
+      "sha256": "404dbefb1797b89b2e053daf30bdad05b42dcd5c0ae4a8dbc9f7fd26fcb494bb"
+    },
+    {
+      "path": "public/assets/images/tours/goa-5-days.webp",
+      "bytes": 164136,
+      "category": "public-asset",
+      "sha256": "9736539434ccad281d8d622fa7e65d291ff0a37bf2b406d3d299996fd38e388f"
+    },
+    {
+      "path": "public/assets/images/tours/gujarat-8-days-premium-v2.webp",
+      "bytes": 754266,
+      "category": "public-asset",
+      "sha256": "3f1e8ff15c5007ff2720c06972b8b879cd59db5321cf6754793e9efb2e13242f"
+    },
+    {
+      "path": "public/assets/images/tours/gujarat-8-days.webp",
+      "bytes": 203720,
+      "category": "public-asset",
+      "sha256": "9add19486c12a64525496399491f3c4b5ad5fa873d5082d40c81d525f1480c74"
+    },
+    {
+      "path": "public/assets/images/tours/hampi-badami-vijayapura-6-days-premium-v2.webp",
+      "bytes": 1545346,
+      "category": "public-asset",
+      "sha256": "e8e69369bcd60130fba110ad0afd29d12ead1529d2e8820b6da30c12b80f7439"
+    },
+    {
+      "path": "public/assets/images/tours/hampi-badami-vijayapura-6-days.webp",
+      "bytes": 782054,
+      "category": "public-asset",
+      "sha256": "172daae4b20a597c22cd77edae5b9d8c8ff3d4213a462e4f13932801f784c0f7"
+    },
+    {
+      "path": "public/assets/images/tours/hyderabad-srisailam-5-days-premium-v2.webp",
+      "bytes": 333144,
+      "category": "public-asset",
+      "sha256": "bd7203abc4d001a8ae0e414b4b25909480d7d0a60cccbfe3c8ef0f6693b46a66"
+    },
+    {
+      "path": "public/assets/images/tours/hyderabad-srisailam-5-days.webp",
+      "bytes": 370164,
+      "category": "public-asset",
+      "sha256": "208a179b3ce55e17b94768ce9e49920bc041e3d39eb03a37464c4400f6ede14e"
+    },
+    {
+      "path": "public/assets/images/tours/indore-ujjain-omkareshwar-5-days-premium-v2.webp",
+      "bytes": 967214,
+      "category": "public-asset",
+      "sha256": "d80969dc3b1406d5aa8e47f8f76780f452e54efa6b15adb79e931db16eaf9d35"
+    },
+    {
+      "path": "public/assets/images/tours/indore-ujjain-omkareshwar-5-days.webp",
+      "bytes": 699496,
+      "category": "public-asset",
+      "sha256": "f450eaa7c90ca109050a24565b9c6ffaf89d835d29597cca26fe1898a9176bfc"
+    },
+    {
+      "path": "public/assets/images/tours/japan-8-days-premium-v2.webp",
+      "bytes": 637452,
+      "category": "public-asset",
+      "sha256": "185b6dc6c34eec2d023b8f62e88653ace976b289fdd9d2f46dccfb9b9acdc9c1"
+    },
+    {
       "path": "public/assets/images/tours/japan-8-days.webp",
       "bytes": 165494,
       "category": "public-asset",
       "sha256": "4f6fd958876bf27a60bd600154abc1087369455ef49b0fad5f5c684ef16a382b"
+    },
+    {
+      "path": "public/assets/images/tours/kashi-gaya-prayag-ayodhya-premium-v2.webp",
+      "bytes": 240388,
+      "category": "public-asset",
+      "sha256": "d5f20748db3e1755ccb31d54159a5eba71330de82f0601112f08bab9ae210f27"
     },
     {
       "path": "public/assets/images/tours/kashi-gaya-prayag-ayodhya.webp",
@@ -1091,10 +1445,46 @@
       "sha256": "0e0e9f12f07a7c01fa13493e453146d38ef90c08fcbbc3af56c72832fade7106"
     },
     {
+      "path": "public/assets/images/tours/kashmir-7-days-premium-v2.webp",
+      "bytes": 1554016,
+      "category": "public-asset",
+      "sha256": "fe53db654f90046b3618a80a4b5b6142f7f7dbcf19577b058e101b4ffe499f8c"
+    },
+    {
+      "path": "public/assets/images/tours/kashmir-7-days.webp",
+      "bytes": 797268,
+      "category": "public-asset",
+      "sha256": "d38386d29b9b965fb6d93e3c816172f6cf268a623a147e4ab26c4d20bac179ac"
+    },
+    {
+      "path": "public/assets/images/tours/kashmir-amritsar-vaishno-devi-premium-v2.webp",
+      "bytes": 998542,
+      "category": "public-asset",
+      "sha256": "a91f54df62206ef57738b619c28b38a11f6a6087577ade3f7c91b1bf459a4ec5"
+    },
+    {
       "path": "public/assets/images/tours/kashmir-amritsar-vaishno-devi.webp",
       "bytes": 33392,
       "category": "public-asset",
       "sha256": "6d1ffbe84e13d8a33e65584f825776a3ca55614eb0c62628bd580c381cf390cc"
+    },
+    {
+      "path": "public/assets/images/tours/kerala-6-days-premium-v2.webp",
+      "bytes": 697134,
+      "category": "public-asset",
+      "sha256": "48c955c262b13efdb4981f38dab8fadc05714e8d624dbcf64dfb8446837e4b65"
+    },
+    {
+      "path": "public/assets/images/tours/kerala-6-days.webp",
+      "bytes": 268574,
+      "category": "public-asset",
+      "sha256": "53d9f1c9a5a6087a15080861548fefef01a5b64b6ac584ab01c3c44757954fe6"
+    },
+    {
+      "path": "public/assets/images/tours/kerala-kanyakumari-premium-v2.webp",
+      "bytes": 697134,
+      "category": "public-asset",
+      "sha256": "48c955c262b13efdb4981f38dab8fadc05714e8d624dbcf64dfb8446837e4b65"
     },
     {
       "path": "public/assets/images/tours/kerala-kanyakumari.webp",
@@ -1103,10 +1493,82 @@
       "sha256": "160c3380a7485682c3d57db0bb78e78a82512b5c59d795122bba123aac203216"
     },
     {
+      "path": "public/assets/images/tours/kerala-with-kanyakumari-rameswaram-madurai-10-days-premium-v2.webp",
+      "bytes": 273752,
+      "category": "public-asset",
+      "sha256": "6d4a94e5b72b193889fbdf19cd2d749b17fe0ed560c0854e940fd2e3e62b3430"
+    },
+    {
+      "path": "public/assets/images/tours/kerala-with-kanyakumari-rameswaram-madurai-10-days.webp",
+      "bytes": 142362,
+      "category": "public-asset",
+      "sha256": "dc082d4645dbff0dad3c20b9bb9c8a807de74285b0abb63d2e660796903bf4f9"
+    },
+    {
+      "path": "public/assets/images/tours/kodaikanal-ooty-6-days-premium-v2.webp",
+      "bytes": 1494836,
+      "category": "public-asset",
+      "sha256": "b7ffd9b5aafc93f3331bf39af2364e20b82170b63e6a42182acf77027a7130ed"
+    },
+    {
+      "path": "public/assets/images/tours/kodaikanal-ooty-6-days.webp",
+      "bytes": 715438,
+      "category": "public-asset",
+      "sha256": "f74cebeb9bd74cea0c7ff1de74feeac6b6d876fe13ef5269314edfa9a44c6c12"
+    },
+    {
+      "path": "public/assets/images/tours/lakshadweep-6-days-premium-v2.webp",
+      "bytes": 521202,
+      "category": "public-asset",
+      "sha256": "7c54297507387f472ce7cfeed51348f1809150832840e98a074a963627b1d21d"
+    },
+    {
+      "path": "public/assets/images/tours/lakshadweep-6-days.webp",
+      "bytes": 157210,
+      "category": "public-asset",
+      "sha256": "a702c4bcd5f73a3a3c013407d0ae58e44a6e6fb9e477abbcfe5df4f4915a8cb5"
+    },
+    {
+      "path": "public/assets/images/tours/leh-ladakh-8-days-premium-v2.webp",
+      "bytes": 469596,
+      "category": "public-asset",
+      "sha256": "70715754da75316ef61fdea628e719893c3ea1a710fa9ec5aaa6d65df6082eef"
+    },
+    {
       "path": "public/assets/images/tours/leh-ladakh-8-days.webp",
       "bytes": 88486,
       "category": "public-asset",
       "sha256": "f3d93195c61de7bec7d1e259feca4cca7d20bb20b98c259733bc30eb9ae547fd"
+    },
+    {
+      "path": "public/assets/images/tours/leh-ladakh-with-kargil-drass-turtuk-10-days-premium-v2.webp",
+      "bytes": 620092,
+      "category": "public-asset",
+      "sha256": "ee900848f743c9b689599b62c7f50fb06611415f4d98bdeba7d6dee4b1135af5"
+    },
+    {
+      "path": "public/assets/images/tours/leh-ladakh-with-kargil-drass-turtuk-10-days.webp",
+      "bytes": 686164,
+      "category": "public-asset",
+      "sha256": "3e2120456ac860c6ada3b66555fccb39927df1cac075d34506b339ed5667b43b"
+    },
+    {
+      "path": "public/assets/images/tours/manali-amritsar-6-days-premium-v2.webp",
+      "bytes": 521184,
+      "category": "public-asset",
+      "sha256": "694a844384729251d96e7d611ad7f7355a82832ad0c94b7ad52b0ce8716a4117"
+    },
+    {
+      "path": "public/assets/images/tours/manali-amritsar-6-days.webp",
+      "bytes": 330192,
+      "category": "public-asset",
+      "sha256": "537a63945bff1a74f1082155c5e35d138fa86abc6e0a0090e17d31e0dbf549bd"
+    },
+    {
+      "path": "public/assets/images/tours/mauritius-honeymoon-package-6-days-premium-v2.webp",
+      "bytes": 912670,
+      "category": "public-asset",
+      "sha256": "019310da10be8c6a5ee722874cf28d3cf5123e09b5e6882f3d5585e47d07246c"
     },
     {
       "path": "public/assets/images/tours/mauritius-honeymoon-package-6-days.webp",
@@ -1115,10 +1577,70 @@
       "sha256": "c90ac7996280e7a89a54bf252926eb51058d38cbe9045e99f369239b2665f801"
     },
     {
+      "path": "public/assets/images/tours/mini-rajasthan-7-days-premium-v2.webp",
+      "bytes": 799026,
+      "category": "public-asset",
+      "sha256": "ce4319e577f0940595527d0c58695ce84ce647d88e98c16617c3712bce2172ba"
+    },
+    {
+      "path": "public/assets/images/tours/mini-rajasthan-7-days.webp",
+      "bytes": 377434,
+      "category": "public-asset",
+      "sha256": "f9ada094d2fba9c01529ce1f8f2610da7bea8d58cf06090c955bcc24a5231dc1"
+    },
+    {
+      "path": "public/assets/images/tours/nainital-kausani-jim-corbett-8-days-premium-v2.webp",
+      "bytes": 939786,
+      "category": "public-asset",
+      "sha256": "a39a3180cad8906c93efaa6518f9be6d3361f1201826f9d447987b18b1554b1c"
+    },
+    {
+      "path": "public/assets/images/tours/nainital-kausani-jim-corbett-8-days.webp",
+      "bytes": 308778,
+      "category": "public-asset",
+      "sha256": "30f5306673e67645fe590882370b85c11d03693f3da2d5b298842403214d9f75"
+    },
+    {
+      "path": "public/assets/images/tours/nepal-premium-v2.webp",
+      "bytes": 752720,
+      "category": "public-asset",
+      "sha256": "1b77328130eb3136f49981bb2ba81d5401df015db2dcb2003cc0130134b4ce49"
+    },
+    {
       "path": "public/assets/images/tours/nepal.webp",
       "bytes": 127564,
       "category": "public-asset",
       "sha256": "c6345b328a47b6682826465f1c5389010d0341f6c2638d9e303d3ec76ca6b554"
+    },
+    {
+      "path": "public/assets/images/tours/odisha-7-days-premium-v2.webp",
+      "bytes": 838610,
+      "category": "public-asset",
+      "sha256": "734c7f6e40d63496c0d08752d2c16aed904dbfcdc88098f2c923799bcbee1dad"
+    },
+    {
+      "path": "public/assets/images/tours/odisha-7-days.webp",
+      "bytes": 429892,
+      "category": "public-asset",
+      "sha256": "1de02d1c53b516f3aa1f617ca98330d549b2faa319ade267208e698454f807a8"
+    },
+    {
+      "path": "public/assets/images/tours/odisha-with-gangasagar-10-days-premium-v2.webp",
+      "bytes": 587420,
+      "category": "public-asset",
+      "sha256": "ef788bd415c0e697119f8aa9230482f89a0cb665d0063193f5a21c031f856937"
+    },
+    {
+      "path": "public/assets/images/tours/odisha-with-gangasagar-10-days.webp",
+      "bytes": 305098,
+      "category": "public-asset",
+      "sha256": "adbe1f31594d76b68a2bb310bbe3102116f70f2f15b6addf32f3a8d9515945c8"
+    },
+    {
+      "path": "public/assets/images/tours/pithapur-kuravpur-premium-v2.webp",
+      "bytes": 224888,
+      "category": "public-asset",
+      "sha256": "0861964873fc0726de2f23b8eef2f9171ead6c8eaafd100fd3c1f7b9d3344fa4"
     },
     {
       "path": "public/assets/images/tours/pithapur-kuravpur.webp",
@@ -1127,10 +1649,34 @@
       "sha256": "ea0d6e3c648ba5c593d00e155a62395b9de9e2870de40e491ea09938a325c02d"
     },
     {
+      "path": "public/assets/images/tours/royal-bhutan-premium-v2.webp",
+      "bytes": 1422264,
+      "category": "public-asset",
+      "sha256": "f0bee1df8ff9d6b18c456809d77594c4354994e9b1ec9fdc91969257cc9d81a1"
+    },
+    {
       "path": "public/assets/images/tours/royal-bhutan.webp",
       "bytes": 403412,
       "category": "public-asset",
       "sha256": "88c97db21e57a71ac76fe782cf21d8c17586cf608e7d4dc3adbfe9a2be3368ef"
+    },
+    {
+      "path": "public/assets/images/tours/russia-7-days-premium-v2.webp",
+      "bytes": 785430,
+      "category": "public-asset",
+      "sha256": "7986c132ee0332bf1d004fe696a8bebe444be1ab14dbaa6ec776e6fa277630fa"
+    },
+    {
+      "path": "public/assets/images/tours/russia-7-days.webp",
+      "bytes": 847134,
+      "category": "public-asset",
+      "sha256": "6a84558be8180d00a54c2666c0da7c3d250e55bddac8a2bfca1a29d73e54771c"
+    },
+    {
+      "path": "public/assets/images/tours/shimla-kullu-manali-premium-v2.webp",
+      "bytes": 418876,
+      "category": "public-asset",
+      "sha256": "3bf72b0647c20b36044bdf9201dd32652868babdd109bb4fbd6c0d4b6e1dda45"
     },
     {
       "path": "public/assets/images/tours/shimla-kullu-manali.webp",
@@ -1139,10 +1685,112 @@
       "sha256": "8bf5261d7716f2dad98a7495e9652dff4f5a2ebfb3f432007f826390fb43cd51"
     },
     {
+      "path": "public/assets/images/tours/singapore-malaysia-6-days-premium-v2.webp",
+      "bytes": 685478,
+      "category": "public-asset",
+      "sha256": "a9ee084a40be78268ca0467750785a44232795f2ffa219de75548208c0efe18a"
+    },
+    {
+      "path": "public/assets/images/tours/singapore-malaysia-6-days.webp",
+      "bytes": 846132,
+      "category": "public-asset",
+      "sha256": "d5542a4b20b954e6f7a17a894c4873ea37c605aacdd7def7ad39f53091745616"
+    },
+    {
+      "path": "public/assets/images/tours/south-africa-8-days-premium-v2.webp",
+      "bytes": 571696,
+      "category": "public-asset",
+      "sha256": "743f9615796906d518adcbb66536351956dcaa5e7e6cb6e2ea890b518e069fd4"
+    },
+    {
+      "path": "public/assets/images/tours/south-africa-8-days.webp",
+      "bytes": 1054460,
+      "category": "public-asset",
+      "sha256": "c6ea8080ab7063a0ef8e14822177fca5e231bbc8a1b145d87ccefe8362956670"
+    },
+    {
+      "path": "public/assets/images/tours/spiti-valley-8-days-premium-v2.webp",
+      "bytes": 1532692,
+      "category": "public-asset",
+      "sha256": "b153710980d87bf7c4fa8355a1601b1a3c5c6a3e39c6c0f52035aafea8bc573c"
+    },
+    {
+      "path": "public/assets/images/tours/spiti-valley-8-days.webp",
+      "bytes": 731546,
+      "category": "public-asset",
+      "sha256": "9b1934847430fc333bcf26d88368ed20cae54af306a0999fbc0062d0be605ca2"
+    },
+    {
+      "path": "public/assets/images/tours/sri-lanka-premium-v2.webp",
+      "bytes": 584340,
+      "category": "public-asset",
+      "sha256": "75c6b309407aa8877111cc2f3e536fa67aae69f9888e71ad7c1aa0a09622446a"
+    },
+    {
       "path": "public/assets/images/tours/sri-lanka.webp",
       "bytes": 31074,
       "category": "public-asset",
       "sha256": "243be18add98916f8f92c9d471532bb03a63d9d35c63e712130475463950f6f6"
+    },
+    {
+      "path": "public/assets/images/tours/tamil-nadu-8-days-premium-v2.webp",
+      "bytes": 747930,
+      "category": "public-asset",
+      "sha256": "911812cea309df83158a468b29bad7ada9942e3606b35acd719315aa288d6750"
+    },
+    {
+      "path": "public/assets/images/tours/tamil-nadu-8-days.webp",
+      "bytes": 793194,
+      "category": "public-asset",
+      "sha256": "052a1b667f8904b86200bd75d886b1f642d8fac1cd02e1646a8e3b4a75021b4e"
+    },
+    {
+      "path": "public/assets/images/tours/thailand-malaysia-singapore-8-days-premium-v2.webp",
+      "bytes": 516740,
+      "category": "public-asset",
+      "sha256": "bca95ab92c06a7f0b421e65b7e6bf9540b4f41c2251bdd96dac91480a2491255"
+    },
+    {
+      "path": "public/assets/images/tours/thailand-malaysia-singapore-8-days.webp",
+      "bytes": 296064,
+      "category": "public-asset",
+      "sha256": "c0f7b123206a05bc425ed28a211c34ca47eb89f0d322f939316abb4bf791079f"
+    },
+    {
+      "path": "public/assets/images/tours/three-sisters-of-northeast-india-10-days-premium-v2.webp",
+      "bytes": 1035902,
+      "category": "public-asset",
+      "sha256": "d93170f976cef09d714234b02b8c7d6366eba89d96b6fe9c9806ef5cfea2a475"
+    },
+    {
+      "path": "public/assets/images/tours/three-sisters-of-northeast-india-10-days.webp",
+      "bytes": 802984,
+      "category": "public-asset",
+      "sha256": "ddfd6720b6ac02b57a88f12fc0e60acd97d1f61bda628a65762c9d3e4c67c1cc"
+    },
+    {
+      "path": "public/assets/images/tours/unseen-kerala-with-wayanad-6-days-premium-v2.webp",
+      "bytes": 379106,
+      "category": "public-asset",
+      "sha256": "665f0946d41acebe63e1256c28d5a54e346c47b6b18156152f27d59cea79e904"
+    },
+    {
+      "path": "public/assets/images/tours/unseen-kerala-with-wayanad-6-days.webp",
+      "bytes": 234234,
+      "category": "public-asset",
+      "sha256": "08d5d8fbfbd0b61290f09279af4ef9dffcf0ba3496e7a9f7cf99b39e3bb51dfb"
+    },
+    {
+      "path": "public/assets/images/tours/vietnam-7-days-premium-v2.webp",
+      "bytes": 135778,
+      "category": "public-asset",
+      "sha256": "45e09eacf7f5aa59cecdcb9dae9321c26ce3ab6ddf832390176411770af28c67"
+    },
+    {
+      "path": "public/assets/images/tours/vietnam-7-days.webp",
+      "bytes": 94544,
+      "category": "public-asset",
+      "sha256": "e332ed6f804e5231d64b77b00ea68e7f2a02689b14b3651e45dc08c8ca46bf12"
     },
     {
       "path": "public/assets/js/script.js",
@@ -1151,154 +1799,2044 @@
       "sha256": "deeab7c35fd0e2f6352c36d26ef2bc9b72205f27e7c2f437937b56f20015c5d2"
     },
     {
-      "path": "public/assets/videos/dubai-montage-v1-desktop.mp4",
-      "bytes": 20861234,
+      "path": "public/assets/responsive/019310da10be8c-1280.webp",
+      "bytes": 146586,
       "category": "public-asset",
-      "sha256": "35fd5189878d4065be137fdb318ca147bea0e253584562ba3bb366ebd8a99a24"
+      "sha256": "b9921dba80b5984bb79796b1a576b243e39a404bfc23f543db04a70bc3c4bbdc"
     },
     {
-      "path": "public/assets/videos/dubai-montage-v1-desktop.webm",
-      "bytes": 20182705,
+      "path": "public/assets/responsive/019310da10be8c-1920.webp",
+      "bytes": 309746,
       "category": "public-asset",
-      "sha256": "272229574274696f2537dec05a9a8057caac4e53a6b2d38cc02113a1d599859d"
+      "sha256": "4e21312602683fbed32d9e58bc34c875182453e32b90ea3ad57b495a1085da00"
     },
     {
-      "path": "public/assets/videos/dubai-montage-v1-mobile.mp4",
-      "bytes": 4692940,
+      "path": "public/assets/responsive/019310da10be8c-2560.webp",
+      "bytes": 691536,
       "category": "public-asset",
-      "sha256": "63af829c7f8d67dd05e1205a2ea6cb1f34a91ac1a687cc1ea5f52f198bf697df"
+      "sha256": "41039bf49f5e96f4981f018a4b2bfa076e37f84f4595637886f7b67f0e7fa284"
     },
     {
-      "path": "public/assets/videos/dubai-montage-v1-mobile.webm",
-      "bytes": 5742308,
+      "path": "public/assets/responsive/019310da10be8c-384.webp",
+      "bytes": 12538,
       "category": "public-asset",
-      "sha256": "d7e2a8097048dc00136eb2bc1d8a286b8d7e436de16f833571244e32b7ea89ea"
+      "sha256": "bfefe7d45e7b10e23f2dadf5970f0b9f334d9710f905ea35b9206aba3b77cfdf"
     },
     {
-      "path": "public/assets/videos/dubai-montage-v1-poster.webp",
-      "bytes": 207466,
+      "path": "public/assets/responsive/019310da10be8c-640.webp",
+      "bytes": 34496,
       "category": "public-asset",
-      "sha256": "ff6baf4f05533524965d6a6ee3994f24b7205342a7a4182c87bf00960ba0e15e"
+      "sha256": "7ee2f196ec8f24e9a8228779a335ce5d84e66b52413015dd37cd125c7c68fbd1"
     },
     {
-      "path": "public/assets/videos/kashmir-montage-v1-desktop.mp4",
-      "bytes": 19704882,
+      "path": "public/assets/responsive/019310da10be8c-960.webp",
+      "bytes": 75084,
       "category": "public-asset",
-      "sha256": "f0f86149f047d5dde848538c28d7dc4c0b1f642a2c7bb601585a7fe8101a3c7d"
+      "sha256": "a8fff358fab2f7fbd9011da971ad18c0d50bf3d3b91e79ef4de402412e8868a5"
     },
     {
-      "path": "public/assets/videos/kashmir-montage-v1-desktop.webm",
-      "bytes": 17858205,
+      "path": "public/assets/responsive/0861964873fc07-1280.webp",
+      "bytes": 172656,
       "category": "public-asset",
-      "sha256": "1cd201293fb63fa98c6f2ce8eec6aab11f841566ac8400c5b7e43eb09148ff9d"
+      "sha256": "40f534b150dd38d50b55fd9f4aed650c569c263de6617d16fceb84e6a6a66d52"
     },
     {
-      "path": "public/assets/videos/kashmir-montage-v1-mobile.mp4",
-      "bytes": 4276860,
+      "path": "public/assets/responsive/0861964873fc07-384.webp",
+      "bytes": 21206,
       "category": "public-asset",
-      "sha256": "1c101b2da0a1e7eee774147bfb927aebde034fc23f6875913670942d1963efc9"
+      "sha256": "c77c76e98b21791b6a6ac01325a7b2403d2522efbf5f92008d7cedca752636ae"
     },
     {
-      "path": "public/assets/videos/kashmir-montage-v1-mobile.webm",
-      "bytes": 4601575,
+      "path": "public/assets/responsive/0861964873fc07-640.webp",
+      "bytes": 51378,
       "category": "public-asset",
-      "sha256": "8d446e50831c8a59f4bd35b899921a5bf4ee5c780fa5725ab1d2e4a3be6307ef"
+      "sha256": "0d94821763a44f6e24241345f40a0a2e186f707a35e22b7c493b592b4ad32e85"
     },
     {
-      "path": "public/assets/videos/kashmir-montage-v1-poster.webp",
-      "bytes": 134552,
+      "path": "public/assets/responsive/0861964873fc07-960.webp",
+      "bytes": 88440,
       "category": "public-asset",
-      "sha256": "a959acf34fa3e78739f9a1629c075e4ce84ae8d1594cce5089b60702add1da9f"
+      "sha256": "14113e1438a6c2103bd70bb6e0a9ab6c0b9dcb6f0825acc589f8bf0f1e859eb0"
     },
     {
-      "path": "public/assets/videos/kerala-montage-v1-desktop.mp4",
-      "bytes": 26187411,
+      "path": "public/assets/responsive/0bc032b1c0b09a-1280.webp",
+      "bytes": 42344,
       "category": "public-asset",
-      "sha256": "5f2134583c7451e0fb786e7e2398fc52edac3df0ad865eeb003f9fced4c59343"
+      "sha256": "1807de4bfff9318a75d66b399b294ea783e335fc332747fda0fd0b5384a19f80"
     },
     {
-      "path": "public/assets/videos/kerala-montage-v1-desktop.webm",
-      "bytes": 22702755,
+      "path": "public/assets/responsive/0bc032b1c0b09a-1920.webp",
+      "bytes": 85736,
       "category": "public-asset",
-      "sha256": "5da13729a06120c04f39ecb6be687e8fce00635b76546562fc3d3f95e1872e12"
+      "sha256": "7d5f7f63bd9438976c6815067ed1cec32c0180205ae44f5c7bcc3c3b331c0375"
     },
     {
-      "path": "public/assets/videos/kerala-montage-v1-mobile.mp4",
-      "bytes": 5491806,
+      "path": "public/assets/responsive/0bc032b1c0b09a-2560.webp",
+      "bytes": 190932,
       "category": "public-asset",
-      "sha256": "d135734d33afd34f8f22a9a9e1b225ba6fec0bcd9681dcce2f2e3873a245e051"
+      "sha256": "ebbc16a33c081225643eb045548cf193c39547941aa4ecf62612b4d29157997f"
     },
     {
-      "path": "public/assets/videos/kerala-montage-v1-mobile.webm",
-      "bytes": 6246118,
+      "path": "public/assets/responsive/0bc032b1c0b09a-384.webp",
+      "bytes": 4636,
       "category": "public-asset",
-      "sha256": "74fd08eb4cb76972b6c90b2a7119e29e9cadd90520bf74a96fcb0e581f146034"
+      "sha256": "cbb7d4fc805f609d7030b078b6d71196c9817bb4ceb57b63feae4926cecef1ab"
     },
     {
-      "path": "public/assets/videos/kerala-montage-v1-poster.webp",
-      "bytes": 160874,
+      "path": "public/assets/responsive/0bc032b1c0b09a-640.webp",
+      "bytes": 11824,
       "category": "public-asset",
-      "sha256": "fe646151ca24f5ae377d465df48134ff81de341e1f1c27d878475425d2344c78"
+      "sha256": "ef682b5d33d8a3bc850eba8397c8a7379eb04ff7a5aa89c97ea55f14ba87a8d5"
     },
     {
-      "path": "public/assets/videos/nepal-montage-v1-desktop.mp4",
-      "bytes": 21304670,
+      "path": "public/assets/responsive/0bc032b1c0b09a-960.webp",
+      "bytes": 23554,
       "category": "public-asset",
-      "sha256": "353b881cbbfbac6a5d1d637665656d6afe51f66f81e9ad537161f26487b9683f"
+      "sha256": "2c5d179500750d430751200f2bc410c0128b5d77f6882bf32a0ca8ac4a3445ba"
     },
     {
-      "path": "public/assets/videos/nepal-montage-v1-desktop.webm",
-      "bytes": 18768976,
+      "path": "public/assets/responsive/171926f4fb5a18-1280.webp",
+      "bytes": 255426,
       "category": "public-asset",
-      "sha256": "119a442828ad10552468914a692d87700783fc856d0d592915fd7d93e3f8101f"
+      "sha256": "ddfe264f6ba55c15ac62b86315b6e504c107cd5268501aa72f06456b756ee622"
     },
     {
-      "path": "public/assets/videos/nepal-montage-v1-mobile.mp4",
-      "bytes": 4684701,
+      "path": "public/assets/responsive/171926f4fb5a18-1920.webp",
+      "bytes": 457530,
       "category": "public-asset",
-      "sha256": "cd617a3d9e4c8562a71f98d21636e1f1112633b96074a85f8c3e82a0db96b5bc"
+      "sha256": "b9ccee6c10811fa69482e05d59bba56df24f1336d4002fd4cbe50bd6dfc7a4ba"
     },
     {
-      "path": "public/assets/videos/nepal-montage-v1-mobile.webm",
-      "bytes": 5343558,
+      "path": "public/assets/responsive/171926f4fb5a18-2560.webp",
+      "bytes": 784462,
       "category": "public-asset",
-      "sha256": "dd4242bc0eda9a1455070428ed3bae6c209215f18b1e23c9958a2e2a3c0782d9"
+      "sha256": "9c54b48ea680fc7ae9b608e56855c4f8e2a484d58f5b6c197302bc0a0666da90"
     },
     {
-      "path": "public/assets/videos/nepal-montage-v1-poster.webp",
-      "bytes": 96598,
+      "path": "public/assets/responsive/171926f4fb5a18-384.webp",
+      "bytes": 29168,
       "category": "public-asset",
-      "sha256": "6b7c3af9fa92fec97d8e2a73bd063750d32b01fdec21345689488f963e193353"
+      "sha256": "d66bba6ef39f36c4caee78ebd1f2e3a98ca6f7ccbc88bdd1496729ebee9b8202"
     },
     {
-      "path": "public/assets/videos/sikkim-montage-v1-desktop.mp4",
-      "bytes": 32807448,
+      "path": "public/assets/responsive/171926f4fb5a18-640.webp",
+      "bytes": 73916,
       "category": "public-asset",
-      "sha256": "a4cfb31f8d23803459c628ba146015a77be5572197fe10bb1e9cdc44d8b53b4b"
+      "sha256": "ae0c25656f601c78cf094f6dfdbf3760b8c0b33c168a1e10b0f2692158b7840c"
     },
     {
-      "path": "public/assets/videos/sikkim-montage-v1-desktop.webm",
-      "bytes": 28698175,
+      "path": "public/assets/responsive/171926f4fb5a18-960.webp",
+      "bytes": 149320,
       "category": "public-asset",
-      "sha256": "0a95b916595b05d57dbc90e1975b18aa2aac22dc38eb7d767b2d70b8595e21b2"
+      "sha256": "590023d1354892e6545fe6746ebcf542f8b3f9296f23673f072cecd0065d7ebf"
     },
     {
-      "path": "public/assets/videos/sikkim-montage-v1-mobile.mp4",
-      "bytes": 7618344,
+      "path": "public/assets/responsive/185b6dc6c34eec-1280.webp",
+      "bytes": 157584,
       "category": "public-asset",
-      "sha256": "20431d4b21335a6bc123135452ea58ec1fe5c8f8bc1ad7859e858ed858cdd433"
+      "sha256": "314f8bf4efa7c07753b1088017d08ea9f7e7054d8bc01647f50145fab4f7ebbd"
     },
     {
-      "path": "public/assets/videos/sikkim-montage-v1-mobile.webm",
-      "bytes": 9354283,
+      "path": "public/assets/responsive/185b6dc6c34eec-1920.webp",
+      "bytes": 289106,
       "category": "public-asset",
-      "sha256": "48c40d581f4e43b95903397e969e551c3109bf2460a49c971b1ab5169bdf7530"
+      "sha256": "197f5ab94196bec3fab07dc631cb36bc5ac67949d69cbb36334567ef2707b488"
     },
     {
-      "path": "public/assets/videos/sikkim-montage-v1-poster.webp",
-      "bytes": 329166,
+      "path": "public/assets/responsive/185b6dc6c34eec-2560.webp",
+      "bytes": 515740,
       "category": "public-asset",
-      "sha256": "8260ca657d13e65a80ebc872069b7176ad2c189e932809e48440666620ea09d9"
+      "sha256": "4d45acbc339a419a617632462b3651cf703bdde89f9d077fa6a6bcac6e951f8a"
+    },
+    {
+      "path": "public/assets/responsive/185b6dc6c34eec-384.webp",
+      "bytes": 15570,
+      "category": "public-asset",
+      "sha256": "0d90d75926d873b72169a5905d31540548721f9ef503d2abe04340c758ea9d27"
+    },
+    {
+      "path": "public/assets/responsive/185b6dc6c34eec-640.webp",
+      "bytes": 41112,
+      "category": "public-asset",
+      "sha256": "9ebd9a732a8b1bb852b2f7abe6ac9446f892e2357f346c5c063ac0b6e61e27d5"
+    },
+    {
+      "path": "public/assets/responsive/185b6dc6c34eec-960.webp",
+      "bytes": 87476,
+      "category": "public-asset",
+      "sha256": "026fd609a00743cad6f5642aba3faf51086126c8a2899ffb89a5dd7a55939007"
+    },
+    {
+      "path": "public/assets/responsive/1a4136ac3dd88a-1280.webp",
+      "bytes": 83914,
+      "category": "public-asset",
+      "sha256": "9ec23487769549c9ed7826f26c5ef783e2388393ac0d5b2bb56cdb79e91d11b3"
+    },
+    {
+      "path": "public/assets/responsive/1a4136ac3dd88a-1920.webp",
+      "bytes": 193368,
+      "category": "public-asset",
+      "sha256": "e704701d1fbdf310dad6b183aa59e89168544b098ee4e254cb687e75baa3c660"
+    },
+    {
+      "path": "public/assets/responsive/1a4136ac3dd88a-384.webp",
+      "bytes": 11496,
+      "category": "public-asset",
+      "sha256": "5a1053d90ad2d59b0cad96824e5e03cf35dc321eb73c6da95c88d9b7934d27ba"
+    },
+    {
+      "path": "public/assets/responsive/1a4136ac3dd88a-640.webp",
+      "bytes": 27342,
+      "category": "public-asset",
+      "sha256": "0e1d5b27dd7cf428920c9677861a11d0f43e6d5b7076790230ceabb46e843e86"
+    },
+    {
+      "path": "public/assets/responsive/1a4136ac3dd88a-960.webp",
+      "bytes": 56224,
+      "category": "public-asset",
+      "sha256": "4f501f15416299085cf5efa15c27071c7356e00739e05a7946c3b7789185c245"
+    },
+    {
+      "path": "public/assets/responsive/1b77328130eb31-1280.webp",
+      "bytes": 118428,
+      "category": "public-asset",
+      "sha256": "d196e169e077285b0eaa56ac0ea0ae62d7f3183c2f9515b355e7c1fdfd3a57a7"
+    },
+    {
+      "path": "public/assets/responsive/1b77328130eb31-1920.webp",
+      "bytes": 239772,
+      "category": "public-asset",
+      "sha256": "c99665728ad3af3e6f4ba25a2b204fc982cf6e2ecb0c61fd17d46ff79fe0fc3e"
+    },
+    {
+      "path": "public/assets/responsive/1b77328130eb31-2560.webp",
+      "bytes": 546258,
+      "category": "public-asset",
+      "sha256": "7355e398bfa1b4b0a45e9145977104e928b81b05b460f7f9bca86f9467d60391"
+    },
+    {
+      "path": "public/assets/responsive/1b77328130eb31-384.webp",
+      "bytes": 14022,
+      "category": "public-asset",
+      "sha256": "3886acc99ae083af9adf96152b11a0dde12fa58768bc0e8ede91ffa22ae5d625"
+    },
+    {
+      "path": "public/assets/responsive/1b77328130eb31-640.webp",
+      "bytes": 33798,
+      "category": "public-asset",
+      "sha256": "4b93a1a11a94d70fcec665103b2af706536e872c4e51c923d09a071537da7717"
+    },
+    {
+      "path": "public/assets/responsive/1b77328130eb31-960.webp",
+      "bytes": 68534,
+      "category": "public-asset",
+      "sha256": "9edfa08280f56ec38a0e287e1ea1b421d111ea8d09a45e2b7c681378ccc814df"
+    },
+    {
+      "path": "public/assets/responsive/2e39ec76c6dcc0-1280.webp",
+      "bytes": 48556,
+      "category": "public-asset",
+      "sha256": "128c4a56755d96aeccb6b8e6c541b88e9abc535338ae823ed3c69270904f0243"
+    },
+    {
+      "path": "public/assets/responsive/2e39ec76c6dcc0-1920.webp",
+      "bytes": 113468,
+      "category": "public-asset",
+      "sha256": "f64315c7dac0c1289bc6c181a02120f4bc1a4b13916f3105e902e1107abe90bf"
+    },
+    {
+      "path": "public/assets/responsive/2e39ec76c6dcc0-384.webp",
+      "bytes": 5900,
+      "category": "public-asset",
+      "sha256": "2771a7e471f14514e631f700848dbe8eb11b9a421b53c02cd0fe88ca3accae80"
+    },
+    {
+      "path": "public/assets/responsive/2e39ec76c6dcc0-640.webp",
+      "bytes": 14798,
+      "category": "public-asset",
+      "sha256": "d04b9d4bde2a7318e162804f5c35468b3c32c4791a5c7cffe5f7bf0ec392fdcd"
+    },
+    {
+      "path": "public/assets/responsive/2e39ec76c6dcc0-960.webp",
+      "bytes": 32438,
+      "category": "public-asset",
+      "sha256": "6319743489ebc550a27253b3291ebe413e1bde2c13f833db0c6b23fe64d74df9"
+    },
+    {
+      "path": "public/assets/responsive/3bf72b0647c20b-1280.webp",
+      "bytes": 118406,
+      "category": "public-asset",
+      "sha256": "a2d94d3b40797514b0a1be3ae4d86b6a85d7bd33d2a5cb55341787bd67de5379"
+    },
+    {
+      "path": "public/assets/responsive/3bf72b0647c20b-1920.webp",
+      "bytes": 206794,
+      "category": "public-asset",
+      "sha256": "279f2d2f6b7bfb134cc0a36318267afb6c3a258a93d54608a05acdd0b38214fa"
+    },
+    {
+      "path": "public/assets/responsive/3bf72b0647c20b-2048.webp",
+      "bytes": 283634,
+      "category": "public-asset",
+      "sha256": "702ddcb43b0d502480c8307cd0dfa6a287792c07412cb8761d0b0deb93210976"
+    },
+    {
+      "path": "public/assets/responsive/3bf72b0647c20b-384.webp",
+      "bytes": 16544,
+      "category": "public-asset",
+      "sha256": "aec2886071f96cea5c434806de00366cf66fedfb43845bf137cbede5a9114c6b"
+    },
+    {
+      "path": "public/assets/responsive/3bf72b0647c20b-640.webp",
+      "bytes": 39594,
+      "category": "public-asset",
+      "sha256": "84ab8cae8fc1344fffe6c4db4f5f2413418db40b4fb53a2f1e5027b2bc5ac552"
+    },
+    {
+      "path": "public/assets/responsive/3bf72b0647c20b-960.webp",
+      "bytes": 75794,
+      "category": "public-asset",
+      "sha256": "940f5e4af9d9be693d4d2dfdb839ab61515e461329400aa09ba58df8c22d22f4"
+    },
+    {
+      "path": "public/assets/responsive/3c702014c3236b-1280.webp",
+      "bytes": 132936,
+      "category": "public-asset",
+      "sha256": "18cd3207e60445bbb17f45c80679ee5ce9794a774ecec190674f3ca874ff6b59"
+    },
+    {
+      "path": "public/assets/responsive/3c702014c3236b-1920.webp",
+      "bytes": 293628,
+      "category": "public-asset",
+      "sha256": "97acdcae067270dd4f2dc71690f5c59b2467cf4202f4d720f5451854e98e977a"
+    },
+    {
+      "path": "public/assets/responsive/3c702014c3236b-384.webp",
+      "bytes": 20876,
+      "category": "public-asset",
+      "sha256": "97e3697862376c9cbdc4df55f1b0294cc1d881d07bb1b5afd61338ffd25fef9c"
+    },
+    {
+      "path": "public/assets/responsive/3c702014c3236b-640.webp",
+      "bytes": 45882,
+      "category": "public-asset",
+      "sha256": "37f69e1587189f7a7835955dcee9915fb14570babe2c598ae35ef1fb38ce2c06"
+    },
+    {
+      "path": "public/assets/responsive/3c702014c3236b-960.webp",
+      "bytes": 90180,
+      "category": "public-asset",
+      "sha256": "9f4b12344090b6580137b88a499b9536e951337faa61aa1834bdbed41a1b809a"
+    },
+    {
+      "path": "public/assets/responsive/3f1e8ff15c5007-1280.webp",
+      "bytes": 144078,
+      "category": "public-asset",
+      "sha256": "3a686158215416f9f1467efb56a67e9996ec74590cfb98044f1db216e10c10b6"
+    },
+    {
+      "path": "public/assets/responsive/3f1e8ff15c5007-1920.webp",
+      "bytes": 291756,
+      "category": "public-asset",
+      "sha256": "2a8cff200d932ddda175f6d1ce119c425a02459c65f030cd88863cad5d08d740"
+    },
+    {
+      "path": "public/assets/responsive/3f1e8ff15c5007-2560.webp",
+      "bytes": 604856,
+      "category": "public-asset",
+      "sha256": "3ec633e623e873b3651a548f0d22f006aea3ffd1265eace8c748cf8b49187723"
+    },
+    {
+      "path": "public/assets/responsive/3f1e8ff15c5007-384.webp",
+      "bytes": 10028,
+      "category": "public-asset",
+      "sha256": "5cd733fa5ced2f81858671bd653de5b710dd66317eb05f6da10286a1fd43638c"
+    },
+    {
+      "path": "public/assets/responsive/3f1e8ff15c5007-640.webp",
+      "bytes": 29774,
+      "category": "public-asset",
+      "sha256": "a9a03eb38bc7b82eb26a4a79cd6aed66ead3fa9e5ff65adbda67f289a166d203"
+    },
+    {
+      "path": "public/assets/responsive/3f1e8ff15c5007-960.webp",
+      "bytes": 69058,
+      "category": "public-asset",
+      "sha256": "a6827f30bf2626025280ba0c9be6446a21313edf6c3744b6927cb3b1db32972f"
+    },
+    {
+      "path": "public/assets/responsive/404dbefb1797b8-1280.webp",
+      "bytes": 62212,
+      "category": "public-asset",
+      "sha256": "d9a28cc4f7ae755818d3931df57f72a647abf6b98ed20e8f151e96d345d2c0e1"
+    },
+    {
+      "path": "public/assets/responsive/404dbefb1797b8-1920.webp",
+      "bytes": 103916,
+      "category": "public-asset",
+      "sha256": "dcbd78b855b0c4071501487a2a35f1a92709e21ce2f5d2107b41f816baf616ab"
+    },
+    {
+      "path": "public/assets/responsive/404dbefb1797b8-2560.webp",
+      "bytes": 175128,
+      "category": "public-asset",
+      "sha256": "964ab9414a3542d471af2b28d36cb387f74af9523db25672bfa237969577dd94"
+    },
+    {
+      "path": "public/assets/responsive/404dbefb1797b8-384.webp",
+      "bytes": 7000,
+      "category": "public-asset",
+      "sha256": "8ed942cbb5dda451552c93dbdb5baa7cebb66a0be54fc124502b8660dd044530"
+    },
+    {
+      "path": "public/assets/responsive/404dbefb1797b8-640.webp",
+      "bytes": 17524,
+      "category": "public-asset",
+      "sha256": "8f4b0e9be892adca40109c73308ea17c06aa2315e52b424f53bdc3b45d2465fa"
+    },
+    {
+      "path": "public/assets/responsive/404dbefb1797b8-960.webp",
+      "bytes": 36260,
+      "category": "public-asset",
+      "sha256": "342bf766b08772269890c518cb8b699410e6fd428693c3462d3ad8e080a21742"
+    },
+    {
+      "path": "public/assets/responsive/428675be1a2e6b-1280.webp",
+      "bytes": 86974,
+      "category": "public-asset",
+      "sha256": "f0e6b59ff81e3f0c9438c5da1494301f45601d9e6cd309dfb288d979a8aeda56"
+    },
+    {
+      "path": "public/assets/responsive/428675be1a2e6b-1920.webp",
+      "bytes": 159308,
+      "category": "public-asset",
+      "sha256": "1a25f02c2278c67243672949879bc264f9b6afffc4012a7c2afa5d7f83295a7b"
+    },
+    {
+      "path": "public/assets/responsive/428675be1a2e6b-2560.webp",
+      "bytes": 285084,
+      "category": "public-asset",
+      "sha256": "6697216afab25c708ef9b9d55fe89b428b17e4c3eed982fd73d1b42ea50f030b"
+    },
+    {
+      "path": "public/assets/responsive/428675be1a2e6b-384.webp",
+      "bytes": 9200,
+      "category": "public-asset",
+      "sha256": "efbd6be9ad5fa2f9c9ca4ba22c64ef15386c8498806fe0b8dfb79b883ab06c90"
+    },
+    {
+      "path": "public/assets/responsive/428675be1a2e6b-640.webp",
+      "bytes": 23466,
+      "category": "public-asset",
+      "sha256": "c90a71e70b9a5d28ae111a14a4e91368c00688e32e5ebf061aa06f44d860c0c9"
+    },
+    {
+      "path": "public/assets/responsive/428675be1a2e6b-960.webp",
+      "bytes": 48948,
+      "category": "public-asset",
+      "sha256": "89652ce57464706a0364a08c5f9d4d1bfc1bf614e5dfee1509d8a9104639d69e"
+    },
+    {
+      "path": "public/assets/responsive/45e09eacf7f5aa-1280.webp",
+      "bytes": 34924,
+      "category": "public-asset",
+      "sha256": "8efc6cca947c0c0598997d92731dea9c40fbd5d6607622d59c3c38e5b93fba2f"
+    },
+    {
+      "path": "public/assets/responsive/45e09eacf7f5aa-1920.webp",
+      "bytes": 65342,
+      "category": "public-asset",
+      "sha256": "2465921a86a6353df5fb5bab269796a7bfca9ffe915bbed925b0a4fc17a2dd96"
+    },
+    {
+      "path": "public/assets/responsive/45e09eacf7f5aa-2340.webp",
+      "bytes": 100184,
+      "category": "public-asset",
+      "sha256": "cd5240de8b8fb03f55556ee515b99d60ae3ed5cc15fdcf6af900a50bdbb4b4e9"
+    },
+    {
+      "path": "public/assets/responsive/45e09eacf7f5aa-384.webp",
+      "bytes": 4582,
+      "category": "public-asset",
+      "sha256": "d5294846e80dbe7f0ed504f14ce70156ab1a152e3e5d58bbb3d9f8fef43e6753"
+    },
+    {
+      "path": "public/assets/responsive/45e09eacf7f5aa-640.webp",
+      "bytes": 10950,
+      "category": "public-asset",
+      "sha256": "ae50ee39208af042607e953ddcb518a7b5db921e7c2473be8ccc61d6de965cb1"
+    },
+    {
+      "path": "public/assets/responsive/45e09eacf7f5aa-960.webp",
+      "bytes": 21526,
+      "category": "public-asset",
+      "sha256": "c8b3752d75f8fcef4274db0f2b2dd07d3b8c90d74f3536c2f47e6ac04225c1b7"
+    },
+    {
+      "path": "public/assets/responsive/48c955c262b13e-1280.webp",
+      "bytes": 163756,
+      "category": "public-asset",
+      "sha256": "d0fb33a775b3886133d8bc01bab8eaabe7dfb8019889720adc3a9c23fdf65f0c"
+    },
+    {
+      "path": "public/assets/responsive/48c955c262b13e-1920.webp",
+      "bytes": 302018,
+      "category": "public-asset",
+      "sha256": "bee000966637192e1ebf2885fcebe9d731a22a1d19249d1967bfaeb42343d3cc"
+    },
+    {
+      "path": "public/assets/responsive/48c955c262b13e-2560.webp",
+      "bytes": 562396,
+      "category": "public-asset",
+      "sha256": "ba2d1da92222f22bd718402205a6e513808562d2e1d9bbdc89c72f48995b209c"
+    },
+    {
+      "path": "public/assets/responsive/48c955c262b13e-384.webp",
+      "bytes": 14810,
+      "category": "public-asset",
+      "sha256": "dc45023afb0bf78e838e4bc98aadf9bc920a043cad7d4b0e368b3513c3eaf900"
+    },
+    {
+      "path": "public/assets/responsive/48c955c262b13e-640.webp",
+      "bytes": 41472,
+      "category": "public-asset",
+      "sha256": "c47bddd1e079dbd9dda615d2a8ec883c8801a49d3ddd9a63e83893cc613ab521"
+    },
+    {
+      "path": "public/assets/responsive/48c955c262b13e-960.webp",
+      "bytes": 89126,
+      "category": "public-asset",
+      "sha256": "9df5539ea2cf5a5d3a2af72f8c760f7e17818dca0d929780bae36256c7987a6a"
+    },
+    {
+      "path": "public/assets/responsive/5994dcf9e8aadc-1280.webp",
+      "bytes": 150194,
+      "category": "public-asset",
+      "sha256": "a8ddf8d687e8248dc55eac88e365723a207e10020abce5292027cba77e9e112a"
+    },
+    {
+      "path": "public/assets/responsive/5994dcf9e8aadc-1920.webp",
+      "bytes": 318206,
+      "category": "public-asset",
+      "sha256": "42e17457b16743b380398dfd494eeaa86c033e8c6ef88d45f925637720efcc13"
+    },
+    {
+      "path": "public/assets/responsive/5994dcf9e8aadc-384.webp",
+      "bytes": 17646,
+      "category": "public-asset",
+      "sha256": "68b68e36639989505199b030e429922d62bb0dfef2a63acad32e4abb0e5390c0"
+    },
+    {
+      "path": "public/assets/responsive/5994dcf9e8aadc-640.webp",
+      "bytes": 47086,
+      "category": "public-asset",
+      "sha256": "d619699276b9b7ab3521826859bd23a1213d3965637a0e1c902029b5b56a62a6"
+    },
+    {
+      "path": "public/assets/responsive/5994dcf9e8aadc-960.webp",
+      "bytes": 99994,
+      "category": "public-asset",
+      "sha256": "d62b1bfd9efc37d33ea7e2c4b27066451ec1a62fa0371bfe3c734c879ad0ff4b"
+    },
+    {
+      "path": "public/assets/responsive/665f0946d41ace-1280.webp",
+      "bytes": 89724,
+      "category": "public-asset",
+      "sha256": "eee883e507d45cf758c04c7df70f509107f4840e395f798cae774a7492805605"
+    },
+    {
+      "path": "public/assets/responsive/665f0946d41ace-1920.webp",
+      "bytes": 159532,
+      "category": "public-asset",
+      "sha256": "c0e09c929682ca6b36aed279eb06af6fd0b546c14c4a215e2219f8ff550500f9"
+    },
+    {
+      "path": "public/assets/responsive/665f0946d41ace-2560.webp",
+      "bytes": 287334,
+      "category": "public-asset",
+      "sha256": "27d4df443c906ead00daa75795abb8d6bfc41a1cfc123597c5a4e3e48bc9d994"
+    },
+    {
+      "path": "public/assets/responsive/665f0946d41ace-384.webp",
+      "bytes": 10450,
+      "category": "public-asset",
+      "sha256": "6bc9a38db7ed935baeba1f9d365c5a6d53725208c712f445f303626f2d1b1b57"
+    },
+    {
+      "path": "public/assets/responsive/665f0946d41ace-640.webp",
+      "bytes": 26234,
+      "category": "public-asset",
+      "sha256": "a17fb443eae5ef506f51a68ee9cbaad1b60d25b5c5b0b273f277f5b634b8891f"
+    },
+    {
+      "path": "public/assets/responsive/665f0946d41ace-960.webp",
+      "bytes": 53442,
+      "category": "public-asset",
+      "sha256": "340461549c4a7bc49f85489b87a446d641ff429649fe96664ab4d895da5b1c0f"
+    },
+    {
+      "path": "public/assets/responsive/694a8443847292-1280.webp",
+      "bytes": 134638,
+      "category": "public-asset",
+      "sha256": "0d42e513fcfbcfb08efa280b39707f8217c32de69944ecf8191681dd4b77cb4a"
+    },
+    {
+      "path": "public/assets/responsive/694a8443847292-1920.webp",
+      "bytes": 231702,
+      "category": "public-asset",
+      "sha256": "a1969c4c66a3a6214499a51d8b289bc2f3ff5592085095efe83a23f673c9efd2"
+    },
+    {
+      "path": "public/assets/responsive/694a8443847292-2560.webp",
+      "bytes": 401882,
+      "category": "public-asset",
+      "sha256": "ff5895cd30b6a17c5ec63e32941554b007e56e2f698bb845c53976f77f2c98e7"
+    },
+    {
+      "path": "public/assets/responsive/694a8443847292-384.webp",
+      "bytes": 15752,
+      "category": "public-asset",
+      "sha256": "cdfcd7d9d142e10c550461e6b77092942c6df4e9015c22f78f865fd2e0c07241"
+    },
+    {
+      "path": "public/assets/responsive/694a8443847292-640.webp",
+      "bytes": 39748,
+      "category": "public-asset",
+      "sha256": "e375cb3fc34ed25574760d106426f7c485beed997780904404c45334c91200a8"
+    },
+    {
+      "path": "public/assets/responsive/694a8443847292-960.webp",
+      "bytes": 79686,
+      "category": "public-asset",
+      "sha256": "06cf4fc3bb5af2a57f7553c03f9de3be03e999d59f6450783961487203f6b0a7"
+    },
+    {
+      "path": "public/assets/responsive/6d4a94e5b72b19-1280.webp",
+      "bytes": 69068,
+      "category": "public-asset",
+      "sha256": "002533b6fd4ad45b96bd975624b80cbfdc734c940c2e4f679269d823feb8147a"
+    },
+    {
+      "path": "public/assets/responsive/6d4a94e5b72b19-1920.webp",
+      "bytes": 113114,
+      "category": "public-asset",
+      "sha256": "92af1aca3c6337ff79fee4252621c1e28502e854b2f98cb6429ca035a5992995"
+    },
+    {
+      "path": "public/assets/responsive/6d4a94e5b72b19-2560.webp",
+      "bytes": 197654,
+      "category": "public-asset",
+      "sha256": "2669c6325e99518f639e38b122f55446e5246922f24746e0f92f2c3711ce3d76"
+    },
+    {
+      "path": "public/assets/responsive/6d4a94e5b72b19-384.webp",
+      "bytes": 10224,
+      "category": "public-asset",
+      "sha256": "4e9b1b41a0b8e164e72d04bcebc2182125b8f02425699604f46730ff59be5e64"
+    },
+    {
+      "path": "public/assets/responsive/6d4a94e5b72b19-640.webp",
+      "bytes": 22890,
+      "category": "public-asset",
+      "sha256": "7e0818c111145d96698b4e251b8dd3d8b2f34a932f4c33ec01281c11039bd236"
+    },
+    {
+      "path": "public/assets/responsive/6d4a94e5b72b19-960.webp",
+      "bytes": 41760,
+      "category": "public-asset",
+      "sha256": "87439fadf8cc8c26901ffa4c5fa4d003fd3fec86c74e8d0589ac62fae6e26962"
+    },
+    {
+      "path": "public/assets/responsive/70715754da7531-1280.webp",
+      "bytes": 95784,
+      "category": "public-asset",
+      "sha256": "31a4562451fb3a1792e0cee1a329a781857ce584187f5b9fd09962e6dc1e9885"
+    },
+    {
+      "path": "public/assets/responsive/70715754da7531-1920.webp",
+      "bytes": 180538,
+      "category": "public-asset",
+      "sha256": "900566095e55f3ebe12c30b64467482349238e7ab2b0549f78fc590e1ada67f1"
+    },
+    {
+      "path": "public/assets/responsive/70715754da7531-2560.webp",
+      "bytes": 349306,
+      "category": "public-asset",
+      "sha256": "d52ef12d82db8bd7a3c3c48f24a95a7505f507300ec7a863388178ac4c23bf8d"
+    },
+    {
+      "path": "public/assets/responsive/70715754da7531-384.webp",
+      "bytes": 10874,
+      "category": "public-asset",
+      "sha256": "220c35565ed6b2e4f5f74024fdbde0131b16e6186bad4fc2b042e57312a52f8f"
+    },
+    {
+      "path": "public/assets/responsive/70715754da7531-640.webp",
+      "bytes": 28024,
+      "category": "public-asset",
+      "sha256": "1197a86e3c90154940b11408a1eb8ba882ae55c1de312962e5cbf36efc040e73"
+    },
+    {
+      "path": "public/assets/responsive/70715754da7531-960.webp",
+      "bytes": 57582,
+      "category": "public-asset",
+      "sha256": "72f28637f96bc9b7554a19de5fbb2d5c663d6c7100ea2eaa25c8eac7e4c82adf"
+    },
+    {
+      "path": "public/assets/responsive/734c7f6e40d634-1280.webp",
+      "bytes": 213140,
+      "category": "public-asset",
+      "sha256": "332bd4dd581ecc7d3e3373412b06875bc3180ce8d1db17a77b5fc75b85eccb39"
+    },
+    {
+      "path": "public/assets/responsive/734c7f6e40d634-1920.webp",
+      "bytes": 359688,
+      "category": "public-asset",
+      "sha256": "e4800de3984230769d7f27d33da5092ce0c2fba0276f3cb0cb07bb7f2ee20eb5"
+    },
+    {
+      "path": "public/assets/responsive/734c7f6e40d634-2560.webp",
+      "bytes": 668640,
+      "category": "public-asset",
+      "sha256": "dc537cb20c9fe63ff392a5d27e65fa37a7f37fd9bee79d379ebbc2bc99c78df6"
+    },
+    {
+      "path": "public/assets/responsive/734c7f6e40d634-384.webp",
+      "bytes": 32898,
+      "category": "public-asset",
+      "sha256": "37913cd7dd089811a894123c96c175345ef1ccc51c58bba2793b78ea10542da7"
+    },
+    {
+      "path": "public/assets/responsive/734c7f6e40d634-640.webp",
+      "bytes": 75084,
+      "category": "public-asset",
+      "sha256": "c090aab0c9d631c297d6bbdc47c69e0edbd874afd1da9c172e37c4ed6d77f541"
+    },
+    {
+      "path": "public/assets/responsive/734c7f6e40d634-960.webp",
+      "bytes": 132554,
+      "category": "public-asset",
+      "sha256": "8afd0807fa0b1a5dfa236bedefb82dee0f5c0ec53bc97c907d704597d98916a8"
+    },
+    {
+      "path": "public/assets/responsive/743f9615796906-1280.webp",
+      "bytes": 135750,
+      "category": "public-asset",
+      "sha256": "002cb96612382d653bd2cf4e7106ed2f79a8390000639e2ff1c568b814d700b0"
+    },
+    {
+      "path": "public/assets/responsive/743f9615796906-1920.webp",
+      "bytes": 241366,
+      "category": "public-asset",
+      "sha256": "f0391e10cda7f43ede0a5311f1ed9a52214a408783b179e80ee4890e48cce205"
+    },
+    {
+      "path": "public/assets/responsive/743f9615796906-2560.webp",
+      "bytes": 420640,
+      "category": "public-asset",
+      "sha256": "377c46db4e7f83614f725b900b5407ca4367710681e13d6756d5a4ae32e9fc0e"
+    },
+    {
+      "path": "public/assets/responsive/743f9615796906-384.webp",
+      "bytes": 17424,
+      "category": "public-asset",
+      "sha256": "07cd26ac4a2febcb640a9f658f6ddbbcc8160d40361eb11eeeddfe9aa90b3662"
+    },
+    {
+      "path": "public/assets/responsive/743f9615796906-640.webp",
+      "bytes": 42172,
+      "category": "public-asset",
+      "sha256": "00ad375cf9aa88b86a342d660ed6b754eaeeb0f10568e96f3191f6d9b60b115e"
+    },
+    {
+      "path": "public/assets/responsive/743f9615796906-960.webp",
+      "bytes": 83304,
+      "category": "public-asset",
+      "sha256": "065f7b29098f6894793c6d16d2cb16dab8a771495b95290e9155158b7fec555c"
+    },
+    {
+      "path": "public/assets/responsive/75c6b309407aa8-1280.webp",
+      "bytes": 184104,
+      "category": "public-asset",
+      "sha256": "51c3b60955b69c3579ef891ffd5910113db19e2a6aa84b50316b7e615f954a1f"
+    },
+    {
+      "path": "public/assets/responsive/75c6b309407aa8-1920.webp",
+      "bytes": 327244,
+      "category": "public-asset",
+      "sha256": "a40b01face5b850e63f4cc44b3339adacc22d3691462f15edfccb76f790188d5"
+    },
+    {
+      "path": "public/assets/responsive/75c6b309407aa8-2048.webp",
+      "bytes": 450628,
+      "category": "public-asset",
+      "sha256": "58d14eb3608983f0155bc64335cf69be5dce7cddd5b859926bdf721adfb6429b"
+    },
+    {
+      "path": "public/assets/responsive/75c6b309407aa8-384.webp",
+      "bytes": 21092,
+      "category": "public-asset",
+      "sha256": "5575ec535298264fd190e3de0300059175f445c19f6d0b295f61be70e8765b9e"
+    },
+    {
+      "path": "public/assets/responsive/75c6b309407aa8-640.webp",
+      "bytes": 55518,
+      "category": "public-asset",
+      "sha256": "1ee5cb8fb6608560093f65e28c2ebd9d939579d8d8e2c5dfa4094b0ab5494731"
+    },
+    {
+      "path": "public/assets/responsive/75c6b309407aa8-960.webp",
+      "bytes": 113342,
+      "category": "public-asset",
+      "sha256": "e163fd7a0a7674d1e9bb30d7ca0d8ce28b8473d061947b4f46b9ea2e42188cb6"
+    },
+    {
+      "path": "public/assets/responsive/7986c132ee0332-1280.webp",
+      "bytes": 305596,
+      "category": "public-asset",
+      "sha256": "eaf6fdbd29edd53c8745605589dc941e9bfd22f6f33bf74f424c1a4c472a115c"
+    },
+    {
+      "path": "public/assets/responsive/7986c132ee0332-1808.webp",
+      "bytes": 639446,
+      "category": "public-asset",
+      "sha256": "3e6eb414ac5b9ffcb2724c34a8e06c02deea2c4d1f851cc302d93e4bf2745f20"
+    },
+    {
+      "path": "public/assets/responsive/7986c132ee0332-384.webp",
+      "bytes": 35574,
+      "category": "public-asset",
+      "sha256": "5620a8cd09034be29a1c8dad91b226ec4dc74c574b0b0d25dd56a5b50a6ca559"
+    },
+    {
+      "path": "public/assets/responsive/7986c132ee0332-640.webp",
+      "bytes": 90092,
+      "category": "public-asset",
+      "sha256": "45f7ca071447b6f62d81e163c8be8996dce664331ed75dd491df3520cb4756a5"
+    },
+    {
+      "path": "public/assets/responsive/7986c132ee0332-960.webp",
+      "bytes": 186380,
+      "category": "public-asset",
+      "sha256": "06ff78d5411658bc37114ac8626a442c66fd4b48cac91dddea0aa8d8b9919e81"
+    },
+    {
+      "path": "public/assets/responsive/7c54297507387f-1280.webp",
+      "bytes": 139938,
+      "category": "public-asset",
+      "sha256": "c9da01099fd10bb654ccca101ee5810f8b1c96cf102b57013e61c78dfb966c0c"
+    },
+    {
+      "path": "public/assets/responsive/7c54297507387f-1920.webp",
+      "bytes": 239130,
+      "category": "public-asset",
+      "sha256": "90a05592db1f444424d6e78c828df769ded4371fbb3a94dce7abacbab63445c0"
+    },
+    {
+      "path": "public/assets/responsive/7c54297507387f-2560.webp",
+      "bytes": 416700,
+      "category": "public-asset",
+      "sha256": "9196cba8dd1ae121ff249e5a02cc3eb9843684a59afcb31720742ffedab07c69"
+    },
+    {
+      "path": "public/assets/responsive/7c54297507387f-384.webp",
+      "bytes": 15202,
+      "category": "public-asset",
+      "sha256": "e0426760178395dcb5cf4b9ff678ce3affd93fe279902b3e5d85602ad26cac5d"
+    },
+    {
+      "path": "public/assets/responsive/7c54297507387f-640.webp",
+      "bytes": 40054,
+      "category": "public-asset",
+      "sha256": "4c247a48cc43bcd4571dbc26151896b8e9e625ceaffffd146c7e4ffe2e931a45"
+    },
+    {
+      "path": "public/assets/responsive/7c54297507387f-960.webp",
+      "bytes": 79490,
+      "category": "public-asset",
+      "sha256": "c52a0a446706f93b53b79fbeb3395d2f1afaac96d3ebdaddf7ee1202fdfff8ce"
+    },
+    {
+      "path": "public/assets/responsive/834170d3a443fe-1280.webp",
+      "bytes": 23920,
+      "category": "public-asset",
+      "sha256": "694b200d3cd7d71e4ec29b5ae8d282699abdc5106b16f3d91d65033b8cb74102"
+    },
+    {
+      "path": "public/assets/responsive/834170d3a443fe-1920.webp",
+      "bytes": 42732,
+      "category": "public-asset",
+      "sha256": "a8a1a0e39f1ac31d11ffce68efc357005104a0f0602d47428734fffe3b15ae1e"
+    },
+    {
+      "path": "public/assets/responsive/834170d3a443fe-2560.webp",
+      "bytes": 81408,
+      "category": "public-asset",
+      "sha256": "4cc9923e9fdb800fde8ab2ec789f91305b12c965845d6b215e265378ff5c2e2e"
+    },
+    {
+      "path": "public/assets/responsive/834170d3a443fe-384.webp",
+      "bytes": 3122,
+      "category": "public-asset",
+      "sha256": "f56cfa78f94abfaf6a560514b283c5a2cf8c0db8b33852a30978b501796f89c6"
+    },
+    {
+      "path": "public/assets/responsive/834170d3a443fe-640.webp",
+      "bytes": 6920,
+      "category": "public-asset",
+      "sha256": "4bba9c22912a4dbe2435f193b6e77469ef696d282375874de5d316b079d82f07"
+    },
+    {
+      "path": "public/assets/responsive/834170d3a443fe-960.webp",
+      "bytes": 13622,
+      "category": "public-asset",
+      "sha256": "cee83d1dec1e1cce9f4364d25c02be6f85c587c6f67861f6b46ded38834a2c69"
+    },
+    {
+      "path": "public/assets/responsive/911812cea309df-1280.webp",
+      "bytes": 181796,
+      "category": "public-asset",
+      "sha256": "bdd96fa0c88e19748f47ae510822fc5ebd25b5ebd20802d8efac6166176d717f"
+    },
+    {
+      "path": "public/assets/responsive/911812cea309df-1920.webp",
+      "bytes": 340340,
+      "category": "public-asset",
+      "sha256": "0bed2779dab1f78291b9be16a6f70c86cdb50be88358aede1b8d0be457bb0a5a"
+    },
+    {
+      "path": "public/assets/responsive/911812cea309df-2560.webp",
+      "bytes": 622120,
+      "category": "public-asset",
+      "sha256": "fe3bab03f21f1f602e80521b001575edcea56d0f784b4a955a707599c681d016"
+    },
+    {
+      "path": "public/assets/responsive/911812cea309df-384.webp",
+      "bytes": 18278,
+      "category": "public-asset",
+      "sha256": "9746bad6c92c56a5f2ebafabb3fac688895d90f21219c3eade4bb710ff17e4e8"
+    },
+    {
+      "path": "public/assets/responsive/911812cea309df-640.webp",
+      "bytes": 49462,
+      "category": "public-asset",
+      "sha256": "6620dc475f67c1cf08a6dc6b039b3bb54693b83db9e1970c4da1cae238f8ab2f"
+    },
+    {
+      "path": "public/assets/responsive/911812cea309df-960.webp",
+      "bytes": 105750,
+      "category": "public-asset",
+      "sha256": "a03185fed5df6bf4dbff02a4636cd7304715c7e5655290b7f64056f10d073c66"
+    },
+    {
+      "path": "public/assets/responsive/a370c7d8501d87-1280.webp",
+      "bytes": 221518,
+      "category": "public-asset",
+      "sha256": "67f3fbd83703a86c3d792198d4e68a2071def3d4d91409c46579ad9a5db9d780"
+    },
+    {
+      "path": "public/assets/responsive/a370c7d8501d87-1920.webp",
+      "bytes": 423296,
+      "category": "public-asset",
+      "sha256": "7f38a9f3bc2799473245f2c14692365e391efdd23f21dbbff39a6140a2ad079d"
+    },
+    {
+      "path": "public/assets/responsive/a370c7d8501d87-384.webp",
+      "bytes": 27962,
+      "category": "public-asset",
+      "sha256": "1b0acf604dad0f2628628e94397ea46592132db40b27755851a500716bbdcb9c"
+    },
+    {
+      "path": "public/assets/responsive/a370c7d8501d87-640.webp",
+      "bytes": 74050,
+      "category": "public-asset",
+      "sha256": "b28f8cc40a4f4acd649628505148feaac56510fd2f6fae80e536efdfd66165c9"
+    },
+    {
+      "path": "public/assets/responsive/a370c7d8501d87-960.webp",
+      "bytes": 152526,
+      "category": "public-asset",
+      "sha256": "6bfc41706c8eeb41b4b8e60c219e36cc8ca7bda85b7cb6d1f7f199996fb29a0c"
+    },
+    {
+      "path": "public/assets/responsive/a39a3180cad890-1280.webp",
+      "bytes": 181308,
+      "category": "public-asset",
+      "sha256": "88aa67f4055888398740a97c88f4cf7686721c3695710827308494aa0170c3be"
+    },
+    {
+      "path": "public/assets/responsive/a39a3180cad890-1920.webp",
+      "bytes": 357598,
+      "category": "public-asset",
+      "sha256": "8eccdbbbad7ee1b7c90c55aa1fe0a7c79c0e431a2af2ac0d2059ed77296f1493"
+    },
+    {
+      "path": "public/assets/responsive/a39a3180cad890-2560.webp",
+      "bytes": 756400,
+      "category": "public-asset",
+      "sha256": "6a93e3c0a1a7789fa21bea94c15f1206d87eae353f2f4b5cbf107f82683166c2"
+    },
+    {
+      "path": "public/assets/responsive/a39a3180cad890-384.webp",
+      "bytes": 18462,
+      "category": "public-asset",
+      "sha256": "f63bc9ccd36a05e44cfcea9a79cd9f691defb20c5108bcc683839e51148a44e5"
+    },
+    {
+      "path": "public/assets/responsive/a39a3180cad890-640.webp",
+      "bytes": 49024,
+      "category": "public-asset",
+      "sha256": "f8db4ad4ca21c8ec019616d406516ecc8b2625fe21989ca7ff1df458e9a699e7"
+    },
+    {
+      "path": "public/assets/responsive/a39a3180cad890-960.webp",
+      "bytes": 102422,
+      "category": "public-asset",
+      "sha256": "dc97b8010d77eedd2f610e5be4aa97f62e520837488bf5bcad4e5c3e7ca58343"
+    },
+    {
+      "path": "public/assets/responsive/a91f54df62206e-1280.webp",
+      "bytes": 114462,
+      "category": "public-asset",
+      "sha256": "400896cfba540715ebf859ad24f88e1a1c49014f5b5465ca47d9fe48d6b83e18"
+    },
+    {
+      "path": "public/assets/responsive/a91f54df62206e-1920.webp",
+      "bytes": 236516,
+      "category": "public-asset",
+      "sha256": "95d2e32cfc5abc69a12cfc84605f16706c215cb693b6758786b45059ce521f0f"
+    },
+    {
+      "path": "public/assets/responsive/a91f54df62206e-2560.webp",
+      "bytes": 788666,
+      "category": "public-asset",
+      "sha256": "7dc2e0fdce18472d5e6da62778c75c60b1de1441ea435dcca0b59f03b05710c7"
+    },
+    {
+      "path": "public/assets/responsive/a91f54df62206e-384.webp",
+      "bytes": 12194,
+      "category": "public-asset",
+      "sha256": "b4745e52258c38d5dccd3408872898df39f89bcff9f4411571df99f138d73a4b"
+    },
+    {
+      "path": "public/assets/responsive/a91f54df62206e-640.webp",
+      "bytes": 30674,
+      "category": "public-asset",
+      "sha256": "a169c1ab94db6945635697c4421ec856421418900e9ee056db79554dd7868469"
+    },
+    {
+      "path": "public/assets/responsive/a91f54df62206e-960.webp",
+      "bytes": 64234,
+      "category": "public-asset",
+      "sha256": "689f61e7d21c31f1a39c227b55dd1301c2d2b8323442503a3013778c8c4127ae"
+    },
+    {
+      "path": "public/assets/responsive/a934ef8c6a9495-1280.webp",
+      "bytes": 256316,
+      "category": "public-asset",
+      "sha256": "8db1ae9563c652ea8513e28cb6a6649eb78c59c5356e9cf350cf37c7194fd2f9"
+    },
+    {
+      "path": "public/assets/responsive/a934ef8c6a9495-1920.webp",
+      "bytes": 473828,
+      "category": "public-asset",
+      "sha256": "27917f9075870eec5442a2ce86c090caaa4a5a775f8e76682a38d2abd1449522"
+    },
+    {
+      "path": "public/assets/responsive/a934ef8c6a9495-2560.webp",
+      "bytes": 883628,
+      "category": "public-asset",
+      "sha256": "aa175071bfb8d95fbd4d44d7cd5a9345313f8a501e83ff773a68982bfd7656b1"
+    },
+    {
+      "path": "public/assets/responsive/a934ef8c6a9495-384.webp",
+      "bytes": 23588,
+      "category": "public-asset",
+      "sha256": "b057b42c33c1f8a503a4a6365bfd14c843c0f530c2a69b7747053302c5a5c926"
+    },
+    {
+      "path": "public/assets/responsive/a934ef8c6a9495-640.webp",
+      "bytes": 66026,
+      "category": "public-asset",
+      "sha256": "3355be233aa3521b295361ef1a7227e939c912844430f59e66b0ed726dc4a897"
+    },
+    {
+      "path": "public/assets/responsive/a934ef8c6a9495-960.webp",
+      "bytes": 139344,
+      "category": "public-asset",
+      "sha256": "971a68ccdb8c79599ffaa676d53f8a9545487bafcd9a6bfcd9f1e1452048f94d"
+    },
+    {
+      "path": "public/assets/responsive/a9ee084a40be78-1280.webp",
+      "bytes": 154232,
+      "category": "public-asset",
+      "sha256": "fb381c8e49bc061e34400c0d97556c2e113c46d93859cc0655a1258dff7e76d6"
+    },
+    {
+      "path": "public/assets/responsive/a9ee084a40be78-1920.webp",
+      "bytes": 283968,
+      "category": "public-asset",
+      "sha256": "8052c54728eadb4361561d3f377234300f2dd19595311fca2940d63bec51bd56"
+    },
+    {
+      "path": "public/assets/responsive/a9ee084a40be78-2560.webp",
+      "bytes": 524940,
+      "category": "public-asset",
+      "sha256": "f821221cdab06dd6123a4a4ab70b4335911591c87ddcfb6d884cf386327b2b28"
+    },
+    {
+      "path": "public/assets/responsive/a9ee084a40be78-384.webp",
+      "bytes": 18180,
+      "category": "public-asset",
+      "sha256": "3af1a8ea4e59fff64aa6d05abef7063df94909015ddf732176a9d4d19a864e66"
+    },
+    {
+      "path": "public/assets/responsive/a9ee084a40be78-640.webp",
+      "bytes": 45520,
+      "category": "public-asset",
+      "sha256": "c608aeb0f401e4c03091960a3a53fb398ba5456c44464783094d706900daaf79"
+    },
+    {
+      "path": "public/assets/responsive/a9ee084a40be78-960.webp",
+      "bytes": 90172,
+      "category": "public-asset",
+      "sha256": "83ef249a8b2d6c5e95d20db00c96cd7206b7a4ea205bc51c3ec37d24bc0ccf0a"
+    },
+    {
+      "path": "public/assets/responsive/ad7f10eefcca9b-1280.webp",
+      "bytes": 123072,
+      "category": "public-asset",
+      "sha256": "c62b0a43d1cab09d44447eb949b2e88bfbcf39e53d231b13eef3f8e5c8a4f39c"
+    },
+    {
+      "path": "public/assets/responsive/ad7f10eefcca9b-1920.webp",
+      "bytes": 293962,
+      "category": "public-asset",
+      "sha256": "318d66d5ab6c5d285caad5cfc59a86b9baa35b3adb75d67b53bdf78d0e056868"
+    },
+    {
+      "path": "public/assets/responsive/ad7f10eefcca9b-384.webp",
+      "bytes": 13366,
+      "category": "public-asset",
+      "sha256": "b0cd88e7dca186432b2891e3c1446539844f97408be081b00cb97abf9c7ae7dd"
+    },
+    {
+      "path": "public/assets/responsive/ad7f10eefcca9b-640.webp",
+      "bytes": 35816,
+      "category": "public-asset",
+      "sha256": "b3f93540d820ce2edff30992df89db1b8a02ce7f3c61f5115397e4074862e77b"
+    },
+    {
+      "path": "public/assets/responsive/ad7f10eefcca9b-960.webp",
+      "bytes": 81280,
+      "category": "public-asset",
+      "sha256": "c1e5652fb00cb671a1cf33504236a9c7074361cebd7b6ce0f6ecc0f592a662aa"
+    },
+    {
+      "path": "public/assets/responsive/b153710980d87b-1280.webp",
+      "bytes": 261692,
+      "category": "public-asset",
+      "sha256": "39ee7b74c425533ab7e49c7f9fd7334d676dab1d78c5f15e9e451751198f5f8a"
+    },
+    {
+      "path": "public/assets/responsive/b153710980d87b-1920.webp",
+      "bytes": 567370,
+      "category": "public-asset",
+      "sha256": "2d5626eabe1397a25c56ee013fbc04602439288af1a57a9ea853b0ebe818f5ac"
+    },
+    {
+      "path": "public/assets/responsive/b153710980d87b-2560.webp",
+      "bytes": 1242794,
+      "category": "public-asset",
+      "sha256": "3ddaea353bae952f8fb3c9dc03d4c87565012ea3e09ee1b303d88b3d083df374"
+    },
+    {
+      "path": "public/assets/responsive/b153710980d87b-384.webp",
+      "bytes": 22478,
+      "category": "public-asset",
+      "sha256": "5c19c49886a2494d7ac323e20770de76adce512c08edeb255c9db25f043472a6"
+    },
+    {
+      "path": "public/assets/responsive/b153710980d87b-640.webp",
+      "bytes": 62032,
+      "category": "public-asset",
+      "sha256": "07bd41f59a978b003c60ec601320eeb3d1f12c49ceead083b4cd9c8326d23c34"
+    },
+    {
+      "path": "public/assets/responsive/b153710980d87b-960.webp",
+      "bytes": 139100,
+      "category": "public-asset",
+      "sha256": "a8fb73acb2f8fee799cb8b4e6289d68af5a9821cc500ba1fd4f5f1c08ff2d585"
+    },
+    {
+      "path": "public/assets/responsive/b7ffd9b5aafc93-1280.webp",
+      "bytes": 268204,
+      "category": "public-asset",
+      "sha256": "da49ad74bac850f002b96a0e2a51d5b172abfd099465ad8fb6e31860acf39fa2"
+    },
+    {
+      "path": "public/assets/responsive/b7ffd9b5aafc93-1920.webp",
+      "bytes": 593066,
+      "category": "public-asset",
+      "sha256": "693c5dab6a046790eebec6a82e464044ac1dd74703bce08096062e6a6b032432"
+    },
+    {
+      "path": "public/assets/responsive/b7ffd9b5aafc93-2560.webp",
+      "bytes": 1258302,
+      "category": "public-asset",
+      "sha256": "bff0642e1c1a681e626e7f1f1241f83e0f9bcf1ab5fcc28e864a21b7e7da1b7b"
+    },
+    {
+      "path": "public/assets/responsive/b7ffd9b5aafc93-384.webp",
+      "bytes": 20798,
+      "category": "public-asset",
+      "sha256": "ff2b488a78c1661e2c5d924ee12f617cbec2f16876142948e78b461965ddf945"
+    },
+    {
+      "path": "public/assets/responsive/b7ffd9b5aafc93-640.webp",
+      "bytes": 60522,
+      "category": "public-asset",
+      "sha256": "a5e6ab30c4f2283272e551a0a941ffeb7568539c184fc7a14923677583d247e8"
+    },
+    {
+      "path": "public/assets/responsive/b7ffd9b5aafc93-960.webp",
+      "bytes": 139058,
+      "category": "public-asset",
+      "sha256": "552160c6cbfe20014a4f916753609eafeeb91827f5c5bf88f555ad6cfd9f9ee9"
+    },
+    {
+      "path": "public/assets/responsive/b83313784e4836-1280.webp",
+      "bytes": 125704,
+      "category": "public-asset",
+      "sha256": "9c0907071e099f587b576aac691dcaf7d246a002dc9247ef1eb51d0d07ec74d2"
+    },
+    {
+      "path": "public/assets/responsive/b83313784e4836-1920.webp",
+      "bytes": 230856,
+      "category": "public-asset",
+      "sha256": "5ff707137f94c6009e37184a084b003aca6ae9e895dfa9b500d2bf706e182db8"
+    },
+    {
+      "path": "public/assets/responsive/b83313784e4836-2560.webp",
+      "bytes": 461216,
+      "category": "public-asset",
+      "sha256": "84bace53c42094ee3dcb01bd5fa21fda1d213d62b9fd53f945a3f4f53e3ba11f"
+    },
+    {
+      "path": "public/assets/responsive/b83313784e4836-384.webp",
+      "bytes": 10688,
+      "category": "public-asset",
+      "sha256": "87f57e344302d6b7f1bf83373c5fed3a8ef2fb21cff22ec8d899de509fb973be"
+    },
+    {
+      "path": "public/assets/responsive/b83313784e4836-640.webp",
+      "bytes": 30940,
+      "category": "public-asset",
+      "sha256": "2bcfc6080336f50a128266ff55f8a3832a906ece6a15cb367f2985877f7d2a53"
+    },
+    {
+      "path": "public/assets/responsive/b83313784e4836-960.webp",
+      "bytes": 66900,
+      "category": "public-asset",
+      "sha256": "9521f227636c7b5864b96559d27ffed129e9c910ee8a97af07a9ace7fe427a55"
+    },
+    {
+      "path": "public/assets/responsive/bca95ab92c06a7-1280.webp",
+      "bytes": 102702,
+      "category": "public-asset",
+      "sha256": "b2e1ad1ae8d36526ad6b7bf4b07c665fb0fff9f7b3f8894fec461cd99157e555"
+    },
+    {
+      "path": "public/assets/responsive/bca95ab92c06a7-1920.webp",
+      "bytes": 204264,
+      "category": "public-asset",
+      "sha256": "c91161f8e78ed77fe9df3506f0aa833625aedcf74e69e23a12d227f4007e461d"
+    },
+    {
+      "path": "public/assets/responsive/bca95ab92c06a7-2560.webp",
+      "bytes": 410450,
+      "category": "public-asset",
+      "sha256": "598cdf89b7336201948a92cf2fbd7acebfc801bd347afb61c4b78372e8bc0fef"
+    },
+    {
+      "path": "public/assets/responsive/bca95ab92c06a7-384.webp",
+      "bytes": 10224,
+      "category": "public-asset",
+      "sha256": "1623b760bc797d91bd8c3ac3d4a57de45fb14e3dfd7c6d93aa44a9770fd75427"
+    },
+    {
+      "path": "public/assets/responsive/bca95ab92c06a7-640.webp",
+      "bytes": 27404,
+      "category": "public-asset",
+      "sha256": "4da8d9468ae1af8bc87bff73069efaa6a13859a67ab1c8f2252df43965f916ef"
+    },
+    {
+      "path": "public/assets/responsive/bca95ab92c06a7-960.webp",
+      "bytes": 58078,
+      "category": "public-asset",
+      "sha256": "6ce5f2d787e3fde9b2075cf959684d5513883264c9f8572421eabc8b0b6946a6"
+    },
+    {
+      "path": "public/assets/responsive/bd7203abc4d001-1280.webp",
+      "bytes": 68508,
+      "category": "public-asset",
+      "sha256": "cbc7e1725feee963baec952bafdfc6ca7e7e44eb7887cafbb7c833977b88ce06"
+    },
+    {
+      "path": "public/assets/responsive/bd7203abc4d001-1920.webp",
+      "bytes": 137348,
+      "category": "public-asset",
+      "sha256": "23cc757c48a58da144340c526b18eae70f6dca38d6cb66ec17958850b1611bd2"
+    },
+    {
+      "path": "public/assets/responsive/bd7203abc4d001-2560.webp",
+      "bytes": 271918,
+      "category": "public-asset",
+      "sha256": "51401728d630cfb13ff6231addad9da4457db5980300bfbb69e72e8080f2c56c"
+    },
+    {
+      "path": "public/assets/responsive/bd7203abc4d001-384.webp",
+      "bytes": 7776,
+      "category": "public-asset",
+      "sha256": "e6a74268cb3f4f0a3b0d630fe9679adf9dd694aa3935997f861ed776fd0a8b39"
+    },
+    {
+      "path": "public/assets/responsive/bd7203abc4d001-640.webp",
+      "bytes": 19406,
+      "category": "public-asset",
+      "sha256": "1f9ae18cebccaaf0b8aaa5a74bad4ef9b2c05d267dbb154f02f6246048e1981e"
+    },
+    {
+      "path": "public/assets/responsive/bd7203abc4d001-960.webp",
+      "bytes": 39846,
+      "category": "public-asset",
+      "sha256": "67c600f88c98bc547465a1b40d4a3381493f01f6edc4d4cc96b14875b1ea4732"
+    },
+    {
+      "path": "public/assets/responsive/c872a2a3070458-1280.webp",
+      "bytes": 186186,
+      "category": "public-asset",
+      "sha256": "b43160b57e146d8259f25cd24511554427dfcf115ffba7d5973348408c7baa8a"
+    },
+    {
+      "path": "public/assets/responsive/c872a2a3070458-1920.webp",
+      "bytes": 435696,
+      "category": "public-asset",
+      "sha256": "32cc8d66c53317dff615b363add4173a6fe787b57e9acb216ecaf35074925cec"
+    },
+    {
+      "path": "public/assets/responsive/c872a2a3070458-384.webp",
+      "bytes": 19342,
+      "category": "public-asset",
+      "sha256": "2f93520ee2ef36d16cebff5b26f3717199616ece4bb1d38206e6ca1d66894c81"
+    },
+    {
+      "path": "public/assets/responsive/c872a2a3070458-640.webp",
+      "bytes": 53764,
+      "category": "public-asset",
+      "sha256": "4d0d23651e8536a1dea2c0aa769b42a8bbddee305b506725ef024dde3df8225c"
+    },
+    {
+      "path": "public/assets/responsive/c872a2a3070458-960.webp",
+      "bytes": 119506,
+      "category": "public-asset",
+      "sha256": "157c8cb968608185b25b2f917d7a60738f54de9ccf959234894f97ecdd23f779"
+    },
+    {
+      "path": "public/assets/responsive/ce4319e577f094-1280.webp",
+      "bytes": 144024,
+      "category": "public-asset",
+      "sha256": "ba04864b2e8bdd8c472605425b1567d3c4ccaa9bb736efd86b4be814164d9d34"
+    },
+    {
+      "path": "public/assets/responsive/ce4319e577f094-1920.webp",
+      "bytes": 301358,
+      "category": "public-asset",
+      "sha256": "647fe5f905bbd70f0800a477c51c4682cbf845cd6474ee3b842e9ad28ab10e1e"
+    },
+    {
+      "path": "public/assets/responsive/ce4319e577f094-2560.webp",
+      "bytes": 632878,
+      "category": "public-asset",
+      "sha256": "deaf6a149511db2be18e701d867bf80dfdb7ccab88b6d09b7925a52312b2753f"
+    },
+    {
+      "path": "public/assets/responsive/ce4319e577f094-384.webp",
+      "bytes": 11530,
+      "category": "public-asset",
+      "sha256": "2c5dd403383907355be4ca15bac904b73cb9cefbf6cda23299c091314f0541ed"
+    },
+    {
+      "path": "public/assets/responsive/ce4319e577f094-640.webp",
+      "bytes": 32794,
+      "category": "public-asset",
+      "sha256": "650e19528ad6e79e70fc518c81d579dae349d0638d5b15211f8409c93630d008"
+    },
+    {
+      "path": "public/assets/responsive/ce4319e577f094-960.webp",
+      "bytes": 73518,
+      "category": "public-asset",
+      "sha256": "78fb46836a80fc03f97eea55fa1805488123ed4478c3900bb7657d532956f9c2"
+    },
+    {
+      "path": "public/assets/responsive/d5f20748db3e17-1280.webp",
+      "bytes": 68572,
+      "category": "public-asset",
+      "sha256": "69d1e63b9797695a74035a3f32f282d6e145fd754449d5c3983d01a962c85986"
+    },
+    {
+      "path": "public/assets/responsive/d5f20748db3e17-1920.webp",
+      "bytes": 115870,
+      "category": "public-asset",
+      "sha256": "a9429cf8a1734bae6876f46496f535842035fca8fbf52b8b18fe1b693420adb9"
+    },
+    {
+      "path": "public/assets/responsive/d5f20748db3e17-2228.webp",
+      "bytes": 163816,
+      "category": "public-asset",
+      "sha256": "acce963d0519770bc2a9e5307640edf1c9bcc8aba59468e07fb2ba7c91e463d8"
+    },
+    {
+      "path": "public/assets/responsive/d5f20748db3e17-384.webp",
+      "bytes": 11794,
+      "category": "public-asset",
+      "sha256": "0679a84a89bb54656db2bc2ab5021ee1849fb1c0bbfb003b9379ea5c2b7ae197"
+    },
+    {
+      "path": "public/assets/responsive/d5f20748db3e17-640.webp",
+      "bytes": 26004,
+      "category": "public-asset",
+      "sha256": "2ba6d52e4e6bb85a5f91b0effc3853e6eeea3111fa87fabf822aacd47ad377f8"
+    },
+    {
+      "path": "public/assets/responsive/d5f20748db3e17-960.webp",
+      "bytes": 46404,
+      "category": "public-asset",
+      "sha256": "c44bc2d550ab3ccd9e4f95ed484c95b6213491660f7ebc37574f7201b5840705"
+    },
+    {
+      "path": "public/assets/responsive/d80969dc3b1406-1280.webp",
+      "bytes": 320216,
+      "category": "public-asset",
+      "sha256": "374f3382c0debd776452ed3cd9979ac389bbf4c06b0cd3d79a0e3e15527427db"
+    },
+    {
+      "path": "public/assets/responsive/d80969dc3b1406-1920.webp",
+      "bytes": 725028,
+      "category": "public-asset",
+      "sha256": "053f3475c07d8fc518cc51c5828e1cd8ff10258f18273c5877c6bd1fd42cc9a9"
+    },
+    {
+      "path": "public/assets/responsive/d80969dc3b1406-384.webp",
+      "bytes": 36882,
+      "category": "public-asset",
+      "sha256": "bca1a4df6e05a956276a16b8d7b0b46a15328baa5ae2294108284dd20c230c92"
+    },
+    {
+      "path": "public/assets/responsive/d80969dc3b1406-640.webp",
+      "bytes": 92766,
+      "category": "public-asset",
+      "sha256": "dc40c7ecc8a5b88dc9706ece19907af9ab7a220e936b044e6f6406325ffdb3a1"
+    },
+    {
+      "path": "public/assets/responsive/d80969dc3b1406-960.webp",
+      "bytes": 203984,
+      "category": "public-asset",
+      "sha256": "184941f6dcdf140ba9a62afbe32d74f67f6ec0708ac7e716a5d1aa67ec67d7f8"
+    },
+    {
+      "path": "public/assets/responsive/d93170f976cef0-1280.webp",
+      "bytes": 335360,
+      "category": "public-asset",
+      "sha256": "6e2cca9132bba6a78ffe50dae8e640f4d0ea344236a30eda808481c2a3c90f75"
+    },
+    {
+      "path": "public/assets/responsive/d93170f976cef0-1707.webp",
+      "bytes": 802026,
+      "category": "public-asset",
+      "sha256": "0297f171115fc064c29a9a4c86e594de27cb88bebf7ae34442a19c9e1ccf796a"
+    },
+    {
+      "path": "public/assets/responsive/d93170f976cef0-384.webp",
+      "bytes": 39718,
+      "category": "public-asset",
+      "sha256": "ac9e68f3840d0230115413cf97ee1c788ead4e0adf3c14b36ad34f9e97c462d4"
+    },
+    {
+      "path": "public/assets/responsive/d93170f976cef0-640.webp",
+      "bytes": 93306,
+      "category": "public-asset",
+      "sha256": "0e330432daf6bd2452676f1dde996c938f969ff7910759eb3cb5b99dcb6acee7"
+    },
+    {
+      "path": "public/assets/responsive/d93170f976cef0-960.webp",
+      "bytes": 191310,
+      "category": "public-asset",
+      "sha256": "a1101a29040a2390bb9528aa7a603b9b308f41336123390d17274a95534dd2c5"
+    },
+    {
+      "path": "public/assets/responsive/deb070f10fd017-1280.webp",
+      "bytes": 169018,
+      "category": "public-asset",
+      "sha256": "526a90d3dce4b3045b00572a05a5028d7016b03bce1954e68994f61697d99467"
+    },
+    {
+      "path": "public/assets/responsive/deb070f10fd017-1920.webp",
+      "bytes": 290000,
+      "category": "public-asset",
+      "sha256": "e6edc48b9bc58a1d74ca6003b4457e3834e6b228e85a3712eac8d4dbfaaf9285"
+    },
+    {
+      "path": "public/assets/responsive/deb070f10fd017-2560.webp",
+      "bytes": 494270,
+      "category": "public-asset",
+      "sha256": "2f973d6b15e4f4451e48ea4335124e80ef6b2ef054cc612b7e7f04b9450bb3e6"
+    },
+    {
+      "path": "public/assets/responsive/deb070f10fd017-384.webp",
+      "bytes": 18102,
+      "category": "public-asset",
+      "sha256": "a6c88dcc0237922846eeaf0afebe3508c19311f1b6e108fcacee1ddcddc86d95"
+    },
+    {
+      "path": "public/assets/responsive/deb070f10fd017-640.webp",
+      "bytes": 47794,
+      "category": "public-asset",
+      "sha256": "e73f140160f241f56c16fdb851b7eaf7d559aadc4822980bfc968a73c1177171"
+    },
+    {
+      "path": "public/assets/responsive/deb070f10fd017-960.webp",
+      "bytes": 98104,
+      "category": "public-asset",
+      "sha256": "9e728a9f7714f2c17cbe0f4a331d3a98acd895fd59b71c2efec83ccdf8fc92e3"
+    },
+    {
+      "path": "public/assets/responsive/e1ed9e98ddfb7d-1280.webp",
+      "bytes": 111030,
+      "category": "public-asset",
+      "sha256": "bcc7ba6edceb40ed4c3ddc2045ed94d0cf5bcabf3d38c5c5f0c5adb67b8ab5b0"
+    },
+    {
+      "path": "public/assets/responsive/e1ed9e98ddfb7d-1920.webp",
+      "bytes": 185590,
+      "category": "public-asset",
+      "sha256": "fbd189de3d2a3b37202521b20b53f32bc2e56278a640edceb2c546305643fd94"
+    },
+    {
+      "path": "public/assets/responsive/e1ed9e98ddfb7d-2560.webp",
+      "bytes": 294154,
+      "category": "public-asset",
+      "sha256": "66eb61e62db9e5d530ee80217685130af0e4f698ad8f6ac5294f2d5a25e60978"
+    },
+    {
+      "path": "public/assets/responsive/e1ed9e98ddfb7d-384.webp",
+      "bytes": 16030,
+      "category": "public-asset",
+      "sha256": "d62db03c62a0ba04f024c7e253ce3654e687090b99ef9fb8be4fd514881975ed"
+    },
+    {
+      "path": "public/assets/responsive/e1ed9e98ddfb7d-640.webp",
+      "bytes": 38162,
+      "category": "public-asset",
+      "sha256": "201da47129d50bbe0b7935e46e9157d1980d92faa5afa784c9dd5eed138123c4"
+    },
+    {
+      "path": "public/assets/responsive/e1ed9e98ddfb7d-960.webp",
+      "bytes": 71244,
+      "category": "public-asset",
+      "sha256": "c30cb8d8e8a5e4688d2f6f17519e38c5dabbe73f9a1a27de849710abbc197eff"
+    },
+    {
+      "path": "public/assets/responsive/e6351480e5b19c-1280.webp",
+      "bytes": 90994,
+      "category": "public-asset",
+      "sha256": "491e8fbc1fe4c1e03435f65ed2519bb7b6f1d435926b4cc8a07a745cf3e0955f"
+    },
+    {
+      "path": "public/assets/responsive/e6351480e5b19c-1920.webp",
+      "bytes": 203620,
+      "category": "public-asset",
+      "sha256": "2b2c5a50c3087dab2a339b237970bc3e618a0c36c4611f65d3b5f4dd6eda0deb"
+    },
+    {
+      "path": "public/assets/responsive/e6351480e5b19c-384.webp",
+      "bytes": 15388,
+      "category": "public-asset",
+      "sha256": "6eb9662fd6958cbabd5813c2b2b284751a53f6a3fd3a9ffd6ffb051f17c30463"
+    },
+    {
+      "path": "public/assets/responsive/e6351480e5b19c-640.webp",
+      "bytes": 34550,
+      "category": "public-asset",
+      "sha256": "7ecf29c26028dd61d27e9b3c0f17abed3a61363c948010baf0d14cf50dd87eab"
+    },
+    {
+      "path": "public/assets/responsive/e6351480e5b19c-960.webp",
+      "bytes": 64198,
+      "category": "public-asset",
+      "sha256": "b0cabb41ae8d452303362f230deca7a9a89030ba8b3c2edbdc920e97cd5ceeb3"
+    },
+    {
+      "path": "public/assets/responsive/e8e69369bcd601-1280.webp",
+      "bytes": 288256,
+      "category": "public-asset",
+      "sha256": "5644e58a8a6cb56a84900ccd41cc4f298bb30eddee5ffcc492061c5ce5fef557"
+    },
+    {
+      "path": "public/assets/responsive/e8e69369bcd601-1920.webp",
+      "bytes": 609572,
+      "category": "public-asset",
+      "sha256": "6104cbce3a10cb3375ed72de31b9994a333681fadddce1816d13aaeaf11e4cd0"
+    },
+    {
+      "path": "public/assets/responsive/e8e69369bcd601-2560.webp",
+      "bytes": 1222256,
+      "category": "public-asset",
+      "sha256": "baa1544f405b0a8ffe75e252725db5bdd269f94784383143e9d11f4b114a7c0a"
+    },
+    {
+      "path": "public/assets/responsive/e8e69369bcd601-384.webp",
+      "bytes": 25564,
+      "category": "public-asset",
+      "sha256": "a38643cf815eef2e6f3d5c5707459a0af532a626ecb3f2fc01f5e27e2054d2fd"
+    },
+    {
+      "path": "public/assets/responsive/e8e69369bcd601-640.webp",
+      "bytes": 69998,
+      "category": "public-asset",
+      "sha256": "b23b2e8be4b04f6b5a066c0226993f2e41e6197885742e840446c40ac6d803e9"
+    },
+    {
+      "path": "public/assets/responsive/e8e69369bcd601-960.webp",
+      "bytes": 154808,
+      "category": "public-asset",
+      "sha256": "cf52c0aca7e917381196cf95a425f48fd33e4495b423568a26a0c5d0b8b0497c"
+    },
+    {
+      "path": "public/assets/responsive/ee900848f743c9-1280.webp",
+      "bytes": 264378,
+      "category": "public-asset",
+      "sha256": "8083b55cd1b300c9a2004ea723debd6918dad2ae53c811325dd6b0a16af8a078"
+    },
+    {
+      "path": "public/assets/responsive/ee900848f743c9-1707.webp",
+      "bytes": 462382,
+      "category": "public-asset",
+      "sha256": "8e149972db28c661d635f526f52aae68753ce911e23775c5d3ddef361cdbc0a1"
+    },
+    {
+      "path": "public/assets/responsive/ee900848f743c9-384.webp",
+      "bytes": 39400,
+      "category": "public-asset",
+      "sha256": "5cb9430d8aea3838dd860a8c8fb233567623599e79b8621087ccdad6d047da43"
+    },
+    {
+      "path": "public/assets/responsive/ee900848f743c9-640.webp",
+      "bytes": 94898,
+      "category": "public-asset",
+      "sha256": "a211b4bc078a640345c82714915ba5f650d8c459ed4821f0ffe6ab7d025d3f93"
+    },
+    {
+      "path": "public/assets/responsive/ee900848f743c9-960.webp",
+      "bytes": 178978,
+      "category": "public-asset",
+      "sha256": "677628219e63f705a6b5dc8083ae970b45431bc4c13b255d32fa7f8cb0f9ee08"
+    },
+    {
+      "path": "public/assets/responsive/ef788bd415c0e6-1280.webp",
+      "bytes": 138310,
+      "category": "public-asset",
+      "sha256": "239decacf33e442e25a62c6b4d4f70c50d6b6d9ed5175bfcb766685097953c13"
+    },
+    {
+      "path": "public/assets/responsive/ef788bd415c0e6-1920.webp",
+      "bytes": 251140,
+      "category": "public-asset",
+      "sha256": "827ecd892de4310ca548b0e3fb32b2dd1485219b3143f001864ef302eccdb8d3"
+    },
+    {
+      "path": "public/assets/responsive/ef788bd415c0e6-2560.webp",
+      "bytes": 461270,
+      "category": "public-asset",
+      "sha256": "a0d42caa81fd22787efce346ce336840077e586c8ebb375b5767fddfeaa6125e"
+    },
+    {
+      "path": "public/assets/responsive/ef788bd415c0e6-384.webp",
+      "bytes": 16912,
+      "category": "public-asset",
+      "sha256": "0ab5372987a0653f736ec19c4fbc8af2e4cf19e868eb27faa8dff12fa0e8cf20"
+    },
+    {
+      "path": "public/assets/responsive/ef788bd415c0e6-640.webp",
+      "bytes": 41458,
+      "category": "public-asset",
+      "sha256": "36537e0055ecc55f16a2e2ea715bf189499de9aba7b2b9bdc899f9bd36114197"
+    },
+    {
+      "path": "public/assets/responsive/ef788bd415c0e6-960.webp",
+      "bytes": 80724,
+      "category": "public-asset",
+      "sha256": "17f0219dd2880cc1d9694ef1ccd9be7f3258509ab6026cbb286f91160b2f2b3e"
+    },
+    {
+      "path": "public/assets/responsive/f0bee1df8ff9d6-1280.webp",
+      "bytes": 306528,
+      "category": "public-asset",
+      "sha256": "11abeefe0d7f8b338470bfe9e60443860d6e4270b9b3f03d0bae345a93ced5d3"
+    },
+    {
+      "path": "public/assets/responsive/f0bee1df8ff9d6-1920.webp",
+      "bytes": 598246,
+      "category": "public-asset",
+      "sha256": "5c2f349f991982fb1384bd8fca1bdb16394b39211ef4a794a72834204b82a748"
+    },
+    {
+      "path": "public/assets/responsive/f0bee1df8ff9d6-2560.webp",
+      "bytes": 1109296,
+      "category": "public-asset",
+      "sha256": "f4e1f2cbfbfc3ffd19ecf9deef9dc4abe30f83b6aaeacf8516cfdf6fd6fb795f"
+    },
+    {
+      "path": "public/assets/responsive/f0bee1df8ff9d6-384.webp",
+      "bytes": 30538,
+      "category": "public-asset",
+      "sha256": "7d4af5f0e5ebafd8ba6b95c4f7f3089beed6f2d09e8cfb9038f636060db2678e"
+    },
+    {
+      "path": "public/assets/responsive/f0bee1df8ff9d6-640.webp",
+      "bytes": 80074,
+      "category": "public-asset",
+      "sha256": "ee242d704c0d81cc8adade765468282c58764d806022e5b0446197ae1428ccca"
+    },
+    {
+      "path": "public/assets/responsive/f0bee1df8ff9d6-960.webp",
+      "bytes": 172918,
+      "category": "public-asset",
+      "sha256": "edb660a52c74bf5cae16befefffbcb782a2dbf6f3754162a828d222015e9bdd2"
+    },
+    {
+      "path": "public/assets/responsive/f33e9f83282652-1280.webp",
+      "bytes": 115462,
+      "category": "public-asset",
+      "sha256": "cab88b74e953af4e0a59feca9dae9701550079a3ec409530933b57b87f8e379a"
+    },
+    {
+      "path": "public/assets/responsive/f33e9f83282652-1920.webp",
+      "bytes": 227920,
+      "category": "public-asset",
+      "sha256": "c02861634a313031110ee4d4efc5a74e51f3471cb86a4dc9858d451bfd7021c2"
+    },
+    {
+      "path": "public/assets/responsive/f33e9f83282652-2560.webp",
+      "bytes": 464772,
+      "category": "public-asset",
+      "sha256": "6a7d3316d17772d4c10ea6dbde7f7ae5e35a21350c805962435a821da271badc"
+    },
+    {
+      "path": "public/assets/responsive/f33e9f83282652-384.webp",
+      "bytes": 11294,
+      "category": "public-asset",
+      "sha256": "e57c1a8f3d1d497c2e7a7a023139dc7fe74fb05ed749e64e21cdf9d0e12effd4"
+    },
+    {
+      "path": "public/assets/responsive/f33e9f83282652-640.webp",
+      "bytes": 29654,
+      "category": "public-asset",
+      "sha256": "4a50d1f47bd86245e24dc2eae1d6780a0e6004543e9300f378415a3a7aaea7f8"
+    },
+    {
+      "path": "public/assets/responsive/f33e9f83282652-960.webp",
+      "bytes": 63282,
+      "category": "public-asset",
+      "sha256": "aebe774810345e3095528f5ac0e4b35d6783a0e63c525098b7dad4141e5f293b"
+    },
+    {
+      "path": "public/assets/responsive/fd0d662c737110-1280.webp",
+      "bytes": 58454,
+      "category": "public-asset",
+      "sha256": "8fa8afdb6fefcbf42bc8c163216a2bd36d5e86d0ee2c58f38da9b46f99380d2c"
+    },
+    {
+      "path": "public/assets/responsive/fd0d662c737110-1920.webp",
+      "bytes": 109542,
+      "category": "public-asset",
+      "sha256": "5c3af5be6954c8251d1f73bdc9d0984bbe33be6a3a9909d34e88d394c0594f65"
+    },
+    {
+      "path": "public/assets/responsive/fd0d662c737110-2560.webp",
+      "bytes": 205220,
+      "category": "public-asset",
+      "sha256": "74055d266adee6cf56e09cafa3fc5e72a202da0e4eca849ff8e826485e128e32"
+    },
+    {
+      "path": "public/assets/responsive/fd0d662c737110-384.webp",
+      "bytes": 6796,
+      "category": "public-asset",
+      "sha256": "ebe0e11392c40b2777dae256f13268282b655a3a3b00088da1660ad140626714"
+    },
+    {
+      "path": "public/assets/responsive/fd0d662c737110-640.webp",
+      "bytes": 16666,
+      "category": "public-asset",
+      "sha256": "b53fcae1d3db24a67f5515a3b5a7fc6e94ea197ea751147d51946d0e73e60198"
+    },
+    {
+      "path": "public/assets/responsive/fd0d662c737110-960.webp",
+      "bytes": 34298,
+      "category": "public-asset",
+      "sha256": "a8cf3d2d73a439503b5c8de4a48113df4bd7e6c0e3c0e442e645e9ff676593f9"
+    },
+    {
+      "path": "public/assets/responsive/fe53db654f9004-1280.webp",
+      "bytes": 336072,
+      "category": "public-asset",
+      "sha256": "8f70483f1ac067c566bb8914309515f33baf5ddddd61e1ebb3df254e5aaa7dc4"
+    },
+    {
+      "path": "public/assets/responsive/fe53db654f9004-1920.webp",
+      "bytes": 656762,
+      "category": "public-asset",
+      "sha256": "04bddb881445416b9e0189b2456627e41b9b28abc63049657991f84f8dcbee23"
+    },
+    {
+      "path": "public/assets/responsive/fe53db654f9004-2560.webp",
+      "bytes": 1267270,
+      "category": "public-asset",
+      "sha256": "1cd5f49723b31c21533fa43464039144dcbfb2d060ce6e3b844121da4f5bd20d"
+    },
+    {
+      "path": "public/assets/responsive/fe53db654f9004-384.webp",
+      "bytes": 25212,
+      "category": "public-asset",
+      "sha256": "003f55f7d2ac1c0a0c69514c10612ff7a381f201edcecd2bee05ee002b9a878d"
+    },
+    {
+      "path": "public/assets/responsive/fe53db654f9004-640.webp",
+      "bytes": 76446,
+      "category": "public-asset",
+      "sha256": "62053e0147dc0dd40201a7e6e51c74e75c0854acdfdff188f1811a1f3b35d5f0"
+    },
+    {
+      "path": "public/assets/responsive/fe53db654f9004-960.webp",
+      "bytes": 171910,
+      "category": "public-asset",
+      "sha256": "7fe226fd6816590538b4f5e2ff59d517807ce274f616e8344007d5e59ecbb8fa"
+    },
+    {
+      "path": "public/assets/videos/dubai-cinema-v2-balanced.mp4",
+      "bytes": 4843370,
+      "category": "public-asset",
+      "sha256": "324f4093eb956ae2fb19ca5b7c9a71a18f1ce643b2ab1f732ae8da17d632886f"
+    },
+    {
+      "path": "public/assets/videos/dubai-cinema-v2-desktop.mp4",
+      "bytes": 22231588,
+      "category": "public-asset",
+      "sha256": "f4018e3c6f3047a212e26e07bdfbc720ec75d1809ca06483c992eda4a324c52b"
+    },
+    {
+      "path": "public/assets/videos/dubai-cinema-v2-lite.mp4",
+      "bytes": 2537080,
+      "category": "public-asset",
+      "sha256": "8e6e7a8f3d99933085c3f1514ac3766824bcf4d59eb1b242f198cae34317aad0"
+    },
+    {
+      "path": "public/assets/videos/dubai-cinema-v2-mobile.mp4",
+      "bytes": 9196005,
+      "category": "public-asset",
+      "sha256": "1af30553f774f04a1f1214a025f2117d46922559f5b3df2991091d604ee75824"
+    },
+    {
+      "path": "public/assets/videos/dubai-cinema-v2-poster.webp",
+      "bytes": 352386,
+      "category": "public-asset",
+      "sha256": "5994dcf9e8aadc56c25e75e70b38c33f346446de25cf0f63285898a96a993e46"
+    },
+    {
+      "path": "public/assets/videos/home-cinema-v2-balanced.mp4",
+      "bytes": 5698844,
+      "category": "public-asset",
+      "sha256": "0831d55dbf9a922fc1dcc81fa5ee2eb55ffaaf80bd81a0d0788d03587d3c4e53"
+    },
+    {
+      "path": "public/assets/videos/home-cinema-v2-desktop.mp4",
+      "bytes": 23630134,
+      "category": "public-asset",
+      "sha256": "231d984a23cb75532fe0bfcaab618e76acf8c52a1c30e593b96e96dc301c8d39"
+    },
+    {
+      "path": "public/assets/videos/home-cinema-v2-lite.mp4",
+      "bytes": 3182254,
+      "category": "public-asset",
+      "sha256": "fba66d15671e99a8de4b2cb6d9d9d2925909092648214c6bc3d33cefd97bf302"
+    },
+    {
+      "path": "public/assets/videos/home-cinema-v2-mobile.mp4",
+      "bytes": 10304506,
+      "category": "public-asset",
+      "sha256": "9bd46c07d1068a136d33d99b2f2d21fe1edbcb3612f2d93d68440f56ea527e30"
+    },
+    {
+      "path": "public/assets/videos/home-cinema-v2-poster.webp",
+      "bytes": 487880,
+      "category": "public-asset",
+      "sha256": "c872a2a3070458bbbf1da9019a74b258b1c5854e9fcdc8e087ed562f5544850b"
+    },
+    {
+      "path": "public/assets/videos/kashmir-cinema-v2-balanced.mp4",
+      "bytes": 5438706,
+      "category": "public-asset",
+      "sha256": "3640ae1f36cfe4cbac66d391156496f25d694020377a9033f1ed34cafb3a5451"
+    },
+    {
+      "path": "public/assets/videos/kashmir-cinema-v2-desktop.mp4",
+      "bytes": 23826157,
+      "category": "public-asset",
+      "sha256": "b93c1e58fdc8895c9c7daae123f3c73141cbba9702349bf0a22c2557f7b92df0"
+    },
+    {
+      "path": "public/assets/videos/kashmir-cinema-v2-lite.mp4",
+      "bytes": 3110079,
+      "category": "public-asset",
+      "sha256": "6771b55ef9e69ce99839271183b788fff3e21f6aaf0c1cad5863fa0531e53a95"
+    },
+    {
+      "path": "public/assets/videos/kashmir-cinema-v2-mobile.mp4",
+      "bytes": 10636672,
+      "category": "public-asset",
+      "sha256": "e8b88e0918c64bc0639ca872c798fea3ee1b735abc442abb020cda7a2b090885"
+    },
+    {
+      "path": "public/assets/videos/kashmir-cinema-v2-poster.webp",
+      "bytes": 328192,
+      "category": "public-asset",
+      "sha256": "ad7f10eefcca9ba8e4595deaffcb92691146025ddf889977fc16daadbfe26638"
+    },
+    {
+      "path": "public/assets/videos/kerala-cinema-v2-balanced.mp4",
+      "bytes": 5597994,
+      "category": "public-asset",
+      "sha256": "e1e9b495ae5b6036b55c75e38a63b7d6c49b91097b2d0f2c86565de846726d02"
+    },
+    {
+      "path": "public/assets/videos/kerala-cinema-v2-desktop.mp4",
+      "bytes": 23503765,
+      "category": "public-asset",
+      "sha256": "216ee9dda0762b50e85cda5477af1a07fe1c054c3ff7fc6f4863007088e4f678"
+    },
+    {
+      "path": "public/assets/videos/kerala-cinema-v2-lite.mp4",
+      "bytes": 2990247,
+      "category": "public-asset",
+      "sha256": "32825b2a0e96a5d5e03e1e3ea8de404a1a204b7323e61927e34eb04a2ea03d44"
+    },
+    {
+      "path": "public/assets/videos/kerala-cinema-v2-mobile.mp4",
+      "bytes": 10228145,
+      "category": "public-asset",
+      "sha256": "55729b4bed6d1785c3005af9955586d2beb53b8f976e3c015639d2f9ad3f668f"
+    },
+    {
+      "path": "public/assets/videos/kerala-cinema-v2-poster.webp",
+      "bytes": 217386,
+      "category": "public-asset",
+      "sha256": "1a4136ac3dd88abff02095f297fa9e49007a7c3d6862b2210ae2170ebbd62141"
+    },
+    {
+      "path": "public/assets/videos/nepal-cinema-v2-balanced.mp4",
+      "bytes": 5438391,
+      "category": "public-asset",
+      "sha256": "d1b6ef63065ea8c87431b928f522270d1d06f23e09f4ffde8670ab11fa67eb1d"
+    },
+    {
+      "path": "public/assets/videos/nepal-cinema-v2-desktop.mp4",
+      "bytes": 23519413,
+      "category": "public-asset",
+      "sha256": "a55f54855a42bd95f1d8dd530df3e4a560ec8f36df8b0caf6792d72d43214c44"
+    },
+    {
+      "path": "public/assets/videos/nepal-cinema-v2-lite.mp4",
+      "bytes": 3219628,
+      "category": "public-asset",
+      "sha256": "4805516e16f9e93a0b446e1d4350d8916a49c5641dee34ea4fdccce8ac8d0185"
+    },
+    {
+      "path": "public/assets/videos/nepal-cinema-v2-mobile.mp4",
+      "bytes": 10144544,
+      "category": "public-asset",
+      "sha256": "8f624835d456cd4b9e23d1209940d0a9f92b7c57541c3e15d59e348e554aa159"
+    },
+    {
+      "path": "public/assets/videos/nepal-cinema-v2-poster.webp",
+      "bytes": 138328,
+      "category": "public-asset",
+      "sha256": "2e39ec76c6dcc0b2b6d7d250523f10af03ad83d5084693da0a7310ed2b2a068d"
+    },
+    {
+      "path": "public/assets/videos/sikkim-cc-scene-1.mp4",
+      "bytes": 3199245,
+      "category": "public-asset",
+      "sha256": "0ab96dad74bbf77e9b49e207aaf5b046ed9017019c06b8b2ed78a95e26a2ba0f"
+    },
+    {
+      "path": "public/assets/videos/sikkim-cc-scene-2.mp4",
+      "bytes": 3753827,
+      "category": "public-asset",
+      "sha256": "1953de2dcd61c525386f2e62bb2a30a654866f1ce88e67c577a6d91a412f50c4"
+    },
+    {
+      "path": "public/assets/videos/sikkim-cc-scene-3.mp4",
+      "bytes": 4308753,
+      "category": "public-asset",
+      "sha256": "083f9b99e8b6a704b53ee2e554e84f50b0882e5351bfe64148e3826d6f8cde48"
+    },
+    {
+      "path": "public/assets/videos/sikkim-cc-scene-5.mp4",
+      "bytes": 4290229,
+      "category": "public-asset",
+      "sha256": "c9852dd8ed4649d680a12a2d011bee9f903507fe634fbd29eaaa697238813547"
+    },
+    {
+      "path": "public/assets/videos/sikkim-cc-scene-6.mp4",
+      "bytes": 4017299,
+      "category": "public-asset",
+      "sha256": "560d801520efd9ddeba1b5e3c4cb8626125f79079c560503f085f4b4e8937a98"
+    },
+    {
+      "path": "public/assets/videos/sikkim-cc-scene-7.mp4",
+      "bytes": 5843222,
+      "category": "public-asset",
+      "sha256": "052862ba9effa9c1340f55055375ad623864b96f1a5c182fa07c5e9916240a4a"
+    },
+    {
+      "path": "public/assets/videos/sikkim-cinema-v2-balanced.mp4",
+      "bytes": 6466978,
+      "category": "public-asset",
+      "sha256": "108a24d3f557086d424f6b526efe6755e08f3f356ddf8c581cb25de7422f13a1"
+    },
+    {
+      "path": "public/assets/videos/sikkim-cinema-v2-desktop.mp4",
+      "bytes": 24237661,
+      "category": "public-asset",
+      "sha256": "788f64ad90a19a0122b0c3c20c83b89923c6d7706683eedcfd961df9678416dd"
+    },
+    {
+      "path": "public/assets/videos/sikkim-cinema-v2-lite.mp4",
+      "bytes": 3632328,
+      "category": "public-asset",
+      "sha256": "bfbe2c91f7b61cdf5061abd25eeb50906907ad22c17afd438d9827fb89142717"
+    },
+    {
+      "path": "public/assets/videos/sikkim-cinema-v2-mobile.mp4",
+      "bytes": 10931052,
+      "category": "public-asset",
+      "sha256": "e91652a9d8969e5a6629d229328dcac2fc8967e9024abf772f0a6dc978c9527e"
+    },
+    {
+      "path": "public/assets/videos/sikkim-cinema-v2-poster.webp",
+      "bytes": 469248,
+      "category": "public-asset",
+      "sha256": "a370c7d8501d875d784ab49183e1191e6f17685c374521ed5315e239eee3803c"
     },
     {
       "path": "public/file.svg",
@@ -1343,10 +3881,28 @@
       "sha256": "076837061da8d0f85e725c5f4de6df38bc256901ef42f724335e3fa2f809708c"
     },
     {
+      "path": "scripts/__pycache__/audit-premium-films.cpython-312.pyc",
+      "bytes": 4626,
+      "category": "supporting",
+      "sha256": "acc350a8104f74a130a4b04ac38fc5f3da09f70052fe28395717ddfdca13f5de"
+    },
+    {
       "path": "scripts/__pycache__/build-montage-plan.cpython-312.pyc",
       "bytes": 2429,
       "category": "supporting",
       "sha256": "c618e108ad0a9f4bf34cace162dcf6ea118bad30a116e7f6123ee1f739aceb58"
+    },
+    {
+      "path": "scripts/__pycache__/build-premium-films.cpython-312.pyc",
+      "bytes": 8305,
+      "category": "supporting",
+      "sha256": "bdfd46dd866f671ff02a0709753da0890e73f490169c6e6607e4961c4c6d960b"
+    },
+    {
+      "path": "scripts/__pycache__/credit-sikkim-collection.cpython-312.pyc",
+      "bytes": 2389,
+      "category": "supporting",
+      "sha256": "c33581ada14635b34bd36d849fd9965842d199a55cd2a170863c67563ae22bd6"
     },
     {
       "path": "scripts/__pycache__/encode-destination-montages.cpython-312.pyc",
@@ -1355,22 +3911,40 @@
       "sha256": "d977028b2cc2a857c4829c409322e69ffa5f631bb8458a53b1b8b75994a9be6d"
     },
     {
+      "path": "scripts/__pycache__/finish-premium-films.cpython-312.pyc",
+      "bytes": 3449,
+      "category": "supporting",
+      "sha256": "f4079e071375c6944b6186fdf21e750289be6af9134a4e8fa401f6c84a442208"
+    },
+    {
       "path": "scripts/__pycache__/prepare-montage-sources.cpython-312.pyc",
       "bytes": 9495,
       "category": "supporting",
       "sha256": "9c71c6dbfea25ffb2686f5622f660a74674d4f1bb6a89e6702a6da328237af8c"
     },
     {
-      "path": "scripts/audit-destination-montages.py",
-      "bytes": 3532,
+      "path": "scripts/__pycache__/publish-premium-photos.cpython-312.pyc",
+      "bytes": 11658,
       "category": "supporting",
-      "sha256": "b795f359f1791b6daf62a2b37c709f9cd35f0dbc283ba3d796c7ff8d96613551"
+      "sha256": "58a6e5c22313c7c6e1db60bdfb3630ac29413d2bd87e236b927c2abbe3547bf9"
+    },
+    {
+      "path": "scripts/audit-destination-montages.py",
+      "bytes": 200,
+      "category": "supporting",
+      "sha256": "d52ba27c74e5fcaf6eb16cb69d635a1a3ee359261009ec48d32e7c78173909f4"
     },
     {
       "path": "scripts/audit-live-search.mjs",
       "bytes": 3787,
       "category": "supporting",
       "sha256": "4b0d85b993a0356571930388351a5a30811db6dc11a5a5510e721c4a850206b2"
+    },
+    {
+      "path": "scripts/audit-premium-films.py",
+      "bytes": 2089,
+      "category": "supporting",
+      "sha256": "c025901fdfee982ba3a617a3f51d7f98388124cdd83f9d39c55aca12a8a603eb"
     },
     {
       "path": "scripts/audit-video-encodes.py",
@@ -1385,6 +3959,42 @@
       "sha256": "c9b2261c380c6ef2c9bf2f3e333d52c09867b4b4dfad0e72b47b85d97858a3c7"
     },
     {
+      "path": "scripts/build-premium-films.py",
+      "bytes": 4059,
+      "category": "supporting",
+      "sha256": "ee663913496d0911102557ae65fbf145178bcfcb54f716a8407b30d77f79bd60"
+    },
+    {
+      "path": "scripts/build-responsive-images.mjs",
+      "bytes": 2223,
+      "category": "supporting",
+      "sha256": "de94e6becf0bdb97a5f6015b16f7bf9498253bb3f91b7234c907885b9bcd38b2"
+    },
+    {
+      "path": "scripts/build-scenic-drone-reels.py",
+      "bytes": 6342,
+      "category": "supporting",
+      "sha256": "44917730cf2fda16f690fb7b34ae7ecf1b8306c5673d59ca96a654f4985ad3c0"
+    },
+    {
+      "path": "scripts/build-visual-review-boards.py",
+      "bytes": 1233,
+      "category": "supporting",
+      "sha256": "75b6afba1905cd86abf418228e8d4ccab8dbb41524b0ad0eb80abfdb81e139e7"
+    },
+    {
+      "path": "scripts/capture-all-pages.mjs",
+      "bytes": 8410,
+      "category": "supporting",
+      "sha256": "274bef57e9d2ee0fc8ba84542453e7a384a69caa9532a54e6613b06ab627762c"
+    },
+    {
+      "path": "scripts/check-breakpoints.mjs",
+      "bytes": 1834,
+      "category": "supporting",
+      "sha256": "ee36a5a72fdfe32c6685bd22c6256ebbbf97c3f108149f0fd0ce597f41715943"
+    },
+    {
       "path": "scripts/check-catalogue.mjs",
       "bytes": 1055,
       "category": "supporting",
@@ -1392,15 +4002,21 @@
     },
     {
       "path": "scripts/check-expedition-ui.mjs",
-      "bytes": 5054,
+      "bytes": 5279,
       "category": "supporting",
-      "sha256": "e0cb08fed7642c8f30c9fd3ea1dec682c06c1209229552c8ca0367d892c0d487"
+      "sha256": "e99f64dadf26b6837404c0123f98a2eb526601918c06d21cbc3e987c8a7f97e3"
     },
     {
       "path": "scripts/check-focused-mobile.mjs",
-      "bytes": 3723,
+      "bytes": 3988,
       "category": "supporting",
-      "sha256": "7bf79ad34fcdd9ec347a35a1625816a548a21dbe95de1f149d11ea223ec0dfec"
+      "sha256": "db361b234665765cc9c9fdea3dd4109e4e3cfa3ebcec2524b8609853030310a3"
+    },
+    {
+      "path": "scripts/check-loading.mjs",
+      "bytes": 1864,
+      "category": "supporting",
+      "sha256": "888d95f19e0cf8a16d2b2c1fd4ebbe08715a7106c5353adc48bd4b59ccfc0eba"
     },
     {
       "path": "scripts/check-local-concurrency.mjs",
@@ -1421,10 +4037,28 @@
       "sha256": "6f3077d60de5d331d39ed0c902511fd6958bbea4722116e559f7b001de3a18b5"
     },
     {
-      "path": "scripts/check-scenic-videos.mjs",
-      "bytes": 7326,
+      "path": "scripts/check-page-headers.mjs",
+      "bytes": 1519,
       "category": "supporting",
-      "sha256": "7d16ab81b10c2c2667f01437076b36a852dfb6636c3ead71b8c1e6ae3b67f75f"
+      "sha256": "c9aa57a06107b479966e134aaab49824cdad0fd08587459d0f16bc4c87178b5e"
+    },
+    {
+      "path": "scripts/check-premium-experience.mjs",
+      "bytes": 10533,
+      "category": "supporting",
+      "sha256": "2e62149125dded7eccc8c68d2f531ae26af120625dac91a324a79f1be0b648fd"
+    },
+    {
+      "path": "scripts/check-scenic-videos.mjs",
+      "bytes": 119,
+      "category": "supporting",
+      "sha256": "729080c0402109aec0921a1b88c51926a29bbba8fe3fc942099f31ecc5c2c3a1"
+    },
+    {
+      "path": "scripts/credit-sikkim-collection.py",
+      "bytes": 1106,
+      "category": "supporting",
+      "sha256": "8e2b82189a12145fa5ec084560c1bad56c87980a7e04b65f2de2fefcc855e2dd"
     },
     {
       "path": "scripts/encode-destination-montages.py",
@@ -1437,6 +4071,12 @@
       "bytes": 205,
       "category": "supporting",
       "sha256": "9cca4cc748b81cf4b08f99a8cc1567337a2be3705341d1756f084299052add19"
+    },
+    {
+      "path": "scripts/finish-premium-films.py",
+      "bytes": 1490,
+      "category": "supporting",
+      "sha256": "dfa1d98e6441c9307b452be80cc1ff99e505bcc62d46a5e35eb85f11e0b0505b"
     },
     {
       "path": "scripts/import-itineraries.py",
@@ -1463,16 +4103,34 @@
       "sha256": "a20d28bcfbbec87077e67b90df19fa1db2fac1a7651d5b86ea8d26a52d2a4f24"
     },
     {
-      "path": "scripts/smoke-production.mjs",
-      "bytes": 6683,
+      "path": "scripts/publish-premium-photos.py",
+      "bytes": 8878,
       "category": "supporting",
-      "sha256": "30a1318a89fd3a94efe9ab951b3ee35c9aba946f1b960ef71432e2be6a3d08c3"
+      "sha256": "66f9ea499e01ab23354bde5a1731dd0f277ee5f03593438d3379aab5f0377f4a"
+    },
+    {
+      "path": "scripts/research-premium-media.py",
+      "bytes": 4021,
+      "category": "supporting",
+      "sha256": "6d17235e655ebf642c739230bbc0ceaa512cb1c78fd24fbbd0de95267a2f9817"
+    },
+    {
+      "path": "scripts/smoke-production.mjs",
+      "bytes": 7437,
+      "category": "supporting",
+      "sha256": "9bfce71319011edf4ee0064256f2e797a652b4b0e0af8d733d462a8d1a2091ef"
+    },
+    {
+      "path": "scripts/sync-all-tour-photos.mjs",
+      "bytes": 13143,
+      "category": "supporting",
+      "sha256": "d148d0b79f0174dec6a671601b7faa249a1ea4e24a31515d61200ee2a80cd315"
     },
     {
       "path": "src/app/about/page.tsx",
-      "bytes": 5336,
+      "bytes": 5408,
       "category": "application",
-      "sha256": "298d5874458af3ea48ef6b76ed6b52af0ba14eeb0c9c80b3092e1cf4e10cb033"
+      "sha256": "54a5ef5bedcf411945355604f8ca0b96c2afd32ba113134443aad43299c9bc8b"
     },
     {
       "path": "src/app/apple-icon.png",
@@ -1482,9 +4140,9 @@
     },
     {
       "path": "src/app/collections/[slug]/page.tsx",
-      "bytes": 2158,
+      "bytes": 2118,
       "category": "application",
-      "sha256": "deb88d0dd707442a94b0932eedd053d7c1d98dc355b34f56d831c84092046bfc"
+      "sha256": "ea90f05f566b0d26ed4b7eae9fbb7b28712fda81e69e392ed3b8082dd37a15fc"
     },
     {
       "path": "src/app/contact/page.tsx",
@@ -1500,9 +4158,9 @@
     },
     {
       "path": "src/app/destinations/[slug]/page.tsx",
-      "bytes": 8737,
+      "bytes": 9052,
       "category": "application",
-      "sha256": "2bc3af881b2514e011e3e1ae589de077c79095662dc252100be9ea12919243e0"
+      "sha256": "34610def695b90403bcf3581b572739973d260b0d6b870681a3516c83d913278"
     },
     {
       "path": "src/app/destinations/page.tsx",
@@ -1566,9 +4224,9 @@
     },
     {
       "path": "src/app/layout.tsx",
-      "bytes": 1953,
+      "bytes": 2511,
       "category": "application",
-      "sha256": "e0a057f6cce7272461d467eb01ab6300ee4fc85cff9f9652ad3eef1b65448ac5"
+      "sha256": "a14620ae2f532f42763291bafd39cfbad780a76fa8265bc9861d7a26a4be9141"
     },
     {
       "path": "src/app/mobile-experience.css",
@@ -1590,9 +4248,9 @@
     },
     {
       "path": "src/app/packages/[slug]/page.tsx",
-      "bytes": 6083,
+      "bytes": 6097,
       "category": "application",
-      "sha256": "88ddc5faac7875af515ab38594ffe669d74d945d04040a0a6a0455fe4053b3e2"
+      "sha256": "6d77ac814bb5a5e1c85897b2194f5091b28c9887bdf5ba237db192d81b1310cd"
     },
     {
       "path": "src/app/packages/[slug]/plan/page.tsx",
@@ -1608,9 +4266,9 @@
     },
     {
       "path": "src/app/packages/page.tsx",
-      "bytes": 10882,
+      "bytes": 10896,
       "category": "application",
-      "sha256": "f3bee644e5890e9891740a442dc261d2a9354984ebab8ccf25b37a8b80b5911d"
+      "sha256": "3cebd2e405783b3d59cfec32230a4498ab17b844a584652406a57bf3e37e8604"
     },
     {
       "path": "src/app/packages/saved/page.tsx",
@@ -1626,15 +4284,15 @@
     },
     {
       "path": "src/app/page.tsx",
-      "bytes": 4673,
+      "bytes": 3318,
       "category": "application",
-      "sha256": "76f4c2c16357cc3ad6a1e82d09100e5f5330146f1be38bc8d172b93b8365a2d4"
+      "sha256": "d9b74acaa797340f43e50e1d261bb007d006dda719a1e463a3c7fca52c3b3c86"
     },
     {
       "path": "src/app/photo-credits/page.tsx",
-      "bytes": 4468,
+      "bytes": 5603,
       "category": "application",
-      "sha256": "5e055747677f7d91aa4eb54d1506947b6348405890c9209b6918782aba49d3ed"
+      "sha256": "61ef8e373b45a8fdc415c5873fb7591f01c7d48ce9348e22e8b1e50b1f2eeae1"
     },
     {
       "path": "src/app/robots.ts",
@@ -1644,27 +4302,27 @@
     },
     {
       "path": "src/app/scenic-video.css",
-      "bytes": 2160,
+      "bytes": 23371,
       "category": "application",
-      "sha256": "70845e63931c629286245e2e4494de052b1be97955ea308a0941da053772fc24"
+      "sha256": "2110827ccac085f65f95f8c7054189875984fa84b57259f3fcc16a4be3fc38fc"
     },
     {
       "path": "src/app/services/page.tsx",
-      "bytes": 4838,
+      "bytes": 4852,
       "category": "application",
-      "sha256": "dc0a8eed7a42b53fcc191dd61f116e0d057cce7c2cc49d110cb0ec63e94c7333"
+      "sha256": "88f82b981ebfb79d9bfc71573a05cf243ffd630a6c558a949b1715578de140ea"
     },
     {
       "path": "src/app/sitemap.ts",
-      "bytes": 857,
+      "bytes": 1181,
       "category": "application",
-      "sha256": "09ecb93fe7a68e7248962b86f480bd826f7b32535a7d3fc40960435d32d6a137"
+      "sha256": "7c9df6edd02ad44ff0ce577764bcc949034ea2a2b70f8cf593a7ab94b8c263c7"
     },
     {
       "path": "src/app/tours/[slug]/page.tsx",
-      "bytes": 12887,
+      "bytes": 15081,
       "category": "application",
-      "sha256": "43a7777cdb76770ae822ba0a855d8113993d2650f033d8eb800e6541ed56a6c3"
+      "sha256": "27d5650c6d7a39420ada6cc890b417f9e1f247a96e5e8ce3ef111cd5361a3517"
     },
     {
       "path": "src/app/tours/compare/page.tsx",
@@ -1674,9 +4332,9 @@
     },
     {
       "path": "src/app/tours/page.tsx",
-      "bytes": 5019,
+      "bytes": 5013,
       "category": "application",
-      "sha256": "b12e171a3c707330aa7fbbe3b4c897b3e4c55b4b609dcfef7e0cc6941dc9f746"
+      "sha256": "42dafc1b5d1374be2806161c37797c72abcced8c97feeefda2c08a48f9d23d2d"
     },
     {
       "path": "src/app/tours/saved/page.tsx",
@@ -1698,9 +4356,9 @@
     },
     {
       "path": "src/components/BusinessStructuredData.tsx",
-      "bytes": 1457,
+      "bytes": 1655,
       "category": "application",
-      "sha256": "6d991fafa315139686549de7d1cbf49d0798196b1c0a85ab1ee4c1e9fd5001f3"
+      "sha256": "b5220e6b2e22614958cb56d181b912be15894a2a28b60be8c0869e801a1ad8a8"
     },
     {
       "path": "src/components/DemoNotice.tsx",
@@ -1722,15 +4380,15 @@
     },
     {
       "path": "src/components/DestinationGrid.tsx",
-      "bytes": 2513,
+      "bytes": 2524,
       "category": "application",
-      "sha256": "e8f9f787f17545f70a60404bc2c81eebf0627cbf8c2ccee606413724aa341633"
+      "sha256": "5055118b78bf0a3470f3198f366eac3c8fbcfc9c1f1b7316e823f19582263e4e"
     },
     {
       "path": "src/components/DestinationHub.tsx",
-      "bytes": 1447,
+      "bytes": 2167,
       "category": "application",
-      "sha256": "e5c9d2a8ca145fd025ca90ce9d2e3b2d421ab2b833ef7421a50e9362ef3334c5"
+      "sha256": "a720a652841e22afe555500b88182f026d706b188e65931058ed2620236069ef"
     },
     {
       "path": "src/components/DiscoveryPlayground.tsx",
@@ -1739,28 +4397,40 @@
       "sha256": "706b73451f0e567c4a0af3e97eed523585e8de8dfe82c3e21855e034814948dd"
     },
     {
-      "path": "src/components/Footer.tsx",
-      "bytes": 3239,
+      "path": "src/components/ExperienceCapabilities.tsx",
+      "bytes": 1012,
       "category": "application",
-      "sha256": "44fa9e2761fe89f38ffc00b2ccd3980b1aadcd9db974d9da8a6d5b5d4ba29938"
+      "sha256": "427a402243c83482411544d27813c051299ca86ded589cf3eee9168a536fa8dc"
+    },
+    {
+      "path": "src/components/Footer.tsx",
+      "bytes": 3319,
+      "category": "application",
+      "sha256": "99da892e473f58644d4c38619965982e14d27fb24a5891562831dcf645f6576b"
     },
     {
       "path": "src/components/GalleryViewer.tsx",
-      "bytes": 4680,
+      "bytes": 4694,
       "category": "application",
-      "sha256": "4f1aa4515cfb794e84ffbc99c05dce791a99600e398b46072b49760fb02807fe"
+      "sha256": "501aa040600297adeaa8cf27f121cfcfe7e8828e317623cb8a3749d263af80f0"
     },
     {
       "path": "src/components/GoogleReviews.tsx",
-      "bytes": 2014,
+      "bytes": 2080,
       "category": "application",
-      "sha256": "4089a834f8a2f1b13c724fd4cd46441a4fe9a012e65b3fe6ed53285eeb8d661d"
+      "sha256": "fb6c192540b9c499a71c755333fac8df045a17e562533c6b067f8484abf01ffa"
+    },
+    {
+      "path": "src/components/HomeHero.tsx",
+      "bytes": 5872,
+      "category": "application",
+      "sha256": "a02e350c4707b19ccf4e85700943510d9075c51fc16af3c9974cb9a84d2f2f94"
     },
     {
       "path": "src/components/InstagramShowcase.tsx",
-      "bytes": 2181,
+      "bytes": 1978,
       "category": "application",
-      "sha256": "ff6f3a241cc2388563008103ace95605ef152b5498533c04bc392989c338c87c"
+      "sha256": "e8b044d9d3af39525a35127b0325fdee0aa2f52843efc946176622ccdacda81a"
     },
     {
       "path": "src/components/JournalCover.tsx",
@@ -1781,16 +4451,34 @@
       "sha256": "2eb6ff2d931d4a5c7429ef2c7147a439b74eef34bdd1c6ec60a4a4e8e03dfee5"
     },
     {
-      "path": "src/components/Navbar.tsx",
-      "bytes": 4740,
+      "path": "src/components/MotionPreference.tsx",
+      "bytes": 761,
       "category": "application",
-      "sha256": "bdaf65e1cc96c879fb9b9bda971afa2c452c5fd59782bdca58a001cdcb6e586a"
+      "sha256": "5e1f13c108174de0cdb506b7592447a23cb6051f0b4f6d2c0c927e558916cc98"
+    },
+    {
+      "path": "src/components/Navbar.tsx",
+      "bytes": 5456,
+      "category": "application",
+      "sha256": "d316572dea54d0f623b8e3a3ef5dc15980e4e4741720c2bcc02e18e13fa034f9"
+    },
+    {
+      "path": "src/components/NavigationHint.tsx",
+      "bytes": 804,
+      "category": "application",
+      "sha256": "11c6b51e6d8b5ad98cda16ecbdafa3e85095c43eceedde5297f00a740db945cc"
     },
     {
       "path": "src/components/PageIntro.tsx",
-      "bytes": 3490,
+      "bytes": 3573,
       "category": "application",
-      "sha256": "44d323909d0218fed6ed36a97df652fa0d1c6b63b7a742ac24bf8084734063c1"
+      "sha256": "61bc65329bba5dc41f0855a71f2b64ca99a60f1bb05c153908d6ffb30b8a641d"
+    },
+    {
+      "path": "src/components/ParallaxHero.tsx",
+      "bytes": 1549,
+      "category": "application",
+      "sha256": "edc17c626585102c360256e5282fe0848150bfb705cae344058983953febfcf3"
     },
     {
       "path": "src/components/RealShortlist.tsx",
@@ -1799,16 +4487,22 @@
       "sha256": "3520cb1aa3a8a0d6c0a52cca2f4feb29d3a7018906c5654b5bb2a0015731cfaf"
     },
     {
-      "path": "src/components/ScenicVideo.tsx",
-      "bytes": 5965,
+      "path": "src/components/ReelEmbed.tsx",
+      "bytes": 1384,
       "category": "application",
-      "sha256": "467fbec9b5091fbb200ba790a0d7fead4deb3507e03efbd399d84b35de577f52"
+      "sha256": "4d40f6f55d1c6c887fd64930c32bf77f34c856da7512ff8482745145eb4f3079"
+    },
+    {
+      "path": "src/components/ScenicVideo.tsx",
+      "bytes": 4799,
+      "category": "application",
+      "sha256": "c9093a3d7005812e55dc02abe81d42a2a5685ce464054c22d50a6501413a82df"
     },
     {
       "path": "src/components/ScrollMotion.tsx",
-      "bytes": 3062,
+      "bytes": 3297,
       "category": "application",
-      "sha256": "fb2d29552494ce9531b3ac31dd894a4815f8523b2a2da9d3d587437526850421"
+      "sha256": "37b4afe93c7dc76136ee24b4958bd13d2ecbd0c45d67e90d42c6b12d5f5c6f6b"
     },
     {
       "path": "src/components/ShareComparison.tsx",
@@ -1824,21 +4518,33 @@
     },
     {
       "path": "src/components/Shortlist.tsx",
-      "bytes": 5281,
+      "bytes": 5295,
       "category": "application",
-      "sha256": "48e96db83484307c7b0ed5c6678a011818386b76f283ddb2e5c7e50ea9273039"
+      "sha256": "d0c1fd682c58afa91ebd93ea9109a31d921c00a8430c2de639dbd1ae8760c3e0"
     },
     {
       "path": "src/components/TourCard.tsx",
-      "bytes": 2450,
+      "bytes": 2362,
       "category": "application",
-      "sha256": "ca4000eb670b6ca9f7416310c523a3742ffd367f872f648585843c3c21fc9d0b"
+      "sha256": "01245a2076b31e5fabceb29ed7aa7c70cd5c3215e36c4622e9cc1c67ea3acb2f"
     },
     {
       "path": "src/components/TourDiscovery.tsx",
       "bytes": 4507,
       "category": "application",
       "sha256": "7c34913ca7131241a02a5f9f502e06c2ac21177dd51f0e4cab8c7589a84dc267"
+    },
+    {
+      "path": "src/components/TravelImage.tsx",
+      "bytes": 1871,
+      "category": "application",
+      "sha256": "2fe4e3725bbcc32d31688012b8ec834593e3cd24480039284c5e67bbb9c0420d"
+    },
+    {
+      "path": "src/components/TravelStructuredData.tsx",
+      "bytes": 2126,
+      "category": "application",
+      "sha256": "a4ff4c60971b411c5a17c3ee0cd47264ac4b1e3f1461c95829d70c61dc2f2193"
     },
     {
       "path": "src/components/TripConversation.tsx",
@@ -1854,9 +4560,9 @@
     },
     {
       "path": "src/components/VideoCredit.tsx",
-      "bytes": 333,
+      "bytes": 377,
       "category": "application",
-      "sha256": "437603be4262c93476351db90b670334f1c24ea7ecfd1bb50289c72ebdcdb310"
+      "sha256": "1b9fb22337608bad7720205191fc9b2d73fc75c793488454bf016e91c7a941a1"
     },
     {
       "path": "src/components/WhatsAppLink.tsx",
@@ -1890,9 +4596,9 @@
     },
     {
       "path": "src/data/destination-videos.json",
-      "bytes": 39721,
+      "bytes": 46643,
       "category": "application",
-      "sha256": "7f25703ab22f1220134c261dd902b7fb713264b7a330ebbe850790090ed985af"
+      "sha256": "a98559f2d5e6b1bbb4ac87610b722d390affec83c2d12aa899411deba13ce942"
     },
     {
       "path": "src/data/google-business.ts",
@@ -1901,22 +4607,52 @@
       "sha256": "95633b92777108c6effc51fda3a36cea0787c2ece273f248cdb163b32e57e0c3"
     },
     {
+      "path": "src/data/hero-routes.json",
+      "bytes": 2098,
+      "category": "application",
+      "sha256": "d6b4da7beda00a017e5798702b2b2c9a79fbd668cee9a2063c5ac5e66c037f64"
+    },
+    {
+      "path": "src/data/image-focus.json",
+      "bytes": 245,
+      "category": "application",
+      "sha256": "62b77b52d1a1d6891c18298430e27c34bf67f1ccfde887a4f8207e5e7424fd65"
+    },
+    {
       "path": "src/data/imported-tours.json",
       "bytes": 273938,
       "category": "application",
       "sha256": "1f900cb68e8d541a4bf82182b6f14939fe23395faf616612886dd376fbfc51bb"
     },
     {
-      "path": "src/data/site.ts",
-      "bytes": 5652,
+      "path": "src/data/premium-film-sources.json",
+      "bytes": 46643,
       "category": "application",
-      "sha256": "edad53dfe4a6092be44c446383cb271e24ccd040996d928065d1f0cefba40dc8"
+      "sha256": "a98559f2d5e6b1bbb4ac87610b722d390affec83c2d12aa899411deba13ce942"
+    },
+    {
+      "path": "src/data/priority-photos.json",
+      "bytes": 424,
+      "category": "application",
+      "sha256": "8ebb9fcfca2a90ba9c92494dc3c5a9cd97a88eede9e005a52b2fc7f7dfcec59d"
+    },
+    {
+      "path": "src/data/responsive-images.json",
+      "bytes": 10142,
+      "category": "application",
+      "sha256": "2ab8d70fcf105c6be4639065893ce5b5a23dbbdc084a4e80553442f231a63d7a"
+    },
+    {
+      "path": "src/data/site.ts",
+      "bytes": 5923,
+      "category": "application",
+      "sha256": "340500a8550eb22fad541a2e892a19be0accee0a77cc8fa7c082dd854fffad0b"
     },
     {
       "path": "src/data/tour-photos.json",
-      "bytes": 8622,
+      "bytes": 31128,
       "category": "application",
-      "sha256": "72bc0ed8ab127318d7fb3227a3e2e0cf36d93b9bfe9afd4a583650ad80df256b"
+      "sha256": "e7106d8f7e8df1c558811ece4485532e68bf0fcd25295faafba6f8d869854dd7"
     },
     {
       "path": "src/data/tours.json",
@@ -1938,15 +4674,27 @@
     },
     {
       "path": "src/lib/destination-videos.ts",
-      "bytes": 362,
+      "bytes": 959,
       "category": "application",
-      "sha256": "f1c0fbd7f19e1ecb6147619624ee63673c1abe070f011da142baa12d72a7892b"
+      "sha256": "32b4469f855799eb3081d02837323b387225a7a96fbae400a23765c47104156a"
     },
     {
       "path": "src/lib/discovery.ts",
       "bytes": 727,
       "category": "application",
       "sha256": "75855397106af637a4a693029f0755d8e457e83d759f7901234a3cc35d213645"
+    },
+    {
+      "path": "src/lib/image-loader.ts",
+      "bytes": 535,
+      "category": "application",
+      "sha256": "7f08a839f549c5807592b3f3b60495be7eaa3f955ed024e1c04a83ee918142d0"
+    },
+    {
+      "path": "src/lib/media-policy.ts",
+      "bytes": 1146,
+      "category": "application",
+      "sha256": "a706fddd8af72128f95609f822fbcf7ed62bb8219e3fa21a2e8f2afc8925876b"
     },
     {
       "path": "src/lib/package-catalogue.ts",
@@ -2013,6 +4761,12 @@
       "bytes": 1209,
       "category": "supporting",
       "sha256": "09f145ea8e1ccf3632987ade74f2d0716ac5e0f04b7a4983a390557f0b2c2acf"
+    },
+    {
+      "path": "tests/media-policy.test.mjs",
+      "bytes": 1344,
+      "category": "supporting",
+      "sha256": "f96e59051b33dd40b113722842288caf2fc4a9b6fa7819f3462d07b884670fd0"
     },
     {
       "path": "tests/package-catalogue.test.mjs",

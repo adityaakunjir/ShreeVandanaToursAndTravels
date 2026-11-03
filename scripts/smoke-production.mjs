@@ -66,8 +66,13 @@ try {
       signal: AbortSignal.timeout(10000),
       redirect: 'manual',
     });
-    assert.equal(response.status, status, `${path} should return ${status}`);
-    return response.text();
+    const html = await response.text();
+    if (status === 404 && response.status === 200) {
+      // A loading boundary may flush the shell before Next resolves notFound.
+      assert.match(html, /NEXT_HTTP_ERROR_FALLBACK;404/);
+      assert.match(html, /name="robots" content="noindex/);
+    } else assert.equal(response.status, status, `${path} should return ${status}`);
+    return html;
   }
   const publicRoutes = [
     '/',
@@ -92,8 +97,10 @@ try {
     `http://127.0.0.1:${port}/enquire?destination=Dubai`,
     { redirect: 'manual' },
   );
-  assert.equal(enquiry.status, 307);
-  const whatsapp = new URL(enquiry.headers.get('location'));
+  assert.ok([200, 307].includes(enquiry.status));
+  const enquiryHtml = enquiry.status === 200 ? await enquiry.text() : '';
+  const streamedRedirect = enquiryHtml.match(/<meta id="__next-page-redirect" http-equiv="refresh" content="1;url=([^"]+)"/);
+  const whatsapp = new URL(enquiry.headers.get('location') || streamedRedirect?.[1]?.replaceAll('&amp;', '&'));
   assert.equal(whatsapp.origin, 'https://wa.me');
   assert.equal(whatsapp.pathname, '/919665238966');
   assert.match(whatsapp.searchParams.get('text'), /Dubai/);

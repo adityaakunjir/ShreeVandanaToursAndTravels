@@ -1,5 +1,6 @@
 import client from '../../client_details/client_info.json';
 import { googleBusiness } from './google-business';
+import priorityPhotos from './priority-photos.json';
 
 export const business = {
   ...client,
@@ -23,7 +24,7 @@ export const destinations = [
     name: 'Dubai',
     slug: 'dubai',
     country: 'United Arab Emirates',
-    image: 'tours/dubai-abu-dhabi.webp',
+    image: priorityPhotos['dubai-abu-dhabi'].replace('/assets/images/', ''),
     tourSlug: 'dubai-abu-dhabi',
     tag: 'City & adventure',
     description:
@@ -33,7 +34,7 @@ export const destinations = [
     name: 'Nepal',
     slug: 'nepal',
     country: 'Nepal',
-    image: 'tours/nepal.webp',
+    image: priorityPhotos['nepal'].replace('/assets/images/', ''),
     tourSlug: 'nepal',
     tag: 'Mountains & discovery',
     description:
@@ -43,7 +44,7 @@ export const destinations = [
     name: 'Kerala',
     slug: 'kerala',
     country: 'India',
-    image: 'tours/kerala-kanyakumari.webp',
+    image: priorityPhotos['kerala-kanyakumari'].replace('/assets/images/', ''),
     tourSlug: 'kerala-kanyakumari',
     tag: 'Nature & relaxation',
     description:
@@ -53,7 +54,10 @@ export const destinations = [
     name: 'Kashmir',
     slug: 'kashmir',
     country: 'India',
-    image: 'tours/kashmir-amritsar-vaishno-devi.webp',
+    image: priorityPhotos['kashmir-amritsar-vaishno-devi'].replace(
+      '/assets/images/',
+      '',
+    ),
     tourSlug: 'kashmir-amritsar-vaishno-devi',
     tag: 'Mountains & discovery',
     description:
@@ -63,7 +67,10 @@ export const destinations = [
     name: 'Sikkim–Darjeeling',
     slug: 'sikkim-darjeeling',
     country: 'India',
-    image: 'tours/darjeeling-gangtok-pelling.webp',
+    image: priorityPhotos['darjeeling-gangtok-pelling'].replace(
+      '/assets/images/',
+      '',
+    ),
     tourSlug: 'darjeeling-gangtok-pelling',
     tag: 'Mountains & discovery',
     description:

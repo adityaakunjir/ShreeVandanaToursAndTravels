@@ -1,6 +1,6 @@
 import WhatsAppLink from '@/components/WhatsAppLink';
 import type { Metadata } from 'next';
-import Image from 'next/image';
+import Image from '@/components/TravelImage';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Check, ArrowUpRight } from 'lucide-react';

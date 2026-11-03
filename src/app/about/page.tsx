@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
+import Image from '@/components/TravelImage';
 import { PageIntro, JourneyCTA } from '@/components/PageIntro';
 import { HeartHandshake, Users, Compass } from 'lucide-react';
 import Link from 'next/link';
 import { business } from '@/data/site';
+import photos from '@/data/tour-photos.json';
 export const metadata: Metadata = {
   title: 'Our family story',
   description:
@@ -23,7 +24,7 @@ export default function AboutPage() {
       <section className="section wrap story-grid">
         <div className="story-photo">
           <Image
-            src="/assets/images/tours/royal-bhutan.webp"
+            src={photos.find((p) => p.slug === 'royal-bhutan')!.src}
             fill
             sizes="(max-width:900px) calc(100vw - 40px), 550px"
             alt="Destination inspiration: the mountain landscape around Paro, Bhutan"

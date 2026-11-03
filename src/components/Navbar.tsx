@@ -7,6 +7,8 @@ import { Menu, X, ArrowUpRight, Phone } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { business } from '@/data/site';
+import heroRoutes from '@/data/hero-routes.json';
+import NavigationHint from '@/components/NavigationHint';
 const links = [
   ['Home', '/'],
   ['Our tours', '/tours'],
@@ -22,10 +24,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const toggle = useRef<HTMLButtonElement>(null);
   const panel = useRef<HTMLElement>(null);
-  const isHero =
-    pathname === '/' ||
-    pathname.startsWith('/tours/') ||
-    pathname.startsWith('/destinations/');
+  const isHero = heroRoutes.includes(pathname);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -98,10 +97,7 @@ export default function Navbar() {
         className={`site-header liquid-glass-nav ${scrolled ? 'is-scrolled' : ''} ${isHero ? 'is-hero' : ''}`}
       >
         <div className="wrap nav-wrap">
-          <Link
-            href="/"
-            className="brand"
-          >
+          <Link href="/" className="brand">
             <div className="brand-badge">
               <Image
                 src="/assets/images/brand-mark.webp"
@@ -134,6 +130,7 @@ export default function Navbar() {
                 onClick={() => setOpen(false)}
               >
                 {name}
+                <NavigationHint />
               </Link>
             ))}
             <WhatsAppLink

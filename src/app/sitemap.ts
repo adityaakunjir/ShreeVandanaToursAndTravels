@@ -1,5 +1,5 @@
 import { siteUrl } from '@/lib/site-url';
-import tours from '@/data/catalogue';
+import tours, { tourPhoto } from '@/data/catalogue';
 import type { MetadataRoute } from 'next';
 import { destinations } from '@/data/site';
 import { destinationHubs } from '@/data/destination-hubs';
@@ -21,8 +21,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/contact',
     '/faq',
     '/travel-information',
-  ].map((path) => ({
-    url: new URL(path, base).href,
-    priority: path === '/' ? 1 : 0.7,
-  }));
+  ].map((path) => {
+    const tour = tours.find((t) => path === `/tours/${t.slug}`);
+    const photo = tour ? tourPhoto(tour) : undefined;
+    return {
+      url: new URL(path, base).href,
+      priority: path === '/' ? 1 : 0.7,
+      ...(photo
+        ? {
+            images: [new URL(photo.src, base).href],
+            lastModified: new Date('2026-11-03T00:00:00Z'),
+          }
+        : {}),
+    };
+  });
 }

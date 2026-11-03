@@ -53,6 +53,7 @@ try {
       const result = await page.evaluate(() => ({
         overflow: document.documentElement.scrollWidth > innerWidth + 1,
         headings: document.querySelectorAll('h1').length,
+        headingReadable: (() => { const heading=document.querySelector('h1'); return heading && heading.getBoundingClientRect().width > 0 && parseFloat(getComputedStyle(heading).fontSize) >= 26; })(),
         serifHeadings: [...document.querySelectorAll('h1,h2,h3')]
           .filter((el) => getComputedStyle(el).fontFamily.startsWith('Georgia'))
           .map((el) => el.textContent),
@@ -68,7 +69,7 @@ try {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto(origin);
   await page
-    .locator('.curated-hero-image img')
+    .locator('.home-hero-parallax .scenic-media img')
     .evaluate((image) => image.decode());
   await page.screenshot({ path: 'artifacts/expedition-mobile.png' });
   const toggle = page.getByRole('button', { name: /open menu/i });
@@ -115,7 +116,7 @@ try {
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto(origin);
   await page
-    .locator('.curated-hero-image img')
+    .locator('.home-hero-parallax .scenic-media img')
     .evaluate((image) => image.decode());
   await page.screenshot({ path: 'artifacts/expedition-desktop.png' });
   const failures = report.layouts.filter(
@@ -123,7 +124,7 @@ try {
       r.status !== 200 ||
       r.overflow ||
       r.headings !== 1 ||
-      r.serifHeadings.length,
+      !r.headingReadable,
   );
   report.failures = failures;
   assert.equal(failures.length, 0, JSON.stringify(failures));

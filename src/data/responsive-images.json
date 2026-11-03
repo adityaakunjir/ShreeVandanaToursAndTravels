@@ -1,0 +1,582 @@
+{
+  "/assets/images/tours/bali-indonesia-7-days-premium-v2.webp": {
+    "hash": "a934ef8c6a9495",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/leh-ladakh-8-days-premium-v2.webp": {
+    "hash": "70715754da7531",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/char-dham-yatra-13-days-premium-v2.webp": {
+    "hash": "e6351480e5b19c",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920
+    ]
+  },
+  "/assets/images/tours/andaman-with-baratang-island-7-days-premium-v2.webp": {
+    "hash": "fd0d662c737110",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/mauritius-honeymoon-package-6-days-premium-v2.webp": {
+    "hash": "019310da10be8c",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/japan-8-days-premium-v2.webp": {
+    "hash": "185b6dc6c34eec",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/kashi-gaya-prayag-ayodhya-premium-v2.webp": {
+    "hash": "d5f20748db3e17",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2228
+    ]
+  },
+  "/assets/images/tours/shimla-kullu-manali-premium-v2.webp": {
+    "hash": "3bf72b0647c20b",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2048
+    ]
+  },
+  "/assets/images/tours/darjeeling-gangtok-pelling-premium-v2.webp": {
+    "hash": "834170d3a443fe",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/kashmir-amritsar-vaishno-devi-premium-v2.webp": {
+    "hash": "a91f54df62206e",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/pithapur-kuravpur-premium-v2.webp": {
+    "hash": "0861964873fc07",
+    "widths": [
+      384,
+      640,
+      960,
+      1280
+    ]
+  },
+  "/assets/images/tours/dubai-abu-dhabi-premium-v2.webp": {
+    "hash": "deb070f10fd017",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/nepal-premium-v2.webp": {
+    "hash": "1b77328130eb31",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/sri-lanka-premium-v2.webp": {
+    "hash": "75c6b309407aa8",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2048
+    ]
+  },
+  "/assets/images/tours/kerala-kanyakumari-premium-v2.webp": {
+    "hash": "48c955c262b13e",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/royal-bhutan-premium-v2.webp": {
+    "hash": "f0bee1df8ff9d6",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/egypt-hurghada-premium-v2.webp": {
+    "hash": "0bc032b1c0b09a",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/goa-5-days-premium-v2.webp": {
+    "hash": "404dbefb1797b8",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/gujarat-8-days-premium-v2.webp": {
+    "hash": "3f1e8ff15c5007",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/lakshadweep-6-days-premium-v2.webp": {
+    "hash": "7c54297507387f",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/kodaikanal-ooty-6-days-premium-v2.webp": {
+    "hash": "b7ffd9b5aafc93",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/russia-7-days-premium-v2.webp": {
+    "hash": "7986c132ee0332",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1808
+    ]
+  },
+  "/assets/images/tours/thailand-malaysia-singapore-8-days-premium-v2.webp": {
+    "hash": "bca95ab92c06a7",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/baku-azerbaijan-5-days-premium-v2.webp": {
+    "hash": "e1ed9e98ddfb7d",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/south-africa-8-days-premium-v2.webp": {
+    "hash": "743f9615796906",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/vietnam-7-days-premium-v2.webp": {
+    "hash": "45e09eacf7f5aa",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2340
+    ]
+  },
+  "/assets/images/tours/singapore-malaysia-6-days-premium-v2.webp": {
+    "hash": "a9ee084a40be78",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/exotic-thailand-6-days-premium-v2.webp": {
+    "hash": "f33e9f83282652",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/hampi-badami-vijayapura-6-days-premium-v2.webp": {
+    "hash": "e8e69369bcd601",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/bangalore-mysore-coorg-7-days-premium-v2.webp": {
+    "hash": "428675be1a2e6b",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/coastal-karnataka-8-days-premium-v2.webp": {
+    "hash": "3c702014c3236b",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920
+    ]
+  },
+  "/assets/images/tours/dharamshala-dalhousie-amritsar-7-days-premium-v2.webp": {
+    "hash": "b83313784e4836",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/full-rajasthan-12-days-premium-v2.webp": {
+    "hash": "171926f4fb5a18",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/hyderabad-srisailam-5-days-premium-v2.webp": {
+    "hash": "bd7203abc4d001",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/indore-ujjain-omkareshwar-5-days-premium-v2.webp": {
+    "hash": "d80969dc3b1406",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920
+    ]
+  },
+  "/assets/images/tours/kashmir-7-days-premium-v2.webp": {
+    "hash": "fe53db654f9004",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/kerala-6-days-premium-v2.webp": {
+    "hash": "48c955c262b13e",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/kerala-with-kanyakumari-rameswaram-madurai-10-days-premium-v2.webp": {
+    "hash": "6d4a94e5b72b19",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/leh-ladakh-with-kargil-drass-turtuk-10-days-premium-v2.webp": {
+    "hash": "ee900848f743c9",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1707
+    ]
+  },
+  "/assets/images/tours/manali-amritsar-6-days-premium-v2.webp": {
+    "hash": "694a8443847292",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/mini-rajasthan-7-days-premium-v2.webp": {
+    "hash": "ce4319e577f094",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/nainital-kausani-jim-corbett-8-days-premium-v2.webp": {
+    "hash": "a39a3180cad890",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/odisha-7-days-premium-v2.webp": {
+    "hash": "734c7f6e40d634",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/odisha-with-gangasagar-10-days-premium-v2.webp": {
+    "hash": "ef788bd415c0e6",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/spiti-valley-8-days-premium-v2.webp": {
+    "hash": "b153710980d87b",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/tamil-nadu-8-days-premium-v2.webp": {
+    "hash": "911812cea309df",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/images/tours/three-sisters-of-northeast-india-10-days-premium-v2.webp": {
+    "hash": "d93170f976cef0",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1707
+    ]
+  },
+  "/assets/images/tours/unseen-kerala-with-wayanad-6-days-premium-v2.webp": {
+    "hash": "665f0946d41ace",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ]
+  },
+  "/assets/videos/nepal-cinema-v2-poster.webp": {
+    "hash": "2e39ec76c6dcc0",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920
+    ]
+  },
+  "/assets/videos/dubai-cinema-v2-poster.webp": {
+    "hash": "5994dcf9e8aadc",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920
+    ]
+  },
+  "/assets/videos/kerala-cinema-v2-poster.webp": {
+    "hash": "1a4136ac3dd88a",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920
+    ]
+  },
+  "/assets/videos/kashmir-cinema-v2-poster.webp": {
+    "hash": "ad7f10eefcca9b",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920
+    ]
+  },
+  "/assets/videos/sikkim-cinema-v2-poster.webp": {
+    "hash": "a370c7d8501d87",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920
+    ]
+  },
+  "/assets/videos/home-cinema-v2-poster.webp": {
+    "hash": "c872a2a3070458",
+    "widths": [
+      384,
+      640,
+      960,
+      1280,
+      1920
+    ]
+  }
+}

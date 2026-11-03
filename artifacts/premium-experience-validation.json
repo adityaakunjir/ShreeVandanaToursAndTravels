@@ -1,0 +1,177 @@
+{
+  "checkedAt": "2026-11-03T08:02:18.409Z",
+  "checks": [
+    "Automatic portrait-HD playback without a Play scenery button; footer motion preference pauses across scrolling",
+    "Destination shuffle changes the film, discovery link and contextual WhatsApp enquiry",
+    "All five destination films decode the eighth scene at 37.5s; canonical and structured data present",
+    "Fast desktop plays full-HD; source framing differs from portrait mobile",
+    "save-data: explicit browser preference retains the photograph",
+    "slow-4g: lighter video starts automatically without a play button",
+    "low-end: lighter video starts automatically without a play button",
+    "reduced-motion: explicit browser preference retains the photograph",
+    "28 responsive layouts; one H1 each; contextual WhatsApp; no-JS and video-failure photo fallbacks; no page errors",
+    "Scene-level licences and edited CC downloads; image sitemap entries served"
+  ],
+  "layouts": [
+    {
+      "route": "/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/tours",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/destinations",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/tours/bali-indonesia-7-days",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/tours/nepal",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/destinations/sikkim-darjeeling",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/gallery",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/tours",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/destinations",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/tours/bali-indonesia-7-days",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/tours/nepal",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/destinations/sikkim-darjeeling",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/gallery",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/tours",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/destinations",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/tours/bali-indonesia-7-days",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/tours/nepal",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/destinations/sikkim-darjeeling",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/gallery",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/tours",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/destinations",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/tours/bali-indonesia-7-days",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/tours/nepal",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/destinations/sikkim-darjeeling",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/gallery",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "network": [
+    {
+      "profile": "128kbps,250ms latency,6x CPU slowdown,2 cores/2GB",
+      "elapsedMs": 23039,
+      "lcpMs": 5316,
+      "heroUrl": "http://localhost:3005/assets/responsive/c872a2a3070458-384.webp",
+      "video": null,
+      "overflow": false,
+      "paint": [
+        {
+          "name": "first-paint",
+          "ms": 4968
+        },
+        {
+          "name": "first-contentful-paint",
+          "ms": 4968
+        }
+      ]
+    }
+  ]
+}

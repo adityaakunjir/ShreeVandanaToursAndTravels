@@ -20,7 +20,7 @@ export async function generateMetadata({
   const filters = realTourFilters(params, tours);
   return {
     title: 'Domestic & international tours from Pune',
-    description: `Explore ${tours.length} company-supplied tour outlines and route variants across India and the world. Find your travel mood, read the itinerary and ask for a personalised quote.`,
+    description: `Explore ${tours.length} domestic and international itineraries from Pune. Discover your destination, compare routes and ask Shree Vandana Travels for a personalised quote.`,
     alternates: { canonical: '/tours' },
     robots:
       Object.values(filters).some(Boolean) || Boolean(params.page)

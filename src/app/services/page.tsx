@@ -1,6 +1,6 @@
 import WhatsAppLink from '@/components/WhatsAppLink';
 import type { Metadata } from 'next';
-import Image from 'next/image';
+import Image from '@/components/TravelImage';
 import Link from 'next/link';
 import photos from '@/data/tour-photos.json';
 import {

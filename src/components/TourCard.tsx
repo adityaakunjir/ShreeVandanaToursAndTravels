@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from '@/components/TravelImage';
 import { tourPhoto, tourEnquiryContext } from '@/data/catalogue';
 import JournalCover from './JournalCover';
 import { ArrowUpRight, Clock } from 'lucide-react';
@@ -14,11 +14,15 @@ export default function TourCard({
   index: number;
 }) {
   const photo = tourPhoto(tour);
+  const synopsis = /source itinerary/i.test(tour.summary)
+    ? tour.stops.slice(0, 3).join(' · ')
+    : tour.summary;
   return (
-    <article className="brochure-tour-card">
+    <article className="brochure-tour-card" data-order={index + 1}>
       {photo && (
         <Link
           className="tour-card-photo"
+          prefetch={false}
           href={`/tours/${tour.slug}`}
           aria-label={`Explore ${tour.name}`}
         >
@@ -40,25 +44,18 @@ export default function TourCard({
         <Link
           className="tour-card-credit"
           href={`/photo-credits#${photo.slug}`}
+          aria-label={`Photo credits: ${photo.author}`}
         >
-          Photo: {photo.author}
+          Photo credits
         </Link>
       )}
-      <div className="brochure-card-top">
-        <span>JOURNEY {String(index + 1).padStart(2, '0')}</span>
-        <span>{tour.region}</span>
-      </div>
-      <p className="eyebrow">{tour.theme}</p>
-      {tour.relatedSlugs.length > 0 && (
-        <span className="variant-label">
-          {tour.duration}-day route option ·{' '}
-          {tour.source.order ? 'Newer itinerary' : 'Earlier outline'}
-        </span>
-      )}
+      <p className="eyebrow">
+        {tour.country} · {tour.theme}
+      </p>
       <h2>
         <Link href={`/tours/${tour.slug}`}>{tour.name}</Link>
       </h2>
-      <p>{tour.summary}</p>
+      <p className="tour-card-description">{synopsis}</p>
       <div className="brochure-duration">
         <Clock size={16} />
         {tour.duration || tour.days.length} days<span>Price on enquiry</span>

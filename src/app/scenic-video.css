@@ -425,29 +425,30 @@
 
 .parallax-hero-track {
   position: absolute;
-  inset: -18% 0 -18% 0;
-  height: 136%;
+  inset: 0;
+  height: 100%;
   width: 100%;
-  will-change: transform;
 }
 
 @supports (animation-timeline: view()) {
   @media (prefers-reduced-motion: no-preference) {
-    .parallax-hero-wrapper {
+    .parallax-hero-wrapper[data-motion='rich'] {
       view-timeline-name: --parallax-track;
       view-timeline-axis: block;
     }
-    .parallax-hero-track {
+    .parallax-hero-wrapper[data-motion='rich'] .parallax-hero-track {
+      inset: -6% 0;
+      height: 112%;
       animation: parallax-shift linear both;
       animation-timeline: --parallax-track;
       animation-range: entry 0% exit 100%;
     }
     @keyframes parallax-shift {
       from {
-        transform: translateY(-8%);
+        transform: translateY(-4%);
       }
       to {
-        transform: translateY(8%);
+        transform: translateY(4%);
       }
     }
   }
@@ -651,4 +652,108 @@
   padding-top: 0 !important;
 }
 
+/* Modest devices keep the same composition without live blur over moving pixels. */
+html[data-experience='lite'] .site-header,
+html[data-experience='lite'] .nav-inner,
+html[data-experience='lite'] .mobile-dock,
+html[data-experience='lite'] .drone-pill,
+html[data-experience='lite'] .scenic-control {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+html[data-experience='lite'] .drone-pill:not(.is-active) { background: #17222ce8; }
+.drone-pill { min-height: 44px; }
+.tour-hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 18px; margin-top: 18px; }
+.hero-itinerary-link { color: #fff; font-size: 14px; text-decoration: underline; text-underline-offset: 5px; min-height: 44px; display: inline-flex; align-items: center; }
+.home-hero-fullscreen .scenic-control,
+.tour-hero-fullscreen .scenic-control,
+.destination-detail-image .scenic-control {
+  top: 108px;
+  right: 20px;
+}
+.home-hero-content { pointer-events: none; }
+.home-hero-content a,
+.home-hero-content button { pointer-events: auto; }
+.home-hero-fullscreen .home-hero-content { padding-bottom: max(110px, env(safe-area-inset-bottom)); }
+.home-hero-fullscreen .curated-hero-copy { margin-bottom: 28px; }
+.home-hero-fullscreen .curated-hero-copy .eyebrow { font-size: 10px; letter-spacing: .15em; line-height: 1.5; }
+.home-drone-selector { max-width: 100%; margin-top: 0; }
+.drone-pill-list { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 18px; margin: 0; padding-block: 4px; }
+.drone-pill-list::-webkit-scrollbar { display: none; }
+.drone-pill, html[data-experience='lite'] .drone-pill:not(.is-active) {
+  flex: 0 0 auto; background: transparent; border: 0; border-bottom: 1px solid transparent;
+  border-radius: 0; padding: 9px 0; min-height: 44px; font-size: 12px;
+  color: #ffffffb8; box-shadow: none; backdrop-filter: none; -webkit-backdrop-filter: none;
+}
+.drone-pill.is-active { color: #fff; border-bottom-color: #fff; background: transparent; box-shadow: none; }
+.drone-pill:hover { background: transparent; color: #fff; transform: none; }
+.tour-card-description { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.brochure-tour-card { position: relative; }
+.brochure-tour-card .real-save { position: absolute; inset: 12px 12px auto auto; z-index: 3; margin: 0; }
+.brochure-tour-card .real-save button { width: 44px; height: 44px; padding: 0; border: 0; border-radius: 50%; background: #ffffffed; color: #9d2522; display: grid; place-items: center; }
+.brochure-tour-card .real-save button span { display: none; }
+.brochure-tour-card .save-status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.brochure-tour-card > .tour-card-credit { font-size: 10px; padding-block: 5px; }
+.tour-hero-caption { justify-content: flex-end; gap: 16px; border-top: 0; font-size: 10px; padding-block: 10px 18px; }
+.tour-hero-caption .video-credit { margin: 0; color: #ffffffc7; font-size: 10px; min-height: 32px; }
+.motion-preference { color: inherit; background: transparent; border: 0; font: inherit; font-size: 11px; padding: 6px; min-height: 44px; cursor: pointer; }
+html[data-motion-paused='true'] .parallax-hero-track { animation: none !important; transform: none !important; }
+.destination-shuffle { flex: 0 0 44px; height: 44px; border: 1px solid #ffffff45; border-radius: 50%; background: transparent; color: white; display: grid; place-items: center; cursor: pointer; }
+.home-drone-selector { display: flex; align-items: center; gap: 16px; }
+.home-drone-selector .drone-pill-list { flex: 1; min-width: 0; }
+.destination-shuffle:active { transform: scale(.93); }
+.destination-shuffle:focus-visible { outline: 2px solid white; outline-offset: 3px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.journey-loading { min-height: 60svh; display: grid; align-content: center; justify-items: center; gap: 16px; padding: 120px 24px 80px; color: #28343a; }
+.journey-loading p { font-size: 15px; letter-spacing: -.02em; }
+.journey-loading-mark { position: relative; width: 108px; height: 52px; display: grid; place-items: center; color: #bc2a25; }
+.journey-loading-route { position: absolute; width: 94px; height: 30px; border-top: 1px dashed #bc2a2550; border-radius: 50%; transform: rotate(-12deg); }
+body:has(.journey-loading) .site-header.liquid-glass-nav.is-hero:not(.is-scrolled) { background: #17232cf2 !important; }
+html[data-motion-paused='true'] .journey-loading-mark svg { animation: none; }
+@media (prefers-reduced-motion: no-preference) {
+  .journey-loading-mark svg { animation: little-journey 1.8s ease-in-out infinite; }
+  @keyframes little-journey { 0%,100% { transform: translate(-18px,5px) rotate(-12deg); } 50% { transform: translate(18px,-5px) rotate(2deg); } }
+}
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    body::before { content: ''; position: fixed; inset: 0 auto auto 0; width: 100%; height: 2px; z-index: 210; background: #c42b25; transform-origin: left; pointer-events: none; animation: journey-progress linear; animation-timeline: scroll(root block); }
+    @keyframes journey-progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  }
+}
+html[data-experience='lite'] .parallax-hero-track { animation: none !important; transform: none !important; }
+.tour-card-photo img { transition: transform 500ms cubic-bezier(.2,.7,.2,1); }
+@media (hover:hover) and (prefers-reduced-motion:no-preference) {
+  html[data-experience='rich'] .brochure-tour-card:hover .tour-card-photo img { transform: scale(1.035); }
+}
+@media (max-width:700px) {
+  .tour-hero-fullscreen { height: 88svh; min-height: 640px; max-height: 900px !important; }
+  .tour-hero-summary { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .tour-hero-content { padding-top: 90px; }
+}
 
+
+
+/* Keep the full navigation inside compact laptop and tablet widths. */
+@media (min-width: 901px) and (max-width: 1099px) {
+  .liquid-glass-nav .main-nav { gap: 4px; }
+  .liquid-glass-nav .main-nav > a:not(.button) {
+    padding: 8px 7px !important;
+    font-size: 11px !important;
+  }
+  .liquid-glass-nav .main-nav .nav-cta {
+    padding-inline: 12px !important;
+    font-size: 11px !important;
+    white-space: nowrap;
+  }
+}
+
+/* Explicit widths prevent aspect-ratio from shrinking gallery buttons. */
+.photo-grid .photo-tile { width: 100%; min-width: 0; }
+@media (max-width: 640px) {
+  .photo-grid .photo-tile { aspect-ratio: auto; }
+  .photo-grid .photo-tile > span { font-size: 11px; line-height: 1.35; }
+}
+
+.journey-loading { position: fixed; z-index: 250; inset: auto 16px calc(104px + env(safe-area-inset-bottom)) auto; min-height: 0; padding: 12px 20px; gap: 2px; background: #fff; border: 1px solid #e0e4e7; border-radius: 16px; box-shadow: 0 8px 28px #10202c20; pointer-events: none; }
+.journey-loading-mark { height: 40px; }
+.journey-loading p { margin: 0; font-size: 12px; }

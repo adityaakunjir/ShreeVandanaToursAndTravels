@@ -1,5 +1,5 @@
 'use client';
-import Image from 'next/image';
+import Image from '@/components/TravelImage';
 import { useEffect, useRef, useState } from 'react';
 import { X, ArrowLeft, ArrowRight, Expand } from 'lucide-react';
 import Link from 'next/link';

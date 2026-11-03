@@ -1,0 +1,242 @@
+[
+  {
+    "file": "public/assets/videos/nepal-cinema-v2-lite.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 3219628,
+    "profile": "lite",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/nepal-cinema-v2-mobile.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 10144544,
+    "profile": "mobile",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/nepal-cinema-v2-desktop.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 23519413,
+    "profile": "desktop",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/nepal-cinema-v2-balanced.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 5438391,
+    "profile": "balanced",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/dubai-cinema-v2-lite.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 2537080,
+    "profile": "lite",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/dubai-cinema-v2-mobile.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 9196005,
+    "profile": "mobile",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/dubai-cinema-v2-desktop.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 22231588,
+    "profile": "desktop",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/dubai-cinema-v2-balanced.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 4843370,
+    "profile": "balanced",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/kerala-cinema-v2-lite.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 2990247,
+    "profile": "lite",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/kerala-cinema-v2-mobile.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 10228145,
+    "profile": "mobile",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/kerala-cinema-v2-desktop.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 23503765,
+    "profile": "desktop",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/kerala-cinema-v2-balanced.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 5597994,
+    "profile": "balanced",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/kashmir-cinema-v2-lite.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 3110079,
+    "profile": "lite",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/kashmir-cinema-v2-mobile.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 10636672,
+    "profile": "mobile",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/kashmir-cinema-v2-desktop.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 23826157,
+    "profile": "desktop",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/kashmir-cinema-v2-balanced.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 5438706,
+    "profile": "balanced",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/sikkim-cinema-v2-lite.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 3632328,
+    "profile": "lite",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/sikkim-cinema-v2-mobile.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 10931052,
+    "profile": "mobile",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/sikkim-cinema-v2-desktop.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 24237661,
+    "profile": "desktop",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/sikkim-cinema-v2-balanced.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 6466978,
+    "profile": "balanced",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/home-cinema-v2-lite.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 3182254,
+    "profile": "lite",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/home-cinema-v2-mobile.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 10304506,
+    "profile": "mobile",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/home-cinema-v2-desktop.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 23630134,
+    "profile": "desktop",
+    "silent": true,
+    "fastStart": true
+  },
+  {
+    "file": "public/assets/videos/home-cinema-v2-balanced.mp4",
+    "duration": 40,
+    "frames": 1200,
+    "distinctScenes": 8,
+    "bytes": 5698844,
+    "profile": "balanced",
+    "silent": true,
+    "fastStart": true
+  }
+]

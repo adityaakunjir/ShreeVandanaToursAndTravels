@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from '@/components/TravelImage';
 import { ArrowUpRight, ArrowRight } from 'lucide-react';
 import { destinations } from '@/data/site';
 import photos from '@/data/tour-photos.json';
@@ -54,7 +54,7 @@ export default function DestinationGrid({
               {tourDuration(
                 tours.find((t) => t.slug === destination.tourSlug)!,
               )}
-              -day tour outline ·{' '}
+              -day itinerary ·{' '}
               {tours
                 .find((t) => t.slug === destination.tourSlug)!
                 .stops.slice(0, 3)

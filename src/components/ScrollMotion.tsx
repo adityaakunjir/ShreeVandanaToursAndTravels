@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
+import { mediaPolicy } from '@/lib/media-policy';
 
 const targets =
   '.section-heading, .brochure-tour-card, .travel-style-card, .world-card, .story-content, .atlas-grid > a, .why-list > *, .home-photo-triptych > *, .curated-cta, .route-preview li, .service-detail, .legacy-principles > *, .photo-tile';
@@ -20,8 +21,14 @@ export default function ScrollMotion() {
       }
     ).connection;
     if (
-      connection?.saveData ||
-      /(^|-)2g$/.test(connection?.effectiveType || '')
+      !mediaPolicy({
+        wide: innerWidth > 900,
+        reduced: preference.matches,
+        cores: navigator.hardwareConcurrency,
+        memory: (navigator as Navigator & { deviceMemory?: number })
+          .deviceMemory,
+        connection,
+      }).richMotion
     )
       return;
     const seen = new WeakSet<Element>();

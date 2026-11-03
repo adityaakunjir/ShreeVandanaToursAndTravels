@@ -1,4 +1,5 @@
 import { ArrowUpRight, Video } from 'lucide-react';
+import ReelEmbed from './ReelEmbed';
 
 const reels = [
   {
@@ -21,13 +22,7 @@ function ReelCard({ reel }: { reel: (typeof reels)[number] }) {
   return (
     <article className="reel-card">
       <div className="reel-screen">
-        <iframe
-          src={`https://www.instagram.com/reel/${reel.id}/embed/`}
-          title={`Instagram reel: ${reel.title}`}
-          loading="lazy"
-          allow="encrypted-media; fullscreen; picture-in-picture"
-          referrerPolicy="strict-origin-when-cross-origin"
-        />
+        <ReelEmbed id={reel.id} title={reel.title} />
       </div>
       <div className="reel-caption">
         <p>{reel.note}</p>

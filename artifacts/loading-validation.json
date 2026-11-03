@@ -1,0 +1,7 @@
+{
+  "realDelayedNavigation": true,
+  "disappearsAfterResponse": true,
+  "forcedMinimumDelayInProduct": false,
+  "mobileAndDesktopCaptured": true,
+  "reducedMotionRespected": true
+}
