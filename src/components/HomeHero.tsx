@@ -22,7 +22,7 @@ export type DestinationDroneOption = {
 const DRONE_DESTINATIONS: DestinationDroneOption[] = [
   {
     id: 'all',
-    name: 'Highlights',
+    name: 'All Destinations',
     label:
       'Coasts, mountain valleys and skylines across Kerala, Kashmir, Dubai, Nepal and Sikkim',
     tagline: 'Scenic drone flights across India & premier international tours',
@@ -109,13 +109,15 @@ export default function HomeHero() {
 
       <div className="wrap home-hero-content">
         <div className="curated-hero-copy">
-          <p className="eyebrow">HOLIDAYS, PERSONALLY PLANNED</p>
+          <p className="eyebrow">SHREE VANDANA / PUNE TO THE WORLD</p>
           <h1>
             Go further.
             <br />
             <em>Feel more.</em>
           </h1>
-          <p>Remarkable places. Thoughtfully planned from Pune.</p>
+          <p className="hero-description">
+            Personal holidays. Thoughtfully planned by our family-run team in Pune.
+          </p>
           <div className="hero-actions">
             <Link
               href={
@@ -123,80 +125,87 @@ export default function HomeHero() {
                   ? '/tours'
                   : `/destinations/${selected.id === 'sikkim' ? 'sikkim-darjeeling' : selected.id}`
               }
-              className="button warm"
+              className="button warm hero-primary-btn"
             >
-              {selected.id === 'all'
-                ? 'Explore tours'
-                : `Explore ${selected.name}`}{' '}
-              <ArrowUpRight size={18} />
+              <span>
+                {selected.id === 'all' ? 'Explore tours' : `Explore ${selected.name}`}
+              </span>
+              <ArrowUpRight size={17} />
             </Link>
             <WhatsAppLink
-              className="hero-chat"
+              className="button hero-whatsapp-pill"
               destination={selected.id === 'all' ? undefined : selected.name}
             >
-              WhatsApp <ArrowUpRight size={18} />
+              <span>Plan on WhatsApp</span>
+              <ArrowUpRight size={16} />
             </WhatsAppLink>
           </div>
-        </div>
 
-        {/* Destination Switcher Pills */}
-        <div
-          className="home-drone-selector"
-          aria-label="Explore places we provide trips of"
-        >
+          {/* Cleanly aligned destination switcher dock */}
           <div
-            className="drone-pill-list"
-            role="group"
-            aria-label="Choose destination scenery"
+            className="home-drone-selector"
+            aria-label="Explore places we provide trips of"
           >
-            {DRONE_DESTINATIONS.map((dest) => (
-              <button
-                key={dest.id}
-                type="button"
-                aria-pressed={selected.id === dest.id}
-                className={`drone-pill ${selected.id === dest.id ? 'is-active' : ''}`}
-                onClick={() => setSelected(dest)}
+            <div className="drone-selector-heading">
+              <span>DRONE FOOTAGE · OUR DESTINATIONS</span>
+            </div>
+            <div className="drone-pill-row">
+              <div
+                className="drone-pill-list"
+                role="group"
+                aria-label="Choose destination scenery"
               >
-                {dest.name}
+                {DRONE_DESTINATIONS.map((dest) => (
+                  <button
+                    key={dest.id}
+                    type="button"
+                    aria-pressed={selected.id === dest.id}
+                    className={`drone-pill ${selected.id === dest.id ? 'is-active' : ''}`}
+                    onClick={() => setSelected(dest)}
+                  >
+                    {dest.name}
+                  </button>
+                ))}
+              </div>
+              <button
+                type="button"
+                className="destination-shuffle"
+                aria-label="Surprise me with a destination"
+                title="Surprise me"
+                onClick={() => {
+                  const choices = DRONE_DESTINATIONS.filter(
+                    (d) => d.id !== 'all' && d.id !== selected.id,
+                  );
+                  setSelected(choices[Math.floor(Math.random() * choices.length)]);
+                }}
+              >
+                <Shuffle size={15} aria-hidden="true" />
               </button>
-            ))}
+            </div>
+            <div className="drone-active-tagline">
+              <span className="drone-pin" aria-hidden="true">📍</span>
+              <span>{selected.tagline}</span>
+            </div>
           </div>
-          <button
-            type="button"
-            className="destination-shuffle"
-            aria-label="Surprise me with a destination"
-            title="Surprise me"
-            onClick={() => {
-              const choices = DRONE_DESTINATIONS.filter(
-                (d) => d.id !== 'all' && d.id !== selected.id,
-              );
-              setSelected(choices[Math.floor(Math.random() * choices.length)]);
-            }}
-          >
-            <Shuffle size={17} aria-hidden="true" />
-          </button>
-          <span className="visually-hidden" role="status">
-            {selected.id === 'all'
-              ? 'Journey highlights'
-              : `Next stop: ${selected.name}`}
-          </span>
         </div>
-      </div>
 
-      <div className="wrap tour-hero-caption home-hero-caption">
-        <Link
-          href={`/photo-credits#${selected.photoSlug}`}
-          aria-label={`Photo credits: ${selected.name}`}
-        >
-          Photo credits
-        </Link>
-        <Link
-          className="video-credit"
-          href={selected.photoCreditLink}
-          aria-label={`Video credits and licences: ${selected.label}`}
-        >
-          Video credits
-        </Link>
+        {/* Bottom credits */}
+        <div className="home-hero-caption">
+          <Link
+            href={`/photo-credits#${selected.photoSlug}`}
+            aria-label={`Photo credits: ${selected.name}`}
+          >
+            Photo credits
+          </Link>
+          <span className="credit-sep" aria-hidden="true">·</span>
+          <Link
+            className="video-credit"
+            href={selected.photoCreditLink}
+            aria-label={`Video credits and licences: ${selected.label}`}
+          >
+            Video credits
+          </Link>
+        </div>
       </div>
     </section>
   );
