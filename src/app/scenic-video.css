@@ -464,7 +464,7 @@
 }
 
 /* ============================================================
-   Modern Floating Glass Capsule Navbar System (2026 Modern UI)
+   Modern Liquid Glass Capsule Navbar System (2026 UI)
    ============================================================ */
 
 /* Global fixed header container (transparent pass-through) */
@@ -495,7 +495,7 @@
   padding: 10px 24px 0 !important;
 }
 
-/* Floating capsule / Island dock */
+/* Floating capsule / Island dock base layout */
 .modern-glass-header .nav-capsule,
 .liquid-glass-nav .nav-capsule,
 .liquid-glass-nav .nav-wrap {
@@ -508,33 +508,169 @@
   justify-content: space-between !important;
   padding: 6px 10px 6px 18px !important;
   border-radius: 9999px !important;
-  background: rgba(14, 22, 30, 0.68) !important;
-  backdrop-filter: blur(24px) saturate(190%) contrast(102%) !important;
-  -webkit-backdrop-filter: blur(24px) saturate(190%) contrast(102%) !important;
-  border: 1px solid rgba(255, 255, 255, 0.15) !important;
-  box-shadow:
-    0 16px 36px -8px rgba(0, 0, 0, 0.45),
-    0 2px 10px rgba(0, 0, 0, 0.2),
-    inset 0 1px 0 rgba(255, 255, 255, 0.22) !important;
   transition:
-    background-color 260ms cubic-bezier(0.16, 1, 0.3, 1),
-    border-color 260ms cubic-bezier(0.16, 1, 0.3, 1),
+    background 260ms cubic-bezier(0.16, 1, 0.3, 1),
+    border 260ms cubic-bezier(0.16, 1, 0.3, 1),
     box-shadow 260ms cubic-bezier(0.16, 1, 0.3, 1),
-    transform 260ms cubic-bezier(0.16, 1, 0.3, 1) !important;
+    backdrop-filter 260ms cubic-bezier(0.16, 1, 0.3, 1),
+    padding 260ms cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
-/* Scrolled or non-hero page state: refined deep obsidian glass */
+/* ------------------------------------------------------------
+   STATE 1: Top of Hero / Fullscreen Video (Pure blended & invisible)
+   ------------------------------------------------------------ */
+.site-header.modern-glass-header.is-hero:not(.is-scrolled) .nav-capsule,
+.site-header.liquid-glass-nav.is-hero:not(.is-scrolled) .nav-capsule,
+.site-header.liquid-glass-nav.is-hero:not(.is-scrolled) .nav-wrap {
+  background: transparent !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border: 1px solid transparent !important;
+  box-shadow: none !important;
+  padding: 6px 12px !important;
+}
+
+/* Hero Typography & Elements */
+.site-header.modern-glass-header.is-hero:not(.is-scrolled) .brand-title,
+.site-header.liquid-glass-nav.is-hero:not(.is-scrolled) .brand strong {
+  color: #ffffff !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.75) !important;
+}
+
+.site-header.modern-glass-header.is-hero:not(.is-scrolled) .brand-subtitle,
+.site-header.liquid-glass-nav.is-hero:not(.is-scrolled) .brand small {
+  color: rgba(255, 255, 255, 0.82) !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6) !important;
+}
+
+.site-header.modern-glass-header.is-hero:not(.is-scrolled) .brand-logo-wrap,
+.site-header.liquid-glass-nav.is-hero:not(.is-scrolled) .brand-badge {
+  background: rgba(255, 255, 255, 0.14) !important;
+  border: 1px solid rgba(255, 255, 255, 0.28) !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+.site-header.modern-glass-header.is-hero:not(.is-scrolled) .main-nav > a:not(.button),
+.site-header.modern-glass-header.is-hero:not(.is-scrolled) .nav-link,
+.site-header.liquid-glass-nav.is-hero:not(.is-scrolled) .main-nav > a:not(.button) {
+  color: rgba(255, 255, 255, 0.9) !important;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7) !important;
+}
+
+.site-header.modern-glass-header.is-hero:not(.is-scrolled) .main-nav > a:not(.button):hover,
+.site-header.modern-glass-header.is-hero:not(.is-scrolled) .nav-link:hover,
+.site-header.liquid-glass-nav.is-hero:not(.is-scrolled) .main-nav > a:not(.button):hover {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.16) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}
+
+.site-header.modern-glass-header.is-hero:not(.is-scrolled) .main-nav a[aria-current='page'],
+.site-header.modern-glass-header.is-hero:not(.is-scrolled) .nav-link[aria-current='page'],
+.site-header.liquid-glass-nav.is-hero:not(.is-scrolled) .main-nav a[aria-current='page'] {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  border: 1px solid rgba(255, 255, 255, 0.32) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.35) !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+.site-header.modern-glass-header.is-hero:not(.is-scrolled) .menu-toggle,
+.site-header.liquid-glass-nav.is-hero:not(.is-scrolled) .menu-toggle {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid rgba(255, 255, 255, 0.26) !important;
+  color: #ffffff !important;
+}
+
+/* ------------------------------------------------------------
+   STATE 2: Scrolled OR Interior Non-Hero Page (Luminous Frosted Liquid Glass)
+   ------------------------------------------------------------ */
 .site-header.modern-glass-header.is-scrolled .nav-capsule,
 .site-header.liquid-glass-nav.is-scrolled .nav-capsule,
 .site-header.modern-glass-header:not(.is-hero) .nav-capsule,
 .site-header.liquid-glass-nav:not(.is-hero) .nav-capsule {
-  background: rgba(11, 18, 25, 0.88) !important;
-  border-color: rgba(255, 255, 255, 0.2) !important;
+  background: rgba(255, 255, 255, 0.85) !important;
+  backdrop-filter: blur(24px) saturate(190%) contrast(102%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(190%) contrast(102%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.9) !important;
   box-shadow:
-    0 20px 42px -10px rgba(0, 0, 0, 0.6),
-    0 4px 14px rgba(0, 0, 0, 0.25),
-    inset 0 1px 0 rgba(255, 255, 255, 0.28) !important;
+    0 16px 36px -6px rgba(48, 41, 37, 0.12),
+    0 3px 10px rgba(48, 41, 37, 0.05),
+    inset 0 1px 0 #ffffff !important;
 }
+
+.site-header.modern-glass-header.is-scrolled .brand-title,
+.site-header.modern-glass-header:not(.is-hero) .brand-title,
+.site-header.liquid-glass-nav.is-scrolled .brand strong,
+.site-header.liquid-glass-nav:not(.is-hero) .brand strong {
+  color: #201a16 !important;
+  text-shadow: none !important;
+}
+
+.site-header.modern-glass-header.is-scrolled .brand-subtitle,
+.site-header.modern-glass-header:not(.is-hero) .brand-subtitle,
+.site-header.liquid-glass-nav.is-scrolled .brand small,
+.site-header.liquid-glass-nav:not(.is-hero) .brand small {
+  color: #766961 !important;
+  text-shadow: none !important;
+}
+
+.site-header.modern-glass-header.is-scrolled .brand-logo-wrap,
+.site-header.modern-glass-header:not(.is-hero) .brand-logo-wrap,
+.site-header.liquid-glass-nav.is-scrolled .brand-badge,
+.site-header.liquid-glass-nav:not(.is-hero) .brand-badge {
+  background: #ffffff !important;
+  border: 1px solid rgba(48, 41, 37, 0.1) !important;
+  box-shadow: 0 2px 8px rgba(48, 41, 37, 0.08) !important;
+}
+
+.site-header.modern-glass-header.is-scrolled .main-nav > a:not(.button),
+.site-header.modern-glass-header.is-scrolled .nav-link,
+.site-header.modern-glass-header:not(.is-hero) .main-nav > a:not(.button),
+.site-header.modern-glass-header:not(.is-hero) .nav-link,
+.site-header.liquid-glass-nav.is-scrolled .main-nav > a:not(.button),
+.site-header.liquid-glass-nav:not(.is-hero) .main-nav > a:not(.button) {
+  color: #322a24 !important;
+  text-shadow: none !important;
+}
+
+.site-header.modern-glass-header.is-scrolled .main-nav > a:not(.button):hover,
+.site-header.modern-glass-header.is-scrolled .nav-link:hover,
+.site-header.modern-glass-header:not(.is-hero) .main-nav > a:not(.button):hover,
+.site-header.modern-glass-header:not(.is-hero) .nav-link:hover,
+.site-header.liquid-glass-nav.is-scrolled .main-nav > a:not(.button):hover,
+.site-header.liquid-glass-nav:not(.is-hero) .main-nav > a:not(.button):hover {
+  color: #b72d29 !important;
+  background: rgba(183, 45, 41, 0.08) !important;
+}
+
+.site-header.modern-glass-header.is-scrolled .main-nav a[aria-current='page'],
+.site-header.modern-glass-header.is-scrolled .nav-link[aria-current='page'],
+.site-header.modern-glass-header:not(.is-hero) .main-nav a[aria-current='page'],
+.site-header.modern-glass-header:not(.is-hero) .nav-link[aria-current='page'],
+.site-header.liquid-glass-nav.is-scrolled .main-nav a[aria-current='page'],
+.site-header.liquid-glass-nav:not(.is-hero) .main-nav a[aria-current='page'] {
+  color: #b72d29 !important;
+  font-weight: 600 !important;
+  background: rgba(183, 45, 41, 0.1) !important;
+  border: 1px solid rgba(183, 45, 41, 0.22) !important;
+  box-shadow: 0 1px 4px rgba(183, 45, 41, 0.08) !important;
+}
+
+.site-header.modern-glass-header.is-scrolled .menu-toggle,
+.site-header.modern-glass-header:not(.is-hero) .menu-toggle,
+.site-header.liquid-glass-nav.is-scrolled .menu-toggle,
+.site-header.liquid-glass-nav:not(.is-hero) .menu-toggle {
+  background: rgba(48, 41, 37, 0.06) !important;
+  border: 1px solid rgba(48, 41, 37, 0.12) !important;
+  color: #201a16 !important;
+  box-shadow: 0 2px 8px rgba(48, 41, 37, 0.06) !important;
+}
+
+/* ------------------------------------------------------------
+   Common Shared Elements (Brand, CTA, Mobile Panel)
+   ------------------------------------------------------------ */
 
 /* Brand Link */
 .modern-glass-header .brand,
@@ -543,11 +679,10 @@
   align-items: center !important;
   gap: 12px !important;
   text-decoration: none !important;
-  color: #ffffff !important;
   user-select: none !important;
 }
 
-/* Modern logo mark container (seamless transparent mark, no harsh white disc) */
+/* Modern logo mark container */
 .modern-glass-header .brand-logo-wrap,
 .modern-glass-header .brand-badge,
 .liquid-glass-nav .brand-logo-wrap,
@@ -558,14 +693,9 @@
   width: 38px !important;
   height: 38px !important;
   border-radius: 50% !important;
-  background: rgba(255, 255, 255, 0.12) !important;
-  border: 1px solid rgba(255, 255, 255, 0.22) !important;
-  box-shadow:
-    0 2px 8px rgba(0, 0, 0, 0.25),
-    inset 0 1px 0 rgba(255, 255, 255, 0.35) !important;
   overflow: hidden !important;
   flex-shrink: 0 !important;
-  transition: transform 220ms ease, background-color 220ms ease !important;
+  transition: transform 220ms ease, background-color 220ms ease, border-color 220ms ease !important;
 }
 
 .modern-glass-header .brand:hover .brand-logo-wrap,
@@ -573,7 +703,6 @@
 .liquid-glass-nav .brand:hover .brand-logo-wrap,
 .liquid-glass-nav .brand:hover .brand-badge {
   transform: scale(1.06) !important;
-  background: rgba(255, 255, 255, 0.18) !important;
 }
 
 .modern-glass-header .brand-logo-wrap img,
@@ -585,7 +714,7 @@
   object-fit: contain !important;
   border-radius: 0 !important;
   mix-blend-mode: normal !important;
-  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.35));
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.25));
 }
 
 /* Brand typography */
@@ -600,28 +729,26 @@
 .modern-glass-header .brand-title,
 .modern-glass-header .brand strong,
 .liquid-glass-nav .brand strong {
-  color: #ffffff !important;
   font-size: 13px !important;
   font-weight: 700 !important;
   letter-spacing: 0.08em !important;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) !important;
   margin: 0 !important;
   padding: 0 !important;
+  transition: color 260ms ease, text-shadow 260ms ease !important;
 }
 
 .modern-glass-header .brand-subtitle,
 .modern-glass-header .brand small,
 .liquid-glass-nav .brand small {
-  color: rgba(255, 255, 255, 0.72) !important;
   font-size: 8px !important;
   font-weight: 600 !important;
   letter-spacing: 0.22em !important;
   text-transform: uppercase !important;
   margin-top: 2px !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+  transition: color 260ms ease, text-shadow 260ms ease !important;
 }
 
-/* Desktop Main Navigation Links */
+/* Desktop Main Navigation Container */
 @media (min-width: 901px) {
   .modern-glass-header .main-nav,
   .liquid-glass-nav .main-nav {
@@ -641,7 +768,6 @@
 .liquid-glass-nav .main-nav > a:not(.button) {
   display: inline-flex !important;
   align-items: center !important;
-  color: rgba(255, 255, 255, 0.82) !important;
   font-size: 13px !important;
   font-weight: 500 !important;
   padding: 7px 14px !important;
@@ -649,39 +775,17 @@
   border-radius: 9999px !important;
   text-decoration: none !important;
   letter-spacing: 0.01em !important;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
   transition: all 180ms cubic-bezier(0.16, 1, 0.3, 1) !important;
   position: relative !important;
 }
 
-.modern-glass-header .main-nav > a:not(.button):hover,
-.modern-glass-header .nav-link:hover,
-.liquid-glass-nav .main-nav > a:not(.button):hover {
-  color: #ffffff !important;
-  background: rgba(255, 255, 255, 0.12) !important;
-  transform: translateY(-1px) !important;
-}
-
-/* Modern refined active state (subtle micro glass pill with specular rim) */
-.modern-glass-header .main-nav a[aria-current='page'],
-.modern-glass-header .nav-link[aria-current='page'],
-.liquid-glass-nav .main-nav a[aria-current='page'] {
-  color: #ffffff !important;
-  font-weight: 600 !important;
-  background: rgba(255, 255, 255, 0.16) !important;
-  border: 1px solid rgba(255, 255, 255, 0.22) !important;
-  box-shadow:
-    0 2px 8px rgba(0, 0, 0, 0.2),
-    inset 0 1px 0 rgba(255, 255, 255, 0.28) !important;
-}
-
-/* Plan your trip CTA button */
+/* Plan your trip CTA button (Luxury Vermilion) */
 .modern-glass-header .nav-cta,
 .liquid-glass-nav .nav-cta {
   display: inline-flex !important;
   align-items: center !important;
   gap: 6px !important;
-  background: linear-gradient(135deg, #d33833 0%, #b32622 100%) !important;
+  background: linear-gradient(135deg, #c92e29 0%, #ad2420 100%) !important;
   color: #ffffff !important;
   font-size: 12.5px !important;
   font-weight: 600 !important;
@@ -689,10 +793,10 @@
   padding: 8px 18px !important;
   min-height: 38px !important;
   border-radius: 9999px !important;
-  border: 1px solid rgba(255, 255, 255, 0.28) !important;
+  border: 1px solid rgba(255, 255, 255, 0.32) !important;
   box-shadow:
-    0 4px 16px rgba(185, 38, 34, 0.42),
-    inset 0 1px 0 rgba(255, 255, 255, 0.38) !important;
+    0 4px 16px rgba(185, 38, 34, 0.38),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35) !important;
   margin-left: 8px !important;
   margin-top: 0 !important;
   transition: all 200ms cubic-bezier(0.16, 1, 0.3, 1) !important;
@@ -703,10 +807,10 @@
 .modern-glass-header .nav-cta:hover,
 .liquid-glass-nav .nav-cta:hover {
   transform: translateY(-1px) scale(1.02) !important;
-  background: linear-gradient(135deg, #e03c37 0%, #bf2a26 100%) !important;
+  background: linear-gradient(135deg, #db3630 0%, #ba2824 100%) !important;
   box-shadow:
-    0 6px 22px rgba(185, 38, 34, 0.6),
-    inset 0 1px 0 rgba(255, 255, 255, 0.5) !important;
+    0 6px 22px rgba(185, 38, 34, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.45) !important;
 }
 
 /* Mobile Toggle Button */
@@ -718,12 +822,8 @@
   width: 40px !important;
   height: 40px !important;
   border-radius: 50% !important;
-  background: rgba(255, 255, 255, 0.12) !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
-  color: #ffffff !important;
   backdrop-filter: blur(12px) !important;
   -webkit-backdrop-filter: blur(12px) !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
   cursor: pointer !important;
   transition: all 200ms ease !important;
   padding: 0 !important;
@@ -731,7 +831,6 @@
 
 .modern-glass-header .menu-toggle:hover,
 .liquid-glass-nav .menu-toggle:hover {
-  background: rgba(255, 255, 255, 0.2) !important;
   transform: scale(1.04) !important;
 }
 
@@ -760,20 +859,26 @@
     top: calc(100% + 10px) !important;
     left: 0 !important;
     right: 0 !important;
-    background: rgba(12, 19, 27, 0.95) !important;
+    background: rgba(255, 255, 255, 0.96) !important;
     backdrop-filter: blur(28px) saturate(190%) !important;
     -webkit-backdrop-filter: blur(28px) saturate(190%) !important;
-    border: 1px solid rgba(255, 255, 255, 0.16) !important;
+    border: 1px solid rgba(48, 41, 37, 0.12) !important;
     border-radius: 24px !important;
     padding: 16px !important;
     box-shadow:
-      0 24px 60px rgba(0, 0, 0, 0.65),
-      inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+      0 24px 60px rgba(48, 41, 37, 0.18),
+      inset 0 1px 0 #ffffff !important;
     display: none !important;
     flex-direction: column !important;
     gap: 6px !important;
     max-height: calc(100dvh - 90px) !important;
     overflow-y: auto !important;
+  }
+  .site-header.modern-glass-header.is-hero:not(.is-scrolled) .main-nav,
+  .site-header.liquid-glass-nav.is-hero:not(.is-scrolled) .main-nav {
+    background: rgba(14, 22, 30, 0.95) !important;
+    border-color: rgba(255, 255, 255, 0.18) !important;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.65), inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
   }
   .modern-glass-header .main-nav.is-open,
   .liquid-glass-nav .main-nav.is-open {
@@ -782,7 +887,6 @@
   .modern-glass-header .main-nav > a:not(.button),
   .modern-glass-header .nav-link,
   .liquid-glass-nav .main-nav > a:not(.button) {
-    color: #ffffff !important;
     padding: 12px 16px !important;
     border-radius: 14px !important;
     font-size: 14px !important;
