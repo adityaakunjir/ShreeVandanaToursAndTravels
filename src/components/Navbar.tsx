@@ -9,6 +9,7 @@ import { usePathname } from 'next/navigation';
 import { business } from '@/data/site';
 import heroRoutes from '@/data/hero-routes.json';
 import NavigationHint from '@/components/NavigationHint';
+
 const links = [
   ['Home', '/'],
   ['Our tours', '/tours'],
@@ -18,6 +19,7 @@ const links = [
   ['Gallery', '/gallery'],
   ['Contact', '/contact'],
 ];
+
 export default function Navbar() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
@@ -34,6 +36,7 @@ export default function Navbar() {
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
   useEffect(() => {
     if (!open) return;
     const previous = document.body.style.overflow;
@@ -75,6 +78,7 @@ export default function Navbar() {
       opener?.focus();
     };
   }, [open]);
+
   useEffect(() => {
     const query = window.matchMedia('(min-width: 901px)');
     const change = () => {
@@ -83,6 +87,7 @@ export default function Navbar() {
     query.addEventListener('change', change);
     return () => query.removeEventListener('change', change);
   }, []);
+
   return (
     <>
       <div className="utility">
@@ -94,23 +99,23 @@ export default function Navbar() {
         </div>
       </div>
       <header
-        className={`site-header liquid-glass-nav ${scrolled ? 'is-scrolled' : ''} ${isHero ? 'is-hero' : ''}`}
+        className={`site-header modern-glass-header ${scrolled ? 'is-scrolled' : ''} ${isHero ? 'is-hero' : ''}`}
       >
-        <div className="wrap nav-wrap">
-          <Link href="/" className="brand">
-            <div className="brand-badge">
+        <div className="nav-capsule">
+          <Link href="/" className="brand" aria-label="Shree Vandana Tours & Travels - Home">
+            <div className="brand-logo-wrap">
               <Image
-                src="/assets/images/brand-mark.webp"
-                width={42}
-                height={42}
-                alt="Shree Vandana Tours & Travels"
+                src="/assets/images/brand-mark-transparent.webp"
+                width={32}
+                height={32}
+                alt=""
                 priority
               />
             </div>
-            <span>
-              <strong>SHREE VANDANA</strong>
-              <small>TOURS & TRAVELS</small>
-            </span>
+            <div className="brand-text">
+              <strong className="brand-title">SHREE VANDANA</strong>
+              <small className="brand-subtitle">TOURS &amp; TRAVELS</small>
+            </div>
           </Link>
           <nav
             ref={panel}
@@ -118,27 +123,30 @@ export default function Navbar() {
             aria-label="Main navigation"
             className={`main-nav ${open ? 'is-open' : ''}`}
           >
-            {links.map(([name, href]) => (
-              <Link
-                key={name}
-                href={href}
-                aria-current={
-                  pathname === href || pathname.startsWith(href + '/')
-                    ? 'page'
-                    : undefined
-                }
-                onClick={() => setOpen(false)}
-              >
-                {name}
-                <NavigationHint />
-              </Link>
-            ))}
+            {links.map(([name, href]) => {
+              const isActive =
+                href === '/'
+                  ? pathname === '/'
+                  : pathname === href || pathname.startsWith(href + '/');
+              return (
+                <Link
+                  key={name}
+                  href={href}
+                  className="nav-link"
+                  aria-current={isActive ? 'page' : undefined}
+                  onClick={() => setOpen(false)}
+                >
+                  {name}
+                  <NavigationHint />
+                </Link>
+              );
+            })}
             <WhatsAppLink
               className="button nav-cta"
-
               onClick={() => setOpen(false)}
             >
-              Plan your trip <ArrowUpRight size={17} />
+              <span>Plan your trip</span>
+              <ArrowUpRight size={15} />
             </WhatsAppLink>
           </nav>
           <button
@@ -149,7 +157,7 @@ export default function Navbar() {
             aria-controls="main-navigation"
             onClick={() => setOpen(!open)}
           >
-            {open ? <X /> : <Menu />}
+            {open ? <X size={20} /> : <Menu size={20} />}
           </button>
         </div>
       </header>

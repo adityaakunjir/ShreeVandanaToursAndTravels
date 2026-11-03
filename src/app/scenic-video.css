@@ -464,185 +464,358 @@
 }
 
 /* ============================================================
-   Liquid Glass 2.0 Navbar System
+   Modern Floating Glass Capsule Navbar System (2026 Modern UI)
    ============================================================ */
 
-/* Global fixed header */
+/* Global fixed header container (transparent pass-through) */
+.site-header.modern-glass-header,
 .site-header.liquid-glass-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  z-index: 50;
-  min-height: 72px;
-  display: flex;
-  align-items: center;
-  transition:
-    background-color 280ms cubic-bezier(0.16, 1, 0.3, 1),
-    backdrop-filter 280ms cubic-bezier(0.16, 1, 0.3, 1),
-    -webkit-backdrop-filter 280ms cubic-bezier(0.16, 1, 0.3, 1),
-    border-color 280ms cubic-bezier(0.16, 1, 0.3, 1),
-    box-shadow 280ms cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-/* Hero overlay state (pure transparent seamless overlay over playing video, NO bottom line!) */
-.site-header.liquid-glass-nav.is-hero:not(.is-scrolled) {
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.45) 0%,
-    rgba(0, 0, 0, 0.15) 60%,
-    transparent 100%
-  ) !important;
-  backdrop-filter: blur(3px) !important;
-  -webkit-backdrop-filter: blur(3px) !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  z-index: 100 !important;
+  padding: 16px 24px 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  background: transparent !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
   border: none !important;
   border-bottom: none !important;
   box-shadow: none !important;
+  pointer-events: none !important;
+  transition: padding 260ms cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
-/* Scrolled state or non-hero pages (pure liquid glass, NO bottom line!) */
-.site-header.liquid-glass-nav.is-scrolled,
-.site-header.liquid-glass-nav:not(.is-hero) {
-  background: rgba(14, 22, 29, 0.88) !important;
-  backdrop-filter: blur(24px) saturate(180%) !important;
-  -webkit-backdrop-filter: blur(24px) saturate(180%) !important;
-  border: none !important;
-  border-bottom: none !important;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35) !important;
+.site-header.modern-glass-header.is-scrolled,
+.site-header.liquid-glass-nav.is-scrolled {
+  padding: 10px 24px 0 !important;
 }
 
-/* Brand badge disc */
-.liquid-glass-nav .brand-badge {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background: #ffffff;
-  padding: 3px;
+/* Floating capsule / Island dock */
+.modern-glass-header .nav-capsule,
+.liquid-glass-nav .nav-capsule,
+.liquid-glass-nav .nav-wrap {
+  pointer-events: auto !important;
+  width: 100% !important;
+  max-width: 1220px !important;
+  min-height: 56px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 6px 10px 6px 18px !important;
+  border-radius: 9999px !important;
+  background: rgba(14, 22, 30, 0.68) !important;
+  backdrop-filter: blur(24px) saturate(190%) contrast(102%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(190%) contrast(102%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
   box-shadow:
-    0 2px 10px rgba(0, 0, 0, 0.28),
-    0 0 0 1px rgba(255, 255, 255, 0.35);
-  overflow: hidden;
-  flex-shrink: 0;
-  transition: transform 220ms ease;
+    0 16px 36px -8px rgba(0, 0, 0, 0.45),
+    0 2px 10px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.22) !important;
+  transition:
+    background-color 260ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 260ms cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 260ms cubic-bezier(0.16, 1, 0.3, 1),
+    transform 260ms cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
+/* Scrolled or non-hero page state: refined deep obsidian glass */
+.site-header.modern-glass-header.is-scrolled .nav-capsule,
+.site-header.liquid-glass-nav.is-scrolled .nav-capsule,
+.site-header.modern-glass-header:not(.is-hero) .nav-capsule,
+.site-header.liquid-glass-nav:not(.is-hero) .nav-capsule {
+  background: rgba(11, 18, 25, 0.88) !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+  box-shadow:
+    0 20px 42px -10px rgba(0, 0, 0, 0.6),
+    0 4px 14px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.28) !important;
+}
+
+/* Brand Link */
+.modern-glass-header .brand,
+.liquid-glass-nav .brand {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  text-decoration: none !important;
+  color: #ffffff !important;
+  user-select: none !important;
+}
+
+/* Modern logo mark container (seamless transparent mark, no harsh white disc) */
+.modern-glass-header .brand-logo-wrap,
+.modern-glass-header .brand-badge,
+.liquid-glass-nav .brand-logo-wrap,
+.liquid-glass-nav .brand-badge {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 38px !important;
+  height: 38px !important;
+  border-radius: 50% !important;
+  background: rgba(255, 255, 255, 0.12) !important;
+  border: 1px solid rgba(255, 255, 255, 0.22) !important;
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35) !important;
+  overflow: hidden !important;
+  flex-shrink: 0 !important;
+  transition: transform 220ms ease, background-color 220ms ease !important;
+}
+
+.modern-glass-header .brand:hover .brand-logo-wrap,
+.modern-glass-header .brand:hover .brand-badge,
+.liquid-glass-nav .brand:hover .brand-logo-wrap,
 .liquid-glass-nav .brand:hover .brand-badge {
-  transform: scale(1.05);
+  transform: scale(1.06) !important;
+  background: rgba(255, 255, 255, 0.18) !important;
 }
 
+.modern-glass-header .brand-logo-wrap img,
+.modern-glass-header .brand-badge img,
+.liquid-glass-nav .brand-logo-wrap img,
 .liquid-glass-nav .brand-badge img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  object-fit: cover;
+  width: 28px !important;
+  height: 28px !important;
+  object-fit: contain !important;
+  border-radius: 0 !important;
   mix-blend-mode: normal !important;
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.35));
 }
 
 /* Brand typography */
+.modern-glass-header .brand-text,
+.liquid-glass-nav .brand-text {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  line-height: 1.15 !important;
+}
+
+.modern-glass-header .brand-title,
+.modern-glass-header .brand strong,
 .liquid-glass-nav .brand strong {
   color: #ffffff !important;
-  font-size: 13px;
-  letter-spacing: 0.08em;
-  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.65);
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
+.modern-glass-header .brand-subtitle,
+.modern-glass-header .brand small,
 .liquid-glass-nav .brand small {
-  color: rgba(255, 255, 255, 0.8) !important;
-  font-size: 8.5px;
-  letter-spacing: 0.22em;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.72) !important;
+  font-size: 8px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.22em !important;
+  text-transform: uppercase !important;
+  margin-top: 2px !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
 }
 
-/* Navigation Links */
+/* Desktop Main Navigation Links */
+@media (min-width: 901px) {
+  .modern-glass-header .main-nav,
+  .liquid-glass-nav .main-nav {
+    display: flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.modern-glass-header .main-nav > a:not(.button),
+.modern-glass-header .nav-link,
 .liquid-glass-nav .main-nav > a:not(.button) {
-  color: rgba(255, 255, 255, 0.88) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  color: rgba(255, 255, 255, 0.82) !important;
   font-size: 13px !important;
   font-weight: 500 !important;
-  padding: 8px 14px !important;
-  border-radius: 24px !important;
-  transition: all 200ms cubic-bezier(0.16, 1, 0.3, 1) !important;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) !important;
-  letter-spacing: 0.01em;
+  padding: 7px 14px !important;
+  min-height: auto !important;
+  border-radius: 9999px !important;
+  text-decoration: none !important;
+  letter-spacing: 0.01em !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+  transition: all 180ms cubic-bezier(0.16, 1, 0.3, 1) !important;
+  position: relative !important;
 }
 
+.modern-glass-header .main-nav > a:not(.button):hover,
+.modern-glass-header .nav-link:hover,
 .liquid-glass-nav .main-nav > a:not(.button):hover {
   color: #ffffff !important;
-  background: rgba(255, 255, 255, 0.16) !important;
-  backdrop-filter: blur(8px) !important;
-  -webkit-backdrop-filter: blur(8px) !important;
-  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.12) !important;
+  transform: translateY(-1px) !important;
 }
 
+/* Modern refined active state (subtle micro glass pill with specular rim) */
+.modern-glass-header .main-nav a[aria-current='page'],
+.modern-glass-header .nav-link[aria-current='page'],
 .liquid-glass-nav .main-nav a[aria-current='page'] {
   color: #ffffff !important;
   font-weight: 600 !important;
-  background: rgba(255, 255, 255, 0.2) !important;
-  border: 1px solid rgba(255, 255, 255, 0.25) !important;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.16) !important;
+  border: 1px solid rgba(255, 255, 255, 0.22) !important;
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.28) !important;
 }
 
-/* CTA "Plan your trip" in Liquid Glass */
+/* Plan your trip CTA button */
+.modern-glass-header .nav-cta,
 .liquid-glass-nav .nav-cta {
-  background: linear-gradient(135deg, #d33833 0%, #b82b26 100%) !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  background: linear-gradient(135deg, #d33833 0%, #b32622 100%) !important;
   color: #ffffff !important;
-  border: 1px solid rgba(255, 255, 255, 0.32) !important;
-  box-shadow:
-    0 4px 18px rgba(184, 43, 38, 0.45),
-    inset 0 1px 0 rgba(255, 255, 255, 0.4) !important;
-  border-radius: 26px !important;
+  font-size: 12.5px !important;
   font-weight: 600 !important;
-  letter-spacing: 0.02em;
-  transition: all 220ms cubic-bezier(0.16, 1, 0.3, 1) !important;
+  letter-spacing: 0.02em !important;
+  padding: 8px 18px !important;
+  min-height: 38px !important;
+  border-radius: 9999px !important;
+  border: 1px solid rgba(255, 255, 255, 0.28) !important;
+  box-shadow:
+    0 4px 16px rgba(185, 38, 34, 0.42),
+    inset 0 1px 0 rgba(255, 255, 255, 0.38) !important;
+  margin-left: 8px !important;
+  margin-top: 0 !important;
+  transition: all 200ms cubic-bezier(0.16, 1, 0.3, 1) !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
 }
 
+.modern-glass-header .nav-cta:hover,
 .liquid-glass-nav .nav-cta:hover {
-  transform: translateY(-1px) scale(1.02);
+  transform: translateY(-1px) scale(1.02) !important;
+  background: linear-gradient(135deg, #e03c37 0%, #bf2a26 100%) !important;
   box-shadow:
-    0 6px 24px rgba(184, 43, 38, 0.65),
+    0 6px 22px rgba(185, 38, 34, 0.6),
     inset 0 1px 0 rgba(255, 255, 255, 0.5) !important;
 }
 
 /* Mobile Toggle Button */
+.modern-glass-header .menu-toggle,
 .liquid-glass-nav .menu-toggle {
-  background: rgba(255, 255, 255, 0.15) !important;
-  border: 1px solid rgba(255, 255, 255, 0.26) !important;
+  display: none;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  background: rgba(255, 255, 255, 0.12) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
   color: #ffffff !important;
   backdrop-filter: blur(12px) !important;
   -webkit-backdrop-filter: blur(12px) !important;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
-  transition: all 200ms ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+  cursor: pointer !important;
+  transition: all 200ms ease !important;
+  padding: 0 !important;
 }
 
+.modern-glass-header .menu-toggle:hover,
 .liquid-glass-nav .menu-toggle:hover {
-  background: rgba(255, 255, 255, 0.25) !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  transform: scale(1.04) !important;
 }
 
-/* Mobile Dropdown Panel */
+/* Mobile Viewport Adjustments (<= 900px) */
 @media (max-width: 900px) {
+  .site-header.modern-glass-header,
+  .site-header.liquid-glass-nav {
+    padding: 12px 14px 0 !important;
+  }
+  .site-header.modern-glass-header.is-scrolled,
+  .site-header.liquid-glass-nav.is-scrolled {
+    padding: 8px 14px 0 !important;
+  }
+  .modern-glass-header .nav-capsule,
+  .liquid-glass-nav .nav-capsule {
+    padding: 6px 12px 6px 14px !important;
+    position: relative !important;
+  }
+  .modern-glass-header .menu-toggle,
+  .liquid-glass-nav .menu-toggle {
+    display: flex !important;
+  }
+  .modern-glass-header .main-nav,
   .liquid-glass-nav .main-nav {
-    background: rgba(14, 22, 29, 0.94) !important;
+    position: absolute !important;
+    top: calc(100% + 10px) !important;
+    left: 0 !important;
+    right: 0 !important;
+    background: rgba(12, 19, 27, 0.95) !important;
     backdrop-filter: blur(28px) saturate(190%) !important;
     -webkit-backdrop-filter: blur(28px) saturate(190%) !important;
     border: 1px solid rgba(255, 255, 255, 0.16) !important;
+    border-radius: 24px !important;
+    padding: 16px !important;
     box-shadow:
-      0 24px 60px rgba(0, 0, 0, 0.6),
-      inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
-    color: #ffffff !important;
+      0 24px 60px rgba(0, 0, 0, 0.65),
+      inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+    display: none !important;
+    flex-direction: column !important;
+    gap: 6px !important;
+    max-height: calc(100dvh - 90px) !important;
+    overflow-y: auto !important;
   }
+  .modern-glass-header .main-nav.is-open,
+  .liquid-glass-nav .main-nav.is-open {
+    display: flex !important;
+  }
+  .modern-glass-header .main-nav > a:not(.button),
+  .modern-glass-header .nav-link,
   .liquid-glass-nav .main-nav > a:not(.button) {
     color: #ffffff !important;
-    padding: 12px 14px !important;
-    border-radius: 12px !important;
+    padding: 12px 16px !important;
+    border-radius: 14px !important;
+    font-size: 14px !important;
+  }
+  .modern-glass-header .main-nav .nav-cta,
+  .liquid-glass-nav .main-nav .nav-cta {
+    margin: 8px 0 0 !important;
+    width: 100% !important;
+    justify-content: center !important;
+    padding: 12px 20px !important;
+  }
+}
+
+/* Compact laptop handling (901px - 1140px) */
+@media (min-width: 901px) and (max-width: 1140px) {
+  .modern-glass-header .main-nav,
+  .liquid-glass-nav .main-nav { gap: 2px !important; }
+  .modern-glass-header .main-nav > a:not(.button),
+  .modern-glass-header .nav-link,
+  .liquid-glass-nav .main-nav > a:not(.button) {
+    padding: 6px 10px !important;
+    font-size: 12px !important;
+  }
+  .modern-glass-header .nav-cta,
+  .liquid-glass-nav .nav-cta {
+    padding: 7px 14px !important;
+    font-size: 11.5px !important;
   }
 }
 
 /* Main Content Padding Offset for Non-Hero Pages */
 #main-content {
-  padding-top: 72px;
+  padding-top: 86px;
 }
 
 #main-content:has(.home-hero-fullscreen),
@@ -739,7 +912,7 @@ html[data-motion-paused='true'] .parallax-hero-track { animation: none !importan
 .journey-loading p { font-size: 15px; letter-spacing: -.02em; }
 .journey-loading-mark { position: relative; width: 108px; height: 52px; display: grid; place-items: center; color: #bc2a25; }
 .journey-loading-route { position: absolute; width: 94px; height: 30px; border-top: 1px dashed #bc2a2550; border-radius: 50%; transform: rotate(-12deg); }
-body:has(.journey-loading) .site-header.liquid-glass-nav.is-hero:not(.is-scrolled) { background: #17232cf2 !important; }
+body:has(.journey-loading) .site-header.is-hero:not(.is-scrolled) .nav-capsule { background: #17232cf2 !important; }
 html[data-motion-paused='true'] .journey-loading-mark svg { animation: none; }
 @media (prefers-reduced-motion: no-preference) {
   .journey-loading-mark svg { animation: little-journey 1.8s ease-in-out infinite; }
@@ -766,11 +939,15 @@ html[data-experience='lite'] .parallax-hero-track { animation: none !important; 
 
 /* Keep the full navigation inside compact laptop and tablet widths. */
 @media (min-width: 901px) and (max-width: 1099px) {
+  .modern-glass-header .main-nav,
   .liquid-glass-nav .main-nav { gap: 4px; }
+  .modern-glass-header .main-nav > a:not(.button),
+  .modern-glass-header .nav-link,
   .liquid-glass-nav .main-nav > a:not(.button) {
     padding: 8px 7px !important;
     font-size: 11px !important;
   }
+  .modern-glass-header .main-nav .nav-cta,
   .liquid-glass-nav .main-nav .nav-cta {
     padding-inline: 12px !important;
     font-size: 11px !important;
