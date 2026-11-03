@@ -15,6 +15,7 @@ export type DestinationDroneOption = {
   tagline: string;
   assetBase: string;
   fallback: string;
+  photoSlug: string;
   photoCreditLink: string;
 };
 
@@ -27,6 +28,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     tagline: 'Scenic drone flights across India & premier international tours',
     assetBase: 'home-cinema-v2',
     fallback: '/assets/videos/home-cinema-v2-poster.webp',
+    photoSlug: 'nepal',
     photoCreditLink: '/photo-credits#video-home-destinations-drone',
   },
   {
@@ -36,6 +38,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     tagline: 'Lush tea plantations, misty Western Ghats & emerald backwaters',
     assetBase: 'kerala-cinema-v2',
     fallback: priorityPhotos['kerala-kanyakumari'],
+    photoSlug: 'kerala-6-days',
     photoCreditLink: '/photo-credits#video-kerala',
   },
   {
@@ -45,6 +48,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     tagline: 'Pristine mountain lakes, alpine meadows & snow-capped peaks',
     assetBase: 'kashmir-cinema-v2',
     fallback: priorityPhotos['kashmir-amritsar-vaishno-devi'],
+    photoSlug: 'kashmir-7-days',
     photoCreditLink: '/photo-credits#video-kashmir',
   },
   {
@@ -54,6 +58,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     tagline: 'Futuristic architectural wonders & Arabian desert dunes',
     assetBase: 'dubai-cinema-v2',
     fallback: priorityPhotos['dubai-abu-dhabi'],
+    photoSlug: 'dubai-abu-dhabi',
     photoCreditLink: '/photo-credits#video-dubai',
   },
   {
@@ -63,6 +68,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     tagline: 'Majestic Himalayan summits, stupas & peaceful mountain lakes',
     assetBase: 'nepal-cinema-v2',
     fallback: priorityPhotos['nepal'],
+    photoSlug: 'nepal',
     photoCreditLink: '/photo-credits#video-nepal',
   },
   {
@@ -72,6 +78,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     tagline: 'Misty mountain ridges & tranquil Eastern Himalayan plateaus',
     assetBase: 'sikkim-cinema-v2',
     fallback: priorityPhotos['darjeeling-gangtok-pelling'],
+    photoSlug: 'darjeeling-gangtok-pelling',
     photoCreditLink: '/photo-credits#video-sikkim',
   },
 ];
@@ -174,6 +181,22 @@ export default function HomeHero() {
               : `Next stop: ${selected.name}`}
           </span>
         </div>
+      </div>
+
+      <div className="wrap tour-hero-caption home-hero-caption">
+        <Link
+          href={`/photo-credits#${selected.photoSlug}`}
+          aria-label={`Photo credits: ${selected.name}`}
+        >
+          Photo credits
+        </Link>
+        <Link
+          className="video-credit"
+          href={selected.photoCreditLink}
+          aria-label={`Video credits and licences: ${selected.label}`}
+        >
+          Video credits
+        </Link>
       </div>
     </section>
   );
