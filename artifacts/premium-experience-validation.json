@@ -1,10 +1,11 @@
 {
-  "checkedAt": "2026-11-03T08:02:18.409Z",
+  "checkedAt": "2026-11-03T11:19:29.410Z",
   "checks": [
     "Automatic portrait-HD playback without a Play scenery button; footer motion preference pauses across scrolling",
     "Destination shuffle changes the film, discovery link and contextual WhatsApp enquiry",
     "All five destination films decode the eighth scene at 37.5s; canonical and structured data present",
-    "Fast desktop plays full-HD; source framing differs from portrait mobile",
+    "4K film includes the eighth scene; a falling connection switches to economy playback",
+    "Fast high-resolution desktop plays native-source 4K; mobile is reframed directly",
     "save-data: explicit browser preference retains the photograph",
     "slow-4g: lighter video starts automatically without a play button",
     "low-end: lighter video starts automatically without a play button",
@@ -157,19 +158,19 @@
   "network": [
     {
       "profile": "128kbps,250ms latency,6x CPU slowdown,2 cores/2GB",
-      "elapsedMs": 23039,
-      "lcpMs": 5316,
+      "elapsedMs": 23521,
+      "lcpMs": 5576,
       "heroUrl": "http://localhost:3005/assets/responsive/c872a2a3070458-384.webp",
       "video": null,
       "overflow": false,
       "paint": [
         {
           "name": "first-paint",
-          "ms": 4968
+          "ms": 5276
         },
         {
           "name": "first-contentful-paint",
-          "ms": 4968
+          "ms": 5576
         }
       ]
     }

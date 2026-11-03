@@ -79,11 +79,11 @@ try {
   await plays(p);
   assert.match(
     await p.locator('video').getAttribute('src'),
-    /home-cinema-v2-mobile/,
+    /home-cinema-v3-mobile/,
   );
   assert.deepEqual(
     await p.locator('video').evaluate((v) => [v.videoWidth, v.videoHeight]),
-    [720, 1280],
+    [1080, 1920],
   );
   assert.equal(await p.locator('.scenic-control').count(), 0);
   await p.getByRole('button', { name: 'Motion on' }).click();
@@ -113,7 +113,7 @@ try {
     .innerText();
   assert(
     decodeURIComponent(
-      await p.locator('.hero-chat').getAttribute('href'),
+      await p.locator('.hero-actions a[href*="wa.me"]').getAttribute('href'),
     ).includes(selected),
   );
   report.checks.push(
@@ -159,12 +159,19 @@ try {
   await plays(d);
   assert.deepEqual(
     await d.locator('video').evaluate((v) => [v.videoWidth, v.videoHeight]),
-    [1920, 1080],
+    [3840, 2160],
   );
   await d.screenshot({ path: 'artifacts/premium-home-desktop.png' });
+  assert.equal(Math.round(await d.locator('video').evaluate(v=>v.duration)),40);
+  await d.locator('video').evaluate(v=>{v.currentTime=37.5;});
+  await d.waitForFunction(()=>document.querySelector('video').currentTime>=37.5);
+  await d.evaluate(()=>{navigator.connection.downlink=.2;navigator.connection.dispatchEvent(new Event('change'));});
+  await d.waitForFunction(()=>document.querySelector('video').dataset.variant==='economy' && document.querySelector('video').videoWidth===640);
+  report.checks.push('4K film includes the eighth scene; a falling connection switches to economy playback');
+
   await desktop.close();
   report.checks.push(
-    'Fast desktop plays full-HD; source framing differs from portrait mobile',
+    'Fast high-resolution desktop plays native-source 4K; mobile is reframed directly',
   );
   for (const mode of [
     { name: 'save-data', saveData: true },

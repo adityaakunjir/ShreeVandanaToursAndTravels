@@ -38,3 +38,27 @@ test('modest devices and connections automatically receive lighter files', () =>
     true,
   );
 });
+
+test('4K requires a fast connection, sufficient hardware and a large display', () => {
+  const device = {
+    wide: true,
+    fourK: true,
+    cores: 8,
+    memory: 8,
+    connection: { downlink: 20, effectiveType: '4g' },
+  };
+  assert.equal(mediaPolicy(device).profile, '4k');
+  assert.equal(
+    mediaPolicy({ ...device, connection: { downlink: 6 } }).profile,
+    'desktop',
+  );
+  assert.equal(mediaPolicy({ ...device, memory: 4 }).profile, 'balanced');
+  assert.equal(
+    mediaPolicy({ ...device, connection: undefined }).profile,
+    'desktop',
+  );
+  assert.equal(
+    mediaPolicy({ ...device, connection: { downlink: 0.3 } }).profile,
+    'economy',
+  );
+});

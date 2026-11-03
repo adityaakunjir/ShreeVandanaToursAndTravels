@@ -9,7 +9,12 @@ for report in reports:
     plan=next(p for p in plans if p['id']==report['id'])
     assert len(plan['shots'])==8 and len({s['sourceSha256'] for s in plan['shots']})==8
     assert all(s['duration']==5 and s['timelineStart']==i*5 for i,s in enumerate(plan['shots']))
-    assert {v['profile'] for v in report['variants']}=={'lite','mobile','balanced','desktop'}
+    assert {v['profile'] for v in report['variants']}==({'lite','mobile','balanced','desktop','economy'} | ({'4k','4k-hevc'} if plan.get('native4k') else set()))
+    if plan.get('native4k'):
+        for shot in plan['shots']:
+            source=root.parent/'media-sources'/shot['sourceFile']
+            dims=json.loads(subprocess.check_output(['ffprobe','-v','error','-select_streams','v:0','-show_entries','stream=width,height','-of','json',str(source)]))['streams'][0]
+            assert dims['width']>=3840 and dims['height']>=2160
     for v in report['variants']:
         path=root/v['file']; data=path.read_bytes()
         assert hashlib.sha256(data).hexdigest()==v['sha256']
@@ -27,4 +32,4 @@ for report in reports:
         results.append(dict(file=v['file'],duration=40,frames=1200,distinctScenes=8,bytes=len(data),profile=v['profile'],silent=True,fastStart=True))
         print(path.name,'PASS',flush=True)
 (root/'artifacts/premium-film-quality.json').write_text(json.dumps(results,indent=2)+'\n')
-print('PASS: six films; 24 adaptive variants; 8 distinct scenes per film.')
+print('PASS: six films; 32 adaptive variants; 8 distinct scenes per film.')

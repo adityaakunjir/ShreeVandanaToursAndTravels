@@ -12,6 +12,7 @@ type Props = {
   alt: string;
   sizes: string;
   priority?: boolean;
+  native4k?: boolean;
   className?: string;
 };
 
@@ -24,11 +25,13 @@ export default function ScenicVideo({
   sizes,
   priority = false,
   className = '',
+  native4k = false,
 }: Props) {
   const video = useRef<HTMLVideoElement>(null);
   const visible = useRef(false);
   const loaded = useRef(false);
   const failed = useRef(false);
+  const compatibilityFallback = useRef(false);
   const [ready, setReady] = useState(false);
   function policy() {
     const device = navigator as Navigator & {
@@ -44,21 +47,37 @@ export default function ScenicVideo({
       cores: device.hardwareConcurrency,
       memory: device.deviceMemory,
       connection: device.connection,
-      fourK: isHighDpi,
+      fourK: native4k && isHighDpi && !compatibilityFallback.current,
     });
   }
   function loadAndPlay() {
     const element = video.current;
     if (!element || failed.current) return;
-    if (!loaded.current) {
-      const profile = policy().profile;
+    const profile = policy().profile;
+    if (!loaded.current || element.dataset.variant !== profile) {
+      const resumeAt = element.currentTime;
+      setReady(false);
       element.dataset.variant = profile;
-      // Modern WebM (VP9) delivers 4K & HD with 40-50% smaller file size and sharper clarity
-      const supportsWebm = Boolean(
-        element.canPlayType && element.canPlayType('video/webm').replace(/no/, ''),
-      );
-      const ext = supportsWebm ? '.webm' : '.mp4';
-      element.src = '/assets/videos/' + assetBase + '-' + profile + ext;
+      // HEVC is optional; H.264 remains the compatibility path. Never crop
+      // a compressed landscape film into the portrait delivery.
+      const hevc =
+        profile === '4k' &&
+        Boolean(element.canPlayType('video/mp4; codecs="hvc1.1.6.L153.B0"'));
+      element.src =
+        '/assets/videos/' +
+        assetBase +
+        '-' +
+        profile +
+        (hevc ? '-hevc.mp4' : '.mp4');
+      if (resumeAt > 0) {
+        element.addEventListener(
+          'loadedmetadata',
+          () => {
+            if (resumeAt < element.duration) element.currentTime = resumeAt;
+          },
+          { once: true },
+        );
+      }
       element.muted = true;
       loaded.current = true;
       element.load();
@@ -167,6 +186,7 @@ export default function ScenicVideo({
           const el = video.current;
           // Gracefully fallback to desktop MP4 if 4K or WebM is unsupported by this specific device
           if (el && el.dataset.variant === '4k') {
+            compatibilityFallback.current = true;
             el.dataset.variant = 'desktop';
             el.src = '/assets/videos/' + assetBase + '-desktop.mp4';
             el.load();

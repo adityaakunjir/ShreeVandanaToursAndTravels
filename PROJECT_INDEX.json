@@ -1,8 +1,8 @@
 {
   "reviewDate": "2026-11-03",
-  "baseCommit": "166c4430e0764f526412766bbc7874ef33689b30",
+  "baseCommit": "69f557d4037f66070880967814c6f3c312c541b3",
   "scope": "Working source, business documents and public assets. Excludes dependencies, builds, Git metadata, credentials and generated index itself.",
-  "fileCount": 801,
+  "fileCount": 813,
   "files": [
     {
       "path": ".agents/skills/prisma-composer-core-concepts/SKILL.md",
@@ -258,39 +258,39 @@
     },
     {
       "path": "artifacts/cinema-review-dubai.jpg",
-      "bytes": 115800,
+      "bytes": 118261,
       "category": "supporting",
-      "sha256": "cb2caa0dadcaf28d24de217c0912f46df959d4dd481899822518a3ad42593ac9"
+      "sha256": "a57ca338da407c14de431da8535947ef7885d5e2a26464695f6cd91d9f0369b1"
     },
     {
       "path": "artifacts/cinema-review-home-destinations-drone.jpg",
-      "bytes": 140800,
+      "bytes": 132586,
       "category": "supporting",
-      "sha256": "993fef043f12913ec4e0e808bd05bfe444a5f141ebf2b73fbe236bdb5832f085"
+      "sha256": "00d79ea12a39699931803ed248994fd5a82d6f3b62e2b58ffe606d3fcd4c832a"
     },
     {
       "path": "artifacts/cinema-review-kashmir.jpg",
-      "bytes": 129192,
+      "bytes": 132432,
       "category": "supporting",
-      "sha256": "395ec3c9534ac4437caeeff46b6f899c32a7de0c6f2cdcc0f89e5c33e0ad9d70"
+      "sha256": "0031eba2c8d5003aca6570776afdd36746bd9f445392c80446101df9287a8614"
     },
     {
       "path": "artifacts/cinema-review-kerala.jpg",
-      "bytes": 143944,
+      "bytes": 144909,
       "category": "supporting",
-      "sha256": "9a155de9e8ee9dfde4e445b9596809d8e166de341e071d9a0d361b26181ad756"
+      "sha256": "d0cc076decd06c8d64ff72e7745b65241dd5e6b4e8f087c9a70220a9afabf161"
     },
     {
       "path": "artifacts/cinema-review-nepal.jpg",
-      "bytes": 157024,
+      "bytes": 159186,
       "category": "supporting",
-      "sha256": "fa9055c667f85b3b5e9980fc0bd1d27d4045f52f221945b4637f04303f534152"
+      "sha256": "63bb73e59b38fc61ce487cb765d1695aa5d613a2596c82f24b59267e7ecbc5da"
     },
     {
       "path": "artifacts/cinema-review-sikkim.jpg",
-      "bytes": 182912,
+      "bytes": 184919,
       "category": "supporting",
-      "sha256": "39cf2fb5f208d3dc7ff0325d36398099f8be305083951b4a7d881688931e7fd0"
+      "sha256": "214369f53ae72ca24a38e751fcd98e806aae8a0f46dc71c9f214941b57caef21"
     },
     {
       "path": "artifacts/company-tours-desktop.png",
@@ -438,21 +438,21 @@
     },
     {
       "path": "artifacts/journey-loading-desktop.png",
-      "bytes": 77732,
+      "bytes": 122928,
       "category": "supporting",
-      "sha256": "25149d44298b08f4cd391fe11ce5def2513c782acca9c5b18e3d38ade5d7ca67"
+      "sha256": "bf6406263eefd3bf35192921bb4e226c6f7bf69472b63830b8b3de80e73a49bf"
     },
     {
       "path": "artifacts/journey-loading-mobile.png",
-      "bytes": 40124,
+      "bytes": 68310,
       "category": "supporting",
-      "sha256": "4513de58d44dc3131a9b6f946e4ab578b394869d07948f2e8b0ff09bf51451fc"
+      "sha256": "4deac5b21bf42323bb0dff62aee947df43848ad5b493c72853bf6f5c9a853cdc"
     },
     {
       "path": "artifacts/lighthouse-premium-mobile.json",
-      "bytes": 627164,
+      "bytes": 625582,
       "category": "supporting",
-      "sha256": "4830584aef48107c308c8823fd9693e7300d15b6e56d763bca64d97df5953cb7"
+      "sha256": "509174a2f83546e08c37cbc7e75f08622d8838591782c655f8a49661a7f7b94f"
     },
     {
       "path": "artifacts/lighthouse-premium-tour-mobile.json",
@@ -468,9 +468,9 @@
     },
     {
       "path": "artifacts/loading-validation.json",
-      "bytes": 148,
+      "bytes": 181,
       "category": "supporting",
-      "sha256": "19c097f516a9fd0a4302a1b23792a2641659885a5ab2915e4573cf8c548d5121"
+      "sha256": "bbfd0bdc66e08bfdaaec293bcc96d11ad5ebd4dcc0340b3da1c09a10ce3845a8"
     },
     {
       "path": "artifacts/local-concurrency.json",
@@ -756,39 +756,39 @@
     },
     {
       "path": "artifacts/premium-bali-mobile.png",
-      "bytes": 1322718,
+      "bytes": 1332814,
       "category": "supporting",
-      "sha256": "90c1419706e65f6394f5a06c52324fedb35101b6bfa047a55419023e7ae3f14e"
+      "sha256": "48db635522512bbe5138773790006790bc4f469be80e924b5600317166f2c779"
     },
     {
       "path": "artifacts/premium-experience-validation.json",
-      "bytes": 3762,
+      "bytes": 4065,
       "category": "supporting",
-      "sha256": "0d144d3fd127a1174d4a9c717ee0a1968f1ab29c0559987a6f15764e047954ec"
+      "sha256": "f3ff12df4f1b835a422ccf027ec26412810b27db130f11cf5c743bf97cdc3bbd"
     },
     {
       "path": "artifacts/premium-film-encoding.json",
-      "bytes": 49908,
+      "bytes": 10963,
       "category": "supporting",
-      "sha256": "2090e7bcb6d52e47a3b437b007e3b31972abd1237f5839a595127d8ce5f42ba3"
+      "sha256": "243b86bc1066b4c68fd2a16fe6221f37f6528e17e5d606a4be92ec82bc23a547"
     },
     {
       "path": "artifacts/premium-film-quality.json",
-      "bytes": 5704,
+      "bytes": 7602,
       "category": "supporting",
-      "sha256": "12babe298afb7142522e213db0ff1e374c9a288a2f931b12e246d188f803ad22"
+      "sha256": "05fd221e830ed55fcf9ebda15fb08837ca843c55bfdcd7f32d6a4a4a67d5eeee"
     },
     {
       "path": "artifacts/premium-home-desktop.png",
-      "bytes": 4727159,
+      "bytes": 6084338,
       "category": "supporting",
-      "sha256": "dbf9c4348db66da7e54cc6a005d6b54e63bac805d7103ab6015952e3e96d37e5"
+      "sha256": "aed23956e573c1b8113495e4e9ff4ef2c847276cc8a5777523ab417684006e93"
     },
     {
       "path": "artifacts/premium-home-mobile.png",
-      "bytes": 1282332,
+      "bytes": 1504540,
       "category": "supporting",
-      "sha256": "fd8ac5f037b00a6ca823deff73820fec2ed174149fab54b67eef7f2fe9e133fe"
+      "sha256": "ab54277c084c34b43002ac667fef8776ce6303e34809401e9b060eec2c9007f3"
     },
     {
       "path": "artifacts/premium-photo-import.json",
@@ -798,9 +798,9 @@
     },
     {
       "path": "artifacts/premium-slow-mobile.png",
-      "bytes": 920726,
+      "bytes": 964241,
       "category": "supporting",
-      "sha256": "bb71e521a378023dff99dcd1d906fdd16cecc732c1fc806e81bc9ae6779b665a"
+      "sha256": "e7f90614b139ff6e37725a39b91949ab7431d6124ee536954f44174fe5465679"
     },
     {
       "path": "artifacts/production-deployment-verification.json",
@@ -1038,9 +1038,9 @@
     },
     {
       "path": "docs/PREMIUM_MEDIA_PERFORMANCE_SEO.md",
-      "bytes": 7043,
+      "bytes": 8899,
       "category": "supporting",
-      "sha256": "36c6bc3426f643dfd26914729891332ebc68a2c26825bb610cf9cb93c6662036"
+      "sha256": "0bea075bddbbb094c52c0714024dfe04202af728ae0d07f2839b658206f493e4"
     },
     {
       "path": "docs/REDESIGN_REVIEW.md",
@@ -1101,6 +1101,12 @@
       "bytes": 22086,
       "category": "public-asset",
       "sha256": "5563e70dbfffab52f9affe56e67f1cbf5373bd4fbde8a0266948ee7b207434a5"
+    },
+    {
+      "path": "public/assets/images/brand-mark-transparent.webp",
+      "bytes": 6980,
+      "category": "public-asset",
+      "sha256": "35b51e52ef0bc2b4b4aad802bcfda6a2ceb89090fc15b1a6d98df6508f7bb33a"
     },
     {
       "path": "public/assets/images/brand-mark.webp",
@@ -3623,220 +3629,274 @@
       "sha256": "7fe226fd6816590538b4f5e2ff59d517807ce274f616e8344007d5e59ecbb8fa"
     },
     {
-      "path": "public/assets/videos/dubai-cinema-v2-balanced.mp4",
-      "bytes": 4843370,
-      "category": "public-asset",
-      "sha256": "324f4093eb956ae2fb19ca5b7c9a71a18f1ce643b2ab1f732ae8da17d632886f"
-    },
-    {
-      "path": "public/assets/videos/dubai-cinema-v2-desktop.mp4",
-      "bytes": 22231588,
-      "category": "public-asset",
-      "sha256": "f4018e3c6f3047a212e26e07bdfbc720ec75d1809ca06483c992eda4a324c52b"
-    },
-    {
-      "path": "public/assets/videos/dubai-cinema-v2-lite.mp4",
-      "bytes": 2537080,
-      "category": "public-asset",
-      "sha256": "8e6e7a8f3d99933085c3f1514ac3766824bcf4d59eb1b242f198cae34317aad0"
-    },
-    {
-      "path": "public/assets/videos/dubai-cinema-v2-mobile.mp4",
-      "bytes": 9196005,
-      "category": "public-asset",
-      "sha256": "1af30553f774f04a1f1214a025f2117d46922559f5b3df2991091d604ee75824"
-    },
-    {
       "path": "public/assets/videos/dubai-cinema-v2-poster.webp",
-      "bytes": 352386,
+      "bytes": 973662,
       "category": "public-asset",
-      "sha256": "5994dcf9e8aadc56c25e75e70b38c33f346446de25cf0f63285898a96a993e46"
+      "sha256": "e7deccaeb761dc97cf976d0d415e8bb22a8d4cfcd93797cf30c7c75c05d8a1e7"
     },
     {
-      "path": "public/assets/videos/home-cinema-v2-balanced.mp4",
-      "bytes": 5698844,
+      "path": "public/assets/videos/dubai-cinema-v3-balanced.mp4",
+      "bytes": 6960238,
       "category": "public-asset",
-      "sha256": "0831d55dbf9a922fc1dcc81fa5ee2eb55ffaaf80bd81a0d0788d03587d3c4e53"
+      "sha256": "d645e258c2743903fd65325a094925fb53ee8107d3ee3b20365abe7af52edbd9"
     },
     {
-      "path": "public/assets/videos/home-cinema-v2-desktop.mp4",
-      "bytes": 23630134,
+      "path": "public/assets/videos/dubai-cinema-v3-desktop.mp4",
+      "bytes": 19210370,
       "category": "public-asset",
-      "sha256": "231d984a23cb75532fe0bfcaab618e76acf8c52a1c30e593b96e96dc301c8d39"
+      "sha256": "33ed7ca324ef71aa499dbf0adf1c037176bbb77f08bd7b5d8a591d010bcfafa9"
     },
     {
-      "path": "public/assets/videos/home-cinema-v2-lite.mp4",
-      "bytes": 3182254,
+      "path": "public/assets/videos/dubai-cinema-v3-economy.mp4",
+      "bytes": 1144442,
       "category": "public-asset",
-      "sha256": "fba66d15671e99a8de4b2cb6d9d9d2925909092648214c6bc3d33cefd97bf302"
+      "sha256": "919c79efd203f9e4c7bb630951005689d5cf5bf08d957e6c5903c83180a442bb"
     },
     {
-      "path": "public/assets/videos/home-cinema-v2-mobile.mp4",
-      "bytes": 10304506,
+      "path": "public/assets/videos/dubai-cinema-v3-lite.mp4",
+      "bytes": 1167985,
       "category": "public-asset",
-      "sha256": "9bd46c07d1068a136d33d99b2f2d21fe1edbcb3612f2d93d68440f56ea527e30"
+      "sha256": "d8150eac8a61e23da4548112442e20b7173a19e320cd476071b56bb685c19ff2"
+    },
+    {
+      "path": "public/assets/videos/dubai-cinema-v3-mobile.mp4",
+      "bytes": 14027821,
+      "category": "public-asset",
+      "sha256": "f85f5d3643a81a78aaa178a70d977df0eb1549ffcfb25c45d9274c69eb8c5c24"
     },
     {
       "path": "public/assets/videos/home-cinema-v2-poster.webp",
-      "bytes": 487880,
+      "bytes": 1369408,
       "category": "public-asset",
-      "sha256": "c872a2a3070458bbbf1da9019a74b258b1c5854e9fcdc8e087ed562f5544850b"
+      "sha256": "6d3a806cca1b7e9bd0f8498253e8b51c0d6633034c6895c9728e937700c00d7a"
     },
     {
-      "path": "public/assets/videos/kashmir-cinema-v2-balanced.mp4",
-      "bytes": 5438706,
+      "path": "public/assets/videos/home-cinema-v3-4k-hevc.mp4",
+      "bytes": 20356204,
       "category": "public-asset",
-      "sha256": "3640ae1f36cfe4cbac66d391156496f25d694020377a9033f1ed34cafb3a5451"
+      "sha256": "11b9523ac17e105f2cd41c6f6d7aabed47da36a1713bef651aecfa0cb9fb928c"
     },
     {
-      "path": "public/assets/videos/kashmir-cinema-v2-desktop.mp4",
-      "bytes": 23826157,
+      "path": "public/assets/videos/home-cinema-v3-4k.mp4",
+      "bytes": 36107935,
       "category": "public-asset",
-      "sha256": "b93c1e58fdc8895c9c7daae123f3c73141cbba9702349bf0a22c2557f7b92df0"
+      "sha256": "871f98eba6592e135a1b5388e9a973b4bf028d2fa871b7cb4778f5b741c53091"
     },
     {
-      "path": "public/assets/videos/kashmir-cinema-v2-lite.mp4",
-      "bytes": 3110079,
+      "path": "public/assets/videos/home-cinema-v3-balanced.mp4",
+      "bytes": 6898234,
       "category": "public-asset",
-      "sha256": "6771b55ef9e69ce99839271183b788fff3e21f6aaf0c1cad5863fa0531e53a95"
+      "sha256": "d160f7e2cedf1eb17898f9873ab2e734a6f05c3315aa7c149ffdacc213f34d69"
     },
     {
-      "path": "public/assets/videos/kashmir-cinema-v2-mobile.mp4",
-      "bytes": 10636672,
+      "path": "public/assets/videos/home-cinema-v3-desktop.mp4",
+      "bytes": 19088610,
       "category": "public-asset",
-      "sha256": "e8b88e0918c64bc0639ca872c798fea3ee1b735abc442abb020cda7a2b090885"
+      "sha256": "d10cbe76154e83332a6f4078dc97913d3c40e17ce40c225e78d427508ac771cd"
+    },
+    {
+      "path": "public/assets/videos/home-cinema-v3-economy.mp4",
+      "bytes": 1174032,
+      "category": "public-asset",
+      "sha256": "fdd04528b822cc7efc58a3a57f270cb7d61ff87ecf5916016e7bb94a7bcd3d9d"
+    },
+    {
+      "path": "public/assets/videos/home-cinema-v3-lite.mp4",
+      "bytes": 1165894,
+      "category": "public-asset",
+      "sha256": "1d44c5d76859aea2a178739c6d15be0dce1fcb8e21934fe3231cf70b26fd3aec"
+    },
+    {
+      "path": "public/assets/videos/home-cinema-v3-mobile.mp4",
+      "bytes": 13752626,
+      "category": "public-asset",
+      "sha256": "22697a2b7ff923ed8e1b07b20f741b9b84159597bc38b020799d428d14887588"
+    },
+    {
+      "path": "public/assets/videos/home-destinations-drone-cc-scene-8.mp4",
+      "bytes": 3421062,
+      "category": "public-asset",
+      "sha256": "4bb28aed11c39794e1a71339149b4d4709609d099be11e28148d36c8a7770f9e"
     },
     {
       "path": "public/assets/videos/kashmir-cinema-v2-poster.webp",
-      "bytes": 328192,
+      "bytes": 890678,
       "category": "public-asset",
-      "sha256": "ad7f10eefcca9ba8e4595deaffcb92691146025ddf889977fc16daadbfe26638"
+      "sha256": "ae3e90fc4e81e120b293729c1d8141c9ae81e8b2c42c800a98c53c726251a367"
     },
     {
-      "path": "public/assets/videos/kerala-cinema-v2-balanced.mp4",
-      "bytes": 5597994,
+      "path": "public/assets/videos/kashmir-cinema-v3-balanced.mp4",
+      "bytes": 6767540,
       "category": "public-asset",
-      "sha256": "e1e9b495ae5b6036b55c75e38a63b7d6c49b91097b2d0f2c86565de846726d02"
+      "sha256": "21e78e1cbc59563232cca3591518c541e118c1212bc39d071b03df0fe7b45df0"
     },
     {
-      "path": "public/assets/videos/kerala-cinema-v2-desktop.mp4",
-      "bytes": 23503765,
+      "path": "public/assets/videos/kashmir-cinema-v3-desktop.mp4",
+      "bytes": 18784232,
       "category": "public-asset",
-      "sha256": "216ee9dda0762b50e85cda5477af1a07fe1c054c3ff7fc6f4863007088e4f678"
+      "sha256": "c22fe7e381c3a5c4cdb490657e11f754c4cf10c6e73ffcf119a0dc2cffd439b7"
     },
     {
-      "path": "public/assets/videos/kerala-cinema-v2-lite.mp4",
-      "bytes": 2990247,
+      "path": "public/assets/videos/kashmir-cinema-v3-economy.mp4",
+      "bytes": 1160240,
       "category": "public-asset",
-      "sha256": "32825b2a0e96a5d5e03e1e3ea8de404a1a204b7323e61927e34eb04a2ea03d44"
+      "sha256": "7b97dbbcb39e8437a7e0a9f7365233dd6b9e6ee75bbbfaf8bb2f546e65bb8057"
     },
     {
-      "path": "public/assets/videos/kerala-cinema-v2-mobile.mp4",
-      "bytes": 10228145,
+      "path": "public/assets/videos/kashmir-cinema-v3-lite.mp4",
+      "bytes": 1121202,
       "category": "public-asset",
-      "sha256": "55729b4bed6d1785c3005af9955586d2beb53b8f976e3c015639d2f9ad3f668f"
+      "sha256": "6a5829f8c3728a8d8d6d7d3105fe3354e216c26777d6b543224457b7f3a6d288"
+    },
+    {
+      "path": "public/assets/videos/kashmir-cinema-v3-mobile.mp4",
+      "bytes": 13454525,
+      "category": "public-asset",
+      "sha256": "71b4f72d1bf539d2f4d8c76a4008c36a8584a11fa530a7744c91e138e8146dd5"
     },
     {
       "path": "public/assets/videos/kerala-cinema-v2-poster.webp",
-      "bytes": 217386,
+      "bytes": 620432,
       "category": "public-asset",
-      "sha256": "1a4136ac3dd88abff02095f297fa9e49007a7c3d6862b2210ae2170ebbd62141"
+      "sha256": "27bff5affae942f3f1112647fc0c9b362434ca7e44793ff838cf46da9daf9a2d"
     },
     {
-      "path": "public/assets/videos/nepal-cinema-v2-balanced.mp4",
-      "bytes": 5438391,
+      "path": "public/assets/videos/kerala-cinema-v3-balanced.mp4",
+      "bytes": 7099946,
       "category": "public-asset",
-      "sha256": "d1b6ef63065ea8c87431b928f522270d1d06f23e09f4ffde8670ab11fa67eb1d"
+      "sha256": "76942335149aa4eb0645c8f0a3d6229d04790e75e325661bf986bfa5e9816056"
     },
     {
-      "path": "public/assets/videos/nepal-cinema-v2-desktop.mp4",
-      "bytes": 23519413,
+      "path": "public/assets/videos/kerala-cinema-v3-desktop.mp4",
+      "bytes": 19516353,
       "category": "public-asset",
-      "sha256": "a55f54855a42bd95f1d8dd530df3e4a560ec8f36df8b0caf6792d72d43214c44"
+      "sha256": "5d81bf23862902e174e8bdae39232339cf32686d754c6c1cb7d8038bbdb8ce77"
     },
     {
-      "path": "public/assets/videos/nepal-cinema-v2-lite.mp4",
-      "bytes": 3219628,
+      "path": "public/assets/videos/kerala-cinema-v3-economy.mp4",
+      "bytes": 1226302,
       "category": "public-asset",
-      "sha256": "4805516e16f9e93a0b446e1d4350d8916a49c5641dee34ea4fdccce8ac8d0185"
+      "sha256": "b42509fdeaedc42be88c3c416a304fda984c00be216ae5a1cfa75e7931ea71f4"
     },
     {
-      "path": "public/assets/videos/nepal-cinema-v2-mobile.mp4",
-      "bytes": 10144544,
+      "path": "public/assets/videos/kerala-cinema-v3-lite.mp4",
+      "bytes": 1179303,
       "category": "public-asset",
-      "sha256": "8f624835d456cd4b9e23d1209940d0a9f92b7c57541c3e15d59e348e554aa159"
+      "sha256": "3799bfe08cbe2e5abfbbfdd444527dcc273444e965e2aa5838548e13713e3a00"
+    },
+    {
+      "path": "public/assets/videos/kerala-cinema-v3-mobile.mp4",
+      "bytes": 14061521,
+      "category": "public-asset",
+      "sha256": "4ab7c13d487fcb38354c2dd6ad5296baa750f25b67b48585d3db92103d978bac"
     },
     {
       "path": "public/assets/videos/nepal-cinema-v2-poster.webp",
-      "bytes": 138328,
+      "bytes": 397998,
       "category": "public-asset",
-      "sha256": "2e39ec76c6dcc0b2b6d7d250523f10af03ad83d5084693da0a7310ed2b2a068d"
+      "sha256": "a82c30081392e2e13d4289aa1525d67338ce5ccf3cb2e3c78eb0885260fdb804"
+    },
+    {
+      "path": "public/assets/videos/nepal-cinema-v3-balanced.mp4",
+      "bytes": 6830473,
+      "category": "public-asset",
+      "sha256": "c88d08148ab6b0daa05b2ece0303b3acd82b98a70e6e63a73045d4c2b0a4a93e"
+    },
+    {
+      "path": "public/assets/videos/nepal-cinema-v3-desktop.mp4",
+      "bytes": 18879128,
+      "category": "public-asset",
+      "sha256": "3115a8373351213cba805406283b7c922c97175688eb47244b49c86ee85d8a94"
+    },
+    {
+      "path": "public/assets/videos/nepal-cinema-v3-economy.mp4",
+      "bytes": 1176950,
+      "category": "public-asset",
+      "sha256": "6f339d1bcc92916905765cc585bbcee117df2b06c6def86f09e7a4a33d32cca5"
+    },
+    {
+      "path": "public/assets/videos/nepal-cinema-v3-lite.mp4",
+      "bytes": 1155059,
+      "category": "public-asset",
+      "sha256": "f931d1bd6c997c2b9219d5f2cd6f7e7cfbcd88fafc7b502fbd1f31cba1f60879"
+    },
+    {
+      "path": "public/assets/videos/nepal-cinema-v3-mobile.mp4",
+      "bytes": 13565285,
+      "category": "public-asset",
+      "sha256": "b0f2253e6958de094430e2a35929ee369bff9b10ad6f48d702a471ce1960a360"
     },
     {
       "path": "public/assets/videos/sikkim-cc-scene-1.mp4",
-      "bytes": 3199245,
+      "bytes": 2764596,
       "category": "public-asset",
-      "sha256": "0ab96dad74bbf77e9b49e207aaf5b046ed9017019c06b8b2ed78a95e26a2ba0f"
+      "sha256": "b166472b5e1b95c297ba35beddff43638ec4973f39c5616f9817e5cf7eba661c"
     },
     {
       "path": "public/assets/videos/sikkim-cc-scene-2.mp4",
-      "bytes": 3753827,
+      "bytes": 3471058,
       "category": "public-asset",
-      "sha256": "1953de2dcd61c525386f2e62bb2a30a654866f1ce88e67c577a6d91a412f50c4"
+      "sha256": "08833436ec31366a749e5800f7a35f0ef19b92622fb0187ef2d28f8660d1bc92"
     },
     {
       "path": "public/assets/videos/sikkim-cc-scene-3.mp4",
-      "bytes": 4308753,
+      "bytes": 3548961,
       "category": "public-asset",
-      "sha256": "083f9b99e8b6a704b53ee2e554e84f50b0882e5351bfe64148e3826d6f8cde48"
+      "sha256": "b88320f0874e6d74cad415f8a2e7d37d7ee8f24322ff2a198e2074bf0faf9b12"
     },
     {
       "path": "public/assets/videos/sikkim-cc-scene-5.mp4",
-      "bytes": 4290229,
+      "bytes": 4219707,
       "category": "public-asset",
-      "sha256": "c9852dd8ed4649d680a12a2d011bee9f903507fe634fbd29eaaa697238813547"
+      "sha256": "84341b7d633f1494de56a5994f3d343ca025bbb8cdb718817e28c6121c06f95c"
     },
     {
       "path": "public/assets/videos/sikkim-cc-scene-6.mp4",
-      "bytes": 4017299,
+      "bytes": 3421084,
       "category": "public-asset",
-      "sha256": "560d801520efd9ddeba1b5e3c4cb8626125f79079c560503f085f4b4e8937a98"
+      "sha256": "03caf41f7b06d8b9ec0a29b031512287bc7b4cee68a5d8b9d5b60eb955139f74"
     },
     {
       "path": "public/assets/videos/sikkim-cc-scene-7.mp4",
-      "bytes": 5843222,
+      "bytes": 5913122,
       "category": "public-asset",
-      "sha256": "052862ba9effa9c1340f55055375ad623864b96f1a5c182fa07c5e9916240a4a"
-    },
-    {
-      "path": "public/assets/videos/sikkim-cinema-v2-balanced.mp4",
-      "bytes": 6466978,
-      "category": "public-asset",
-      "sha256": "108a24d3f557086d424f6b526efe6755e08f3f356ddf8c581cb25de7422f13a1"
-    },
-    {
-      "path": "public/assets/videos/sikkim-cinema-v2-desktop.mp4",
-      "bytes": 24237661,
-      "category": "public-asset",
-      "sha256": "788f64ad90a19a0122b0c3c20c83b89923c6d7706683eedcfd961df9678416dd"
-    },
-    {
-      "path": "public/assets/videos/sikkim-cinema-v2-lite.mp4",
-      "bytes": 3632328,
-      "category": "public-asset",
-      "sha256": "bfbe2c91f7b61cdf5061abd25eeb50906907ad22c17afd438d9827fb89142717"
-    },
-    {
-      "path": "public/assets/videos/sikkim-cinema-v2-mobile.mp4",
-      "bytes": 10931052,
-      "category": "public-asset",
-      "sha256": "e91652a9d8969e5a6629d229328dcac2fc8967e9024abf772f0a6dc978c9527e"
+      "sha256": "c87275978a9ac9ee14ca47f5e2210d48577f773e411e2a38703c478ae0ef397a"
     },
     {
       "path": "public/assets/videos/sikkim-cinema-v2-poster.webp",
-      "bytes": 469248,
+      "bytes": 421578,
       "category": "public-asset",
-      "sha256": "a370c7d8501d875d784ab49183e1191e6f17685c374521ed5315e239eee3803c"
+      "sha256": "c556b4a6ac7d54b64b95091a7bd22e74517d48ef2a6d7c6d1e8dbcf80ca27d33"
+    },
+    {
+      "path": "public/assets/videos/sikkim-cinema-v3-balanced.mp4",
+      "bytes": 7592641,
+      "category": "public-asset",
+      "sha256": "3136b4f2131234b09f0d505071cf0de341f54e5e6e38d2d728e705c032e1da5a"
+    },
+    {
+      "path": "public/assets/videos/sikkim-cinema-v3-desktop.mp4",
+      "bytes": 20375740,
+      "category": "public-asset",
+      "sha256": "2ea1b227e3c6466493fabc05564ee49e1c262d04c6d437cfd88df07f77c7e3da"
+    },
+    {
+      "path": "public/assets/videos/sikkim-cinema-v3-economy.mp4",
+      "bytes": 1336883,
+      "category": "public-asset",
+      "sha256": "49a958038416b9136c38265604a7af284dd36b04c2dc88d9cbe4705f1b316c7d"
+    },
+    {
+      "path": "public/assets/videos/sikkim-cinema-v3-lite.mp4",
+      "bytes": 1243994,
+      "category": "public-asset",
+      "sha256": "9be52263f1735d96538e364bedc8f0a00be584b82ff2e1ddf86c61081a6cb8ea"
+    },
+    {
+      "path": "public/assets/videos/sikkim-cinema-v3-mobile.mp4",
+      "bytes": 14622368,
+      "category": "public-asset",
+      "sha256": "f01adde30026f09c80496cb811f9c5488c96334704509ff09361e589b72ecae1"
     },
     {
       "path": "public/file.svg",
@@ -3942,9 +4002,9 @@
     },
     {
       "path": "scripts/audit-premium-films.py",
-      "bytes": 2089,
+      "bytes": 2566,
       "category": "supporting",
-      "sha256": "c025901fdfee982ba3a617a3f51d7f98388124cdd83f9d39c55aca12a8a603eb"
+      "sha256": "94d2117744ca08ea0680895dc8753c314a7094d8d0d79f4a7b092d83515c84ce"
     },
     {
       "path": "scripts/audit-video-encodes.py",
@@ -3960,9 +4020,9 @@
     },
     {
       "path": "scripts/build-premium-films.py",
-      "bytes": 4059,
+      "bytes": 211,
       "category": "supporting",
-      "sha256": "ee663913496d0911102557ae65fbf145178bcfcb54f716a8407b30d77f79bd60"
+      "sha256": "fce9626944f870eaafd43f209738f86da74bf3364e3e1e7ba0c378e01d263852"
     },
     {
       "path": "scripts/build-responsive-images.mjs",
@@ -4044,9 +4104,9 @@
     },
     {
       "path": "scripts/check-premium-experience.mjs",
-      "bytes": 10533,
+      "bytes": 11466,
       "category": "supporting",
-      "sha256": "2e62149125dded7eccc8c68d2f531ae26af120625dac91a324a79f1be0b648fd"
+      "sha256": "f2b0f1f21f140cbb571aecc6294df10fc54192acdcd157e15d5c5add06734739"
     },
     {
       "path": "scripts/check-scenic-videos.mjs",
@@ -4056,9 +4116,21 @@
     },
     {
       "path": "scripts/credit-sikkim-collection.py",
-      "bytes": 1106,
+      "bytes": 1154,
       "category": "supporting",
-      "sha256": "8e2b82189a12145fa5ec084560c1bad56c87980a7e04b65f2de2fefcc855e2dd"
+      "sha256": "659ccf1b96545e1be65aefc507e5c95c50ee7b11b609a1cffdc4ef34ea40b3ef"
+    },
+    {
+      "path": "scripts/encode-4k-cinema.py",
+      "bytes": 216,
+      "category": "supporting",
+      "sha256": "e52b7100e80979a7be380ba30c89baf5640edde17ce159734c28ae6d6c399019"
+    },
+    {
+      "path": "scripts/encode-adaptive-cinema.py",
+      "bytes": 3550,
+      "category": "supporting",
+      "sha256": "becdf8a739724d1d06edb50170e8bdf71429870832522fa5fec213cab1842f08"
     },
     {
       "path": "scripts/encode-destination-montages.py",
@@ -4074,9 +4146,9 @@
     },
     {
       "path": "scripts/finish-premium-films.py",
-      "bytes": 1490,
+      "bytes": 216,
       "category": "supporting",
-      "sha256": "dfa1d98e6441c9307b452be80cc1ff99e505bcc62d46a5e35eb85f11e0b0505b"
+      "sha256": "a6beaf8831f78dbe06aea79e46878d74af303e8ee5f8e1a8fa5ff8bd89cc2296"
     },
     {
       "path": "scripts/import-itineraries.py",
@@ -4206,9 +4278,9 @@
     },
     {
       "path": "src/app/globals.css",
-      "bytes": 63234,
+      "bytes": 63316,
       "category": "application",
-      "sha256": "a7d5445ed1241b0f3b2c3fe9b443eff7fba321872f2c70b9b9aaafc76672dc6a"
+      "sha256": "b748c789b4aa7fe2c6d0813c288332576201af0e21e131555997c959a431c0f3"
     },
     {
       "path": "src/app/icon.png",
@@ -4224,9 +4296,9 @@
     },
     {
       "path": "src/app/layout.tsx",
-      "bytes": 2511,
+      "bytes": 2514,
       "category": "application",
-      "sha256": "a14620ae2f532f42763291bafd39cfbad780a76fa8265bc9861d7a26a4be9141"
+      "sha256": "fb4835056b9b1e9a144885c89b9c4f428bbd26901851c8edcc727987cbfeb083"
     },
     {
       "path": "src/app/mobile-experience.css",
@@ -4284,15 +4356,15 @@
     },
     {
       "path": "src/app/page.tsx",
-      "bytes": 3318,
+      "bytes": 3354,
       "category": "application",
-      "sha256": "d9b74acaa797340f43e50e1d261bb007d006dda719a1e463a3c7fca52c3b3c86"
+      "sha256": "16ced4e4f9373ceb9773ce128ec32e1a21c0ca7b498d3936fba4d6ce7fbf92ea"
     },
     {
       "path": "src/app/photo-credits/page.tsx",
-      "bytes": 5603,
+      "bytes": 5673,
       "category": "application",
-      "sha256": "61ef8e373b45a8fdc415c5873fb7591f01c7d48ce9348e22e8b1e50b1f2eeae1"
+      "sha256": "0711d6a39df208752c257eff8fe3732ed7c3d2dacb3c0624720fc0684017f835"
     },
     {
       "path": "src/app/robots.ts",
@@ -4302,9 +4374,9 @@
     },
     {
       "path": "src/app/scenic-video.css",
-      "bytes": 23371,
+      "bytes": 44459,
       "category": "application",
-      "sha256": "2110827ccac085f65f95f8c7054189875984fa84b57259f3fcc16a4be3fc38fc"
+      "sha256": "25211c0cf5307a59df82859065db61a1b7f06e810fbf227d5c7c3bb68099caab"
     },
     {
       "path": "src/app/services/page.tsx",
@@ -4422,9 +4494,9 @@
     },
     {
       "path": "src/components/HomeHero.tsx",
-      "bytes": 5872,
+      "bytes": 6530,
       "category": "application",
-      "sha256": "a02e350c4707b19ccf4e85700943510d9075c51fc16af3c9974cb9a84d2f2f94"
+      "sha256": "0daa69016a47dab7578e73835934c32cba94ebcd92b393fa969b77a147827647"
     },
     {
       "path": "src/components/InstagramShowcase.tsx",
@@ -4458,9 +4530,9 @@
     },
     {
       "path": "src/components/Navbar.tsx",
-      "bytes": 5456,
+      "bytes": 5604,
       "category": "application",
-      "sha256": "d316572dea54d0f623b8e3a3ef5dc15980e4e4741720c2bcc02e18e13fa034f9"
+      "sha256": "7313072a801e29dfab3cd584fc26ada40ef4317319a6eb8a3fefc9aef233c394"
     },
     {
       "path": "src/components/NavigationHint.tsx",
@@ -4494,9 +4566,9 @@
     },
     {
       "path": "src/components/ScenicVideo.tsx",
-      "bytes": 4799,
+      "bytes": 6215,
       "category": "application",
-      "sha256": "c9093a3d7005812e55dc02abe81d42a2a5685ce464054c22d50a6501413a82df"
+      "sha256": "daeccd16e6a460c349da9645d2e16ee9916c89d18754852e5e5089761b6a9c6d"
     },
     {
       "path": "src/components/ScrollMotion.tsx",
@@ -4596,9 +4668,9 @@
     },
     {
       "path": "src/data/destination-videos.json",
-      "bytes": 46643,
+      "bytes": 47011,
       "category": "application",
-      "sha256": "a98559f2d5e6b1bbb4ac87610b722d390affec83c2d12aa899411deba13ce942"
+      "sha256": "5a022653e525f5c2ecf8dd7421a23db4f21f98b7394d2d7f127620fe94b19339"
     },
     {
       "path": "src/data/google-business.ts",
@@ -4626,9 +4698,9 @@
     },
     {
       "path": "src/data/premium-film-sources.json",
-      "bytes": 46643,
+      "bytes": 47011,
       "category": "application",
-      "sha256": "a98559f2d5e6b1bbb4ac87610b722d390affec83c2d12aa899411deba13ce942"
+      "sha256": "5a022653e525f5c2ecf8dd7421a23db4f21f98b7394d2d7f127620fe94b19339"
     },
     {
       "path": "src/data/priority-photos.json",
@@ -4692,9 +4764,9 @@
     },
     {
       "path": "src/lib/media-policy.ts",
-      "bytes": 1146,
+      "bytes": 1376,
       "category": "application",
-      "sha256": "a706fddd8af72128f95609f822fbcf7ed62bb8219e3fa21a2e8f2afc8925876b"
+      "sha256": "eb8839aae0de1397b57e85bf327ed906eb99ad1a433027ee43811d6e43266db5"
     },
     {
       "path": "src/lib/package-catalogue.ts",
@@ -4764,9 +4836,9 @@
     },
     {
       "path": "tests/media-policy.test.mjs",
-      "bytes": 1344,
+      "bytes": 2014,
       "category": "supporting",
-      "sha256": "f96e59051b33dd40b113722842288caf2fc4a9b6fa7819f3462d07b884670fd0"
+      "sha256": "a7977a95cff52bb5acc4dec491d439a6ce607fcc7f73294d8c7e1db13f169895"
     },
     {
       "path": "tests/package-catalogue.test.mjs",

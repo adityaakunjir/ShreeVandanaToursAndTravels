@@ -18,7 +18,7 @@
     "destinationSlugs": [
       "nepal"
     ],
-    "assetBase": "nepal-cinema-v2",
+    "assetBase": "nepal-cinema-v3",
     "shots": [
       {
         "id": "32971668",
@@ -189,7 +189,8 @@
         "timelineEnd": 40,
         "focusY": 0.5
       }
-    ]
+    ],
+    "native4k": false
   },
   {
     "id": "dubai",
@@ -211,7 +212,7 @@
       "dubai",
       "united-arab-emirates"
     ],
-    "assetBase": "dubai-cinema-v2",
+    "assetBase": "dubai-cinema-v3",
     "shots": [
       {
         "id": "31257785",
@@ -382,7 +383,8 @@
         "timelineEnd": 40,
         "focusY": 0.5
       }
-    ]
+    ],
+    "native4k": false
   },
   {
     "id": "kerala",
@@ -405,7 +407,7 @@
     "destinationSlugs": [
       "kerala"
     ],
-    "assetBase": "kerala-cinema-v2",
+    "assetBase": "kerala-cinema-v3",
     "shots": [
       {
         "id": "29041046",
@@ -576,7 +578,8 @@
         "timelineEnd": 40,
         "focusY": 0.5
       }
-    ]
+    ],
+    "native4k": false
   },
   {
     "id": "kashmir",
@@ -598,7 +601,7 @@
     "destinationSlugs": [
       "kashmir"
     ],
-    "assetBase": "kashmir-cinema-v2",
+    "assetBase": "kashmir-cinema-v3",
     "shots": [
       {
         "id": "33333520",
@@ -769,7 +772,8 @@
         "timelineEnd": 40,
         "focusY": 0.5
       }
-    ]
+    ],
+    "native4k": false
   },
   {
     "id": "sikkim",
@@ -790,7 +794,7 @@
     "destinationSlugs": [
       "sikkim-darjeeling"
     ],
-    "assetBase": "sikkim-cinema-v2",
+    "assetBase": "sikkim-cinema-v3",
     "shots": [
       {
         "id": "darjeeling-train",
@@ -968,15 +972,16 @@
         "timelineStart": 35,
         "timelineEnd": 40
       }
-    ]
+    ],
+    "native4k": false
   },
   {
     "id": "home-destinations-drone",
     "label": "Coasts, mountain valleys and skylines across our favourite destinations",
-    "assetBase": "home-cinema-v2",
+    "assetBase": "home-cinema-v3",
     "source": "https://www.pexels.com/video/nepali-mountain-in-nepal-27817152/",
     "author": "Individual cinematographers credited below",
-    "license": "Pexels License",
+    "license": "Scene-specific licences",
     "licenseUrl": "https://www.pexels.com/license/",
     "checked": "2026-11-03",
     "start": 0,
@@ -1090,19 +1095,19 @@
         "focusY": 0.5
       },
       {
-        "id": "19233957",
-        "label": "Pokhara city and Himalayan skyline",
-        "author": "binaya magar",
-        "source": "https://www.pexels.com/video/pokhara-city-19233957/",
-        "downloadUrl": "https://www.pexels.com/download/video/19233957/",
+        "id": "30346373",
+        "label": "Marina skyline reflected in water",
+        "author": "Nelemson G",
+        "source": "https://www.pexels.com/video/scenic-dubai-marina-skyline-at-sunset-30346373/",
+        "downloadUrl": "https://www.pexels.com/download/video/30346373/",
         "license": "Pexels License",
         "licenseUrl": "https://www.pexels.com/license/",
-        "sourceFile": "montage-nepal-19233957.mp4",
-        "sourceBytes": 57503654,
-        "sourceSha256": "5aa6c622f1c8ea81b6a0a5b141bf95cc86fe441cf9fca6117e2168448d5f5a66",
-        "sourceWidth": 2560,
-        "sourceHeight": 1440,
-        "sourceDuration": 33.855,
+        "sourceFile": "montage-dubai-30346373.mp4",
+        "sourceBytes": 54518614,
+        "sourceSha256": "46b355ead398428bad2af50c99cbd91de9850c367a4df39ecb7f2bf6c0c05419",
+        "sourceWidth": 3840,
+        "sourceHeight": 2160,
+        "sourceDuration": 11.866667,
         "start": 0.5,
         "duration": 5,
         "checked": "2026-10-29",
@@ -1133,26 +1138,28 @@
         "focusY": 0.5
       },
       {
-        "id": "33228800",
-        "label": "Aerial forest and mountain road in Sikkim",
-        "author": "Rohit Chandra Lal",
-        "source": "https://www.pexels.com/video/aerial-view-of-misty-mountains-in-sikkim-33228800/",
-        "downloadUrl": "https://www.pexels.com/download/video/33228800/",
-        "license": "Pexels License",
-        "licenseUrl": "https://www.pexels.com/license/",
-        "sourceFile": "premium-sikkim-33228800.mp4",
-        "sourceBytes": 15662468,
-        "sourceSha256": "33634ecd82763625c4044651f25de8e152d6e0cd1b8d4c57c027830f859056ed",
-        "sourceWidth": 1080,
-        "sourceHeight": 1920,
-        "sourceDuration": 14.866667,
+        "id": "ghum-station",
+        "title": "File:Ghum Railway Station, Darjeeling 01.webm",
+        "label": "Ghum Railway Station, Darjeeling",
+        "source": "https://commons.wikimedia.org/wiki/File:Ghum_Railway_Station,_Darjeeling_01.webm",
+        "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ghum_Railway_Station%2C_Darjeeling_01.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "author": "Indrajit Das",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceFile": "montage-sikkim-ghum-station.webm",
+        "sourceBytes": 37000694,
+        "sourceSha256": "e3a317af531c4700b9b366f45ff40aa58b3d090241898605c77826c2ebce829b",
+        "sourceWidth": 3840,
+        "sourceHeight": 2160,
+        "sourceDuration": 12.313,
         "start": 0.5,
         "duration": 5,
-        "checked": "2026-11-03",
-        "focusY": 0.5,
+        "checked": "2026-10-29",
         "timelineStart": 35,
-        "timelineEnd": 40
+        "timelineEnd": 40,
+        "focusY": 0.5
       }
-    ]
+    ],
+    "native4k": true
   }
 ]

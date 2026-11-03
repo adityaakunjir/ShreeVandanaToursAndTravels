@@ -26,7 +26,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     label:
       'Coasts, mountain valleys and skylines across Kerala, Kashmir, Dubai, Nepal and Sikkim',
     tagline: 'Scenic drone flights across India & premier international tours',
-    assetBase: 'home-cinema-v2',
+    assetBase: 'home-cinema-v3',
     fallback: '/assets/videos/home-cinema-v2-poster.webp',
     photoSlug: 'nepal',
     photoCreditLink: '/photo-credits#video-home-destinations-drone',
@@ -36,7 +36,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     name: 'Kerala',
     label: 'Munnar green tea hills and serene backwaters',
     tagline: 'Lush tea plantations, misty Western Ghats & emerald backwaters',
-    assetBase: 'kerala-cinema-v2',
+    assetBase: 'kerala-cinema-v3',
     fallback: priorityPhotos['kerala-kanyakumari'],
     photoSlug: 'kerala-6-days',
     photoCreditLink: '/photo-credits#video-kerala',
@@ -46,7 +46,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     name: 'Kashmir',
     label: 'Dal Lake shikaras and snow-capped Himalayan peaks',
     tagline: 'Pristine mountain lakes, alpine meadows & snow-capped peaks',
-    assetBase: 'kashmir-cinema-v2',
+    assetBase: 'kashmir-cinema-v3',
     fallback: priorityPhotos['kashmir-amritsar-vaishno-devi'],
     photoSlug: 'kashmir-7-days',
     photoCreditLink: '/photo-credits#video-kashmir',
@@ -56,7 +56,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     name: 'Dubai',
     label: 'Dubai Marina skyline, beachfront and golden dunes',
     tagline: 'Futuristic architectural wonders & Arabian desert dunes',
-    assetBase: 'dubai-cinema-v2',
+    assetBase: 'dubai-cinema-v3',
     fallback: priorityPhotos['dubai-abu-dhabi'],
     photoSlug: 'dubai-abu-dhabi',
     photoCreditLink: '/photo-credits#video-dubai',
@@ -66,7 +66,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     name: 'Nepal',
     label: 'Phewa Lake and Annapurna Himalayan mountain range',
     tagline: 'Majestic Himalayan summits, stupas & peaceful mountain lakes',
-    assetBase: 'nepal-cinema-v2',
+    assetBase: 'nepal-cinema-v3',
     fallback: priorityPhotos['nepal'],
     photoSlug: 'nepal',
     photoCreditLink: '/photo-credits#video-nepal',
@@ -76,7 +76,7 @@ const DRONE_DESTINATIONS: DestinationDroneOption[] = [
     name: 'Sikkim',
     label: 'Himalayan ridges, Kanchenjunga views & tea valleys',
     tagline: 'Misty mountain ridges & tranquil Eastern Himalayan plateaus',
-    assetBase: 'sikkim-cinema-v2',
+    assetBase: 'sikkim-cinema-v3',
     fallback: priorityPhotos['darjeeling-gangtok-pelling'],
     photoSlug: 'darjeeling-gangtok-pelling',
     photoCreditLink: '/photo-credits#video-sikkim',
@@ -103,6 +103,7 @@ export default function HomeHero() {
           alt={`Scenic drone footage: ${selected.label}`}
           sizes="100vw"
           priority
+          native4k={selected.id === 'all'}
         />
       </ParallaxHero>
       <div className="curated-hero-shade" />
@@ -116,7 +117,8 @@ export default function HomeHero() {
             <em>Feel more.</em>
           </h1>
           <p className="hero-description">
-            Personal holidays. Thoughtfully planned by our family-run team in Pune.
+            Personal holidays. Thoughtfully planned by our family-run team in
+            Pune.
           </p>
           <div className="hero-actions">
             <Link
@@ -128,7 +130,9 @@ export default function HomeHero() {
               className="button warm hero-primary-btn"
             >
               <span>
-                {selected.id === 'all' ? 'Explore tours' : `Explore ${selected.name}`}
+                {selected.id === 'all'
+                  ? 'Explore tours'
+                  : `Explore ${selected.name}`}
               </span>
               <ArrowUpRight size={17} />
             </Link>
@@ -176,7 +180,9 @@ export default function HomeHero() {
                   const choices = DRONE_DESTINATIONS.filter(
                     (d) => d.id !== 'all' && d.id !== selected.id,
                   );
-                  setSelected(choices[Math.floor(Math.random() * choices.length)]);
+                  setSelected(
+                    choices[Math.floor(Math.random() * choices.length)],
+                  );
                 }}
               >
                 <Shuffle size={15} aria-hidden="true" />

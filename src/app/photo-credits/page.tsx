@@ -23,10 +23,10 @@ export default function PhotoCredits() {
             <p>
               Eight separately credited source clips, each edited to five
               seconds.{' '}
-              {clip.id === 'sikkim'
+              {clip.license === 'Scene-specific licences'
                 ? 'Each scene retains its own licence. Creative Commons excerpts retain the listed CC terms; Pexels excerpts retain the Pexels License.'
                 : 'Source footage licensed under '}
-              {clip.id !== 'sikkim' && (
+              {clip.license !== 'Scene-specific licences' && (
                 <>
                   <a
                     href={clip.licenseUrl}
@@ -94,13 +94,13 @@ export default function PhotoCredits() {
                         . Licence checked {shot.checked}. A five-second excerpt
                         is cropped, resized, silenced and joined into this
                         montage.
-                        {clip.id === 'sikkim' &&
+                        {clip.license === 'Scene-specific licences' &&
                           shot.license.startsWith('CC') && (
                             <>
                               {' '}
                               The edited excerpt retains {shot.license}.{' '}
                               <a
-                                href={`/assets/videos/sikkim-cc-scene-${index + 1}.mp4`}
+                                href={`/assets/videos/${clip.id}-cc-scene-${index + 1}.mp4`}
                               >
                                 Download this edited excerpt
                               </a>

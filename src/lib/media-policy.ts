@@ -38,11 +38,16 @@ export function mediaPolicy({
   return {
     autoplay: !reduced && !connection?.saveData,
     profile: wide
-      ? premium
-        ? fourK
-          ? '4k'
-          : 'desktop'
-        : 'balanced'
+      ? slow
+        ? 'economy'
+        : premium
+          ? fourK &&
+            (cores || 0) >= 8 &&
+            (memory || 0) >= 8 &&
+            (connection?.downlink || 0) >= 15
+            ? '4k'
+            : 'desktop'
+          : 'balanced'
       : premium
         ? 'mobile'
         : 'lite',
