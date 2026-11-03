@@ -182,10 +182,6 @@ export default function HomeHero() {
                 <Shuffle size={15} aria-hidden="true" />
               </button>
             </div>
-            <div className="drone-active-tagline">
-              <span className="drone-pin" aria-hidden="true">📍</span>
-              <span>{selected.tagline}</span>
-            </div>
           </div>
         </div>
 
