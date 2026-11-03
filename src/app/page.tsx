@@ -10,7 +10,9 @@ import GoogleReviews from '@/components/GoogleReviews';
 import HomeHero from '@/components/HomeHero';
 
 export const metadata = {
-  title: 'Domestic & International Holidays from Pune',
+  title: {
+    absolute: 'Shree Vandana Tours & Travels | Curated Holidays from Pune',
+  },
   description:
     'Discover Dubai, Nepal, Kerala, Kashmir and Sikkim holidays with Shree Vandana Tours & Travels, Pune. Explore itineraries and plan directly with our team on WhatsApp.',
   alternates: { canonical: '/' },

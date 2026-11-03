@@ -22,7 +22,7 @@ const geist = Geist({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Tours & Travels in Pune | Shree Vandana Tours & Travels',
+    default: 'Shree Vandana Tours & Travels | Curated Holidays from Pune',
     template: '%s | Shree Vandana Travels',
   },
   description:
