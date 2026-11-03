@@ -35,12 +35,16 @@ export default function ScenicVideo({
       deviceMemory?: number;
       connection?: MediaConnection;
     };
+    const isHighDpi =
+      typeof window !== 'undefined' &&
+      (window.devicePixelRatio >= 1.25 || window.innerWidth >= 1440);
     return mediaPolicy({
       wide: matchMedia('(min-width: 901px)').matches,
       reduced: matchMedia('(prefers-reduced-motion: reduce)').matches,
       cores: device.hardwareConcurrency,
       memory: device.deviceMemory,
       connection: device.connection,
+      fourK: isHighDpi,
     });
   }
   function loadAndPlay() {
@@ -49,7 +53,12 @@ export default function ScenicVideo({
     if (!loaded.current) {
       const profile = policy().profile;
       element.dataset.variant = profile;
-      element.src = '/assets/videos/' + assetBase + '-' + profile + '.mp4';
+      // Modern WebM (VP9) delivers 4K & HD with 40-50% smaller file size and sharper clarity
+      const supportsWebm = Boolean(
+        element.canPlayType && element.canPlayType('video/webm').replace(/no/, ''),
+      );
+      const ext = supportsWebm ? '.webm' : '.mp4';
+      element.src = '/assets/videos/' + assetBase + '-' + profile + ext;
       element.muted = true;
       loaded.current = true;
       element.load();
@@ -139,7 +148,7 @@ export default function ScenicVideo({
         alt={alt}
         fill
         sizes={sizes}
-        quality={75}
+        quality={88}
         loading={priority ? 'eager' : 'lazy'}
         fetchPriority={priority ? 'high' : undefined}
       />
@@ -155,9 +164,18 @@ export default function ScenicVideo({
           setReady(true);
         }}
         onError={() => {
+          const el = video.current;
+          // Gracefully fallback to desktop MP4 if 4K or WebM is unsupported by this specific device
+          if (el && el.dataset.variant === '4k') {
+            el.dataset.variant = 'desktop';
+            el.src = '/assets/videos/' + assetBase + '-desktop.mp4';
+            el.load();
+            void el.play().catch(() => setReady(false));
+            return;
+          }
           failed.current = true;
           setReady(false);
-          video.current?.removeAttribute('src');
+          el?.removeAttribute('src');
         }}
       />
     </div>

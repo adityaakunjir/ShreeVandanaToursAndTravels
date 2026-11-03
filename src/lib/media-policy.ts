@@ -12,12 +12,14 @@ export function mediaPolicy({
   cores,
   memory,
   connection,
+  fourK = false,
 }: {
   wide: boolean;
   reduced?: boolean;
   cores?: number;
   memory?: number;
   connection?: MediaConnection;
+  fourK?: boolean;
 }) {
   const slow = Boolean(
     connection?.saveData ||
@@ -37,7 +39,9 @@ export function mediaPolicy({
     autoplay: !reduced && !connection?.saveData,
     profile: wide
       ? premium
-        ? 'desktop'
+        ? fourK
+          ? '4k'
+          : 'desktop'
         : 'balanced'
       : premium
         ? 'mobile'
