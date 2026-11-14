@@ -1,7 +1,7 @@
 'use client';
 import Image from '@/components/TravelImage';
 import { useEffect, useRef, useState } from 'react';
-import { X, ArrowLeft, ArrowRight, Expand } from 'lucide-react';
+import { X, ArrowLeft, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import sourcePhotos from '@/data/tour-photos.json';
 const photos = sourcePhotos.map((p) => ({
@@ -11,6 +11,7 @@ const photos = sourcePhotos.map((p) => ({
 }));
 export default function GalleryViewer() {
   const [active, setActive] = useState<number | null>(null);
+  const [showAll, setShowAll] = useState(false);
   const dialog = useRef<HTMLDialogElement>(null);
   const opener = useRef<HTMLButtonElement | null>(null);
   const touchStart = useRef<{ x: number; y: number } | null>(null);
@@ -36,7 +37,7 @@ export default function GalleryViewer() {
   return (
     <>
       <div className="photo-grid">
-        {photos.map((photo, index) => (
+        {photos.slice(0, showAll ? photos.length : 12).map((photo, index) => (
           <button
             className="photo-tile"
             key={photo.src}
@@ -53,13 +54,15 @@ export default function GalleryViewer() {
               quality={60}
               sizes="(max-width:640px) 45vw, (max-width:900px) 45vw, 380px"
             />
-            <span>
-              {photo.label}
-              <Expand size={15} />
-            </span>
+            <span>{photo.label}</span>
           </button>
         ))}
       </div>
+      {!showAll && photos.length > 12 && (
+        <button className="gallery-show-all" onClick={() => setShowAll(true)}>
+          Show all {photos.length} photos
+        </button>
+      )}
       <dialog
         ref={dialog}
         className="photo-dialog"

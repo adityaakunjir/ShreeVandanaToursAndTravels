@@ -40,8 +40,8 @@ export default function InstagramShowcase() {
     <section id="instagram" className="section wrap">
       <div className="section-heading">
         <div>
-          <p className="eyebrow">OUR JOURNEYS, IN MOTION</p>
-          <h2>From our journeys.</h2>
+          <p className="eyebrow">ON INSTAGRAM</p>
+          <h2>Travel reels</h2>
         </div>
         <a
           className="text-link"
@@ -58,8 +58,7 @@ export default function InstagramShowcase() {
         ))}
       </div>
       <p className="reel-disclaimer">
-        Selected reels from our Instagram page. If a reel doesn’t load, open it
-        on Instagram. Instagram may require sign-in.
+        Instagram may ask you to sign in to watch.
       </p>
     </section>
   );
