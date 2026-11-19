@@ -7,7 +7,12 @@ export const business = {
   brandColors: { primary: '#b72d29', secondary: '#2b362f' },
   contact: {
     ...client.contact,
-    email: 'shreevandanatravels@gmail.com',
+    email: 'info@shreevandanatoursandtravels.com',
+    emails: [
+      'info@shreevandanatoursandtravels.com',
+      'sales@shreevandanatoursandtravels.com',
+      'shreevandanatravels@gmail.com',
+    ],
     address:
       'Sr No. 2/7/2, Shop no. 1, Lodha Complex, Shanti Dham Road, Dhankawadi, Pune 411043, Maharashtra, India',
   },

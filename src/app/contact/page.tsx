@@ -48,10 +48,12 @@ export default function ContactPage() {
           <article>
             <Mail size={23} />
             <h2>Write to us</h2>
-            <a href={`mailto:${business.contact.email}`}>
-              {business.contact.email}
-              <ArrowUpRight size={16} />
-            </a>
+            {business.contact.emails.map((email) => (
+              <a href={`mailto:${email}`} key={email}>
+                {email}
+                <ArrowUpRight size={16} />
+              </a>
+            ))}
           </article>
         </div>
         <div className="office-card">

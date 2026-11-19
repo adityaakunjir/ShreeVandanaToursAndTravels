@@ -71,10 +71,12 @@ export default function Footer() {
               {phone.display}
             </a>
           ))}
-          <a href={`mailto:${business.contact.email}`}>
-            <Mail size={16} />
-            {business.contact.email}
-          </a>
+          {business.contact.emails.map((email) => (
+            <a key={email} href={`mailto:${email}`}>
+              <Mail size={16} />
+              {email}
+            </a>
+          ))}
           <a href={business.map} target="_blank" rel="noopener noreferrer">
             <MapPin size={18} />
             <span>{business.contact.address}</span>
