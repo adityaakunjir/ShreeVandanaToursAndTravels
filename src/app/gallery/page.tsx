@@ -1,14 +1,15 @@
 import type { Metadata } from 'next';
 import { ArrowDown, ArrowUpRight } from 'lucide-react';
+import tours from '@/data/catalogue';
 import GalleryViewer from '@/components/GalleryViewer';
 import InstagramShowcase from '@/components/InstagramShowcase';
 import Breadcrumb from '@/components/Breadcrumb';
 import { googleBusiness } from '@/data/google-business';
 
 export const metadata: Metadata = {
-  title: 'Travel gallery',
+  title: 'Destination photography and travel reels',
   description:
-    'Browse destination photos and travel reels from Shree Vandana Tours & Travels.',
+    'Browse destination landscapes, explore related itineraries and watch travel reels from Shree Vandana Tours & Travels, Pune.',
   alternates: { canonical: '/gallery' },
 };
 
@@ -23,11 +24,11 @@ export default function GalleryPage() {
           ]}
         />
         <p className="eyebrow">TRAVEL GALLERY</p>
-        <h1>A little inspiration.</h1>
-        <p>Places to see. Journeys to imagine.</p>
+        <h1>Moments &amp; inspiration.</h1>
+        <p>Find a view you love. Open the photo to explore its itinerary.</p>
         <nav className="gallery-shortcuts" aria-label="Gallery sections">
           <a href="#gallery-photos">
-            Photos <ArrowDown size={15} />
+            Tour Photos <ArrowDown size={15} />
           </a>
           <a href="#instagram">
             Reels <ArrowDown size={15} />
@@ -38,9 +39,9 @@ export default function GalleryPage() {
       <section
         className="section wrap gallery-photos"
         id="gallery-photos"
-        aria-label="Destination photos"
+        aria-label="Travel photos"
       >
-        <GalleryViewer />
+        <GalleryViewer india={tours.filter(t => t.region === 'India').map(t => t.slug)} />
         <div className="gallery-quiet-links">
           <a href="/photo-credits">Photo credits</a>
           <a

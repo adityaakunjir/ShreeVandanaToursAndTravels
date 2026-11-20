@@ -2,95 +2,48 @@
 
 import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
-import { mediaPolicy } from '@/lib/media-policy';
+import './destination-atlas.css';
 
-const targets =
-  '.section-heading, .brochure-tour-card, .travel-style-card, .world-card, .story-content, .atlas-grid > a, .why-list > *, .home-photo-triptych > *, .curated-cta, .route-preview li, .service-detail, .legacy-principles > *, .photo-tile';
-
-/** Content stays visible before hydration, with JavaScript off, and on failure. */
 export default function ScrollMotion() {
   const pathname = usePathname();
-
   useEffect(() => {
     const root = document.getElementById('main-content');
-    if (!root || !('IntersectionObserver' in window)) return;
-    const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
-    const connection = (
-      navigator as Navigator & {
-        connection?: { saveData?: boolean; effectiveType?: string };
-      }
-    ).connection;
-    if (
-      !mediaPolicy({
-        wide: innerWidth > 900,
-        reduced: preference.matches,
-        cores: navigator.hardwareConcurrency,
-        memory: (navigator as Navigator & { deviceMemory?: number })
-          .deviceMemory,
-        connection,
-      }).richMotion
-    )
-      return;
-    const seen = new WeakSet<Element>();
-    const running = new Set<Animation>();
-    const observer = new IntersectionObserver(
-      (entries) => {
-        let order = 0;
-        for (const entry of entries) {
-          if (!entry.isIntersecting) continue;
-          observer.unobserve(entry.target);
-          if (preference.matches) continue;
-          const direction = entry.target.matches(
-            '.route-preview li, .legacy-principles > *',
-          )
-            ? '-14px 0'
-            : entry.target.matches('.story-content, .service-detail')
-              ? '12px 16px'
-              : '0 18px';
-          const animation = entry.target.animate(
-            [
-              { opacity: 0.35, translate: direction },
-              { opacity: 1, translate: '0 0' },
-            ],
-            {
-              duration: 460,
-              delay: Math.min(order++, 3) * 45,
-              easing: 'cubic-bezier(.22,1,.36,1)',
-            },
-          );
-          running.add(animation);
-          animation.onfinish = () => running.delete(animation);
-        }
-      },
-      { threshold: 0.08 },
-    );
-    const register = () => {
-      root.querySelectorAll(targets).forEach((element) => {
-        if (seen.has(element)) return;
-        seen.add(element);
-        // Leave above-the-fold content and restored scroll positions untouched.
-        if (element.getBoundingClientRect().top >= window.innerHeight) {
-          observer.observe(element);
-        }
-      });
-    };
-    register();
-    const mutations = new MutationObserver(register);
-    mutations.observe(root, { childList: true, subtree: true });
-    const stop = () => {
-      if (preference.matches) {
-        running.forEach((animation) => animation.cancel());
-        running.clear();
-      }
-    };
-    preference.addEventListener('change', stop);
-    return () => {
-      observer.disconnect();
-      mutations.disconnect();
-      preference.removeEventListener('change', stop);
-      running.forEach((animation) => animation.cancel());
-    };
-  }, [pathname]);
+    if (!root) return;
+    const html = document.documentElement;
+    let generation = 0;
+    let cleanup: (() => void) | undefined;
 
+    const sync = async () => {
+      const current = ++generation;
+      cleanup?.();
+      cleanup = undefined;
+      if (html.dataset.experience !== 'rich' || html.dataset.motionPaused === 'true') return;
+      const [{ gsap }, { ScrollTrigger }] = await Promise.all([
+        import('gsap'), import('gsap/ScrollTrigger'),
+      ]);
+      if (generation !== current) return;
+      gsap.registerPlugin(ScrollTrigger);
+      const context = gsap.context(() => {
+        const atlas = root.querySelector('.atlas-fold');
+        if (atlas && matchMedia('(min-width:1050px)').matches) {
+          gsap.to(atlas, { rotationY: 12, rotationZ: -3, yPercent: 16, ease: 'none',
+            scrollTrigger: { trigger: '.home-hero-fullscreen', start: 'top top', end: 'bottom top', scrub: .45 },
+          });
+        }
+        for (const section of root.querySelectorAll('.section-heading, .package-panel, .editorial-intro-layout, .service-detail, .route-preview, .home-discovery, .curated-cta')) {
+          if (section.getBoundingClientRect().top < innerHeight) continue;
+          gsap.from(section, { y: 16, duration: .48, ease: 'power2.out', immediateRender: false,
+            scrollTrigger: { trigger: section, start: 'top 96%', once: true },
+          });
+        }
+      }, root);
+      cleanup = () => context.revert();
+    };
+    const refresh = () => { void sync().catch(() => {}); };
+    const observer = new MutationObserver(refresh);
+    observer.observe(html, { attributes: true, attributeFilter: ['data-experience','data-motion-paused'] });
+    refresh();
+    return () => { generation++; observer.disconnect(); cleanup?.(); };
+  }, [pathname]);
   return null;
 }
