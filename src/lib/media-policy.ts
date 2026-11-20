@@ -5,7 +5,7 @@ export type MediaConnection = {
   rtt?: number;
 };
 
-/** Constrained connections and hardware show the destination poster. */
+/** Capacity selects file size; only explicit browser preferences stop autoplay. */
 export function mediaPolicy({
   wide,
   reduced = false,
@@ -36,7 +36,7 @@ export function mediaPolicy({
     (cores || 0) >= 6 &&
     (connection?.downlink === undefined || connection.downlink >= 6);
   return {
-    autoplay: !reduced && !slow && !limited,
+    autoplay: !reduced && !connection?.saveData,
     profile: wide
       ? slow
         ? 'economy'

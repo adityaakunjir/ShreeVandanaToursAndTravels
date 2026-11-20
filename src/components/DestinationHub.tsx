@@ -26,10 +26,10 @@ export default function DestinationHub({
         path={`/destinations/${hub.slug}`}
         eyebrow="The destination journal"
         title={hub.name}
-        accent="Tour packages"
-        description={`Explore ${routes.length} ${routes.length === 1 ? 'itinerary' : 'itineraries'} with our Pune team. Compare stops and trip lengths, then ask for a quote for your dates.`}
+        accent="A story worth taking."
+        description={`Picture yourself in ${hub.name}. Explore the routes, discover what each day could bring, then shape your holiday with our Pune team.`}
       />
-      <section id="destination-tours" className="section wrap">
+      <section className="section wrap">
         <div className="section-heading">
           <div>
             <p className="eyebrow">THE ROUTES / {hub.name.toUpperCase()}</p>

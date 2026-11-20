@@ -35,7 +35,7 @@ test('modest devices and connections automatically receive lighter files', () =>
       memory: 2,
       connection: { downlink: 0.3 },
     }).autoplay,
-    false,
+    true,
   );
 });
 

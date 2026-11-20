@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { ArrowUpRight, Shuffle, Compass } from 'lucide-react';
+import { ArrowUpRight, Shuffle } from 'lucide-react';
 import WhatsAppLink from './WhatsAppLink';
 import ScenicVideo from './ScenicVideo';
 import ParallaxHero from './ParallaxHero';
@@ -108,25 +108,18 @@ export default function HomeHero() {
       </ParallaxHero>
       <div className="curated-hero-shade" />
 
-
       <div className="wrap home-hero-content">
-        <div className="atlas-object" aria-hidden="true">
-          <div className="atlas-fold" style={{ '--atlas-photo': `url("${selected.id === 'all' ? priorityPhotos.nepal : selected.fallback}")` } as React.CSSProperties}>
-            <i /><i /><i />
-          </div>
-          <div className="atlas-caption"><Compass size={19} />{selected.id === 'all' ? 'India & beyond' : selected.name}</div>
-        </div>
         <div className="curated-hero-copy">
-          <h1 className="hero-title-editorial">
-            Holidays from Pune.
+          <p className="eyebrow">SHREE VANDANA / PUNE TO THE WORLD</p>
+          <h1>
+            Go further.
             <br />
-            <em className="hero-serif-accent">Where to next?</em>
+            <em>Feel more.</em>
           </h1>
-
           <p className="hero-description">
-            Explore India and beyond with our family travel team. Pick a route, browse the day-by-day itinerary and ask us for a personal quote.
+            Personal holidays. Thoughtfully planned by our family-run team in
+            Pune.
           </p>
-
           <div className="hero-actions">
             <Link
               href={
@@ -138,7 +131,7 @@ export default function HomeHero() {
             >
               <span>
                 {selected.id === 'all'
-                  ? 'Explore all tours'
+                  ? 'Explore tours'
                   : `Explore ${selected.name}`}
               </span>
               <ArrowUpRight size={17} />
@@ -150,10 +143,6 @@ export default function HomeHero() {
               <span>Plan on WhatsApp</span>
               <ArrowUpRight size={16} />
             </WhatsAppLink>
-            <a href="#interactive-journey" className="hero-scroll-cue-link">
-              <Compass size={15} />
-              <span>Preview day-by-day</span>
-            </a>
           </div>
 
           {/* Cleanly aligned destination switcher dock */}
@@ -162,7 +151,7 @@ export default function HomeHero() {
             aria-label="Explore places we provide trips of"
           >
             <div className="drone-selector-heading">
-              <span>CHOOSE A DESTINATION</span>
+              <span>DRONE FOOTAGE · OUR DESTINATIONS</span>
             </div>
             <div className="drone-pill-row">
               <div

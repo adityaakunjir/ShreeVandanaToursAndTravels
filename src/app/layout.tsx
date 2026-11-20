@@ -1,7 +1,7 @@
 import { siteUrl } from '@/lib/site-url';
 import photos from '@/data/tour-photos.json';
 import type { Metadata } from 'next';
-import { Geist, Playfair_Display } from 'next/font/google';
+import { Geist } from 'next/font/google';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import MobileDock from '@/components/MobileDock';
@@ -14,15 +14,9 @@ import './motion.css';
 import './mobile-experience.css';
 import './focused-mobile.css';
 import './scenic-video.css';
-import './luxury-revamp.css';
 const geist = Geist({
   subsets: ['latin'],
   variable: '--font-geist',
-  display: 'swap',
-});
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  variable: '--font-display',
   display: 'swap',
 });
 export const metadata: Metadata = {
@@ -66,7 +60,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${geist.variable} ${playfair.variable}`} data-scroll-behavior="smooth">
+    <html lang="en" className={geist.variable} data-scroll-behavior="smooth">
       <body>
         <BusinessStructuredData />
         <ExperienceCapabilities />

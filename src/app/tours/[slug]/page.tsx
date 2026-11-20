@@ -39,17 +39,18 @@ export async function generateMetadata({
     ? ` · ${t.source.order ? 'Newer itinerary' : 'Earlier outline'}`
     : '';
   const title = `${t.name} · ${t.duration} days${variant} from Pune`;
-  const route = t.stops.slice(0, 4).join(', ');
-  const description = `${t.name}, ${t.duration} days from Pune. ${route ? route + '. ' : ''}Explore the itinerary and ask our team for dates and a personal quote.`;
   return {
     title,
-    description,
+    description:
+      `${t.name}, ${t.duration} days. ` +
+      t.summary +
+      ' View the route and enquire on WhatsApp for dates and a quote.',
     alternates: { canonical: `/tours/${t.slug}` },
     openGraph: {
       title,
       url: `/tours/${t.slug}`,
       type: 'website',
-      description,
+      description: t.summary,
       images: photo
         ? [
             {
@@ -64,7 +65,7 @@ export async function generateMetadata({
     twitter: {
       card: 'summary_large_image',
       title,
-      description,
+      description: t.summary,
       images: photo ? [photo.src] : [],
     },
   };

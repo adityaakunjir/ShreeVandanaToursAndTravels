@@ -1,42 +1,27 @@
 import Link from 'next/link';
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight, Users, HeartHandshake } from 'lucide-react';
 import { destinations } from '@/data/site';
-import tours, { tourPhoto } from '@/data/catalogue';
+import tours from '@/data/catalogue';
 import TourCard from '@/components/TourCard';
 import TourDiscovery from '@/components/TourDiscovery';
+import WhatsAppLink from '@/components/WhatsAppLink';
 import InstagramShowcase from '@/components/InstagramShowcase';
 import GoogleReviews from '@/components/GoogleReviews';
 import HomeHero from '@/components/HomeHero';
-import InteractiveJourneyVisualizer from '@/components/InteractiveJourneyVisualizer';
-import WanderlustMoodMatcher from '@/components/WanderlustMoodMatcher';
-import HeritageTrustStats from '@/components/HeritageTrustStats';
 
 export const metadata = {
   title: {
     absolute: 'Shree Vandana Tours & Travels | Curated Holidays from Pune',
   },
   description:
-    'Discover Kashmir, Kerala, Dubai, Nepal, Sikkim and Rajasthan holidays with Shree Vandana Tours & Travels, Pune. Explore day-by-day itineraries and plan directly with our family team on WhatsApp.',
+    'Discover Dubai, Nepal, Kerala, Kashmir and Sikkim holidays with Shree Vandana Tours & Travels, Pune. Explore itineraries and plan directly with our team on WhatsApp.',
   alternates: { canonical: '/' },
 };
 
 export default function Home() {
-  const journeys = ['kashmir-7-days', 'kerala-6-days', 'dubai-delight-6-days'].map(slug => {
-    const tour = tours.find(item => item.slug === slug)!;
-    const photo = tourPhoto(tour)!;
-    return {
-      id: slug, slug, title: tour.name, region: tour.country, duration: tour.duration + ' days', tagline: tour.summary,
-      days: tour.days.map((day, index) => ({
-        day: index + 1, location: day.title, title: day.title, narrative: day.description,
-        image: photo.src, chips: [], altitudeOrVibe: tour.theme,
-      })),
-    };
-  });
   return (
-    <main id="top" className="focused-home luxury-home-revamp">
+    <main id="top" className="focused-home">
       <HomeHero />
-
-      {/* Refined Tour Discovery & Search Bar */}
       <section
         id="discover"
         className="wrap home-discovery"
@@ -44,43 +29,26 @@ export default function Home() {
       >
         <TourDiscovery compact />
       </section>
-
-      {/* Popular Destination Shortcuts */}
       <nav
         className="wrap destination-shortcuts"
         aria-label="Popular destinations"
       >
-        <span className="shortcuts-label">TRENDING DESTINATIONS:</span>
+        <span>POPULAR WITH OUR TRAVELLERS</span>
         {destinations.map((d) => (
-          <Link key={d.slug} href={`/destinations/${d.slug}`} className="shortcut-pill">
-            <span>{d.name}</span>
-            <ArrowUpRight size={13} />
+          <Link key={d.slug} href={`/destinations/${d.slug}`}>
+            {d.name}
+            <ArrowUpRight size={14} />
           </Link>
         ))}
       </nav>
-
-      {/* Signature Interactive Day-by-Day Journey Experience */}
-      <div id="interactive-journey">
-        <InteractiveJourneyVisualizer journeys={journeys} />
-      </div>
-
-      {/* Interactive Mood Matcher */}
-      <WanderlustMoodMatcher />
-
-      {/* Featured Curated Journeys */}
       <section className="section wrap featured-journeys">
         <div className="section-heading">
           <div>
-            <div className="luxury-eyebrow-badge">
-              <span>HANDCRAFTED DEPARTURES</span>
-            </div>
-            <h2>
-              Iconic itineraries. <br />
-              <em>Tailored to your pace.</em>
-            </h2>
+            <p className="eyebrow">START SOMEWHERE GOOD</p>
+            <h2>Your next holiday.</h2>
           </div>
           <Link href="/tours" className="text-link">
-            Explore all {tours.length} tours <ArrowUpRight size={18} />
+            All tours <ArrowUpRight size={18} />
           </Link>
         </div>
         <div className="brochure-tour-grid">
@@ -93,14 +61,40 @@ export default function Home() {
           ))}
         </div>
       </section>
-
-      {/* 35-Year Heritage & Pune Founder Trust Showcase */}
-      <HeritageTrustStats />
-
-      {/* Verified Google Reviews */}
+      <section className="wrap home-personal">
+        <div>
+          <p className="eyebrow">YOUR FRIEND IN TOURISM</p>
+          <h2>
+            A real team.
+            <br />
+            <em>A personal plan.</em>
+          </h2>
+          <p>
+            Three generations of experience, with holidays shaped around your
+            people, pace and interests.
+          </p>
+          <Link href="/about" className="text-link">
+            Meet our travel family <ArrowUpRight size={18} />
+          </Link>
+        </div>
+        <div className="home-service-links">
+          <Link href="/services">
+            <HeartHandshake size={20} />
+            <span>Holidays, tickets, hotels & visa assistance</span>
+            <ArrowUpRight size={18} />
+          </Link>
+          <WhatsAppLink>
+            <Users size={20} />
+            <span>Plan with our Pune team on WhatsApp</span>
+            <ArrowUpRight size={18} />
+          </WhatsAppLink>
+          <Link href="/faq">
+            <span>Questions before you travel?</span>
+            <ArrowUpRight size={18} />
+          </Link>
+        </div>
+      </section>
       <GoogleReviews />
-
-      {/* Instagram Video Showcase */}
       <InstagramShowcase />
     </main>
   );
