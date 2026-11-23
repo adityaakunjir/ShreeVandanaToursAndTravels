@@ -3669,6 +3669,11 @@ button.text-link {
     border-radius: 16px;
   }
 }
+@media (min-width: 1100px) {
+  .client-moments-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
 @media (max-width: 600px) {
   .site-header,
   .mobile-dock,

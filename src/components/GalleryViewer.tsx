@@ -8,8 +8,43 @@ import { googleBusiness } from '@/data/google-business';
 
 const clientMoments = [
   {
+    src: '/assets/images/travellers/beach-group.webp',
+    label: 'A lively group day by the sea',
+    caption:
+      'A traveller moment shared with Shree Vandana Tours & Travels on Google.',
+    sourceHref: googleBusiness.url,
+  },
+  {
+    src: '/assets/images/travellers/cliff-group.webp',
+    label: 'Friends making a playful group memory',
+    caption:
+      'A traveller moment shared with Shree Vandana Tours & Travels on Google.',
+    sourceHref: googleBusiness.url,
+  },
+  {
+    src: '/assets/images/travellers/tower-family.webp',
+    label: 'Families travelling together at a heritage landmark',
+    caption:
+      'A traveller moment shared with Shree Vandana Tours & Travels on Google.',
+    sourceHref: googleBusiness.url,
+  },
+  {
+    src: '/assets/images/travellers/evening-group.webp',
+    label: 'An evening together on holiday',
+    caption:
+      'A traveller moment shared with Shree Vandana Tours & Travels on Google.',
+    sourceHref: googleBusiness.url,
+  },
+  {
     src: '/assets/images/travellers/forest-group.webp',
     label: 'A relaxed group moment among the trees',
+    caption:
+      'A traveller moment shared with Shree Vandana Tours & Travels on Google.',
+    sourceHref: googleBusiness.url,
+  },
+  {
+    src: '/assets/images/travellers/waterfall-family.webp',
+    label: 'A family memory beside the waterfall',
     caption:
       'A traveller moment shared with Shree Vandana Tours & Travels on Google.',
     sourceHref: googleBusiness.url,
@@ -22,8 +57,22 @@ const clientMoments = [
     sourceHref: googleBusiness.url,
   },
   {
+    src: '/assets/images/travellers/elephant-group.webp',
+    label: 'A memorable group adventure together',
+    caption:
+      'A traveller moment shared with Shree Vandana Tours & Travels on Google.',
+    sourceHref: googleBusiness.url,
+  },
+  {
     src: '/assets/images/travellers/group-day-out.webp',
     label: 'A group day out, captured together',
+    caption:
+      'A traveller moment shared with Shree Vandana Tours & Travels on Google.',
+    sourceHref: googleBusiness.url,
+  },
+  {
+    src: '/assets/images/travellers/mountain-friends.webp',
+    label: 'Friends together against a mountain backdrop',
     caption:
       'A traveller moment shared with Shree Vandana Tours & Travels on Google.',
     sourceHref: googleBusiness.url,
