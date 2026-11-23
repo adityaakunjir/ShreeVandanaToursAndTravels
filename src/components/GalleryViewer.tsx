@@ -4,11 +4,40 @@ import { useEffect, useRef, useState } from 'react';
 import { X, ArrowLeft, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import sourcePhotos from '@/data/tour-photos.json';
-const photos = sourcePhotos.map((p) => ({
+import { googleBusiness } from '@/data/google-business';
+
+const clientMoments = [
+  {
+    src: '/assets/images/travellers/forest-group.webp',
+    label: 'A relaxed group moment among the trees',
+    caption:
+      'A traveller moment shared with Shree Vandana Tours & Travels on Google.',
+    sourceHref: googleBusiness.url,
+  },
+  {
+    src: '/assets/images/travellers/heritage-group.webp',
+    label: 'Travellers together at a historic site',
+    caption:
+      'A traveller moment shared with Shree Vandana Tours & Travels on Google.',
+    sourceHref: googleBusiness.url,
+  },
+  {
+    src: '/assets/images/travellers/group-day-out.webp',
+    label: 'A group day out, captured together',
+    caption:
+      'A traveller moment shared with Shree Vandana Tours & Travels on Google.',
+    sourceHref: googleBusiness.url,
+  },
+];
+
+const destinationPhotos = sourcePhotos.map((p) => ({
   ...p,
   label: p.alt,
   caption: `Photo: ${p.author} · ${p.license} · Destination inspiration`,
 }));
+
+const photos = [...clientMoments, ...destinationPhotos];
+
 export default function GalleryViewer() {
   const [active, setActive] = useState<number | null>(null);
   const [showAll, setShowAll] = useState(false);
@@ -36,31 +65,71 @@ export default function GalleryViewer() {
   }
   return (
     <>
-      <div className="photo-grid">
-        {photos.slice(0, showAll ? photos.length : 12).map((photo, index) => (
-          <button
-            className="photo-tile"
-            key={photo.src}
-            onClick={(event) => {
-              opener.current = event.currentTarget;
-              setActive(index);
-            }}
-            aria-label={`View ${photo.label}`}
-          >
-            <Image
-              src={photo.src}
-              alt={photo.label}
-              fill
-              quality={60}
-              sizes="(max-width:640px) 45vw, (max-width:900px) 45vw, 380px"
-            />
-            <span>{photo.label}</span>
-          </button>
-        ))}
+      <section className="client-moments" id="traveller-moments">
+        <div className="client-moments-heading">
+          <p className="eyebrow">REAL TRAVELLER MOMENTS</p>
+          <h2>Good trips look like this.</h2>
+          <p>Group memories shared with us by people who travelled.</p>
+        </div>
+        <div className="client-moments-grid">
+          {clientMoments.map((photo, index) => (
+            <button
+              className="client-moment-card"
+              key={photo.src}
+              onClick={(event) => {
+                opener.current = event.currentTarget;
+                setActive(index);
+              }}
+              aria-label={`View ${photo.label}`}
+            >
+              <Image
+                src={photo.src}
+                alt={photo.label}
+                fill
+                quality={72}
+                sizes="(max-width:700px) 82vw, 33vw"
+              />
+              <span>{photo.label}</span>
+            </button>
+          ))}
+        </div>
+        <p className="client-moments-source">
+          Shared through the Shree Vandana Tours & Travels Google Business
+          profile.
+        </p>
+      </section>
+
+      <div className="destination-gallery-heading">
+        <p className="eyebrow">DESTINATION INSPIRATION</p>
+        <h2>Where next?</h2>
       </div>
-      {!showAll && photos.length > 12 && (
+      <div className="photo-grid">
+        {destinationPhotos
+          .slice(0, showAll ? destinationPhotos.length : 8)
+          .map((photo, index) => (
+            <button
+              className="photo-tile"
+              key={photo.src}
+              onClick={(event) => {
+                opener.current = event.currentTarget;
+                setActive(index + clientMoments.length);
+              }}
+              aria-label={`View ${photo.label}`}
+            >
+              <Image
+                src={photo.src}
+                alt={photo.label}
+                fill
+                quality={60}
+                sizes="(max-width:640px) 45vw, (max-width:900px) 45vw, 380px"
+              />
+              <span>{photo.label}</span>
+            </button>
+          ))}
+      </div>
+      {!showAll && destinationPhotos.length > 8 && (
         <button className="gallery-show-all" onClick={() => setShowAll(true)}>
-          Show all {photos.length} photos
+          Show all {destinationPhotos.length} destination photos
         </button>
       )}
       <dialog
@@ -129,9 +198,19 @@ export default function GalleryViewer() {
               <div>
                 <strong>{photos[active].label}</strong>
                 <p>{photos[active].caption}</p>
-                <Link href={`/photo-credits#${photos[active].slug}`}>
-                  Source & licence
-                </Link>
+                {'slug' in photos[active] ? (
+                  <Link href={`/photo-credits#${photos[active].slug}`}>
+                    Source & licence
+                  </Link>
+                ) : (
+                  <a
+                    href={photos[active].sourceHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View on Google
+                  </a>
+                )}
                 <small>
                   {active + 1} / {photos.length}
                 </small>

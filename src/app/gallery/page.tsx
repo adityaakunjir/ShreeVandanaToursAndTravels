@@ -8,7 +8,7 @@ import { googleBusiness } from '@/data/google-business';
 export const metadata: Metadata = {
   title: 'Travel gallery',
   description:
-    'Browse destination photos and travel reels from Shree Vandana Tours & Travels.',
+    'See genuine traveller group moments, destination inspiration and travel reels from Shree Vandana Tours & Travels.',
   alternates: { canonical: '/gallery' },
 };
 
@@ -23,11 +23,18 @@ export default function GalleryPage() {
           ]}
         />
         <p className="eyebrow">TRAVEL GALLERY</p>
-        <h1>A little inspiration.</h1>
-        <p>Places to see. Journeys to imagine.</p>
+        <h1>
+          Journeys,
+          <br />
+          remembered.
+        </h1>
+        <p>Real groups, shared moments and places worth discovering.</p>
         <nav className="gallery-shortcuts" aria-label="Gallery sections">
+          <a href="#traveller-moments">
+            Traveller moments <ArrowDown size={15} />
+          </a>
           <a href="#gallery-photos">
-            Photos <ArrowDown size={15} />
+            Destinations <ArrowDown size={15} />
           </a>
           <a href="#instagram">
             Reels <ArrowDown size={15} />
@@ -38,7 +45,7 @@ export default function GalleryPage() {
       <section
         className="section wrap gallery-photos"
         id="gallery-photos"
-        aria-label="Destination photos"
+        aria-label="Traveller and destination photos"
       >
         <GalleryViewer />
         <div className="gallery-quiet-links">
